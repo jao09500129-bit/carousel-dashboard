@@ -1,13 +1,18 @@
 {
-  "computed_at": "2026-05-12T23:32:05.435377+09:00",
+  "computed_at": "2026-05-13T00:02:32.152274+09:00",
   "action_headline": "반도체 축 가속 + 금융 신규 진입 검토",
   "confidence": 2,
-  "confidence_pct": 34.0,
+  "confidence_pct": 35.5,
   "rationale": [
     "브렌트 +2.88% — 에너지 회전축",
-    "합의 시그널 '삼성증권' — Conviction 56/100 (2사 동조)",
+    "합의 시그널 '삼성증권' — Conviction 59/100 (2사 동조)",
     "KOSPI 컨센서스 mid 7,000 (7000~7000, n=1)"
   ],
   "action": "DIVERGENT",
+  "action_kr": "의견 충돌",
+  "stars": "⭐⭐○○○",
+  "friendly_emoji": "🔴",
+  "friendly_action": "관망하세요",
+  "friendly_reason": "오늘은 시장 의견이 갈리거나 신호가 약해요. 무리해서 진입하지 마세요.",
   "note": "★ 추정 — multi-factor 합성, 백테스트 미검증. 직접 매매 사용 금지."
 }
