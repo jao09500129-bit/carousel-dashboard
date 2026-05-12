@@ -1,22 +1,32 @@
 # -*- coding: utf-8 -*-
 """
-회전목마 R&D — 통합 빌드 스크립트 (v2: BeautifulSoup 기반)
-==========================================================
+회전목마 R&D — 통합 빌드 스크립트 (v3: Bloomberg Terminal 스타일)
+====================================================================
 GitHub Actions가 매일 08:30 KST에 호출.
 
-변경 사항 (v1 대비):
-- html2text + markdown regex 파이프라인 제거
-- requests → BeautifulSoup(lxml) → DOM 직접 파싱
-- 한경 페이지 구조 변경 시 셀렉터 한 군데만 수정하면 됨
+변경 사항 (v2 대비):
+- 의사결정 도구 지향: 단순 데이터 나열에서 multi-factor 분석으로 전환
+- 새 분석 단계 7개 추가:
+    1. KOSPI Range Forecast — 기사 본문에서 예상 수치 정규식 추출
+    2. Conviction Engine — 시그널별 multi-factor 점수 (0~100)
+    3. Active Carousel State — 현재 활성 축 + 다음 후보 확률
+    4. Strategy-Consensus Alignment — 회전목마 추천 vs 컨센서스
+    5. Today's Call — 전체 합성 헤드라인 + 종합 confidence
+    6. Sector Heat Map — 12개 GICS 섹터 합의 강도
+    7. Market Mood Index — 0~100 Fear&Greed 영감
+- v2의 BeautifulSoup 파싱 / Brief 생성 로직은 유지 (잘 동작했음)
+- dashboard_base.html에 6개 신규 placeholder 주입
 
 순서:
   1. Fetch — 한경 코리아마켓 뉴스(1-3) + 글로벌마켓 + 데이터센터 4종
   2. BeautifulSoup으로 직접 파싱 → snapshot/signals/macro JSON
-  3. Morning Brief 자동 생성 — 글로벌 헤드라인 + 매크로 변동 기반 axes
-  4. index.html 빌드 — dashboard_base.html 템플릿에 __DATA__, __BRIEF__ 주입
+  3. Morning Brief 자동 생성
+  4. 신규 분석 7종
+  5. index.html 빌드 — dashboard_base.html 템플릿에 placeholders 주입
 
 의존성: requests, beautifulsoup4, lxml + stdlib only.
 모든 출력은 UTF-8, JSON은 ensure_ascii=False.
+모든 점수·예측값은 "추정 — 백테스트 미검증" 마커 부착.
 """
 
 import os
@@ -34,7 +44,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ───── 경로 / 상수 ─────
-ROOT = Path(__file__).resolve().parent.parent   # repo root
+ROOT = Path(__file__).resolve().parent.parent
 BUILD_DIR = Path(__file__).resolve().parent
 DATA_ROOT = ROOT / "data"
 RAW_DIR = DATA_ROOT / "raw_html"
@@ -65,6 +75,52 @@ MACRO_PAGES = [
     ("rates-bonds",   "https://datacenter.hankyung.com/rates-bonds"),
 ]
 
+MAJOR_BROKERS = {"미래에셋", "KB", "NH", "한국투자", "삼성"}
+
+SECTOR_KEYWORDS = [
+    # 정보기술 (반도체·디스플레이·IT 종목)
+    (["반도체", "메모리", "HBM", "D램", "낸드", "파운드리", "장비", "디스플레이", "OLED",
+      "삼성전자", "SK하이닉스", "하이닉스", "삼성SDI", "LG디스플레이", "DB하이텍",
+      "한미반도체", "원익IPS", "리노공업"], "정보기술"),
+    # 자동차
+    (["자동차", "로봇", "전기차", "EV", "타이어", "차부품",
+      "현대차", "기아", "현대모비스", "한온시스템", "한국타이어"], "자동차"),
+    # 에너지·화학
+    (["정유", "석유", "화학", "에너지", "원유", "가스", "배터리소재", "2차전지",
+      "SK이노베이션", "S-Oil", "에쓰오일", "GS칼텍스", "LG화학", "롯데케미칼",
+      "한화솔루션", "OCI", "에코프로", "포스코퓨처엠"], "에너지"),
+    # 금융
+    (["은행", "증권", "보험", "금융지주", "카드", "캐피탈",
+      "KB금융", "신한지주", "하나금융", "우리금융", "메리츠금융", "삼성생명",
+      "삼성화재", "DB손해보험"], "금융"),
+    # 헬스케어
+    (["제약", "바이오", "헬스케어", "의료", "임상", "신약", "백신",
+      "셀트리온", "삼성바이오로직스", "유한양행", "한미약품", "녹십자", "SK바이오팜"], "헬스케어"),
+    # 산업재
+    (["항공", "해운", "물류", "조선", "기계", "철강", "건설기계",
+      "대한항공", "아시아나", "HMM", "팬오션", "HD현대중공업", "한화에어로스페이스",
+      "포스코홀딩스", "현대제철"], "산업재"),
+    # 필수소비재
+    (["백화점", "유통", "소비재", "식품", "음료", "화장품", "패션", "주류",
+      "이마트", "롯데쇼핑", "신세계", "오리온", "농심", "CJ제일제당",
+      "아모레퍼시픽", "LG생활건강"], "필수소비재"),
+    # 커뮤니케이션
+    (["통신", "인터넷", "포털", "게임", "미디어", "엔터", "콘텐츠", "플랫폼",
+      "SK텔레콤", "KT", "LG유플러스", "네이버", "NAVER", "카카오",
+      "엔씨소프트", "크래프톤", "넷마블", "JYP", "하이브", "SM"], "커뮤니케이션"),
+    # 부동산·건설
+    (["부동산", "건설", "리츠", "건자재",
+      "현대건설", "GS건설", "대우건설", "DL이앤씨"], "부동산"),
+    # 유틸리티
+    (["유틸리티", "전력", "가스공사", "한전",
+      "한국전력", "한국가스공사"], "유틸리티"),
+    # 소재
+    (["소재", "금속", "광물", "비철", "리튬", "니켈", "구리", "철광석", "시멘트",
+      "고려아연", "POSCO", "포스코"], "소재"),
+]
+ALL_SECTORS = ["정보기술", "자동차", "에너지", "금융", "헬스케어", "산업재",
+               "필수소비재", "커뮤니케이션", "부동산", "유틸리티", "소재", "기타"]
+
 
 def warn(msg: str):
     print(f"  ! {msg}", file=sys.stderr)
@@ -72,7 +128,6 @@ def warn(msg: str):
 
 # ───── 1. Fetch ─────
 def fetch(url: str, retries: int = 2, timeout: int = 20) -> str:
-    """간단 retry. 실패 시 빈 문자열."""
     last_err = None
     for i in range(retries):
         try:
@@ -89,7 +144,6 @@ def fetch(url: str, retries: int = 2, timeout: int = 20) -> str:
 
 
 def fetch_all() -> dict:
-    """모든 페이지의 raw HTML을 반환. raw_html 디렉토리에도 백업 저장."""
     print(f"[{NOW_ISO}] FETCH start")
     out = {"news_pages": {}, "global": "", "macro": {}}
     for tag, url in NEWS_PAGES:
@@ -146,10 +200,13 @@ RE_TARGET_DOWN = re.compile(
 RE_OPINION = re.compile(r"(강력매수|단기매수|매수|중립|보유|매도|비중확대|비중축소)")
 RE_TICKER = re.compile(r"[\"'“‘]([^\"'”’]{2,40})[\"'”’]")
 RE_DATE = re.compile(r"(20\d{2})[.\-/](\d{2})[.\-/](\d{2})\s+(\d{2}:\d{2})")
+RE_TARGET_PRICE = re.compile(
+    r"(\d{1,3}(?:,\d{3})*|\d+(?:\.\d+)?)\s*(?:만|만원|원)?\s*(?:→|->|에서)\s*"
+    r"(\d{1,3}(?:,\d{3})*|\d+(?:\.\d+)?)\s*(?:만|만원|원)?"
+)
 
 
 def _clean(text: str) -> str:
-    """줄바꿈/연속 공백/HTML entity 정리."""
     if not text:
         return ""
     text = text.replace("&quot;", '"').replace("&amp;", "&").replace("\xa0", " ")
@@ -167,28 +224,17 @@ def _normalize_url(href: str) -> str:
 
 
 def _is_article_url(href: str) -> bool:
-    """기사 URL 인지 — /article/<id> 패턴."""
     if not href:
         return False
     return bool(re.search(r"/article/[A-Za-z0-9]+(?:[?#]|$)", href))
 
 
 def parse_news_html(html: str) -> list:
-    """
-    한경 코리아마켓 뉴스 목록 페이지에서 기사 카드 추출.
-
-    구조 가정:
-      - 기사 카드의 메인 링크는 <a href="/article/XXX"> 또는 풀URL
-      - 같은 카드 컨테이너 안에 제목, 요약, 일시가 함께 있음
-      - 같은 카드에서 같은 URL을 가진 <a>가 중복 출현(이미지+제목+더보기 등)
-        → 카드 컨테이너로 올라가서 dedupe
-    """
     if not html:
         return []
     soup = BeautifulSoup(html, "lxml")
     items = []
     seen_urls = set()
-
     anchors = soup.select('a[href*="/article/"]')
     for a in anchors:
         href = a.get("href", "").strip()
@@ -198,13 +244,11 @@ def parse_news_html(html: str) -> list:
         url_canon = re.split(r"[?#]", url)[0]
         if url_canon in seen_urls:
             continue
-
         card = a.find_parent(["li", "article"])
         if card is None:
             card = a.find_parent("div")
         if card is None:
             card = a.parent
-
         title = _clean(a.get_text(" ", strip=True))
         if not title or len(title) < 4:
             h = card.find(["h1", "h2", "h3", "h4", "h5"]) if card else None
@@ -218,7 +262,6 @@ def parse_news_html(html: str) -> list:
                     title = max(cands, key=len)
         if not title or len(title) < 4:
             continue
-
         summary = ""
         if card:
             for sel in ["p.lead", "p.summary", "div.summary", "div.lead", "p", "div.txt"]:
@@ -228,7 +271,6 @@ def parse_news_html(html: str) -> list:
                     if txt and txt != title and len(txt) >= 10:
                         summary = txt[:500]
                         break
-
         dt_raw = ""
         if card:
             card_text = card.get_text(" ", strip=True)
@@ -241,15 +283,10 @@ def parse_news_html(html: str) -> list:
                     dt_attr = time_el.get("datetime") or time_el.get_text(" ", strip=True)
                     if dt_attr:
                         dt_raw = dt_attr
-
         seen_urls.add(url_canon)
         items.append({
-            "title": title,
-            "url": url_canon,
-            "summary": summary,
-            "datetime_raw": dt_raw,
+            "title": title, "url": url_canon, "summary": summary, "datetime_raw": dt_raw,
         })
-
     return items
 
 
@@ -272,6 +309,20 @@ def extract_target_action(text):
     if RE_TARGET_DOWN.search(text):
         return "down"
     return None
+
+
+def extract_target_change_pct(text):
+    m = RE_TARGET_PRICE.search(text)
+    if not m:
+        return None
+    try:
+        a = float(m.group(1).replace(",", ""))
+        b = float(m.group(2).replace(",", ""))
+        if a <= 0:
+            return None
+        return (b - a) / a * 100
+    except Exception:
+        return None
 
 
 def extract_opinion(text):
@@ -353,6 +404,7 @@ def enrich(items):
             "brokers": extract_brokers(text, it["title"]),
             "opinion": extract_opinion(text),
             "target_action": extract_target_action(text),
+            "target_change_pct": extract_target_change_pct(text),
             "keywords": dedupe_keywords(extract_keywords(it["title"])),
             "hash": hashlib.md5(it["url"].encode()).hexdigest()[:12],
         })
@@ -360,7 +412,7 @@ def enrich(items):
 
 
 def extract_signals(items):
-    by_kw = defaultdict(lambda: {"brokers": set(), "actions": [], "items": [], "opinions": []})
+    by_kw = defaultdict(lambda: {"brokers": set(), "actions": [], "items": [], "opinions": [], "tchanges": []})
     for it in items:
         if not it["brokers"]:
             continue
@@ -373,6 +425,8 @@ def extract_signals(items):
                 agg["actions"].append(it["target_action"])
             if it["opinion"]:
                 agg["opinions"].append(it["opinion"])
+            if it.get("target_change_pct") is not None:
+                agg["tchanges"].append(it["target_change_pct"])
             agg["items"].append({
                 "title": it["title"], "url": it["url"], "brokers": it["brokers"],
                 "target_action": it["target_action"], "opinion": it["opinion"],
@@ -384,8 +438,10 @@ def extract_signals(items):
         n = len(agg["brokers"])
         ups = agg["actions"].count("up")
         downs = agg["actions"].count("down")
+        avg_change = sum(agg["tchanges"]) / len(agg["tchanges"]) if agg["tchanges"] else 0.0
         base = {"keyword": kw, "n_brokers": n, "brokers": sorted(agg["brokers"]),
-                "ups": ups, "downs": downs, "items": agg["items"]}
+                "ups": ups, "downs": downs, "items": agg["items"],
+                "avg_target_change_pct": round(avg_change, 2)}
         if n >= 2:
             out["broker_consensus"].append(base)
         if ups >= 2:
@@ -417,14 +473,12 @@ def build_news(fetched: dict):
             warn(f"news {tag} parse returned 0 items — DOM 셀렉터 점검 필요")
         all_items.extend(page_items)
         pages_used.append(tag)
-
     seen, uniq = set(), []
     for it in all_items:
         if it["url"] in seen:
             continue
         seen.add(it["url"])
         uniq.append(it)
-
     enriched = enrich(uniq)
     bcount = Counter()
     for x in enriched:
@@ -433,12 +487,10 @@ def build_news(fetched: dict):
     n_down = sum(1 for x in enriched if x["target_action"] == "down")
     n_b = sum(1 for x in enriched if x["brokers"])
     signals = extract_signals(enriched)
-
     snapshot = {
         "collected_at": NOW_ISO, "date": TODAY,
         "source": "hankyung_koreamarket_news",
-        "pages": pages_used,
-        "total_items": len(enriched),
+        "pages": pages_used, "total_items": len(enriched),
         "stats": {
             "with_broker_mention": n_b,
             "target_price_up": n_up,
@@ -465,7 +517,7 @@ def build_news(fetched: dict):
     return snapshot
 
 
-# ───── 3. Macro parsing (BeautifulSoup) ─────
+# ───── 3. Macro parsing ─────
 MACRO_PICK = {
     "major-indices": ["S&P 500", "나스닥", "다우존스", "반도체", "NIKKEI 225", "홍콩", "독일", "대만"],
     "currencies":    ["미국", "유로", "일본", "중국"],
@@ -478,20 +530,10 @@ MACRO_LABELS = {
     "commodities":   "한경 데이터센터 원자재",
     "rates-bonds":   "한경 데이터센터 채권금리",
 }
-
 RE_PCT_CELL = re.compile(r"^[+\-]?\d+(?:\.\d+)?%$")
 
 
 def parse_macro_html(html: str, picklist: list) -> list:
-    """
-    한경 데이터센터 표 파싱.
-
-    구조 가정:
-      - 페이지에 여러 <table>이 있을 수 있음 (일일 데이터 + 기간 데이터)
-      - 일일 표 행은 보통 9개 셀: [이름 a] | 심볼 | 종가 | 전일비 | 전일비(%) | 시가 | 고가 | 저가 | 거래일
-      - 첫 컬럼 anchor 텍스트가 picklist에 포함되면 채택
-      - 같은 이름이 여러 table에 등장하면 첫 등장(=일일 표)만 채택
-    """
     if not html:
         return []
     soup = BeautifulSoup(html, "lxml")
@@ -550,7 +592,7 @@ def build_macro(fetched: dict) -> dict:
     return macro
 
 
-# ───── 4. Global headlines (글로벌마켓 페이지) ─────
+# ───── 4. Global headlines ─────
 def parse_global_headlines(html: str, limit: int = 5) -> list:
     if not html:
         return []
@@ -574,7 +616,7 @@ def parse_global_headlines(html: str, limit: int = 5) -> list:
     return out
 
 
-# ───── 5. Morning Brief 자동 생성 ─────
+# ───── 5. Morning Brief ─────
 def extract_kr_focus(snapshot, limit=3):
     out = []
     for it in snapshot.get("items", [])[:10]:
@@ -617,9 +659,7 @@ def detect_axes(macro):
     fx = {x["name"]: x for x in cats.get("currencies", {}).get("items", [])}
     comm = {x["name"]: x for x in cats.get("commodities", {}).get("items", [])}
     rates_items = cats.get("rates-bonds", {}).get("items", [])
-
     axes = []
-
     us10_bp = parse_bp_change("미국 국채 10년", rates_items)
     if abs(us10_bp) >= 5:
         direction = "상승" if us10_bp > 0 else "하락"
@@ -628,8 +668,9 @@ def detect_axes(macro):
             "view": f"미국 10년 yield {us10_bp:+.1f}bp {direction}. "
                     "리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
             "confidence": "중 — 백테스트 미검증",
+            "trigger_metric": "미국 10년 yield",
+            "trigger_value": f"{us10_bp:+.1f}bp",
         })
-
     brent = comm.get("브렌트")
     if brent:
         pct = parse_pct(brent.get("chg_pct"))
@@ -640,8 +681,9 @@ def detect_axes(macro):
                 "view": f"브렌트 {pct:+.2f}% {direction}. 정유·해운·항공 비용 구조 영향. "
                         "단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
                 "confidence": "낮음 — 변동성 자체가 검증 까다로움",
+                "trigger_metric": "브렌트",
+                "trigger_value": f"{pct:+.2f}%",
             })
-
     semi = indices.get("반도체")
     if semi:
         pct = parse_pct(semi.get("chg_pct"))
@@ -654,8 +696,9 @@ def detect_axes(macro):
                         f"한국 반도체(삼성·하이닉스) 동조 가능성 큼. {tail} — "
                         "확신은 합의 시그널과 교차검증 필요.",
                 "confidence": "중 — 백테스트 미검증",
+                "trigger_metric": "美 반도체 지수",
+                "trigger_value": f"{pct:+.2f}%",
             })
-
     usdkrw = fx.get("미국")
     if usdkrw:
         pct = parse_pct(usdkrw.get("chg_pct"))
@@ -668,13 +711,16 @@ def detect_axes(macro):
                 "view": f"USDKRW {pct:+.2f}% ({direction}). {tail} — "
                         "단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
                 "confidence": "낮음 — 단기 변동성 큼",
+                "trigger_metric": "USDKRW",
+                "trigger_value": f"{pct:+.2f}%",
             })
-
     if not axes:
         axes.append({
             "axis": "관찰 대기",
             "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
             "confidence": "낮음 — 신호 부재",
+            "trigger_metric": "",
+            "trigger_value": "",
         })
     return axes
 
@@ -692,7 +738,6 @@ def detect_regime(macro):
     semi = next((parse_pct(x.get("chg_pct")) for x in indices if x["name"] == "반도체"), 0)
     rates = cats.get("rates-bonds", {}).get("items", [])
     us10_bp = parse_bp_change("미국 국채 10년", rates)
-
     if avg > 0.8 and semi > 1:
         tone = "美 메가캡·반도체 강세 주도"
     elif avg < -0.8:
@@ -716,7 +761,6 @@ def build_brief(snapshot, macro, fetched):
         kr_focus = extract_kr_focus(snapshot, 3)
         axes = detect_axes(macro)
         regime = detect_regime(macro)
-
         if themes:
             headline = themes[0]["title"]
         elif snapshot.get("consensus_signals"):
@@ -725,7 +769,6 @@ def build_brief(snapshot, macro, fetched):
                         f"{top['n_brokers']}개사 동조 ({', '.join(top['brokers'])})")
         else:
             headline = f"{TODAY} 자동 빌드 — 신규 합의 시그널 없음"
-
         brief = {
             "as_of": datetime.now(KST).strftime("%Y-%m-%d %H:%M KST"),
             "sources": [
@@ -738,13 +781,11 @@ def build_brief(snapshot, macro, fetched):
             "themes": themes[:4],
             "today_kr_focus": kr_focus,
             "carousel_implications": {
-                "regime": regime,
-                "axes": axes,
+                "regime": regime, "axes": axes,
                 "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지.",
             },
             "macro": macro,
         }
-
         no_news = (snapshot.get("total_items", 0) == 0)
         no_macro_items = all(
             not v.get("items") for v in macro.get("categories", {}).values()
@@ -752,7 +793,6 @@ def build_brief(snapshot, macro, fetched):
         if no_news and no_macro_items and not themes:
             print("  brief auto-gen yielded empty across all sources — using fallback")
             return load_fallback_brief(macro)
-
         (DATA_ROOT / "morning_brief.json").write_text(
             json.dumps(brief, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"  brief: themes={len(themes)}, kr_focus={len(kr_focus)}, axes={len(axes)}")
@@ -772,7 +812,7 @@ def load_fallback_brief(macro):
             "us_market_snapshot": [], "themes": [], "today_kr_focus": [],
             "carousel_implications": {
                 "regime": "데이터 없음 (가설)", "axes": [],
-                "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지.",
+                "note": "★ 모든 함의는 미검증 가설.",
             },
             "macro": macro,
         }
@@ -784,13 +824,510 @@ def load_fallback_brief(macro):
     return brief
 
 
+# ═══════════════════════════════════════════════════════════════════════════
+#  Phase 1: 신규 분석 함수 (v3)
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ───── (1) KOSPI Range Forecast ─────
+RE_KOSPI_RANGE = re.compile(r"KOSPI\s*([\d,]{4,6})\s*[~∼–-]\s*([\d,]{4,6})")
+RE_KOSPI_TARGET = re.compile(r"(?:KOSPI|코스피).{0,15}?목표.{0,10}?([\d,]{4,6})")
+RE_KOSPI_EXPECT = re.compile(r"(?:KOSPI|코스피).{0,20}?(?:예상|전망|기대|도달).{0,15}?([\d,]{4,6})")
+RE_KOSPI_UNTIL = re.compile(r"(?:KOSPI|코스피).{0,20}?([\d,]{4,6})\s*(?:포인트|p|P)?\s*까지")
+RE_KOSPI_POINT = re.compile(r"(?:예상|전망).{0,10}?([\d,]{4,6})\s*포인트")
+
+
+def _to_int(s):
+    try:
+        return int(str(s).replace(",", "").strip())
+    except Exception:
+        return None
+
+
+def _in_kospi_range(v):
+    return v is not None and 7000 <= v <= 9000
+
+
+def build_kospi_forecast(snapshot):
+    """기사 본문에서 KOSPI 예상치 추출 → low/high/mid 계산."""
+    sources = []
+    all_lows = []
+    all_highs = []
+    all_points = []
+    for it in snapshot.get("items", []):
+        text = (it.get("title", "") + " " + it.get("summary", ""))
+        if not text:
+            continue
+        title = it.get("title", "")
+        url = it.get("url", "")
+        found = {"low": None, "high": None, "points": []}
+        for m in RE_KOSPI_RANGE.finditer(text):
+            lo = _to_int(m.group(1))
+            hi = _to_int(m.group(2))
+            if _in_kospi_range(lo) and _in_kospi_range(hi) and lo < hi:
+                found["low"] = lo if found["low"] is None else min(found["low"], lo)
+                found["high"] = hi if found["high"] is None else max(found["high"], hi)
+        for pat in (RE_KOSPI_TARGET, RE_KOSPI_EXPECT, RE_KOSPI_UNTIL, RE_KOSPI_POINT):
+            for m in pat.finditer(text):
+                v = _to_int(m.group(1))
+                if _in_kospi_range(v):
+                    found["points"].append(v)
+        if found["low"] or found["high"] or found["points"]:
+            sources.append({
+                "url": url, "title": title[:80],
+                "low": found["low"], "high": found["high"],
+                "points": found["points"],
+            })
+            if found["low"]:
+                all_lows.append(found["low"])
+            if found["high"]:
+                all_highs.append(found["high"])
+            all_points.extend(found["points"])
+    pool_low = all_lows + all_points
+    pool_high = all_highs + all_points
+    overall_low = min(pool_low) if pool_low else None
+    overall_high = max(pool_high) if pool_high else None
+    all_vals = all_lows + all_highs + all_points
+    mid = round(sum(all_vals) / len(all_vals)) if all_vals else None
+    result = {
+        "computed_at": NOW_ISO, "date": TODAY,
+        "low": overall_low, "high": overall_high, "mid": mid,
+        "sample_size": len(sources), "sources": sources[:20],
+        "note": "★ 추정 — 기사 본문 정규식 추출, 백테스트 미검증. 7000~9000 범위 내 수치만 채택.",
+    }
+    (DATA_ROOT / "kospi_forecast.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  kospi forecast: low={overall_low} high={overall_high} mid={mid} (n={len(sources)})")
+    return result
+
+
+# ───── (2) Conviction Engine ─────
+def _keyword_to_sector(kw):
+    for kws, sector in SECTOR_KEYWORDS:
+        for k in kws:
+            if k in kw:
+                return sector
+    return "기타"
+
+
+def _active_macro_sectors(macro):
+    active = set()
+    cats = macro.get("categories", {})
+    indices = {x["name"]: x for x in cats.get("major-indices", {}).get("items", [])}
+    fx = {x["name"]: x for x in cats.get("currencies", {}).get("items", [])}
+    comm = {x["name"]: x for x in cats.get("commodities", {}).get("items", [])}
+    semi = indices.get("반도체")
+    if semi and abs(parse_pct(semi.get("chg_pct"))) >= 1.5:
+        active.add("정보기술")
+    brent = comm.get("브렌트")
+    if brent and abs(parse_pct(brent.get("chg_pct"))) >= 2:
+        active.add("에너지")
+    usdkrw = fx.get("미국")
+    if usdkrw and abs(parse_pct(usdkrw.get("chg_pct"))) >= 0.3:
+        active.add("자동차")
+        active.add("정보기술")
+    return active
+
+
+def _persistence_days(keyword, max_days=5):
+    if not SNAP_DIR.exists():
+        return 1
+    today = datetime.now(KST).date()
+    days = 0
+    for offset in range(max_days):
+        d = today - timedelta(days=offset)
+        f = SNAP_DIR / f"{d.strftime('%Y-%m-%d')}.json"
+        if not f.exists():
+            continue
+        try:
+            snap = json.loads(f.read_text(encoding="utf-8"))
+            for sig in snap.get("consensus_signals", []):
+                if sig.get("keyword") == keyword:
+                    days += 1
+                    break
+        except Exception:
+            continue
+    return max(days, 1)
+
+
+def compute_conviction_scores(snapshot, macro):
+    signals = snapshot.get("consensus_signals", [])
+    active_sectors = _active_macro_sectors(macro)
+    enriched = []
+    for s in signals:
+        brokers = s.get("brokers", [])
+        n = len(brokers)
+        if n == 0:
+            continue
+        f_brokers = min(n / 7.0, 1.0) * 30
+        major_count = sum(1 for b in brokers if b in MAJOR_BROKERS)
+        f_major = (major_count / n) * 20
+        avg_chg = abs(s.get("avg_target_change_pct", 0))
+        f_target = min(avg_chg / 10.0, 1.0) * 20
+        days = _persistence_days(s["keyword"])
+        f_persist = min(days / 5.0, 1.0) * 15
+        sector = _keyword_to_sector(s["keyword"])
+        align = 1.0 if sector in active_sectors else 0.3
+        f_align = align * 15
+        score = round(f_brokers + f_major + f_target + f_persist + f_align, 1)
+        enriched.append({
+            **s,
+            "conviction_score": score,
+            "score_breakdown": {
+                "brokers": round(f_brokers, 1),
+                "major_broker": round(f_major, 1),
+                "target_change": round(f_target, 1),
+                "persistence": round(f_persist, 1),
+                "macro_align": round(f_align, 1),
+            },
+            "persistence_days": days,
+            "sector": sector,
+            "macro_aligned": align >= 1.0,
+        })
+    enriched.sort(key=lambda x: -x["conviction_score"])
+    return enriched
+
+
+# ───── (3) Active Carousel State ─────
+def build_carousel_state(brief, scored_signals, macro):
+    axes = brief.get("carousel_implications", {}).get("axes", [])
+    current = None
+    for a in axes:
+        conf = a.get("confidence", "")
+        if conf.startswith("중") or conf.startswith("높") or "중 —" in conf:
+            current = a
+            break
+    if current is None and axes:
+        current = axes[0]
+    current_pivot_name = ""
+    if current:
+        current_pivot_name = current["axis"].replace("회전축", "").replace("축", "").strip()
+    candidates = []
+    seen_sectors = set([current_pivot_name])
+    for a in axes:
+        name = a["axis"].replace("회전축", "").replace("축", "").strip()
+        if name == current_pivot_name or name in seen_sectors:
+            continue
+        conf = a.get("confidence", "")
+        if conf.startswith("중") or "중 —" in conf:
+            prob = 0.45
+        elif conf.startswith("높"):
+            prob = 0.65
+        else:
+            prob = 0.20
+        candidates.append({
+            "name": name, "probability": prob,
+            "trigger": f"{a.get('trigger_metric', '')} {a.get('trigger_value', '')}".strip(),
+        })
+        seen_sectors.add(name)
+    sector_scores = defaultdict(float)
+    for s in scored_signals[:5]:
+        sec = s.get("sector", "기타")
+        sector_scores[sec] += s.get("conviction_score", 0)
+    max_sec_score = max(sector_scores.values()) if sector_scores else 1
+    for sec, score in sorted(sector_scores.items(), key=lambda x: -x[1]):
+        if sec in seen_sectors or sec == "기타":
+            continue
+        candidates.append({
+            "name": sec,
+            "probability": round(0.15 + (score / max_sec_score) * 0.45, 2),
+            "trigger": f"시그널 누적 score {score:.0f}",
+        })
+        seen_sectors.add(sec)
+    candidates = candidates[:4]
+    vol_sum = 0.0
+    cats = macro.get("categories", {})
+    for cat_key in ["major-indices", "currencies", "commodities"]:
+        for x in cats.get(cat_key, {}).get("items", []):
+            vol_sum += abs(parse_pct(x.get("chg_pct")))
+    rates_items = cats.get("rates-bonds", {}).get("items", [])
+    for r_name in ["미국 국채 10년", "미국 국채 2년"]:
+        vol_sum += abs(parse_bp_change(r_name, rates_items)) / 10.0
+    if vol_sum >= 12:
+        velocity = "빠름"
+    elif vol_sum >= 6:
+        velocity = "중간"
+    else:
+        velocity = "느림"
+    state = {
+        "computed_at": NOW_ISO,
+        "current_pivot": current_pivot_name or "관찰 대기",
+        "current_view": current.get("view", "") if current else "",
+        "current_confidence": current.get("confidence", "") if current else "",
+        "current_days": 1,
+        "rotation_velocity": velocity,
+        "volatility_index": round(vol_sum, 1),
+        "candidates": candidates,
+        "note": "★ 추정 — 매크로 변동성·conviction 휴리스틱 기반, 백테스트 미검증.",
+    }
+    (DATA_ROOT / "carousel_state.json").write_text(
+        json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  carousel state: pivot={state['current_pivot']} velocity={velocity} candidates={len(candidates)}")
+    return state
+
+
+# ───── (4) Strategy-Consensus Alignment ─────
+def build_alignment(brief, scored_signals):
+    axes = brief.get("carousel_implications", {}).get("axes", [])
+    carousel_rec = ""
+    carousel_keywords = set()
+    if axes:
+        first = axes[0]
+        carousel_rec = first["axis"].replace("회전축", "").replace("축", "").strip()
+        text = first["axis"] + " " + first.get("view", "")
+        for kws, sector in SECTOR_KEYWORDS:
+            for k in kws:
+                if k in text:
+                    carousel_keywords.add(k)
+                    carousel_keywords.add(sector)
+                    break
+    sec_weight = defaultdict(float)
+    total_score = 0
+    for s in scored_signals[:10]:
+        score = s.get("conviction_score", 0)
+        sec_weight[s.get("sector", "기타")] += score
+        total_score += score
+    consensus_top = []
+    for sec, w in sorted(sec_weight.items(), key=lambda x: -x[1])[:5]:
+        consensus_top.append({
+            "sector": sec,
+            "weight": round(w / total_score, 2) if total_score > 0 else 0,
+        })
+    consensus_keywords = set(c["sector"] for c in consensus_top[:3])
+    carousel_sec = "기타"
+    if axes:
+        rec_text = axes[0]["axis"] + " " + axes[0].get("view", "") + " " + carousel_rec
+        for kws, sector in SECTOR_KEYWORDS:
+            for k in kws:
+                if k in rec_text:
+                    carousel_sec = sector
+                    break
+            if carousel_sec != "기타":
+                break
+    if carousel_keywords and consensus_keywords:
+        inter = carousel_keywords & consensus_keywords
+        top3_secs = set(c["sector"] for c in consensus_top[:3])
+        top5_secs = set(c["sector"] for c in consensus_top[:5])
+        if carousel_sec in top3_secs:
+            alignment_score = 80 + min(len(inter) * 5, 15)
+        elif carousel_sec in top5_secs:
+            alignment_score = 60
+        else:
+            alignment_score = max(30, len(inter) * 10)
+    else:
+        alignment_score = 0
+    alignment_score = min(alignment_score, 100)
+    if alignment_score >= 80:
+        action = "STRONG CONFIRM"
+    elif alignment_score >= 60:
+        action = "CONFIRM"
+    else:
+        action = "DIVERGENT"
+    result = {
+        "computed_at": NOW_ISO,
+        "carousel_recommendation": carousel_rec or "관찰 대기",
+        "carousel_sector": carousel_sec,
+        "consensus_top": consensus_top,
+        "alignment_score": alignment_score,
+        "action": action,
+        "note": "★ 추정 — 섹터 매핑 휴리스틱, 백테스트 미검증.",
+    }
+    (DATA_ROOT / "alignment.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  alignment: rec={carousel_rec}({carousel_sec}) score={alignment_score} -> {action}")
+    return result
+
+
+# ───── (5) Today's Call ─────
+def build_today_call(brief, scored_signals, alignment, carousel_state, mood, kospi):
+    axes = brief.get("carousel_implications", {}).get("axes", [])
+    primary = carousel_state.get("current_pivot", "관찰 대기")
+    new_candidates = [c for c in carousel_state.get("candidates", []) if c["probability"] >= 0.4]
+    if new_candidates:
+        cand_names = ", ".join(c["name"] for c in new_candidates[:2])
+        action_headline = f"{primary} 축 가속 + {cand_names} 신규 진입 검토"
+    elif primary and primary != "관찰 대기":
+        action_headline = f"{primary} 축 유지 — 신규 후보 신호 약함"
+    else:
+        action_headline = "회전축 신호 약함 — 기존 포지션 유지·관찰"
+    conv_avg = (sum(s["conviction_score"] for s in scored_signals[:3]) / 3
+                if len(scored_signals) >= 3 else
+                (scored_signals[0]["conviction_score"] if scored_signals else 0))
+    align_score = alignment.get("alignment_score", 0)
+    composite = (conv_avg * 0.5 + align_score * 0.5)
+    if composite >= 80:
+        confidence = 5
+    elif composite >= 65:
+        confidence = 4
+    elif composite >= 50:
+        confidence = 3
+    elif composite >= 30:
+        confidence = 2
+    else:
+        confidence = 1
+    rationale = []
+    if axes and axes[0].get("trigger_metric"):
+        a0 = axes[0]
+        rationale.append(f"{a0.get('trigger_metric')} {a0.get('trigger_value')} — {a0['axis']}")
+    elif axes:
+        rationale.append(axes[0].get("view", "")[:80])
+    if scored_signals:
+        s0 = scored_signals[0]
+        rationale.append(
+            f"합의 시그널 '{s0['keyword']}' — Conviction {s0['conviction_score']:.0f}/100 "
+            f"({s0['n_brokers']}사 동조)")
+    if kospi.get("mid"):
+        rationale.append(
+            f"KOSPI 컨센서스 mid {kospi['mid']:,} "
+            f"({kospi.get('low', '-')}~{kospi.get('high', '-')}, n={kospi.get('sample_size', 0)})")
+    elif mood.get("score"):
+        rationale.append(f"Market Mood {mood['score']}/100 ({mood.get('label', '')})")
+    if not rationale:
+        rationale = ["데이터 수집 부족 — 분석 임계치 미달", "회전 신호 약함"]
+    rationale = rationale[:3]
+    result = {
+        "computed_at": NOW_ISO,
+        "action_headline": action_headline,
+        "confidence": confidence,
+        "confidence_pct": round(composite, 1),
+        "rationale": rationale,
+        "action": alignment.get("action", "DIVERGENT"),
+        "note": "★ 추정 — multi-factor 합성, 백테스트 미검증. 직접 매매 사용 금지.",
+    }
+    (DATA_ROOT / "today_call.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  today's call: confidence={confidence}/5 ({composite:.0f}%)")
+    return result
+
+
+# ───── (6) Sector Heat Map ─────
+def build_sector_heatmap(snapshot, scored_signals):
+    sec_data = {s: {"intensity": 0.0, "count": 0, "top_keywords": [], "scores": []}
+                for s in ALL_SECTORS}
+    for s in scored_signals:
+        sec = s.get("sector", "기타")
+        delta = (s.get("ups", 0) - s.get("downs", 0))
+        sec_data[sec]["intensity"] += delta
+        sec_data[sec]["scores"].append(s["conviction_score"])
+        sec_data[sec]["top_keywords"].append({
+            "kw": s["keyword"], "n": s["n_brokers"], "score": s["conviction_score"],
+        })
+    for it in snapshot.get("items", []):
+        for kw in it.get("keywords", []):
+            sec = _keyword_to_sector(kw)
+            sec_data[sec]["count"] += 1
+            break
+    sectors = []
+    for sec in ALL_SECTORS:
+        d = sec_data[sec]
+        intensity_raw = d["intensity"]
+        if d["scores"]:
+            avg_score = sum(d["scores"]) / len(d["scores"])
+            intensity_norm = max(-3, min(3, intensity_raw * 1.0 + (avg_score - 50) / 25))
+        else:
+            intensity_norm = max(-3, min(3, intensity_raw * 1.0))
+        top = sorted(d["top_keywords"], key=lambda x: -x["score"])[:2]
+        sectors.append({
+            "name": sec,
+            "intensity": round(intensity_norm, 1),
+            "count": d["count"],
+            "top": top,
+        })
+    result = {
+        "computed_at": NOW_ISO,
+        "sectors": sectors,
+        "note": "★ 추정 — GICS 섹터 매핑 휴리스틱. 합의 강도는 ups-downs + conviction 합성.",
+    }
+    (DATA_ROOT / "sector_heatmap.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    nonzero = sum(1 for s in sectors if s["count"] > 0 or abs(s["intensity"]) > 0)
+    print(f"  sector heatmap: {nonzero}/12 active")
+    return result
+
+
+# ───── (7) Market Mood Index ─────
+def build_mood_index(snapshot, macro, scored_signals, carousel_state):
+    cats = macro.get("categories", {})
+    vol_sum = 0.0
+    for cat_key in ["major-indices", "currencies", "commodities"]:
+        for x in cats.get(cat_key, {}).get("items", []):
+            vol_sum += abs(parse_pct(x.get("chg_pct")))
+    vol_score = max(0, 100 - vol_sum * 5)
+    n_divergence = sum(1 for s in scored_signals if s.get("ups", 0) > 0 and s.get("downs", 0) > 0)
+    n_signals = len(scored_signals)
+    if n_signals > 0:
+        div_score = max(0, 100 - (n_divergence / n_signals) * 200)
+    else:
+        div_score = 50
+    stats = snapshot.get("stats", {})
+    ups = stats.get("target_price_up", 0)
+    downs = stats.get("target_price_down", 0)
+    if ups + downs > 0:
+        target_score = (ups / (ups + downs)) * 100
+    else:
+        target_score = 50
+    total = snapshot.get("total_items", 0)
+    pub_score = min(100, (total / 50) * 100)
+    vel = carousel_state.get("rotation_velocity", "중간")
+    vel_score = {"느림": 80, "중간": 60, "빠름": 30}.get(vel, 50)
+    score = round(
+        vol_score * 0.25 + div_score * 0.20 + target_score * 0.20 +
+        pub_score * 0.15 + vel_score * 0.20
+    )
+    score = max(0, min(100, score))
+    if score >= 70:
+        label = "GREED"
+    elif score >= 50:
+        label = "NEUTRAL"
+    else:
+        label = "FEAR"
+    result = {
+        "computed_at": NOW_ISO,
+        "score": int(score), "label": label,
+        "components": {
+            "volatility": round(vol_score, 1),
+            "divergence": round(div_score, 1),
+            "target_up_ratio": round(target_score, 1),
+            "publish_freq": round(pub_score, 1),
+            "rotation_velocity": round(vel_score, 1),
+        },
+        "raw": {
+            "vol_sum": round(vol_sum, 2),
+            "n_divergence": n_divergence, "n_signals": n_signals,
+            "target_up": ups, "target_down": downs,
+            "total_items": total, "velocity": vel,
+        },
+        "note": "★ 추정 — Bloomberg Fear&Greed 영감, 5-factor 가중합. 백테스트 미검증.",
+    }
+    (DATA_ROOT / "mood_index.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  mood index: {score}/100 ({label})")
+    return result
+
+
 # ───── 6. index.html 빌드 ─────
-def build_index(snapshot, brief):
+def build_index(snapshot, brief, kospi, carousel_state, alignment, today_call,
+                heatmap, mood, scored_signals):
     tpl_path = BUILD_DIR / "dashboard_base.html"
     tpl = tpl_path.read_text(encoding="utf-8")
-    data_js = json.dumps(snapshot, ensure_ascii=False)
+    snapshot_out = dict(snapshot)
+    snapshot_out["consensus_signals_scored"] = scored_signals
+    data_js = json.dumps(snapshot_out, ensure_ascii=False)
     brief_js = json.dumps(brief, ensure_ascii=False)
-    html = tpl.replace("__DATA__", data_js).replace("__BRIEF__", brief_js)
+    kospi_js = json.dumps(kospi, ensure_ascii=False)
+    carousel_js = json.dumps(carousel_state, ensure_ascii=False)
+    align_js = json.dumps(alignment, ensure_ascii=False)
+    today_js = json.dumps(today_call, ensure_ascii=False)
+    heat_js = json.dumps(heatmap, ensure_ascii=False)
+    mood_js = json.dumps(mood, ensure_ascii=False)
+    html = (tpl
+            .replace("__DATA__", data_js)
+            .replace("__BRIEF__", brief_js)
+            .replace("__KOSPI__", kospi_js)
+            .replace("__CAROUSEL__", carousel_js)
+            .replace("__ALIGNMENT__", align_js)
+            .replace("__TODAY_CALL__", today_js)
+            .replace("__HEATMAP__", heat_js)
+            .replace("__MOOD__", mood_js))
     out = ROOT / "index.html"
     out.write_text(html, encoding="utf-8")
     print(f"[html] index.html {len(html):,} bytes")
@@ -798,7 +1335,7 @@ def build_index(snapshot, brief):
 
 # ───── main ─────
 def main():
-    print(f"=== Carousel R&D Daily Build (v2 / bs4) :: {NOW_ISO} ===")
+    print(f"=== Carousel R&D Daily Build (v3 / Bloomberg Terminal) :: {NOW_ISO} ===")
     fetched = {"news_pages": {}, "global": "", "macro": {}}
     try:
         fetched = fetch_all()
@@ -808,7 +1345,16 @@ def main():
     snapshot = build_news(fetched)
     macro = build_macro(fetched)
     brief = build_brief(snapshot, macro, fetched)
-    build_index(snapshot, brief)
+    print("[analysis] computing v3 multi-factor signals")
+    kospi = build_kospi_forecast(snapshot)
+    scored_signals = compute_conviction_scores(snapshot, macro)
+    carousel_state = build_carousel_state(brief, scored_signals, macro)
+    alignment = build_alignment(brief, scored_signals)
+    heatmap = build_sector_heatmap(snapshot, scored_signals)
+    mood = build_mood_index(snapshot, macro, scored_signals, carousel_state)
+    today_call = build_today_call(brief, scored_signals, alignment, carousel_state, mood, kospi)
+    build_index(snapshot, brief, kospi, carousel_state, alignment, today_call,
+                heatmap, mood, scored_signals)
     print("=== DONE ===")
 
 
