@@ -1,0 +1,19 @@
+{
+  "collected_at": "2026-05-12T21:17:36.399130+09:00",
+  "date": "2026-05-12",
+  "source": "hankyung_koreamarket_news",
+  "pages": [
+    "2026-05-12_p1.md",
+    "2026-05-12_p2.md",
+    "2026-05-12_p3.md"
+  ],
+  "total_items": 0,
+  "stats": {
+    "with_broker_mention": 0,
+    "target_price_up": 0,
+    "target_price_down": 0,
+    "top_brokers": []
+  },
+  "items": [],
+  "consensus_signals": []
+}

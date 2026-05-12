@@ -1,0 +1,22 @@
+{
+  "collected_at": "2026-05-12T21:17:36.399130+09:00",
+  "source": "datacenter.hankyung.com",
+  "categories": {
+    "major-indices": {
+      "label": "한경 데이터센터 해외지수",
+      "items": []
+    },
+    "currencies": {
+      "label": "한경 데이터센터 외환",
+      "items": []
+    },
+    "commodities": {
+      "label": "한경 데이터센터 원자재",
+      "items": []
+    },
+    "rates-bonds": {
+      "label": "한경 데이터센터 채권금리",
+      "items": []
+    }
+  }
+}
