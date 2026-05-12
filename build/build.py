@@ -1,21 +1,30 @@
 # -*- coding: utf-8 -*-
 """
-회전목마 R&D — 통합 빌드 스크립트 (v3: Bloomberg Terminal 스타일)
+회전목마 R&D — 통합 빌드 스크립트 (v4: 친근 라이트 모드)
 ====================================================================
 GitHub Actions가 매일 08:30 KST에 호출.
 
-변경 사항 (v2 대비):
-- 의사결정 도구 지향: 단순 데이터 나열에서 multi-factor 분석으로 전환
-- 새 분석 단계 7개 추가:
+변경 사항 (v3 대비):
+- 데이터 로직 / 분석 7종 동일 — 정확도 변경 없음.
+- v3 Bloomberg 다크 모드 → v4 라이트 모드 친근 UI로 통째 재디자인 (HTML 측).
+- TODAY_CALL 페이로드에 친근화 필드 추가:
+    * friendly_action: "지금이 기회예요" / "신중하게 진입" / "관망하세요"
+    * friendly_emoji: 🟢 / 🟡 / 🔴
+    * friendly_reason: 한 줄 한국어 이유
+    * stars (1~5): confidence를 별점으로
+- 영어 약어(STRONG CONFIRM / CONFIRM / DIVERGENT)는 유지하되,
+  HTML 측에서 한국어 ("강한 일치" / "일치" / "의견 충돌")로 표시.
+- placeholder 이름은 v3와 동일 (__DATA__, __BRIEF__, __KOSPI__,
+  __CAROUSEL__, __ALIGNMENT__, __TODAY_CALL__, __HEATMAP__, __MOOD__).
+
+분석 단계 (v3와 동일):
     1. KOSPI Range Forecast — 기사 본문에서 예상 수치 정규식 추출
     2. Conviction Engine — 시그널별 multi-factor 점수 (0~100)
     3. Active Carousel State — 현재 활성 축 + 다음 후보 확률
     4. Strategy-Consensus Alignment — 회전목마 추천 vs 컨센서스
-    5. Today's Call — 전체 합성 헤드라인 + 종합 confidence
+    5. Today's Call — 전체 합성 헤드라인 + 종합 confidence + friendly_*
     6. Sector Heat Map — 12개 GICS 섹터 합의 강도
     7. Market Mood Index — 0~100 Fear&Greed 영감
-- v2의 BeautifulSoup 파싱 / Brief 생성 로직은 유지 (잘 동작했음)
-- dashboard_base.html에 6개 신규 placeholder 주입
 
 순서:
   1. Fetch — 한경 코리아마켓 뉴스(1-3) + 글로벌마켓 + 데이터센터 4종
@@ -124,6 +133,78 @@ ALL_SECTORS = ["정보기술", "자동차", "에너지", "금융", "헬스케어
 
 def warn(msg: str):
     print(f"  ! {msg}", file=sys.stderr)
+
+
+# ───── v4 친근화 유틸 ─────
+def stars_from_score(score_0_100):
+    """0~100 점수를 별점 5개로. \"⭐⭐⭐⭐○\" 형식."""
+    try:
+        n = max(0, min(5, round(float(score_0_100) / 20.0)))
+    except Exception:
+        n = 0
+    return "⭐" * n + "○" * (5 - n)
+
+
+def stars_from_n(n_1_to_5):
+    try:
+        n = max(0, min(5, int(n_1_to_5)))
+    except Exception:
+        n = 0
+    return "⭐" * n + "○" * (5 - n)
+
+
+def signal_emoji(score_0_100):
+    """80↑=🟢 매수/강세, 50↑=🟡 중립, 그 외=🔴"""
+    try:
+        s = float(score_0_100)
+    except Exception:
+        s = 0
+    if s >= 80:
+        return "🟢"
+    if s >= 50:
+        return "🟡"
+    return "🔴"
+
+
+def mood_label_emoji(score_0_100):
+    """시장 분위기 라벨 + 이모지. (label_kr, emoji)"""
+    try:
+        s = float(score_0_100)
+    except Exception:
+        s = 0
+    if s >= 85:
+        return ("과열", "🤩")
+    if s >= 70:
+        return ("낙관적", "😊")
+    if s >= 50:
+        return ("보통", "😐")
+    if s >= 30:
+        return ("약간 조심", "😟")
+    return ("불안", "🥶")
+
+
+def friendly_today_action(confidence_1_5, alignment_score_0_100):
+    """오늘의 액션 한 줄. confidence + alignment 기반."""
+    try:
+        c = int(confidence_1_5)
+    except Exception:
+        c = 0
+    try:
+        a = float(alignment_score_0_100)
+    except Exception:
+        a = 0.0
+    if c >= 4 and a >= 80:
+        return ("🟢", "지금이 기회예요",
+                "여러 지표가 같은 방향을 가리키고 있어요. 계획대로 진입을 검토하세요.")
+    if c >= 3 and a >= 60:
+        return ("🟡", "신중하게 진입",
+                "방향성은 있지만 확신이 아주 강하진 않아요. 분할 매수나 작은 비중으로.")
+    if c >= 2 and a >= 40:
+        return ("🟡", "관망하세요",
+                "신호가 엇갈리고 있어요. 1~2일 더 지켜본 후 행동하세요.")
+    return ("🔴", "관망하세요",
+            "오늘은 시장 의견이 갈리거나 신호가 약해요. 무리해서 진입하지 마세요.")
+
 
 
 # ───── 1. Fetch ─────
@@ -1122,6 +1203,11 @@ def build_alignment(brief, scored_signals):
         action = "CONFIRM"
     else:
         action = "DIVERGENT"
+    action_kr_map = {
+        "STRONG CONFIRM": "강한 일치",
+        "CONFIRM": "일치",
+        "DIVERGENT": "의견 충돌",
+    }
     result = {
         "computed_at": NOW_ISO,
         "carousel_recommendation": carousel_rec or "관찰 대기",
@@ -1129,6 +1215,7 @@ def build_alignment(brief, scored_signals):
         "consensus_top": consensus_top,
         "alignment_score": alignment_score,
         "action": action,
+        "action_kr": action_kr_map.get(action, action),
         "note": "★ 추정 — 섹터 매핑 휴리스틱, 백테스트 미검증.",
     }
     (DATA_ROOT / "alignment.json").write_text(
@@ -1184,18 +1271,31 @@ def build_today_call(brief, scored_signals, alignment, carousel_state, mood, kos
     if not rationale:
         rationale = ["데이터 수집 부족 — 분석 임계치 미달", "회전 신호 약함"]
     rationale = rationale[:3]
+    align_score_for_friendly = alignment.get("alignment_score", 0)
+    f_emoji, f_action, f_reason = friendly_today_action(confidence, align_score_for_friendly)
+    action_map_kr = {
+        "STRONG CONFIRM": "강한 일치",
+        "CONFIRM": "일치",
+        "DIVERGENT": "의견 충돌",
+    }
+    action_raw = alignment.get("action", "DIVERGENT")
     result = {
         "computed_at": NOW_ISO,
         "action_headline": action_headline,
         "confidence": confidence,
         "confidence_pct": round(composite, 1),
         "rationale": rationale,
-        "action": alignment.get("action", "DIVERGENT"),
+        "action": action_raw,
+        "action_kr": action_map_kr.get(action_raw, action_raw),
+        "stars": stars_from_n(confidence),
+        "friendly_emoji": f_emoji,
+        "friendly_action": f_action,
+        "friendly_reason": f_reason,
         "note": "★ 추정 — multi-factor 합성, 백테스트 미검증. 직접 매매 사용 금지.",
     }
     (DATA_ROOT / "today_call.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"  today's call: confidence={confidence}/5 ({composite:.0f}%)")
+    print(f"  today's call: confidence={confidence}/5 ({composite:.0f}%) -> {f_action}")
     return result
 
 
@@ -1280,9 +1380,12 @@ def build_mood_index(snapshot, macro, scored_signals, carousel_state):
         label = "NEUTRAL"
     else:
         label = "FEAR"
+    mood_kr, mood_emoji = mood_label_emoji(score)
     result = {
         "computed_at": NOW_ISO,
         "score": int(score), "label": label,
+        "label_kr": mood_kr,
+        "label_emoji": mood_emoji,
         "components": {
             "volatility": round(vol_score, 1),
             "divergence": round(div_score, 1),
@@ -1335,7 +1438,7 @@ def build_index(snapshot, brief, kospi, carousel_state, alignment, today_call,
 
 # ───── main ─────
 def main():
-    print(f"=== Carousel R&D Daily Build (v3 / Bloomberg Terminal) :: {NOW_ISO} ===")
+    print(f"=== Carousel R&D Daily Build (v4 / Friendly Light) :: {NOW_ISO} ===")
     fetched = {"news_pages": {}, "global": "", "macro": {}}
     try:
         fetched = fetch_all()
