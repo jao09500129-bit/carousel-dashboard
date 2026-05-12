@@ -2,476 +2,1070 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>회전목마 R&D — 리서치 시너스 대시보드</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>회전목마 R&D Terminal</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/theme/mermaid.min.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/gridjs@5.0.2/dist/gridjs.umd.js" integrity="sha384-/XXDzxe4FsGiAe50i/u9pY/Vy/uX654MHB1xoc1BJNnH1WXHhqHga9g3q5tF4gj7" crossorigin="anonymous"></script>
 <style>
-:root { color-scheme: light; }
+:root {
+  color-scheme: dark;
+  --bg: #0a0e1a;
+  --bg-card: #171b26;
+  --bg-card-2: #1e2330;
+  --border: #2a3142;
+  --border-strong: #3a4358;
+  --text: #e5e9f0;
+  --text-dim: #a3a8b5;
+  --text-faint: #6b7280;
+  --up: #00d97e;
+  --down: #ff5252;
+  --neutral: #a3a8b5;
+  --accent: #ffb02e;
+  --accent-dim: #b87c1e;
+  --data: #4eb1ff;
+  --data-dim: #2d6da3;
+  --mono: 'JetBrains Mono', 'Roboto Mono', 'SF Mono', Consolas, Menlo, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", sans-serif;
+}
 * { box-sizing: border-box; }
+html, body { background: var(--bg); }
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
-  color: #1a1a1a;
-  background: #fafbfc;
+  margin: 0; color: var(--text); background: var(--bg);
+  font-family: var(--sans); font-size: 13px; line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.wrap { padding: 16px 20px; max-width: 1440px; margin: 0 auto; }
+
+/* ── Header ── */
+.terminal-header {
+  display: flex; align-items: center; gap: 14px;
+  padding: 8px 14px; background: var(--bg-card);
+  border: 1px solid var(--border); border-radius: 4px;
+  margin-bottom: 12px; font-size: 12px;
+}
+.terminal-header .brand {
+  color: var(--accent); font-weight: 800; letter-spacing: 0.04em;
   font-size: 14px;
-  line-height: 1.5;
 }
-.wrap { padding: 24px 28px; max-width: 1280px; margin: 0 auto; }
-header { margin-bottom: 20px; }
-header h1 {
-  margin: 0 0 4px;
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
+.terminal-header .sep { color: var(--text-faint); }
+.terminal-header .meta-item { color: var(--text-dim); }
+.terminal-header .meta-item b { color: var(--text); font-weight: 600; font-family: var(--mono); }
+.terminal-header .search {
+  margin-left: auto; display: flex; align-items: center; gap: 6px;
 }
-header .sub {
-  color: #6b7280;
-  font-size: 13px;
+.terminal-header .search input {
+  background: var(--bg); border: 1px solid var(--border);
+  color: var(--text); font-size: 12px;
+  padding: 4px 10px; border-radius: 3px; width: 220px;
+  font-family: var(--mono);
 }
-.meta-bar {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  margin-top: 8px;
-  font-size: 12px;
-  color: #6b7280;
-}
-.meta-bar span b { color: #1f2937; font-weight: 600; }
+.terminal-header .search input::placeholder { color: var(--text-faint); }
 
-/* Stat cards */
-.stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-bottom: 20px;
-}
-.stat {
-  background: white;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  padding: 14px 16px;
-}
-.stat .label {
-  font-size: 11px;
-  color: #6b7280;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-weight: 600;
-}
-.stat .val {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 4px;
-  letter-spacing: -0.02em;
-}
-.stat.sig .val { color: #c2410c; }
-.stat.up .val { color: #15803d; }
-
-/* Sections */
-section {
-  background: white;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  padding: 18px 20px;
-  margin-bottom: 16px;
-}
-section h2 {
-  margin: 0 0 12px;
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-section h2 .count {
-  background: #fef3c7;
-  color: #92400e;
-  padding: 1px 8px;
-  border-radius: 10px;
-  font-size: 11px;
-  font-weight: 600;
-}
-.caveat {
-  background: #fff7ed;
-  border-left: 3px solid #f97316;
-  padding: 8px 12px;
-  font-size: 12px;
-  color: #9a3412;
+/* ── TODAY'S CALL ── */
+.today-call {
+  background: linear-gradient(135deg, #1a2030 0%, #171b26 100%);
+  border: 1px solid var(--accent-dim);
+  border-left: 4px solid var(--accent);
   border-radius: 4px;
+  padding: 18px 22px; margin-bottom: 14px;
+}
+.today-call .tc-head {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 11px; letter-spacing: 0.12em; font-weight: 700;
+  color: var(--accent); margin-bottom: 6px;
+}
+.today-call .tc-headline {
+  font-size: 22px; font-weight: 800; color: var(--text);
+  letter-spacing: -0.01em; line-height: 1.3; margin-bottom: 14px;
+}
+.today-call .tc-meta {
+  display: flex; flex-wrap: wrap; gap: 22px; margin-bottom: 12px;
+  font-family: var(--mono); font-size: 12px;
+}
+.today-call .tc-meta-item { display: flex; align-items: center; gap: 8px; }
+.today-call .tc-meta-label {
+  text-transform: uppercase; letter-spacing: 0.08em;
+  font-size: 10px; color: var(--text-faint); font-weight: 700;
+}
+.today-call .tc-meta-val { font-size: 14px; font-weight: 700; }
+.conv-dots { letter-spacing: 0.2em; }
+.dot-on { color: var(--accent); }
+.dot-off { color: var(--border-strong); }
+.tc-action {
+  display: inline-block; padding: 3px 10px; border-radius: 3px;
+  font-size: 11px; font-weight: 800; letter-spacing: 0.06em;
+}
+.tc-action.STRONG\ CONFIRM, .tc-action.STRONG { background: rgba(0,217,126,0.15); color: var(--up); border: 1px solid var(--up); }
+.tc-action.CONFIRM { background: rgba(78,177,255,0.12); color: var(--data); border: 1px solid var(--data); }
+.tc-action.DIVERGENT { background: rgba(255,82,82,0.12); color: var(--down); border: 1px solid var(--down); }
+.tc-rationale {
+  list-style: none; padding: 0; margin: 0;
+  font-size: 12px; color: var(--text-dim); line-height: 1.7;
+}
+.tc-rationale li {
+  padding-left: 16px; position: relative;
+}
+.tc-rationale li::before {
+  content: "▸"; position: absolute; left: 0; color: var(--accent);
+}
+
+/* ── 4-up Stat Strip ── */
+.stat-strip {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px;
+  margin-bottom: 14px;
+}
+.stat-tile {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 4px; padding: 12px 14px;
+}
+.stat-tile .label {
+  font-size: 10px; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--text-faint); font-weight: 700;
+  margin-bottom: 4px;
+}
+.stat-tile .val {
+  font-family: var(--mono); font-size: 22px; font-weight: 700;
+  color: var(--text); line-height: 1.1; letter-spacing: -0.01em;
+}
+.stat-tile .sub {
+  font-family: var(--mono); font-size: 11px;
+  color: var(--text-dim); margin-top: 2px;
+}
+.stat-tile .val.up { color: var(--up); }
+.stat-tile .val.down { color: var(--down); }
+.stat-tile .val.accent { color: var(--accent); }
+.stat-tile .val.data { color: var(--data); }
+.spark { display: inline-block; width: 60px; height: 14px; vertical-align: middle; margin-left: 6px; }
+
+/* ── Section base ── */
+section.panel {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 4px; padding: 14px 16px; margin-bottom: 12px;
+}
+section.panel h2 {
+  margin: 0 0 12px; font-size: 12px; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  display: flex; align-items: center; gap: 8px;
+  color: var(--text); padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+section.panel h2 .icon { color: var(--accent); }
+section.panel h2 .count {
+  background: var(--bg-card-2); color: var(--accent);
+  padding: 1px 8px; border-radius: 2px; font-size: 10px;
+  font-weight: 700; letter-spacing: 0; border: 1px solid var(--border-strong);
+}
+section.panel h2 .est-mark {
+  margin-left: auto; font-size: 9px; color: var(--text-faint);
+  font-weight: 400; letter-spacing: 0; text-transform: none;
+  font-style: italic;
+}
+
+/* Collapsible */
+.collapsible h2 { cursor: pointer; }
+.collapsible h2 .toggle { margin-left: auto; color: var(--text-faint); font-size: 11px; }
+.collapsible.collapsed .panel-body { display: none; }
+.collapsible.collapsed h2 { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
+
+/* ── Two-column row ── */
+.row {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
   margin-bottom: 12px;
 }
 
-/* Signal cards */
-.signals { display: grid; gap: 10px; }
-.signal-card {
-  border: 1px solid #fde68a;
-  background: #fffbeb;
-  border-radius: 6px;
-  padding: 12px 14px;
+/* ── Active Carousel ── */
+.carousel-current {
+  background: var(--bg-card-2); border: 1px solid var(--border-strong);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px; padding: 12px 14px; margin-bottom: 10px;
 }
-.signal-head {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.carousel-current .label {
+  font-size: 10px; color: var(--text-faint); text-transform: uppercase;
+  letter-spacing: 0.08em; font-weight: 700; margin-bottom: 4px;
+}
+.carousel-current .pivot-name {
+  font-size: 20px; font-weight: 800; color: var(--accent);
+  letter-spacing: -0.01em;
+}
+.carousel-current .pivot-meta {
+  font-family: var(--mono); font-size: 11px; color: var(--text-dim);
+  margin-top: 6px;
+}
+.carousel-current .pivot-view {
+  font-size: 11px; color: var(--text-dim); margin-top: 6px;
+  line-height: 1.5;
+}
+.candidate-list { display: flex; flex-direction: column; gap: 6px; }
+.candidate {
+  display: grid; grid-template-columns: 100px 1fr 50px; gap: 10px;
+  align-items: center; padding: 6px 10px;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 3px; font-size: 12px;
+}
+.candidate .name { font-weight: 700; color: var(--text); }
+.candidate .bar-wrap {
+  height: 6px; background: var(--border); border-radius: 3px;
+  overflow: hidden; position: relative;
+}
+.candidate .bar {
+  height: 100%; background: linear-gradient(90deg, var(--data) 0%, var(--accent) 100%);
+  border-radius: 3px;
+}
+.candidate .pct {
+  font-family: var(--mono); font-size: 11px; color: var(--data);
+  text-align: right; font-weight: 700;
+}
+.candidate .trigger {
+  grid-column: 2 / -1; font-family: var(--mono); font-size: 10px;
+  color: var(--text-faint); margin-top: 2px;
+}
+.candidate { grid-template-rows: auto auto; }
+.candidate .name { grid-row: 1 / 3; align-self: center; }
+.candidate .pct { grid-row: 1; }
+.candidate .bar-wrap { grid-row: 1; }
+
+/* ── Alignment ── */
+.alignment-vis {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+  margin-bottom: 12px;
+}
+.align-side {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 3px; padding: 10px 12px;
+}
+.align-side .label {
+  font-size: 10px; color: var(--text-faint); text-transform: uppercase;
+  letter-spacing: 0.08em; font-weight: 700; margin-bottom: 4px;
+}
+.align-side .name { font-size: 15px; font-weight: 800; color: var(--text); }
+.align-side.carousel .name { color: var(--accent); }
+.align-side.consensus .name { color: var(--data); }
+.align-score-bar {
+  height: 8px; background: var(--border); border-radius: 4px;
+  position: relative; overflow: hidden; margin: 10px 0 8px;
+}
+.align-score-bar .fill {
+  height: 100%; border-radius: 4px; transition: width 0.4s;
+}
+.align-score-fill-strong { background: var(--up); }
+.align-score-fill-confirm { background: var(--data); }
+.align-score-fill-div { background: var(--down); }
+.align-result {
+  display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--mono); font-size: 12px;
+}
+.align-result .score { font-size: 18px; font-weight: 800; }
+.consensus-top-list {
+  display: flex; flex-direction: column; gap: 4px; margin-top: 8px;
+  font-family: var(--mono); font-size: 11px;
+}
+.consensus-top-list .crow {
+  display: grid; grid-template-columns: 1fr 50px; gap: 8px;
+  color: var(--text-dim);
+}
+.consensus-top-list .crow .w { color: var(--data); text-align: right; font-weight: 700; }
+
+/* ── KOSPI Range ── */
+.kospi-bar-container {
+  position: relative; margin: 16px 0 14px;
+  padding: 0 8px;
+}
+.kospi-bar {
+  position: relative; height: 14px;
+  background: linear-gradient(90deg, var(--down) 0%, #6b7280 50%, var(--up) 100%);
+  opacity: 0.18;
+  border-radius: 7px;
+}
+.kospi-bar-fill {
+  position: absolute; top: 0; height: 14px; border-radius: 7px;
+  background: linear-gradient(90deg, #d97706 0%, var(--accent) 100%);
+  opacity: 0.85;
+}
+.kospi-marker {
+  position: absolute; top: -8px; width: 2px; height: 30px;
+  background: var(--text); z-index: 2;
+}
+.kospi-marker.mid { background: var(--accent); width: 3px; }
+.kospi-marker .lbl {
+  position: absolute; top: -18px; left: 50%; transform: translateX(-50%);
+  font-family: var(--mono); font-size: 10px; font-weight: 700;
+  color: var(--text); white-space: nowrap;
+}
+.kospi-marker.mid .lbl { color: var(--accent); }
+.kospi-marker .val {
+  position: absolute; top: 32px; left: 50%; transform: translateX(-50%);
+  font-family: var(--mono); font-size: 11px; font-weight: 700;
+  color: var(--text); white-space: nowrap;
+}
+.kospi-marker.mid .val { color: var(--accent); font-size: 13px; }
+.kospi-meta {
+  display: flex; justify-content: space-between; margin-top: 36px;
+  font-family: var(--mono); font-size: 11px; color: var(--text-dim);
+}
+.kospi-sources {
+  margin-top: 12px; max-height: 140px; overflow-y: auto;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 3px; padding: 8px 10px;
+  font-size: 11px; color: var(--text-dim);
+}
+.kospi-source-row {
+  padding: 4px 0; border-bottom: 1px solid var(--border);
+  display: grid; grid-template-columns: 1fr auto; gap: 8px;
+}
+.kospi-source-row:last-child { border-bottom: none; }
+.kospi-source-row a { color: var(--data); text-decoration: none; }
+.kospi-source-row a:hover { text-decoration: underline; }
+.kospi-source-row .vals {
+  font-family: var(--mono); font-size: 10px; color: var(--accent); white-space: nowrap;
+}
+.kospi-empty {
+  padding: 16px; text-align: center;
+  color: var(--text-faint); font-size: 12px; font-style: italic;
+}
+
+/* ── High Conviction Signals ── */
+.hc-signals { display: grid; gap: 10px; }
+.hc-signal {
+  display: grid; grid-template-columns: 80px 1fr; gap: 14px;
+  padding: 12px 14px; background: var(--bg);
+  border: 1px solid var(--border); border-left: 3px solid var(--accent);
+  border-radius: 3px; cursor: pointer; transition: background 0.15s;
+}
+.hc-signal:hover { background: var(--bg-card-2); }
+.hc-score-block { text-align: center; }
+.hc-score-block .score {
+  font-family: var(--mono); font-size: 32px; font-weight: 800;
+  color: var(--accent); line-height: 1;
+}
+.hc-score-block .out-of {
+  font-family: var(--mono); font-size: 10px; color: var(--text-faint);
+}
+.hc-score-block .bar {
+  margin-top: 6px; height: 5px; background: var(--border); border-radius: 3px;
+  overflow: hidden;
+}
+.hc-score-block .bar-fill {
+  height: 100%; background: linear-gradient(90deg, var(--data) 0%, var(--accent) 100%);
+}
+.hc-content .kw { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.hc-content .meta {
+  font-family: var(--mono); font-size: 11px; color: var(--text-dim);
   margin-bottom: 6px;
-  flex-wrap: wrap;
 }
-.signal-keyword {
-  font-weight: 700;
-  font-size: 15px;
-  color: #1f2937;
+.hc-broker-chips { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+.b-chip {
+  display: inline-block; padding: 1px 7px; border-radius: 2px;
+  background: var(--bg-card-2); color: var(--data); font-size: 10px;
+  font-weight: 700; border: 1px solid var(--data-dim);
+  font-family: var(--mono);
 }
-.broker-chip {
-  display: inline-block;
-  padding: 2px 8px;
-  background: #1f4e78;
-  color: white;
-  border-radius: 10px;
-  font-size: 11px;
-  font-weight: 600;
+.b-chip.major { background: rgba(255,176,46,0.15); color: var(--accent); border-color: var(--accent-dim); }
+.hc-impact {
+  font-size: 11px; color: var(--text-dim); line-height: 1.5;
+  padding-top: 6px; margin-top: 6px; border-top: 1px solid var(--border);
 }
-.n-brokers {
-  background: #c2410c;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 10px;
-  font-size: 11px;
-  font-weight: 700;
+.hc-impact b { color: var(--accent); }
+.hc-items {
+  margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border);
+  font-size: 11px; display: none;
 }
-.target-up { color: #15803d; font-weight: 700; }
-.target-down { color: #b91c1c; font-weight: 700; }
-.signal-items { font-size: 12px; color: #4b5563; margin-top: 4px; }
-.signal-items a { color: #1f4e78; text-decoration: none; }
-.signal-items a:hover { text-decoration: underline; }
+.hc-signal.expanded .hc-items { display: block; }
+.hc-items a { color: var(--data); text-decoration: none; display: block; padding: 2px 0; }
+.hc-items a:hover { text-decoration: underline; }
 
-/* Two columns */
-.row {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 16px;
-  margin-bottom: 16px;
+/* ── Sector Heat Map ── */
+.heat-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
 }
-@media (max-width: 900px) { .row { grid-template-columns: 1fr; } .stats { grid-template-columns: repeat(2, 1fr); } }
+.heat-tile {
+  position: relative; padding: 12px 12px 10px;
+  border-radius: 3px; border: 1px solid var(--border);
+  background: var(--bg-card-2); min-height: 80px;
+  cursor: default; transition: transform 0.12s;
+}
+.heat-tile:hover { transform: translateY(-1px); border-color: var(--border-strong); }
+.heat-tile .sname {
+  font-size: 11px; font-weight: 700; color: var(--text);
+  margin-bottom: 6px;
+}
+.heat-tile .si {
+  font-family: var(--mono); font-size: 16px; font-weight: 700;
+}
+.heat-tile .count {
+  font-family: var(--mono); font-size: 10px; color: var(--text-faint);
+  margin-top: 2px;
+}
+.heat-tile .top-kw {
+  font-size: 10px; color: var(--text-dim); margin-top: 4px;
+  line-height: 1.4; overflow: hidden; text-overflow: ellipsis;
+}
+/* intensity shading via CSS classes */
+.heat-tile.up-3 { background: rgba(0,217,126,0.30); border-color: var(--up); }
+.heat-tile.up-3 .si { color: var(--up); }
+.heat-tile.up-2 { background: rgba(0,217,126,0.20); }
+.heat-tile.up-2 .si { color: var(--up); }
+.heat-tile.up-1 { background: rgba(0,217,126,0.10); }
+.heat-tile.up-1 .si { color: var(--up); }
+.heat-tile.down-1 { background: rgba(255,82,82,0.10); }
+.heat-tile.down-1 .si { color: var(--down); }
+.heat-tile.down-2 { background: rgba(255,82,82,0.20); }
+.heat-tile.down-2 .si { color: var(--down); }
+.heat-tile.down-3 { background: rgba(255,82,82,0.30); border-color: var(--down); }
+.heat-tile.down-3 .si { color: var(--down); }
+.heat-tile.flat .si { color: var(--neutral); }
 
+/* ── Macro snapshot ── */
+.macro-row-grid {
+  display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px;
+}
+.macro-mini {
+  background: var(--bg); border: 1px solid var(--border);
+  padding: 8px 10px; border-radius: 3px;
+}
+.macro-mini .mname {
+  font-size: 10px; color: var(--text-faint);
+  text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 3px;
+}
+.macro-mini .mval { font-family: var(--mono); font-size: 14px; font-weight: 700; color: var(--text); }
+.macro-mini .mchg { font-family: var(--mono); font-size: 11px; font-weight: 700; margin-top: 2px; }
+.mchg.up { color: var(--up); }
+.mchg.down { color: var(--down); }
+.mchg.flat { color: var(--neutral); }
+
+/* ── Risk Watch ── */
+.risk-list { display: flex; flex-direction: column; gap: 6px; }
+.risk-item {
+  display: grid; grid-template-columns: 90px 1fr auto; gap: 12px;
+  padding: 8px 10px; background: var(--bg);
+  border: 1px solid var(--border); border-left: 3px solid var(--down);
+  border-radius: 3px; font-size: 12px;
+}
+.risk-item.warn { border-left-color: var(--accent); }
+.risk-item.info { border-left-color: var(--data); }
+.risk-item .when { font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
+.risk-item .what { color: var(--text); }
+.risk-item .tag {
+  font-size: 10px; padding: 1px 6px; border-radius: 2px;
+  font-weight: 700; font-family: var(--mono);
+}
+.risk-item .tag.RISK { background: rgba(255,82,82,0.15); color: var(--down); }
+.risk-item .tag.WARN { background: rgba(255,176,46,0.15); color: var(--accent); }
+.risk-item .tag.INFO { background: rgba(78,177,255,0.15); color: var(--data); }
+
+/* ── Raw Data (legacy) ── */
+.macro-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;
+  margin-bottom: 10px;
+}
+.macro-cat {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 3px; padding: 10px 12px;
+}
+.macro-cat h4 {
+  margin: 0 0 8px; font-size: 10px; color: var(--text-faint);
+  text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700;
+}
+.macro-row-line {
+  display: grid; grid-template-columns: 1fr auto auto; gap: 6px;
+  align-items: baseline; padding: 3px 0;
+  font-size: 11px; border-bottom: 1px solid var(--border);
+  font-family: var(--mono);
+}
+.macro-row-line:last-child { border-bottom: none; }
+.macro-row-line .nm { color: var(--text-dim); font-weight: 600; }
+.macro-row-line .vl { color: var(--text); font-weight: 700; }
+.macro-row-line .pc { font-weight: 700; min-width: 50px; text-align: right; }
+.pc.up { color: var(--up); }
+.pc.down { color: var(--down); }
+.pc.flat { color: var(--neutral); }
+
+/* table */
+.gridjs-wrapper { box-shadow: none !important; }
+.gridjs-container { font-family: var(--sans) !important; color: var(--text) !important; }
+.gridjs-table { font-size: 12px; background: var(--bg-card) !important; }
+.gridjs-th {
+  background: var(--bg-card-2) !important; color: var(--text) !important;
+  font-weight: 700 !important; border-color: var(--border) !important;
+}
+.gridjs-td {
+  vertical-align: top !important; padding: 6px 10px !important;
+  background: var(--bg-card) !important; color: var(--text-dim) !important;
+  border-color: var(--border) !important;
+}
+.gridjs-tr:hover .gridjs-td { background: var(--bg-card-2) !important; }
+.gridjs-pagination, .gridjs-pages button { color: var(--text-dim) !important; background: var(--bg-card) !important; border-color: var(--border) !important; }
+.gridjs-pages button:hover { background: var(--bg-card-2) !important; }
+.gridjs-pages button.gridjs-currentPage { background: var(--accent) !important; color: var(--bg) !important; }
+.title-link { color: var(--data); text-decoration: none; font-weight: 500; }
+.title-link:hover { text-decoration: underline; }
+.row-brokers { font-size: 10px; color: var(--text-faint); margin-top: 3px; }
+.row-brokers .b-tag {
+  display: inline-block; padding: 1px 5px; background: var(--bg-card-2);
+  color: var(--data); border-radius: 2px; margin-right: 3px;
+  font-family: var(--mono); font-weight: 700;
+}
+.target-up { color: var(--up); font-weight: 700; }
+.target-down { color: var(--down); font-weight: 700; }
 #brokerChart { max-height: 280px; }
 
-/* Filters */
-.filters {
-  display: flex;
-  gap: 6px;
-  margin-bottom: 10px;
-  flex-wrap: wrap;
-}
+/* filters */
+.filters { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
 .filter-btn {
-  padding: 4px 10px;
-  border: 1px solid #d1d5db;
-  background: white;
-  border-radius: 14px;
-  font-size: 12px;
-  cursor: pointer;
-  color: #4b5563;
+  padding: 4px 10px; background: var(--bg); color: var(--text-dim);
+  border: 1px solid var(--border); border-radius: 3px;
+  font-size: 11px; cursor: pointer; font-family: var(--mono);
 }
-.filter-btn:hover { background: #f3f4f6; }
-.filter-btn.active { background: #1f4e78; color: white; border-color: #1f4e78; }
+.filter-btn:hover { background: var(--bg-card-2); }
+.filter-btn.active { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 700; }
 
-/* Table */
-.gridjs-wrapper { box-shadow: none !important; }
-.gridjs-table { font-size: 13px; }
-.gridjs-th { background: #f9fafb !important; font-weight: 600 !important; }
-.gridjs-td { vertical-align: top !important; padding: 8px 10px !important; }
-.title-link { color: #1f4e78; text-decoration: none; font-weight: 500; }
-.title-link:hover { text-decoration: underline; }
-.row-brokers { font-size: 11px; color: #6b7280; margin-top: 3px; }
-.row-brokers .b-tag {
-  display: inline-block;
-  padding: 1px 6px;
-  background: #dbeafe;
-  color: #1e40af;
-  border-radius: 8px;
-  margin-right: 4px;
-  font-weight: 600;
+/* caveat */
+.caveat-mark {
+  display: inline-block; width: 14px; height: 14px; line-height: 14px;
+  border-radius: 50%; background: var(--bg-card-2); color: var(--text-faint);
+  text-align: center; font-size: 9px; font-weight: 700; margin-left: 4px;
+  border: 1px solid var(--border-strong);
+  cursor: help;
 }
 
 footer {
-  margin-top: 24px;
-  padding: 16px 0;
-  border-top: 1px solid #e5e7eb;
-  font-size: 11px;
-  color: #6b7280;
-  line-height: 1.6;
+  margin-top: 24px; padding: 14px 0;
+  border-top: 1px solid var(--border);
+  font-size: 10px; color: var(--text-faint); line-height: 1.7;
 }
-footer b { color: #c2410c; }
+footer b { color: var(--accent); }
 
+.empty-note {
+  padding: 18px; text-align: center;
+  color: var(--text-faint); font-size: 12px; font-style: italic;
+}
 
-
-
-
-
-
-/* Morning Brief */
-.brief { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #cbd5e1; border-radius: 8px; padding: 18px 22px; margin-bottom: 16px; }
-.brief-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
-.brief-tag { background: #1f4e78; color: white; padding: 3px 10px; border-radius: 10px; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; }
-.brief-asof { color: #6b7280; font-size: 12px; }
-.brief-headline { font-size: 16px; font-weight: 700; line-height: 1.4; color: #1e293b; margin-bottom: 14px; }
-.brief-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
-@media (max-width: 800px) { .brief-grid { grid-template-columns: 1fr; } }
-.brief-card { background: white; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px 14px; }
-.brief-card h3 { margin: 0 0 8px; font-size: 13px; font-weight: 700; color: #475569; }
-.macro-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 14px; }
-@media (max-width: 900px) { .macro-grid { grid-template-columns: repeat(2, 1fr); } }
-.macro-cat { background: white; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px 12px; }
-.macro-cat h4 { margin: 0 0 8px; font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700; }
-.macro-row { display: grid; grid-template-columns: 1fr auto auto; gap: 6px; align-items: baseline; padding: 3px 0; font-size: 12px; border-bottom: 1px solid #f8fafc; }
-.macro-row:last-child { border-bottom: none; }
-.macro-name { color: #1e293b; font-weight: 600; font-size: 11px; }
-.macro-val { color: #0f172a; font-weight: 700; }
-.macro-chg { font-weight: 700; font-size: 11px; min-width: 50px; text-align: right; }
-.chg-up { color: #15803d; }
-.chg-down { color: #b91c1c; }
-.chg-flat { color: #6b7280; }
-.theme-list { display: grid; gap: 8px; }
-.theme-item { font-size: 12px; line-height: 1.5; }
-.theme-item b { color: #1e293b; }
-.theme-item a { color: #1f4e78; text-decoration: none; font-size: 11px; }
-.kr-list { font-size: 12px; line-height: 1.6; color: #334155; margin: 0; padding-left: 18px; }
-.kr-list li { margin-bottom: 4px; }
-.axes-list { display: grid; gap: 8px; }
-.axis-item { background: #fff7ed; border-left: 3px solid #f97316; padding: 8px 12px; border-radius: 4px; font-size: 12px; }
-.axis-item .axis-name { font-weight: 700; color: #9a3412; margin-right: 6px; }
-.axis-item .axis-view { color: #1e293b; line-height: 1.5; }
-.axis-item .axis-conf { font-size: 10px; color: #92400e; margin-top: 4px; font-style: italic; }
-.brief-note { margin-top: 10px; font-size: 11px; color: #92400e; font-style: italic; }
+/* ── responsive ── */
+@media (max-width: 900px) {
+  .wrap { padding: 12px 14px; }
+  .terminal-header { flex-wrap: wrap; }
+  .terminal-header .search { width: 100%; margin-left: 0; }
+  .terminal-header .search input { width: 100%; }
+  .today-call .tc-headline { font-size: 18px; }
+  .stat-strip { grid-template-columns: repeat(2, 1fr); }
+  .row { grid-template-columns: 1fr; }
+  .heat-grid { grid-template-columns: repeat(3, 1fr); }
+  .macro-row-grid { grid-template-columns: repeat(3, 1fr); }
+  .macro-grid { grid-template-columns: repeat(2, 1fr); }
+  .alignment-vis { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  body { font-size: 13px; }
+  .heat-grid { grid-template-columns: repeat(2, 1fr); }
+  .macro-row-grid { grid-template-columns: repeat(2, 1fr); }
+}
 </style>
 </head>
 <body>
 <div class="wrap">
 
-<header>
-  <h1>회전목마 R&D — 리서치 시너스 대시보드</h1>
-  <div class="sub">한경 코리아마켓 뉴스 기반 일별 합의 시그널 추출</div>
-  <div class="meta-bar">
-    <span>날짜 <b id="m-date">—</b></span>
-    <span>수집 시각 <b id="m-collected">—</b></span>
-    <span>소스 <b>hankyung.com / koreamarket</b></span>
-  </div>
-</header>
-<section class="brief">
-  <div class="brief-head">
-    <span class="brief-tag">MORNING BRIEF</span>
-    <span class="brief-asof" id="brief-asof">-</span>
-    <span class="brief-asof" id="brief-macro-asof"></span>
-  </div>
-  <div class="brief-headline" id="brief-headline">-</div>
-  <div class="macro-grid" id="macro-grid"></div>
-  <div class="brief-grid">
-    <div class="brief-card">
-      <h3>핵심 테마</h3>
-      <div class="theme-list" id="brief-themes"></div>
-    </div>
-    <div class="brief-card">
-      <h3>오늘 한국 시장 포커스</h3>
-      <ul class="kr-list" id="brief-kr"></ul>
-    </div>
-  </div>
-  <div class="brief-card">
-    <h3>회전목마 함의 (가설)</h3>
-    <div style="font-size:12px;color:#475569;margin-bottom:8px;"><b>Regime:</b> <span id="brief-regime">-</span></div>
-    <div class="axes-list" id="brief-axes"></div>
-    <div class="brief-note" id="brief-note">-</div>
-  </div>
-</section>
-<div class="stats">
-  <div class="stat"><div class="label">총 기사</div><div class="val" id="s-total">—</div></div>
-  <div class="stat"><div class="label">증권사 언급</div><div class="val" id="s-broker">—</div></div>
-  <div class="stat up"><div class="label">목표가 상향</div><div class="val" id="s-up">—</div></div>
-  <div class="stat sig"><div class="label">합의 시그널</div><div class="val" id="s-sig">—</div></div>
+<div class="terminal-header">
+  <span class="brand">CAROUSEL R&D · TERMINAL</span>
+  <span class="sep">|</span>
+  <span class="meta-item">DATE <b id="m-date">—</b></span>
+  <span class="sep">·</span>
+  <span class="meta-item">COLLECTED <b id="m-collected">—</b></span>
+  <span class="sep">·</span>
+  <span class="meta-item">SRC <b>hankyung</b></span>
+  <span class="search">
+    <input id="search-box" type="text" placeholder="search keyword / broker (UI placeholder)">
+  </span>
 </div>
 
-<section>
-  <h2>합의 시그널 <span class="count" id="sig-count">0</span></h2>
-  <div class="caveat">★ 모든 시그널은 <b>미검증 가설</b>. 백테스트로 alpha 확인 전 직접 매매 사용 금지. 회전목마의 후보 회전축 탐색 보조로만 활용.</div>
-  <div class="signals" id="signals"></div>
-</section>
+<!-- TODAY'S CALL -->
+<div class="today-call">
+  <div class="tc-head">
+    <span>◆ TODAY'S CALL</span>
+    <span style="color:var(--text-faint);font-weight:400;letter-spacing:0.02em;">(추정 — 백테스트 미검증)</span>
+  </div>
+  <div class="tc-headline" id="tc-headline">—</div>
+  <div class="tc-meta">
+    <div class="tc-meta-item">
+      <span class="tc-meta-label">CONVICTION</span>
+      <span class="tc-meta-val mono"><span id="tc-conv-dots" class="conv-dots"></span> <span id="tc-conv-num"></span></span>
+    </div>
+    <div class="tc-meta-item">
+      <span class="tc-meta-label">ACTION</span>
+      <span id="tc-action" class="tc-action">—</span>
+    </div>
+    <div class="tc-meta-item">
+      <span class="tc-meta-label">MARKET MOOD</span>
+      <span class="tc-meta-val mono" id="tc-mood">—</span>
+    </div>
+    <div class="tc-meta-item">
+      <span class="tc-meta-label">PIVOT</span>
+      <span class="tc-meta-val mono" id="tc-pivot" style="color:var(--accent);">—</span>
+    </div>
+  </div>
+  <ul class="tc-rationale" id="tc-rationale"></ul>
+</div>
 
+<!-- 4-up Stat Strip -->
+<div class="stat-strip">
+  <div class="stat-tile">
+    <div class="label">ACTIVE PIVOT</div>
+    <div class="val accent" id="s-pivot">—</div>
+    <div class="sub" id="s-pivot-days">—</div>
+  </div>
+  <div class="stat-tile">
+    <div class="label">ROTATION VELOCITY</div>
+    <div class="val data" id="s-velocity">—</div>
+    <div class="sub" id="s-vol">—</div>
+  </div>
+  <div class="stat-tile">
+    <div class="label">CONSENSUS ALIGNMENT</div>
+    <div class="val" id="s-align">—</div>
+    <div class="sub" id="s-align-action">—</div>
+  </div>
+  <div class="stat-tile">
+    <div class="label">MARKET MOOD</div>
+    <div class="val" id="s-mood">—</div>
+    <div class="sub" id="s-mood-label">—</div>
+  </div>
+</div>
+
+<!-- Row 1: Carousel + Alignment -->
 <div class="row">
-  <section>
-    <h2>증권사별 리포트 빈도</h2>
-    <canvas id="brokerChart"></canvas>
+  <section class="panel">
+    <h2><span class="icon">◎</span> Active Carousel <span class="est-mark">추정 / 백테스트 미검증 ⓘ</span></h2>
+    <div class="panel-body">
+      <div class="carousel-current">
+        <div class="label">CURRENT PIVOT</div>
+        <div class="pivot-name" id="cs-name">—</div>
+        <div class="pivot-meta" id="cs-meta">—</div>
+        <div class="pivot-view" id="cs-view"></div>
+      </div>
+      <div style="font-size:10px;color:var(--text-faint);text-transform:uppercase;letter-spacing:0.08em;font-weight:700;margin-bottom:6px;">Next Candidates</div>
+      <div class="candidate-list" id="cs-candidates"></div>
+    </div>
   </section>
-  <section>
-    <h2>목표가 변경 리포트 (오늘)</h2>
-    <div id="targetList"></div>
+  <section class="panel">
+    <h2><span class="icon">◇</span> Strategy ⇄ Consensus Alignment <span class="est-mark">추정 / 백테스트 미검증 ⓘ</span></h2>
+    <div class="panel-body">
+      <div class="alignment-vis">
+        <div class="align-side carousel">
+          <div class="label">CAROUSEL RECOMMENDS</div>
+          <div class="name" id="al-carousel">—</div>
+          <div style="font-family:var(--mono);font-size:10px;color:var(--text-faint);margin-top:4px;" id="al-carousel-sector">—</div>
+        </div>
+        <div class="align-side consensus">
+          <div class="label">CONSENSUS TOP</div>
+          <div class="name" id="al-consensus-top">—</div>
+          <div class="consensus-top-list" id="al-consensus-list"></div>
+        </div>
+      </div>
+      <div class="align-score-bar">
+        <div class="fill" id="al-fill" style="width: 0%;"></div>
+      </div>
+      <div class="align-result">
+        <div><span class="score" id="al-score">—</span> <span style="color:var(--text-faint);font-size:11px;">/ 100</span></div>
+        <div id="al-action" class="tc-action">—</div>
+      </div>
+    </div>
   </section>
 </div>
 
-<section>
-  <h2>전체 기사 목록 <span class="count" id="art-count">0</span></h2>
-  <div class="filters" id="filters">
-    <button class="filter-btn active" data-filter="all">전체</button>
-    <button class="filter-btn" data-filter="broker">증권사 언급만</button>
-    <button class="filter-btn" data-filter="up">목표가↑</button>
+<!-- KOSPI Range Forecast -->
+<section class="panel">
+  <h2><span class="icon">▦</span> KOSPI Range Forecast <span class="est-mark">기사 본문 추출 / 정확도 한계 있음 ⓘ</span></h2>
+  <div class="panel-body" id="kospi-body">
+    <div class="kospi-bar-container" id="kospi-bar-container"></div>
+    <div class="kospi-meta" id="kospi-meta">—</div>
+    <div class="kospi-sources" id="kospi-sources"></div>
   </div>
-  <div id="table"></div>
+</section>
+
+<!-- High-Conviction Signals -->
+<section class="panel">
+  <h2><span class="icon">◉</span> High-Conviction Signals <span class="count" id="hc-count">0</span> <span class="est-mark">multi-factor 추정 / 백테스트 미검증 ⓘ</span></h2>
+  <div class="panel-body">
+    <div class="hc-signals" id="hc-signals"></div>
+  </div>
+</section>
+
+<!-- Sector Heat Map -->
+<section class="panel">
+  <h2><span class="icon">▥</span> Sector Heat Map <span class="est-mark">GICS 휴리스틱 매핑 ⓘ</span></h2>
+  <div class="panel-body">
+    <div class="heat-grid" id="heat-grid"></div>
+    <div style="font-size:10px;color:var(--text-faint);margin-top:8px;font-family:var(--mono);">
+      Color: 합의 강도 (-3 hot ━ +3 cool) · Number: ups-downs+conv 합성 · Below: 발간 건수 + 핵심 키워드
+    </div>
+  </div>
+</section>
+
+<!-- Macro Snapshot Compact -->
+<section class="panel">
+  <h2><span class="icon">▤</span> Macro Snapshot</h2>
+  <div class="panel-body">
+    <div class="macro-row-grid" id="macro-snapshot"></div>
+  </div>
+</section>
+
+<!-- Risk Watch -->
+<section class="panel">
+  <h2><span class="icon">⚠</span> Risk Watch <span class="est-mark">7일 / placeholder ⓘ</span></h2>
+  <div class="panel-body">
+    <div class="risk-list" id="risk-list"></div>
+  </div>
+</section>
+
+<!-- Raw Data Collapsible -->
+<section class="panel collapsible collapsed" id="sec-macro-full">
+  <h2 onclick="toggleSection('sec-macro-full')"><span class="icon">▸</span> Full Macro <span class="toggle">[expand]</span></h2>
+  <div class="panel-body">
+    <div class="macro-grid" id="macro-grid"></div>
+  </div>
+</section>
+
+<section class="panel collapsible collapsed" id="sec-articles">
+  <h2 onclick="toggleSection('sec-articles')"><span class="icon">▸</span> All Articles <span class="count" id="art-count">0</span> <span class="toggle">[expand]</span></h2>
+  <div class="panel-body">
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">전체</button>
+      <button class="filter-btn" data-filter="broker">증권사 언급</button>
+      <button class="filter-btn" data-filter="up">목표가↑</button>
+      <button class="filter-btn" data-filter="down">목표가↓</button>
+    </div>
+    <div id="table"></div>
+  </div>
+</section>
+
+<section class="panel collapsible collapsed" id="sec-broker-freq">
+  <h2 onclick="toggleSection('sec-broker-freq')"><span class="icon">▸</span> Broker Frequency <span class="toggle">[expand]</span></h2>
+  <div class="panel-body">
+    <canvas id="brokerChart"></canvas>
+  </div>
 </section>
 
 <footer>
-  <b>운영 원칙:</b> ① 합의 시그널은 미검증 가설 — 백테스트 alpha 검증 전 보조 신호로만 사용
+  <b>운영 원칙:</b> ① 모든 시그널·점수·확률·예측은 <b>미검증 가설</b>이며 백테스트 alpha 검증 전 직접 매매 사용 금지
   · ② Look-ahead bias 방지 — 발간 시각 t 이후 거래에만 사용
-  · ③ 키워드 추출은 자유어 매칭으로 false positive 가능 — 수동 확인 권장
-  · ④ 합의 시그널 임계값은 ≥2개사 (초기 보수치, 더 강한 임계값은 향후 백테스트로 결정)
+  · ③ 키워드 추출 / 섹터 매핑 / KOSPI 정규식은 false positive 가능 — 수동 확인 권장
+  · ④ Conviction score / Alignment score / Mood index는 휴리스틱 가중합으로 데이터 부족 시 신뢰도 낮음
+  · ⑤ 회전목마 R&D의 의사결정 보조 도구 (Bloomberg Terminal 영감), 직접 매매 시그널 아님
 </footer>
 
 </div>
 
 <script>
 const DATA = __DATA__;
-
 const BRIEF = __BRIEF__;
-document.getElementById("brief-asof").textContent = "as of " + BRIEF.as_of;
-document.getElementById("brief-headline").textContent = BRIEF.headline;
+const KOSPI = __KOSPI__;
+const CAROUSEL = __CAROUSEL__;
+const ALIGNMENT = __ALIGNMENT__;
+const TODAY_CALL = __TODAY_CALL__;
+const HEATMAP = __HEATMAP__;
+const MOOD = __MOOD__;
 
-const macroGrid = document.getElementById("macro-grid");
-if (BRIEF.macro) {
-  const catLabels = {
-    "major-indices": "주요 지수",
-    "currencies": "환율",
-    "commodities": "원자재",
-    "rates-bonds": "채권 / 금리"
-  };
-  Object.entries(BRIEF.macro.categories).forEach(([key, cat]) => {
-    const card = document.createElement("div");
-    card.className = "macro-cat";
-    card.innerHTML = "<h4>" + (catLabels[key] || key) + "</h4>";
-    cat.items.slice(0, 6).forEach(it => {
-      const cls = it.chg_pct.indexOf("+") >= 0 ? "chg-up" : (it.chg_pct.indexOf("-") >= 0 ? "chg-down" : "chg-flat");
-      const row = document.createElement("div");
-      row.className = "macro-row";
-      row.innerHTML = '<span class="macro-name">' + it.name + '</span><span class="macro-val">' + it.close + '</span><span class="macro-chg ' + cls + '">' + it.chg_pct + '</span>';
-      card.appendChild(row);
-    });
-    macroGrid.appendChild(card);
-  });
-  document.getElementById("brief-macro-asof").textContent = " | macro: 한경 데이터센터";
+// ── Header
+document.getElementById("m-date").textContent = DATA.date || "—";
+document.getElementById("m-collected").textContent =
+  (DATA.collected_at || "").slice(0, 16).replace("T", " ") || "—";
+
+// ── TODAY'S CALL
+document.getElementById("tc-headline").textContent = TODAY_CALL.action_headline || "—";
+const cfNum = TODAY_CALL.confidence || 0;
+let dots = "";
+for (let i = 1; i <= 5; i++) {
+  dots += i <= cfNum
+    ? '<span class="dot-on">●</span>'
+    : '<span class="dot-off">○</span>';
 }
-
-const krUl = document.getElementById("brief-kr");
-BRIEF.today_kr_focus.forEach(t => {
+document.getElementById("tc-conv-dots").innerHTML = dots;
+document.getElementById("tc-conv-num").textContent = ` ${cfNum}/5`;
+const actEl = document.getElementById("tc-action");
+const actLabel = (TODAY_CALL.action || "—");
+actEl.textContent = actLabel;
+actEl.className = "tc-action " + (actLabel.indexOf("STRONG") >= 0 ? "STRONG"
+  : actLabel.indexOf("CONFIRM") >= 0 ? "CONFIRM"
+  : actLabel.indexOf("DIVERGENT") >= 0 ? "DIVERGENT" : "");
+document.getElementById("tc-mood").textContent =
+  `${MOOD.score || 0} · ${MOOD.label || "—"}`;
+document.getElementById("tc-pivot").textContent = CAROUSEL.current_pivot || "—";
+const tcRat = document.getElementById("tc-rationale");
+(TODAY_CALL.rationale || []).forEach(r => {
   const li = document.createElement("li");
-  li.textContent = t;
-  krUl.appendChild(li);
+  li.textContent = r;
+  tcRat.appendChild(li);
 });
 
-const themesDiv = document.getElementById("brief-themes");
-BRIEF.themes.forEach(t => {
+// ── 4-up Stat Strip
+document.getElementById("s-pivot").textContent = CAROUSEL.current_pivot || "—";
+document.getElementById("s-pivot-days").textContent =
+  `${CAROUSEL.current_days || 1}일째 · ${CAROUSEL.current_confidence || "—"}`;
+document.getElementById("s-velocity").textContent = CAROUSEL.rotation_velocity || "—";
+document.getElementById("s-vol").textContent =
+  `vol idx ${CAROUSEL.volatility_index || 0}`;
+
+const alScore = ALIGNMENT.alignment_score || 0;
+const alEl = document.getElementById("s-align");
+alEl.textContent = alScore + "%";
+alEl.className = "val " + (alScore >= 80 ? "up" : alScore >= 60 ? "data" : "down");
+document.getElementById("s-align-action").textContent = ALIGNMENT.action || "—";
+
+const mdScore = MOOD.score || 0;
+const mdEl = document.getElementById("s-mood");
+mdEl.textContent = mdScore;
+mdEl.className = "val " + (mdScore >= 70 ? "up" : mdScore >= 50 ? "data" : "down");
+document.getElementById("s-mood-label").textContent = MOOD.label || "—";
+
+// ── Active Carousel
+document.getElementById("cs-name").textContent = CAROUSEL.current_pivot || "—";
+document.getElementById("cs-meta").textContent =
+  `${CAROUSEL.current_days || 1}일째 · ${CAROUSEL.rotation_velocity || "—"} 속도 · vol ${CAROUSEL.volatility_index || 0}`;
+document.getElementById("cs-view").textContent = CAROUSEL.current_view || "—";
+const csCands = document.getElementById("cs-candidates");
+(CAROUSEL.candidates || []).forEach(c => {
+  const pctPx = Math.max(0, Math.min(100, (c.probability || 0) * 100));
   const div = document.createElement("div");
-  div.className = "theme-item";
-  let urlPart = "";
-  if (t.url) urlPart = ' <a href="' + t.url + '" target="_blank">[원문]</a>';
-  div.innerHTML = "<b>" + t.title + "</b> - " + t.summary + urlPart;
-  themesDiv.appendChild(div);
+  div.className = "candidate";
+  div.innerHTML =
+    `<div class="name">${c.name}</div>` +
+    `<div class="bar-wrap"><div class="bar" style="width:${pctPx}%;"></div></div>` +
+    `<div class="pct">${pctPx.toFixed(0)}%</div>` +
+    `<div class="trigger">▸ ${c.trigger || ""}</div>`;
+  csCands.appendChild(div);
 });
+if (!CAROUSEL.candidates || CAROUSEL.candidates.length === 0) {
+  csCands.innerHTML = '<div class="empty-note">신규 후보 신호 없음</div>';
+}
 
-document.getElementById("brief-regime").textContent = BRIEF.carousel_implications.regime;
-const axesDiv = document.getElementById("brief-axes");
-BRIEF.carousel_implications.axes.forEach(a => {
-  const div = document.createElement("div");
-  div.className = "axis-item";
-  div.innerHTML = '<span class="axis-name">' + a.axis + '</span><span class="axis-view">' + a.view + '</span><div class="axis-conf">신뢰도: ' + a.confidence + '</div>';
-  axesDiv.appendChild(div);
+// ── Alignment
+document.getElementById("al-carousel").textContent = ALIGNMENT.carousel_recommendation || "—";
+document.getElementById("al-carousel-sector").textContent =
+  `Sector: ${ALIGNMENT.carousel_sector || "—"}`;
+const consensusTop = ALIGNMENT.consensus_top || [];
+document.getElementById("al-consensus-top").textContent =
+  consensusTop.length ? consensusTop[0].sector : "—";
+const alList = document.getElementById("al-consensus-list");
+consensusTop.forEach(c => {
+  const row = document.createElement("div");
+  row.className = "crow";
+  row.innerHTML =
+    `<span>${c.sector}</span><span class="w">${(c.weight * 100).toFixed(0)}%</span>`;
+  alList.appendChild(row);
 });
-document.getElementById("brief-note").textContent = BRIEF.carousel_implications.note;
+const alFill = document.getElementById("al-fill");
+alFill.style.width = alScore + "%";
+alFill.className = "fill " + (alScore >= 80 ? "align-score-fill-strong"
+  : alScore >= 60 ? "align-score-fill-confirm" : "align-score-fill-div");
+document.getElementById("al-score").textContent = alScore;
+const alActEl = document.getElementById("al-action");
+alActEl.textContent = ALIGNMENT.action || "—";
+alActEl.className = "tc-action " + (alScore >= 80 ? "STRONG"
+  : alScore >= 60 ? "CONFIRM" : "DIVERGENT");
 
-document.getElementById("m-date").textContent = DATA.date;
-document.getElementById("m-collected").textContent = DATA.collected_at.slice(0, 16).replace("T", " ");
-document.getElementById("s-total").textContent = DATA.items.length;
-document.getElementById("s-broker").textContent = DATA.stats.with_broker_mention;
-document.getElementById("s-up").textContent = DATA.stats.target_price_up;
-document.getElementById("s-sig").textContent = DATA.consensus_signals.length;
-document.getElementById("sig-count").textContent = DATA.consensus_signals.length;
-document.getElementById("art-count").textContent = DATA.items.length;
-
-const sigEl = document.getElementById("signals");
-if (DATA.consensus_signals.length === 0) {
-  sigEl.innerHTML = '<div style="color:#6b7280;font-size:13px;">오늘 기준 2개사 이상 합의 시그널 없음.</div>';
+// ── KOSPI Range Forecast
+const kospiCont = document.getElementById("kospi-bar-container");
+const kospiMeta = document.getElementById("kospi-meta");
+const kospiSrc = document.getElementById("kospi-sources");
+if (KOSPI.low || KOSPI.high || KOSPI.mid) {
+  const low = KOSPI.low || KOSPI.mid;
+  const high = KOSPI.high || KOSPI.mid;
+  const mid = KOSPI.mid || Math.round((low + high) / 2);
+  // domain: 7000..9000
+  const domLow = 7000, domHigh = 9000, dom = domHigh - domLow;
+  const lowPct = ((low - domLow) / dom) * 100;
+  const highPct = ((high - domLow) / dom) * 100;
+  const midPct = ((mid - domLow) / dom) * 100;
+  kospiCont.innerHTML =
+    '<div class="kospi-bar"></div>' +
+    `<div class="kospi-bar-fill" style="left:${lowPct}%; width:${(highPct - lowPct)}%;"></div>` +
+    `<div class="kospi-marker" style="left:${lowPct}%;"><div class="lbl">LOW</div><div class="val">${low.toLocaleString()}</div></div>` +
+    `<div class="kospi-marker mid" style="left:${midPct}%;"><div class="lbl">MID</div><div class="val">${mid.toLocaleString()}</div></div>` +
+    `<div class="kospi-marker" style="left:${highPct}%;"><div class="lbl">HIGH</div><div class="val">${high.toLocaleString()}</div></div>`;
+  kospiMeta.innerHTML =
+    `<span>Range 7,000 ──── 9,000</span>` +
+    `<span>n=${KOSPI.sample_size || 0} sources</span>`;
+  const sources = KOSPI.sources || [];
+  if (sources.length) {
+    kospiSrc.innerHTML = sources.map(s => {
+      const vals = [];
+      if (s.low) vals.push(`L ${s.low.toLocaleString()}`);
+      if (s.high) vals.push(`H ${s.high.toLocaleString()}`);
+      if (s.points && s.points.length) vals.push(`pt ${s.points.map(p => p.toLocaleString()).join("/")}`);
+      return `<div class="kospi-source-row"><a href="${s.url}" target="_blank">${s.title || s.url}</a><span class="vals">${vals.join(" · ")}</span></div>`;
+    }).join("");
+  } else {
+    kospiSrc.innerHTML = '<div class="kospi-empty">소스 리포트 없음</div>';
+  }
 } else {
-  DATA.consensus_signals.forEach(s => {
+  kospiCont.innerHTML = '<div class="kospi-empty">오늘 기사에서 KOSPI 예상 수치(7000~9000 범위) 추출 실패</div>';
+  kospiMeta.innerHTML = '<span style="color:var(--text-faint);">데이터 미수집</span>';
+  kospiSrc.innerHTML = '';
+}
+
+// ── High Conviction Signals
+const hcEl = document.getElementById("hc-signals");
+const scored = (DATA.consensus_signals_scored || []).slice(0, 3);
+document.getElementById("hc-count").textContent = scored.length;
+const MAJOR = new Set(["미래에셋", "KB", "NH", "한국투자", "삼성"]);
+if (scored.length === 0) {
+  hcEl.innerHTML = '<div class="empty-note">오늘 기준 합의 시그널 없음 (≥2개사 동조).</div>';
+} else {
+  scored.forEach(s => {
+    const score = s.conviction_score || 0;
     const card = document.createElement("div");
-    card.className = "signal-card";
-    const actionHTML = (s.ups > 0 ? '<span class="target-up">목표가 상향 ' + s.ups + '</span>' : '')
-                     + (s.downs > 0 ? '<span class="target-down">목표가 하향 ' + s.downs + '</span>' : '');
-    card.innerHTML = '<div class="signal-head">'
-      + '<span class="n-brokers">' + s.n_brokers + '사</span>'
-      + '<span class="signal-keyword">' + s.keyword + '</span>'
-      + actionHTML
-      + '<span>' + s.brokers.map(b => '<span class="broker-chip">' + b + '</span>').join(' ') + '</span>'
-      + '</div>'
-      + '<div class="signal-items">'
-      + s.items.map(i => '<div>- <a href="' + i.url + '" target="_blank">' + i.title + '</a> <span style="color:#9ca3af">(' + i.brokers.join(', ') + ')</span></div>').join('')
-      + '</div>';
-    sigEl.appendChild(card);
+    card.className = "hc-signal";
+    const brokers = (s.brokers || []).map(b =>
+      `<span class="b-chip${MAJOR.has(b) ? " major" : ""}">${b}</span>`
+    ).join("");
+    const items = (s.items || []).map(i =>
+      `<a href="${i.url}" target="_blank">▸ ${i.title}</a>`
+    ).join("");
+    const sector = s.sector || "기타";
+    const aligned = s.macro_aligned;
+    const impactTxt = aligned
+      ? `매크로 활성 축과 정합 (sector: <b>${sector}</b>) — 회전축 진입 후보`
+      : `매크로 활성 축과 불일치 (sector: ${sector}) — 단일 종목 alpha 검증 필요`;
+    const tc = s.avg_target_change_pct;
+    const tcDisp = tc ? `목표가 평균 ${tc > 0 ? "+" : ""}${tc.toFixed(1)}%` : "";
+    card.innerHTML =
+      `<div class="hc-score-block">` +
+        `<div class="score">${score.toFixed(0)}</div>` +
+        `<div class="out-of">/ 100</div>` +
+        `<div class="bar"><div class="bar-fill" style="width:${score}%;"></div></div>` +
+      `</div>` +
+      `<div class="hc-content">` +
+        `<div class="kw">${s.keyword}</div>` +
+        `<div class="meta">${s.n_brokers}사 · ups ${s.ups || 0} · downs ${s.downs || 0} · 지속 ${s.persistence_days || 1}일 · ${tcDisp}</div>` +
+        `<div class="hc-broker-chips">${brokers}</div>` +
+        `<div class="hc-impact">▸ ${impactTxt}</div>` +
+        `<div class="hc-items">${items}</div>` +
+      `</div>`;
+    card.addEventListener("click", () => card.classList.toggle("expanded"));
+    hcEl.appendChild(card);
   });
 }
 
-const brokers = DATA.stats.top_brokers;
-new Chart(document.getElementById("brokerChart"), {
-  type: "bar",
-  data: {
-    labels: brokers.map(b => b[0]),
-    datasets: [{
-      label: "리포트 수",
-      data: brokers.map(b => b[1]),
-      backgroundColor: "#1f4e78",
-      borderRadius: 4,
-    }]
-  },
-  options: {
-    indexAxis: "y",
-    plugins: { legend: { display: false } },
-    scales: {
-      x: { beginAtZero: true, ticks: { stepSize: 1 } },
-      y: { ticks: { font: { size: 11 } } }
-    },
-    maintainAspectRatio: false,
+// ── Sector Heat Map
+const heatEl = document.getElementById("heat-grid");
+(HEATMAP.sectors || []).forEach(s => {
+  const t = document.createElement("div");
+  const intRaw = s.intensity || 0;
+  const intCls = intRaw >= 2.5 ? "up-3"
+    : intRaw >= 1.5 ? "up-2"
+    : intRaw >= 0.5 ? "up-1"
+    : intRaw <= -2.5 ? "down-3"
+    : intRaw <= -1.5 ? "down-2"
+    : intRaw <= -0.5 ? "down-1"
+    : "flat";
+  t.className = "heat-tile " + intCls;
+  const topKwTxt = (s.top || []).map(k => k.kw).join(", ") || "—";
+  t.innerHTML =
+    `<div class="sname">${s.name}</div>` +
+    `<div class="si">${intRaw >= 0 ? "+" : ""}${intRaw.toFixed(1)}</div>` +
+    `<div class="count">발간 ${s.count || 0}건</div>` +
+    `<div class="top-kw" title="${topKwTxt}">${topKwTxt}</div>`;
+  heatEl.appendChild(t);
+});
+
+// ── Macro Snapshot (compact 6)
+const KEY_MACROS = [
+  ["S&P 500", "major-indices"],
+  ["나스닥", "major-indices"],
+  ["반도체", "major-indices"],
+  ["미국", "currencies"],
+  ["브렌트", "commodities"],
+  ["미국 국채 10년", "rates-bonds"],
+];
+const macroSnapEl = document.getElementById("macro-snapshot");
+const macroCats = (BRIEF.macro || {}).categories || {};
+KEY_MACROS.forEach(([name, cat]) => {
+  const items = (macroCats[cat] || {}).items || [];
+  const it = items.find(x => x.name === name);
+  const displayName = name === "미국" ? "USDKRW" : name === "미국 국채 10년" ? "US 10Y" : name;
+  const mini = document.createElement("div");
+  mini.className = "macro-mini";
+  if (!it) {
+    mini.innerHTML =
+      `<div class="mname">${displayName}</div>` +
+      `<div class="mval" style="color:var(--text-faint);">—</div>` +
+      `<div class="mchg flat">—</div>`;
+  } else {
+    const pct = it.chg_pct || "";
+    const cls = pct.indexOf("+") >= 0 ? "up" : pct.indexOf("-") >= 0 ? "down" : "flat";
+    mini.innerHTML =
+      `<div class="mname">${displayName}</div>` +
+      `<div class="mval">${it.close || "—"}</div>` +
+      `<div class="mchg ${cls}">${pct || "—"}</div>`;
+  }
+  macroSnapEl.appendChild(mini);
+});
+
+// ── Risk Watch (placeholder + macro anomaly auto-warning)
+const riskList = document.getElementById("risk-list");
+const risks = [];
+// Auto: 매크로 anomaly
+(BRIEF.carousel_implications && BRIEF.carousel_implications.axes || []).forEach(a => {
+  if (a.trigger_metric) {
+    risks.push({
+      when: "now", what: `${a.trigger_metric} ${a.trigger_value} — ${a.axis}`,
+      tag: "WARN",
+    });
   }
 });
+// Placeholder upcoming events
+risks.push({ when: "+7d", what: "FOMC / 한은 금통위 등 매크로 이벤트 (placeholder — 캘린더 미연동)", tag: "INFO" });
+risks.push({ when: "+1d", what: "한국 주요 어닝 발표 (placeholder)", tag: "INFO" });
+risks.forEach(r => {
+  const div = document.createElement("div");
+  div.className = "risk-item " + (r.tag === "WARN" ? "warn" : r.tag === "INFO" ? "info" : "");
+  div.innerHTML =
+    `<span class="when">${r.when}</span>` +
+    `<span class="what">${r.what}</span>` +
+    `<span class="tag ${r.tag}">${r.tag}</span>`;
+  riskList.appendChild(div);
+});
 
-const targetEl = document.getElementById("targetList");
-const targetItems = DATA.items.filter(i => i.target_action === "up" || i.target_action === "down");
-if (targetItems.length === 0) {
-  targetEl.innerHTML = '<div style="color:#6b7280;font-size:13px;">오늘 목표가 변경 리포트 없음.</div>';
-} else {
-  targetEl.innerHTML = targetItems.map(i => {
-    const arrow = i.target_action === "up" ? '<span class="target-up">↑</span>' : '<span class="target-down">↓</span>';
-    const broker = i.brokers.length ? i.brokers[0] : "-";
-    return '<div style="padding:6px 0;border-bottom:1px solid #f3f4f6;font-size:13px;">'
-      + arrow + ' <a href="' + i.url + '" target="_blank" class="title-link">' + i.title + '</a>'
-      + '<span style="color:#6b7280;font-size:11px;"> · ' + broker + ' · ' + i.dt + '</span></div>';
-  }).join("");
-}
+// ── Full macro grid (raw)
+const macroGrid = document.getElementById("macro-grid");
+const catLabels = {
+  "major-indices": "주요 지수", "currencies": "환율",
+  "commodities": "원자재", "rates-bonds": "채권 / 금리",
+};
+Object.entries(macroCats).forEach(([key, cat]) => {
+  const card = document.createElement("div");
+  card.className = "macro-cat";
+  card.innerHTML = `<h4>${catLabels[key] || key}</h4>`;
+  (cat.items || []).slice(0, 8).forEach(it => {
+    const cls = (it.chg_pct || "").indexOf("+") >= 0 ? "up"
+      : (it.chg_pct || "").indexOf("-") >= 0 ? "down" : "flat";
+    const row = document.createElement("div");
+    row.className = "macro-row-line";
+    row.innerHTML =
+      `<span class="nm">${it.name}</span><span class="vl">${it.close || ""}</span><span class="pc ${cls}">${it.chg_pct || ""}</span>`;
+    card.appendChild(row);
+  });
+  macroGrid.appendChild(card);
+});
 
-
-let currentFilter = "all";
+// ── Articles table (raw)
+document.getElementById("art-count").textContent = (DATA.items || []).length;
 function buildTableData(filter) {
-  let rows = DATA.items;
-  if (filter === "broker") rows = rows.filter(i => i.brokers.length > 0);
+  let rows = DATA.items || [];
+  if (filter === "broker") rows = rows.filter(i => (i.brokers || []).length > 0);
   if (filter === "up") rows = rows.filter(i => i.target_action === "up");
+  if (filter === "down") rows = rows.filter(i => i.target_action === "down");
   return rows.map(i => {
     const arrow = i.target_action === "up" ? '<span class="target-up">↑</span> '
-                : i.target_action === "down" ? '<span class="target-down">↓</span> ' : "";
-    const brokers = i.brokers.length
-      ? `<div class="row-brokers">${i.brokers.map(b => `<span class="b-tag">${b}</span>`).join("")}</div>`
-      : "";
+      : i.target_action === "down" ? '<span class="target-down">↓</span> ' : "";
+    const brokers = (i.brokers || []).length
+      ? `<div class="row-brokers">${i.brokers.map(b => `<span class="b-tag">${b}</span>`).join("")}</div>` : "";
     const titleHtml = `${arrow}<a href="${i.url}" target="_blank" class="title-link">${i.title}</a>${brokers}`;
-    return [i.dt, gridjs.html(titleHtml), i.opinion || "—"];
+    return [i.dt || "—", gridjs.html(titleHtml), i.opinion || "—"];
   });
 }
-
 let grid = new gridjs.Grid({
   columns: [
-    { name: "시각", width: "120px" },
+    { name: "시각", width: "130px" },
     { name: "제목" },
     { name: "투자의견", width: "90px" },
   ],
@@ -480,17 +1074,53 @@ let grid = new gridjs.Grid({
   pagination: { limit: 25, summary: false },
   style: { table: { 'white-space': 'normal' } },
 }).render(document.getElementById("table"));
-
 document.querySelectorAll(".filter-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
-    currentFilter = btn.dataset.filter;
-    const newData = buildTableData(currentFilter);
+    const f = btn.dataset.filter;
+    const newData = buildTableData(f);
     grid.updateConfig({ data: newData }).forceRender();
     document.getElementById("art-count").textContent = newData.length;
   });
 });
+
+// ── Broker frequency chart
+const topBrokers = (DATA.stats && DATA.stats.top_brokers) || [];
+if (topBrokers.length) {
+  new Chart(document.getElementById("brokerChart"), {
+    type: "bar",
+    data: {
+      labels: topBrokers.map(b => b[0]),
+      datasets: [{
+        label: "리포트 수",
+        data: topBrokers.map(b => b[1]),
+        backgroundColor: "#4eb1ff",
+        borderColor: "#2d6da3",
+        borderWidth: 1,
+        borderRadius: 2,
+      }]
+    },
+    options: {
+      indexAxis: "y",
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { beginAtZero: true, ticks: { stepSize: 1, color: "#a3a8b5" }, grid: { color: "#2a3142" } },
+        y: { ticks: { color: "#e5e9f0", font: { size: 11 } }, grid: { display: false } }
+      },
+      maintainAspectRatio: false,
+    }
+  });
+}
+
+// ── Section toggle
+function toggleSection(id) {
+  const el = document.getElementById(id);
+  el.classList.toggle("collapsed");
+  const tog = el.querySelector(".toggle");
+  if (tog) tog.textContent = el.classList.contains("collapsed") ? "[expand]" : "[collapse]";
+}
+window.toggleSection = toggleSection;
 </script>
 </body>
 </html>
