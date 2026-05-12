@@ -1,0 +1,138 @@
+{
+  "computed_at": "2026-05-13T00:02:32.152274+09:00",
+  "date": "2026-05-13",
+  "summary": {
+    "broker_consensus": 4,
+    "target_price_cluster_up": 0,
+    "target_price_cluster_down": 0,
+    "divergence": 0
+  },
+  "signals": {
+    "broker_consensus": [
+      {
+        "keyword": "코스콤",
+        "n_brokers": 7,
+        "brokers": [
+          "BNK",
+          "DB",
+          "IBK",
+          "다올",
+          "대신",
+          "유안타",
+          "키움"
+        ],
+        "ups": 0,
+        "downs": 0,
+        "items": [
+          {
+            "title": "코스콤·다올투자증권, STO 플랫폼 맞손…참여사 10곳으로 확대",
+            "url": "https://www.hankyung.com/article/2026051215476",
+            "brokers": [
+              "키움",
+              "대신",
+              "유안타",
+              "IBK",
+              "다올",
+              "DB",
+              "BNK"
+            ],
+            "target_action": null,
+            "opinion": null,
+            "datetime": "2026-05-12T17:01:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 0.0
+      },
+      {
+        "keyword": "8천피",
+        "n_brokers": 3,
+        "brokers": [
+          "IBK",
+          "메리츠",
+          "한화"
+        ],
+        "ups": 0,
+        "downs": 0,
+        "items": [
+          {
+            "title": "'8천피' 눈앞인데 \"아직 코스피 저평가\"…파격 전망의 이유",
+            "url": "https://www.hankyung.com/article/2026051184797",
+            "brokers": [
+              "메리츠",
+              "IBK",
+              "한화"
+            ],
+            "target_action": null,
+            "opinion": null,
+            "datetime": "2026-05-11T15:20:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 0.0
+      },
+      {
+        "keyword": "아직 코스피 저평가",
+        "n_brokers": 3,
+        "brokers": [
+          "IBK",
+          "메리츠",
+          "한화"
+        ],
+        "ups": 0,
+        "downs": 0,
+        "items": [
+          {
+            "title": "'8천피' 눈앞인데 \"아직 코스피 저평가\"…파격 전망의 이유",
+            "url": "https://www.hankyung.com/article/2026051184797",
+            "brokers": [
+              "메리츠",
+              "IBK",
+              "한화"
+            ],
+            "target_action": null,
+            "opinion": null,
+            "datetime": "2026-05-11T15:20:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 0.0
+      },
+      {
+        "keyword": "삼성증권",
+        "n_brokers": 2,
+        "brokers": [
+          "삼성",
+          "한국투자"
+        ],
+        "ups": 1,
+        "downs": 0,
+        "items": [
+          {
+            "title": "\"삼성증권, 증시호황으로 모든 부문 실적 호조…목표가↑\"-한국",
+            "url": "https://www.hankyung.com/article/2026051295406",
+            "brokers": [
+              "삼성",
+              "한국투자"
+            ],
+            "target_action": "up",
+            "opinion": "매수",
+            "datetime": "2026-05-12T07:36:00+09:00"
+          },
+          {
+            "title": "삼성증권, 증시 활황에 1분기 순이익 4509억…역대 최대",
+            "url": "https://www.hankyung.com/article/2026051187986",
+            "brokers": [
+              "삼성"
+            ],
+            "target_action": null,
+            "opinion": null,
+            "datetime": "2026-05-11T16:33:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": -99.66
+      }
+    ],
+    "target_price_cluster_up": [],
+    "target_price_cluster_down": [],
+    "divergence": []
+  },
+  "note": "★ 미검증 가설. 백테스트로 alpha 확인 전 매매 직접 사용 금지."
+}
