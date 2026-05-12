@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-05-12T22:48:33.589341+09:00",
+  "computed_at": "2026-05-12T23:28:21.550977+09:00",
   "date": "2026-05-12",
   "summary": {
     "broker_consensus": 4,
@@ -40,7 +40,8 @@
             "opinion": null,
             "datetime": "2026-05-12T17:01:00+09:00"
           }
-        ]
+        ],
+        "avg_target_change_pct": 0.0
       },
       {
         "keyword": "8천피",
@@ -65,7 +66,8 @@
             "opinion": null,
             "datetime": "2026-05-11T15:20:00+09:00"
           }
-        ]
+        ],
+        "avg_target_change_pct": 0.0
       },
       {
         "keyword": "아직 코스피 저평가",
@@ -90,7 +92,8 @@
             "opinion": null,
             "datetime": "2026-05-11T15:20:00+09:00"
           }
-        ]
+        ],
+        "avg_target_change_pct": 0.0
       },
       {
         "keyword": "삼성증권",
@@ -123,7 +126,8 @@
             "opinion": null,
             "datetime": "2026-05-11T16:33:00+09:00"
           }
-        ]
+        ],
+        "avg_target_change_pct": -99.66
       }
     ],
     "target_price_cluster_up": [],

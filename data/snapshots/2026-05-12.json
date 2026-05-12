@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-12T22:48:33.589341+09:00",
+  "collected_at": "2026-05-12T23:28:21.550977+09:00",
   "date": "2026-05-12",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -86,6 +86,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "16% 급락",
         "흑자 냈는데 이럴 수가"
@@ -102,6 +103,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "삼전"
       ],
@@ -117,6 +119,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "블록체인기본법",
         "범부처 거버넌스 필요"
@@ -133,6 +136,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "표류하는 가상자산법",
         "스테이블코인, 韓 수출 확대 기회"
@@ -149,6 +153,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "금리인상 가능성 배제 못해"
       ],
@@ -164,6 +169,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "교보생명"
       ],
@@ -179,6 +185,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "교보생명"
       ],
@@ -202,6 +209,7 @@
       ],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "코스콤"
       ],
@@ -217,6 +225,7 @@
       "brokers": [],
       "opinion": "매수",
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [],
       "hash": "5452fd763a61"
     },
@@ -230,6 +239,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "리투오 흥행에 흑자전환"
       ],
@@ -245,6 +255,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "타임폴리오"
       ],
@@ -260,6 +271,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "7999"
       ],
@@ -275,6 +287,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "팔천피",
         "반도체 쏠림 부작용"
@@ -291,6 +304,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "한화생명"
       ],
@@ -306,6 +320,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "CJ씨푸드"
       ],
@@ -321,6 +336,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "천연기념물"
       ],
@@ -336,6 +352,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "콜마홀딩스"
       ],
@@ -351,6 +368,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "SK오션플랜트"
       ],
@@ -368,6 +386,7 @@
       ],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "한화투자증권"
       ],
@@ -383,6 +402,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "신세계"
       ],
@@ -398,6 +418,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "샤넬인 줄",
         "한국 브랜드"
@@ -414,6 +435,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "삼전"
       ],
@@ -429,27 +451,12 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "100만원",
         "韓·美 손잡는다"
       ],
       "hash": "90d14260654e"
-    },
-    {
-      "title": "'삼성전자는 못 샀지만…' 개미들 몰리자 '최고가' 터졌다",
-      "url": "https://www.hankyung.com/article/2026051175176",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "keywords": [
-        "최고가",
-        "삼성전자는 못 샀지만"
-      ],
-      "hash": "550764d3bd55"
     },
     {
       "title": "\"삼전닉스 폭등에 기대했는데…\" 네카오 개미들 '발칵'",
@@ -461,11 +468,29 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "발칵",
         "삼전닉스 폭등에 기대했는데"
       ],
       "hash": "b29d725ad52b"
+    },
+    {
+      "title": "'삼성전자는 못 샀지만…' 개미들 몰리자 '최고가' 터졌다",
+      "url": "https://www.hankyung.com/article/2026051175176",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "최고가",
+        "삼성전자는 못 샀지만"
+      ],
+      "hash": "550764d3bd55"
     },
     {
       "title": "KT, 1분기 영업익 4827억…전년비 29% 감소",
@@ -477,6 +502,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "KT"
       ],
@@ -492,6 +518,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "호실적에도 주가 급락"
       ],
@@ -507,6 +534,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "브이원텍"
       ],
@@ -522,6 +550,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "원전 르네상스"
       ],
@@ -537,6 +566,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "인젝티브"
       ],
@@ -554,6 +584,7 @@
       ],
       "opinion": "매도",
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "장 초반 급등락에 대거 팔더니"
       ],
@@ -569,6 +600,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "빗썸",
         "캠퍼스 투어"
@@ -585,6 +617,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "코스피"
       ],
@@ -600,6 +633,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "코스피"
       ],
@@ -615,6 +649,7 @@
       "brokers": [],
       "opinion": "매수",
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "팔천피"
       ],
@@ -630,6 +665,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "급락",
         "2년반만 흑자전환에도"
@@ -646,6 +682,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "급등",
         "대덕전자"
@@ -662,6 +699,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "삼성SDS",
         "정부와 협업 영향"
@@ -680,6 +718,7 @@
       ],
       "opinion": "매도",
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "이 종목",
         "1% 초고수들"
@@ -696,6 +735,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "AI 수혜주",
         "20% 주가 급락"
@@ -712,6 +752,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "코스피 1.68% 오른 7953.41 개장"
       ],
@@ -729,6 +770,7 @@
       ],
       "opinion": "매수",
       "target_action": "up",
+      "target_change_pct": 20.0,
       "keywords": [
         "대덕전자"
       ],
@@ -744,6 +786,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "대박"
       ],
@@ -761,6 +804,7 @@
       ],
       "opinion": "매수",
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "현대로템"
       ],
@@ -778,6 +822,7 @@
       ],
       "opinion": "매수",
       "target_action": "up",
+      "target_change_pct": 16.666666666666664,
       "keywords": [],
       "hash": "0e8eac4263ac"
     },
@@ -793,6 +838,7 @@
       ],
       "opinion": "매수",
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "LIG D&A"
       ],
@@ -811,6 +857,7 @@
       ],
       "opinion": "매수",
       "target_action": "up",
+      "target_change_pct": -99.66000000000001,
       "keywords": [
         "삼성증권"
       ],
@@ -826,6 +873,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "거래소",
         "퓨처스타"
@@ -842,6 +890,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "가격 올려도 팔린다"
       ],
@@ -857,6 +906,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "주목",
         "유가 급등에도 밀린 주가"
@@ -873,6 +923,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "코스피 체급",
         "내년 영업익 1000조 시대"
@@ -889,6 +940,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "올해 1만피 간다",
         "코스피 내년 영업이익 1000조"
@@ -905,6 +957,7 @@
       "brokers": [],
       "opinion": "매수",
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "실적 발표 후 9% 빠진 주가"
       ],
@@ -922,6 +975,7 @@
       ],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "삼성증권"
       ],
@@ -937,6 +991,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "백화점 깜짝 호조",
         "오카도 물류센터 비용"
@@ -953,6 +1008,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "팔천피"
       ],
@@ -968,6 +1024,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "2030 코인 투자 주춤한 사이"
       ],
@@ -983,6 +1040,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "코스피"
       ],
@@ -998,6 +1056,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "반도체 진격에 코스피 또 사상 최고가"
       ],
@@ -1017,6 +1076,7 @@
       ],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "8천피",
         "아직 코스피 저평가"
@@ -1033,6 +1093,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "한화오션"
       ],
@@ -1048,6 +1109,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [
         "현대차",
         "내년에 넘는다"
@@ -1064,6 +1126,7 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
+      "target_change_pct": null,
       "keywords": [],
       "hash": "bfa3c2cb05b3"
     }
@@ -1100,7 +1163,8 @@
           "opinion": null,
           "datetime": "2026-05-12T17:01:00+09:00"
         }
-      ]
+      ],
+      "avg_target_change_pct": 0.0
     },
     {
       "keyword": "8천피",
@@ -1125,7 +1189,8 @@
           "opinion": null,
           "datetime": "2026-05-11T15:20:00+09:00"
         }
-      ]
+      ],
+      "avg_target_change_pct": 0.0
     },
     {
       "keyword": "아직 코스피 저평가",
@@ -1150,7 +1215,8 @@
           "opinion": null,
           "datetime": "2026-05-11T15:20:00+09:00"
         }
-      ]
+      ],
+      "avg_target_change_pct": 0.0
     },
     {
       "keyword": "삼성증권",
@@ -1183,7 +1249,8 @@
           "opinion": null,
           "datetime": "2026-05-11T16:33:00+09:00"
         }
-      ]
+      ],
+      "avg_target_change_pct": -99.66
     }
   ]
 }
