@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-12 22:48 KST",
+  "as_of": "2026-05-12 23:28 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -41,23 +41,29 @@
       {
         "axis": "에너지 회전축",
         "view": "브렌트 +2.88% 급등. 정유·해운·항공 비용 구조 영향. 단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
-        "confidence": "낮음 — 변동성 자체가 검증 까다로움"
+        "confidence": "낮음 — 변동성 자체가 검증 까다로움",
+        "trigger_metric": "브렌트",
+        "trigger_value": "+2.88%"
       },
       {
         "axis": "반도체 회전축",
         "view": "美 반도체 지수 +2.59% 강세. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 단기 과열 경계 — 확신은 합의 시그널과 교차검증 필요.",
-        "confidence": "중 — 백테스트 미검증"
+        "confidence": "중 — 백테스트 미검증",
+        "trigger_metric": "美 반도체 지수",
+        "trigger_value": "+2.59%"
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +1.30% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼"
+        "view": "USDKRW +1.41% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "+1.41%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-12T22:48:33.589341+09:00",
+    "collected_at": "2026-05-12T23:28:21.550977+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -127,30 +133,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,488.89",
-            "chg": "19.08",
-            "chg_pct": "+1.30%"
+            "close": "1,490.54",
+            "chg": "20.73",
+            "chg_pct": "+1.41%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,747.71",
-            "chg": "14.74",
-            "chg_pct": "+0.85%"
+            "close": "1,749.34",
+            "chg": "16.37",
+            "chg_pct": "+0.94%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "944.41",
-            "chg": "8.18",
-            "chg_pct": "+0.87%"
+            "close": "945.79",
+            "chg": "9.56",
+            "chg_pct": "+1.02%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "219.05",
-            "chg": "2.94",
-            "chg_pct": "+1.36%"
+            "close": "219.35",
+            "chg": "3.24",
+            "chg_pct": "+1.50%"
           }
         ]
       },
