@@ -1,17 +1,21 @@
 # -*- coding: utf-8 -*-
 """
-회전목마 R&D — 통합 빌드 스크립트
-=================================
+회전목마 R&D — 통합 빌드 스크립트 (v2: BeautifulSoup 기반)
+==========================================================
 GitHub Actions가 매일 08:30 KST에 호출.
 
-순서:
-  1. Fetch — 한경 코리아마켓 뉴스 페이지(1-3) + 글로벌마켓 + 데이터센터 4종 fetch
-  2. HTML → markdown 변환 (html2text)
-  3. 파싱 — 뉴스 markdown → snapshot + signals JSON / 매크로 markdown → latest.json
-  4. Morning Brief 자동 생성 — 글로벌 헤드라인 + 코리아마켓 시황 + 매크로 변동 기반 axes
-  5. index.html 빌드 — dashboard_base.html 템플릿에 __DATA__, __BRIEF__ 주입
+변경 사항 (v1 대비):
+- html2text + markdown regex 파이프라인 제거
+- requests → BeautifulSoup(lxml) → DOM 직접 파싱
+- 한경 페이지 구조 변경 시 셀렉터 한 군데만 수정하면 됨
 
-의존성: requests, beautifulsoup4, html2text + stdlib only.
+순서:
+  1. Fetch — 한경 코리아마켓 뉴스(1-3) + 글로벌마켓 + 데이터센터 4종
+  2. BeautifulSoup으로 직접 파싱 → snapshot/signals/macro JSON
+  3. Morning Brief 자동 생성 — 글로벌 헤드라인 + 매크로 변동 기반 axes
+  4. index.html 빌드 — dashboard_base.html 템플릿에 __DATA__, __BRIEF__ 주입
+
+의존성: requests, beautifulsoup4, lxml + stdlib only.
 모든 출력은 UTF-8, JSON은 ensure_ascii=False.
 """
 
@@ -27,14 +31,13 @@ from datetime import datetime, timezone, timedelta
 from collections import defaultdict, Counter
 
 import requests
-import html2text
 from bs4 import BeautifulSoup
 
 # ───── 경로 / 상수 ─────
 ROOT = Path(__file__).resolve().parent.parent   # repo root
 BUILD_DIR = Path(__file__).resolve().parent
 DATA_ROOT = ROOT / "data"
-RAW_DIR = DATA_ROOT / "raw_md"
+RAW_DIR = DATA_ROOT / "raw_html"
 SNAP_DIR = DATA_ROOT / "snapshots"
 SIG_DIR = DATA_ROOT / "signals"
 MACRO_DIR = DATA_ROOT / "macro"
@@ -45,7 +48,8 @@ KST = timezone(timedelta(hours=9))
 TODAY = datetime.now(KST).strftime("%Y-%m-%d")
 NOW_ISO = datetime.now(KST).isoformat()
 
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+      "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 HEADERS = {"User-Agent": UA, "Accept-Language": "ko,en;q=0.8"}
 
 NEWS_PAGES = [
@@ -61,18 +65,14 @@ MACRO_PAGES = [
     ("rates-bonds",   "https://datacenter.hankyung.com/rates-bonds"),
 ]
 
-# ───── 1. Fetch + html2text ─────
-def html_to_md(html: str) -> str:
-    h = html2text.HTML2Text()
-    h.body_width = 0
-    h.ignore_images = True
-    h.ignore_emphasis = False
-    h.protect_links = True
-    h.unicode_snob = True
-    return h.handle(html)
+
+def warn(msg: str):
+    print(f"  ! {msg}", file=sys.stderr)
 
 
-def fetch(url: str, retries: int = 3, timeout: int = 20) -> str:
+# ───── 1. Fetch ─────
+def fetch(url: str, retries: int = 2, timeout: int = 20) -> str:
+    """간단 retry. 실패 시 빈 문자열."""
     last_err = None
     for i in range(retries):
         try:
@@ -84,38 +84,41 @@ def fetch(url: str, retries: int = 3, timeout: int = 20) -> str:
         except Exception as e:
             last_err = str(e)
         time.sleep(1.5 * (i + 1))
-    print(f"  ! fetch failed {url}: {last_err}", file=sys.stderr)
+    warn(f"fetch failed {url}: {last_err}")
     return ""
 
 
-def fetch_all():
+def fetch_all() -> dict:
+    """모든 페이지의 raw HTML을 반환. raw_html 디렉토리에도 백업 저장."""
     print(f"[{NOW_ISO}] FETCH start")
-    # News pages
+    out = {"news_pages": {}, "global": "", "macro": {}}
     for tag, url in NEWS_PAGES:
         html = fetch(url)
-        if not html:
-            continue
-        md = html_to_md(html)
-        out = RAW_DIR / f"{TODAY}_{tag}.md"
-        out.write_text(md, encoding="utf-8")
-        print(f"  news {tag}: {len(md):,} chars -> {out.name}")
-    # Global narrative
-    html = fetch(GLOBAL_URL)
-    if html:
-        md = html_to_md(html)
-        (RAW_DIR / f"{TODAY}_global.md").write_text(md, encoding="utf-8")
-        print(f"  global: {len(md):,} chars")
-    # Macro pages
+        out["news_pages"][tag] = html
+        if html:
+            (RAW_DIR / f"{TODAY}_{tag}.html").write_text(html, encoding="utf-8")
+            print(f"  news {tag}: {len(html):,} chars")
+        else:
+            warn(f"news {tag} empty")
+    g = fetch(GLOBAL_URL)
+    out["global"] = g
+    if g:
+        (RAW_DIR / f"{TODAY}_global.html").write_text(g, encoding="utf-8")
+        print(f"  global: {len(g):,} chars")
+    else:
+        warn("global empty")
     for tag, url in MACRO_PAGES:
         html = fetch(url)
-        if not html:
-            continue
-        md = html_to_md(html)
-        (RAW_DIR / f"macro_{tag}.md").write_text(md, encoding="utf-8")
-        print(f"  macro {tag}: {len(md):,} chars")
+        out["macro"][tag] = html
+        if html:
+            (RAW_DIR / f"macro_{tag}.html").write_text(html, encoding="utf-8")
+            print(f"  macro {tag}: {len(html):,} chars")
+        else:
+            warn(f"macro {tag} empty")
+    return out
 
 
-# ───── 2. 뉴스 파싱 (parse_and_build.py inline) ─────
+# ───── 2. News parsing (BeautifulSoup) ─────
 BROKERS = {
     "미래에셋": ["미래에셋증권"], "삼성": ["삼성증권"], "NH": ["NH투자증권"],
     "KB": ["KB증권"], "한국투자": ["한국투자증권", "한국투자신탁운용"],
@@ -142,34 +145,112 @@ RE_TARGET_DOWN = re.compile(
 )
 RE_OPINION = re.compile(r"(강력매수|단기매수|매수|중립|보유|매도|비중확대|비중축소)")
 RE_TICKER = re.compile(r"[\"'“‘]([^\"'”’]{2,40})[\"'”’]")
-RE_DATE = re.compile(r"(20\d{2})\.(\d{2})\.(\d{2})\s+(\d{2}:\d{2})")
-
-# html2text 출력 패턴 — `## [title](url)\n  summary lines\n  2026.05.12 09:10`
-ARTICLE_RE = re.compile(
-    r"##\s*\[([^\]]+)\]\((https?://(?:www\.)?hankyung\.com/article/[^)]+)\)\s*\n"
-    r"([\s\S]*?)"
-    r"(\d{4}\.\d{2}\.\d{2}\s+\d{2}:\d{2})",
-    re.MULTILINE,
-)
+RE_DATE = re.compile(r"(20\d{2})[.\-/](\d{2})[.\-/](\d{2})\s+(\d{2}:\d{2})")
 
 
-def parse_markdown(md_text: str) -> list:
+def _clean(text: str) -> str:
+    """줄바꿈/연속 공백/HTML entity 정리."""
+    if not text:
+        return ""
+    text = text.replace("&quot;", '"').replace("&amp;", "&").replace("\xa0", " ")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _normalize_url(href: str) -> str:
+    if not href:
+        return ""
+    if href.startswith("//"):
+        return "https:" + href
+    if href.startswith("/"):
+        return "https://www.hankyung.com" + href
+    return href
+
+
+def _is_article_url(href: str) -> bool:
+    """기사 URL 인지 — /article/<id> 패턴."""
+    if not href:
+        return False
+    return bool(re.search(r"/article/[A-Za-z0-9]+(?:[?#]|$)", href))
+
+
+def parse_news_html(html: str) -> list:
+    """
+    한경 코리아마켓 뉴스 목록 페이지에서 기사 카드 추출.
+
+    구조 가정:
+      - 기사 카드의 메인 링크는 <a href="/article/XXX"> 또는 풀URL
+      - 같은 카드 컨테이너 안에 제목, 요약, 일시가 함께 있음
+      - 같은 카드에서 같은 URL을 가진 <a>가 중복 출현(이미지+제목+더보기 등)
+        → 카드 컨테이너로 올라가서 dedupe
+    """
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "lxml")
     items = []
-    for m in ARTICLE_RE.finditer(md_text):
-        title = m.group(1).strip()
-        url = m.group(2).strip()
-        summary = re.sub(r"\s+", " ", m.group(3).strip())[:500]
-        dt_raw = m.group(4).strip()
-        title = title.replace("&quot;", '"').replace("&amp;", "&")
-        summary = summary.replace("&quot;", '"').replace("&amp;", "&")
-        items.append({"title": title, "url": url, "summary": summary, "datetime_raw": dt_raw})
-    seen, uniq = set(), []
-    for it in items:
-        if it["url"] in seen:
+    seen_urls = set()
+
+    anchors = soup.select('a[href*="/article/"]')
+    for a in anchors:
+        href = a.get("href", "").strip()
+        if not _is_article_url(href):
             continue
-        seen.add(it["url"])
-        uniq.append(it)
-    return uniq
+        url = _normalize_url(href)
+        url_canon = re.split(r"[?#]", url)[0]
+        if url_canon in seen_urls:
+            continue
+
+        card = a.find_parent(["li", "article"])
+        if card is None:
+            card = a.find_parent("div")
+        if card is None:
+            card = a.parent
+
+        title = _clean(a.get_text(" ", strip=True))
+        if not title or len(title) < 4:
+            h = card.find(["h1", "h2", "h3", "h4", "h5"]) if card else None
+            if h:
+                title = _clean(h.get_text(" ", strip=True))
+            if not title or len(title) < 4:
+                cands = [_clean(x.get_text(" ", strip=True))
+                         for x in (card.find_all("a") if card else [])]
+                cands = [c for c in cands if c and len(c) >= 8]
+                if cands:
+                    title = max(cands, key=len)
+        if not title or len(title) < 4:
+            continue
+
+        summary = ""
+        if card:
+            for sel in ["p.lead", "p.summary", "div.summary", "div.lead", "p", "div.txt"]:
+                el = card.select_one(sel)
+                if el:
+                    txt = _clean(el.get_text(" ", strip=True))
+                    if txt and txt != title and len(txt) >= 10:
+                        summary = txt[:500]
+                        break
+
+        dt_raw = ""
+        if card:
+            card_text = card.get_text(" ", strip=True)
+            m = RE_DATE.search(card_text)
+            if m:
+                dt_raw = m.group(0)
+            else:
+                time_el = card.find("time")
+                if time_el:
+                    dt_attr = time_el.get("datetime") or time_el.get_text(" ", strip=True)
+                    if dt_attr:
+                        dt_raw = dt_attr
+
+        seen_urls.add(url_canon)
+        items.append({
+            "title": title,
+            "url": url_canon,
+            "summary": summary,
+            "datetime_raw": dt_raw,
+        })
+
+    return items
 
 
 def extract_brokers(text, title=""):
@@ -186,8 +267,10 @@ def extract_brokers(text, title=""):
 
 
 def extract_target_action(text):
-    if RE_TARGET_UP.search(text): return "up"
-    if RE_TARGET_DOWN.search(text): return "down"
+    if RE_TARGET_UP.search(text):
+        return "up"
+    if RE_TARGET_DOWN.search(text):
+        return "down"
     return None
 
 
@@ -210,41 +293,63 @@ def extract_keywords(title):
 
 
 def dedupe_keywords(kws):
-    if not kws: return []
+    if not kws:
+        return []
     kws = list(dict.fromkeys(kws))
     keep = []
     for k in sorted(kws, key=len):
-        if len(k) < 2 or len(k) > 30: continue
-        if any(s in k and s != k for s in keep): continue
+        if len(k) < 2 or len(k) > 30:
+            continue
+        if any(s in k and s != k for s in keep):
+            continue
         keep.append(k)
     return keep[:3]
 
 
 def normalize_dt(raw):
-    m = RE_DATE.match(raw.strip())
-    if not m: return ""
+    if not raw:
+        return ""
+    try:
+        if "T" in raw and len(raw) >= 16:
+            d = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+            return d.astimezone(KST).isoformat()
+    except Exception:
+        pass
+    m = RE_DATE.search(raw.strip())
+    if not m:
+        return ""
     y, mo, d, hm = m.groups()
     try:
-        return datetime.strptime(f"{y}-{mo}-{d} {hm}", "%Y-%m-%d %H:%M").replace(tzinfo=KST).isoformat()
+        return datetime.strptime(f"{y}-{mo}-{d} {hm}", "%Y-%m-%d %H:%M") \
+            .replace(tzinfo=KST).isoformat()
     except Exception:
         return ""
 
 
 def short_dt(raw):
-    m = RE_DATE.match(raw.strip())
-    if not m: return ""
-    y, mo, d, hm = m.groups()
-    return f"{y}-{mo}-{d} {hm}"
+    if not raw:
+        return ""
+    m = RE_DATE.search(raw.strip())
+    if m:
+        y, mo, d, hm = m.groups()
+        return f"{y}-{mo}-{d} {hm}"
+    try:
+        if "T" in raw and len(raw) >= 16:
+            d = datetime.fromisoformat(raw.replace("Z", "+00:00")).astimezone(KST)
+            return d.strftime("%Y-%m-%d %H:%M")
+    except Exception:
+        pass
+    return ""
 
 
 def enrich(items):
     out = []
     for it in items:
-        text = it["title"] + " " + it["summary"]
+        text = it["title"] + " " + it.get("summary", "")
         out.append({
             **it,
-            "datetime": normalize_dt(it["datetime_raw"]),
-            "dt": short_dt(it["datetime_raw"]),
+            "datetime": normalize_dt(it.get("datetime_raw", "")),
+            "dt": short_dt(it.get("datetime_raw", "")),
             "brokers": extract_brokers(text, it["title"]),
             "opinion": extract_opinion(text),
             "target_action": extract_target_action(text),
@@ -257,16 +362,21 @@ def enrich(items):
 def extract_signals(items):
     by_kw = defaultdict(lambda: {"brokers": set(), "actions": [], "items": [], "opinions": []})
     for it in items:
-        if not it["brokers"]: continue
+        if not it["brokers"]:
+            continue
         for kw in it["keywords"]:
-            if len(kw) < 2: continue
+            if len(kw) < 2:
+                continue
             agg = by_kw[kw]
             agg["brokers"].update(it["brokers"])
-            if it["target_action"]: agg["actions"].append(it["target_action"])
-            if it["opinion"]: agg["opinions"].append(it["opinion"])
+            if it["target_action"]:
+                agg["actions"].append(it["target_action"])
+            if it["opinion"]:
+                agg["opinions"].append(it["opinion"])
             agg["items"].append({
                 "title": it["title"], "url": it["url"], "brokers": it["brokers"],
-                "target_action": it["target_action"], "opinion": it["opinion"], "datetime": it["datetime"],
+                "target_action": it["target_action"], "opinion": it["opinion"],
+                "datetime": it["datetime"],
             })
     out = {"broker_consensus": [], "target_price_cluster_up": [],
            "target_price_cluster_down": [], "divergence": []}
@@ -276,74 +386,86 @@ def extract_signals(items):
         downs = agg["actions"].count("down")
         base = {"keyword": kw, "n_brokers": n, "brokers": sorted(agg["brokers"]),
                 "ups": ups, "downs": downs, "items": agg["items"]}
-        if n >= 2: out["broker_consensus"].append(base)
-        if ups >= 2: out["target_price_cluster_up"].append(base)
-        if downs >= 2: out["target_price_cluster_down"].append(base)
-        if ups >= 1 and downs >= 1: out["divergence"].append(base)
+        if n >= 2:
+            out["broker_consensus"].append(base)
+        if ups >= 2:
+            out["target_price_cluster_up"].append(base)
+        if downs >= 2:
+            out["target_price_cluster_down"].append(base)
+        if ups >= 1 and downs >= 1:
+            out["divergence"].append(base)
     for k in out:
         out[k].sort(key=lambda x: -x["n_brokers"])
     return out
 
 
-def build_news():
-    md_files = sorted(RAW_DIR.glob(f"{TODAY}_p*.md"))
-    if not md_files:
-        print(f"  no news md files for {TODAY}, building empty snapshot")
-        snapshot = {
-            "collected_at": NOW_ISO, "date": TODAY, "source": "hankyung_koreamarket_news",
-            "pages": [], "total_items": 0,
-            "stats": {"with_broker_mention": 0, "target_price_up": 0, "target_price_down": 0, "top_brokers": []},
-            "items": [], "consensus_signals": [],
-        }
-        (SNAP_DIR / f"{TODAY}.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
-        return snapshot
-
+def build_news(fetched: dict):
     all_items = []
-    for f in md_files:
-        items = parse_markdown(f.read_text(encoding="utf-8"))
-        print(f"  parsed {f.name}: {len(items)} items")
-        all_items.extend(items)
+    pages_used = []
+    for tag, _url in NEWS_PAGES:
+        html = fetched["news_pages"].get(tag, "")
+        if not html:
+            continue
+        try:
+            page_items = parse_news_html(html)
+        except Exception as e:
+            warn(f"news parse {tag} failed: {e}")
+            traceback.print_exc()
+            continue
+        print(f"  parsed {tag}: {len(page_items)} items")
+        if not page_items:
+            warn(f"news {tag} parse returned 0 items — DOM 셀렉터 점검 필요")
+        all_items.extend(page_items)
+        pages_used.append(tag)
+
     seen, uniq = set(), []
     for it in all_items:
-        if it["url"] in seen: continue
-        seen.add(it["url"]); uniq.append(it)
-    enriched = enrich(uniq)
+        if it["url"] in seen:
+            continue
+        seen.add(it["url"])
+        uniq.append(it)
 
+    enriched = enrich(uniq)
     bcount = Counter()
-    for x in enriched: bcount.update(x["brokers"])
+    for x in enriched:
+        bcount.update(x["brokers"])
     n_up = sum(1 for x in enriched if x["target_action"] == "up")
     n_down = sum(1 for x in enriched if x["target_action"] == "down")
     n_b = sum(1 for x in enriched if x["brokers"])
-
     signals = extract_signals(enriched)
+
     snapshot = {
         "collected_at": NOW_ISO, "date": TODAY,
         "source": "hankyung_koreamarket_news",
-        "pages": [f.name for f in md_files],
+        "pages": pages_used,
         "total_items": len(enriched),
         "stats": {
-            "with_broker_mention": n_b, "target_price_up": n_up,
-            "target_price_down": n_down, "top_brokers": bcount.most_common(15),
+            "with_broker_mention": n_b,
+            "target_price_up": n_up,
+            "target_price_down": n_down,
+            "top_brokers": bcount.most_common(15),
         },
         "items": enriched,
         "consensus_signals": signals["broker_consensus"],
     }
-    (SNAP_DIR / f"{TODAY}.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
+    (SNAP_DIR / f"{TODAY}.json").write_text(
+        json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
     sig_out = {
         "computed_at": NOW_ISO, "date": TODAY,
         "summary": {k: len(v) for k, v in signals.items()},
         "signals": signals,
         "note": "★ 미검증 가설. 백테스트로 alpha 확인 전 매매 직접 사용 금지.",
     }
-    (SIG_DIR / f"{TODAY}.json").write_text(json.dumps(sig_out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"  news total {len(enriched)} / broker-mention {n_b} / up {n_up} / down {n_down} / consensus {len(signals['broker_consensus'])}")
+    (SIG_DIR / f"{TODAY}.json").write_text(
+        json.dumps(sig_out, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  news total {len(enriched)} / broker-mention {n_b} / up {n_up} / "
+          f"down {n_down} / consensus {len(signals['broker_consensus'])}")
+    if len(enriched) == 0:
+        warn("뉴스 0건 — 페이지 fetch 또는 파싱 모두 실패")
     return snapshot
 
 
-# ───── 3. 매크로 파싱 (macro_parser.py inline) ─────
-MACRO_ROW_RE = re.compile(
-    r"\|\s*\[([^\]]+)\]\([^)]+\)\s*\|\s*([A-Z0-9]+)\s*\|\s*([\d,.\-]+)\s*\|\s*([\d,.\-]+)\s*\|\s*([+\-\d.]+%|0\.00%)\s*\|"
-)
+# ───── 3. Macro parsing (BeautifulSoup) ─────
 MACRO_PICK = {
     "major-indices": ["S&P 500", "나스닥", "다우존스", "반도체", "NIKKEI 225", "홍콩", "독일", "대만"],
     "currencies":    ["미국", "유로", "일본", "중국"],
@@ -357,95 +479,132 @@ MACRO_LABELS = {
     "rates-bonds":   "한경 데이터센터 채권금리",
 }
 
+RE_PCT_CELL = re.compile(r"^[+\-]?\d+(?:\.\d+)?%$")
 
-def parse_macro_table(md_text, picklist):
+
+def parse_macro_html(html: str, picklist: list) -> list:
+    """
+    한경 데이터센터 표 파싱.
+
+    구조 가정:
+      - 페이지에 여러 <table>이 있을 수 있음 (일일 데이터 + 기간 데이터)
+      - 일일 표 행은 보통 9개 셀: [이름 a] | 심볼 | 종가 | 전일비 | 전일비(%) | 시가 | 고가 | 저가 | 거래일
+      - 첫 컬럼 anchor 텍스트가 picklist에 포함되면 채택
+      - 같은 이름이 여러 table에 등장하면 첫 등장(=일일 표)만 채택
+    """
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "lxml")
     rows = []
-    for m in MACRO_ROW_RE.finditer(md_text):
-        name = m.group(1).strip()
-        if name not in picklist: continue
+    for tr in soup.select("table tr"):
+        tds = tr.find_all("td")
+        if len(tds) < 5:
+            continue
+        first = tds[0]
+        a = first.find("a")
+        name = _clean((a.get_text(" ", strip=True) if a else first.get_text(" ", strip=True)))
+        if not name or name not in picklist:
+            continue
+        cells = [_clean(td.get_text(" ", strip=True)) for td in tds]
+        symbol = cells[1] if len(cells) > 1 else ""
+        close = cells[2] if len(cells) > 2 else ""
+        chg = cells[3] if len(cells) > 3 else ""
+        chg_pct = ""
+        for c in cells[3:7]:
+            if RE_PCT_CELL.match(c):
+                chg_pct = c
+                break
         rows.append({
-            "name": name, "symbol": m.group(2).strip(),
-            "close": m.group(3).strip(), "chg": m.group(4).strip(),
-            "chg_pct": m.group(5).strip(),
+            "name": name, "symbol": symbol,
+            "close": close, "chg": chg, "chg_pct": chg_pct,
         })
-    return rows
+    seen, uniq = set(), []
+    for r in rows:
+        if r["name"] in seen:
+            continue
+        seen.add(r["name"])
+        uniq.append(r)
+    return uniq
 
 
-def build_macro():
+def build_macro(fetched: dict) -> dict:
     macro = {"collected_at": NOW_ISO, "source": "datacenter.hankyung.com", "categories": {}}
     for key, label in MACRO_LABELS.items():
-        f = RAW_DIR / f"macro_{key}.md"
-        if not f.exists():
-            print(f"  macro: missing {f.name}")
+        html = fetched["macro"].get(key, "")
+        if not html:
+            warn(f"macro {key}: empty html")
             macro["categories"][key] = {"label": label, "items": []}
             continue
-        items = parse_macro_table(f.read_text(encoding="utf-8"), MACRO_PICK[key])
-        seen, uniq = set(), []
-        for it in items:
-            if it["name"] in seen: continue
-            seen.add(it["name"]); uniq.append(it)
-        macro["categories"][key] = {"label": label, "items": uniq}
-        print(f"  macro {key}: {len(uniq)} indicators")
-    (MACRO_DIR / "latest.json").write_text(json.dumps(macro, ensure_ascii=False, indent=2), encoding="utf-8")
+        try:
+            items = parse_macro_html(html, MACRO_PICK[key])
+        except Exception as e:
+            warn(f"macro {key} parse failed: {e}")
+            traceback.print_exc()
+            items = []
+        macro["categories"][key] = {"label": label, "items": items}
+        if not items:
+            warn(f"macro {key}: 0 items — DOM 셀렉터 점검 필요")
+        print(f"  macro {key}: {len(items)} indicators")
+    (MACRO_DIR / "latest.json").write_text(
+        json.dumps(macro, ensure_ascii=False, indent=2), encoding="utf-8")
     return macro
 
 
-# ───── 4. Morning Brief 자동 생성 ─────
-HEADLINE_RE = re.compile(
-    r"##?\s*\[([^\]]{8,80})\]\((https?://(?:www\.)?hankyung\.com/article/[^)]+)\)"
-)
-
-
-def extract_global_headlines(limit=5):
-    f = RAW_DIR / f"{TODAY}_global.md"
-    if not f.exists(): return []
-    md = f.read_text(encoding="utf-8")
+# ───── 4. Global headlines (글로벌마켓 페이지) ─────
+def parse_global_headlines(html: str, limit: int = 5) -> list:
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "lxml")
     out = []
     seen = set()
-    for m in HEADLINE_RE.finditer(md):
-        title = m.group(1).strip().replace("&quot;", '"').replace("&amp;", "&")
-        url = m.group(2).strip()
-        if url in seen: continue
+    for a in soup.select('a[href*="/article/"]'):
+        href = a.get("href", "")
+        if not _is_article_url(href):
+            continue
+        url = re.split(r"[?#]", _normalize_url(href))[0]
+        if url in seen:
+            continue
+        title = _clean(a.get_text(" ", strip=True))
+        if not title or len(title) < 8:
+            continue
         seen.add(url)
-        if len(title) < 8: continue
         out.append({"title": title, "summary": "", "url": url})
-        if len(out) >= limit: break
+        if len(out) >= limit:
+            break
     return out
 
 
+# ───── 5. Morning Brief 자동 생성 ─────
 def extract_kr_focus(snapshot, limit=3):
-    """코리아마켓 상위 헤드라인 + 합의 시그널 한 줄."""
     out = []
-    items = snapshot.get("items", [])
-    for it in items[:10]:
+    for it in snapshot.get("items", [])[:10]:
         if it.get("dt"):
             out.append(f"{it['title']} ({it['dt']})")
         else:
             out.append(it["title"])
-        if len(out) >= limit: break
+        if len(out) >= limit:
+            break
     cs = snapshot.get("consensus_signals", [])
     if cs and len(out) < limit + 1:
         top = cs[0]
-        out.append(f"★ 합의 시그널 — {top['keyword']}: {top['n_brokers']}사 동조 ({', '.join(top['brokers'])})")
+        out.append(f"★ 합의 시그널 — {top['keyword']}: {top['n_brokers']}사 동조 "
+                   f"({', '.join(top['brokers'])})")
     return out[:limit + 1]
 
 
 def parse_pct(s):
-    """'-2.15%' -> -2.15 / fallback 0.0"""
     try:
-        return float(s.replace("%", "").replace("+", ""))
+        return float(str(s).replace("%", "").replace("+", "").replace(",", ""))
     except Exception:
         return 0.0
 
 
 def parse_bp_change(name, items):
-    """채권 yield의 chg (절댓값 bp). chg 값은 '0.09' 같은 yield 변동분 (%포인트)."""
     for it in items:
         if it["name"] == name:
             try:
-                # chg_pct sign 사용해서 방향 판단
-                sign = -1 if it["chg_pct"].startswith("-") else 1
-                bp = abs(float(it["chg"])) * 100  # %p → bp
+                sign = -1 if str(it.get("chg_pct", "")).startswith("-") else 1
+                bp = abs(float(str(it.get("chg", "0")).replace(",", ""))) * 100
                 return sign * bp
             except Exception:
                 return 0.0
@@ -453,81 +612,84 @@ def parse_bp_change(name, items):
 
 
 def detect_axes(macro):
-    """매크로 변동에서 자동으로 회전축 함의 생성."""
     cats = macro.get("categories", {})
     indices = {x["name"]: x for x in cats.get("major-indices", {}).get("items", [])}
-    fx       = {x["name"]: x for x in cats.get("currencies", {}).get("items", [])}
-    comm     = {x["name"]: x for x in cats.get("commodities", {}).get("items", [])}
+    fx = {x["name"]: x for x in cats.get("currencies", {}).get("items", [])}
+    comm = {x["name"]: x for x in cats.get("commodities", {}).get("items", [])}
     rates_items = cats.get("rates-bonds", {}).get("items", [])
 
     axes = []
 
-    # 금리 민감 회전축 — 美 10년 ±5bp 이상
     us10_bp = parse_bp_change("미국 국채 10년", rates_items)
     if abs(us10_bp) >= 5:
         direction = "상승" if us10_bp > 0 else "하락"
         axes.append({
             "axis": "금리 민감 회전축",
-            "view": f"미국 10년 yield {us10_bp:+.1f}bp {direction}. 리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
-            "confidence": "중 — 백테스트 미검증"
+            "view": f"미국 10년 yield {us10_bp:+.1f}bp {direction}. "
+                    "리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
+            "confidence": "중 — 백테스트 미검증",
         })
 
-    # 에너지 회전축 — 브렌트 ±2% 이상
     brent = comm.get("브렌트")
     if brent:
-        pct = parse_pct(brent["chg_pct"])
+        pct = parse_pct(brent.get("chg_pct"))
         if abs(pct) >= 2:
             direction = "급등" if pct > 0 else "급락"
             axes.append({
                 "axis": "에너지 회전축",
-                "view": f"브렌트 {pct:+.2f}% {direction}. 정유·해운·항공 비용 구조 영향. 단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
-                "confidence": "낮음 — 변동성 자체가 검증 까다로움"
+                "view": f"브렌트 {pct:+.2f}% {direction}. 정유·해운·항공 비용 구조 영향. "
+                        "단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
+                "confidence": "낮음 — 변동성 자체가 검증 까다로움",
             })
 
-    # 반도체 회전축 — 반도체 지수 ±1.5% 이상
     semi = indices.get("반도체")
     if semi:
-        pct = parse_pct(semi["chg_pct"])
+        pct = parse_pct(semi.get("chg_pct"))
         if abs(pct) >= 1.5:
             direction = "강세" if pct > 0 else "조정"
+            tail = "단기 과열 경계" if pct > 0 else "저점 매수 진입 검토"
             axes.append({
                 "axis": "반도체 회전축",
-                "view": f"美 반도체 지수 {pct:+.2f}% {direction}. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. {'단기 과열 경계' if pct > 0 else '저점 매수 진입 검토'} — 확신은 합의 시그널과 교차검증 필요.",
-                "confidence": "중 — 백테스트 미검증"
+                "view": f"美 반도체 지수 {pct:+.2f}% {direction}. "
+                        f"한국 반도체(삼성·하이닉스) 동조 가능성 큼. {tail} — "
+                        "확신은 합의 시그널과 교차검증 필요.",
+                "confidence": "중 — 백테스트 미검증",
             })
 
-    # 환율 민감 회전축 — USDKRW ±0.3% 이상
     usdkrw = fx.get("미국")
     if usdkrw:
-        pct = parse_pct(usdkrw["chg_pct"])
+        pct = parse_pct(usdkrw.get("chg_pct"))
         if abs(pct) >= 0.3:
             direction = "원화 약세" if pct > 0 else "원화 강세"
+            tail = ("수출주(반도체·자동차) 마진 호조"
+                    if pct > 0 else "내수주 / 외국인 수급 우호 가능")
             axes.append({
                 "axis": "환율 민감 회전축",
-                "view": f"USDKRW {pct:+.2f}% ({direction}). {'수출주(반도체·자동차) 마진 호조' if pct > 0 else '내수주 / 외국인 수급 우호 가능'} — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-                "confidence": "낮음 — 단기 변동성 큼"
+                "view": f"USDKRW {pct:+.2f}% ({direction}). {tail} — "
+                        "단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+                "confidence": "낮음 — 단기 변동성 큼",
             })
 
     if not axes:
         axes.append({
             "axis": "관찰 대기",
             "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-            "confidence": "낮음 — 신호 부재"
+            "confidence": "낮음 — 신호 부재",
         })
     return axes
 
 
 def detect_regime(macro):
-    """매크로 톤 한 줄."""
     cats = macro.get("categories", {})
     indices = cats.get("major-indices", {}).get("items", [])
     if not indices:
         return "데이터 부족 — 매크로 톤 판별 불가 (가설)"
-    pcts = [parse_pct(x["chg_pct"]) for x in indices if x["name"] in ("S&P 500", "나스닥", "반도체")]
+    pcts = [parse_pct(x.get("chg_pct")) for x in indices
+            if x["name"] in ("S&P 500", "나스닥", "반도체")]
     if not pcts:
         return "주요 지수 데이터 부족 (가설)"
     avg = sum(pcts) / len(pcts)
-    semi = next((parse_pct(x["chg_pct"]) for x in indices if x["name"] == "반도체"), 0)
+    semi = next((parse_pct(x.get("chg_pct")) for x in indices if x["name"] == "반도체"), 0)
     rates = cats.get("rates-bonds", {}).get("items", [])
     us10_bp = parse_bp_change("미국 국채 10년", rates)
 
@@ -542,20 +704,25 @@ def detect_regime(macro):
     return f"{tone} (가설)"
 
 
-def build_brief(snapshot, macro):
-    print(f"[brief] auto-generate")
+def build_brief(snapshot, macro, fetched):
+    print("[brief] auto-generate")
     try:
-        themes = extract_global_headlines(5)
+        themes = []
+        try:
+            themes = parse_global_headlines(fetched.get("global", ""), limit=5)
+        except Exception as e:
+            warn(f"global headlines parse failed: {e}")
+            traceback.print_exc()
         kr_focus = extract_kr_focus(snapshot, 3)
         axes = detect_axes(macro)
         regime = detect_regime(macro)
 
-        # headline — themes 첫 항목이 있으면 그것 사용, 없으면 합의 시그널 기반
         if themes:
             headline = themes[0]["title"]
         elif snapshot.get("consensus_signals"):
             top = snapshot["consensus_signals"][0]
-            headline = f"합의 시그널 — {top['keyword']}: {top['n_brokers']}개사 동조 ({', '.join(top['brokers'])})"
+            headline = (f"합의 시그널 — {top['keyword']}: "
+                        f"{top['n_brokers']}개사 동조 ({', '.join(top['brokers'])})")
         else:
             headline = f"{TODAY} 자동 빌드 — 신규 합의 시그널 없음"
 
@@ -568,7 +735,7 @@ def build_brief(snapshot, macro):
             ],
             "headline": headline,
             "us_market_snapshot": [],
-            "themes": themes,
+            "themes": themes[:4],
             "today_kr_focus": kr_focus,
             "carousel_implications": {
                 "regime": regime,
@@ -577,18 +744,21 @@ def build_brief(snapshot, macro):
             },
             "macro": macro,
         }
-        # 자동 생성 검증 — themes/axes 둘 다 비어있으면 fallback
-        if not themes and not kr_focus:
-            print("  brief auto-gen yielded empty — using fallback")
+
+        no_news = (snapshot.get("total_items", 0) == 0)
+        no_macro_items = all(
+            not v.get("items") for v in macro.get("categories", {}).values()
+        )
+        if no_news and no_macro_items and not themes:
+            print("  brief auto-gen yielded empty across all sources — using fallback")
             return load_fallback_brief(macro)
 
         (DATA_ROOT / "morning_brief.json").write_text(
-            json.dumps(brief, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
+            json.dumps(brief, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"  brief: themes={len(themes)}, kr_focus={len(kr_focus)}, axes={len(axes)}")
         return brief
     except Exception as e:
-        print(f"  brief auto-gen failed: {e}")
+        warn(f"brief auto-gen failed: {e}")
         traceback.print_exc()
         return load_fallback_brief(macro)
 
@@ -609,10 +779,12 @@ def load_fallback_brief(macro):
     brief = json.loads(fb.read_text(encoding="utf-8"))
     brief["macro"] = macro
     brief["as_of"] = datetime.now(KST).strftime("%Y-%m-%d %H:%M KST") + " (fallback)"
+    (DATA_ROOT / "morning_brief.json").write_text(
+        json.dumps(brief, ensure_ascii=False, indent=2), encoding="utf-8")
     return brief
 
 
-# ───── 5. index.html 빌드 ─────
+# ───── 6. index.html 빌드 ─────
 def build_index(snapshot, brief):
     tpl_path = BUILD_DIR / "dashboard_base.html"
     tpl = tpl_path.read_text(encoding="utf-8")
@@ -626,17 +798,18 @@ def build_index(snapshot, brief):
 
 # ───── main ─────
 def main():
-    print(f"=== Carousel R&D Daily Build :: {NOW_ISO} ===")
+    print(f"=== Carousel R&D Daily Build (v2 / bs4) :: {NOW_ISO} ===")
+    fetched = {"news_pages": {}, "global": "", "macro": {}}
     try:
-        fetch_all()
+        fetched = fetch_all()
     except Exception as e:
-        print(f"fetch error (continuing): {e}")
+        warn(f"fetch error (continuing): {e}")
         traceback.print_exc()
-    snapshot = build_news()
-    macro = build_macro()
-    brief = build_brief(snapshot, macro)
+    snapshot = build_news(fetched)
+    macro = build_macro(fetched)
+    brief = build_brief(snapshot, macro, fetched)
     build_index(snapshot, brief)
-    print(f"=== DONE ===")
+    print("=== DONE ===")
 
 
 if __name__ == "__main__":
