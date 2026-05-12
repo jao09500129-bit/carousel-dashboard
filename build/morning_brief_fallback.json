@@ -1,0 +1,72 @@
+{
+  "as_of": "2026-05-12 09:30 KST",
+  "sources": [
+    "https://www.hankyung.com/globalmarket",
+    "https://www.hankyung.com/globalmarket/news-wallstreet-now",
+    "https://www.hankyung.com/globalmarket/global-commodities"
+  ],
+  "headline": "美 나스닥 25,000 첫 돌파·S&P 사상 최고 — 애플 호실적·이란 평화제안에 유가 안정세",
+  "us_market_snapshot": [
+    {"asset": "S&P 500", "level": "사상 최고", "change": "+", "note": "5월 첫 거래일 또 사상 최고 (4월 누적 +10%↑)"},
+    {"asset": "Nasdaq", "level": "25,000", "change": "+", "note": "첫 돌파. 애플·반도체 견인"},
+    {"asset": "AAPL", "level": "$280.14", "change": "+3.24%", "note": "호실적 발표 후 강세"},
+    {"asset": "NVDA", "level": "$198.45", "change": "-0.56%", "note": "약보합"},
+    {"asset": "TSLA", "level": "$390.82", "change": "+2.41%", "note": ""},
+    {"asset": "WTI 유가", "level": "—", "change": "↓", "note": "이란 평화제안에 내림세"},
+    {"asset": "금", "level": "$4,800~5,000", "change": "변동성", "note": "중동 위기 안전자산 수요"},
+    {"asset": "브렌트유", "level": "$99.94 → 변동", "change": "↓→↑", "note": "이란 강경발언 시 9% 급등, 협상 시 11% 급락"}
+  ],
+  "themes": [
+    {
+      "title": "美 관세·정책 리스크",
+      "summary": "트럼프 EU 자동차 25% 관세 위협. 무역전쟁 재점화 우려 — 한국 자동차·소재 변동성 요인.",
+      "url": "https://www.hankyung.com/article/202605021341i"
+    },
+    {
+      "title": "중동·유가 변동성",
+      "summary": "이란 평화 제안 → 유가 안정. 단 호르무즈 봉쇄 잔존, 사우디 \"4월까지 지속 시 $180 가능\" 경고. 변동성은 양방향 잔존.",
+      "url": "https://www.hankyung.com/article/2026032413847"
+    },
+    {
+      "title": "AI·반도체 모멘텀 지속",
+      "summary": "나스닥 25,000 돌파에 빅테크·반도체가 견인. 단 골드만 \"조정 외친다\" — 단기 과열 경계 시각도 등장.",
+      "url": "https://www.hankyung.com/article/202605021358i"
+    },
+    {
+      "title": "금·안전자산",
+      "summary": "중동 위기로 골드러시 재개. 금 $4,800~$5,000 박스권 변동성 확대.",
+      "url": "https://www.hankyung.com/article/2026050112565"
+    }
+  ],
+  "today_kr_focus": [
+    "어제 KOSPI 7,822.24 마감 (+4.32%, 사상 최고). 시총 7,000조 돌파.",
+    "삼성전자·SK하이닉스 사상 최고가 행진 — 빅테크 ASML 장비 지원 제안 영향",
+    "복수 증권사(메리츠·IBK·한화) \"여전히 코스피 저평가\" 동조 — 합의 시그널 형성"
+  ],
+  "carousel_implications": {
+    "regime": "AI 모멘텀 + 지정학 변동성의 이중 구조 (가설)",
+    "axes": [
+      {
+        "axis": "반도체 회전축",
+        "view": "美 메가캡 강세가 한국 반도체와 강하게 동조. 이미 회전 진행 중인 축이라면 회전 속도 늦추고 holding 우위 가능성. 신규 진입은 단기 과열 경계.",
+        "confidence": "중 — 백테스트 미검증"
+      },
+      {
+        "axis": "에너지·정유 회전축",
+        "view": "유가 양방향 변동성 큼. 회전 진입 타이밍 까다로움 — 명확한 catalyst (호르무즈 봉쇄 해제/재봉쇄) 후 진입이 안전.",
+        "confidence": "낮음 — 변동성 자체가 alpha 검증 어렵게 함"
+      },
+      {
+        "axis": "자동차·수출주 회전축",
+        "view": "트럼프 관세 리스크로 일시 빼는 것 검토. 단 한국이 직접 대상 아닐 경우 오히려 대체 수혜 가능성도 — 추가 모니터링 필요.",
+        "confidence": "중 — 정책 이벤트 의존도 큼"
+      },
+      {
+        "axis": "금·안전자산 페어",
+        "view": "박스권 변동성이라 회전축 자체보다는 헤지 비중 조정 변수로 활용 가능.",
+        "confidence": "낮음 — 직접 회전축으로는 부적합"
+      }
+    ],
+    "note": "★ 모든 함의는 가설. 백테스트로 alpha 검증 전 직접 매매 사용 금지. 회전목마 R&D의 *환경 인식* 보조 자료로만 활용."
+  }
+}
