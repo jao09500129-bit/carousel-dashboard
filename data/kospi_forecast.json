@@ -1,20 +1,10 @@
 {
-  "computed_at": "2026-05-13T00:02:32.152274+09:00",
+  "computed_at": "2026-05-13T10:47:35.595934+09:00",
   "date": "2026-05-13",
-  "low": 7000,
-  "high": 7000,
-  "mid": 7000,
-  "sample_size": 1,
-  "sources": [
-    {
-      "url": "https://www.hankyung.com/article/2026051184797",
-      "title": "'8천피' 눈앞인데 \"아직 코스피 저평가\"…파격 전망의 이유",
-      "low": null,
-      "high": null,
-      "points": [
-        7000
-      ]
-    }
-  ],
+  "low": null,
+  "high": null,
+  "mid": null,
+  "sample_size": 0,
+  "sources": [],
   "note": "★ 추정 — 기사 본문 정규식 추출, 백테스트 미검증. 7000~9000 범위 내 수치만 채택."
 }

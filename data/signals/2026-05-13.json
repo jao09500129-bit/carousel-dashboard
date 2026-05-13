@@ -1,8 +1,8 @@
 {
-  "computed_at": "2026-05-13T00:02:32.152274+09:00",
+  "computed_at": "2026-05-13T10:47:35.595934+09:00",
   "date": "2026-05-13",
   "summary": {
-    "broker_consensus": 4,
+    "broker_consensus": 3,
     "target_price_cluster_up": 0,
     "target_price_cluster_down": 0,
     "divergence": 0
@@ -44,90 +44,52 @@
         "avg_target_change_pct": 0.0
       },
       {
-        "keyword": "8천피",
-        "n_brokers": 3,
-        "brokers": [
-          "IBK",
-          "메리츠",
-          "한화"
-        ],
-        "ups": 0,
-        "downs": 0,
-        "items": [
-          {
-            "title": "'8천피' 눈앞인데 \"아직 코스피 저평가\"…파격 전망의 이유",
-            "url": "https://www.hankyung.com/article/2026051184797",
-            "brokers": [
-              "메리츠",
-              "IBK",
-              "한화"
-            ],
-            "target_action": null,
-            "opinion": null,
-            "datetime": "2026-05-11T15:20:00+09:00"
-          }
-        ],
-        "avg_target_change_pct": 0.0
-      },
-      {
-        "keyword": "아직 코스피 저평가",
-        "n_brokers": 3,
-        "brokers": [
-          "IBK",
-          "메리츠",
-          "한화"
-        ],
-        "ups": 0,
-        "downs": 0,
-        "items": [
-          {
-            "title": "'8천피' 눈앞인데 \"아직 코스피 저평가\"…파격 전망의 이유",
-            "url": "https://www.hankyung.com/article/2026051184797",
-            "brokers": [
-              "메리츠",
-              "IBK",
-              "한화"
-            ],
-            "target_action": null,
-            "opinion": null,
-            "datetime": "2026-05-11T15:20:00+09:00"
-          }
-        ],
-        "avg_target_change_pct": 0.0
-      },
-      {
-        "keyword": "삼성증권",
+        "keyword": "미래에셋증권",
         "n_brokers": 2,
         "brokers": [
-          "삼성",
-          "한국투자"
+          "미래에셋",
+          "유안타"
         ],
         "ups": 1,
         "downs": 0,
         "items": [
           {
-            "title": "\"삼성증권, 증시호황으로 모든 부문 실적 호조…목표가↑\"-한국",
-            "url": "https://www.hankyung.com/article/2026051295406",
+            "title": "\"미래에셋증권, 2분기 이익 1분기보다 더 높다…목표가↑\"-유안타",
+            "url": "https://www.hankyung.com/article/2026051323446",
             "brokers": [
-              "삼성",
-              "한국투자"
+              "미래에셋",
+              "유안타"
             ],
             "target_action": "up",
             "opinion": "매수",
-            "datetime": "2026-05-12T07:36:00+09:00"
-          },
+            "datetime": "2026-05-13T08:00:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": -99.7
+      },
+      {
+        "keyword": "나상하 메리츠증권 차장",
+        "n_brokers": 2,
+        "brokers": [
+          "KB",
+          "메리츠"
+        ],
+        "ups": 0,
+        "downs": 0,
+        "items": [
           {
-            "title": "삼성증권, 증시 활황에 1분기 순이익 4509억…역대 최대",
-            "url": "https://www.hankyung.com/article/2026051187986",
+            "title": "나상하 메리츠증권 차장, 누적수익률 46.6%로 1위 탈환",
+            "url": "https://www.hankyung.com/article/2026051322746",
             "brokers": [
-              "삼성"
+              "KB",
+              "메리츠"
             ],
             "target_action": null,
             "opinion": null,
-            "datetime": "2026-05-11T16:33:00+09:00"
+            "datetime": "2026-05-13T08:00:00+09:00"
           }
         ],
-        "avg_target_change_pct": -99.66
+        "avg_target_change_pct": 0.0
       }
     ],
     "target_price_cluster_up": [],
