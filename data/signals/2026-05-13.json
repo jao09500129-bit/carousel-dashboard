@@ -1,97 +1,14 @@
 {
-  "computed_at": "2026-05-13T11:04:51.934465+09:00",
+  "computed_at": "2026-05-13T18:50:26.615528+09:00",
   "date": "2026-05-13",
   "summary": {
-    "broker_consensus": 3,
+    "broker_consensus": 0,
     "target_price_cluster_up": 0,
     "target_price_cluster_down": 0,
     "divergence": 0
   },
   "signals": {
-    "broker_consensus": [
-      {
-        "keyword": "코스콤",
-        "n_brokers": 7,
-        "brokers": [
-          "BNK",
-          "DB",
-          "IBK",
-          "다올",
-          "대신",
-          "유안타",
-          "키움"
-        ],
-        "ups": 0,
-        "downs": 0,
-        "items": [
-          {
-            "title": "코스콤·다올투자증권, STO 플랫폼 맞손…참여사 10곳으로 확대",
-            "url": "https://www.hankyung.com/article/2026051215476",
-            "brokers": [
-              "키움",
-              "대신",
-              "유안타",
-              "IBK",
-              "다올",
-              "DB",
-              "BNK"
-            ],
-            "target_action": null,
-            "opinion": null,
-            "datetime": "2026-05-12T17:01:00+09:00"
-          }
-        ],
-        "avg_target_change_pct": 0.0
-      },
-      {
-        "keyword": "미래에셋증권",
-        "n_brokers": 2,
-        "brokers": [
-          "미래에셋",
-          "유안타"
-        ],
-        "ups": 1,
-        "downs": 0,
-        "items": [
-          {
-            "title": "\"미래에셋증권, 2분기 이익 1분기보다 더 높다…목표가↑\"-유안타",
-            "url": "https://www.hankyung.com/article/2026051323446",
-            "brokers": [
-              "미래에셋",
-              "유안타"
-            ],
-            "target_action": "up",
-            "opinion": "매수",
-            "datetime": "2026-05-13T08:00:00+09:00"
-          }
-        ],
-        "avg_target_change_pct": -99.7
-      },
-      {
-        "keyword": "나상하 메리츠증권 차장",
-        "n_brokers": 2,
-        "brokers": [
-          "KB",
-          "메리츠"
-        ],
-        "ups": 0,
-        "downs": 0,
-        "items": [
-          {
-            "title": "나상하 메리츠증권 차장, 누적수익률 46.6%로 1위 탈환",
-            "url": "https://www.hankyung.com/article/2026051322746",
-            "brokers": [
-              "KB",
-              "메리츠"
-            ],
-            "target_action": null,
-            "opinion": null,
-            "datetime": "2026-05-13T08:00:00+09:00"
-          }
-        ],
-        "avg_target_change_pct": 0.0
-      }
-    ],
+    "broker_consensus": [],
     "target_price_cluster_up": [],
     "target_price_cluster_down": [],
     "divergence": []

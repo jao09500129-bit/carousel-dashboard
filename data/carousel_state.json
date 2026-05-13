@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-05-13T11:04:51.934465+09:00",
+  "computed_at": "2026-05-13T18:50:26.615528+09:00",
   "current_pivot": "반도체",
   "current_view": "美 반도체 지수 -3.01% 조정. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 저점 매수 진입 검토 — 확신은 합의 시그널과 교차검증 필요.",
   "current_confidence": "중 — 백테스트 미검증",
@@ -11,16 +11,6 @@
       "name": "에너지",
       "probability": 0.2,
       "trigger": "브렌트 +3.42%"
-    },
-    {
-      "name": "환율 민감",
-      "probability": 0.2,
-      "trigger": "USDKRW +0.42%"
-    },
-    {
-      "name": "금융",
-      "probability": 0.6,
-      "trigger": "시그널 누적 score 72"
     }
   ],
   "note": "★ 추정 — 매크로 변동성·conviction 휴리스틱 기반, 백테스트 미검증."

@@ -1,18 +1,9 @@
 {
-  "computed_at": "2026-05-13T11:04:51.934465+09:00",
+  "computed_at": "2026-05-13T18:50:26.615528+09:00",
   "carousel_recommendation": "에너지",
   "carousel_sector": "에너지",
-  "consensus_top": [
-    {
-      "sector": "금융",
-      "weight": 0.64
-    },
-    {
-      "sector": "기타",
-      "weight": 0.36
-    }
-  ],
-  "alignment_score": 30,
+  "consensus_top": [],
+  "alignment_score": 0,
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
   "note": "★ 추정 — 섹터 매핑 휴리스틱, 백테스트 미검증."
