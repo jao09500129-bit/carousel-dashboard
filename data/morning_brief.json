@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-13 10:55 KST",
+  "as_of": "2026-05-13 11:04 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
+    "코스피, 장중 상승 전환…1%대 올라 7700선 회복 (2026-05-13 11:03)",
+    "삼성전자 급락하자 '풀매수'한 초고수들…뭐 팔았나 봤더니 (2026-05-13 11:00)",
     "HD현대삼호, 7485억 규모 LNG운반선 2척 수주 (2026-05-13 10:18)",
-    "코스맥스, 예상치 밑도는 1분기 실적에 13%대 급락 (2026-05-13 09:58)",
-    "\"로봇주에 자금 몰린다\"…코스모로보틱스·현대차 계열 급등 (2026-05-13 09:43)",
     "★ 합의 시그널 — 코스콤: 7사 동조 (BNK, DB, IBK, 다올, 대신, 유안타, 키움)"
   ],
   "carousel_implications": {
@@ -54,16 +54,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.43% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.42% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.43%"
+        "trigger_value": "+0.42%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-13T10:55:11.699854+09:00",
+    "collected_at": "2026-05-13T11:04:51.934465+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -133,23 +133,23 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,496.95",
-            "chg": "6.46",
-            "chg_pct": "+0.43%"
+            "close": "1,496.74",
+            "chg": "6.25",
+            "chg_pct": "+0.42%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,757.66",
-            "chg": "9.09",
-            "chg_pct": "+0.52%"
+            "close": "1,757.34",
+            "chg": "8.77",
+            "chg_pct": "+0.50%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "949.52",
-            "chg": "3.89",
-            "chg_pct": "+0.41%"
+            "close": "949.74",
+            "chg": "4.11",
+            "chg_pct": "+0.43%"
           },
           {
             "name": "중국",
