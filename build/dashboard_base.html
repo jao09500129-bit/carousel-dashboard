@@ -448,6 +448,290 @@ details.more[open] > summary::after { transform: rotate(180deg); }
   .today .big-action { font-size: 24px; }
   .cmp { grid-template-columns: 1fr; }
 }
+
+/* ═════════════════════════════════════════════════════
+   v5: 회전목마 Paper Trading 패널 (상단 6섹션)
+   ═════════════════════════════════════════════════════ */
+.paper-zone { display: none; }
+.paper-zone.on { display: block; }
+.paper-zone .pz-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin: 4px 4px 10px;
+  font-size: 12px; color: var(--text-faint);
+}
+.paper-zone .pz-header .lbl {
+  background: var(--brand-soft); color: var(--brand);
+  padding: 3px 10px; border-radius: 999px;
+  font-weight: 700; letter-spacing: .02em;
+}
+.paper-zone .pz-header .since { font-variant-numeric: tabular-nums; }
+
+.pcard {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 16px 18px 18px;
+  margin-bottom: 12px;
+}
+.pcard .pch {
+  font-size: 16px; font-weight: 700; color: var(--text);
+  margin: 0 0 4px;
+}
+.pcard .pcdesc {
+  font-size: 12.5px; color: var(--text-faint);
+  margin: 0 0 12px;
+}
+.pcard .pcnote {
+  margin-top: 10px;
+  font-size: 11.5px; color: var(--text-faint);
+  line-height: 1.5;
+}
+
+/* p0: weights + portfolio grid */
+.p0-grid {
+  display: grid; gap: 12px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) { .p0-grid { grid-template-columns: 1fr 1fr; } }
+
+.weights-card, .portfolio-card {
+  background: var(--bg-soft);
+  border-radius: 12px;
+  padding: 12px 14px 14px;
+}
+.weights-card h3, .portfolio-card h3 {
+  font-size: 13px; color: var(--text-dim);
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+.weight-row {
+  display: grid;
+  grid-template-columns: 110px 1fr 44px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 12.5px;
+}
+.weight-row .etf-name { color: var(--text-dim); }
+.weight-row .bar-bg {
+  height: 8px; background: var(--border); border-radius: 99px;
+  overflow: hidden;
+}
+.weight-row .bar {
+  height: 100%; background: var(--text-faint);
+  border-radius: 99px;
+  transition: width .4s ease;
+}
+.weight-row .bar.bar-active {
+  background: linear-gradient(90deg, var(--brand) 0%, #60a5fa 100%);
+}
+.weight-row .pct {
+  text-align: right; font-variant-numeric: tabular-nums;
+  font-weight: 600; color: var(--text);
+}
+
+.portfolio-card .big-num {
+  font-size: 28px; font-weight: 800; line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.01em;
+}
+.portfolio-card .big-num.positive { color: var(--buy-deep); }
+.portfolio-card .big-num.negative { color: var(--sell-deep); }
+.portfolio-card .sub {
+  font-size: 12px; color: var(--text-faint);
+  margin-top: 2px;
+}
+.portfolio-card .holdings-list {
+  margin-top: 10px;
+  font-size: 12.5px;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+.portfolio-card .holdings-list .row { display: block; }
+
+.regime-strip {
+  margin-top: 12px;
+  background: var(--bg-soft);
+  border-radius: 10px;
+  padding: 9px 12px;
+  display: flex; flex-wrap: wrap; gap: 6px 14px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.regime-strip b { color: var(--text); }
+
+.weight-changes {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.weight-changes .wc {
+  display: flex; align-items: center; gap: 6px;
+  margin: 4px 0;
+}
+.wc .delta { font-weight: 700; font-variant-numeric: tabular-nums; }
+.wc .delta.up { color: var(--buy-deep); }
+.wc .delta.down { color: var(--sell-deep); }
+
+/* p1: m26 gate */
+.gate-status {
+  font-size: 20px; font-weight: 700;
+  padding: 14px 16px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.gate-status.good { background: var(--buy-soft); color: var(--buy-deep); }
+.gate-status.bad { background: var(--sell-soft); color: var(--sell-deep); }
+.gate-status.neutral { background: var(--hold-soft); color: var(--hold-deep); }
+
+.indicator-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+@media (max-width: 480px) { .indicator-grid { grid-template-columns: 1fr; } }
+.ind {
+  background: var(--bg-soft);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.ind .label { font-size: 11.5px; color: var(--text-faint); }
+.ind .val { font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.ind .threshold { font-size: 11px; color: var(--text-faint); }
+
+.caveat {
+  font-size: 11.5px; color: var(--text-faint);
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  background: var(--bg-soft);
+  border-radius: 8px;
+}
+
+/* p2: bt vs live */
+.bt-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+@media (max-width: 480px) { .bt-grid { grid-template-columns: 1fr; } }
+.bt-grid > div {
+  background: var(--bg-soft);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.bt-grid .label { font-size: 11.5px; color: var(--text-faint); }
+.bt-grid .val { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.bt-grid .note { font-size: 11px; color: var(--text-faint); margin-top: 4px; }
+
+.timeline {
+  margin-top: 12px;
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 56px;
+  padding: 6px 4px;
+  background: var(--bg-soft);
+  border-radius: 8px;
+}
+.timeline .tl {
+  flex: 1; min-width: 6px;
+  background: var(--border);
+  border-radius: 2px 2px 0 0;
+  position: relative;
+}
+.timeline .tl.up { background: var(--buy); }
+.timeline .tl.down { background: var(--sell); }
+.timeline .tl.flat { background: var(--text-faint); }
+
+/* p3: schedule */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+@media (max-width: 480px) { .schedule-grid { grid-template-columns: 1fr; } }
+.schedule-grid .event {
+  background: var(--bg-soft);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.event .dday {
+  font-size: 18px; font-weight: 800; color: var(--brand);
+  font-variant-numeric: tabular-nums;
+}
+.event .dday.imminent { color: var(--sell-deep); }
+.event .date { font-size: 11.5px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.event .title { font-size: 13px; color: var(--text-dim); }
+
+/* p4: collab R&D */
+.collab-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+@media (max-width: 480px) { .collab-grid { grid-template-columns: 1fr; } }
+.collab-grid > div {
+  background: var(--bg-soft);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.collab-grid .label { font-size: 11.5px; color: var(--text-faint); }
+.collab-grid .val { font-size: 14px; font-weight: 600; color: var(--text); }
+
+/* p5: tail watch */
+.risk-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+@media (max-width: 480px) { .risk-grid { grid-template-columns: 1fr; } }
+.risk-grid > div {
+  background: var(--bg-soft);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.risk-grid .label { font-size: 11.5px; color: var(--text-faint); }
+.risk-grid .val { font-size: 14px; font-weight: 700; color: var(--text); }
+.risk-grid .val.good { color: var(--buy-deep); }
+.risk-grid .val.bad { color: var(--sell-deep); }
+
+/* paper-empty (fallback) */
+.paper-empty {
+  background: var(--bg-card);
+  border: 1px dashed var(--border-strong);
+  border-radius: 14px;
+  padding: 18px 18px 16px;
+  margin-bottom: 14px;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.paper-empty .hint {
+  margin-top: 4px;
+  font-size: 11.5px;
+  color: var(--text-faint);
+  font-family: ui-monospace, Menlo, monospace;
+}
+
+/* trade today badge */
+.trade-today-pill {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: var(--brand-soft); color: var(--brand);
+  padding: 3px 9px; border-radius: 999px;
+  font-size: 11.5px; font-weight: 700;
+  margin-left: 4px;
+}
+.trade-today-pill.executed { background: var(--buy-soft); color: var(--buy-deep); }
+.trade-today-pill.hold { background: var(--bg-soft); color: var(--text-faint); }
 </style>
 </head>
 <body>
@@ -460,6 +744,151 @@ details.more[open] > summary::after { transform: rotate(180deg); }
     <div class="meta">
       <span id="m-collected">—</span>
     </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════
+       v5 신규: 회전목마 Paper Trading 패널 (상단 6섹션)
+       paper_status.json 가 있을 때만 보임.
+       ════════════════════════════════════════════════ -->
+  <div id="paper-zone" class="paper-zone">
+    <div class="pz-header">
+      <span class="lbl">PAPER TRADING</span>
+      <span class="since">D+<span id="ps-dday">—</span> · 최종 <span id="ps-updated">—</span></span>
+    </div>
+
+    <!-- Section P0: m21 paper trading 현황 (가장 위) -->
+    <section class="pcard">
+      <div class="pch">💼 회전목마 m21 — 오늘</div>
+      <div class="pcdesc">💬 지금 자금이 어디에 얼마나 들어가 있는지 보여줘요</div>
+
+      <div class="p0-grid">
+        <div class="weights-card">
+          <h3>📊 오늘 신호 비중 (4-ETF)</h3>
+          <div id="ps-weights"></div>
+          <div class="weight-changes" id="ps-weight-changes"></div>
+        </div>
+
+        <div class="portfolio-card">
+          <h3>💰 누적 수익률</h3>
+          <div class="big-num" id="ps-total-ret">—</div>
+          <div class="sub" id="ps-total-sub">—</div>
+          <div class="holdings-list" id="ps-holdings"></div>
+        </div>
+      </div>
+
+      <div class="regime-strip">
+        <span>Regime: <b id="ps-regime">—</b></span>
+        <span>HMM: <b id="ps-hmm">—</b></span>
+        <span>wl_after_all: <b id="ps-wl">—</b></span>
+        <span>오늘 매매: <span id="ps-trade-today">—</span></span>
+      </div>
+      <div class="pcnote" id="ps-decision">—</div>
+    </section>
+
+    <!-- Section P1: m26 Shadow Gate -->
+    <section class="pcard">
+      <div class="pch">🛡 m26 Shadow Gate</div>
+      <div class="pcdesc">💬 매크로가 갑자기 무너질 신호가 있는지 병렬로 감시해요</div>
+      <div class="caveat">병렬 추적용 — 현재 운영은 m21 신호만 따라감 (게이트 발동 시 청산 가설)</div>
+
+      <div class="gate-status" id="ps-gate-status">—</div>
+
+      <div class="indicator-grid">
+        <div class="ind">
+          <span class="label">SP500_ret (lag1)</span>
+          <span class="val" id="ps-sp500">—</span>
+          <span class="threshold" id="ps-sp500-thr">—</span>
+        </div>
+        <div class="ind">
+          <span class="label">VIX_z252 (lag1)</span>
+          <span class="val" id="ps-vix">—</span>
+          <span class="threshold" id="ps-vix-thr">—</span>
+        </div>
+      </div>
+      <div class="pcnote">★ 게이트 발동 가설 — 16년 백테스트 기반. 실거래 미검증.</div>
+    </section>
+
+    <!-- Section P2: 백테스트 vs 실측 -->
+    <section class="pcard">
+      <div class="pch">📈 백테스트 기대치 vs 실측</div>
+      <div class="pcdesc">💬 회전목마 백테스트 예측과 지금 실측이 얼마나 비슷한지</div>
+
+      <div class="bt-grid">
+        <div>
+          <span class="label">목표 CAGR</span>
+          <span class="val">+42.58%/yr</span>
+          <span class="note">(추정 — 16년 백테스트)</span>
+        </div>
+        <div>
+          <span class="label">현재 페이스</span>
+          <span class="val" id="ps-bt-current">—</span>
+          <span class="note" id="ps-bt-current-note">—</span>
+        </div>
+        <div>
+          <span class="label">연환산 추정</span>
+          <span class="val" id="ps-bt-annualized">—</span>
+          <span class="note">(추정 — 미검증 / 변동성 큼)</span>
+        </div>
+      </div>
+
+      <div class="timeline" id="ps-timeline"></div>
+      <div class="pcnote">★ 초기 변동성이 매우 큽니다. 30일+ 누적 후 안정화 예상.</div>
+    </section>
+
+    <!-- Section P3: 평가 일정 -->
+    <section class="pcard">
+      <div class="pch">📅 평가 일정</div>
+      <div class="pcdesc">💬 1개월·2개월·3개월 체크포인트 D-Day</div>
+      <div class="schedule-grid" id="ps-schedule"></div>
+    </section>
+
+    <!-- Section P4: Collab R&D -->
+    <section class="pcard">
+      <div class="pch">🧪 R&D: 집단지성 × 회전목마 (가설)</div>
+      <div class="pcdesc">💬 컨센서스 흐름과 m21 신호가 같은 방향을 보고 있는지</div>
+      <div class="collab-grid">
+        <div>
+          <span class="label">오늘 컨센서스 환경</span>
+          <span class="val" id="ps-collab-consensus">—</span>
+        </div>
+        <div>
+          <span class="label">m21 신호</span>
+          <span class="val" id="ps-collab-m21">—</span>
+        </div>
+        <div>
+          <span class="label">정합도</span>
+          <span class="val" id="ps-collab-fit">—</span>
+        </div>
+      </div>
+      <div class="pcnote">★ 증권사 컨센서스 ⇄ m21 신호의 상관관계는 1~2달 누적 후 정량 검증 예정 (추정 — 미검증).</div>
+    </section>
+
+    <!-- Section P5: Tail Event Watch -->
+    <section class="pcard">
+      <div class="pch">⚠ Tail Event Watch (m21 약점 보강 가설)</div>
+      <div class="pcdesc">💬 백테스트 최악의 30일 손실 직전에 켜질 만한 사전 신호</div>
+      <div class="risk-grid">
+        <div>
+          <span class="label">매크로 risk</span>
+          <span class="val" id="ps-tail-macro">—</span>
+        </div>
+        <div>
+          <span class="label">컨센서스 약화도</span>
+          <span class="val" id="ps-tail-consensus">—</span>
+        </div>
+        <div>
+          <span class="label">결합 위험도</span>
+          <span class="val" id="ps-tail-combined">—</span>
+        </div>
+      </div>
+      <div class="pcnote">★ m21 16년 백테스트 최고 30일 손실의 사전 신호 *후보*. 정량 임계값 미확정 — 가설 단계.</div>
+    </section>
+  </div>
+
+  <!-- 회전목마 데이터 없을 때 (paper_status.json 미존재) -->
+  <div id="paper-empty" class="paper-empty" style="display:none;">
+    회전목마 paper trading 데이터 대기 중
+    <div class="hint">→ paper_export.bat 한 번 실행하면 자동으로 채워져요</div>
   </div>
 
   <!-- Section 1: 오늘의 한 줄 -->
@@ -610,6 +1039,7 @@ const ALIGNMENT = __ALIGNMENT__;
 const TODAY_CALL = __TODAY_CALL__;
 const HEATMAP = __HEATMAP__;
 const MOOD = __MOOD__;
+const PAPER_STATUS = __PAPER_STATUS__;  // v5: 회전목마 paper trading (없으면 {})
 
 // ───── 유틸: stars / signal emoji / 한국어 요일·날짜 ─────
 function stars(n) {
@@ -659,6 +1089,297 @@ const collected = (DATA.collected_at || "").slice(0, 16).replace("T", " ") || "�
 document.getElementById("m-collected").textContent = collected;
 document.getElementById("f-collected").textContent = collected;
 document.getElementById("m-date-kr").textContent = fmtDateKr(DATA.date || "");
+
+// ═════════════════════════════════════════════════════
+// v5 신규: 회전목마 Paper Trading 패널 렌더 (P0~P5)
+// ═════════════════════════════════════════════════════
+function paperHasData(ps) {
+  if (!ps || typeof ps !== "object") return false;
+  return !!(ps.m21 || ps.m26 || ps.portfolio);
+}
+function fmtPct(v, opts) {
+  opts = opts || {};
+  if (v === null || v === undefined || isNaN(v)) return "—";
+  const sign = (opts.signed && v >= 0) ? "+" : "";
+  const dec = (opts.dec === undefined) ? 2 : opts.dec;
+  return sign + Number(v).toFixed(dec) + "%";
+}
+function fmtNum(v, dec) {
+  if (v === null || v === undefined || isNaN(v)) return "—";
+  return Number(v).toFixed(dec === undefined ? 2 : dec);
+}
+function dDay(targetDateStr) {
+  if (!targetDateStr) return null;
+  try {
+    const t = new Date(targetDateStr + "T00:00:00+09:00");
+    const now = new Date();
+    const ms = t - now;
+    return Math.ceil(ms / 86400000);
+  } catch (e) { return null; }
+}
+
+function renderPaperZone() {
+  const zone = document.getElementById("paper-zone");
+  const empty = document.getElementById("paper-empty");
+  if (!paperHasData(PAPER_STATUS)) {
+    zone.classList.remove("on");
+    empty.style.display = "block";
+    return;
+  }
+  zone.classList.add("on");
+  empty.style.display = "none";
+
+  const m21 = PAPER_STATUS.m21 || {};
+  const m26 = PAPER_STATUS.m26 || {};
+  const portfolio = PAPER_STATUS.portfolio || {};
+  const trade = PAPER_STATUS.trade_today || {};
+  const evalSch = PAPER_STATUS.evaluation || {};
+
+  // Header
+  const dDays = portfolio.since_start_days;
+  document.getElementById("ps-dday").textContent = (dDays === undefined || dDays === null) ? "—" : dDays;
+  const upd = (PAPER_STATUS.updated_at || portfolio.last_updated || "").slice(0, 16).replace("T", " ");
+  document.getElementById("ps-updated").textContent = upd || "—";
+
+  // ===== P0: m21 weights =====
+  const wpct = m21.weights_pct || {};
+  const ETFS = [
+    {code: "069500", name: "KODEX 200"},
+    {code: "122630", name: "KODEX 레버리지"},
+    {code: "114800", name: "KODEX 인버스"},
+    {code: "252670", name: "KODEX 200선물인버스2X"},
+  ];
+  const wWrap = document.getElementById("ps-weights");
+  wWrap.innerHTML = "";
+  ETFS.forEach(e => {
+    const pct = Math.max(0, Math.min(100, +(wpct[e.code] || 0)));
+    const active = pct > 0;
+    const row = document.createElement("div");
+    row.className = "weight-row";
+    row.innerHTML =
+      `<span class="etf-name">${e.name}</span>` +
+      `<div class="bar-bg"><div class="bar ${active ? "bar-active" : ""}" style="width:${pct}%;"></div></div>` +
+      `<span class="pct">${pct.toFixed(0)}%</span>`;
+    wWrap.appendChild(row);
+  });
+
+  // weight changes
+  const wcWrap = document.getElementById("ps-weight-changes");
+  const changes = m21.weight_changes || [];
+  if (changes.length === 0) {
+    wcWrap.innerHTML = '<div style="color:var(--text-faint);">↻ 비중 변화 없음 (전일 유지)</div>';
+  } else {
+    wcWrap.innerHTML = '<div style="color:var(--text-faint);margin-bottom:4px;">↻ 어제 → 오늘 변화</div>' +
+      changes.map(c => {
+        const d = +(c.delta_pct || 0);
+        const cls = d > 0 ? "up" : (d < 0 ? "down" : "");
+        const sign = d > 0 ? "+" : "";
+        return `<div class="wc"><span>${c.name || c.code}</span><span style="color:var(--text-faint);">${fmtNum(c.prev_pct, 0)}% → ${fmtNum(c.curr_pct, 0)}%</span><span class="delta ${cls}">${sign}${fmtNum(d, 0)}%p</span></div>`;
+      }).join("");
+  }
+
+  // 누적 수익률
+  const totalRet = portfolio.total_return_pct;
+  const totalRetEl = document.getElementById("ps-total-ret");
+  if (totalRet === undefined || totalRet === null) {
+    totalRetEl.textContent = "—";
+  } else {
+    const sign = totalRet >= 0 ? "+" : "";
+    totalRetEl.textContent = sign + Number(totalRet).toFixed(2) + "%";
+    totalRetEl.classList.toggle("positive", totalRet >= 0);
+    totalRetEl.classList.toggle("negative", totalRet < 0);
+  }
+  document.getElementById("ps-total-sub").textContent =
+    `시작 D+${dDays !== undefined ? dDays : "?"} · 목표 +42.58%/yr (백테스트 추정)`;
+
+  // 보유
+  const holdEl = document.getElementById("ps-holdings");
+  const holdings = portfolio.holdings || [];
+  const cashPct = portfolio.cash_pct;
+  if (holdings.length === 0 && (cashPct === undefined || cashPct === null)) {
+    holdEl.innerHTML = '<div class="row" style="color:var(--text-faint);">보유 정보 없음</div>';
+  } else {
+    let html = "";
+    holdings.forEach(h => {
+      const pnl = h.pnl_pct;
+      const pnlTxt = (pnl !== undefined && pnl !== null)
+        ? ` <span style="color:${pnl >= 0 ? "var(--buy-deep)" : "var(--sell-deep)"};">${pnl >= 0 ? "+" : ""}${Number(pnl).toFixed(2)}%</span>`
+        : "";
+      html += `<div class="row">• ${h.name || h.code}: <b>${fmtNum(h.weight_pct, 1)}%</b>${pnlTxt}</div>`;
+    });
+    if (cashPct !== undefined && cashPct !== null) {
+      html += `<div class="row" style="color:var(--text-faint);">💵 현금: ${fmtNum(cashPct, 1)}%</div>`;
+    }
+    holdEl.innerHTML = html;
+  }
+
+  // regime strip
+  document.getElementById("ps-regime").textContent = m21.regime || "—";
+  document.getElementById("ps-hmm").textContent = m21.hmm || "—";
+  document.getElementById("ps-wl").textContent = (m21.wl_after_all !== undefined && m21.wl_after_all !== null)
+    ? Number(m21.wl_after_all).toFixed(2) : "—";
+
+  // 오늘 매매
+  const ttEl = document.getElementById("ps-trade-today");
+  const actions = trade.actions || [];
+  if (trade.executed && actions.length > 0) {
+    const a = actions[0];
+    const sideKr = a.side === "buy" ? "매수" : (a.side === "sell" ? "매도" : a.side);
+    ttEl.innerHTML = `<span class="trade-today-pill executed">✓ ${sideKr} ${a.name || a.code}</span>`;
+  } else if (actions.length > 0) {
+    ttEl.innerHTML = `<span class="trade-today-pill">대기 ${actions.length}건</span>`;
+  } else {
+    ttEl.innerHTML = `<span class="trade-today-pill hold">매매 없음</span>`;
+  }
+
+  // decision
+  document.getElementById("ps-decision").textContent =
+    m21.decision_kr ? `📍 ${m21.decision_kr}` : "";
+
+  // ===== P1: m26 gate =====
+  const gateActive = !!m26.gate_active;
+  const gateEl = document.getElementById("ps-gate-status");
+  if (gateActive) {
+    gateEl.textContent = "⚠ " + (m26.status_kr || "게이트 발동 — 청산 가설");
+    gateEl.className = "gate-status bad";
+  } else if (m26.status_kr) {
+    gateEl.textContent = "✓ " + m26.status_kr;
+    gateEl.className = "gate-status good";
+  } else {
+    gateEl.textContent = "—";
+    gateEl.className = "gate-status neutral";
+  }
+
+  const sp500 = m26.sp500_ret_pct;
+  const vix = m26.vix_z252;
+  document.getElementById("ps-sp500").textContent = (sp500 !== undefined && sp500 !== null)
+    ? ((sp500 >= 0 ? "+" : "") + Number(sp500).toFixed(2) + "%") : "—";
+  document.getElementById("ps-vix").textContent = (vix !== undefined && vix !== null)
+    ? ((vix >= 0 ? "+" : "") + Number(vix).toFixed(2)) : "—";
+  const sp500Thr = m26.sp500_threshold_pct;
+  const vixThr = m26.vix_z_threshold;
+  document.getElementById("ps-sp500-thr").textContent = (sp500Thr !== undefined && sp500Thr !== null)
+    ? `위협: ≤ ${Number(sp500Thr).toFixed(2)}%` : "—";
+  document.getElementById("ps-vix-thr").textContent = (vixThr !== undefined && vixThr !== null)
+    ? `위협: ≥ +${Number(vixThr).toFixed(2)}` : "—";
+
+  // ===== P2: backtest vs live =====
+  const curEl = document.getElementById("ps-bt-current");
+  const noteEl = document.getElementById("ps-bt-current-note");
+  const annEl = document.getElementById("ps-bt-annualized");
+  if (totalRet !== undefined && totalRet !== null) {
+    const sign = totalRet >= 0 ? "+" : "";
+    curEl.textContent = sign + Number(totalRet).toFixed(2) + "%";
+    noteEl.textContent = `(D+${dDays !== undefined ? dDays : "?"} 누적)`;
+  } else {
+    curEl.textContent = "—";
+    noteEl.textContent = "";
+  }
+  if (totalRet !== undefined && totalRet !== null && dDays && dDays > 0) {
+    const r = Number(totalRet) / 100;
+    const annR = Math.pow(1 + r, 365 / dDays) - 1;
+    const annPct = annR * 100;
+    const sign = annPct >= 0 ? "+" : "";
+    const display = (Math.abs(annPct) > 9999)
+      ? (annPct > 0 ? ">+9999%/yr" : "<-9999%/yr")
+      : (sign + annPct.toFixed(0) + "%/yr");
+    annEl.textContent = `~${display}`;
+  } else {
+    annEl.textContent = "—";
+  }
+
+  // timeline
+  const tlWrap = document.getElementById("ps-timeline");
+  const tl = m21.recent_timeline || [];
+  if (tl.length === 0) {
+    tlWrap.innerHTML = '<div style="color:var(--text-faint);font-size:11.5px;padding:8px;">시계열 데이터 없음 — 첫 거래 후 채워져요</div>';
+  } else {
+    const maxAbs = Math.max(0.5, ...tl.map(d => Math.abs(+d.daily_ret_pct || 0)));
+    tlWrap.innerHTML = tl.map(d => {
+      const r = +d.daily_ret_pct || 0;
+      const cls = r > 0.05 ? "up" : (r < -0.05 ? "down" : "flat");
+      const h = Math.max(6, Math.abs(r) / maxAbs * 50);
+      return `<div class="tl ${cls}" style="height:${h}px;" title="${d.date} ${r.toFixed(2)}%"></div>`;
+    }).join("");
+  }
+
+  // ===== P3: schedule =====
+  const schEl = document.getElementById("ps-schedule");
+  const events = [
+    {key: "month1_review", title: "1개월차 라이브 검토"},
+    {key: "month2_review", title: "2개월차 라이브 검토"},
+    {key: "paper_end", title: "Paper 단계 종료"},
+  ];
+  schEl.innerHTML = events.map(ev => {
+    const dt = evalSch[ev.key];
+    if (!dt) return `<div class="event"><span class="dday">—</span><span class="date">미정</span><span class="title">${ev.title}</span></div>`;
+    const dd = dDay(dt);
+    const ddTxt = dd === null ? "—" : (dd > 0 ? `D-${dd}` : (dd === 0 ? "D-day" : `D+${-dd}`));
+    const cls = (dd !== null && dd >= 0 && dd <= 3) ? "imminent" : "";
+    return `<div class="event"><span class="dday ${cls}">${ddTxt}</span><span class="date">${dt}</span><span class="title">${ev.title}</span></div>`;
+  }).join("");
+
+  // ===== P4: collab R&D =====
+  const moodScore = (MOOD && MOOD.score) || 0;
+  const consensusKind = moodScore >= 70 ? { txt: "🟢 강세", dir: "up" }
+                      : moodScore >= 40 ? { txt: "🟡 중립", dir: "flat" }
+                      : { txt: "🔴 약세", dir: "down" };
+  document.getElementById("ps-collab-consensus").textContent =
+    `${consensusKind.txt} (Mood ${moodScore}/100)`;
+
+  const longSide = (+(wpct["069500"] || 0)) + (+(wpct["122630"] || 0));
+  const shortSide = (+(wpct["114800"] || 0)) + (+(wpct["252670"] || 0));
+  let m21Dir = "flat";
+  let m21Txt = "🟡 관망";
+  if (longSide > shortSide + 5) { m21Dir = "up"; m21Txt = `🟢 롱 ${longSide.toFixed(0)}%`; }
+  else if (shortSide > longSide + 5) { m21Dir = "down"; m21Txt = `🔴 숏 ${shortSide.toFixed(0)}%`; }
+  document.getElementById("ps-collab-m21").textContent = m21Txt;
+
+  const fitEl = document.getElementById("ps-collab-fit");
+  if (m21Dir === consensusKind.dir) {
+    fitEl.textContent = "✓ 일치";
+    fitEl.style.color = "var(--buy-deep)";
+  } else if (m21Dir === "flat" || consensusKind.dir === "flat") {
+    fitEl.textContent = "≈ 부분";
+    fitEl.style.color = "var(--hold-deep)";
+  } else {
+    fitEl.textContent = "✗ 충돌";
+    fitEl.style.color = "var(--sell-deep)";
+  }
+
+  // ===== P5: tail watch =====
+  const macroRisk = Math.max(0, Math.min(100, 100 - moodScore));
+  const alScore = (typeof ALIGNMENT === "object" && ALIGNMENT && ALIGNMENT.alignment_score) || 50;
+  const consensusWeak = Math.max(0, Math.min(100, 100 - alScore));
+  const combined = Math.round(0.6 * macroRisk + 0.4 * consensusWeak);
+
+  function riskLevel(v) {
+    if (v >= 70) return { txt: `${v}/100 높음`, cls: "bad" };
+    if (v >= 40) return { txt: `${v}/100 중간`, cls: "" };
+    return { txt: `${v}/100 낮음`, cls: "good" };
+  }
+  const mr = riskLevel(macroRisk);
+  const cw = riskLevel(consensusWeak);
+  const cb = riskLevel(combined);
+  const tmEl = document.getElementById("ps-tail-macro");
+  tmEl.textContent = mr.txt; tmEl.className = "val " + mr.cls;
+  const twEl = document.getElementById("ps-tail-consensus");
+  twEl.textContent = cw.txt; twEl.className = "val " + cw.cls;
+  const tcEl = document.getElementById("ps-tail-combined");
+  const cbIcon = combined >= 70 ? "🔴 경계" : (combined >= 40 ? "🟡 주의" : "🟢 평온");
+  tcEl.textContent = `${cbIcon} (${combined}/100)`;
+  tcEl.className = "val " + cb.cls;
+}
+
+try {
+  renderPaperZone();
+} catch (e) {
+  console.error("paper zone render failed:", e);
+  const z = document.getElementById("paper-zone");
+  if (z) z.classList.remove("on");
+  const emp = document.getElementById("paper-empty");
+  if (emp) emp.style.display = "block";
+}
 
 // ───── Section 1: TODAY'S CALL ─────
 {
