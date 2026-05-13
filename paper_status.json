@@ -1,0 +1,100 @@
+{
+  "date": "2026-05-13",
+  "updated_at": "2026-05-13T09:59:16+09:00",
+  "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
+  "m21": {
+    "regime": "UP_STRONG",
+    "hmm": "RANGE",
+    "wl_after_all": 1.0,
+    "weights_pct": {
+      "069500": 0.0,
+      "122630": 50.0,
+      "114800": 0.0,
+      "252670": 0.0
+    },
+    "weight_changes": [
+      {
+        "code": "122630",
+        "name": "KODEX 레버리지",
+        "prev_pct": 75.0,
+        "curr_pct": 50.0,
+        "delta_pct": -25.0
+      }
+    ],
+    "decision_kr": "KODEX 레버리지 50%",
+    "daily_ret_pct": -0.016,
+    "recent_timeline": [
+      {
+        "date": "2026-05-06",
+        "regime": "UP_STRONG",
+        "w_122630": 75.0,
+        "daily_ret_pct": 0.0
+      },
+      {
+        "date": "2026-05-07",
+        "regime": "UP_STRONG",
+        "w_122630": 75.0,
+        "daily_ret_pct": 0.0
+      },
+      {
+        "date": "2026-05-08",
+        "regime": "UP_STRONG",
+        "w_122630": 75.0,
+        "daily_ret_pct": 0.0
+      },
+      {
+        "date": "2026-05-11",
+        "regime": "UP_STRONG",
+        "w_122630": 75.0,
+        "daily_ret_pct": 0.0
+      },
+      {
+        "date": "2026-05-12",
+        "regime": "UP_STRONG",
+        "w_122630": 50.0,
+        "daily_ret_pct": -0.016
+      }
+    ]
+  },
+  "m26": {
+    "gate_active": false,
+    "status_kr": "정상 (m21 그대로 운영)",
+    "sp500_ret_pct": 0.19,
+    "vix_z252": 0.04,
+    "sp500_threshold_pct": -2.7,
+    "vix_z_threshold": 2.0,
+    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-05-12):\n    SP500_ret:  +0.19% (tau ≤ -2.70%)\n    VIX_z252:   +0.04 (tau ≥ +2.00)"
+  },
+  "portfolio": {
+    "total_return_pct": 68.07,
+    "cash_pct": 27.4,
+    "holdings": [
+      {
+        "code": "122630",
+        "name": "KODEX 레버리지",
+        "weight_pct": 27.99,
+        "pnl_pct": -0.25
+      }
+    ],
+    "last_updated": "2026-05-13T09:06:18.056700",
+    "since_start_days": 14
+  },
+  "trade_today": {
+    "executed": true,
+    "actions": [
+      {
+        "side": "buy",
+        "code": "122630",
+        "name": "KODEX 레버리지",
+        "executed": true,
+        "result_msg": "모의투자 매수주문이 완료 되었습니다."
+      }
+    ]
+  },
+  "evaluation": {
+    "month1_review": "2026-05-29",
+    "month2_review": "2026-06-27",
+    "paper_end": "2026-07-27"
+  },
+  "_note": "★ 모든 수치는 비율(%)·라벨만. KRW 절대금액·주수·계좌·API key 일체 마스킹됨. 회전목마 paper trading R&D 진행 중."
+}
