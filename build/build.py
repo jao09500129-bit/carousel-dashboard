@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-회전목마 R&D — 통합 빌드 스크립트 (v4: 친근 라이트 모드)
+회전목마 R&D — 통합 빌드 스크립트 (v5: 친근 라이트 모드 + 회전목마 paper 패널)
 ====================================================================
-GitHub Actions가 매일 08:30 KST에 호출.
+GitHub Actions가 매일 08:30 KST + paper_status.json push 시에도 호출.
+
+변경 사항 (v4 대비):
+- repo 루트의 paper_status.json 파일을 읽어 __PAPER_STATUS__ placeholder로 주입.
+- 회전목마 m21/m26 paper trading 패널 6개를 대시보드 *상단*에 추가 (HTML 측).
+- paper_status.json이 없거나 비어 있으면 회전목마 섹션은 자동 숨김(graceful fallback).
+- 데이터 로직 / 분석 7종 동일 — 정확도 변경 없음.
 
 변경 사항 (v3 대비):
 - 데이터 로직 / 분석 7종 동일 — 정확도 변경 없음.
@@ -14,8 +20,9 @@ GitHub Actions가 매일 08:30 KST에 호출.
     * stars (1~5): confidence를 별점으로
 - 영어 약어(STRONG CONFIRM / CONFIRM / DIVERGENT)는 유지하되,
   HTML 측에서 한국어 ("강한 일치" / "일치" / "의견 충돌")로 표시.
-- placeholder 이름은 v3와 동일 (__DATA__, __BRIEF__, __KOSPI__,
-  __CAROUSEL__, __ALIGNMENT__, __TODAY_CALL__, __HEATMAP__, __MOOD__).
+- placeholder 이름 (v3/v4 + v5 신규):
+  __DATA__, __BRIEF__, __KOSPI__, __CAROUSEL__, __ALIGNMENT__,
+  __TODAY_CALL__, __HEATMAP__, __MOOD__, __PAPER_STATUS__ (신규).
 
 분석 단계 (v3와 동일):
     1. KOSPI Range Forecast — 기사 본문에서 예상 수치 정규식 추출
@@ -1407,9 +1414,40 @@ def build_mood_index(snapshot, macro, scored_signals, carousel_state):
     return result
 
 
+# ───── 5b. paper_status.json 로드 (v5 신규) ─────
+def load_paper_status():
+    """repo 루트의 paper_status.json 읽기. 없거나 망가졌으면 None.
+
+    이 파일은 사용자의 별도 자동화 시스템(paper_export.bat)이 매일
+    회전목마 m21/m26 paper trading 결과를 마스킹한 형태로 push해줌.
+    이 빌드 스크립트는 *읽기 전용* — 절대 paper_status.json을 수정하지 않음.
+    """
+    p = ROOT / "paper_status.json"
+    if not p.exists():
+        print("[paper] paper_status.json not found — 회전목마 패널은 hidden 으로 렌더")
+        return None
+    try:
+        raw = p.read_text(encoding="utf-8").strip()
+        if not raw:
+            warn("paper_status.json is empty")
+            return None
+        data = json.loads(raw)
+        if not isinstance(data, dict):
+            warn("paper_status.json root is not an object")
+            return None
+        print(f"[paper] loaded paper_status.json "
+              f"(date={data.get('date','?')}, "
+              f"m21={'yes' if data.get('m21') else 'no'}, "
+              f"m26={'yes' if data.get('m26') else 'no'})")
+        return data
+    except Exception as e:
+        warn(f"paper_status.json parse failed: {e}")
+        return None
+
+
 # ───── 6. index.html 빌드 ─────
 def build_index(snapshot, brief, kospi, carousel_state, alignment, today_call,
-                heatmap, mood, scored_signals):
+                heatmap, mood, scored_signals, paper_status):
     tpl_path = BUILD_DIR / "dashboard_base.html"
     tpl = tpl_path.read_text(encoding="utf-8")
     snapshot_out = dict(snapshot)
@@ -1422,6 +1460,8 @@ def build_index(snapshot, brief, kospi, carousel_state, alignment, today_call,
     today_js = json.dumps(today_call, ensure_ascii=False)
     heat_js = json.dumps(heatmap, ensure_ascii=False)
     mood_js = json.dumps(mood, ensure_ascii=False)
+    # v5: paper_status — None이면 빈 객체 ({}) 로 주입해 JS 측에서 hidden 처리
+    paper_js = json.dumps(paper_status or {}, ensure_ascii=False)
     html = (tpl
             .replace("__DATA__", data_js)
             .replace("__BRIEF__", brief_js)
@@ -1430,15 +1470,17 @@ def build_index(snapshot, brief, kospi, carousel_state, alignment, today_call,
             .replace("__ALIGNMENT__", align_js)
             .replace("__TODAY_CALL__", today_js)
             .replace("__HEATMAP__", heat_js)
-            .replace("__MOOD__", mood_js))
+            .replace("__MOOD__", mood_js)
+            .replace("__PAPER_STATUS__", paper_js))
     out = ROOT / "index.html"
     out.write_text(html, encoding="utf-8")
-    print(f"[html] index.html {len(html):,} bytes")
+    print(f"[html] index.html {len(html):,} bytes "
+          f"(paper_status={'embedded' if paper_status else 'empty'})")
 
 
 # ───── main ─────
 def main():
-    print(f"=== Carousel R&D Daily Build (v4 / Friendly Light) :: {NOW_ISO} ===")
+    print(f"=== Carousel R&D Daily Build (v5 / Friendly Light + Paper Panels) :: {NOW_ISO} ===")
     fetched = {"news_pages": {}, "global": "", "macro": {}}
     try:
         fetched = fetch_all()
@@ -1456,10 +1498,13 @@ def main():
     heatmap = build_sector_heatmap(snapshot, scored_signals)
     mood = build_mood_index(snapshot, macro, scored_signals, carousel_state)
     today_call = build_today_call(brief, scored_signals, alignment, carousel_state, mood, kospi)
+    # v5: 사용자의 별도 자동화가 push한 paper_status.json 을 읽어 회전목마 패널에 주입
+    paper_status = load_paper_status()
     build_index(snapshot, brief, kospi, carousel_state, alignment, today_call,
-                heatmap, mood, scored_signals)
+                heatmap, mood, scored_signals, paper_status)
     print("=== DONE ===")
 
 
 if __name__ == "__main__":
     main()
+# v5 build script EOF

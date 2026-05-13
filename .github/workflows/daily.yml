@@ -4,10 +4,19 @@ on:
   schedule:
     # Mon-Fri 08:30 KST = 23:30 UTC Sun-Thu
     - cron: '30 23 * * 0-4'
+  # v5: 사용자 .bat 이 paper_status.json 을 push 하면 즉시 재빌드
+  push:
+    paths:
+      - 'paper_status.json'
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+# 동시 실행 방지 (스케줄 + push 가 겹쳐 race 안 나도록)
+concurrency:
+  group: dashboard-build
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -42,6 +51,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto update $(date -u +'%Y-%m-%d')"
+            git commit -m "Auto update $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
