@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-05-15T09:34:27.673177+09:00",
+  "computed_at": "2026-05-15T18:51:47.918119+09:00",
   "action_headline": "환율 민감 축 가속 + 정보기술 신규 진입 검토",
   "confidence": 4,
   "confidence_pct": 68.0,
   "rationale": [
-    "USDKRW +0.47% — 환율 민감 회전축",
+    "USDKRW +0.65% — 환율 민감 회전축",
     "합의 시그널 'SK하이닉스' — Conviction 51/100 (2사 동조)",
-    "Market Mood 78/100 (GREED)"
+    "Market Mood 69/100 (NEUTRAL)"
   ],
   "action": "STRONG CONFIRM",
   "action_kr": "강한 일치",

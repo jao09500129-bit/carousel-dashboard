@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-05-15T09:34:27.673177+09:00",
+  "computed_at": "2026-05-15T18:51:47.918119+09:00",
   "current_pivot": "환율 민감",
-  "current_view": "USDKRW +0.47% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+  "current_view": "USDKRW +0.65% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
   "current_confidence": "낮음 — 단기 변동성 큼",
   "current_days": 1,
-  "rotation_velocity": "중간",
-  "volatility_index": 11.8,
+  "rotation_velocity": "빠름",
+  "volatility_index": 13.7,
   "candidates": [
     {
       "name": "정보기술",
