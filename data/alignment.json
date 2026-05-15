@@ -1,10 +1,15 @@
 {
-  "computed_at": "2026-05-14T23:10:55.622144+09:00",
-  "carousel_recommendation": "반도체",
+  "computed_at": "2026-05-15T09:33:04.279653+09:00",
+  "carousel_recommendation": "환율 민감",
   "carousel_sector": "정보기술",
-  "consensus_top": [],
-  "alignment_score": 0,
-  "action": "DIVERGENT",
-  "action_kr": "의견 충돌",
+  "consensus_top": [
+    {
+      "sector": "정보기술",
+      "weight": 1.0
+    }
+  ],
+  "alignment_score": 85,
+  "action": "STRONG CONFIRM",
+  "action_kr": "강한 일치",
   "note": "★ 추정 — 섹터 매핑 휴리스틱, 백테스트 미검증."
 }
