@@ -1,0 +1,51 @@
+{
+  "computed_at": "2026-05-16T23:10:46.650992+09:00",
+  "date": "2026-05-16",
+  "summary": {
+    "broker_consensus": 1,
+    "target_price_cluster_up": 0,
+    "target_price_cluster_down": 0,
+    "divergence": 0
+  },
+  "signals": {
+    "broker_consensus": [
+      {
+        "keyword": "SK하이닉스",
+        "n_brokers": 2,
+        "brokers": [
+          "KB",
+          "키움"
+        ],
+        "ups": 1,
+        "downs": 0,
+        "items": [
+          {
+            "title": "'SK하이닉스' 팔더니…1% 초고수의 선택은 이랬다",
+            "url": "https://www.hankyung.com/article/202605158067i",
+            "brokers": [
+              "키움"
+            ],
+            "target_action": null,
+            "opinion": "매도",
+            "datetime": "2026-05-15T09:01:00+09:00"
+          },
+          {
+            "title": "\"SK하이닉스, 내년 영업익 428조원…목표가 300만원 상향\"-KB",
+            "url": "https://www.hankyung.com/article/2026051578596",
+            "brokers": [
+              "KB"
+            ],
+            "target_action": "up",
+            "opinion": null,
+            "datetime": "2026-05-15T07:40:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 7.14
+      }
+    ],
+    "target_price_cluster_up": [],
+    "target_price_cluster_down": [],
+    "divergence": []
+  },
+  "note": "★ 미검증 가설. 백테스트로 alpha 확인 전 매매 직접 사용 금지."
+}
