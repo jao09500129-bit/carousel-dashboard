@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-15",
-  "updated_at": "2026-05-15T23:10:03+09:00",
+  "date": "2026-05-16",
+  "updated_at": "2026-05-16T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "UP_STRONG",
@@ -16,12 +16,6 @@
     "decision_kr": "KODEX 레버리지 50%",
     "daily_ret_pct": 0.0,
     "recent_timeline": [
-      {
-        "date": "2026-05-08",
-        "regime": "UP_STRONG",
-        "w_122630": 75.0,
-        "daily_ret_pct": 0.0
-      },
       {
         "date": "2026-05-11",
         "regime": "UP_STRONG",
@@ -45,31 +39,45 @@
         "regime": "UP_STRONG",
         "w_122630": 50.0,
         "daily_ret_pct": 0.0
+      },
+      {
+        "date": "2026-05-15",
+        "regime": "UP_STRONG",
+        "w_122630": 50.0,
+        "daily_ret_pct": 0.0
       }
     ]
   },
   "m26": {
     "gate_active": false,
     "status_kr": "정상 (m21 그대로 운영)",
-    "sp500_ret_pct": 0.58,
-    "vix_z252": -0.11,
+    "sp500_ret_pct": 0.77,
+    "vix_z252": -0.29,
     "sp500_threshold_pct": -2.7,
     "vix_z_threshold": 2.0,
-    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-05-14):\n    SP500_ret:  +0.58% (tau ≤ -2.70%)\n    VIX_z252:   -0.11 (tau ≥ +2.00)"
+    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-05-15):\n    SP500_ret:  +0.77% (tau ≤ -2.70%)\n    VIX_z252:   -0.29 (tau ≥ +2.00)"
   },
   "portfolio": {
     "total_return_pct": 22.39,
     "cash_pct": 100.0,
     "holdings": [],
-    "last_updated": "2026-05-15T14:33:26.566182",
-    "since_start_days": 16
+    "last_updated": "2026-05-16T08:00:26.073716",
+    "since_start_days": 17
   },
   "trade_today": {
     "executed": false,
-    "actions": []
+    "actions": [
+      {
+        "side": "buy",
+        "code": "122630",
+        "name": "KODEX 레버리지",
+        "executed": false,
+        "result_msg": "모의투자 영업일이 아닙니다."
+      }
+    ]
   },
   "m28h_shadow": {
-    "date": "2026-05-14",
+    "date": "2026-05-15",
     "regime": "UP_STRONG",
     "hmm": "RANGE",
     "vkz_lag1": NaN,
@@ -100,15 +108,6 @@
       "diverged": false
     },
     "recent_10d": [
-      {
-        "date": "2026-04-29",
-        "m21_wl": 1.5,
-        "m21_ws": 0.0,
-        "m28h_wl": 1.5,
-        "m28h_ws": 0.0,
-        "gated": true,
-        "vol_off": false
-      },
       {
         "date": "2026-04-30",
         "m21_wl": 1.5,
@@ -189,21 +188,30 @@
         "m28h_ws": 0.0,
         "gated": true,
         "vol_off": false
+      },
+      {
+        "date": "2026-05-15",
+        "m21_wl": 1.0,
+        "m21_ws": 0.0,
+        "m28h_wl": 1.0,
+        "m28h_ws": 0.0,
+        "gated": true,
+        "vol_off": false
       }
     ],
     "history_summary": {
-      "total_days": 3994,
-      "gated_days": 2770,
+      "total_days": 3995,
+      "gated_days": 2771,
       "vol_off_days": 754,
-      "gated_pct": 69.35,
-      "vol_off_pct": 18.88
+      "gated_pct": 69.36,
+      "vol_off_pct": 18.87
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-05-15T23:10:05+09:00"
+    "updated_at": "2026-05-16T23:10:05+09:00"
   },
   "m30_shadow": {
-    "date": "2026-05-14",
-    "updated_at": "2026-05-15T23:10:06+09:00",
+    "date": "2026-05-15",
+    "updated_at": "2026-05-16T23:10:06+09:00",
     "m21": {
       "wl": 1.0,
       "ws": 0.0,
@@ -247,8 +255,8 @@
     "note": "m30 = m21 + m28h(cost gate) + m26(tail defense) 3중 결합. R&D Phase 7 채택 후보 (Ext CAGR +1.02p, MDD +1.40p 개선 vs m21)."
   },
   "m37_shadow": {
-    "date": "2026-05-14",
-    "updated_at": "2026-05-15T23:10:10+09:00",
+    "date": "2026-05-15",
+    "updated_at": "2026-05-16T23:10:09+09:00",
     "m21": {
       "wl": 1.0,
       "ws": 0.0
@@ -265,7 +273,7 @@
       "diverged_from_m21": false
     },
     "history_summary": {
-      "total_days": 3994,
+      "total_days": 3995,
       "m26_active_days": 29,
       "m37_strong_days": 11,
       "m37_normal_days": 18,
