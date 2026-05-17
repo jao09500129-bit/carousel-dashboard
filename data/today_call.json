@@ -1,16 +1,15 @@
 {
-  "computed_at": "2026-05-16T23:10:46.650992+09:00",
-  "action_headline": "금리 민감 축 가속 + 반도체, 정보기술 신규 진입 검토",
-  "confidence": 2,
-  "confidence_pct": 42.0,
+  "computed_at": "2026-05-17T23:10:46.530274+09:00",
+  "action_headline": "금리 민감 축 가속 + 반도체 신규 진입 검토",
+  "confidence": 1,
+  "confidence_pct": 0.0,
   "rationale": [
     "미국 10년 yield +12.0bp — 금리 민감 회전축",
-    "합의 시그널 'SK하이닉스' — Conviction 54/100 (2사 동조)",
-    "Market Mood 61/100 (NEUTRAL)"
+    "Market Mood 51/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
-  "stars": "⭐⭐○○○",
+  "stars": "⭐○○○○",
   "friendly_emoji": "🔴",
   "friendly_action": "관망하세요",
   "friendly_reason": "오늘은 시장 의견이 갈리거나 신호가 약해요. 무리해서 진입하지 마세요.",
