@@ -1,17 +1,11 @@
 {
-  "computed_at": "2026-05-16T23:10:46.650992+09:00",
+  "computed_at": "2026-05-17T23:10:46.530274+09:00",
   "sectors": [
     {
       "name": "정보기술",
-      "intensity": 1.2,
-      "count": 6,
-      "top": [
-        {
-          "kw": "SK하이닉스",
-          "n": 2,
-          "score": 53.9
-        }
-      ]
+      "intensity": 0.0,
+      "count": 4,
+      "top": []
     },
     {
       "name": "자동차",
@@ -28,7 +22,7 @@
     {
       "name": "금융",
       "intensity": 0.0,
-      "count": 3,
+      "count": 2,
       "top": []
     },
     {
@@ -52,7 +46,7 @@
     {
       "name": "커뮤니케이션",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -76,7 +70,7 @@
     {
       "name": "기타",
       "intensity": 0.0,
-      "count": 48,
+      "count": 50,
       "top": []
     }
   ],
