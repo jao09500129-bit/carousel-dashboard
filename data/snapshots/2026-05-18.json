@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-18T21:49:50.983088+09:00",
+  "collected_at": "2026-05-18T23:10:52.754336+09:00",
   "date": "2026-05-18",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -57,7 +57,56 @@
   },
   "items": [
     {
-      "title": "중국 메모리 CXMT도 AI 타고 날았다…1분기 매출 719% 증가",
+      "title": "CJ그룹 여직원 330여명 개인정보 텔레그램에 유출…\"내부 소행 가능성\"",
+      "url": "https://www.hankyung.com/article/2026051847217",
+      "summary": "CJ그룹 임직원 개인정보가 텔레그램 채널을 통해 유출돼 회사 측이 경위 조사와 수사 의뢰에 나선 것으로 알려졌다.18일 업계에 따르면 해당 채널에는 CJ그룹 여성 직원 330여명의 휴대전화 번호와 직급, 사내 전화번호, 사진 등이 게시된 것으로 전해진다. 지난 2023...",
+      "datetime_raw": "2026.05.18 22:23",
+      "datetime": "2026-05-18T22:23:00+09:00",
+      "dt": "2026-05-18 22:23",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "내부 소행 가능성"
+      ],
+      "hash": "4a7f09318c6f"
+    },
+    {
+      "title": "카카오 노사, 조정 연장…사상 첫 본사 파업 위기 모면",
+      "url": "https://www.hankyung.com/article/2026051847197",
+      "summary": "[속보] 카카오 노사, 조정 연장…사상 첫 본사 파업 위기 모면고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.05.18 22:14",
+      "datetime": "2026-05-18T22:14:00+09:00",
+      "dt": "2026-05-18 22:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "카카오 노사"
+      ],
+      "hash": "43afe7490735"
+    },
+    {
+      "title": "외인 100조나 팔았는데 지분율 상승…\"진짜 무서운 건\" 경고 [분석+]",
+      "url": "https://www.hankyung.com/article/2026051839026",
+      "summary": "외국인 투자자가 올해 들어 유가증권시장에서 100조원어치 넘는 주식을 팔아치웠다. 하지만 지분율은 작년 말 대비 오히려 상승했다. 주가가 가파르게 오르면서 팔지 않고 남겨둔 주식의 가치가 더 빠르게 상승했기 때문이다.증권가에선 외국인 투자자의 한국 주식 매도는 주가 급...",
+      "datetime_raw": "2026.05.18 22:00",
+      "datetime": "2026-05-18T22:00:00+09:00",
+      "dt": "2026-05-18 22:00",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "진짜 무서운 건",
+        "외인 100조나 팔았는데 지분율 상승"
+      ],
+      "hash": "5ab94f203c99"
+    },
+    {
+      "title": "'중국판 삼성?' 매출 700% 폭증하더니…D램 세계 4위 뚫었다",
       "url": "https://www.hankyung.com/article/2026051847047",
       "summary": "중국 최대 메모리 반도체 업체인 창신메모리테크놀로지(CXMT)가 인공지능(AI) 붐에 힘입어 올 1분기 700% 넘는 매출 증가율을 기록했다.18일 중국매체 과창판(커촹반)일보·홍성신문 등에 따르면 기업공개(IPO)를 앞둔 CXMT는 전날 투자설명서를 통해...",
       "datetime_raw": "2026.05.18 21:35",
@@ -68,7 +117,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "중국 메모리 CXMT도 AI 타고 날았다"
+        "중국판 삼성?"
       ],
       "hash": "3c3ae3bb1e85"
     },
@@ -335,6 +384,90 @@
       "hash": "479407a8e682"
     },
     {
+      "title": "\"6억이던 아파트가 14억\"…뚫리면 서울까지 30분",
+      "url": "https://www.hankyung.com/article/2026051334986",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "6억이던 아파트가 14억"
+      ],
+      "hash": "dc564b2859ff"
+    },
+    {
+      "title": "\"도둑들 '개인 마트' 됐다\"…서울 텃밭 상추 절도에 '분노'",
+      "url": "https://www.hankyung.com/article/2026051832157",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "됐다",
+        "분노",
+        "도둑들"
+      ],
+      "hash": "5deadb4466c0"
+    },
+    {
+      "title": "\"예전 맛이 아닙니다\"…요즘 마트서 불티난 '과일' 뭐길래",
+      "url": "https://www.hankyung.com/article/202605158824i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "과일",
+        "예전 맛이 아닙니다"
+      ],
+      "hash": "c14de4a3c8f2"
+    },
+    {
+      "title": "정용진, '5·18 탱크데이' 스타벅스 대표 전격 경질",
+      "url": "https://www.hankyung.com/article/202605184619i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "정용진",
+        "5·18 탱크데이"
+      ],
+      "hash": "a194620b6b2a"
+    },
+    {
+      "title": "'슈퍼카 성지'였는데…한국인들, 갑자기 지갑 닫은 이유는",
+      "url": "https://www.hankyung.com/article/2026051719351",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "슈퍼카 성지"
+      ],
+      "hash": "b7545f65a332"
+    },
+    {
       "title": "고금리 공포에 숨죽인 증시…코로나19직후 vs 2026년, 어떻게 다른가",
       "url": "https://www.hankyung.com/article/202605182899i",
       "summary": "미국 국채 금리 고공행진으로 국내 주식시장이 이틀 연속 조정을 받고 있다. 외국인들의 집중적인 매도세가 지수 하락의 주 요인으로 지목되고 있다. 코로나19 팬데믹 이후 미 국채금리가 급등한 국면(2022~2023년)과 현재 2026년의 금리 고공행진은 표면적으...",
@@ -382,91 +515,6 @@
         "지누스 부진은 잊어"
       ],
       "hash": "949c52e5e199"
-    },
-    {
-      "title": "\"6억이던 아파트가 14억\"…뚫리면 서울까지 30분",
-      "url": "https://www.hankyung.com/article/2026051334986",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "6억이던 아파트가 14억"
-      ],
-      "hash": "dc564b2859ff"
-    },
-    {
-      "title": "\"예전 맛이 아닙니다\"…요즘 마트서 불티난 '과일' 뭐길래",
-      "url": "https://www.hankyung.com/article/202605158824i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "과일",
-        "예전 맛이 아닙니다"
-      ],
-      "hash": "c14de4a3c8f2"
-    },
-    {
-      "title": "\"도둑들 '개인 마트' 됐다\"…서울 텃밭 상추 절도에 '분노'",
-      "url": "https://www.hankyung.com/article/2026051832157",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "됐다",
-        "분노",
-        "도둑들"
-      ],
-      "hash": "5deadb4466c0"
-    },
-    {
-      "title": "\"지금이 저점이다\"…고액자산가 지난주 최애 주식은 '○○○○'",
-      "url": "https://www.hankyung.com/article/202605171551i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "○○○○",
-        "지금이 저점이다"
-      ],
-      "hash": "b17ad592778b"
-    },
-    {
-      "title": "정용진, '5·18 탱크데이' 스타벅스 대표 전격 경질",
-      "url": "https://www.hankyung.com/article/202605184619i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "정용진",
-        "5·18 탱크데이"
-      ],
-      "hash": "a194620b6b2a"
     },
     {
       "title": "현대해상, 1분기 호실적에 장중 10%대 급등",
@@ -1092,55 +1140,6 @@
         "코인 과세 폐지해"
       ],
       "hash": "9bbaafd2a136"
-    },
-    {
-      "title": "\"전쟁 끝나면 이 업종 뜬다\"…월가 최고전략가의 전망 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026051597991",
-      "summary": "\"삼성전자 대신 샀더니 대박\"…20년 만에 최대 호황 맞았다몇 년간 시장 관심에서 멀어진 내수 유통주가 급등세를 보이고 있다. 원저 현상 장기화와 중국 정부 ‘한일령’에 힘입어 외국인 관광객이 급증한 영향이다. 유통주 실적 ...",
-      "datetime_raw": "2026.05.15 18:09",
-      "datetime": "2026-05-15T18:09:00+09:00",
-      "dt": "2026-05-15 18:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "전쟁 끝나면 이 업종 뜬다"
-      ],
-      "hash": "b995fb2b9318"
-    },
-    {
-      "title": "비탈릭이 찍은 '메가이더'…\"자생적 경제 생태계 만들 것\" [코인터뷰]",
-      "url": "https://www.hankyung.com/article/202605159843B",
-      "summary": "슈야오 콩 메가이더 공동설립자 인터뷰USDm 수익으로 가스비 보조·토큰 매입신흥국 RWA 공략...온체인 시장 정조준AI 에이전트 결합 지갑 '모스' 이달 출시\"게임 결합형 트레이딩…韓 시장과 시너지\"\"메가이더는 단순한 기술 인프라가 아닙니다. 자체 스테이블코인 'US...",
-      "datetime_raw": "2026.05.15 17:36",
-      "datetime": "2026-05-15T17:36:00+09:00",
-      "dt": "2026-05-15 17:36",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "메가이더",
-        "자생적 경제 생태계 만들 것"
-      ],
-      "hash": "8d6abbeddb1c"
-    },
-    {
-      "title": "'팔천피'에 취한 사이…어느새 원·달러 환율 1500원 [분석+]",
-      "url": "https://www.hankyung.com/article/2026051593986",
-      "summary": "코스피지수가 가파르게 오른 사이 달러화 대비 원화 가치가 떨어지면서 증시에 부담이 되고 있다.15일 원·달러 환율은 6거래일째 오르면서 1500원을 넘어섰다. 환율은 이날 오후 2시13분께 서울 외환시장에서 전 거래일 주간 거래 종가 대비 9원20전 오른 ...",
-      "datetime_raw": "2026.05.15 17:29",
-      "datetime": "2026-05-15T17:29:00+09:00",
-      "dt": "2026-05-15 17:29",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "팔천피"
-      ],
-      "hash": "1e53c2668c6e"
     }
   ],
   "consensus_signals": [
