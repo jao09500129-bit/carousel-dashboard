@@ -1,0 +1,42 @@
+{
+  "computed_at": "2026-05-18T21:49:50.983088+09:00",
+  "date": "2026-05-18",
+  "summary": {
+    "broker_consensus": 1,
+    "target_price_cluster_up": 0,
+    "target_price_cluster_down": 0,
+    "divergence": 0
+  },
+  "signals": {
+    "broker_consensus": [
+      {
+        "keyword": "선두 다툼 치열",
+        "n_brokers": 2,
+        "brokers": [
+          "KB",
+          "메리츠"
+        ],
+        "ups": 0,
+        "downs": 0,
+        "items": [
+          {
+            "title": "선두 다툼 치열…KB증권 금메달팀, 누적 수익률 40.8%로 1위",
+            "url": "https://www.hankyung.com/article/2026051822496",
+            "brokers": [
+              "KB",
+              "메리츠"
+            ],
+            "target_action": null,
+            "opinion": null,
+            "datetime": "2026-05-18T08:00:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 0.0
+      }
+    ],
+    "target_price_cluster_up": [],
+    "target_price_cluster_down": [],
+    "divergence": []
+  },
+  "note": "★ 미검증 가설. 백테스트로 alpha 확인 전 매매 직접 사용 금지."
+}
