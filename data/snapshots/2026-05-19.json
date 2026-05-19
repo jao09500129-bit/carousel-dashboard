@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-19T20:41:10.578636+09:00",
+  "collected_at": "2026-05-19T23:10:54.281842+09:00",
   "date": "2026-05-19",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -36,6 +36,23 @@
     ]
   },
   "items": [
+    {
+      "title": "한 달새 109% 뛰었다…코스피 급락에도 '최고가' 터진 회사 [종목+]",
+      "url": "https://www.hankyung.com/article/2026051967296",
+      "summary": "LG이노텍 주가가 최근 한 달 동안에만 110% 가까이 뛰며 최고가 행진을 펼치고 있다. 인공지능(AI) 붐에 반도체 기판 업황이 회복되면서 실적이 크게 개선될 것이란 기대가 반영됐다는 분석이다. 증권사들은 LG이노텍을 여전히 저평가 상태로 진단하며 목표주가를 일제히 ...",
+      "datetime_raw": "2026.05.19 22:00",
+      "datetime": "2026-05-19T22:00:00+09:00",
+      "dt": "2026-05-19 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "최고가",
+        "한 달새 109% 뛰었다"
+      ],
+      "hash": "74380358f769"
+    },
     {
       "title": "\"삼전닉스 흔들릴 때 더 담아라\"…고수들의 조정장 투자전략 [한경 프리미엄9 TODAY]",
       "url": "https://www.hankyung.com/article/2026051970891",
@@ -347,39 +364,6 @@
       "hash": "d8e900f7f0bf"
     },
     {
-      "title": "아이씨티케이, 빅테크로의 보안칩 공급 시작 소식에 '上'",
-      "url": "https://www.hankyung.com/article/2026051954936",
-      "summary": "아이씨티케이가 19일 장 초반 상한가로 치솟았다. 글로벌 빅테크와 공동으로 추진해온 보안칩 프로젝트의 성과가 시작됐다고 밝힌 영향이다.이날 오전 9시53분 현재 아이씨티케이는 전일 대비 5860원(29.91%) 상승한 2만5450원에 거래되고 있다.이 회사는 국제표준 ...",
-      "datetime_raw": "2026.05.19 09:59",
-      "datetime": "2026-05-19T09:59:00+09:00",
-      "dt": "2026-05-19 09:59",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "아이씨티케이"
-      ],
-      "hash": "34022df6d168"
-    },
-    {
-      "title": "정용진, '5·18 탱크데이' 스타벅스 대표 전격 경질",
-      "url": "https://www.hankyung.com/article/202605184619i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "정용진",
-        "5·18 탱크데이"
-      ],
-      "hash": "a194620b6b2a"
-    },
-    {
       "title": "\"반도체라 믿었는데\"…이틀 만에 30% 급락하자 개미 '패닉'",
       "url": "https://www.hankyung.com/article/2026051847446",
       "summary": "",
@@ -413,6 +397,23 @@
       "hash": "5aba1f14ddfc"
     },
     {
+      "title": "정용진, '5·18 탱크데이' 스타벅스 대표 전격 경질",
+      "url": "https://www.hankyung.com/article/202605184619i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "정용진",
+        "5·18 탱크데이"
+      ],
+      "hash": "a194620b6b2a"
+    },
+    {
       "title": "\"현미밥 몸에 좋다더니\"…항암 중 먹었던 건강식 '반전'",
       "url": "https://www.hankyung.com/article/2026051841737",
       "summary": "",
@@ -444,6 +445,22 @@
         "하이닉스가 돈 많이 벌수록 좋아"
       ],
       "hash": "434423045f4d"
+    },
+    {
+      "title": "아이씨티케이, 빅테크로의 보안칩 공급 시작 소식에 '上'",
+      "url": "https://www.hankyung.com/article/2026051954936",
+      "summary": "아이씨티케이가 19일 장 초반 상한가로 치솟았다. 글로벌 빅테크와 공동으로 추진해온 보안칩 프로젝트의 성과가 시작됐다고 밝힌 영향이다.이날 오전 9시53분 현재 아이씨티케이는 전일 대비 5860원(29.91%) 상승한 2만5450원에 거래되고 있다.이 회사는 국제표준 ...",
+      "datetime_raw": "2026.05.19 09:59",
+      "datetime": "2026-05-19T09:59:00+09:00",
+      "dt": "2026-05-19 09:59",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "아이씨티케이"
+      ],
+      "hash": "34022df6d168"
     },
     {
       "title": "\"노조 리스크 덮치나\"…현대차그룹주 일제히 하락",
@@ -1057,22 +1074,6 @@
         "지누스 부진은 잊어"
       ],
       "hash": "949c52e5e199"
-    },
-    {
-      "title": "현대해상, 1분기 호실적에 장중 10%대 급등",
-      "url": "https://www.hankyung.com/article/2026051825706",
-      "summary": "현대해상이 18일 장 초반 급등하고 있다. 올 1분기 실적이 전년 동기 대비 대폭 개선된 영향으로 풀이된다.이날 오전 9시36분 현재 현대해상은 전 거래일 대비 3650원(10.94%) 오른 3만7000원에 거래되고 있다. 장중 한때 3만7150원까지 치솟기도 했다.현...",
-      "datetime_raw": "2026.05.18 09:55",
-      "datetime": "2026-05-18T09:55:00+09:00",
-      "dt": "2026-05-18 09:55",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "현대해상"
-      ],
-      "hash": "7c5659a7708c"
     }
   ],
   "consensus_signals": []
