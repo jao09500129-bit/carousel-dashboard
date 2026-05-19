@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-05-18T23:10:52.754336+09:00",
+  "computed_at": "2026-05-19T20:41:10.578636+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 3,
+      "count": 5,
       "top": []
     },
     {
@@ -22,13 +22,13 @@
     {
       "name": "금융",
       "intensity": 0.0,
-      "count": 2,
+      "count": 1,
       "top": []
     },
     {
       "name": "헬스케어",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -40,19 +40,19 @@
     {
       "name": "필수소비재",
       "intensity": 0.0,
-      "count": 2,
+      "count": 1,
       "top": []
     },
     {
       "name": "커뮤니케이션",
       "intensity": 0.0,
-      "count": 2,
+      "count": 1,
       "top": []
     },
     {
       "name": "부동산",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -69,15 +69,9 @@
     },
     {
       "name": "기타",
-      "intensity": -1.0,
-      "count": 54,
-      "top": [
-        {
-          "kw": "선두 다툼 치열",
-          "n": 2,
-          "score": 26.1
-        }
-      ]
+      "intensity": 0.0,
+      "count": 51,
+      "top": []
     }
   ],
   "note": "★ 추정 — GICS 섹터 매핑 휴리스틱. 합의 강도는 ups-downs + conviction 합성."
