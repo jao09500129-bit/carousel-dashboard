@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-20T22:53:03.596972+09:00",
+  "collected_at": "2026-05-20T23:11:11.351894+09:00",
   "date": "2026-05-20",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 63,
   "stats": {
     "with_broker_mention": 13,
     "target_price_up": 3,
@@ -48,6 +48,22 @@
     ]
   },
   "items": [
+    {
+      "title": "'2차전지 대장주' 금양 결국 상장폐지된다",
+      "url": "https://www.hankyung.com/article/2026052000941",
+      "summary": "한때 시가총액 10조원을 넘보며 ‘2차전지 대장주’로 불린 금양이 결국 상장폐지된다. 거래정지 시점 시총도 6333억원에 달해 소액주주 피해가 클 것으로 우려된다.한국거래소는 20일 유가증권시장 상장공시위원회를 열어 금양의 상장폐지를 결정했다고 공...",
+      "datetime_raw": "2026.05.20 22:52",
+      "datetime": "2026-05-20T22:52:00+09:00",
+      "dt": "2026-05-20 22:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2차전지 대장주"
+      ],
+      "hash": "664bc2c2596a"
+    },
     {
       "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
       "url": "https://www.hankyung.com/article/2026052097231",
@@ -365,22 +381,6 @@
       "hash": "c88a316417c9"
     },
     {
-      "title": "김서준 \"디지털자산, AI 시대 핵심 금융 인프라로 도약…新 인터넷 경제 열린다\" [SEABW 2026]",
-      "url": "https://www.hankyung.com/article/202605208941B",
-      "summary": "\"가상자산(암호화폐) 산업은 지난 10년 동안 인간 사용자를 확보하기 위해 달려왔습니다. 하지만 앞으로 가장 자연스러운 사용자는 인간이 아니라 AI 에이전트가 될 수 있습니다.\"김서준 해시드 대표가 인공지능(AI)과 디지털자산의 결합이 새로운 인터넷 경제 구조를 만들게...",
-      "datetime_raw": "2026.05.20 14:02",
-      "datetime": "2026-05-20T14:02:00+09:00",
-      "dt": "2026-05-20 14:02",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "김서준 \"디지털자산"
-      ],
-      "hash": "eb351651f2dd"
-    },
-    {
       "title": "\"새벽 3시인데 이게 된다고?\"…다이소·쿠팡 '파격' 승부수",
       "url": "https://www.hankyung.com/article/202605182839g",
       "summary": "",
@@ -447,21 +447,20 @@
       "hash": "a1a54fe13952"
     },
     {
-      "title": "'30% 와르르' 무너진 주가…회장님 3주 만에 또 80억 '베팅'",
-      "url": "https://www.hankyung.com/article/202605196611i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
+      "title": "김서준 \"디지털자산, AI 시대 핵심 금융 인프라로 도약…新 인터넷 경제 열린다\" [SEABW 2026]",
+      "url": "https://www.hankyung.com/article/202605208941B",
+      "summary": "\"가상자산(암호화폐) 산업은 지난 10년 동안 인간 사용자를 확보하기 위해 달려왔습니다. 하지만 앞으로 가장 자연스러운 사용자는 인간이 아니라 AI 에이전트가 될 수 있습니다.\"김서준 해시드 대표가 인공지능(AI)과 디지털자산의 결합이 새로운 인터넷 경제 구조를 만들게...",
+      "datetime_raw": "2026.05.20 14:02",
+      "datetime": "2026-05-20T14:02:00+09:00",
+      "dt": "2026-05-20 14:02",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "베팅",
-        "30% 와르르"
+        "김서준 \"디지털자산"
       ],
-      "hash": "edaf9a8439f4"
+      "hash": "eb351651f2dd"
     },
     {
       "title": "삼성전자, 노사 합의 결렬에 장중 3% 약세 전환",
@@ -1103,22 +1102,6 @@
         "증권시장 결제주기 단축"
       ],
       "hash": "9726c20cb06d"
-    },
-    {
-      "title": "코스피, 장중 4%대 급락…7100선으로 후퇴",
-      "url": "https://www.hankyung.com/article/2026051957676",
-      "summary": "코스피지수가 19일 장중 외국인 투자자의 대규모 매도세에 4% 넘게 급락하면서 7100선으로 밀렸다. 이날 오전 11시2분 현재 코스피지수는 전장보다 331.51포인트(4.41%) 내린 7184.53을 기록하고 있다. 1.2% 하락 출발한 코스피지수...",
-      "datetime_raw": "2026.05.19 10:58",
-      "datetime": "2026-05-19T10:58:00+09:00",
-      "dt": "2026-05-19 10:58",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "35c467dd7b02"
     }
   ],
   "consensus_signals": []
