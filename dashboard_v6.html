@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>회전목마 v6 — 계좌 현황 대시보드</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
+<style>
+:root {
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --border: #e3e8f0;
+  --text: #1e293b;
+  --text-dim: #64748b;
+  --text-faint: #94a3b8;
+  --buy: #ef4444;   /* 한국식: 빨강 = 상승 */
+  --buy-soft: #fef2f2;
+  --sell: #2563eb;  /* 한국식: 파랑 = 하락 */
+  --sell-soft: #eff6ff;
+  --warn: #f59e0b;
+  --warn-soft: #fef3c7;
+  --grid: #f1f5f9;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; background: var(--bg); color: var(--text); padding: 20px; line-height: 1.5; }
+.container { max-width: 1280px; margin: 0 auto; }
+header { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 24px 28px; border-radius: 14px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(30,64,175,.15); }
+header h1 { font-size: 22px; margin-bottom: 6px; font-weight: 700; }
+header .sub { font-size: 13px; opacity: .85; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(12, 1fr); }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
+.card h2 { font-size: 14px; color: var(--text-dim); margin-bottom: 12px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.span-3 { grid-column: span 3; }
+.span-4 { grid-column: span 4; }
+.span-6 { grid-column: span 6; }
+.span-8 { grid-column: span 8; }
+.span-12 { grid-column: span 12; }
+@media (max-width: 900px) {
+  .span-3, .span-4, .span-6, .span-8 { grid-column: span 12; }
+}
+.kpi-value { font-size: 28px; font-weight: 700; color: var(--text); }
+.kpi-value.buy { color: var(--buy); }
+.kpi-value.sell { color: var(--sell); }
+.kpi-sub { font-size: 12px; color: var(--text-faint); margin-top: 4px; }
+.chart-box { position: relative; height: 280px; }
+.chart-box.tall { height: 360px; }
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.stat { padding: 12px; background: var(--bg); border-radius: 8px; border: 1px solid var(--border); }
+.stat-label { font-size: 11px; color: var(--text-faint); margin-bottom: 4px; }
+.stat-value { font-size: 18px; font-weight: 700; color: var(--text); }
+.stat-value.buy { color: var(--buy); }
+.stat-value.sell { color: var(--sell); }
+.stat-value.warn { color: var(--warn); }
+.trade-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.trade-table th { background: var(--bg); padding: 8px 10px; text-align: left; font-weight: 600; color: var(--text-dim); border-bottom: 2px solid var(--border); }
+.trade-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
+.trade-table tr:last-child td { border-bottom: none; }
+.trade-table .action-buy { color: var(--buy); font-weight: 600; }
+.trade-table .action-sell { color: var(--sell); font-weight: 600; }
+.trade-table .action-sl { color: white; background: var(--warn); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+.trade-table .action-hold { color: var(--text-faint); }
+.return-cell.buy { color: var(--buy); font-weight: 600; }
+.return-cell.sell { color: var(--sell); font-weight: 600; }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+.badge.live { background: var(--buy-soft); color: var(--buy); }
+.badge.shadow { background: var(--bg); color: var(--text-dim); border: 1px solid var(--border); }
+.target-progress { background: var(--bg); border-radius: 10px; overflow: hidden; height: 24px; position: relative; }
+.target-bar { height: 100%; background: linear-gradient(90deg, #3b82f6 0%, #22c55e 100%); transition: width .6s ease; }
+.target-text { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 12px; font-weight: 600; color: var(--text); z-index: 1; }
+.empty { color: var(--text-faint); font-size: 13px; padding: 30px; text-align: center; }
+.notice { font-size: 11px; color: var(--text-faint); margin-top: 12px; font-style: italic; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>회전목마 m21 — 계좌 현황 대시보드 v6</h1>
+    <div class="sub">실시간 paper trading + R&D 시각화 · 마지막 갱신: <span id="updated-at">…</span></div>
+  </header>
+
+  <!-- ROW 1: KPI 4개 -->
+  <div class="grid">
+    <div class="card span-3">
+      <h2>💰 현재 누적 수익률</h2>
+      <div class="kpi-value buy" id="kpi-return">…</div>
+      <div class="kpi-sub" id="kpi-since">…</div>
+    </div>
+    <div class="card span-3">
+      <h2>📈 최고 누적</h2>
+      <div class="kpi-value" id="kpi-peak">…</div>
+      <div class="kpi-sub" id="kpi-peak-date">…</div>
+    </div>
+    <div class="card span-3">
+      <h2>📉 현재 Drawdown</h2>
+      <div class="kpi-value" id="kpi-dd">…</div>
+      <div class="kpi-sub" id="kpi-dd-from-peak">최고점 대비</div>
+    </div>
+    <div class="card span-3">
+      <h2>🎯 목표 달성률</h2>
+      <div class="target-progress">
+        <span class="target-text" id="target-text">…</span>
+        <div class="target-bar" id="target-bar" style="width: 0%;"></div>
+      </div>
+      <div class="kpi-sub" style="margin-top: 8px;">목표 CAGR 42.58% (월 3% 복리)</div>
+    </div>
+  </div>
+
+  <!-- ROW 2: 시계열 차트 (가장 큰) -->
+  <div class="grid" style="margin-top: 16px;">
+    <div class="card span-12">
+      <h2>📊 누적 수익률 추이 (m21 LIVE)</h2>
+      <div class="chart-box tall">
+        <canvas id="cumret-chart"></canvas>
+      </div>
+      <div class="notice">파란선 = 일별 누적 수익률 · 빨강 점선 = 최고 수익률 · 회색 점선 = 목표 라인 (12거래일 단순 환산)</div>
+    </div>
+  </div>
+
+  <!-- ROW 3: 포트폴리오 파이 + 매매 통계 -->
+  <div class="grid" style="margin-top: 16px;">
+    <div class="card span-6">
+      <h2>📊 현재 포트폴리오</h2>
+      <div class="chart-box">
+        <canvas id="portfolio-chart"></canvas>
+      </div>
+    </div>
+    <div class="card span-6">
+      <h2>🎯 매매 통계</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <div class="stat-label">총 매매 횟수</div>
+          <div class="stat-value" id="stat-total">…</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">매수 / 매도</div>
+          <div class="stat-value" id="stat-buy-sell">…</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">STOP-LOSS 발동</div>
+          <div class="stat-value warn" id="stat-sl">…</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">관망일 (보유 유지)</div>
+          <div class="stat-value" id="stat-hold">…</div>
+        </div>
+      </div>
+      <div class="notice" id="m21-signal-note">…</div>
+    </div>
+  </div>
+
+  <!-- ROW 4: MDD 차트 -->
+  <div class="grid" style="margin-top: 16px;">
+    <div class="card span-12">
+      <h2>⚠ Drawdown 추적 (최고점 대비 손실)</h2>
+      <div class="chart-box">
+        <canvas id="mdd-chart"></canvas>
+      </div>
+      <div class="notice">STOP-LOSS 임계값 -5% (빨강) · -3% 경고 (주황)</div>
+    </div>
+  </div>
+
+  <!-- ROW 5: 매매 기록 표 -->
+  <div class="grid" style="margin-top: 16px;">
+    <div class="card span-12">
+      <h2>📜 매매 기록 (4/29 ~ 오늘)</h2>
+      <table class="trade-table">
+        <thead>
+          <tr>
+            <th>날짜</th><th>액션</th><th>누적 수익률</th><th>메모</th>
+          </tr>
+        </thead>
+        <tbody id="trade-tbody">
+          <tr><td colspan="4" class="empty">데이터 로딩 중…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ROW 6: m21/m26/m28h/m30/m37 SHADOW 상태 -->
+  <div class="grid" style="margin-top: 16px;">
+    <div class="card span-12">
+      <h2>🌗 4-Way 신호 비교 (오늘)</h2>
+      <table class="trade-table">
+        <thead>
+          <tr><th>전략</th><th>wl 신호</th><th>m21 대비 변화</th><th>비고</th><th>R&D 단계</th></tr>
+        </thead>
+        <tbody id="shadow-tbody"></tbody>
+      </table>
+      <div class="notice">m21 = LIVE 실측 · m28h/m30/m37 = SHADOW (가상 시뮬레이션). 1개월차(5/29) 평가에서 4-way 정량 비교.</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// paper_status.json 로드
+fetch('paper_status.json').then(r => r.json()).then(data => {
+  renderDashboard(data);
+}).catch(err => {
+  document.querySelector('header h1').innerHTML += ' <span style="color:#fef3c7;">(데이터 로딩 실패)</span>';
+  console.error(err);
+});
+
+function fmtPct(v, signed) {
+  if (v === null || v === undefined || isNaN(v)) return '—';
+  const s = (signed && v > 0 ? '+' : '') + v.toFixed(2) + '%';
+  return s;
+}
+function pctClass(v) { return v > 0 ? 'buy' : (v < 0 ? 'sell' : ''); }
+
+function renderDashboard(d) {
+  document.getElementById('updated-at').textContent = (d.updated_at || '').slice(0, 19).replace('T', ' ');
+
+  // KPI 1: 누적 수익률
+  const ret = d.portfolio?.total_return_pct ?? 0;
+  const retEl = document.getElementById('kpi-return');
+  retEl.textContent = fmtPct(ret, true);
+  retEl.className = 'kpi-value ' + pctClass(ret);
+  const days = d.portfolio?.since_start_days ?? 0;
+  document.getElementById('kpi-since').textContent = `Paper ${days}일 차`;
+
+  const v6 = d.v6_extras || {};
+  const stats = v6.trading_stats || {};
+
+  // KPI 2: 최고
+  const peak = stats.peak_return_pct ?? 0;
+  document.getElementById('kpi-peak').textContent = fmtPct(peak, true);
+  document.getElementById('kpi-peak').className = 'kpi-value ' + pctClass(peak);
+  document.getElementById('kpi-peak-date').textContent = stats.peak_date || '—';
+
+  // KPI 3: Drawdown
+  const dd = Math.min(ret - peak, 0);
+  document.getElementById('kpi-dd').textContent = fmtPct(dd, true);
+  document.getElementById('kpi-dd').className = 'kpi-value ' + pctClass(dd);
+
+  // KPI 4: 목표 달성률
+  const target = 42.58;
+  const annual = days > 0 ? (Math.pow(1 + ret/100, 252/days) - 1) * 100 : 0;
+  const ratio = Math.min(Math.max(annual / target * 100, 0), 100);
+  document.getElementById('target-bar').style.width = ratio + '%';
+  document.getElementById('target-text').textContent = `현재 환산 ${annual.toFixed(1)}% / 목표 ${target}%`;
+
+  // 매매 통계
+  document.getElementById('stat-total').textContent = (stats.total_trades ?? 0) + '회';
+  document.getElementById('stat-buy-sell').textContent = `매수 ${stats.buy_count ?? 0} / 매도 ${stats.sell_count ?? 0}`;
+  document.getElementById('stat-sl').textContent = (stats.stop_loss_count ?? 0) + '회';
+  document.getElementById('stat-hold').textContent = (stats.hold_days ?? 0) + '일';
+
+  // m21 신호 노트
+  const sigNote = `오늘 m21 신호 wl=${d.m21?.wl_after_all ?? 0} · regime ${d.m21?.regime || '-'} · ${d.m21?.decision_kr || ''}`;
+  document.getElementById('m21-signal-note').textContent = sigNote;
+
+  // 누적 수익률 시계열 차트
+  const history = v6.daily_history || [];
+  drawCumretChart(history, peak, target, days);
+
+  // 포트폴리오 파이
+  drawPortfolioChart(d.portfolio?.holdings || [], d.portfolio?.cash_pct || 0);
+
+  // MDD 차트
+  drawMDDChart(v6.mdd_series || []);
+
+  // 매매 기록 표
+  drawTradeTable(v6.trade_history || []);
+
+  // 4-Way 신호 비교
+  drawShadowTable(d);
+}
+
+function drawCumretChart(history, peak, target, days) {
+  if (!history.length) return;
+  const ctx = document.getElementById('cumret-chart');
+  const labels = history.map(h => h.date.slice(5));
+  const data = history.map(h => h.total_return_pct);
+  const peakLine = history.map(_ => peak);
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'm21 누적 수익률',
+          data,
+          borderColor: '#3b82f6',
+          backgroundColor: 'rgba(59,130,246,.1)',
+          borderWidth: 2.5,
+          fill: true,
+          tension: 0.3,
+          pointRadius: 4,
+          pointHoverRadius: 6,
+        },
+        {
+          label: '최고 누적',
+          data: peakLine,
+          borderColor: '#ef4444',
+          borderWidth: 1.5,
+          borderDash: [6,4],
+          pointRadius: 0,
+          fill: false,
+        }
+      ]
+    },
+    options: {
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top', labels: { font: { size: 12 }, padding: 12 } },
+        tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}%` } }
+      },
+      scales: {
+        y: { ticks: { callback: v => v.toFixed(1) + '%', color: '#64748b' }, grid: { color: '#f1f5f9' } },
+        x: { ticks: { color: '#64748b' }, grid: { display: false } }
+      }
+    }
+  });
+}
+
+function drawPortfolioChart(holdings, cashPct) {
+  const ctx = document.getElementById('portfolio-chart');
+  const labels = holdings.map(h => h.name).concat(['현금']);
+  const data = holdings.map(h => h.weight_pct).concat([cashPct]);
+  const colors = ['#3b82f6', '#22c55e', '#f59e0b', '#ec4899', '#94a3b8'];
+  new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: colors.slice(0, data.length),
+        borderColor: '#ffffff',
+        borderWidth: 2,
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'right', labels: { font: { size: 12 }, padding: 8 } },
+        tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.parsed.toFixed(2)}%` } }
+      }
+    }
+  });
+}
+
+function drawMDDChart(mddSeries) {
+  if (!mddSeries.length) return;
+  const ctx = document.getElementById('mdd-chart');
+  const labels = mddSeries.map(m => m.date.slice(5));
+  const data = mddSeries.map(m => m.drawdown_pct);
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Drawdown',
+          data,
+          borderColor: '#ef4444',
+          backgroundColor: 'rgba(239,68,68,.15)',
+          borderWidth: 2,
+          fill: true,
+          tension: 0.2,
+          pointRadius: 3,
+        },
+        {
+          label: 'STOP-LOSS -5%',
+          data: data.map(_ => -5),
+          borderColor: '#dc2626',
+          borderWidth: 1.5,
+          borderDash: [4,4],
+          pointRadius: 0,
+          fill: false,
+        },
+        {
+          label: '경고 -3%',
+          data: data.map(_ => -3),
+          borderColor: '#f59e0b',
+          borderWidth: 1.5,
+          borderDash: [4,4],
+          pointRadius: 0,
+          fill: false,
+        }
+      ]
+    },
+    options: {
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'top', labels: { font: { size: 12 } } },
+        tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}%` } }
+      },
+      scales: {
+        y: {
+          max: 1, suggestedMin: -10,
+          ticks: { callback: v => v.toFixed(0) + '%', color: '#64748b' },
+          grid: { color: '#f1f5f9' }
+        },
+        x: { ticks: { color: '#64748b' }, grid: { display: false } }
+      }
+    }
+  });
+}
+
+function drawTradeTable(trades) {
+  const tbody = document.getElementById('trade-tbody');
+  if (!trades.length) {
+    tbody.innerHTML = '<tr><td colspan="4" class="empty">매매 기록 없음</td></tr>';
+    return;
+  }
+  const rows = trades.slice().reverse().map(t => {
+    const actionCls = t.action_short.includes('SL') ? 'action-sl' :
+                      t.action_short.includes('BUY') ? 'action-buy' :
+                      t.action_short.includes('SELL') ? 'action-sell' : 'action-hold';
+    const retCls = pctClass(t.return_pct);
+    return `<tr>
+      <td>${t.date}</td>
+      <td class="${actionCls}">${t.action_short}</td>
+      <td class="return-cell ${retCls}">${fmtPct(t.return_pct, true)}</td>
+      <td style="color:#64748b;">${(t.memo || '').slice(0,80)}</td>
+    </tr>`;
+  }).join('');
+  tbody.innerHTML = rows;
+}
+
+function drawShadowTable(d) {
+  const tbody = document.getElementById('shadow-tbody');
+  const m21wl = d.m21?.wl_after_all ?? 0;
+  const m28h = d.m28h_shadow?.m28h;
+  const m30 = d.m30_shadow?.m30;
+  const m37 = d.m37_shadow?.m37;
+  const rows = [
+    { name: 'm21 (LIVE)', wl: m21wl, diff: '—', note: d.m21?.decision_kr || '', badge: 'live', stage: '본승인 baseline' },
+    { name: 'm28h SHADOW', wl: m28h?.wl ?? '—', diff: m28h ? (m28h.diverged ? '⚠ 다름' : '동일') : '—', note: m28h?.gated_today ? 'cost gate ON (매매 skip)' : 'cost gate OFF', badge: 'shadow', stage: 'Phase 4 후보' },
+    { name: 'm30 SHADOW', wl: m30?.wl ?? '—', diff: m30 ? (m30.diverged_from_m21 ? '⚠ 다름' : '동일') : '—', note: m30 && d.m30_shadow?.m26?.active_today ? 'm26 cut 발동!' : 'm26 미발동', badge: 'shadow', stage: 'Phase 7 후보' },
+    { name: 'm37 SHADOW', wl: m37?.wl ?? '—', diff: m37 ? (m37.diverged_from_m21 ? '⚠ 다름' : '동일') : '—', note: m37?.v_cancelled_today ? '🌟 V자 cancel!' : '평소 운영', badge: 'shadow', stage: 'Phase 13 후보' },
+  ];
+  tbody.innerHTML = rows.map(r => `<tr>
+    <td><span class="badge ${r.badge}">${r.name}</span></td>
+    <td>${typeof r.wl === 'number' ? r.wl.toFixed(2) : r.wl}</td>
+    <td>${r.diff}</td>
+    <td style="color:#64748b;">${r.note}</td>
+    <td style="font-size:11px;color:#94a3b8;">${r.stage}</td>
+  </tr>`).join('');
+}
+</script>
+</body>
+</html>
