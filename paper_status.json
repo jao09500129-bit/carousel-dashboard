@@ -1,6 +1,6 @@
 {
   "date": "2026-05-20",
-  "updated_at": "2026-05-20T22:46:06+09:00",
+  "updated_at": "2026-05-20T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "UP_STRONG",
@@ -76,7 +76,7 @@
         "pnl_pct": 0.38
       }
     ],
-    "last_updated": "2026-05-20T22:33:13.634062",
+    "last_updated": "2026-05-20T22:50:05.788211",
     "since_start_days": 21
   },
   "trade_today": {
@@ -222,11 +222,11 @@
       "vol_off_pct": 18.86
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-05-20T22:46:09+09:00"
+    "updated_at": "2026-05-20T23:10:05+09:00"
   },
   "m30_shadow": {
     "date": "2026-05-19",
-    "updated_at": "2026-05-20T22:46:10+09:00",
+    "updated_at": "2026-05-20T23:10:06+09:00",
     "m21": {
       "wl": 1.0,
       "ws": 0.0,
@@ -271,7 +271,7 @@
   },
   "m37_shadow": {
     "date": "2026-05-19",
-    "updated_at": "2026-05-20T22:46:15+09:00",
+    "updated_at": "2026-05-20T23:10:10+09:00",
     "m21": {
       "wl": 1.0,
       "ws": 0.0
@@ -301,6 +301,232 @@
       "m37_rebound_lookback": 3
     },
     "note": "m37 = m30 + V자 반등 cancellation. R&D Phase 13 채택 후보 (CAGR +2.00p vs m21, Bootstrap p=99.7% vs m30 robust 우월)."
+  },
+  "v6_extras": {
+    "daily_history": [
+      {
+        "date": "2026-05-08",
+        "total_return_pct": 22.71,
+        "holding_qty": 361
+      },
+      {
+        "date": "2026-05-09",
+        "total_return_pct": 22.71,
+        "holding_qty": 361
+      },
+      {
+        "date": "2026-05-10",
+        "total_return_pct": 22.71,
+        "holding_qty": 361
+      },
+      {
+        "date": "2026-05-11",
+        "total_return_pct": 29.26,
+        "holding_qty": 487
+      },
+      {
+        "date": "2026-05-12",
+        "total_return_pct": 22.08,
+        "holding_qty": 487
+      },
+      {
+        "date": "2026-05-13",
+        "total_return_pct": 21.96,
+        "holding_qty": 306
+      },
+      {
+        "date": "2026-05-14",
+        "total_return_pct": 27.52,
+        "holding_qty": 306
+      },
+      {
+        "date": "2026-05-15",
+        "total_return_pct": 22.39,
+        "holding_qty": 306
+      },
+      {
+        "date": "2026-05-16",
+        "total_return_pct": 22.39,
+        "holding_qty": 0
+      },
+      {
+        "date": "2026-05-17",
+        "total_return_pct": 22.39,
+        "holding_qty": 0
+      },
+      {
+        "date": "2026-05-18",
+        "total_return_pct": 21.95,
+        "holding_qty": 319
+      },
+      {
+        "date": "2026-05-19",
+        "total_return_pct": 25.58,
+        "holding_qty": 319
+      },
+      {
+        "date": "2026-05-20",
+        "total_return_pct": 22.84,
+        "holding_qty": 846
+      }
+    ],
+    "trade_history": [
+      {
+        "date": "2026-04-29",
+        "action_short": "🟢 BUY",
+        "qty": 638,
+        "return_pct": 1.74,
+        "memo": "첫 매수, 시가 -85bp 슬리피지 이득"
+      },
+      {
+        "date": "2026-04-30",
+        "action_short": "⏸ HOLD",
+        "qty": 638,
+        "return_pct": 0.07,
+        "memo": "신호 동일 75% / 122630 -2.22% / 자본 -1.64%"
+      },
+      {
+        "date": "2026-05-04",
+        "action_short": "⏸ HOLD",
+        "qty": 638,
+        "return_pct": 7.94,
+        "memo": "신호 동일 75% / 122630 +10.69% / 5/1~5/3 휴장"
+      },
+      {
+        "date": "2026-05-07",
+        "action_short": "🔴 SELL",
+        "qty": 509,
+        "return_pct": 23.52,
+        "memo": "drift +19.0%p > 10%p / 시장가 매도, 잔여 509주"
+      },
+      {
+        "date": "2026-05-08",
+        "action_short": "🔴 SELL",
+        "qty": 361,
+        "return_pct": 22.71,
+        "memo": "drift +22.7%p > 10%p / 시장가 매도, 잔여 361주"
+      },
+      {
+        "date": "2026-05-11",
+        "action_short": "🟢 BUY",
+        "qty": 487,
+        "return_pct": 29.26,
+        "memo": "drift -19.5%p > 10%p / 시초 갭업 +9% 매수 / 잔여 487주"
+      },
+      {
+        "date": "2026-05-12",
+        "action_short": "🚨 SL",
+        "qty": 0,
+        "return_pct": 22.08,
+        "memo": "🚨 STOP-LOSS 발동 -5.42% / 시장가 청산 487주 / 잔여 0"
+      },
+      {
+        "date": "2026-05-13",
+        "action_short": "🟢 BUY",
+        "qty": 306,
+        "return_pct": 27.52,
+        "memo": "신호 75→50% 약화 / 재진입 306주 / 5/12 청산 후 첫 매수"
+      },
+      {
+        "date": "2026-05-14",
+        "action_short": "⏸ HOLD",
+        "qty": 306,
+        "return_pct": 27.4,
+        "memo": "신호 동일 50% / drift +2.6%p ≤ 10%p / 매매 X"
+      },
+      {
+        "date": "2026-05-15",
+        "action_short": "🚨 SL",
+        "qty": 0,
+        "return_pct": 22.41,
+        "memo": "🚨 STOP-LOSS 발동 -5.19% / 시장가 청산 306주 14:32"
+      },
+      {
+        "date": "2026-05-18",
+        "action_short": "🟢 BUY",
+        "qty": 319,
+        "return_pct": 25.58,
+        "memo": "신호 50% / 재진입 319주 / 5/15 청산 후 첫 매수"
+      },
+      {
+        "date": "2026-05-19",
+        "action_short": "⏸ HOLD",
+        "qty": 319,
+        "return_pct": 22.65,
+        "memo": "신호 동일 50% / 장중 -3.14% alert 후 회복 / 매매 X"
+      },
+      {
+        "date": "2026-05-20",
+        "action_short": "🟢 BUY",
+        "qty": 846,
+        "return_pct": 22.84,
+        "memo": "⚠️ 자동매매 cash 부족 실패 / 사용자 수동 매수 316+127+84=527주"
+      }
+    ],
+    "trading_stats": {
+      "total_trades": 9,
+      "buy_count": 5,
+      "sell_count": 4,
+      "stop_loss_count": 2,
+      "hold_days": 4,
+      "peak_return_pct": 29.26,
+      "peak_date": "2026-05-11 (월)"
+    },
+    "mdd_series": [
+      {
+        "date": "2026-05-08",
+        "drawdown_pct": 0.0
+      },
+      {
+        "date": "2026-05-09",
+        "drawdown_pct": 0.0
+      },
+      {
+        "date": "2026-05-10",
+        "drawdown_pct": 0.0
+      },
+      {
+        "date": "2026-05-11",
+        "drawdown_pct": 0.0
+      },
+      {
+        "date": "2026-05-12",
+        "drawdown_pct": -7.18
+      },
+      {
+        "date": "2026-05-13",
+        "drawdown_pct": -7.3
+      },
+      {
+        "date": "2026-05-14",
+        "drawdown_pct": -1.74
+      },
+      {
+        "date": "2026-05-15",
+        "drawdown_pct": -6.87
+      },
+      {
+        "date": "2026-05-16",
+        "drawdown_pct": -6.87
+      },
+      {
+        "date": "2026-05-17",
+        "drawdown_pct": -6.87
+      },
+      {
+        "date": "2026-05-18",
+        "drawdown_pct": -7.31
+      },
+      {
+        "date": "2026-05-19",
+        "drawdown_pct": -3.68
+      },
+      {
+        "date": "2026-05-20",
+        "drawdown_pct": -6.42
+      }
+    ],
+    "generated_at": "2026-05-20T23:10:15"
   },
   "evaluation": {
     "month1_review": "2026-05-29",
