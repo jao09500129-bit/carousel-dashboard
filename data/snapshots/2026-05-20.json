@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-20T19:37:24.465714+09:00",
+  "collected_at": "2026-05-20T22:53:03.596972+09:00",
   "date": "2026-05-20",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 65,
+  "total_items": 64,
   "stats": {
     "with_broker_mention": 13,
     "target_price_up": 3,
@@ -381,22 +381,6 @@
       "hash": "eb351651f2dd"
     },
     {
-      "title": "삼성전자 노조 \"내일 예정대로 총파업 돌입\"",
-      "url": "https://www.hankyung.com/article/202605208612g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "내일 예정대로 총파업 돌입"
-      ],
-      "hash": "2024dd79f825"
-    },
-    {
       "title": "\"새벽 3시인데 이게 된다고?\"…다이소·쿠팡 '파격' 승부수",
       "url": "https://www.hankyung.com/article/202605182839g",
       "summary": "",
@@ -412,6 +396,22 @@
         "새벽 3시인데 이게 된다고?"
       ],
       "hash": "1341f75480d9"
+    },
+    {
+      "title": "삼성전자 노조 \"내일 예정대로 총파업 돌입\"",
+      "url": "https://www.hankyung.com/article/202605208612g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "내일 예정대로 총파업 돌입"
+      ],
+      "hash": "2024dd79f825"
     },
     {
       "title": "\"하락장에도 잘 버티네\"…배당 확대까지 앞세운 '방어주' 3총사",
@@ -431,6 +431,22 @@
       "hash": "4af84c213495"
     },
     {
+      "title": "삼전닉스 팔고 '이것' 담았다…주가 128만원 찍은 회사 정체",
+      "url": "https://www.hankyung.com/article/2026052075676",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이것"
+      ],
+      "hash": "a1a54fe13952"
+    },
+    {
       "title": "'30% 와르르' 무너진 주가…회장님 3주 만에 또 80억 '베팅'",
       "url": "https://www.hankyung.com/article/202605196611i",
       "summary": "",
@@ -446,22 +462,6 @@
         "30% 와르르"
       ],
       "hash": "edaf9a8439f4"
-    },
-    {
-      "title": "\"해약해도 돌려줄 돈 없다\"…코인으로 500억 날린 상조업체",
-      "url": "https://www.hankyung.com/article/2026051844751",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "해약해도 돌려줄 돈 없다"
-      ],
-      "hash": "5aba1f14ddfc"
     },
     {
       "title": "삼성전자, 노사 합의 결렬에 장중 3% 약세 전환",
@@ -887,22 +887,6 @@
         "이 회사"
       ],
       "hash": "95ac4f7e8bcf"
-    },
-    {
-      "title": "삼전닉스 팔고 '이것' 담았다…주가 128만원 찍은 회사 정체 [종목+]",
-      "url": "https://www.hankyung.com/article/2026052075676",
-      "summary": "대장주 삼성전자와 SK하이닉스 주가가 하락하고 코스피지수가 7200선까지 밀린 급락장에서도 방산주(株)는 강세를 보였다. 증권가에선 최근까지 미국과 이란 간 협상이 난항을 겪으면서 종전 기대가 약해진 데다 중장기 수주 모멘텀까지 영향을 미친 것으로 풀이한다.20일 한국...",
-      "datetime_raw": "2026.05.20 07:43",
-      "datetime": "2026-05-20T07:43:00+09:00",
-      "dt": "2026-05-20 07:43",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이것"
-      ],
-      "hash": "a1a54fe13952"
     },
     {
       "title": "\"셀트리온, 실적 개선 및 임상 모멘텀 기대에도 저평가돼\"-대신",
