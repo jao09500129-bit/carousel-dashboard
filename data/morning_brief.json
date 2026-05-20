@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-20 22:53 KST",
+  "as_of": "2026-05-20 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
+    "'2차전지 대장주' 금양 결국 상장폐지된다 (2026-05-20 22:52)",
     "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유 (2026-05-20 19:00)",
-    "'대표 방어주' 통신 3사, 조정장서 꿋꿋 (2026-05-20 17:55)",
-    "코스피 요동쳐도 '빨간 기둥'…하반기가 더 반가운 섹터는 [한경 프리미엄9 TODAY] (2026-05-20 17:48)"
+    "'대표 방어주' 통신 3사, 조정장서 꿋꿋 (2026-05-20 17:55)"
   ],
   "carousel_implications": {
     "regime": "금리 변동 주도 (+6.0bp) (가설)",
@@ -46,16 +46,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.33% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.31% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.33%"
+        "trigger_value": "-0.31%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-20T22:53:03.596972+09:00",
+    "collected_at": "2026-05-20T23:11:11.351894+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,506.51",
-            "chg": "5.06",
-            "chg_pct": "-0.33%"
+            "close": "1,506.92",
+            "chg": "4.65",
+            "chg_pct": "-0.31%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,746.28",
-            "chg": "6.53",
-            "chg_pct": "-0.37%"
+            "close": "1,745.33",
+            "chg": "7.48",
+            "chg_pct": "-0.43%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "947.05",
-            "chg": "3.36",
-            "chg_pct": "-0.35%"
+            "close": "946.69",
+            "chg": "3.72",
+            "chg_pct": "-0.39%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "221.05",
-            "chg": "1.22",
-            "chg_pct": "-0.55%"
+            "close": "221.09",
+            "chg": "1.18",
+            "chg_pct": "-0.53%"
           }
         ]
       },
