@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-20T23:27:54.847683+09:00",
+  "collected_at": "2026-05-20T23:44:30.177814+09:00",
   "date": "2026-05-20",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 63,
+  "total_items": 64,
   "stats": {
     "with_broker_mention": 13,
     "target_price_up": 3,
@@ -398,6 +398,23 @@
       "hash": "1341f75480d9"
     },
     {
+      "title": "\"하락장에도 잘 버티네\"…배당 확대까지 앞세운 '방어주' 3총사",
+      "url": "https://www.hankyung.com/article/202605208172i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "방어주",
+        "하락장에도 잘 버티네"
+      ],
+      "hash": "4af84c213495"
+    },
+    {
       "title": "삼성전자 노조 \"내일 예정대로 총파업 돌입\"",
       "url": "https://www.hankyung.com/article/202605208612g",
       "summary": "",
@@ -414,8 +431,8 @@
       "hash": "2024dd79f825"
     },
     {
-      "title": "\"하락장에도 잘 버티네\"…배당 확대까지 앞세운 '방어주' 3총사",
-      "url": "https://www.hankyung.com/article/202605208172i",
+      "title": "삼성전자 셧다운 피했다…노사 성과급 협상 극적 타결",
+      "url": "https://www.hankyung.com/article/202605200099i",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -425,10 +442,9 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "방어주",
-        "하락장에도 잘 버티네"
+        "삼성전자 셧다운 피했다"
       ],
-      "hash": "4af84c213495"
+      "hash": "47f449634216"
     },
     {
       "title": "삼전닉스 팔고 '이것' 담았다…주가 128만원 찍은 회사 정체",
