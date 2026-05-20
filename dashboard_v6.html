@@ -9,27 +9,27 @@
 :root {
   --bg: #f5f7fb;
   --card: #ffffff;
-  --border: #e3e8f0;
-  --text: #1e293b;
-  --text-dim: #64748b;
-  --text-faint: #94a3b8;
-  --buy: #ef4444;   /* 한국식: 빨강 = 상승 */
-  --buy-soft: #fef2f2;
-  --sell: #2563eb;  /* 한국식: 파랑 = 하락 */
-  --sell-soft: #eff6ff;
-  --warn: #f59e0b;
+  --border: #cbd5e1;
+  --text: #0f172a;
+  --text-dim: #1e293b;
+  --text-faint: #475569;
+  --buy: #dc2626;   /* 한국식: 빨강 = 상승 */
+  --buy-soft: #fee2e2;
+  --sell: #1d4ed8;  /* 한국식: 파랑 = 하락 */
+  --sell-soft: #dbeafe;
+  --warn: #d97706;
   --warn-soft: #fef3c7;
-  --grid: #f1f5f9;
+  --grid: #e2e8f0;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; background: var(--bg); color: var(--text); padding: 20px; line-height: 1.5; }
+body { font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; background: var(--bg); color: var(--text); padding: 20px; line-height: 1.55; font-weight: 500; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .container { max-width: 1280px; margin: 0 auto; }
-header { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 24px 28px; border-radius: 14px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(30,64,175,.15); }
-header h1 { font-size: 22px; margin-bottom: 6px; font-weight: 700; }
-header .sub { font-size: 13px; opacity: .85; }
+header { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); color: white; padding: 24px 28px; border-radius: 14px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(30,64,175,.25); }
+header h1 { font-size: 24px; margin-bottom: 6px; font-weight: 800; letter-spacing: -.3px; }
+header .sub { font-size: 14px; opacity: .95; font-weight: 500; }
 .grid { display: grid; gap: 16px; grid-template-columns: repeat(12, 1fr); }
-.card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
-.card h2 { font-size: 14px; color: var(--text-dim); margin-bottom: 12px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+.card h2 { font-size: 15px; color: var(--text); margin-bottom: 12px; font-weight: 800; display: flex; align-items: center; gap: 8px; letter-spacing: -.2px; }
 .span-3 { grid-column: span 3; }
 .span-4 { grid-column: span 4; }
 .span-6 { grid-column: span 6; }
@@ -38,37 +38,37 @@ header .sub { font-size: 13px; opacity: .85; }
 @media (max-width: 900px) {
   .span-3, .span-4, .span-6, .span-8 { grid-column: span 12; }
 }
-.kpi-value { font-size: 28px; font-weight: 700; color: var(--text); }
+.kpi-value { font-size: 30px; font-weight: 800; color: var(--text); letter-spacing: -.5px; }
 .kpi-value.buy { color: var(--buy); }
 .kpi-value.sell { color: var(--sell); }
-.kpi-sub { font-size: 12px; color: var(--text-faint); margin-top: 4px; }
+.kpi-sub { font-size: 13px; color: var(--text-faint); margin-top: 4px; font-weight: 600; }
 .chart-box { position: relative; height: 280px; }
 .chart-box.tall { height: 360px; }
 .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .stat { padding: 12px; background: var(--bg); border-radius: 8px; border: 1px solid var(--border); }
-.stat-label { font-size: 11px; color: var(--text-faint); margin-bottom: 4px; }
-.stat-value { font-size: 18px; font-weight: 700; color: var(--text); }
+.stat-label { font-size: 12px; color: var(--text-faint); margin-bottom: 4px; font-weight: 700; }
+.stat-value { font-size: 20px; font-weight: 800; color: var(--text); }
 .stat-value.buy { color: var(--buy); }
 .stat-value.sell { color: var(--sell); }
 .stat-value.warn { color: var(--warn); }
-.trade-table { width: 100%; border-collapse: collapse; font-size: 12px; }
-.trade-table th { background: var(--bg); padding: 8px 10px; text-align: left; font-weight: 600; color: var(--text-dim); border-bottom: 2px solid var(--border); }
-.trade-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
+.trade-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.trade-table th { background: var(--bg); padding: 9px 10px; text-align: left; font-weight: 800; color: var(--text); border-bottom: 2px solid var(--border); }
+.trade-table td { padding: 9px 10px; border-bottom: 1px solid var(--border); color: var(--text); font-weight: 500; }
 .trade-table tr:last-child td { border-bottom: none; }
-.trade-table .action-buy { color: var(--buy); font-weight: 600; }
-.trade-table .action-sell { color: var(--sell); font-weight: 600; }
-.trade-table .action-sl { color: white; background: var(--warn); padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
-.trade-table .action-hold { color: var(--text-faint); }
-.return-cell.buy { color: var(--buy); font-weight: 600; }
-.return-cell.sell { color: var(--sell); font-weight: 600; }
-.badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+.trade-table .action-buy { color: var(--buy); font-weight: 800; }
+.trade-table .action-sell { color: var(--sell); font-weight: 800; }
+.trade-table .action-sl { color: white; background: var(--warn); padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 800; }
+.trade-table .action-hold { color: var(--text-faint); font-weight: 600; }
+.return-cell.buy { color: var(--buy); font-weight: 800; }
+.return-cell.sell { color: var(--sell); font-weight: 800; }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; }
 .badge.live { background: var(--buy-soft); color: var(--buy); }
 .badge.shadow { background: var(--bg); color: var(--text-dim); border: 1px solid var(--border); }
-.target-progress { background: var(--bg); border-radius: 10px; overflow: hidden; height: 24px; position: relative; }
-.target-bar { height: 100%; background: linear-gradient(90deg, #3b82f6 0%, #22c55e 100%); transition: width .6s ease; }
-.target-text { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 12px; font-weight: 600; color: var(--text); z-index: 1; }
-.empty { color: var(--text-faint); font-size: 13px; padding: 30px; text-align: center; }
-.notice { font-size: 11px; color: var(--text-faint); margin-top: 12px; font-style: italic; }
+.target-progress { background: var(--bg); border-radius: 10px; overflow: hidden; height: 26px; position: relative; border: 1px solid var(--border); }
+.target-bar { height: 100%; background: linear-gradient(90deg, #2563eb 0%, #16a34a 100%); transition: width .6s ease; }
+.target-text { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; font-weight: 800; color: var(--text); z-index: 1; }
+.empty { color: var(--text-faint); font-size: 14px; padding: 30px; text-align: center; font-weight: 600; }
+.notice { font-size: 12px; color: var(--text-faint); margin-top: 12px; font-style: italic; font-weight: 500; }
 </style>
 </head>
 <body>
@@ -193,6 +193,15 @@ header .sub { font-size: 13px; opacity: .85; }
 </div>
 
 <script>
+// Chart.js 전역 글꼴/색상 — 가독성 강화
+if (typeof Chart !== 'undefined') {
+  Chart.defaults.color = '#1e293b';
+  Chart.defaults.font.family = '-apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif';
+  Chart.defaults.font.size = 13;
+  Chart.defaults.font.weight = '600';
+  Chart.defaults.borderColor = '#cbd5e1';
+}
+
 // paper_status.json 로드
 fetch('paper_status.json').then(r => r.json()).then(data => {
   renderDashboard(data);
@@ -281,19 +290,22 @@ function drawCumretChart(history, peak, target, days) {
         {
           label: 'm21 누적 수익률',
           data,
-          borderColor: '#3b82f6',
-          backgroundColor: 'rgba(59,130,246,.1)',
-          borderWidth: 2.5,
+          borderColor: '#1d4ed8',
+          backgroundColor: 'rgba(37,99,235,.28)',
+          borderWidth: 3.5,
           fill: true,
           tension: 0.3,
-          pointRadius: 4,
-          pointHoverRadius: 6,
+          pointRadius: 5,
+          pointHoverRadius: 7,
+          pointBackgroundColor: '#1d4ed8',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 2,
         },
         {
           label: '최고 누적',
           data: peakLine,
-          borderColor: '#ef4444',
-          borderWidth: 1.5,
+          borderColor: '#dc2626',
+          borderWidth: 2.5,
           borderDash: [6,4],
           pointRadius: 0,
           fill: false,
@@ -307,8 +319,8 @@ function drawCumretChart(history, peak, target, days) {
         tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}%` } }
       },
       scales: {
-        y: { ticks: { callback: v => v.toFixed(1) + '%', color: '#64748b' }, grid: { color: '#f1f5f9' } },
-        x: { ticks: { color: '#64748b' }, grid: { display: false } }
+        y: { ticks: { callback: v => v.toFixed(1) + '%', color: '#1e293b', font: { weight: '700', size: 12 } }, grid: { color: '#e2e8f0', lineWidth: 1 } },
+        x: { ticks: { color: '#1e293b', font: { weight: '700', size: 12 } }, grid: { display: false } }
       }
     }
   });
@@ -353,18 +365,21 @@ function drawMDDChart(mddSeries) {
         {
           label: 'Drawdown',
           data,
-          borderColor: '#ef4444',
-          backgroundColor: 'rgba(239,68,68,.15)',
-          borderWidth: 2,
+          borderColor: '#dc2626',
+          backgroundColor: 'rgba(220,38,38,.32)',
+          borderWidth: 3.5,
           fill: true,
           tension: 0.2,
-          pointRadius: 3,
+          pointRadius: 4,
+          pointBackgroundColor: '#dc2626',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 2,
         },
         {
           label: 'STOP-LOSS -5%',
           data: data.map(_ => -5),
-          borderColor: '#dc2626',
-          borderWidth: 1.5,
+          borderColor: '#991b1b',
+          borderWidth: 2.5,
           borderDash: [4,4],
           pointRadius: 0,
           fill: false,
@@ -372,8 +387,8 @@ function drawMDDChart(mddSeries) {
         {
           label: '경고 -3%',
           data: data.map(_ => -3),
-          borderColor: '#f59e0b',
-          borderWidth: 1.5,
+          borderColor: '#d97706',
+          borderWidth: 2.5,
           borderDash: [4,4],
           pointRadius: 0,
           fill: false,
