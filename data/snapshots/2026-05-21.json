@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-21T16:00:51.658195+09:00",
+  "collected_at": "2026-05-21T17:08:56.692420+09:00",
   "date": "2026-05-21",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 10,
+    "with_broker_mention": 9,
     "target_price_up": 4,
     "target_price_down": 2,
     "top_brokers": [
@@ -44,14 +44,108 @@
       [
         "한화",
         1
-      ],
-      [
-        "하나",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "태국, '코인 ETF' 나온다…동남아 디지털자산 허브 경쟁",
+      "url": "https://www.hankyung.com/article/2026052119536",
+      "summary": "동남아시아가 차세대 글로벌 금융 인프라 경쟁에 속도를 내고 있다. 정부와 은행, 웹3 기업이 동시에 움직이며 디지털자산 산업을 제도권 금융 시스템 안으로 끌어들이는 모습이다.21일 블루밍비트에 따르면 20~21일 태국 방콕 아이콘시암에서 해시드 주최로 열린 '동...",
+      "datetime_raw": "2026.05.21 17:06",
+      "datetime": "2026-05-21T17:06:00+09:00",
+      "dt": "2026-05-21 17:06",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "태국",
+        "코인 ETF"
+      ],
+      "hash": "0a8ff792e4db"
+    },
+    {
+      "title": "방미심위, '돈 거는 예측시장' 폴리마켓 심의 착수…사행성 위반 검토",
+      "url": "https://www.hankyung.com/article/202605212445B",
+      "summary": "'베팅형 예측시장' 폴리마켓방미심위, 사행성·법률 위반 여부 조사시장 급성장...주요국 규제 이어져\"한국 시장 퇴출 가능성 있다\"이 기사는 2026년 5월 21일 15시 05분 블루밍비트 사이트에 표출됐습니다.방송미디어통신심의위원회(방미심위)가 글로벌 예측시장 플랫폼 ...",
+      "datetime_raw": "2026.05.21 16:59",
+      "datetime": "2026-05-21T16:59:00+09:00",
+      "dt": "2026-05-21 16:59",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "방미심위",
+        "돈 거는 예측시장"
+      ],
+      "hash": "b882c7e31fd2"
+    },
+    {
+      "title": "\"꿩 대신 닭\"…스페이스X 상장 기대로 국내 우주株·ETF도 솟아올랐다",
+      "url": "https://www.hankyung.com/article/202605211811i",
+      "summary": "글로벌 우주항공 기업 스페이스X가 본격적인 기업공개(IPO) 절차에 돌입하자 국내 우주·항공 관련 종목과 관련 상장지수펀드(ETF)도 일제히 강세를 보였다. 21일 한국거래소에 따르면 스페이스X 공급망에 진입한 국내 부품·소재 기업들의...",
+      "datetime_raw": "2026.05.21 16:36",
+      "datetime": "2026-05-21T16:36:00+09:00",
+      "dt": "2026-05-21 16:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "꿩 대신 닭"
+      ],
+      "hash": "5b51719ef05d"
+    },
+    {
+      "title": "\"방미심위, 폴리마켓 심의 착수…사행성 위반 검토\"",
+      "url": "https://www.hankyung.com/article/2026052121506",
+      "summary": "방송미디어통신심의위원회(방미심위)가 블록체인 기반 베팅 사이트 '폴리마켓'에 대한 심의에 착수했다고 블루밍비트가 보도했다.21일 블루밍비트에 따르면 방미심위 관계자는 \"최근 폴리마켓 관련 민원이 접수돼 심의에 착수했다\"며 \"해외 기관의 규제 사례...",
+      "datetime_raw": "2026.05.21 16:35",
+      "datetime": "2026-05-21T16:35:00+09:00",
+      "dt": "2026-05-21 16:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "방미심위"
+      ],
+      "hash": "6a2ed00bd891"
+    },
+    {
+      "title": "‘색조 우려’에 1년간 14% 빠진 주가…3가지 핵심 변수는",
+      "url": "https://www.hankyung.com/article/202605212164i",
+      "summary": "1분기 실적 개요 및 시장 평가코스맥스(A192820)는 1분기(2026년 3월 기준) 연결 기준 매출액 6,820억원(YoY +15.9%), 영업이익 530억원(YoY +3.3%, OPM 7.8%), 당기순이익 438억원(YoY +312.1%)을 기록하며 분기 기준 ...",
+      "datetime_raw": "2026.05.21 16:02",
+      "datetime": "2026-05-21T16:02:00+09:00",
+      "dt": "2026-05-21 16:02",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "색조 우려"
+      ],
+      "hash": "5f4e88a3fe30"
+    },
+    {
+      "title": "코스피 최대 상승폭 갈아치웠다…삼전닉스 불기둥에 역대급 기록",
+      "url": "https://www.hankyung.com/article/2026052122226",
+      "summary": "코스피지수가 미 국채금리 진정과 유가 하락, 삼성전자 노사 합의 소식에 21일 8%대 뛰면서 7800선을 재탈환했다.이날 코스피지수는 전일 대비 606.64포인트(8.42%) 오른 7815.59로 거래를 마감했다. 606.64포인트는 역대 최대 상승폭이다. 기존 최대 ...",
+      "datetime_raw": "2026.05.21 16:01",
+      "datetime": "2026-05-21T16:01:00+09:00",
+      "dt": "2026-05-21 16:01",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 최대 상승폭 갈아치웠다"
+      ],
+      "hash": "efdab3a3a5fd"
+    },
     {
       "title": "코스피, 8%대 급등 마감…7800선 재탈환",
       "url": "https://www.hankyung.com/article/2026052121516",
@@ -287,6 +381,88 @@
       "hash": "a1ffccd9fd53"
     },
     {
+      "title": "삼성전자 셧다운 피했다…노사 성과급 협상 극적 타결",
+      "url": "https://www.hankyung.com/article/202605200099i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 셧다운 피했다"
+      ],
+      "hash": "47f449634216"
+    },
+    {
+      "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
+      "url": "https://www.hankyung.com/article/2026052097231",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스"
+      ],
+      "hash": "2b54545c30a4"
+    },
+    {
+      "title": "\"부산에서는 1원도 안 쓰겠다\" 뿔난 BTS팬들…무박 챌린지도",
+      "url": "https://www.hankyung.com/article/2026052081817",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "부산에서는 1원도 안 쓰겠다"
+      ],
+      "hash": "0f8d4418ac88"
+    },
+    {
+      "title": "파업이 오히려 호재?…'57만전자·380만닉스' 파격 전망",
+      "url": "https://www.hankyung.com/article/202605209244i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "파업이 오히려 호재?",
+        "57만전자·380만닉스"
+      ],
+      "hash": "c46c135acada"
+    },
+    {
+      "title": "\"새벽 3시인데 이게 된다고?\"…다이소·쿠팡 '파격' 승부수",
+      "url": "https://www.hankyung.com/article/202605182839g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "파격",
+        "새벽 3시인데 이게 된다고?"
+      ],
+      "hash": "1341f75480d9"
+    },
+    {
       "title": "코스피, 장 초반 4%대 급등해 7500선 회복…삼전닉스 강세",
       "url": "https://www.hankyung.com/article/2026052107216",
       "summary": "코스피지수가 유가 하락과 국채금리 진정에 더해 국내에선 삼성전자 파업 우려까지 해소되면서 21일 장 초반 4%대 급등세를 나타내고 있다.이날 오전 9시6분 현재 코스피지수는 전 거래일 대비 342.41포인트(4.75%) 오른 7551.36을 기록 중이다.이날 급반등은 ...",
@@ -388,88 +564,6 @@
         "삼전닉스"
       ],
       "hash": "840cd68489ea"
-    },
-    {
-      "title": "삼성전자 셧다운 피했다…노사 성과급 협상 극적 타결",
-      "url": "https://www.hankyung.com/article/202605200099i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 셧다운 피했다"
-      ],
-      "hash": "47f449634216"
-    },
-    {
-      "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
-      "url": "https://www.hankyung.com/article/2026052097231",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스"
-      ],
-      "hash": "2b54545c30a4"
-    },
-    {
-      "title": "\"부산에서는 1원도 안 쓰겠다\" 뿔난 BTS팬들…무박 챌린지도",
-      "url": "https://www.hankyung.com/article/2026052081817",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "부산에서는 1원도 안 쓰겠다"
-      ],
-      "hash": "0f8d4418ac88"
-    },
-    {
-      "title": "파업이 오히려 호재?…'57만전자·380만닉스' 파격 전망",
-      "url": "https://www.hankyung.com/article/202605209244i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "파업이 오히려 호재?",
-        "57만전자·380만닉스"
-      ],
-      "hash": "c46c135acada"
-    },
-    {
-      "title": "\"하락장에도 잘 버티네\"…배당 확대까지 앞세운 '방어주' 3총사",
-      "url": "https://www.hankyung.com/article/202605208172i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "방어주",
-        "하락장에도 잘 버티네"
-      ],
-      "hash": "4af84c213495"
     },
     {
       "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호 [종목+]",
@@ -1016,107 +1110,6 @@
         "주성엔지니어링"
       ],
       "hash": "08d734dfb1ff"
-    },
-    {
-      "title": "환율, 1509원 개장 후 장 초반 1513원선까지 고공 행진",
-      "url": "https://www.hankyung.com/article/2026052080086",
-      "summary": "원·달러 환율이 20일 장 초반 1513원까지 상단을 높이고 있다.이날 서울 외환시장에서 원·달러 환율은 1509원에서 상승 출발한 뒤 장 초반 1513원선까지 올랐다. 한 달 반 만에 최고치다.전날 1507.8원에 주간거래를 끝낸&n...",
-      "datetime_raw": "2026.05.20 09:41",
-      "datetime": "2026-05-20T09:41:00+09:00",
-      "dt": "2026-05-20 09:41",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "환율"
-      ],
-      "hash": "199e8dd3ed08"
-    },
-    {
-      "title": "마키나락스, 코스닥 상장 첫날 장 초반 '따따블'",
-      "url": "https://www.hankyung.com/article/2026052079966",
-      "summary": "마키나락스가 코스닥 입성 첫날 장 초반 '따따블'(공모가 대비 4배 상승)에 성공했다.20일 오전 9시20분 현재 마키나락스는 공모가(1만5000원) 대비 300% 오른 6만원에 거래되고 있다. 시초가 역시 6만원에 형성됐다.마키나락스는 엔터프라이즈 AI...",
-      "datetime_raw": "2026.05.20 09:33",
-      "datetime": "2026-05-20T09:33:00+09:00",
-      "dt": "2026-05-20 09:33",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "따따블",
-        "마키나락스"
-      ],
-      "hash": "000da02956fd"
-    },
-    {
-      "title": "아이진, 한타바이러스 백신 개발 정부과제 선정 소식에 '급등'",
-      "url": "https://www.hankyung.com/article/2026052080206",
-      "summary": "아이진이 급등하고 있다. 한타바이러스에 대응할 매신저리보핵산(mRNA) 백신 등을 개발하기 위한 정부 과제에 선정됐다고 개장 전 밝힌 영향이다.20일 오전 9시18분 현재 아이진은 전일 대비 276원(16.03%) 오른 1998원에 거래되고 있다.아이진은 질병관리청과 ...",
-      "datetime_raw": "2026.05.20 09:23",
-      "datetime": "2026-05-20T09:23:00+09:00",
-      "dt": "2026-05-20 09:23",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급등",
-        "아이진"
-      ],
-      "hash": "f842bfc602db"
-    },
-    {
-      "title": "코스피 장중 7100선 아래로…2%대 급락",
-      "url": "https://www.hankyung.com/article/2026052079876",
-      "summary": "[속보] 코스피 장중 7100선 아래로…2%대 급락고정삼 한경닷컴 기자 jsk@hankyung.com",
-      "datetime_raw": "2026.05.20 09:18",
-      "datetime": "2026-05-20T09:18:00+09:00",
-      "dt": "2026-05-20 09:18",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 장중 7100선 아래로"
-      ],
-      "hash": "4d155d0f7500"
-    },
-    {
-      "title": "코스피, 7300선 회복 후 급락 전환…외인 10거래일째 '팔자'",
-      "url": "https://www.hankyung.com/article/2026052079226",
-      "summary": "코스피지수가 20일 장 초반 외국인 투자자의 매도세에 1% 넘게 하락하고 있다. 이날 오전 9시12분 현재 코스피지수는 전장보다 119.15포인트(1.64%) 내린 7152.51을 기록하고 있다. 0.73% 상승 출발한 코스피지수는 개장 직후 3분 만에 하락 ...",
-      "datetime_raw": "2026.05.20 09:16",
-      "datetime": "2026-05-20T09:16:00+09:00",
-      "dt": "2026-05-20 09:16",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "팔자",
-        "코스피"
-      ],
-      "hash": "07ed97085c8c"
-    },
-    {
-      "title": "\"롯데관광개발, 여전히 구조적 성장 진행 중…'최선호주'\"-하나",
-      "url": "https://www.hankyung.com/article/2026052079326",
-      "summary": "하나증권은 20일 롯데관광개발에 대해 최근 주가가 부진했지만 여전히 구조적 성장이 진행되고 있다며 레저업종 내 ‘최선호주’(Top-Pick)로 꼽았다. 투자의견은 ‘매수’, 목표주가는 2만8000원을 유지했다.이기훈 하나증권 ...",
-      "datetime_raw": "2026.05.20 09:09",
-      "datetime": "2026-05-20T09:09:00+09:00",
-      "dt": "2026-05-20 09:09",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "롯데관광개발"
-      ],
-      "hash": "c05e84255cb0"
     }
   ],
   "consensus_signals": []
