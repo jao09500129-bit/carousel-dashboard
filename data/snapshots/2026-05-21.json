@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-21T20:51:35.006511+09:00",
+  "collected_at": "2026-05-21T23:10:58.711095+09:00",
   "date": "2026-05-21",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,11 +7,11 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 63,
   "stats": {
     "with_broker_mention": 10,
     "target_price_up": 5,
-    "target_price_down": 2,
+    "target_price_down": 1,
     "top_brokers": [
       [
         "한국투자",
@@ -48,6 +48,39 @@
     ]
   },
   "items": [
+    {
+      "title": "WSJ \"美, 양자컴퓨팅 기업 9곳에 20억弗 투자…IBM에 10억弗 지급\"",
+      "url": "https://www.hankyung.com/article/202605212882B",
+      "summary": "미국 정부가 자국 양자컴퓨팅 기업 9곳에 총 20억달러를 투자한다.월스트리트저널(WSJ)은 미 상무부가 지분 투자를 포함한 계약을 통해 자국 양자컴퓨팅 기업 9곳에 20억달러 규모의 보조금을 지급한다고 21일(현지시간) 보도했다. 월스트리트저널은 \"이번 조치는 최근 수...",
+      "datetime_raw": "2026.05.21 21:27",
+      "datetime": "2026-05-21T21:27:00+09:00",
+      "dt": "2026-05-21 21:27",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "WSJ \"美"
+      ],
+      "hash": "22d2e9df28db"
+    },
+    {
+      "title": "\"이번엔 안놓친다\"…삼성전자 '빚투' 4조 돌파",
+      "url": "https://www.hankyung.com/article/2026052122826",
+      "summary": "반도체 업황 기대와 파업 우려 해소 주식시장에서 삼성전자 '빚투'(빚내서 투자)가 사상 처음으로 4조원을 돌파했다. 다만 최근 증시가 반도체 쏠림 현상을 보이는 데다 다음주 삼성전자 단일종목 레버리지 상품까지 등장할 예정이어서 변동성에 주의해야 한다는 조...",
+      "datetime_raw": "2026.05.21 21:00",
+      "datetime": "2026-05-21T21:00:00+09:00",
+      "dt": "2026-05-21 21:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "빚투",
+        "이번엔 안놓친다"
+      ],
+      "hash": "3ee8646d047c"
+    },
     {
       "title": "\"1만은 넘는다\"…반등 시작한 코스피, 어디까지 갈까",
       "url": "https://www.hankyung.com/article/2026052119956",
@@ -346,6 +379,89 @@
       "hash": "7c0b26c1694b"
     },
     {
+      "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호",
+      "url": "https://www.hankyung.com/article/2026052104096",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전기 대신 샀는데",
+        "하루 만에 23% 폭등"
+      ],
+      "hash": "fb6f228cbe12"
+    },
+    {
+      "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
+      "url": "https://www.hankyung.com/article/2026052097231",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스"
+      ],
+      "hash": "2b54545c30a4"
+    },
+    {
+      "title": "삼성전자 셧다운 피했다…노사 성과급 협상 극적 타결",
+      "url": "https://www.hankyung.com/article/202605200099i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 셧다운 피했다"
+      ],
+      "hash": "47f449634216"
+    },
+    {
+      "title": "\"6억 잭팟? 역대 최악\" 불만 폭발…삼성 노조위원장 고개 숙였다",
+      "url": "https://www.hankyung.com/article/202605212079g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "6억 잭팟? 역대 최악"
+      ],
+      "hash": "30710842e99d"
+    },
+    {
+      "title": "\"믿었던 한전마저…\" '유가 급등' 직격탄에 개미들 '울상'",
+      "url": "https://www.hankyung.com/article/2026052093376",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "울상",
+        "유가 급등",
+        "믿었던 한전마저…"
+      ],
+      "hash": "68ce806fa5b9"
+    },
+    {
       "title": "삼성전자 급등에 삼성그룹 상장사 시총 장중 2000조 돌파",
       "url": "https://www.hankyung.com/article/2026052113946",
       "summary": "삼성전자 노사가 총파업을 앞두고 극적 합의에 성공하면서 주가가 21일 급등해 장중 그룹사 시가총액 합산액이 2000조원을 넘어섰다.한국거래소에 따르면 이날 오전 10시께 현재 삼성그룹 18개 상장사의 시총 합산액은 2000조원을 돌파했다. 11시 30분께 삼성...",
@@ -375,88 +491,6 @@
         "1% 초고수들"
       ],
       "hash": "6b120b3edab0"
-    },
-    {
-      "title": "삼성전자 셧다운 피했다…노사 성과급 협상 극적 타결",
-      "url": "https://www.hankyung.com/article/202605200099i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 셧다운 피했다"
-      ],
-      "hash": "47f449634216"
-    },
-    {
-      "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
-      "url": "https://www.hankyung.com/article/2026052097231",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스"
-      ],
-      "hash": "2b54545c30a4"
-    },
-    {
-      "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호",
-      "url": "https://www.hankyung.com/article/2026052104096",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기 대신 샀는데",
-        "하루 만에 23% 폭등"
-      ],
-      "hash": "fb6f228cbe12"
-    },
-    {
-      "title": "\"부산에서는 1원도 안 쓰겠다\" 뿔난 BTS팬들…무박 챌린지도",
-      "url": "https://www.hankyung.com/article/2026052081817",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "부산에서는 1원도 안 쓰겠다"
-      ],
-      "hash": "0f8d4418ac88"
-    },
-    {
-      "title": "\"졸업하면 바로 삼전닉스 입사\"…10대 몰리더니 '깜짝'",
-      "url": "https://www.hankyung.com/article/202605208014g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "깜짝",
-        "졸업하면 바로 삼전닉스 입사"
-      ],
-      "hash": "e570e693d022"
     },
     {
       "title": "\"호재 넘친다\"… '주식 고수' PB가 추천한 '이 종목'",
@@ -798,24 +832,6 @@
       "hash": "75b46ad5dbe4"
     },
     {
-      "title": "\"믿었던 한전마저…\" '유가 급등' 직격탄에 개미들 '울상' [종목+]",
-      "url": "https://www.hankyung.com/article/2026052093376",
-      "summary": "한국전력 주가가 좀처럼 반등하지 못하고 있다. 미국·이란 전쟁 발발 이후 국제 유가가 치솟으면서 비용 부담이 눈덩이처럼 불어난 영향으로 분석된다. 증권사들은 연내 실적 개선 가능성을 낮게 보고 목표주가를 잇달아 하향 조정했다.20일 한국거래소에 따르면 한국...",
-      "datetime_raw": "2026.05.21 06:30",
-      "datetime": "2026-05-21T06:30:00+09:00",
-      "dt": "2026-05-21 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": "down",
-      "target_change_pct": null,
-      "keywords": [
-        "울상",
-        "유가 급등",
-        "믿었던 한전마저…"
-      ],
-      "hash": "68ce806fa5b9"
-    },
-    {
       "title": "\"역시 엔비디아\" 실적 또 넘었다…서학개미들 다시 '웃음'",
       "url": "https://www.hankyung.com/article/2026052102957",
       "summary": "글로벌 인공지능(AI) 반도체 대장주인 엔비디아가 시장 예상치를 웃도는 분기 실적과 강력한 가이던스(매출 전망)를 제시하며 AI 칩 수요가 여전히 견조함을 증명했다.20일(현지시간) 엔비디아는 뉴욕증시 마감 후 발표한 실적 보고서를 통해 회계연도 1분기(2~4월) 매출...",
@@ -1083,38 +1099,6 @@
         "코스피"
       ],
       "hash": "22cd00e2c6d2"
-    },
-    {
-      "title": "기관 투자 시대의 개막…디지털자산 시장의 중심이 바뀐다 [이스트포인트:서울 2026]",
-      "url": "https://www.hankyung.com/article/202605209208B",
-      "summary": "[편집자주] 디지털자산 산업은 더 이상 거래소와 토큰 중심의 시장에 머무르지 않는다. 기관 자금, 스테이블코인, 토큰화 자본시장, 인공지능(AI) 인프라까지 연결되며 산업 구조 자체가 재편되고 있다. 이스트포인트:서울 2026(EastPoint:Seoul 2026)은 ...",
-      "datetime_raw": "2026.05.20 15:17",
-      "datetime": "2026-05-20T15:17:00+09:00",
-      "dt": "2026-05-20 15:17",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "기관 투자 시대의 개막"
-      ],
-      "hash": "910d092f433d"
-    },
-    {
-      "title": "삼성전기, 실리콘 커패시터 1.5조 공급계약 소식에 급반등",
-      "url": "https://www.hankyung.com/article/2026052089406",
-      "summary": "삼성전기 주가가 20일 장중 급반등해 강세를 보이고 있다. 이날 오후 2시4분 현재 삼성전기는 전 거래일 대비 4만1000원(4.15%) 오른 102만8000원을 기록하고 있다. 장 초반 6%대까지 하락하기도 했으나 오후장 들어 상승세로 돌아서는 데 성공했다....",
-      "datetime_raw": "2026.05.20 14:18",
-      "datetime": "2026-05-20T14:18:00+09:00",
-      "dt": "2026-05-20 14:18",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기"
-      ],
-      "hash": "c88a316417c9"
     }
   ],
   "consensus_signals": []
