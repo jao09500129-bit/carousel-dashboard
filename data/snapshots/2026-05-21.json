@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-21T17:08:56.692420+09:00",
+  "collected_at": "2026-05-21T20:51:35.006511+09:00",
   "date": "2026-05-21",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,20 +9,20 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 9,
-    "target_price_up": 4,
+    "with_broker_mention": 10,
+    "target_price_up": 5,
     "target_price_down": 2,
     "top_brokers": [
+      [
+        "한국투자",
+        2
+      ],
       [
         "키움",
         2
       ],
       [
         "대신",
-        1
-      ],
-      [
-        "한국투자",
         1
       ],
       [
@@ -48,6 +48,103 @@
     ]
   },
   "items": [
+    {
+      "title": "\"1만은 넘는다\"…반등 시작한 코스피, 어디까지 갈까",
+      "url": "https://www.hankyung.com/article/2026052119956",
+      "summary": "코스피지수가 21일 대장주 삼성전자 노사가 성과급 제도 개선안 합의, 미 국채금리 진정과 유가 하락에 힘입어 급반등했다. 투자자의 관심은 단기 조정을 거친 코스피가 올해 어디까지 추가 상승할 수 있을지에 쏠리고 있다. 앞서 일본 투자은행(IB) 노무라증권이 코스피 전망...",
+      "datetime_raw": "2026.05.21 20:00",
+      "datetime": "2026-05-21T20:00:00+09:00",
+      "dt": "2026-05-21 20:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1만은 넘는다"
+      ],
+      "hash": "903b5b42509e"
+    },
+    {
+      "title": "누가 먼저 팔았나 했더니…40만원 넘던 주식이 28만원 됐다",
+      "url": "https://www.hankyung.com/article/2026052115136",
+      "summary": "한미반도체가 1분기 실적 부진으로 주가가 폭락하기 전 반도체 산업에 투자하는 액티브 상장지수펀드(ETF)들은 미리 이 종목 편입 비중을 줄여둔 것으로 나타났다. 비교지수를 기계적으로 복제해야 하는 패시브 ETF와 달리, 펀드매니저가 종목을 선별할 수 있는 액티브 ETF...",
+      "datetime_raw": "2026.05.21 20:00",
+      "datetime": "2026-05-21T20:00:00+09:00",
+      "dt": "2026-05-21 20:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "누가 먼저 팔았나 했더니"
+      ],
+      "hash": "11e5baa9fd03"
+    },
+    {
+      "title": "코인 '빙하기' 속 조용히 웃는 서클...124% 폭등",
+      "url": "https://www.hankyung.com/article/202605212782B",
+      "summary": "서클(CRCL), 3개월새 약 120%% 급등가상자산 시장 횡보 속 '나홀로 질주'금리·규제 수혜 기대감…\"추가 상승 가능\"스테이블코인(법정화폐와 가치가 연동되는 가상자산) USDC 발행사 서클(Circle)이 지난 몇 개월 동안 주가를 대폭 끌어올렸다. 같은 기간 비...",
+      "datetime_raw": "2026.05.21 18:56",
+      "datetime": "2026-05-21T18:56:00+09:00",
+      "dt": "2026-05-21 18:56",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "빙하기"
+      ],
+      "hash": "303b5e8dacb2"
+    },
+    {
+      "title": "트럼프 \"종전 협상 최종단계\" 기대에도 금리가 변수…비트코인 다시 '박스권' [강민승의 트레이드나우]",
+      "url": "https://www.hankyung.com/article/202605212719B",
+      "summary": "중동발 종전 기대와 정책 기대감에도 불구하고 금리 불확실성이 이어지며 비트코인(BTC)은 방향성 탐색 흐름을 이어가고 있다. 단기적으로는 7만6000달러대와 8만달러선 사이에서 등락하는 박스권 흐름이 이어질 것이라는 분석이다.21일 17시 32분 기준 바이낸스 USDT...",
+      "datetime_raw": "2026.05.21 18:01",
+      "datetime": "2026-05-21T18:01:00+09:00",
+      "dt": "2026-05-21 18:01",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "박스권",
+        "종전 협상 최종단계"
+      ],
+      "hash": "bc2f98bc0336"
+    },
+    {
+      "title": "EU \"천연가스 소비 감축 추진\" [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026052125511",
+      "summary": "美국채 투자 주도 세력 바뀌나…성장주 멀티플 압박 커진다미국 장기 국채의 핵심 매수 주체가 글로벌 중앙은행에서 가격 민감도가 높은 단기 자금으로 이동했다. 매수 주체가 바뀌며 커진 금리 상승 압력이 인플레이션 우려와 맞물려 주식 투자자에게 부담으로 작용할 ...",
+      "datetime_raw": "2026.05.21 18:00",
+      "datetime": "2026-05-21T18:00:00+09:00",
+      "dt": "2026-05-21 18:00",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "천연가스 소비 감축 추진"
+      ],
+      "hash": "ac4d5a511c70"
+    },
+    {
+      "title": "40% 소득공제 국민성장펀드 출격…금소세 대상자는 제외",
+      "url": "https://www.hankyung.com/article/2026052127025",
+      "summary": "국민 자금으로 반도체 등 첨단전략산업에 투자해 성과를 나누고 손실은 보전되는 '국민참여형 국민성장펀드'가 내일(22일)부터 출시됩니다.금융소득종합과세(금소세) 대상자만 아니라면 5년간 돈이 묶이는 대신 최대 1,800만원까지 소득공제를 받을 수 있고, 배당소득 분리과세...",
+      "datetime_raw": "2026.05.21 17:53",
+      "datetime": "2026-05-21T17:53:00+09:00",
+      "dt": "2026-05-21 17:53",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "40% 소득공제 국민성장펀드 출격"
+      ],
+      "hash": "0bb444c8c718"
+    },
     {
       "title": "태국, '코인 ETF' 나온다…동남아 디지털자산 허브 경쟁",
       "url": "https://www.hankyung.com/article/2026052119536",
@@ -280,6 +377,88 @@
       "hash": "6b120b3edab0"
     },
     {
+      "title": "삼성전자 셧다운 피했다…노사 성과급 협상 극적 타결",
+      "url": "https://www.hankyung.com/article/202605200099i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 셧다운 피했다"
+      ],
+      "hash": "47f449634216"
+    },
+    {
+      "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
+      "url": "https://www.hankyung.com/article/2026052097231",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스"
+      ],
+      "hash": "2b54545c30a4"
+    },
+    {
+      "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호",
+      "url": "https://www.hankyung.com/article/2026052104096",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전기 대신 샀는데",
+        "하루 만에 23% 폭등"
+      ],
+      "hash": "fb6f228cbe12"
+    },
+    {
+      "title": "\"부산에서는 1원도 안 쓰겠다\" 뿔난 BTS팬들…무박 챌린지도",
+      "url": "https://www.hankyung.com/article/2026052081817",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "부산에서는 1원도 안 쓰겠다"
+      ],
+      "hash": "0f8d4418ac88"
+    },
+    {
+      "title": "\"졸업하면 바로 삼전닉스 입사\"…10대 몰리더니 '깜짝'",
+      "url": "https://www.hankyung.com/article/202605208014g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "깜짝",
+        "졸업하면 바로 삼전닉스 입사"
+      ],
+      "hash": "e570e693d022"
+    },
+    {
       "title": "\"호재 넘친다\"… '주식 고수' PB가 추천한 '이 종목'",
       "url": "https://www.hankyung.com/article/202605209508i",
       "summary": "\"롯데쇼핑을 추천주로 꼽습니다.\" 21일 주식 실전투자대회인 '제31회 한경 스타워즈 상반기' 우승자인 김기완 한국투자증권 프라이빗뱅커(PB)는 요즘 어떤 종목을 고객에게 추천하느냐는 질문에 이같이 답했다. 방한 외국인 관광객 증가에 힘입어 롯데백화점이 ...",
@@ -379,88 +558,6 @@
         "급등장"
       ],
       "hash": "a1ffccd9fd53"
-    },
-    {
-      "title": "삼성전자 셧다운 피했다…노사 성과급 협상 극적 타결",
-      "url": "https://www.hankyung.com/article/202605200099i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 셧다운 피했다"
-      ],
-      "hash": "47f449634216"
-    },
-    {
-      "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
-      "url": "https://www.hankyung.com/article/2026052097231",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스"
-      ],
-      "hash": "2b54545c30a4"
-    },
-    {
-      "title": "\"부산에서는 1원도 안 쓰겠다\" 뿔난 BTS팬들…무박 챌린지도",
-      "url": "https://www.hankyung.com/article/2026052081817",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "부산에서는 1원도 안 쓰겠다"
-      ],
-      "hash": "0f8d4418ac88"
-    },
-    {
-      "title": "파업이 오히려 호재?…'57만전자·380만닉스' 파격 전망",
-      "url": "https://www.hankyung.com/article/202605209244i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "파업이 오히려 호재?",
-        "57만전자·380만닉스"
-      ],
-      "hash": "c46c135acada"
-    },
-    {
-      "title": "\"새벽 3시인데 이게 된다고?\"…다이소·쿠팡 '파격' 승부수",
-      "url": "https://www.hankyung.com/article/202605182839g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "파격",
-        "새벽 3시인데 이게 된다고?"
-      ],
-      "hash": "1341f75480d9"
     },
     {
       "title": "코스피, 장 초반 4%대 급등해 7500선 회복…삼전닉스 강세",
@@ -564,23 +661,6 @@
         "삼전닉스"
       ],
       "hash": "840cd68489ea"
-    },
-    {
-      "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호 [종목+]",
-      "url": "https://www.hankyung.com/article/2026052104096",
-      "summary": "삼화콘덴서 주가가 인공지능(AI) 데이터센터와 전장용 적층세라믹콘덴서(MLCC) 수요가 대거 늘어날 것이라는 분석이 나오면서 급등했다.21일 한국거래소에 따르면 전날 삼화콘덴서 주가는 직전 거래일 대비 23% 오른 7만8600원에 거래를 마쳤다. 장중 한때 8만400원...",
-      "datetime_raw": "2026.05.21 08:04",
-      "datetime": "2026-05-21T08:04:00+09:00",
-      "dt": "2026-05-21 08:04",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기 대신 샀는데",
-        "하루 만에 23% 폭등"
-      ],
-      "hash": "fb6f228cbe12"
     },
     {
       "title": "'삼전닉스' 팔고, 코스닥서 ○○은 담았다…한달새 주가 2배",
@@ -970,6 +1050,25 @@
       "hash": "2938694c39e6"
     },
     {
+      "title": "파업이 오히려 호재?…'57만전자·380만닉스' 파격 전망",
+      "url": "https://www.hankyung.com/article/202605209244i",
+      "summary": "코스피지수가 숨 고르기에 들어간 가운데, 국내 증시를 지탱하는 반도체 대형주를 향한 파격적인 분석이 나왔다. 한국투자증권이 삼성전자의 목표주가를 현재 대비 2배 이상 높여 잡으면서다.한국투자증권은 20일 발간한 보고서를 통해 삼성전자의 목표주가를 기존 대비 54% 상향...",
+      "datetime_raw": "2026.05.20 15:53",
+      "datetime": "2026-05-20T15:53:00+09:00",
+      "dt": "2026-05-20 15:53",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": null,
+      "target_action": "up",
+      "target_change_pct": null,
+      "keywords": [
+        "파업이 오히려 호재?",
+        "57만전자·380만닉스"
+      ],
+      "hash": "c46c135acada"
+    },
+    {
       "title": "코스피, 변동성 끝에 7200선 약세 마감…코스닥 2%대 급락",
       "url": "https://www.hankyung.com/article/2026052092546",
       "summary": "코스피지수가 20일 극심한 변동성을 보인 끝에 약세로 마감했다. 외국인 투자자는 10거래일 연속 매도 공세를 이어갔다. 이날 코스피지수는 전장보다 62.71포인트(0.86%) 내린 7208.95로 장을 끝냈다. 0.73% 상승 출발한 코스피지수는 개장 3분 ...",
@@ -1016,100 +1115,6 @@
         "삼성전기"
       ],
       "hash": "c88a316417c9"
-    },
-    {
-      "title": "김서준 \"디지털자산, AI 시대 핵심 금융 인프라로 도약…新 인터넷 경제 열린다\" [SEABW 2026]",
-      "url": "https://www.hankyung.com/article/202605208941B",
-      "summary": "\"가상자산(암호화폐) 산업은 지난 10년 동안 인간 사용자를 확보하기 위해 달려왔습니다. 하지만 앞으로 가장 자연스러운 사용자는 인간이 아니라 AI 에이전트가 될 수 있습니다.\"김서준 해시드 대표가 인공지능(AI)과 디지털자산의 결합이 새로운 인터넷 경제 구조를 만들게...",
-      "datetime_raw": "2026.05.20 14:02",
-      "datetime": "2026-05-20T14:02:00+09:00",
-      "dt": "2026-05-20 14:02",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "김서준 \"디지털자산"
-      ],
-      "hash": "eb351651f2dd"
-    },
-    {
-      "title": "삼성전자, 노사 합의 결렬에 장중 3% 약세 전환",
-      "url": "https://www.hankyung.com/article/2026052086556",
-      "summary": "삼성전자 노사가 20일 정부세종청사 중앙노동위원회(중노위)에서 열린 2차 사후조정에서 성과급 산정 방식에 대해 논의한 끝에 최종 결렬을 선언하면서 주가도 장중 약세로 전환했다.삼성전자 초기업노조는 이날 공지를 통해 \"사측은 '의사결정이 되지 않았다'는 입...",
-      "datetime_raw": "2026.05.20 11:45",
-      "datetime": "2026-05-20T11:45:00+09:00",
-      "dt": "2026-05-20 11:45",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자"
-      ],
-      "hash": "4959306558b5"
-    },
-    {
-      "title": "컨센서스 웃돈 실적…해약환급금 제도 바뀌면 배당 재개",
-      "url": "https://www.hankyung.com/article/202605208224i",
-      "summary": "1분기 실적 개요현대해상(001450)은 1분기(1Q26) 별도 기준 당기순이익 2,233억원을 기록하며 전년 동기 대비 약 9.9~10% 증가하는 어닝 서프라이즈를 시현하였습니다.이는 시장 컨센서스(약 1,572억원)를 42% 상회하는 수준으로, 복수의 증권사 애널리...",
-      "datetime_raw": "2026.05.20 11:14",
-      "datetime": "2026-05-20T11:14:00+09:00",
-      "dt": "2026-05-20 11:14",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "컨센서스 웃돈 실적"
-      ],
-      "hash": "89068623183c"
-    },
-    {
-      "title": "코스피 7000선 깨질 뻔 '아찔'…삼전닉스 반등에 한숨 돌렸다",
-      "url": "https://www.hankyung.com/article/2026052085136",
-      "summary": "코스피지수가 20일 장중 외국인 투자자의 매도세에 약세 흐름을 이어가고 있다. 장중 3% 급락해 7000선까지 무너지기도 했으나 대장주 삼성전자·SK하이닉스의 상승 전환에 힘입어 낙폭을 일부 회복했다. 이날 오전 11시4분 현재 코스피지수는 47....",
-      "datetime_raw": "2026.05.20 11:11",
-      "datetime": "2026-05-20T11:11:00+09:00",
-      "dt": "2026-05-20 11:11",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "아찔"
-      ],
-      "hash": "c1ac613f29eb"
-    },
-    {
-      "title": "실적 날개 달았는데 주가는 고점 대비 40% 급락한 배경",
-      "url": "https://www.hankyung.com/article/202605208139i",
-      "summary": "1분기 실적 개요 및 배경HJ중공업(A097230)은 1분기(2026년 3월 기준) 연결 기준 매출액 5,414억 원, 영업이익 246억 원, 당기순이익 255억 원을 기록하며 시장의 기대를 상회하는 어닝서프라이즈를 달성하였습니다.전년 동기(2025년 1분기) 대비 매...",
-      "datetime_raw": "2026.05.20 09:58",
-      "datetime": "2026-05-20T09:58:00+09:00",
-      "dt": "2026-05-20 09:58",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "593ecb8f6d29"
-    },
-    {
-      "title": "주성엔지니어링, 장 초반 17%대 급등…신고가 경신",
-      "url": "https://www.hankyung.com/article/2026052081676",
-      "summary": "주성엔지니어링이 장 초반 급등세를 나타내고 있다.20일 오전 9시45분 현재 주성엔지니어링은 전장 대비 18.43% 오른 20만9500원에 거래되고 있다. 장 초반에는 21만4000원까지 오르며 52주 신고가를 경신했다.같은 시각 같은 전공정 반도체 장비주인 원익IPS...",
-      "datetime_raw": "2026.05.20 09:54",
-      "datetime": "2026-05-20T09:54:00+09:00",
-      "dt": "2026-05-20 09:54",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "주성엔지니어링"
-      ],
-      "hash": "08d734dfb1ff"
     }
   ],
   "consensus_signals": []
