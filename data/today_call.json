@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-05-21T17:08:56.692420+09:00",
+  "computed_at": "2026-05-21T20:51:35.006511+09:00",
   "action_headline": "금리 민감 축 가속 + 반도체 신규 진입 검토",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
     "미국 10년 yield -10.0bp — 금리 민감 회전축",
-    "Market Mood 44/100 (FEAR)"
+    "Market Mood 45/100 (FEAR)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
