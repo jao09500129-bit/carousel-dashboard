@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-22T13:01:00.322884+09:00",
+  "collected_at": "2026-05-22T15:01:04.179214+09:00",
   "date": "2026-05-22",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -53,6 +53,22 @@
   },
   "items": [
     {
+      "title": "시선AI \"폐질환 치료 관련 보건복지부 연구 과제 참여기관 선정돼\"",
+      "url": "https://www.hankyung.com/article/2026052241436",
+      "summary": "시선AI는 폐질환 치료에 대한 보건복지부의 ‘2026년도 제1차 보건의료기술 연구개발사업’에 공동연구개발기관으로 선정됐다고 22일 밝혔다.이번 사업은 가톨릭대 산학협력단(주관)과 한국과학기술원(KAIST)이 참여하는 산·학·...",
+      "datetime_raw": "2026.05.22 13:45",
+      "datetime": "2026-05-22T13:45:00+09:00",
+      "dt": "2026-05-22 13:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "폐질환 치료 관련 보건복지부 연구 과제 참여기관 선정돼"
+      ],
+      "hash": "8eb18828a53c"
+    },
+    {
       "title": "코스피, 개인·기관 매수에 강세…코스닥선 '매수 사이드카' 발동",
       "url": "https://www.hankyung.com/article/2026052239066",
       "summary": "코스피가 강세를 보이는 가운데, 코스닥은 이틀 연속 ‘매수 사이드카’가 발동될 정도로 급등세다. 판매 개시된 국민성장펀드의 코스닥 수혜 기대감이 투자심리를 자극한 것으로 보인다.22일 오전 10시51분 현재 코스피는 전일 대비 43.21포인트(0....",
@@ -102,7 +118,7 @@
       "hash": "078581cd0e96"
     },
     {
-      "title": "\"앤스로픽 업고 더 간다\"...주식 초고수, SKT 더 담았다",
+      "title": "\"앤스로픽 업고 더 간다\"…주식 초고수들, SKT 더 담았다",
       "url": "https://www.hankyung.com/article/202605223755i",
       "summary": "투자수익률 상위 1%의 초고수들이 23일 오전 증시에서 SK텔레콤과 SK하이닉스, 올릭스 등을 집중 순매수한 것으로 나타났다. 반면 현대차, 삼성전자, 알테오젠은 순매도하며 차익 실현에 나섰다. 22일 미래에셋엠클럽에 따르면 미래에셋증권 계좌 중 수익률 상위 ...",
       "datetime_raw": "2026.05.22 10:33",
@@ -378,22 +394,20 @@
       "hash": "85e1a307fbcf"
     },
     {
-      "title": "\"롯데정밀화학, 원유 가격 변동과 연관성 낮아…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026052231126",
-      "summary": "한국투자증권은 22일 롯데정밀화학에 대해 \"원유 가격 변동에서 자유로운 사업 구조\"라고 평가하며 목표주가를 기존 5만2000원에서 7만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 이충재 연구원은 \"이란 전쟁에 따른 원유 수급 불안 장기...",
-      "datetime_raw": "2026.05.22 07:47",
-      "datetime": "2026-05-22T07:47:00+09:00",
-      "dt": "2026-05-22 07:47",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": -99.65,
+      "title": "\"6억 잭팟? 역대 최악\" 불만 폭발…삼성 노조위원장 고개 숙였다",
+      "url": "https://www.hankyung.com/article/202605212079g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
       "keywords": [
-        "롯데정밀화학"
+        "6억 잭팟? 역대 최악"
       ],
-      "hash": "3d9b34588779"
+      "hash": "30710842e99d"
     },
     {
       "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호",
@@ -413,8 +427,8 @@
       "hash": "fb6f228cbe12"
     },
     {
-      "title": "\"6억 잭팟? 역대 최악\" 불만 폭발…삼성 노조위원장 고개 숙였다",
-      "url": "https://www.hankyung.com/article/202605212079g",
+      "title": "20년째 놀고 있는 '노른자 땅'…주민들 \"GTX 개통만 기다려\"",
+      "url": "https://www.hankyung.com/article/2026052124321",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -424,9 +438,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "6억 잭팟? 역대 최악"
+        "노른자 땅",
+        "GTX 개통만 기다려"
       ],
-      "hash": "30710842e99d"
+      "hash": "29c6c02cf760"
     },
     {
       "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
@@ -445,37 +460,22 @@
       "hash": "2b54545c30a4"
     },
     {
-      "title": "20년째 놀고 있는 '노른자 땅'…주민들 \"GTX 개통만 기다려\"",
-      "url": "https://www.hankyung.com/article/2026052124321",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "노른자 땅",
-        "GTX 개통만 기다려"
+      "title": "\"롯데정밀화학, 원유 가격 변동과 연관성 낮아…목표가↑\"-한국",
+      "url": "https://www.hankyung.com/article/2026052231126",
+      "summary": "한국투자증권은 22일 롯데정밀화학에 대해 \"원유 가격 변동에서 자유로운 사업 구조\"라고 평가하며 목표주가를 기존 5만2000원에서 7만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 이충재 연구원은 \"이란 전쟁에 따른 원유 수급 불안 장기...",
+      "datetime_raw": "2026.05.22 07:47",
+      "datetime": "2026-05-22T07:47:00+09:00",
+      "dt": "2026-05-22 07:47",
+      "brokers": [
+        "한국투자"
       ],
-      "hash": "29c6c02cf760"
-    },
-    {
-      "title": "누가 먼저 팔았나 했더니…40만원 넘던 주식이 28만원 됐다",
-      "url": "https://www.hankyung.com/article/2026052115136",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": -99.65,
       "keywords": [
-        "누가 먼저 팔았나 했더니"
+        "롯데정밀화학"
       ],
-      "hash": "11e5baa9fd03"
+      "hash": "3d9b34588779"
     },
     {
       "title": "\"매년 2000억달러 규모 소버린 AI 투자 지속…엔비디아 수혜\"-하나",
@@ -541,6 +541,22 @@
         "1만은 넘는다"
       ],
       "hash": "903b5b42509e"
+    },
+    {
+      "title": "누가 먼저 팔았나 했더니…40만원 넘던 주식이 28만원 됐다",
+      "url": "https://www.hankyung.com/article/2026052115136",
+      "summary": "한미반도체가 1분기 실적 부진으로 주가가 폭락하기 전 반도체 산업에 투자하는 액티브 상장지수펀드(ETF)들은 미리 이 종목 편입 비중을 줄여둔 것으로 나타났다. 비교지수를 기계적으로 복제해야 하는 패시브 ETF와 달리, 펀드매니저가 종목을 선별할 수 있는 액티브 ETF...",
+      "datetime_raw": "2026.05.21 20:00",
+      "datetime": "2026-05-21T20:00:00+09:00",
+      "dt": "2026-05-21 20:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "누가 먼저 팔았나 했더니"
+      ],
+      "hash": "11e5baa9fd03"
     },
     {
       "title": "코인 '빙하기' 속 조용히 웃는 서클...124% 폭등",
@@ -1089,23 +1105,6 @@
         "AI 시대의 절대 강자"
       ],
       "hash": "7f826e23c5ee"
-    },
-    {
-      "title": "\"실적 역대급인데\"…스벅 후폭풍에 이마트 주가 '휘청' [종목+]",
-      "url": "https://www.hankyung.com/article/2026052103676",
-      "summary": "이마트가 14년 만에 1분기 기준 역대 최대 영업이익을 달성했음에도 주가는 연일 하락세를 나타내고 있다. 실적 발표 이후 이마트가 신세계건설의 유상증자에 참여했다는 소식과 자회사인 스타벅스코리아의 마케팅 논란이 투자 심리를 위축시킨 것으로 분석된다.21일 한국거래소에 ...",
-      "datetime_raw": "2026.05.21 07:58",
-      "datetime": "2026-05-21T07:58:00+09:00",
-      "dt": "2026-05-21 07:58",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "휘청",
-        "실적 역대급인데"
-      ],
-      "hash": "8660d09d3945"
     }
   ],
   "consensus_signals": []
