@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-22T09:31:01.804986+09:00",
+  "collected_at": "2026-05-22T11:00:59.790837+09:00",
   "date": "2026-05-22",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -10,12 +10,12 @@
   "total_items": 63,
   "stats": {
     "with_broker_mention": 16,
-    "target_price_up": 10,
+    "target_price_up": 9,
     "target_price_down": 1,
     "top_brokers": [
       [
         "키움",
-        3
+        4
       ],
       [
         "NH",
@@ -24,6 +24,10 @@
       [
         "한국투자",
         2
+      ],
+      [
+        "미래에셋",
+        1
       ],
       [
         "SK",
@@ -48,18 +52,144 @@
       [
         "KB",
         1
-      ],
-      [
-        "미래에셋",
-        1
-      ],
-      [
-        "한화",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "연금 슈퍼개미 '원픽'은 삼전닉스 채권혼합 ETF",
+      "url": "https://www.hankyung.com/article/2026051718271",
+      "summary": "지난달 퇴직연금 투자자들은 삼성전자와 SK하이닉스를 함께 담은 채권혼합형 상장지수펀드(ETF)를 집중 매수한 것으로 나타났다. 퇴직연금 ‘안전자산 30% 룰’ 내에서 인공지능(AI) 반도체 투자 비중을 최대로 끌어올리려는 수요가 반영됐다는 분석이 ...",
+      "datetime_raw": "2026.05.22 10:39",
+      "datetime": "2026-05-22T10:39:00+09:00",
+      "dt": "2026-05-22 10:39",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "원픽"
+      ],
+      "hash": "078581cd0e96"
+    },
+    {
+      "title": "\"앤스로픽 업고 더 간다\"...주식 초고수, SKT 더 담았다",
+      "url": "https://www.hankyung.com/article/202605223755i",
+      "summary": "투자수익률 상위 1%의 초고수들이 23일 오전 증시에서 SK텔레콤과 SK하이닉스, 올릭스 등을 집중 순매수한 것으로 나타났다. 반면 현대차, 삼성전자, 알테오젠은 순매도하며 차익 실현에 나섰다. 22일 미래에셋엠클럽에 따르면 미래에셋증권 계좌 중 수익률 상위 ...",
+      "datetime_raw": "2026.05.22 10:33",
+      "datetime": "2026-05-22T10:33:00+09:00",
+      "dt": "2026-05-22 10:33",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "앤스로픽 업고 더 간다"
+      ],
+      "hash": "32f1b6400d63"
+    },
+    {
+      "title": "브이엠, 반도체 고객사 증설 기대감…신고가 경신",
+      "url": "https://www.hankyung.com/article/2026052235066",
+      "summary": "반도체 장비업체 브이엠이 22일 장 초반 강세를 보이고 있다. 주요 고객사의 D램 증설과 공정 전환 투자 확대 기대감 때문으로 풀이된다.이날 오전 9시32분 현재 브이엠은 전장 대비 6.34% 오른 6만3500원에 거래되고 있다. 오전 9시7분에는 8.68% 오른 6만...",
+      "datetime_raw": "2026.05.22 09:54",
+      "datetime": "2026-05-22T09:54:00+09:00",
+      "dt": "2026-05-22 09:54",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "브이엠"
+      ],
+      "hash": "96eb9b93e8a0"
+    },
+    {
+      "title": "코스닥, 급등해 이틀 연속 매수 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026052235726",
+      "summary": "코스닥, 급등하며 이틀 연속 매수 사이드카 발동한경우 한경닷컴 기자 case@hankyung.com",
+      "datetime_raw": "2026.05.22 09:41",
+      "datetime": "2026-05-22T09:41:00+09:00",
+      "dt": "2026-05-22 09:41",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥"
+      ],
+      "hash": "95c0a3edf433"
+    },
+    {
+      "title": "코스닥, 급등하며 이틀 연속 매수 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026052235607",
+      "summary": "박수림 한경닷컴 기자 paksr365@hankyung.com",
+      "datetime_raw": "2026.05.22 09:37",
+      "datetime": "2026-05-22T09:37:00+09:00",
+      "dt": "2026-05-22 09:37",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥"
+      ],
+      "hash": "389890c69f94"
+    },
+    {
+      "title": "삼전닉스 말고 여기로 몰렸다…AI 잭팟에 주가 '무서운 질주' [종목+]",
+      "url": "https://www.hankyung.com/article/2026052234976",
+      "summary": "LS그룹 지주사 LS가 22일 장 초반 강세를 보이고 있다. 전선, 일렉트릭 등 주요 자회사들의 업황 개선으로 역대급 실적을 기록 중인 데다 자사주 소각 의무화 등 정부 정책이 주가 상승을 뒷받침했다는 분석이 나온다.이날 오전 9시20분 현대 LS는 전 거래일...",
+      "datetime_raw": "2026.05.22 09:30",
+      "datetime": "2026-05-22T09:30:00+09:00",
+      "dt": "2026-05-22 09:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "무서운 질주",
+        "삼전닉스 말고 여기로 몰렸다"
+      ],
+      "hash": "1cacd4338d61"
+    },
+    {
+      "title": "양자컴퓨터 테마, 美정부 3조 베팅 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026052235166",
+      "summary": "양자컴퓨터 관련 종목들이 급등하고 있다. 미 상무부가 IBM, 글로벌파운드리스 등 9개 관련 기업에 총 20억달러(약 3조원을)를 지원할 계획을 밝히면서 국내 관련 종목들의 주가도 들썩이고 있다.22일 오전 9시19분 현재 케이씨에스는 전일 대비 4110원(29.98%...",
+      "datetime_raw": "2026.05.22 09:30",
+      "datetime": "2026-05-22T09:30:00+09:00",
+      "dt": "2026-05-22 09:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "양자컴퓨터 테마"
+      ],
+      "hash": "7ba9b7a7e9f4"
+    },
+    {
+      "title": "삼성전자·인버스 담은 주식 초고수...삼성전기는 팔았다",
+      "url": "https://www.hankyung.com/article/202605223183i",
+      "summary": "투자 수익률 상위 1%의 초고수들은 지난 21일 삼성전자와 반도체 상장지수펀드(ETF)를 집중 순매수한 것으로 나타났다. 반면 최근 급등했던 삼성전기에서는 차익 실현 움직임이 나타났다.22일 키움증권에 따르면 투자원금 1000만원 이상이면서 전월 기준 수익률 상위 1%...",
+      "datetime_raw": "2026.05.22 09:30",
+      "datetime": "2026-05-22T09:30:00+09:00",
+      "dt": "2026-05-22 09:30",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자"
+      ],
+      "hash": "16a55fa772c8"
+    },
     {
       "title": "코스피, 개인 매수에 강세 출발…처음으로 정규장 '30만전자'",
       "url": "https://www.hankyung.com/article/2026052234416",
@@ -269,6 +399,88 @@
       "hash": "22d2e9df28db"
     },
     {
+      "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호",
+      "url": "https://www.hankyung.com/article/2026052104096",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전기 대신 샀는데",
+        "하루 만에 23% 폭등"
+      ],
+      "hash": "fb6f228cbe12"
+    },
+    {
+      "title": "\"6억 잭팟? 역대 최악\" 불만 폭발…삼성 노조위원장 고개 숙였다",
+      "url": "https://www.hankyung.com/article/202605212079g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "6억 잭팟? 역대 최악"
+      ],
+      "hash": "30710842e99d"
+    },
+    {
+      "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
+      "url": "https://www.hankyung.com/article/2026052097231",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스"
+      ],
+      "hash": "2b54545c30a4"
+    },
+    {
+      "title": "누가 먼저 팔았나 했더니…40만원 넘던 주식이 28만원 됐다",
+      "url": "https://www.hankyung.com/article/2026052115136",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "누가 먼저 팔았나 했더니"
+      ],
+      "hash": "11e5baa9fd03"
+    },
+    {
+      "title": "20년째 놀고 있는 '노른자 땅'…주민들 \"GTX 개통만 기다려\"",
+      "url": "https://www.hankyung.com/article/2026052124321",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "노른자 땅",
+        "GTX 개통만 기다려"
+      ],
+      "hash": "29c6c02cf760"
+    },
+    {
       "title": "\"이번엔 안놓친다\"…삼성전자 '빚투' 4조 돌파",
       "url": "https://www.hankyung.com/article/2026052122826",
       "summary": "반도체 업황 기대와 파업 우려 해소 주식시장에서 삼성전자 '빚투'(빚내서 투자)가 사상 처음으로 4조원을 돌파했다. 다만 최근 증시가 반도체 쏠림 현상을 보이는 데다 다음주 삼성전자 단일종목 레버리지 상품까지 등장할 예정이어서 변동성에 주의해야 한다는 조...",
@@ -300,22 +512,6 @@
         "1만은 넘는다"
       ],
       "hash": "903b5b42509e"
-    },
-    {
-      "title": "누가 먼저 팔았나 했더니…40만원 넘던 주식이 28만원 됐다",
-      "url": "https://www.hankyung.com/article/2026052115136",
-      "summary": "한미반도체가 1분기 실적 부진으로 주가가 폭락하기 전 반도체 산업에 투자하는 액티브 상장지수펀드(ETF)들은 미리 이 종목 편입 비중을 줄여둔 것으로 나타났다. 비교지수를 기계적으로 복제해야 하는 패시브 ETF와 달리, 펀드매니저가 종목을 선별할 수 있는 액티브 ETF...",
-      "datetime_raw": "2026.05.21 20:00",
-      "datetime": "2026-05-21T20:00:00+09:00",
-      "dt": "2026-05-21 20:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "누가 먼저 팔았나 했더니"
-      ],
-      "hash": "11e5baa9fd03"
     },
     {
       "title": "코인 '빙하기' 속 조용히 웃는 서클...124% 폭등",
@@ -398,90 +594,6 @@
         "코인 ETF"
       ],
       "hash": "0a8ff792e4db"
-    },
-    {
-      "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호",
-      "url": "https://www.hankyung.com/article/2026052104096",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기 대신 샀는데",
-        "하루 만에 23% 폭등"
-      ],
-      "hash": "fb6f228cbe12"
-    },
-    {
-      "title": "\"6억 잭팟? 역대 최악\" 불만 폭발…삼성 노조위원장 고개 숙였다",
-      "url": "https://www.hankyung.com/article/202605212079g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "6억 잭팟? 역대 최악"
-      ],
-      "hash": "30710842e99d"
-    },
-    {
-      "title": "'삼전닉스' 팔아치우자 증시 휘청이는데…증권가 웃는 이유",
-      "url": "https://www.hankyung.com/article/2026052097231",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스"
-      ],
-      "hash": "2b54545c30a4"
-    },
-    {
-      "title": "\"'아침마당' 그분 맞죠?\"…'재혼 발표' 강성연 남편 알고 보니",
-      "url": "https://www.hankyung.com/article/202605208129H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "아침마당",
-        "재혼 발표"
-      ],
-      "hash": "77d8b273c3ba"
-    },
-    {
-      "title": "\"믿었던 한전마저…\" '유가 급등' 직격탄에 개미들 '울상'",
-      "url": "https://www.hankyung.com/article/2026052093376",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "울상",
-        "유가 급등",
-        "믿었던 한전마저…"
-      ],
-      "hash": "68ce806fa5b9"
     },
     {
       "title": "방미심위, '돈 거는 예측시장' 폴리마켓 심의 착수…사행성 위반 검토",
@@ -1001,125 +1113,6 @@
         "삼성전기"
       ],
       "hash": "bf009f0cf0d8"
-    },
-    {
-      "title": "\"삼성전자, 폭풍 같은 메모리 반도체 가격 급등…목표가↑\"-미래",
-      "url": "https://www.hankyung.com/article/2026052104346",
-      "summary": "미래에셋증권은 21일 삼성전자에 대해 메모리 가격 강세가 더 가팔라지고 있다며 목표주가를 기존 40만원에서 48만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.김영건 미래에셋증권 연구원은 “LPDDR D램의 구조적 수요 강세와 삼성전자 ...",
-      "datetime_raw": "2026.05.21 07:40",
-      "datetime": "2026-05-21T07:40:00+09:00",
-      "dt": "2026-05-21 07:40",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 20.0,
-      "keywords": [
-        "삼성전자"
-      ],
-      "hash": "dac8345c962e"
-    },
-    {
-      "title": "금리진정·유가하락에 주요지수 반등…엔비디아 실적 호조 [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026052103706",
-      "summary": "미국 국채금리와 국제유가 급등세가 진정되면서 뉴욕증시 3대 주요 지수가 일제히 반등 마감했다. 장 마감 후 발표된 엔비디아의 실적 기대감도 기술주 투자심리를 끌어올렸다.20일(현지시간) 뉴욕증권거래소(NYSE)에서 다우존스30산업평균지수는 전장보다 645.47포인트(1...",
-      "datetime_raw": "2026.05.21 07:13",
-      "datetime": "2026-05-21T07:13:00+09:00",
-      "dt": "2026-05-21 07:13",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "금리진정"
-      ],
-      "hash": "75b46ad5dbe4"
-    },
-    {
-      "title": "\"역시 엔비디아\" 실적 또 넘었다…서학개미들 다시 '웃음'",
-      "url": "https://www.hankyung.com/article/2026052102957",
-      "summary": "글로벌 인공지능(AI) 반도체 대장주인 엔비디아가 시장 예상치를 웃도는 분기 실적과 강력한 가이던스(매출 전망)를 제시하며 AI 칩 수요가 여전히 견조함을 증명했다.20일(현지시간) 엔비디아는 뉴욕증시 마감 후 발표한 실적 보고서를 통해 회계연도 1분기(2~4월) 매출...",
-      "datetime_raw": "2026.05.21 06:03",
-      "datetime": "2026-05-21T06:03:00+09:00",
-      "dt": "2026-05-21 06:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "웃음",
-        "역시 엔비디아"
-      ],
-      "hash": "39f87aa5fc70"
-    },
-    {
-      "title": "코스피 요동쳐도 '빨간 기둥'…하반기가 더 반가운 섹터는 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026052097931",
-      "summary": "코스피 요동쳐도 '빨간 기둥'…하반기가 더 반가운 섹터는요즘처럼 변동성이 큰 장에서 방어주 역할을 하는 업종이 있다. 금융주가 주인공이다. 금리 상승 기조에 따른 이익 증가가 주주환원으로 이어질 것이란 전망이 나온다. 57...",
-      "datetime_raw": "2026.05.20 17:48",
-      "datetime": "2026-05-20T17:48:00+09:00",
-      "dt": "2026-05-20 17:48",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "빨간 기둥"
-      ],
-      "hash": "18f9d08eff90"
-    },
-    {
-      "title": "한화투자증권, 두나무에 6000억원 추가 투자…지분 9.84%로 확대",
-      "url": "https://www.hankyung.com/article/202605209830B",
-      "summary": "한화투자증권이 국내 최대 가상자산 거래소 업비트 운영사 두나무에 약 6000억원을 추가 투자한다. 한화투자증권의 두나무 지분율은 총 9.84%%로 늘어난다.한화투자증권은 20일 이사회를 열고 카카오인베스트먼트가 보유한 두나무 구주 136만 1050주를 현금 매수 방식으...",
-      "datetime_raw": "2026.05.20 17:46",
-      "datetime": "2026-05-20T17:46:00+09:00",
-      "dt": "2026-05-20 17:46",
-      "brokers": [
-        "한화"
-      ],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한화투자증권"
-      ],
-      "hash": "9d8aae7b51b3"
-    },
-    {
-      "title": "美 사우스캐롤라이나주, '친암호화폐법' 시행…CBDC 제한도 명문화",
-      "url": "https://www.hankyung.com/article/202605209721B",
-      "summary": "미국 사우스캐롤라이나주가 채굴 산업 보호 등을 명문화한 친(親)암호화폐 법안을 시행한다.19일(현지시간) 더블록에 따르면 헨리 맥마스터 사우스캐롤라이나 주지사는 전날(18일) 암호화폐 관련 법인 S.163 법안에 서명했다. 디지털자산 기업과 이용자가 주 내에서 보다 자...",
-      "datetime_raw": "2026.05.20 17:29",
-      "datetime": "2026-05-20T17:29:00+09:00",
-      "dt": "2026-05-20 17:29",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "친암호화폐법",
-        "美 사우스캐롤라이나주"
-      ],
-      "hash": "d346147fef4a"
-    },
-    {
-      "title": "외국인 역대급 '셀 코리아'에도...증권가 \"과거 위기때와는 다르다\"",
-      "url": "https://www.hankyung.com/article/202605209086i",
-      "summary": "한국 증시에서 외국인의 '셀코리아'는 항상 풀기 어려운 숙제였다. 수출 비중이 높은 경제구조상 유가, 환율 등 글로벌 거시 지표에 큰 영향을 받는 탓에 대내외적 환경이 흔들릴 때마다 성장성에 대한 의심도 커졌다. 2008년 글로벌 금융위기(34조원), 2...",
-      "datetime_raw": "2026.05.20 17:27",
-      "datetime": "2026-05-20T17:27:00+09:00",
-      "dt": "2026-05-20 17:27",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "셀 코리아",
-        "과거 위기때와는 다르다"
-      ],
-      "hash": "dbf6578d10da"
     }
   ],
   "consensus_signals": [
