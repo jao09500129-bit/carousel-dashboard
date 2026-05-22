@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-22T11:00:59.790837+09:00",
+  "collected_at": "2026-05-22T13:01:00.322884+09:00",
   "date": "2026-05-22",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,13 +9,13 @@
   ],
   "total_items": 63,
   "stats": {
-    "with_broker_mention": 16,
-    "target_price_up": 9,
+    "with_broker_mention": 14,
+    "target_price_up": 7,
     "target_price_down": 1,
     "top_brokers": [
       [
         "키움",
-        4
+        3
       ],
       [
         "NH",
@@ -48,14 +48,43 @@
       [
         "IBK",
         1
-      ],
-      [
-        "KB",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "코스피, 개인·기관 매수에 강세…코스닥선 '매수 사이드카' 발동",
+      "url": "https://www.hankyung.com/article/2026052239066",
+      "summary": "코스피가 강세를 보이는 가운데, 코스닥은 이틀 연속 ‘매수 사이드카’가 발동될 정도로 급등세다. 판매 개시된 국민성장펀드의 코스닥 수혜 기대감이 투자심리를 자극한 것으로 보인다.22일 오전 10시51분 현재 코스피는 전일 대비 43.21포인트(0....",
+      "datetime_raw": "2026.05.22 11:05",
+      "datetime": "2026-05-22T11:05:00+09:00",
+      "dt": "2026-05-22 11:05",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피",
+        "매수 사이드카"
+      ],
+      "hash": "2fbf0958849d"
+    },
+    {
+      "title": "\"오스티움, 나스닥 시세 연동 무기한 선물 거래 서비스 제공\"",
+      "url": "https://www.hankyung.com/article/2026052238336",
+      "summary": "온체인 파생상품 거래 프로토콜 오스티움이 나스닥의 실시간 시장 데이터를 연동해 미국 주식 무기한 선물 거래 서비스를 제공한다고 블루밍비트가 22일 보도했다.블루밍비트에 따르면 오스티움 랩스는 오스티움이 나스닥의 실시간 주식 시장 데이터 서비스인 '나스닥 베이직&...",
+      "datetime_raw": "2026.05.22 11:00",
+      "datetime": "2026-05-22T11:00:00+09:00",
+      "dt": "2026-05-22 11:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "오스티움"
+      ],
+      "hash": "070325994f1d"
+    },
     {
       "title": "연금 슈퍼개미 '원픽'은 삼전닉스 채권혼합 ETF",
       "url": "https://www.hankyung.com/article/2026051718271",
@@ -367,38 +396,6 @@
       "hash": "3d9b34588779"
     },
     {
-      "title": "\"매년 2000억달러 규모 소버린 AI 투자 지속…엔비디아 수혜\"-하나",
-      "url": "https://www.hankyung.com/article/2026052231236",
-      "summary": "하나증권은 22일 엔비디아에 대해 \"국가 단위의 인공지능(AI) 투자인 소버린 AI 투자가 빠르게 있어 엔비디아의 장기적인 수혜가 예상된다\"고 말했다.엔비디아는 회계연도 올해 1분기(2∼4월) 매출이 전년 동기 대비 85% 증가한 816억1500만달러(약 122...",
-      "datetime_raw": "2026.05.22 07:39",
-      "datetime": "2026-05-22T07:39:00+09:00",
-      "dt": "2026-05-22 07:39",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "1f76f9cbeab5"
-    },
-    {
-      "title": "WSJ \"美, 양자컴퓨팅 기업 9곳에 20억弗 투자…IBM에 10억弗 지급\"",
-      "url": "https://www.hankyung.com/article/202605212882B",
-      "summary": "미국 정부가 자국 양자컴퓨팅 기업 9곳에 총 20억달러를 투자한다.월스트리트저널(WSJ)은 미 상무부가 지분 투자를 포함한 계약을 통해 자국 양자컴퓨팅 기업 9곳에 20억달러 규모의 보조금을 지급한다고 21일(현지시간) 보도했다. 월스트리트저널은 \"이번 조치는 최근 수...",
-      "datetime_raw": "2026.05.21 21:27",
-      "datetime": "2026-05-21T21:27:00+09:00",
-      "dt": "2026-05-21 21:27",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "WSJ \"美"
-      ],
-      "hash": "22d2e9df28db"
-    },
-    {
       "title": "삼성전기 대신 샀는데…'하루 만에 23% 폭등' 개미들 환호",
       "url": "https://www.hankyung.com/article/2026052104096",
       "summary": "",
@@ -448,6 +445,23 @@
       "hash": "2b54545c30a4"
     },
     {
+      "title": "20년째 놀고 있는 '노른자 땅'…주민들 \"GTX 개통만 기다려\"",
+      "url": "https://www.hankyung.com/article/2026052124321",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "노른자 땅",
+        "GTX 개통만 기다려"
+      ],
+      "hash": "29c6c02cf760"
+    },
+    {
       "title": "누가 먼저 팔았나 했더니…40만원 넘던 주식이 28만원 됐다",
       "url": "https://www.hankyung.com/article/2026052115136",
       "summary": "",
@@ -464,21 +478,36 @@
       "hash": "11e5baa9fd03"
     },
     {
-      "title": "20년째 놀고 있는 '노른자 땅'…주민들 \"GTX 개통만 기다려\"",
-      "url": "https://www.hankyung.com/article/2026052124321",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
+      "title": "\"매년 2000억달러 규모 소버린 AI 투자 지속…엔비디아 수혜\"-하나",
+      "url": "https://www.hankyung.com/article/2026052231236",
+      "summary": "하나증권은 22일 엔비디아에 대해 \"국가 단위의 인공지능(AI) 투자인 소버린 AI 투자가 빠르게 있어 엔비디아의 장기적인 수혜가 예상된다\"고 말했다.엔비디아는 회계연도 올해 1분기(2∼4월) 매출이 전년 동기 대비 85% 증가한 816억1500만달러(약 122...",
+      "datetime_raw": "2026.05.22 07:39",
+      "datetime": "2026-05-22T07:39:00+09:00",
+      "dt": "2026-05-22 07:39",
+      "brokers": [
+        "하나"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "1f76f9cbeab5"
+    },
+    {
+      "title": "WSJ \"美, 양자컴퓨팅 기업 9곳에 20억弗 투자…IBM에 10억弗 지급\"",
+      "url": "https://www.hankyung.com/article/202605212882B",
+      "summary": "미국 정부가 자국 양자컴퓨팅 기업 9곳에 총 20억달러를 투자한다.월스트리트저널(WSJ)은 미 상무부가 지분 투자를 포함한 계약을 통해 자국 양자컴퓨팅 기업 9곳에 20억달러 규모의 보조금을 지급한다고 21일(현지시간) 보도했다. 월스트리트저널은 \"이번 조치는 최근 수...",
+      "datetime_raw": "2026.05.21 21:27",
+      "datetime": "2026-05-21T21:27:00+09:00",
+      "dt": "2026-05-21 21:27",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "노른자 땅",
-        "GTX 개통만 기다려"
+        "WSJ \"美"
       ],
-      "hash": "29c6c02cf760"
+      "hash": "22d2e9df28db"
     },
     {
       "title": "\"이번엔 안놓친다\"…삼성전자 '빚투' 4조 돌파",
@@ -1077,77 +1106,7 @@
         "실적 역대급인데"
       ],
       "hash": "8660d09d3945"
-    },
-    {
-      "title": "\"리노공업, AI추론 수요 확대 수혜…목표가↑\"-키움",
-      "url": "https://www.hankyung.com/article/2026052104486",
-      "summary": "키움증권은 21일 리노공업에 대해 \"인공지능(AI) 추론 수요 확대의 수혜를 볼 것\"이라며 목표주가를 기존 8만원에서 12만원으로 상향하고 투자의견 '매수'를 유지했다.이 증권사 박유악 연구원은 \"AI 추론 시장 및 서버 수요의 강세가 리노공업의 반도체 ...",
-      "datetime_raw": "2026.05.21 07:56",
-      "datetime": "2026-05-21T07:56:00+09:00",
-      "dt": "2026-05-21 07:56",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 50.0,
-      "keywords": [
-        "리노공업"
-      ],
-      "hash": "b7183b00e71d"
-    },
-    {
-      "title": "\"삼성전기, 실리콘 커패시터 매출 폭발 성장 기대…목표가↑\"-KB",
-      "url": "https://www.hankyung.com/article/2026052104326",
-      "summary": "KB증권은 21일 삼성전기에 대해 \"이 회사가 생산하고 있는 반도체 부품 실리콘 커패시터의 수요가 급증하고 있어 매출이 빠르게 늘 것\"이라며 목표주가를 기존 140만원에서 160만원으로 14% 상향 조정했다. 투자의견 '매수'도 유지했다.이 증권사 이창민...",
-      "datetime_raw": "2026.05.21 07:44",
-      "datetime": "2026-05-21T07:44:00+09:00",
-      "dt": "2026-05-21 07:44",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 14.285714285714285,
-      "keywords": [
-        "삼성전기"
-      ],
-      "hash": "bf009f0cf0d8"
     }
   ],
-  "consensus_signals": [
-    {
-      "keyword": "리노공업",
-      "n_brokers": 2,
-      "brokers": [
-        "신한",
-        "키움"
-      ],
-      "ups": 2,
-      "downs": 0,
-      "items": [
-        {
-          "title": "\"리노공업, 고부가 제품의 구조적 성장 구간…목표가↑\"-신한",
-          "url": "https://www.hankyung.com/article/2026052232136",
-          "brokers": [
-            "신한"
-          ],
-          "target_action": "up",
-          "opinion": "매수",
-          "datetime": "2026-05-22T08:06:00+09:00"
-        },
-        {
-          "title": "\"리노공업, AI추론 수요 확대 수혜…목표가↑\"-키움",
-          "url": "https://www.hankyung.com/article/2026052104486",
-          "brokers": [
-            "키움"
-          ],
-          "target_action": "up",
-          "opinion": "매수",
-          "datetime": "2026-05-21T07:56:00+09:00"
-        }
-      ],
-      "avg_target_change_pct": 28.85
-    }
-  ]
+  "consensus_signals": []
 }
