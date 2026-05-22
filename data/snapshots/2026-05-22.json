@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-22T16:00:52.164765+09:00",
+  "collected_at": "2026-05-22T19:36:57.079281+09:00",
   "date": "2026-05-22",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 63,
+  "total_items": 64,
   "stats": {
     "with_broker_mention": 14,
     "target_price_up": 7,
@@ -52,6 +52,56 @@
     ]
   },
   "items": [
+    {
+      "title": "복진솔 \"블록체인, '물리학적 신뢰' 만드는 시스템\"",
+      "url": "https://www.hankyung.com/article/202605224904B",
+      "summary": "복진솔 포필러스 리서치 리드화학생물공학으로 박사 학위 받아\"블록체인 '무신뢰' 모델에 매료\"디사이퍼 거쳐 포필러스 합류\"웹3, 1~2년 전 '매스어돕션' 진입\"'좋은 사람을 만나 좋은 대화를 나눈다.' 블루밍런치의 기본 취지입니다. 크립토 씬(Crypto Scene, ...",
+      "datetime_raw": "2026.05.22 18:09",
+      "datetime": "2026-05-22T18:09:00+09:00",
+      "dt": "2026-05-22 18:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "블록체인,",
+        "만드는 시스템",
+        "복진솔 \"블록체인"
+      ],
+      "hash": "497df9d83612"
+    },
+    {
+      "title": "삼성전자 ‘6억 성과급’시대…진짜 수혜주는 따로 있다 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026052248401",
+      "summary": "삼성전자 ‘6억 성과급’시대…진짜 수혜주는 따로 있다반도체 기업들의 성과급 릴레이가 국내 내수 산업 지형까지 바꿀 태세다. 반도체 슈퍼사이클의 직접적 영향을 받는 종목들을 한경프리미엄9이 소개한다. 세레브라스 흥행에...",
+      "datetime_raw": "2026.05.22 18:00",
+      "datetime": "2026-05-22T18:00:00+09:00",
+      "dt": "2026-05-22 18:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "6억 성과급"
+      ],
+      "hash": "d5e18bcedfd5"
+    },
+    {
+      "title": "\"국세청, 가상자산 탈세 추적 시스템 구축 사업자에 보난자팩토리 선정\"",
+      "url": "https://www.hankyung.com/article/2026052243596",
+      "summary": "국세청이 가상자산을 활용한 조세 회피를 차단하기 위해 보난자팩토리의 전문 거래 추적 솔루션을 도입한다고 블루밍비트가 22일 보도했다. 블루밍비트에 따르면 국세청은 '가상자산 탈세 대응 거래추적 소프트웨어' 구축 사업의 최종 수행사로 디지...",
+      "datetime_raw": "2026.05.22 16:00",
+      "datetime": "2026-05-22T16:00:00+09:00",
+      "dt": "2026-05-22 16:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "국세청"
+      ],
+      "hash": "b7345e863d76"
+    },
     {
       "title": "코스피, 개인·기관 매수에 강세…코스닥 5% '급등'",
       "url": "https://www.hankyung.com/article/2026052244876",
@@ -339,60 +389,6 @@
       "hash": "5589e012a728"
     },
     {
-      "title": "\"현대모비스, 그룹사 피지컬AI 전환 최대 수혜…목표가↑\"-NH",
-      "url": "https://www.hankyung.com/article/2026052232186",
-      "summary": "NH투자증권은 22일 현대모비스에 대해 \"그룹사 피지컬 인공지능(AI) 전환에 따른 최대 수혜주\"라며 목표주가를 기존 58만원에서 87만원으로 상향하고 투자의견 '매수'를 유지했다.이 증권사 하늘 연구원은 \"현대모비스는 자율주행차에 탑재되는 센서뿐 아니라...",
-      "datetime_raw": "2026.05.22 08:10",
-      "datetime": "2026-05-22T08:10:00+09:00",
-      "dt": "2026-05-22 08:10",
-      "brokers": [
-        "NH"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 50.0,
-      "keywords": [
-        "현대모비스"
-      ],
-      "hash": "6ae875d62365"
-    },
-    {
-      "title": "\"리노공업, 고부가 제품의 구조적 성장 구간…목표가↑\"-신한",
-      "url": "https://www.hankyung.com/article/2026052232136",
-      "summary": "신한투자증권은 22일 리노공업에 대해 인공지능(AI) 시장이 개화한 이후 부가가치가 높은 소켓 제품의 수요의 확대가 지속되고 있다며 목표주가를 기존 13만원에서 14만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.오강호 신한투자증권 연구원은 주당순...",
-      "datetime_raw": "2026.05.22 08:06",
-      "datetime": "2026-05-22T08:06:00+09:00",
-      "dt": "2026-05-22 08:06",
-      "brokers": [
-        "신한"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 7.6923076923076925,
-      "keywords": [
-        "리노공업"
-      ],
-      "hash": "e7ee5bd1df99"
-    },
-    {
-      "title": "AI·로봇 타고 '꿈틀'…알고보면 'IT 팔방미인' 주목해야할 이유",
-      "url": "https://www.hankyung.com/article/202605211986i",
-      "summary": "최근 로봇 테마로 엮였던 LG그룹주들의 주가는 '롤러코스터'를 탔다. 미래 사업에 대한 기대감에 급등했던 주가가 시장에 조정이 찾아오자 급락세로 바뀌었다. LG CNS도 마찬가지다. 이달 들어 15일까지 33.2% 올랐던 LG CNS는 이후 3거래일 만에...",
-      "datetime_raw": "2026.05.22 08:00",
-      "datetime": "2026-05-22T08:00:00+09:00",
-      "dt": "2026-05-22 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "꿈틀",
-        "AI",
-        "IT 팔방미인"
-      ],
-      "hash": "bf3c04f79949"
-    },
-    {
       "title": "\"6억 잭팟? 역대 최악\" 불만 폭발…삼성 노조위원장 고개 숙였다",
       "url": "https://www.hankyung.com/article/202605212079g",
       "summary": "",
@@ -457,6 +453,60 @@
         "삼전닉스"
       ],
       "hash": "2b54545c30a4"
+    },
+    {
+      "title": "\"현대모비스, 그룹사 피지컬AI 전환 최대 수혜…목표가↑\"-NH",
+      "url": "https://www.hankyung.com/article/2026052232186",
+      "summary": "NH투자증권은 22일 현대모비스에 대해 \"그룹사 피지컬 인공지능(AI) 전환에 따른 최대 수혜주\"라며 목표주가를 기존 58만원에서 87만원으로 상향하고 투자의견 '매수'를 유지했다.이 증권사 하늘 연구원은 \"현대모비스는 자율주행차에 탑재되는 센서뿐 아니라...",
+      "datetime_raw": "2026.05.22 08:10",
+      "datetime": "2026-05-22T08:10:00+09:00",
+      "dt": "2026-05-22 08:10",
+      "brokers": [
+        "NH"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 50.0,
+      "keywords": [
+        "현대모비스"
+      ],
+      "hash": "6ae875d62365"
+    },
+    {
+      "title": "\"리노공업, 고부가 제품의 구조적 성장 구간…목표가↑\"-신한",
+      "url": "https://www.hankyung.com/article/2026052232136",
+      "summary": "신한투자증권은 22일 리노공업에 대해 인공지능(AI) 시장이 개화한 이후 부가가치가 높은 소켓 제품의 수요의 확대가 지속되고 있다며 목표주가를 기존 13만원에서 14만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.오강호 신한투자증권 연구원은 주당순...",
+      "datetime_raw": "2026.05.22 08:06",
+      "datetime": "2026-05-22T08:06:00+09:00",
+      "dt": "2026-05-22 08:06",
+      "brokers": [
+        "신한"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 7.6923076923076925,
+      "keywords": [
+        "리노공업"
+      ],
+      "hash": "e7ee5bd1df99"
+    },
+    {
+      "title": "AI·로봇 타고 '꿈틀'…알고보면 'IT 팔방미인' 주목해야할 이유",
+      "url": "https://www.hankyung.com/article/202605211986i",
+      "summary": "최근 로봇 테마로 엮였던 LG그룹주들의 주가는 '롤러코스터'를 탔다. 미래 사업에 대한 기대감에 급등했던 주가가 시장에 조정이 찾아오자 급락세로 바뀌었다. LG CNS도 마찬가지다. 이달 들어 15일까지 33.2% 올랐던 LG CNS는 이후 3거래일 만에...",
+      "datetime_raw": "2026.05.22 08:00",
+      "datetime": "2026-05-22T08:00:00+09:00",
+      "dt": "2026-05-22 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "꿈틀",
+        "AI",
+        "IT 팔방미인"
+      ],
+      "hash": "bf3c04f79949"
     },
     {
       "title": "\"대한항공, 유류할증료 하락 시 수요 회복 기대…목표가↑\"-NH",
@@ -1074,38 +1124,6 @@
         "삼전닉스"
       ],
       "hash": "840cd68489ea"
-    },
-    {
-      "title": "'삼전닉스' 팔고, 코스닥서 ○○은 담았다…한달새 주가 2배",
-      "url": "https://www.hankyung.com/article/202605207888i",
-      "summary": "'반도체 투톱'을 중심으로 순매도 행렬을 펼치고 있는 외국인 투자자들이 반도체 팹리스 기업 파두를 매수하고 있는 것으로 나타났다. 최근 주가가 급등한 삼성전자와 SK하이닉스에선 차익 실현을 하고, 그 대신 인공지능(AI) 밸류체인에 들어있는 코스닥 기업을...",
-      "datetime_raw": "2026.05.21 08:02",
-      "datetime": "2026-05-21T08:02:00+09:00",
-      "dt": "2026-05-21 08:02",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스"
-      ],
-      "hash": "ce498a41d69f"
-    },
-    {
-      "title": "변동성 확대는 하락 신호? 주식시장 교과서, 한국에선 깨졌다",
-      "url": "https://www.hankyung.com/article/202605210240i",
-      "summary": "극단적인 변동성이 한국 주식시장의 '고유한 성질'이 될 것이란 주장이 나왔다. 통상적으로 변동성이 확대되는 국면에선 약세장이 펼치지고, 강세장은 낮은 변동성 속에 진행이 된다는 주식시장의 상식이 적어도 한국 증시에선 유효하지 않게 됐다는 분석이다.&nbs...",
-      "datetime_raw": "2026.05.21 08:01",
-      "datetime": "2026-05-21T08:01:00+09:00",
-      "dt": "2026-05-21 08:01",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "변동성 확대는 하락 신호? 주식시장 교과서"
-      ],
-      "hash": "e99d0132e2ff"
     }
   ],
   "consensus_signals": []
