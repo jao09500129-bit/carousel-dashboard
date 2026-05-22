@@ -1,15 +1,16 @@
 {
-  "computed_at": "2026-05-21T23:10:58.711095+09:00",
-  "action_headline": "금리 민감 축 가속 + 반도체 신규 진입 검토",
-  "confidence": 1,
-  "confidence_pct": 0.0,
+  "computed_at": "2026-05-22T09:31:01.804986+09:00",
+  "action_headline": "에너지 축 가속 + 정보기술 신규 진입 검토",
+  "confidence": 2,
+  "confidence_pct": 33.0,
   "rationale": [
-    "미국 10년 yield -10.0bp — 금리 민감 회전축",
-    "Market Mood 48/100 (FEAR)"
+    "브렌트 -2.32% — 에너지 회전축",
+    "합의 시그널 '리노공업' — Conviction 36/100 (2사 동조)",
+    "Market Mood 62/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
-  "stars": "⭐○○○○",
+  "stars": "⭐⭐○○○",
   "friendly_emoji": "🔴",
   "friendly_action": "관망하세요",
   "friendly_reason": "오늘은 시장 의견이 갈리거나 신호가 약해요. 무리해서 진입하지 마세요.",
