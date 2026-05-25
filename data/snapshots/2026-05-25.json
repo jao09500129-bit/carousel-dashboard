@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-25T13:00:53.823204+09:00",
+  "collected_at": "2026-05-25T15:00:58.109604+09:00",
   "date": "2026-05-25",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -48,6 +48,22 @@
     ]
   },
   "items": [
+    {
+      "title": "\"AI로 눌림목 발굴…반도체·로봇 모멘텀 주목\" [인터뷰+]",
+      "url": "https://www.hankyung.com/article/2026052233016",
+      "summary": "\"한경유레카에서 '나인어클락'은 인공지능(AI) 투자 알고리즘을 활용해 단기 눌림목 매매를 선호하는 개인투자자에게 최적화된 올인원 서비스를 제공합니다.\"이진수 이루다컴퍼니 대표는 25일 한경닷컴과의 인터뷰에서 \"단기 눌림목 매매에서 가장 성공률이 높은 3...",
+      "datetime_raw": "2026.05.25 14:55",
+      "datetime": "2026-05-25T14:55:00+09:00",
+      "dt": "2026-05-25 14:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI로 눌림목 발굴"
+      ],
+      "hash": "4383bcfec5fa"
+    },
     {
       "title": "두나무, 청소년 대상 '업클래스 주니어배 퀴즈 대항전' 개최",
       "url": "https://www.hankyung.com/article/202605256978B",
@@ -363,20 +379,21 @@
       "hash": "070325994f1d"
     },
     {
-      "title": "연금 슈퍼개미 '원픽'은 삼전닉스 채권혼합 ETF",
-      "url": "https://www.hankyung.com/article/2026051718271",
-      "summary": "지난달 퇴직연금 투자자들은 삼성전자와 SK하이닉스를 함께 담은 채권혼합형 상장지수펀드(ETF)를 집중 매수한 것으로 나타났다. 퇴직연금 ‘안전자산 30% 룰’ 내에서 인공지능(AI) 반도체 투자 비중을 최대로 끌어올리려는 수요가 반영됐다는 분석이 ...",
-      "datetime_raw": "2026.05.22 10:39",
-      "datetime": "2026-05-22T10:39:00+09:00",
-      "dt": "2026-05-22 10:39",
+      "title": "\"10억 하던 아파트가 2년 만에\"…호재 줄줄이 집값 '들썩'",
+      "url": "https://www.hankyung.com/article/2026052108546",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
-      "opinion": "매수",
+      "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "원픽"
+        "들썩",
+        "10억 하던 아파트가 2년 만에"
       ],
-      "hash": "078581cd0e96"
+      "hash": "4caea31ac546"
     },
     {
       "title": "\"다이어트할 때 꼭 먹어요\"…요즘 마트서 불티난 '채소' 정체",
@@ -396,8 +413,8 @@
       "hash": "f72832c665e0"
     },
     {
-      "title": "\"10억 하던 아파트가 2년 만에\"…호재 줄줄이 집값 '들썩'",
-      "url": "https://www.hankyung.com/article/2026052108546",
+      "title": "\"배우자가 월 400만원 쓴 곳이…\" 뜻밖의 '이혼 사유' 정체",
+      "url": "https://www.hankyung.com/article/2026052463971",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -407,10 +424,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "들썩",
-        "10억 하던 아파트가 2년 만에"
+        "이혼 사유",
+        "배우자가 월 400만원 쓴 곳이"
       ],
-      "hash": "4caea31ac546"
+      "hash": "f3fd2bc3dc0a"
     },
     {
       "title": "퇴직 후 아파트 판 돈 '13억'…예금에 넣으면 세금 폭탄?",
@@ -429,21 +446,20 @@
       "hash": "20680e4714c8"
     },
     {
-      "title": "\"배우자가 월 400만원 쓴 곳이…\" 뜻밖의 '이혼 사유' 정체",
-      "url": "https://www.hankyung.com/article/2026052463971",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
+      "title": "연금 슈퍼개미 '원픽'은 삼전닉스 채권혼합 ETF",
+      "url": "https://www.hankyung.com/article/2026051718271",
+      "summary": "지난달 퇴직연금 투자자들은 삼성전자와 SK하이닉스를 함께 담은 채권혼합형 상장지수펀드(ETF)를 집중 매수한 것으로 나타났다. 퇴직연금 ‘안전자산 30% 룰’ 내에서 인공지능(AI) 반도체 투자 비중을 최대로 끌어올리려는 수요가 반영됐다는 분석이 ...",
+      "datetime_raw": "2026.05.22 10:39",
+      "datetime": "2026-05-22T10:39:00+09:00",
+      "dt": "2026-05-22 10:39",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "이혼 사유",
-        "배우자가 월 400만원 쓴 곳이"
+        "원픽"
       ],
-      "hash": "f3fd2bc3dc0a"
+      "hash": "078581cd0e96"
     },
     {
       "title": "\"앤스로픽 업고 더 간다\"…주식 초고수들, SKT 더 담았다",
@@ -1098,23 +1114,6 @@
       "target_change_pct": null,
       "keywords": [],
       "hash": "cc1bc361705e"
-    },
-    {
-      "title": "1% 초고수들, 급등장에서 삼성전자와 '이 종목' 샀다",
-      "url": "https://www.hankyung.com/article/202605211122i",
-      "summary": "수익률 상위 1%의 초고수들이 장 초반 레인보우로보틱스와 LG전자, 삼성전자를 대거 순매수한 것으로 나타났다.21일 오전 미래에셋엠클럽에 따르면 이 회사 고객 가운데 수익률 상위 1%의 계좌는 이날 오전 10시까지 레인보우로보틱스를 가장 많이 순매수한 것으로 나타났다....",
-      "datetime_raw": "2026.05.21 10:25",
-      "datetime": "2026-05-21T10:25:00+09:00",
-      "dt": "2026-05-21 10:25",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "1% 초고수들"
-      ],
-      "hash": "6b120b3edab0"
     }
   ],
   "consensus_signals": []
