@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-05-24T23:10:49.998962+09:00",
+  "computed_at": "2026-05-25T09:31:01.006020+09:00",
   "action_headline": "반도체 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
     "美 반도체 지수 +1.99% — 반도체 회전축",
-    "Market Mood 58/100 (NEUTRAL)"
+    "Market Mood 56/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
