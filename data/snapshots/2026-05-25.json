@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-25T15:00:58.109604+09:00",
+  "collected_at": "2026-05-25T16:00:51.533595+09:00",
   "date": "2026-05-25",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -430,8 +430,8 @@
       "hash": "f3fd2bc3dc0a"
     },
     {
-      "title": "퇴직 후 아파트 판 돈 '13억'…예금에 넣으면 세금 폭탄?",
-      "url": "https://www.hankyung.com/article/202605224193i",
+      "title": "\"마트보다 비싸지만…\" 돈 아끼려는 '1인 가구' 몰려든 곳",
+      "url": "https://www.hankyung.com/article/202605223509g",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -441,9 +441,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "13억"
+        "1인 가구",
+        "마트보다 비싸지만"
       ],
-      "hash": "20680e4714c8"
+      "hash": "b38ff465bc85"
     },
     {
       "title": "연금 슈퍼개미 '원픽'은 삼전닉스 채권혼합 ETF",
