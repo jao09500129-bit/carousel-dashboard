@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-24 23:11 KST",
+  "as_of": "2026-05-25 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "코스닥의 시간 오나…정책 기대·수급 폭발에 성장주 '들썩' (2026-05-24 22:32)",
-    "스타벅스 '카톡 선물 1위' 내줬다…불매 여파에 6위로 급락 (2026-05-24 20:11)",
-    "\"美·이란 전쟁 종전 눈앞\"…지금 국장에서 사야 할 것은? (2026-05-24 16:41)"
+    "본격화하는 금리 인상기…투자 매력 높은 10종목 AI에 물어보니 (2026-05-25 08:50)",
+    "AI 붐 타고 올해만 50% 올랐다…25년 만에 화려한 귀환 (2026-05-25 08:00)",
+    "하반기 ETF 포트폴리오 어떻게 짤까?...미래에셋 ETF본부장이 말하는 전략은 (2026-05-25 08:00)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
@@ -43,12 +43,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "+1.99%"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.74% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.74%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-24T23:10:49.998962+09:00",
+    "collected_at": "2026-05-25T09:31:01.006020+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -118,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,520.82",
-            "chg": "3.21",
-            "chg_pct": "+0.21%"
+            "close": "1,509.62",
+            "chg": "11.20",
+            "chg_pct": "-0.74%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,764.02",
-            "chg": "3.91",
-            "chg_pct": "+0.22%"
+            "close": "1,770.91",
+            "chg": "6.89",
+            "chg_pct": "+0.39%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "954.96",
-            "chg": "1.14",
-            "chg_pct": "+0.12%"
+            "close": "950.30",
+            "chg": "4.66",
+            "chg_pct": "-0.49%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "223.74",
-            "chg": "0.68",
-            "chg_pct": "+0.30%"
+            "close": "222.23",
+            "chg": "1.51",
+            "chg_pct": "-0.67%"
           }
         ]
       },
