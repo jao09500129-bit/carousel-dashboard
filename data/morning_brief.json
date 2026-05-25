@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-25 11:01 KST",
+  "as_of": "2026-05-25 13:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
+    "두나무, 청소년 대상 '업클래스 주니어배 퀴즈 대항전' 개최 (2026-05-25 11:13)",
     "본격화하는 금리 인상기…투자 매력 높은 10종목 AI에 물어보니 (2026-05-25 08:50)",
-    "AI 붐 타고 올해만 50% 올랐다…25년 만에 화려한 귀환 (2026-05-25 08:00)",
-    "하반기 ETF 포트폴리오 어떻게 짤까?...미래에셋 ETF본부장이 말하는 전략은 (2026-05-25 08:00)"
+    "AI 붐 타고 올해만 50% 올랐다…25년 만에 화려한 귀환 (2026-05-25 08:00)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
@@ -46,16 +46,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.71% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.67% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.71%"
+        "trigger_value": "-0.67%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-25T11:00:52.344736+09:00",
+    "collected_at": "2026-05-25T13:00:53.823204+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,9 +125,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,510.06",
-            "chg": "10.76",
-            "chg_pct": "-0.71%"
+            "close": "1,510.59",
+            "chg": "10.23",
+            "chg_pct": "-0.67%"
           },
           {
             "name": "유로",
@@ -139,16 +139,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "950.52",
-            "chg": "4.44",
-            "chg_pct": "-0.46%"
+            "close": "950.74",
+            "chg": "4.22",
+            "chg_pct": "-0.44%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "222.23",
-            "chg": "1.51",
-            "chg_pct": "-0.67%"
+            "close": "222.31",
+            "chg": "1.43",
+            "chg_pct": "-0.64%"
           }
         ]
       },

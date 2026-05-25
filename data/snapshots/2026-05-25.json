@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-25T11:00:52.344736+09:00",
+  "collected_at": "2026-05-25T13:00:53.823204+09:00",
   "date": "2026-05-25",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 12,
+    "with_broker_mention": 11,
     "target_price_up": 6,
     "target_price_down": 0,
     "top_brokers": [
@@ -19,10 +19,6 @@
       ],
       [
         "키움",
-        2
-      ],
-      [
-        "한국투자",
         2
       ],
       [
@@ -38,6 +34,10 @@
         1
       ],
       [
+        "한국투자",
+        1
+      ],
+      [
         "하나",
         1
       ],
@@ -48,6 +48,23 @@
     ]
   },
   "items": [
+    {
+      "title": "두나무, 청소년 대상 '업클래스 주니어배 퀴즈 대항전' 개최",
+      "url": "https://www.hankyung.com/article/202605256978B",
+      "summary": "업비트 운영사 두나무가 '업클래스 주니어배 퀴즈 대항전'을 개최한다고 25일 밝혔다.업클래스 주니어는 두나무 금융 교육 프로그램 '업클래스' 일환으로 운영되는 청소년 대상 교육 프로젝트다. 경제·금융 기초 지식과 함께 인공지능(AI), 블록체인, 대체불가토큰(NFT) ...",
+      "datetime_raw": "2026.05.25 11:13",
+      "datetime": "2026-05-25T11:13:00+09:00",
+      "dt": "2026-05-25 11:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "두나무",
+        "업클래스 주니어배 퀴즈 대항전"
+      ],
+      "hash": "2b71e9f48002"
+    },
     {
       "title": "본격화하는 금리 인상기…투자 매력 높은 10종목 AI에 물어보니",
       "url": "https://www.hankyung.com/article/202605246239i",
@@ -81,7 +98,7 @@
       "hash": "f2690b2de125"
     },
     {
-      "title": "하반기 ETF 포트폴리오 어떻게 짤까?...미래에셋 ETF본부장이 말하는 전략은",
+      "title": "\"하반기 포트폴리오는 이렇게\"…미래에셋 ETF본부장의 전략은",
       "url": "https://www.hankyung.com/article/202605235696i",
       "summary": "국내 상장지수펀드(ETF) 시장이 폭발적으로 성장하고 있다. 순자산 400조원을 돌파하며 코스피 상승장의 견인차 역할을 하고 있지만, 한편에서는 매달 수십 개의 상품이 쏟아져 나와 투자자들의 고민도 커지는 모양새다.올해 하반기, 넘쳐나는 ETF 속에서 어떤 상품을 골라...",
       "datetime_raw": "2026.05.25 08:00",
@@ -91,7 +108,9 @@
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
-      "keywords": [],
+      "keywords": [
+        "하반기 포트폴리오는 이렇게"
+      ],
       "hash": "05a85cf5c053"
     },
     {
@@ -360,24 +379,6 @@
       "hash": "078581cd0e96"
     },
     {
-      "title": "\"앤스로픽 업고 더 간다\"…주식 초고수들, SKT 더 담았다",
-      "url": "https://www.hankyung.com/article/202605223755i",
-      "summary": "투자수익률 상위 1%의 초고수들이 23일 오전 증시에서 SK텔레콤과 SK하이닉스, 올릭스 등을 집중 순매수한 것으로 나타났다. 반면 현대차, 삼성전자, 알테오젠은 순매도하며 차익 실현에 나섰다. 22일 미래에셋엠클럽에 따르면 미래에셋증권 계좌 중 수익률 상위 ...",
-      "datetime_raw": "2026.05.22 10:33",
-      "datetime": "2026-05-22T10:33:00+09:00",
-      "dt": "2026-05-22 10:33",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "앤스로픽 업고 더 간다"
-      ],
-      "hash": "32f1b6400d63"
-    },
-    {
       "title": "\"다이어트할 때 꼭 먹어요\"…요즘 마트서 불티난 '채소' 정체",
       "url": "https://www.hankyung.com/article/202605223767i",
       "summary": "",
@@ -428,8 +429,8 @@
       "hash": "20680e4714c8"
     },
     {
-      "title": "\"꼭 일본 여행 온 것 같아요\"…2030 몰려간 '국내 여행지'",
-      "url": "https://www.hankyung.com/article/202605224367g",
+      "title": "\"배우자가 월 400만원 쓴 곳이…\" 뜻밖의 '이혼 사유' 정체",
+      "url": "https://www.hankyung.com/article/2026052463971",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -439,10 +440,28 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "국내 여행지",
-        "꼭 일본 여행 온 것 같아요"
+        "이혼 사유",
+        "배우자가 월 400만원 쓴 곳이"
       ],
-      "hash": "4b016ab3f378"
+      "hash": "f3fd2bc3dc0a"
+    },
+    {
+      "title": "\"앤스로픽 업고 더 간다\"…주식 초고수들, SKT 더 담았다",
+      "url": "https://www.hankyung.com/article/202605223755i",
+      "summary": "투자수익률 상위 1%의 초고수들이 23일 오전 증시에서 SK텔레콤과 SK하이닉스, 올릭스 등을 집중 순매수한 것으로 나타났다. 반면 현대차, 삼성전자, 알테오젠은 순매도하며 차익 실현에 나섰다. 22일 미래에셋엠클럽에 따르면 미래에셋증권 계좌 중 수익률 상위 ...",
+      "datetime_raw": "2026.05.22 10:33",
+      "datetime": "2026-05-22T10:33:00+09:00",
+      "dt": "2026-05-22 10:33",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "앤스로픽 업고 더 간다"
+      ],
+      "hash": "32f1b6400d63"
     },
     {
       "title": "브이엠, 반도체 고객사 증설 기대감…신고가 경신",
@@ -1096,26 +1115,6 @@
         "1% 초고수들"
       ],
       "hash": "6b120b3edab0"
-    },
-    {
-      "title": "\"호재 넘친다\"… '주식 고수' PB가 추천한 '이 종목'",
-      "url": "https://www.hankyung.com/article/202605209508i",
-      "summary": "\"롯데쇼핑을 추천주로 꼽습니다.\" 21일 주식 실전투자대회인 '제31회 한경 스타워즈 상반기' 우승자인 김기완 한국투자증권 프라이빗뱅커(PB)는 요즘 어떤 종목을 고객에게 추천하느냐는 질문에 이같이 답했다. 방한 외국인 관광객 증가에 힘입어 롯데백화점이 ...",
-      "datetime_raw": "2026.05.21 10:00",
-      "datetime": "2026-05-21T10:00:00+09:00",
-      "dt": "2026-05-21 10:00",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "주식 고수",
-        "호재 넘친다"
-      ],
-      "hash": "c55f8970a2fd"
     }
   ],
   "consensus_signals": []
