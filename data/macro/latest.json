@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-25T16:00:51.533595+09:00",
+  "collected_at": "2026-05-25T21:46:36.359865+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -36,16 +36,16 @@
         {
           "name": "NIKKEI 225",
           "symbol": "NIKKEI",
-          "close": "63,339.07",
-          "chg": "1,654.93",
-          "chg_pct": "+2.68%"
+          "close": "65,158.19",
+          "chg": "1,819.12",
+          "chg_pct": "+2.87%"
         },
         {
           "name": "대만",
           "symbol": "WEIGHT",
-          "close": "42,267.97",
-          "chg": "899.76",
-          "chg_pct": "+2.18%"
+          "close": "43,644.40",
+          "chg": "1,376.43",
+          "chg_pct": "+3.26%"
         },
         {
           "name": "독일",
@@ -69,30 +69,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,512.58",
-          "chg": "8.24",
+          "close": "1,512.65",
+          "chg": "8.17",
           "chg_pct": "-0.54%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,761.03",
-          "chg": "2.99",
-          "chg_pct": "-0.17%"
+          "close": "1,762.56",
+          "chg": "1.46",
+          "chg_pct": "-0.08%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "951.81",
-          "chg": "3.15",
-          "chg_pct": "-0.33%"
+          "close": "951.43",
+          "chg": "3.53",
+          "chg_pct": "-0.37%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "222.60",
-          "chg": "1.14",
-          "chg_pct": "-0.51%"
+          "close": "222.65",
+          "chg": "1.09",
+          "chg_pct": "-0.49%"
         }
       ]
     },
