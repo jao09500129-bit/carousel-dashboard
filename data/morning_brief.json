@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-25 23:11 KST",
+  "as_of": "2026-05-26 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -14,48 +14,48 @@
       "url": "https://www.hankyung.com/article/202605235138i"
     },
     {
+      "title": "메모리얼 데이 맞아 휴장…26일부터 거래 재개 [뉴욕증시 브리핑]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026052677666"
+    },
+    {
       "title": "'미션임파서블' 워시 취임…다음 '병목'은? 메모리 이어 뜨는 것",
       "summary": "",
       "url": "https://www.hankyung.com/article/202605235202i"
     },
     {
-      "title": "美-이란 최종합의 임박했나…카타르까지 테헤란 달려갔다 [이상은의 워싱턴나우]",
+      "title": "미·이란 휴전 협상 난항…트럼프 \"합의 서두르지는 않겠다\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202605235139i"
-    },
-    {
-      "title": "워시 키에 숨겨진 비밀, 젠슨이 알려준 주가 못 오르는 이유? [월가백브리핑]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202605235399i"
+      "url": "https://www.hankyung.com/article/2026052677747"
     }
   ],
   "today_kr_focus": [
-    "폭등과 폭락 사이…불확실한 장세에 투자 중심 잡으려면 (2026-05-25 18:53)",
-    "잭팟 터뜨린 K반도체…실적호조 양자컴 '들썩' (2026-05-25 17:41)",
-    "한경미디어그룹·한경TV가 주식 투자전략 알려드립니다 (2026-05-25 17:25)"
+    "코스닥도 장중 1200선 재돌파 (2026-05-26 09:26)",
+    "네이처셀 \"美 FDA 허가 신청 자격 획득\"…이틀 연속 '上' (2026-05-26 09:25)",
+    "6거래일만에 8천피 재탈환…30만전자·200만닉스 돌파 (2026-05-26 09:24)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
     "axes": [
+      {
+        "axis": "에너지 회전축",
+        "view": "브렌트 -7.15% 급락. 정유·해운·항공 비용 구조 영향. 단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
+        "confidence": "낮음 — 변동성 자체가 검증 까다로움",
+        "trigger_metric": "브렌트",
+        "trigger_value": "-7.15%"
+      },
       {
         "axis": "반도체 회전축",
         "view": "美 반도체 지수 +1.99% 강세. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 단기 과열 경계 — 확신은 합의 시그널과 교차검증 필요.",
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "+1.99%"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.47% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.47%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-25T23:10:50.626720+09:00",
+    "collected_at": "2026-05-26T09:31:09.094362+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -106,9 +106,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "24,888.56",
-            "chg": "281.79",
-            "chg_pct": "+1.15%"
+            "close": "25,389.10",
+            "chg": "500.54",
+            "chg_pct": "+2.01%"
           },
           {
             "name": "홍콩",
@@ -125,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,513.60",
-            "chg": "7.22",
-            "chg_pct": "-0.47%"
+            "close": "1,513.14",
+            "chg": "0.01",
+            "chg_pct": "-0.00%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,762.19",
-            "chg": "1.83",
-            "chg_pct": "-0.10%"
+            "close": "1,762.07",
+            "chg": "0.51",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "952.51",
-            "chg": "2.45",
-            "chg_pct": "-0.26%"
+            "close": "951.44",
+            "chg": "0.98",
+            "chg_pct": "-0.10%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "222.77",
-            "chg": "0.97",
-            "chg_pct": "-0.43%"
+            "close": "222.61",
+            "chg": "0.15",
+            "chg_pct": "-0.07%"
           }
         ]
       },
@@ -158,16 +158,16 @@
           {
             "name": "브렌트",
             "symbol": "BRENTF",
-            "close": "103.54",
-            "chg": "0.96",
-            "chg_pct": "+0.94%"
+            "close": "96.14",
+            "chg": "7.40",
+            "chg_pct": "-7.15%"
           },
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "104.01",
-            "chg": "0.31",
-            "chg_pct": "+0.30%"
+            "close": "98.09",
+            "chg": "5.92",
+            "chg_pct": "-5.69%"
           },
           {
             "name": "니켈",

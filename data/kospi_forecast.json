@@ -1,10 +1,21 @@
 {
-  "computed_at": "2026-05-25T23:10:50.626720+09:00",
-  "date": "2026-05-25",
-  "low": null,
-  "high": null,
-  "mid": null,
-  "sample_size": 0,
-  "sources": [],
+  "computed_at": "2026-05-26T09:31:09.094362+09:00",
+  "date": "2026-05-26",
+  "low": 8000,
+  "high": 8000,
+  "mid": 8000,
+  "sample_size": 1,
+  "sources": [
+    {
+      "url": "https://www.hankyung.com/article/2026052680296",
+      "title": "코스피, 미·이란 종전 기대감에 장 초반 8000선 재탈환",
+      "low": null,
+      "high": null,
+      "points": [
+        8000,
+        8000
+      ]
+    }
+  ],
   "note": "★ 추정 — 기사 본문 정규식 추출, 백테스트 미검증. 7000~9000 범위 내 수치만 채택."
 }
