@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-26T11:01:02.473080+09:00",
+  "collected_at": "2026-05-26T13:01:06.924781+09:00",
   "date": "2026-05-26",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 10,
+    "with_broker_mention": 9,
     "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
@@ -40,14 +40,75 @@
       [
         "미래에셋",
         1
-      ],
-      [
-        "키움",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "비에이치아이 \"중동서 575억원 규모 복합화력발전소용 HSRG 수주\"",
+      "url": "https://www.hankyung.com/article/2026052689586",
+      "summary": "비에이치아이는 'CHEC-HEI-THCC General Partner'와 약 575억원 규모의 액화천연가스 복합화력발전 배열회수보일러(HRSG) 공급 계약을 체결했다고 26일 공시했다.이번 계약에 따라 비에이치아이는 이스라엘 아슈도드 인근 에슈콜 발전소에...",
+      "datetime_raw": "2026.05.26 12:51",
+      "datetime": "2026-05-26T12:51:00+09:00",
+      "dt": "2026-05-26 12:51",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "중동서 575억원 규모 복합화력발전소용 HSRG 수주"
+      ],
+      "hash": "2c35e221f45b"
+    },
+    {
+      "title": "쿼크AI·하이블록, 'AEF SEOUL 2026' 개최…AI 에이전트 온체인 결제 실증 공개",
+      "url": "https://www.hankyung.com/article/202605268886B",
+      "summary": "웹3 인프라 기업 쿼크AI(Quack AI)와 한양대학교 블록체인 학회 하이블록(HYBLOCK)이 'Agent Execution Frontier(AEF) SEOUL 2026'을 공동 개최한다고 26일 밝혔다.이번 행사는 오는 27일 서울 강남 해시드(Hashed) 라운...",
+      "datetime_raw": "2026.05.26 11:56",
+      "datetime": "2026-05-26T11:56:00+09:00",
+      "dt": "2026-05-26 11:56",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "쿼크AI",
+        "AEF SEOUL 2026"
+      ],
+      "hash": "1f60ba0f65b7"
+    },
+    {
+      "title": "\"시장조성자 증권세 면제 기준서 시총 제외하자\"…거래소, 정부에 건의",
+      "url": "https://www.hankyung.com/article/2026052686816",
+      "summary": "한국거래소가 증권사 시장조성자(MM)의 증권거래세 면세 대상 요건을 완화하는 내용의 건의안을 정부에 전달한 것으로 확인됐다. 증시 활황으로 시장 규모가 급격히 커진 만큼 관련 기준을 현실화할 필요가 있다는 판단에서다. 26일 한경닷컴 취재 결과, 거래소는 올해...",
+      "datetime_raw": "2026.05.26 11:35",
+      "datetime": "2026-05-26T11:35:00+09:00",
+      "dt": "2026-05-26 11:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "시장조성자 증권세 면제 기준서 시총 제외하자"
+      ],
+      "hash": "a9311df5fc2f"
+    },
+    {
+      "title": "두나무, 한국장학재단과 청년 지원 확대…5년간 75억원 기부",
+      "url": "https://www.hankyung.com/article/202605268738B",
+      "summary": "가상자산(암호화폐) 거래소 업비트를 운영하는 두나무가 청년 지원 확대와 미래 IT 인재 육성을 위해 지난 5년간 한국장학재단과 함께 총 75억1000만원을 기부했다고 26일 밝혔다.두나무는 지난 2021년 한국장학재단과 '푸른등대 두나무 기부장학사업' 업무협약을 체결하...",
+      "datetime_raw": "2026.05.26 11:12",
+      "datetime": "2026-05-26T11:12:00+09:00",
+      "dt": "2026-05-26 11:12",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "두나무"
+      ],
+      "hash": "2dbc2495ccdb"
+    },
     {
       "title": "'스타벅스 논란' 정용진 대국민 사과…이마트 주가 보합세",
       "url": "https://www.hankyung.com/article/2026052682926",
@@ -315,6 +376,88 @@
       "hash": "c159b433939f"
     },
     {
+      "title": "\"연봉 1억3000만원에 모십니다\"…세종에 '신의 직장' 생긴다",
+      "url": "https://www.hankyung.com/article/202605246107i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신의 직장",
+        "연봉 1억3000만원에 모십니다"
+      ],
+      "hash": "94a9e7090e77"
+    },
+    {
+      "title": "\"10억 하던 아파트가 2년 만에\"…호재 줄줄이 집값 '들썩'",
+      "url": "https://www.hankyung.com/article/2026052108546",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "10억 하던 아파트가 2년 만에"
+      ],
+      "hash": "4caea31ac546"
+    },
+    {
+      "title": "\"다이어트할 때 꼭 먹어요\"…요즘 마트서 불티난 '채소' 정체",
+      "url": "https://www.hankyung.com/article/202605223767i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "채소",
+        "다이어트할 때 꼭 먹어요"
+      ],
+      "hash": "f72832c665e0"
+    },
+    {
+      "title": "\"배우자가 월 400만원 쓴 곳이…\" 뜻밖의 '이혼 사유' 정체",
+      "url": "https://www.hankyung.com/article/2026052463971",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이혼 사유",
+        "배우자가 월 400만원 쓴 곳이"
+      ],
+      "hash": "f3fd2bc3dc0a"
+    },
+    {
+      "title": "연금 年 1500만원 넘으면 종합소득세 신고해야 하나",
+      "url": "https://www.hankyung.com/article/2026051718251",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "ad86fe58dafd"
+    },
+    {
       "title": "\"OCI홀딩스, 스페이스X에 폴리실리콘 공급 가능성 높아\"-하나",
       "url": "https://www.hankyung.com/article/2026052678686",
       "summary": "하나증권은 26일 OCI홀딩스에 대해 \"태양광이 미국 에너지 안보 자산으로서의 재평가 받고 있다\"며 \"해당 사업을 영위하고 있는 OCI홀딩스의 가치가 더 올라갈 것\"이라고 말했다. 그러면서 목표주가를 55만원과 투자의견 '매수'를 제시했다.이 증권사 윤재...",
@@ -383,88 +526,6 @@
         "코스피 16배 이긴 승부사"
       ],
       "hash": "a597ff23b50c"
-    },
-    {
-      "title": "\"10억 하던 아파트가 2년 만에\"…호재 줄줄이 집값 '들썩'",
-      "url": "https://www.hankyung.com/article/2026052108546",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "10억 하던 아파트가 2년 만에"
-      ],
-      "hash": "4caea31ac546"
-    },
-    {
-      "title": "\"연봉 1억3000만원에 모십니다\"…세종에 '신의 직장' 생긴다",
-      "url": "https://www.hankyung.com/article/202605246107i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신의 직장",
-        "연봉 1억3000만원에 모십니다"
-      ],
-      "hash": "94a9e7090e77"
-    },
-    {
-      "title": "\"다이어트할 때 꼭 먹어요\"…요즘 마트서 불티난 '채소' 정체",
-      "url": "https://www.hankyung.com/article/202605223767i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "채소",
-        "다이어트할 때 꼭 먹어요"
-      ],
-      "hash": "f72832c665e0"
-    },
-    {
-      "title": "\"배우자가 월 400만원 쓴 곳이…\" 뜻밖의 '이혼 사유' 정체",
-      "url": "https://www.hankyung.com/article/2026052463971",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이혼 사유",
-        "배우자가 월 400만원 쓴 곳이"
-      ],
-      "hash": "f3fd2bc3dc0a"
-    },
-    {
-      "title": "연금 年 1500만원 넘으면 종합소득세 신고해야 하나",
-      "url": "https://www.hankyung.com/article/2026051718251",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "ad86fe58dafd"
     },
     {
       "title": "\"삼성중공업, 상선·해양플랜트 호조에 AI 모멘텀까지\"-한화",
@@ -1063,75 +1124,6 @@
         "삼전닉스 말고 여기로 몰렸다"
       ],
       "hash": "1cacd4338d61"
-    },
-    {
-      "title": "양자컴퓨터 테마, 美정부 3조 베팅 소식에 '급등'",
-      "url": "https://www.hankyung.com/article/2026052235166",
-      "summary": "양자컴퓨터 관련 종목들이 급등하고 있다. 미 상무부가 IBM, 글로벌파운드리스 등 9개 관련 기업에 총 20억달러(약 3조원을)를 지원할 계획을 밝히면서 국내 관련 종목들의 주가도 들썩이고 있다.22일 오전 9시19분 현재 케이씨에스는 전일 대비 4110원(29.98%...",
-      "datetime_raw": "2026.05.22 09:30",
-      "datetime": "2026-05-22T09:30:00+09:00",
-      "dt": "2026-05-22 09:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급등",
-        "양자컴퓨터 테마"
-      ],
-      "hash": "7ba9b7a7e9f4"
-    },
-    {
-      "title": "삼성전자·인버스 담은 주식 초고수...삼성전기는 팔았다",
-      "url": "https://www.hankyung.com/article/202605223183i",
-      "summary": "투자 수익률 상위 1%의 초고수들은 지난 21일 삼성전자와 반도체 상장지수펀드(ETF)를 집중 순매수한 것으로 나타났다. 반면 최근 급등했던 삼성전기에서는 차익 실현 움직임이 나타났다.22일 키움증권에 따르면 투자원금 1000만원 이상이면서 전월 기준 수익률 상위 1%...",
-      "datetime_raw": "2026.05.22 09:30",
-      "datetime": "2026-05-22T09:30:00+09:00",
-      "dt": "2026-05-22 09:30",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자"
-      ],
-      "hash": "16a55fa772c8"
-    },
-    {
-      "title": "코스피, 개인 매수에 강세 출발…처음으로 정규장 '30만전자'",
-      "url": "https://www.hankyung.com/article/2026052234416",
-      "summary": "코스피가 강세로 개인 매수세에 힘입어 강세로 출발했다. 삼성전자도 사상 처음으로 정규장에서 30만원을 돌파했지만, 이후 차익실현 매물이 쏟아지고 있다.22일 오전 9시5분 현재 코스피는 전일 대비 23.20포인트(0.3%) 오른 7838.79에 거래되고 있다.개인과 기...",
-      "datetime_raw": "2026.05.22 09:15",
-      "datetime": "2026-05-22T09:15:00+09:00",
-      "dt": "2026-05-22 09:15",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피",
-        "30만전자"
-      ],
-      "hash": "634feb38b9f5"
-    },
-    {
-      "title": "\"삼전닉스 지금 사도 될까\"… 투자 전략 '에픽AI'에 물었더니",
-      "url": "https://www.hankyung.com/article/202605223363i",
-      "summary": "1분기 실적 개요: 메모리 반도체 초호황의 서막삼성전자와 SK하이닉스는 1분기(2026Q1) 기준으로 한국 기업 역사상 유례없는 수준의 실적을 동시에 달성하였습니다.두 기업 모두 AI 인프라 투자 확대에 따른 메모리 반도체 수요 폭증과 DRAM·NAND 가...",
-      "datetime_raw": "2026.05.22 09:07",
-      "datetime": "2026-05-22T09:07:00+09:00",
-      "dt": "2026-05-22 09:07",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "에픽AI",
-        "삼전닉스 지금 사도 될까"
-      ],
-      "hash": "21197f233c1d"
     }
   ],
   "consensus_signals": []
