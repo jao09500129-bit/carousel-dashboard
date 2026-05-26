@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-26T09:31:09.094362+09:00",
+  "collected_at": "2026-05-26T10:25:00.967709+09:00",
   "date": "2026-05-26",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,20 +9,16 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 13,
-    "target_price_up": 7,
+    "with_broker_mention": 10,
+    "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
-      [
-        "NH",
-        3
-      ],
       [
         "하나",
         2
       ],
       [
-        "키움",
+        "NH",
         2
       ],
       [
@@ -46,12 +42,78 @@
         1
       ],
       [
-        "SK",
+        "키움",
         1
       ]
     ]
   },
   "items": [
+    {
+      "title": "'스타벅스 논란' 정용진 대국민 사과…이마트 주가 보합세",
+      "url": "https://www.hankyung.com/article/2026052682926",
+      "summary": "스타벅스코리아의 마케팅 논란 여파로 급락했던 이마트 주가가 정용진 신세계그룹 회장의 공개 사과 직후 일단 반등했다. 총수의 직접 사과와 함께 그룹 차원의 내부 조사 결과가 공개되면서 투자심리가 일부 진정되는 모습이다.26일 오전 9시33분 현재 이마트는 전 거래일 대비...",
+      "datetime_raw": "2026.05.26 10:00",
+      "datetime": "2026-05-26T10:00:00+09:00",
+      "dt": "2026-05-26 10:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스타벅스 논란"
+      ],
+      "hash": "fb3bd6ca988d"
+    },
+    {
+      "title": "\"대형 계약 몰려온다\"…올해 206% 오른 코스닥 기업은",
+      "url": "https://www.hankyung.com/article/202605246294i",
+      "summary": "외국인 투자자들은 최근 12거래일 연속 유가증권시장에서 '팔자' 행렬을 펼쳤다. 주가가 급등한 삼성전자와 SK하이닉스 등 반도체 투톱을 집중 매도했다. 하지만 그 속에서도 코스닥 시장에선 1500억원 넘게 사들인 기업이 있다. 바로 서진시스템이다.서진시스...",
+      "datetime_raw": "2026.05.26 09:50",
+      "datetime": "2026-05-26T09:50:00+09:00",
+      "dt": "2026-05-26 09:50",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "대형 계약 몰려온다"
+      ],
+      "hash": "4d72ea7d84dc"
+    },
+    {
+      "title": "상장폐지 앞둔 비유테크놀러지, 정리매매 첫날 '급락'",
+      "url": "https://www.hankyung.com/article/2026052682836",
+      "summary": "상장폐지를 앞둔 비유테크놀러지 주가가 정리매매 첫날인 26일 장 초반 급락하고 있다. 이날 오전 9시26분 현재 비유테크놀러지는 211원(92.14%) 내린 18원을 나타내고 있다. 정리매매는 상장폐지가 결정되면 투자자에게 마지막으로 매매할 기회를 주는 제도다...",
+      "datetime_raw": "2026.05.26 09:37",
+      "datetime": "2026-05-26T09:37:00+09:00",
+      "dt": "2026-05-26 09:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급락",
+        "상장폐지 앞둔 비유테크놀러지"
+      ],
+      "hash": "01ab526b1279"
+    },
+    {
+      "title": "코스피, 종전 기대 장중 8100선 위로…삼전닉스 '사상 최고가'",
+      "url": "https://www.hankyung.com/article/2026052680346",
+      "summary": "코스피지수가 미국과 이란의 종전에 대한 기대가 커지면서 장중 8100선을 넘어섰다. '반도체 투톱' 삼성전자와 SK하이닉스는 각각 30만원과 200만원을 돌파했다.26일 오전 9시33분 현재 코스피지수는 전 거래일보다 263.91포인트(3.36%) 오른 ...",
+      "datetime_raw": "2026.05.26 09:35",
+      "datetime": "2026-05-26T09:35:00+09:00",
+      "dt": "2026-05-26 09:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피",
+        "사상 최고가"
+      ],
+      "hash": "8a76a4dfeb38"
+    },
     {
       "title": "코스닥도 장중 1200선 재돌파",
       "url": "https://www.hankyung.com/article/2026052682326",
@@ -85,9 +147,9 @@
       "hash": "ed4605f0a6a1"
     },
     {
-      "title": "6거래일만에 8천피 재탈환…30만전자·200만닉스 돌파",
+      "title": "돌아온 외국인…코스피 8100 '터치'",
       "url": "https://www.hankyung.com/article/202605268229i",
-      "summary": "🕘 장초반 강세… 반도체·전자부품 업종 주도[오전 9시10분 시황]오늘 한국 증시는 미-이란 휴전 협상 진전 기대감과 글로벌 반도체 업황 개선 기대감에 힘입어 강세로 출발했습니다.지난밤 유럽 증시가 독일 DAX 2.01%, 프랑스 CAC40 1...",
+      "summary": "🕘 반도체 강세 속 코스피 8,100선 돌파[오전 10시 시황]미-이란 휴전 협상 진전 기대감과 글로벌 반도체 업황 개선 기대감에 힘입어 한국 증시가 강한 상승세를 이어가고 있습니다. 오전 10시 기준, 코스피는 3.32% 상승한 8,108.32, 코스닥은 2.06% ...",
       "datetime_raw": "2026.05.26 09:24",
       "datetime": "2026-05-26T09:24:00+09:00",
       "dt": "2026-05-26 09:24",
@@ -96,14 +158,15 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "6거래일만에 8천피 재탈환"
+        "터치",
+        "돌아온 외국인"
       ],
       "hash": "7b2be1e9329a"
     },
     {
-      "title": "LG이노텍 주가 훨훨…\"AI 시대 핵심 기판 공급 부족 장기화\" [종목+]",
+      "title": "70만원이라더니 130만원까지…개미들 돈 여기로 몰렸다 [종목+]",
       "url": "https://www.hankyung.com/article/2026052681716",
-      "summary": "LG이노텍이 26일 장 초반 주가가 급등하고 있다. 고객사 확대 및 기판 스펙 고도화로 기판 수익성 개선이 이뤄질 것이라는 증권사 분석이 나온 영향으로 읽힌다.이날 오전 9시10분 현재 LG이노텍은 전 거래일보다 16.92% 오른 100만9000원에서 거래 중이다. 하...",
+      "summary": "LG이노텍 주가가 26일 장 초반 급등하고 있다. 고객사 확대 및 기판 스펙 고도화로 기판 수익성 개선이 이뤄질 것이라는 증권사 분석이 나온 영향으로 풀이된다.이날 오전 9시10분 현재 LG이노텍은 전 거래일보다 16.92% 오른 100만9000원에서 거래 중이다. 하...",
       "datetime_raw": "2026.05.26 09:23",
       "datetime": "2026-05-26T09:23:00+09:00",
       "dt": "2026-05-26 09:23",
@@ -112,8 +175,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "LG이노텍 주가 훨훨",
-        "AI 시대 핵심 기판 공급 부족 장기화"
+        "70만원이라더니 130만원까지"
       ],
       "hash": "10c493f7be10"
     },
@@ -323,6 +385,88 @@
       "hash": "a597ff23b50c"
     },
     {
+      "title": "\"10억 하던 아파트가 2년 만에\"…호재 줄줄이 집값 '들썩'",
+      "url": "https://www.hankyung.com/article/2026052108546",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "10억 하던 아파트가 2년 만에"
+      ],
+      "hash": "4caea31ac546"
+    },
+    {
+      "title": "\"연봉 1억3000만원에 모십니다\"…세종에 '신의 직장' 생긴다",
+      "url": "https://www.hankyung.com/article/202605246107i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신의 직장",
+        "연봉 1억3000만원에 모십니다"
+      ],
+      "hash": "94a9e7090e77"
+    },
+    {
+      "title": "\"다이어트할 때 꼭 먹어요\"…요즘 마트서 불티난 '채소' 정체",
+      "url": "https://www.hankyung.com/article/202605223767i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "채소",
+        "다이어트할 때 꼭 먹어요"
+      ],
+      "hash": "f72832c665e0"
+    },
+    {
+      "title": "\"배우자가 월 400만원 쓴 곳이…\" 뜻밖의 '이혼 사유' 정체",
+      "url": "https://www.hankyung.com/article/2026052463971",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이혼 사유",
+        "배우자가 월 400만원 쓴 곳이"
+      ],
+      "hash": "f3fd2bc3dc0a"
+    },
+    {
+      "title": "연금 年 1500만원 넘으면 종합소득세 신고해야 하나",
+      "url": "https://www.hankyung.com/article/2026051718251",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "ad86fe58dafd"
+    },
+    {
       "title": "\"삼성중공업, 상선·해양플랜트 호조에 AI 모멘텀까지\"-한화",
       "url": "https://www.hankyung.com/article/2026052678286",
       "summary": "한화투자증권은 26일 삼성중공업에 대해 상선 부문의 실적 모멘텀과 해양 프랜트 부문의 수주 모멘텀에 더해 플로팅 데이터센터(FDC)를 개발한 데 따른 인공지능(AI) 모멘텀도 기대된다고 밝혔다. 투자의견은 ‘매수’로, 목표주가는 4만원으로 각각 유...",
@@ -392,88 +536,6 @@
         "LG이노텍"
       ],
       "hash": "3409dc5e4495"
-    },
-    {
-      "title": "\"10억 하던 아파트가 2년 만에\"…호재 줄줄이 집값 '들썩'",
-      "url": "https://www.hankyung.com/article/2026052108546",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "10억 하던 아파트가 2년 만에"
-      ],
-      "hash": "4caea31ac546"
-    },
-    {
-      "title": "\"다이어트할 때 꼭 먹어요\"…요즘 마트서 불티난 '채소' 정체",
-      "url": "https://www.hankyung.com/article/202605223767i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "채소",
-        "다이어트할 때 꼭 먹어요"
-      ],
-      "hash": "f72832c665e0"
-    },
-    {
-      "title": "\"연봉 1억3000만원에 모십니다\"…세종에 '신의 직장' 생긴다",
-      "url": "https://www.hankyung.com/article/202605246107i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신의 직장",
-        "연봉 1억3000만원에 모십니다"
-      ],
-      "hash": "94a9e7090e77"
-    },
-    {
-      "title": "\"배우자가 월 400만원 쓴 곳이…\" 뜻밖의 '이혼 사유' 정체",
-      "url": "https://www.hankyung.com/article/2026052463971",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이혼 사유",
-        "배우자가 월 400만원 쓴 곳이"
-      ],
-      "hash": "f3fd2bc3dc0a"
-    },
-    {
-      "title": "연금 年 1500만원 넘으면 종합소득세 신고해야 하나",
-      "url": "https://www.hankyung.com/article/2026051718251",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "ad86fe58dafd"
     },
     {
       "title": "\"매매 신호 포착\"…더 똑똑해진 AI 투자플랫폼 '한경유레카 2.0'",
@@ -1070,76 +1132,6 @@
         "삼전닉스 지금 사도 될까"
       ],
       "hash": "21197f233c1d"
-    },
-    {
-      "title": "\"한전기술, 미국·아시아 원전 프로젝트 참여 기대…목표가↑\"-SK",
-      "url": "https://www.hankyung.com/article/2026052233006",
-      "summary": "SK증권은 21일 한전기술에 대해 \"미국과 아시아 지역 원전 프로젝트 확대 가능성에 주목할 필요가 있다\"며 목표주가를 기존 11만원에서 16만8000원으로 높이고 투자의견 '매수'를 유지했다.나민식 SK증권 연구원은 \"미국의 대형 원전 프로젝트 진행 속도...",
-      "datetime_raw": "2026.05.22 08:50",
-      "datetime": "2026-05-22T08:50:00+09:00",
-      "dt": "2026-05-22 08:50",
-      "brokers": [
-        "SK"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 45.45454545454545,
-      "keywords": [
-        "한전기술"
-      ],
-      "hash": "47cadb8c0ddc"
-    },
-    {
-      "title": "\"LS, 깜짝 실적에 정책 모멘텀까지…목표가↑\"-키움",
-      "url": "https://www.hankyung.com/article/2026052231486",
-      "summary": "키움증권은 22일 LS에 대해 \"올 1분기 깜짝 실적과 정부의 우호적인 정책이 주가를 견인할 것\"이라고 평가하며 목표주가를 기존 35만원에서 70만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 이종형 연구원은 \"1분기 영업이익은 전년 동...",
-      "datetime_raw": "2026.05.22 08:41",
-      "datetime": "2026-05-22T08:41:00+09:00",
-      "dt": "2026-05-22 08:41",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 100.0,
-      "keywords": [
-        "LS"
-      ],
-      "hash": "afada64e1c4a"
-    },
-    {
-      "title": "6년 만에 상한가 간 LG전자…이번엔 상승 기조 이어갈까 [종목+]",
-      "url": "https://www.hankyung.com/article/2026052230606",
-      "summary": "인공지능(AI) 데이터센터 냉각 솔루션과 로보틱스 사업 기대감을 등에 업은 LG전자가 2020년 이후 약 6년 만에 상한가를 기록하면서, 이번에는 일회성 급등에 그치지 않고 상승 흐름을 이어갈 수 있을지 시장의 관심이 쏠리고 있다.22일 한국거래소에 따르면 전날 LG전...",
-      "datetime_raw": "2026.05.22 08:28",
-      "datetime": "2026-05-22T08:28:00+09:00",
-      "dt": "2026-05-22 08:28",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "6년 만에 상한가 간 LG전자"
-      ],
-      "hash": "5589e012a728"
-    },
-    {
-      "title": "\"현대모비스, 그룹사 피지컬AI 전환 최대 수혜…목표가↑\"-NH",
-      "url": "https://www.hankyung.com/article/2026052232186",
-      "summary": "NH투자증권은 22일 현대모비스에 대해 \"그룹사 피지컬 인공지능(AI) 전환에 따른 최대 수혜주\"라며 목표주가를 기존 58만원에서 87만원으로 상향하고 투자의견 '매수'를 유지했다.이 증권사 하늘 연구원은 \"현대모비스는 자율주행차에 탑재되는 센서뿐 아니라...",
-      "datetime_raw": "2026.05.22 08:10",
-      "datetime": "2026-05-22T08:10:00+09:00",
-      "dt": "2026-05-22 08:10",
-      "brokers": [
-        "NH"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 50.0,
-      "keywords": [
-        "현대모비스"
-      ],
-      "hash": "6ae875d62365"
     }
   ],
   "consensus_signals": []
