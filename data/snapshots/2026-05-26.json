@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-26T13:01:06.924781+09:00",
+  "collected_at": "2026-05-26T15:01:07.738713+09:00",
   "date": "2026-05-26",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 65,
+  "total_items": 64,
   "stats": {
     "with_broker_mention": 9,
     "target_price_up": 4,
@@ -208,19 +208,18 @@
       "hash": "ed4605f0a6a1"
     },
     {
-      "title": "돌아온 외국인…코스피 8100 '터치'",
+      "title": "LG이노텍·삼성전기 급등…외국인 13거래일 만에 순매수",
       "url": "https://www.hankyung.com/article/202605268229i",
-      "summary": "🕘 반도체 강세 속 코스피 8,100선 돌파[오전 10시 시황]미-이란 휴전 협상 진전 기대감과 글로벌 반도체 업황 개선 기대감에 힘입어 한국 증시가 강한 상승세를 이어가고 있습니다. 오전 10시 기준, 코스피는 3.32% 상승한 8,108.32, 코스닥은 2.06% ...",
+      "summary": "🕘 외국인 13거래일 만에 매수 전환… 8,074선 유지[오후 2시 시황]미-이란 휴전 협상 진전 기대감과 국제유가 급락에 힘입어 한국 증시가 강한 상승세를 이어가고 있습니다. 오후 2시 기준, 코스피는 2.89% 상승한 8,074.65, 코스닥은 1.37...",
       "datetime_raw": "2026.05.26 09:24",
       "datetime": "2026-05-26T09:24:00+09:00",
       "dt": "2026-05-26 09:24",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "터치",
-        "돌아온 외국인"
+        "LG이노텍"
       ],
       "hash": "7b2be1e9329a"
     },
@@ -427,8 +426,8 @@
       "hash": "f72832c665e0"
     },
     {
-      "title": "\"배우자가 월 400만원 쓴 곳이…\" 뜻밖의 '이혼 사유' 정체",
-      "url": "https://www.hankyung.com/article/2026052463971",
+      "title": "\"카와이\" 열광한 日 팬들…외국인 줄 서는 '한글 과자' 정체",
+      "url": "https://www.hankyung.com/article/202605256895i",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -438,10 +437,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "이혼 사유",
-        "배우자가 월 400만원 쓴 곳이"
+        "카와이",
+        "한글 과자"
       ],
-      "hash": "f3fd2bc3dc0a"
+      "hash": "abe142066537"
     },
     {
       "title": "연금 年 1500만원 넘으면 종합소득세 신고해야 하나",
@@ -1107,23 +1106,6 @@
         "코스닥"
       ],
       "hash": "389890c69f94"
-    },
-    {
-      "title": "삼전닉스 말고 여기로 몰렸다…AI 잭팟에 주가 '무서운 질주' [종목+]",
-      "url": "https://www.hankyung.com/article/2026052234976",
-      "summary": "LS그룹 지주사 LS가 22일 장 초반 강세를 보이고 있다. 전선, 일렉트릭 등 주요 자회사들의 업황 개선으로 역대급 실적을 기록 중인 데다 자사주 소각 의무화 등 정부 정책이 주가 상승을 뒷받침했다는 분석이 나온다.이날 오전 9시20분 현대 LS는 전 거래일...",
-      "datetime_raw": "2026.05.22 09:30",
-      "datetime": "2026-05-22T09:30:00+09:00",
-      "dt": "2026-05-22 09:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "무서운 질주",
-        "삼전닉스 말고 여기로 몰렸다"
-      ],
-      "hash": "1cacd4338d61"
     }
   ],
   "consensus_signals": []
