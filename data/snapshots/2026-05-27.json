@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-27T15:01:05.471315+09:00",
+  "collected_at": "2026-05-27T16:00:51.740605+09:00",
   "date": "2026-05-27",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 63,
   "stats": {
     "with_broker_mention": 7,
     "target_price_up": 4,
@@ -32,6 +32,54 @@
     ]
   },
   "items": [
+    {
+      "title": "1조원대 자산에도 시총은 4000억대 불과…한투운용, 서희건설에 주주서한 발송",
+      "url": "https://www.hankyung.com/article/202605271699i",
+      "summary": "국내 중견 건설사 서희건설이 '숨은 자산주'로 주목받고 있다. 1조원이 넘는 순자산을 보유하고도 시가총액은 4000억원대에 머물고 있어서다. 삼성전자, SK하이닉스, 엔비디아 등 최근 급등한 국내외 기술주에 투자하며 금융자산 가치가 크게 상승했지만, 주식...",
+      "datetime_raw": "2026.05.27 15:58",
+      "datetime": "2026-05-27T15:58:00+09:00",
+      "dt": "2026-05-27 15:58",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1조원대 자산에도 시총은 4000억대 불과"
+      ],
+      "hash": "11278dfdab0b"
+    },
+    {
+      "title": "\"엔비디아 비켜\" 독주 체제에 반기…AI 반도체 경쟁 불붙었다",
+      "url": "https://www.hankyung.com/article/202605271878i",
+      "summary": "인공지능(AI) 반도체 시장을 사실상 독점해 온 엔비디아에 도전하기 위한 글로벌 테크 기업의 행보가 본격화하고 있다.26일(현지시간) 나스닥 시장에서 엔비디아는 0.22% 하락한 214.86달러로 마감했다. 이날 뉴욕 증시에서 필라델피아 반도체 지수는 5.53% 급등했...",
+      "datetime_raw": "2026.05.27 15:45",
+      "datetime": "2026-05-27T15:45:00+09:00",
+      "dt": "2026-05-27 15:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "엔비디아 비켜"
+      ],
+      "hash": "bbd2a16f3c9a"
+    },
+    {
+      "title": "코스피 2.25% 오른 8228.70 마감…사상 최고치 재경신",
+      "url": "https://www.hankyung.com/article/2026052720626",
+      "summary": "코스피가 종가 기준 사상 최고치를 기록했다. 다만 장중 기록한 사상 최고가에서는 상당폭 후퇴했다.27일 코스피는 전일 대비 181.19포인트(2.25%) 오른 8228.70에 거래를 마쳤다.지수는 2.42% 상승한 8242.12로 출발해 오전 9시6분께 유가증권시장에서...",
+      "datetime_raw": "2026.05.27 15:32",
+      "datetime": "2026-05-27T15:32:00+09:00",
+      "dt": "2026-05-27 15:32",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 2.25% 오른 8228.70 마감"
+      ],
+      "hash": "69fbca1f3280"
+    },
     {
       "title": "삼성중공업, 1조1800억 규모 LNG운반선 등 5척 수주",
       "url": "https://www.hankyung.com/article/2026052717106",
@@ -281,18 +329,18 @@
       "hash": "1e391e932d6e"
     },
     {
-      "title": "반도체 9% 폭등에 코스피 8400선 횡보…코스닥은 2.52% 하락 [마켓라이브]",
+      "title": "반도체 등 상승 종목 66개, 하락은 815개…코스피 8280선까지 빠져 [마켓라이브]",
       "url": "https://www.hankyung.com/article/202605270858i",
-      "summary": "코스피 4.32% 급등… 반도체 9.24% 폭등, 외국인·기관 매수 강화(오후 1시)🕘 반도체 초강세 속 코스피 8,395선 유지오후 1시 기준, 한국 증시는 미국 마이크론의 폭등과 단일종목 레버리지 ETF 상장 기대감에 힘입어 강한 상승세를 ...",
+      "summary": "코스피 2.96% 상승 중… 반도체 6.8% 급등, 외국인 순매도 지속(오후 3시)🕘 반도체 강세 속 외국인 순매도 지속오후 3시 기준, 한국 증시는 미국 마이크론의 폭등과 단일종목 레버리지 ETF 상장 기대감에 힘입어 상승 흐름을 이어가고 있습니다.코스피...",
       "datetime_raw": "2026.05.27 09:15",
       "datetime": "2026-05-27T09:15:00+09:00",
       "dt": "2026-05-27 09:15",
       "brokers": [],
-      "opinion": "매수",
+      "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "반도체 9% 폭등에 코스피 8400선 횡보"
+        "반도체 등 상승 종목 66개"
       ],
       "hash": "2243dfc6330a"
     },
@@ -311,6 +359,89 @@
         "급등장에 코스피 매수 사이드카 발동"
       ],
       "hash": "84d9b55f07b5"
+    },
+    {
+      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
+      "url": "https://www.hankyung.com/article/2026052695876",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스벅",
+        "초비상"
+      ],
+      "hash": "2b36dc67654c"
+    },
+    {
+      "title": "삼성전자 '6억 성과급' 후폭풍…폭발한 개미들 고소장 날린다",
+      "url": "https://www.hankyung.com/article/202605268477g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "6억 성과급"
+      ],
+      "hash": "28e6599b6872"
+    },
+    {
+      "title": "\"하이닉스 못 산 개미들 몰린다\"…1374% 폭등한 곳 어디길래",
+      "url": "https://www.hankyung.com/article/2026052677866",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하이닉스 못 산 개미들 몰린다"
+      ],
+      "hash": "942850acb8b4"
+    },
+    {
+      "title": "삼성전자 덕에 '잭팟'…한 달새 39% 급등한 '이 주식' 정체",
+      "url": "https://www.hankyung.com/article/202605269617i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "잭팟",
+        "이 주식"
+      ],
+      "hash": "5cffad3d119b"
+    },
+    {
+      "title": "'챗GPT 아버지' 샘 올트먼의 고백…\"내 판단이 틀렸다\" 왜",
+      "url": "https://www.hankyung.com/article/202605269877g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "챗GPT 아버지",
+        "내 판단이 틀렸다"
+      ],
+      "hash": "cc407665e48e"
     },
     {
       "title": "코스피, 2.42% 오른 8242.12 개장…삼전·하닉 ‘급등’",
@@ -364,87 +495,6 @@
         "삼성전자"
       ],
       "hash": "acb1eca76f92"
-    },
-    {
-      "title": "서소문고가도로 철거 중 붕괴…작업자 5~6명 매몰·추락",
-      "url": "https://www.hankyung.com/article/202605269399i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "서소문고가도로 철거 중 붕괴"
-      ],
-      "hash": "338f6b491a25"
-    },
-    {
-      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
-      "url": "https://www.hankyung.com/article/2026052695876",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스벅",
-        "초비상"
-      ],
-      "hash": "2b36dc67654c"
-    },
-    {
-      "title": "삼성전자 '6억 성과급' 후폭풍…폭발한 개미들 고소장 날린다",
-      "url": "https://www.hankyung.com/article/202605268477g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "6억 성과급"
-      ],
-      "hash": "28e6599b6872"
-    },
-    {
-      "title": "\"하이닉스 못 산 개미들 몰린다\"…1374% 폭등한 곳 어디길래",
-      "url": "https://www.hankyung.com/article/2026052677866",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하이닉스 못 산 개미들 몰린다"
-      ],
-      "hash": "942850acb8b4"
-    },
-    {
-      "title": "\"스펀지처럼 쭉 흡수\"…의사가 꼽은 공복에 먹어야 할 음식",
-      "url": "https://www.hankyung.com/article/2026052678937",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스펀지처럼 쭉 흡수"
-      ],
-      "hash": "7b5d029b686e"
     },
     {
       "title": "\"HD현대중공업, 데이터센터용 엔진 재평가 기대…목표가↑\"-DB",
@@ -763,23 +813,6 @@
       "hash": "fe422fd08e58"
     },
     {
-      "title": "삼성전자 덕에 '잭팟'…한 달새 39% 급등한 '이 주식' 정체",
-      "url": "https://www.hankyung.com/article/202605269617i",
-      "summary": "최근 한달새 보험주가 일제히 강세를 나타내고 있다. 보험업종 펀더멘털(내재가치)보다는 지분 가치와 그룹 지배구조 개편 기대감이 부각된 덕분이다. 26일 한국거래소에 따르면 유가증권시장에서 지난달 27일부터 이날까지 KRX 보험지수는 15.47% 상승...",
-      "datetime_raw": "2026.05.26 17:01",
-      "datetime": "2026-05-26T17:01:00+09:00",
-      "dt": "2026-05-26 17:01",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "잭팟",
-        "이 주식"
-      ],
-      "hash": "5cffad3d119b"
-    },
-    {
       "title": "외국인 삼전닉스 선물 대거 순매수…코스피 다시 8000돌파",
       "url": "https://www.hankyung.com/article/202605269059i",
       "summary": "55조원. 지난 7일부터 12거래일간 외국인 투자자가 유가증권시장에서 순매도한 주식 규모다. 2주 가까이 외국인이 ‘팔자’ ...",
@@ -1040,56 +1073,6 @@
         "외국인"
       ],
       "hash": "7b2be1e9329a"
-    },
-    {
-      "title": "70만원이라더니 130만원까지…개미들 돈 여기로 몰렸다 [종목+]",
-      "url": "https://www.hankyung.com/article/2026052681716",
-      "summary": "LG이노텍 주가가 26일 장 초반 급등하고 있다. 고객사 확대 및 기판 스펙 고도화로 기판 수익성 개선이 이뤄질 것이라는 증권사 분석이 나온 영향으로 풀이된다.이날 오전 9시10분 현재 LG이노텍은 전 거래일보다 16.92% 오른 100만9000원에서 거래 중이다. 하...",
-      "datetime_raw": "2026.05.26 09:23",
-      "datetime": "2026-05-26T09:23:00+09:00",
-      "dt": "2026-05-26 09:23",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "70만원이라더니 130만원까지"
-      ],
-      "hash": "10c493f7be10"
-    },
-    {
-      "title": "SK하이닉스, 사상 첫 '200만닉스'…삼성전자도 '최고가'",
-      "url": "https://www.hankyung.com/article/2026052681616",
-      "summary": "'반도체 투톱' 삼성전자와 SK하이닉스가 미국과 이란 종전 기대감에 장중 '30만전자'와 '200만닉스'를 나란히 돌파했다.26일 오전 9시8분 현재 삼성전자는 전 거래일 대비 2.56% 오른 30만원에 거래되고 있다. SK하...",
-      "datetime_raw": "2026.05.26 09:18",
-      "datetime": "2026-05-26T09:18:00+09:00",
-      "dt": "2026-05-26 09:18",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "최고가",
-        "200만닉스",
-        "SK하이닉스"
-      ],
-      "hash": "c9bc6b8daea0"
-    },
-    {
-      "title": "제이엘케이 \"대혈관 폐색 검출 AI 솔루션 효과, 유력 학술지 게재\"",
-      "url": "https://www.hankyung.com/article/2026052681176",
-      "summary": "제이엘케이는 자사의 비조영 컴퓨터단층촬영(CT) 기반 대혈관 폐색 검출 인공지능(AI) 솔루션인 'JLK-CTL'의 성능 검증 연구 결과가 미국 신경중재시술학회 공식 학술지인 ‘신경중재수술 저널(JNIS)’에 게재됐다고 26일 밝혔다...",
-      "datetime_raw": "2026.05.26 09:05",
-      "datetime": "2026-05-26T09:05:00+09:00",
-      "dt": "2026-05-26 09:05",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "대혈관 폐색 검출 AI 솔루션 효과, 유력 학술지 게재"
-      ],
-      "hash": "21ae731f287e"
     }
   ],
   "consensus_signals": []
