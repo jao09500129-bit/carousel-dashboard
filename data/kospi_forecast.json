@@ -1,11 +1,20 @@
 {
-  "computed_at": "2026-05-27T11:00:55.811795+09:00",
+  "computed_at": "2026-05-27T13:00:57.269310+09:00",
   "date": "2026-05-27",
   "low": 8000,
-  "high": 8100,
-  "mid": 8050,
-  "sample_size": 2,
+  "high": 8450,
+  "mid": 8130,
+  "sample_size": 3,
   "sources": [
+    {
+      "url": "https://www.hankyung.com/article/202605270858i",
+      "title": "삼전닉스 레버리지 ETF 등장에…코스피 8450까지 찍었다 [마켓라이브]",
+      "low": null,
+      "high": null,
+      "points": [
+        8450
+      ]
+    },
     {
       "url": "https://www.hankyung.com/article/2026052680346",
       "title": "코스피, 종전 기대 장중 8100선 위로…삼전닉스 '사상 최고가'",
