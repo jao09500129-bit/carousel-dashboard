@@ -1,21 +1,10 @@
 {
-  "computed_at": "2026-05-27T16:00:51.740605+09:00",
+  "computed_at": "2026-05-27T23:10:55.050012+09:00",
   "date": "2026-05-27",
-  "low": 8100,
-  "high": 8100,
-  "mid": 8100,
-  "sample_size": 1,
-  "sources": [
-    {
-      "url": "https://www.hankyung.com/article/2026052680346",
-      "title": "코스피, 종전 기대 장중 8100선 위로…삼전닉스 '사상 최고가'",
-      "low": null,
-      "high": null,
-      "points": [
-        8100,
-        8100
-      ]
-    }
-  ],
+  "low": null,
+  "high": null,
+  "mid": null,
+  "sample_size": 0,
+  "sources": [],
   "note": "★ 추정 — 기사 본문 정규식 추출, 백테스트 미검증. 7000~9000 범위 내 수치만 채택."
 }
