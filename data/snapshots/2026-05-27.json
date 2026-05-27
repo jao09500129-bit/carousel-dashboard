@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-27T09:31:00.722180+09:00",
+  "collected_at": "2026-05-27T10:32:51.532450+09:00",
   "date": "2026-05-27",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,10 +7,10 @@
     "p2",
     "p3"
   ],
-  "total_items": 63,
+  "total_items": 64,
   "stats": {
-    "with_broker_mention": 13,
-    "target_price_up": 8,
+    "with_broker_mention": 10,
+    "target_price_up": 5,
     "target_price_down": 1,
     "top_brokers": [
       [
@@ -19,10 +19,6 @@
       ],
       [
         "미래에셋",
-        2
-      ],
-      [
-        "하나",
         2
       ],
       [
@@ -42,20 +38,130 @@
         1
       ],
       [
-        "NH",
-        1
-      ],
-      [
-        "한화",
+        "하나",
         1
       ]
     ]
   },
   "items": [
     {
-      "title": "삼전닉스 나란히 폭등…코스피, 장중 8400선 돌파 '사상 최고치'",
+      "title": "한온시스템, 장 초반 12%대 급등…한국타이어도 동반 상승",
+      "url": "https://www.hankyung.com/article/2026052710426",
+      "summary": "한온시스템이 장 초반 10% 넘게 오르며 강세를 보이고 있다. 최대주주인 한국타이어앤테크놀로지도 동반 상승세다.27일 오전 9시45분 현재 한온시스템은 전장 대비 12.02% 오른 5870원에 거래되고 있다. 같은 시각 한국타이어앤테크놀로지는 6.13% 상승한 6만75...",
+      "datetime_raw": "2026.05.27 09:52",
+      "datetime": "2026-05-27T09:52:00+09:00",
+      "dt": "2026-05-27 09:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한온시스템"
+      ],
+      "hash": "65428804b7b9"
+    },
+    {
+      "title": "조이웍스앤코, 액면병합 후 첫날 상한가",
+      "url": "https://www.hankyung.com/article/2026052710696",
+      "summary": "조이웍스앤코가 액면병합 후 첫 거래일인 27일 장 초반 상한가를 기록했다.이날 오전 9시44분 현재 조이웍스앤코는 가격제한폭(840원·29.89%)까지 오른 3650원에 거래되고 있다. 앞서 조이웍스앤코는 액면가 100원을 500원으로 병합하기 위...",
+      "datetime_raw": "2026.05.27 09:49",
+      "datetime": "2026-05-27T09:49:00+09:00",
+      "dt": "2026-05-27 09:49",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "조이웍스앤코"
+      ],
+      "hash": "731edd4311a1"
+    },
+    {
+      "title": "삼성물산, 삼성전자 지분 가치 부각에 3%대 강세",
+      "url": "https://www.hankyung.com/article/2026052708776",
+      "summary": "삼성물산이 삼성전자 지분가치 부각에 동반 강세다.27일 오전 9시23분 현재 삼성물산은 전 거래일 대비 1만6000원(3.89%) 오른 42만7000원에 거래되고 있다. 같은 시간 삼성전자는 전 거래일 대비 1만4500원(4.85%) 뛴 31만3500원에 거래되고 있다...",
+      "datetime_raw": "2026.05.27 09:47",
+      "datetime": "2026-05-27T09:47:00+09:00",
+      "dt": "2026-05-27 09:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성물산"
+      ],
+      "hash": "318632f33832"
+    },
+    {
+      "title": "LG이노텍, 4거래일 연속 강세…장 초반 8%대 급등",
+      "url": "https://www.hankyung.com/article/2026052709476",
+      "summary": "LG이노텍이 인공지능(AI) 기판 공급 부족 수혜 기대감에 4거래일 연속 오름세를 이어가고 있다.27일 오전 9시15분 현재 LG이노텍은 전장 대비 8.71% 오른 116만1000원에 거래되고 있다.시장에서는 AI 데이터센터 투자 확대에 따른 고다층 반도체 기판 수요 ...",
+      "datetime_raw": "2026.05.27 09:46",
+      "datetime": "2026-05-27T09:46:00+09:00",
+      "dt": "2026-05-27 09:46",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "LG이노텍"
+      ],
+      "hash": "476e918de6f3"
+    },
+    {
+      "title": "'삼전닉스 레버리지' 첫날부터 불기둥…\"수익 2배\" 개미들 '환호'",
+      "url": "https://www.hankyung.com/article/2026052710206",
+      "summary": "삼성전자와 SK하이닉스 주가 흐름을 ±2배로 추종하는 단일종목 레버리지 상품이 상장 첫날부터 불을 뿜고 있다.27일 오전 9시17분 현재 KODEX 삼성전자단일종목레버리지는 기준가 대비 13.1% 오른 2만4485원에 거래되고 있다. TIGER 삼성전자단일...",
+      "datetime_raw": "2026.05.27 09:46",
+      "datetime": "2026-05-27T09:46:00+09:00",
+      "dt": "2026-05-27 09:46",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "환호",
+        "수익 2배",
+        "삼전닉스 레버리지"
+      ],
+      "hash": "d16f71c77f81"
+    },
+    {
+      "title": "\"삼성전기 오르니 동반 상승\"…삼성SDS, 장 초반 15% 급등",
+      "url": "https://www.hankyung.com/article/2026052710076",
+      "summary": "삼성SDS 주가가 27일 장 초반 급등세다. 인공지능(AI) 서버와 데이터센터 투자 확대의 직접 수혜주로 꼽히는 삼성전기의 주가가 최근 가파른 상승세를 보이는 가운데, 삼성SDS까지 'AI 수혜주'로 시장의 재평가를 받으며 동반 강세 흐름에 올랐다는 분석...",
+      "datetime_raw": "2026.05.27 09:45",
+      "datetime": "2026-05-27T09:45:00+09:00",
+      "dt": "2026-05-27 09:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전기 오르니 동반 상승"
+      ],
+      "hash": "be2e40913813"
+    },
+    {
+      "title": "SK하이닉스, 시총 1조달러 달성…삼전 이어 두번째",
+      "url": "https://www.hankyung.com/article/2026052709856",
+      "summary": "SK하이닉스가 27일 시가총액 1조달러를 돌파했다. 이로써 글로벌 메모리반도체 빅3이 모두 시총 1조달러 클럽에 가입하게 됐다.이날 오전 9시35분 현재 SK하이닉스는 전일 대비 19만3000원(9.41%) 상승한 224만5000원에 거래되고 있다. 시초가는 11.06...",
+      "datetime_raw": "2026.05.27 09:34",
+      "datetime": "2026-05-27T09:34:00+09:00",
+      "dt": "2026-05-27 09:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "SK하이닉스"
+      ],
+      "hash": "db35519b3ed1"
+    },
+    {
+      "title": "삼전닉스 나란히 폭등…코스피, 장중 8400선 '역대급 신기록'",
       "url": "https://www.hankyung.com/article/2026052709096",
-      "summary": "코스피가 27일 장초반 8400선을 넘어섰다. 간밤 뉴욕증시에서 폭등한 마이크론테크놀로지를 따라 삼성전자와 SK하이닉스도 급등하면서다. 특히 장 초반부터 외국인의 매수세가 두드러지고 있다.27일 오전 9시10분 현재 코스피는 전일 대비 332.14포인트(4.13%) 오...",
+      "summary": "코스피가 27일 장 초반 8400선을 넘어서며 신기록 행진을 이어가고 있다. 간밤 뉴욕증시에서 폭등한 마이크론테크놀로지를 따라 삼성전자와 SK하이닉스도 급등하면서다. 특히 장 초반부터 외국인의 매수세가 두드러지고 있다.27일 오전 9시10분 현재 코스피는 전일 대비 3...",
       "datetime_raw": "2026.05.27 09:20",
       "datetime": "2026-05-27T09:20:00+09:00",
       "dt": "2026-05-27 09:20",
@@ -64,7 +170,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "사상 최고치",
+        "역대급 신기록",
         "삼전닉스 나란히 폭등"
       ],
       "hash": "1e391e932d6e"
@@ -276,123 +382,6 @@
       "hash": "ebb16e3e9af3"
     },
     {
-      "title": "\"HJ중공업, 美해군 MRO 등 성장 여력 많아…2분기부터 실적↑\"-DS",
-      "url": "https://www.hankyung.com/article/2026052705596",
-      "summary": "DS투자증권은 27일 HJ중공업에 대해 \"미국의 고속상륙정(SSC)과 운용·유지보수(MRO)를 비롯해 국내 군산 조선소 등 성장 여지가 많다\"고 말했다. 그러면서 투자의견 '매수'와 목표주가 3만7000원을 제시했다.이 증권사 김대성 연구원은...",
-      "datetime_raw": "2026.05.27 07:53",
-      "datetime": "2026-05-27T07:53:00+09:00",
-      "dt": "2026-05-27 07:53",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "HJ중공업"
-      ],
-      "hash": "ce12b5cd90e2"
-    },
-    {
-      "title": "\"LG이노텍, AI 기판 품귀 수혜…목표가 160만원 제시\"-KB",
-      "url": "https://www.hankyung.com/article/2026052705316",
-      "summary": "KB증권은 27일 LG이노텍에 대해 \"AI 데이터센터 확대에 따른 기판 공급 부족의 직접적인 수혜가 기대된다\"며 목표주가를 기존 120만원에서 160만원으로 높여 제시했다. 투자의견은 '매수'를 유지했다.김동원 KB증권 연구원은 \"엔비디아 차세대 AI 플...",
-      "datetime_raw": "2026.05.27 07:47",
-      "datetime": "2026-05-27T07:47:00+09:00",
-      "dt": "2026-05-27 07:47",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": 33.33333333333333,
-      "keywords": [
-        "LG이노텍"
-      ],
-      "hash": "a70d8395e4d1"
-    },
-    {
-      "title": "운용사, 삼전닉스 레버리지ETF '정면승부'",
-      "url": "https://www.hankyung.com/article/2026052699471",
-      "summary": "27일 삼성전자·SK하이닉스 단일종목 레버리지 상장지수펀드(ETF) 상장을 앞두고 자산운용업계 점유율 경쟁이 달아오르고 있다. 아시아 레버리지·인버스 ETF 1위인 삼성자산운용은 사상 최대 규모의 초기 설정액과 업계 최다 유동성공급자(LP)를,...",
-      "datetime_raw": "2026.05.27 06:00",
-      "datetime": "2026-05-27T06:00:00+09:00",
-      "dt": "2026-05-27 06:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "운용사",
-        "정면승부"
-      ],
-      "hash": "9ffcf06911b6"
-    },
-    {
-      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상' [종목+]",
-      "url": "https://www.hankyung.com/article/2026052695876",
-      "summary": "스타벅스코리아의 '5·18 탱크데이' 마케팅 사태 후폭풍이 확산하면서 모회사 이마트의 기업가치가 타격을 입었다. 논란 이후 이마트 주가는 9% 넘게 하락했고, 시가총액도 2700억원 이상 증발했다. 시민단체들은 국민연금에 이마트를 대상으로 한...",
-      "datetime_raw": "2026.05.26 22:00",
-      "datetime": "2026-05-26T22:00:00+09:00",
-      "dt": "2026-05-26 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스벅",
-        "초비상"
-      ],
-      "hash": "2b36dc67654c"
-    },
-    {
-      "title": "종전 기대감에 환율 급락...1,500원 아래로? '글쎄'",
-      "url": "https://www.hankyung.com/article/2026052602365",
-      "summary": "원·달러 환율이 장중 1,500원 초반대로 내려갔습니다. 지난주 1,520원에 육박하던 환율이 13원 가까이 하락해 1,504.3원에 주간거래를 마쳤는데요.이번 하락은 종전 협상 진전 기대감과 외국인 수급 개선 영향이 복합적으로 작용한 것으로 보입니다.주말 사이 미국과...",
-      "datetime_raw": "2026.05.26 20:01",
-      "datetime": "2026-05-26T20:01:00+09:00",
-      "dt": "2026-05-26 20:01",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "글쎄",
-        "종전 기대감에 환율 급락...1"
-      ],
-      "hash": "07561ff674d7"
-    },
-    {
-      "title": "\"외국인, 반도체 사이클 의구심 거둬\"…삼전닉스 신고가 썼다",
-      "url": "https://www.hankyung.com/article/2026052600281",
-      "summary": "지난 2주간 유가증권시장에서 거센 매도 공세를 펼친 외국인 투자자가 돌아왔다. 차익 실현을 위해 삼성전자와 SK하이닉스 주식을 대거 쏟아낸 외국인이 모처럼 ‘사자’ 모드로 돌아섰다. 여기에 힘입어 26일 코스피지수는 장중 사상 최고치인 8100을 ...",
-      "datetime_raw": "2026.05.26 18:15",
-      "datetime": "2026-05-26T18:15:00+09:00",
-      "dt": "2026-05-26 18:15",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "외국인"
-      ],
-      "hash": "573e8993dd2d"
-    },
-    {
-      "title": "코스피 8000 시대 열렸다",
-      "url": "https://www.hankyung.com/article/2026052600501",
-      "summary": "지난 2주간 유가증권시장에서 거센 매도 공세를 펼친 외국인 투자자가 돌아왔다. 차익 실현을 위해 삼성전자와 SK하이닉스 주식을 대거 쏟아낸 외국인이 모처럼 ‘사자’ 모드로 돌아섰다. 여기에 힘입어 26일 코스피지수는 장중 사상 최고치인 8100을 ...",
-      "datetime_raw": "2026.05.26 18:12",
-      "datetime": "2026-05-26T18:12:00+09:00",
-      "dt": "2026-05-26 18:12",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 8000 시대 열렸다"
-      ],
-      "hash": "5963ffee5b04"
-    },
-    {
       "title": "서소문고가도로 철거 중 붕괴…작업자 5~6명 매몰·추락",
       "url": "https://www.hankyung.com/article/202605269399i",
       "summary": "",
@@ -455,6 +444,123 @@
         "하이닉스 못 산 개미들 몰린다"
       ],
       "hash": "942850acb8b4"
+    },
+    {
+      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
+      "url": "https://www.hankyung.com/article/2026052695876",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스벅",
+        "초비상"
+      ],
+      "hash": "2b36dc67654c"
+    },
+    {
+      "title": "\"HJ중공업, 美해군 MRO 등 성장 여력 많아…2분기부터 실적↑\"-DS",
+      "url": "https://www.hankyung.com/article/2026052705596",
+      "summary": "DS투자증권은 27일 HJ중공업에 대해 \"미국의 고속상륙정(SSC)과 운용·유지보수(MRO)를 비롯해 국내 군산 조선소 등 성장 여지가 많다\"고 말했다. 그러면서 투자의견 '매수'와 목표주가 3만7000원을 제시했다.이 증권사 김대성 연구원은...",
+      "datetime_raw": "2026.05.27 07:53",
+      "datetime": "2026-05-27T07:53:00+09:00",
+      "dt": "2026-05-27 07:53",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "HJ중공업"
+      ],
+      "hash": "ce12b5cd90e2"
+    },
+    {
+      "title": "\"LG이노텍, AI 기판 품귀 수혜…목표가 160만원 제시\"-KB",
+      "url": "https://www.hankyung.com/article/2026052705316",
+      "summary": "KB증권은 27일 LG이노텍에 대해 \"AI 데이터센터 확대에 따른 기판 공급 부족의 직접적인 수혜가 기대된다\"며 목표주가를 기존 120만원에서 160만원으로 높여 제시했다. 투자의견은 '매수'를 유지했다.김동원 KB증권 연구원은 \"엔비디아 차세대 AI 플...",
+      "datetime_raw": "2026.05.27 07:47",
+      "datetime": "2026-05-27T07:47:00+09:00",
+      "dt": "2026-05-27 07:47",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": 33.33333333333333,
+      "keywords": [
+        "LG이노텍"
+      ],
+      "hash": "a70d8395e4d1"
+    },
+    {
+      "title": "운용사, 삼전닉스 레버리지ETF '정면승부'",
+      "url": "https://www.hankyung.com/article/2026052699471",
+      "summary": "27일 삼성전자·SK하이닉스 단일종목 레버리지 상장지수펀드(ETF) 상장을 앞두고 자산운용업계 점유율 경쟁이 달아오르고 있다. 아시아 레버리지·인버스 ETF 1위인 삼성자산운용은 사상 최대 규모의 초기 설정액과 업계 최다 유동성공급자(LP)를,...",
+      "datetime_raw": "2026.05.27 06:00",
+      "datetime": "2026-05-27T06:00:00+09:00",
+      "dt": "2026-05-27 06:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "운용사",
+        "정면승부"
+      ],
+      "hash": "9ffcf06911b6"
+    },
+    {
+      "title": "종전 기대감에 환율 급락...1,500원 아래로? '글쎄'",
+      "url": "https://www.hankyung.com/article/2026052602365",
+      "summary": "원·달러 환율이 장중 1,500원 초반대로 내려갔습니다. 지난주 1,520원에 육박하던 환율이 13원 가까이 하락해 1,504.3원에 주간거래를 마쳤는데요.이번 하락은 종전 협상 진전 기대감과 외국인 수급 개선 영향이 복합적으로 작용한 것으로 보입니다.주말 사이 미국과...",
+      "datetime_raw": "2026.05.26 20:01",
+      "datetime": "2026-05-26T20:01:00+09:00",
+      "dt": "2026-05-26 20:01",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "글쎄",
+        "종전 기대감에 환율 급락...1"
+      ],
+      "hash": "07561ff674d7"
+    },
+    {
+      "title": "\"외국인, 반도체 사이클 의구심 거둬\"…삼전닉스 신고가 썼다",
+      "url": "https://www.hankyung.com/article/2026052600281",
+      "summary": "지난 2주간 유가증권시장에서 거센 매도 공세를 펼친 외국인 투자자가 돌아왔다. 차익 실현을 위해 삼성전자와 SK하이닉스 주식을 대거 쏟아낸 외국인이 모처럼 ‘사자’ 모드로 돌아섰다. 여기에 힘입어 26일 코스피지수는 장중 사상 최고치인 8100을 ...",
+      "datetime_raw": "2026.05.26 18:15",
+      "datetime": "2026-05-26T18:15:00+09:00",
+      "dt": "2026-05-26 18:15",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "외국인"
+      ],
+      "hash": "573e8993dd2d"
+    },
+    {
+      "title": "코스피 8000 시대 열렸다",
+      "url": "https://www.hankyung.com/article/2026052600501",
+      "summary": "지난 2주간 유가증권시장에서 거센 매도 공세를 펼친 외국인 투자자가 돌아왔다. 차익 실현을 위해 삼성전자와 SK하이닉스 주식을 대거 쏟아낸 외국인이 모처럼 ‘사자’ 모드로 돌아섰다. 여기에 힘입어 26일 코스피지수는 장중 사상 최고치인 8100을 ...",
+      "datetime_raw": "2026.05.26 18:12",
+      "datetime": "2026-05-26T18:12:00+09:00",
+      "dt": "2026-05-26 18:12",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 8000 시대 열렸다"
+      ],
+      "hash": "5963ffee5b04"
     },
     {
       "title": "\"솔스티스, 생태계 토큰 SLX 출시\"",
@@ -998,146 +1104,7 @@
         "OCI홀딩스"
       ],
       "hash": "4fa3ec27c604"
-    },
-    {
-      "title": "\"현대오토에버, 자율주행·로보틱스 확대 수혜 기대…목표가↑\"-NH",
-      "url": "https://www.hankyung.com/article/2026052678196",
-      "summary": "NH투자증권은 22일 현대오토에버에 대해 \"현대차그룹의 자율주행·로보틱스 사업 확대 과정에서 현대오토에버의 역할이 커질 것\"이라며 목표주가를 기존 55만원에서 77만원으로 높여 제시했다. 투자의견은 '매수'를 유지했다.하늘 NH투자증권 연구원...",
-      "datetime_raw": "2026.05.26 08:04",
-      "datetime": "2026-05-26T08:04:00+09:00",
-      "dt": "2026-05-26 08:04",
-      "brokers": [
-        "NH"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 40.0,
-      "keywords": [
-        "현대오토에버"
-      ],
-      "hash": "14cd8bb7768f"
-    },
-    {
-      "title": "깜짝 실적에도 내리막 '카카오'…'본업부활' vs '성장한계' 엇갈린 시선",
-      "url": "https://www.hankyung.com/article/202605257384i",
-      "summary": "카카오 주가가 올 1분기 어닝 서프라이즈에도 여전히 하락세를 타고 있다. 본업의 부활이냐 성장의 한계냐를 두고 시장 예상이 갈린다. AI에이전트 서비스의 성장이 향후 주가를 가를 변곡점이 될 것이라는 분석이 나온다.체질 개선 성공한 플랫폼 본업 주가 상승을 점...",
-      "datetime_raw": "2026.05.26 08:00",
-      "datetime": "2026-05-26T08:00:00+09:00",
-      "dt": "2026-05-26 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "카카오",
-        "본업부활",
-        "성장한계"
-      ],
-      "hash": "7147e767f8af"
-    },
-    {
-      "title": "코스피 16배 이긴 승부사…그가 꼽은 차기 주도주 2개",
-      "url": "https://www.hankyung.com/article/202605200164i",
-      "summary": "8658.42%.2009년 이후 올해(5월 초)까지 토러스자산운용의 개인일임 대표 계좌의 누적 수익률이다. 같은 기간 코스피 상승률(556.71%)의 약 16배에 달하는 수익률이다. 1963년 1월생인 김영민 토러스자산운용 대표는 여의도 최고령 현역이...",
-      "datetime_raw": "2026.05.26 08:00",
-      "datetime": "2026-05-26T08:00:00+09:00",
-      "dt": "2026-05-26 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 16배 이긴 승부사"
-      ],
-      "hash": "a597ff23b50c"
-    },
-    {
-      "title": "\"삼성중공업, 상선·해양플랜트 호조에 AI 모멘텀까지\"-한화",
-      "url": "https://www.hankyung.com/article/2026052678286",
-      "summary": "한화투자증권은 26일 삼성중공업에 대해 상선 부문의 실적 모멘텀과 해양 프랜트 부문의 수주 모멘텀에 더해 플로팅 데이터센터(FDC)를 개발한 데 따른 인공지능(AI) 모멘텀도 기대된다고 밝혔다. 투자의견은 ‘매수’로, 목표주가는 4만원으로 각각 유...",
-      "datetime_raw": "2026.05.26 07:56",
-      "datetime": "2026-05-26T07:56:00+09:00",
-      "dt": "2026-05-26 07:56",
-      "brokers": [
-        "한화"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성중공업"
-      ],
-      "hash": "b4b492281d4a"
-    },
-    {
-      "title": "LG엔솔도 제쳤다…'시총 5위' 삼성전기, 어디까지 갈까 [종목+]",
-      "url": "https://www.hankyung.com/article/2026052576016",
-      "summary": "삼성전기가 시가총액 100조원을 돌파하며 LG에너지솔루션을 제치고 유가증권시장 시총 5위(우선주 제외)로 올라섰다. 대규모 실리콘 커패시터 수주가 투자 심리에 긍정적인 영향을 미친 것으로 풀이된다. 증권가에서는 삼성전기의 목표주가를 잇달아 상향 조정하고 있다.26일 한...",
-      "datetime_raw": "2026.05.26 07:43",
-      "datetime": "2026-05-26T07:43:00+09:00",
-      "dt": "2026-05-26 07:43",
-      "brokers": [],
-      "opinion": null,
-      "target_action": "up",
-      "target_change_pct": null,
-      "keywords": [
-        "시총 5위",
-        "LG엔솔도 제쳤다"
-      ],
-      "hash": "272dc04505bd"
-    },
-    {
-      "title": "\"LG이노텍, 모든 사업부 우상향…목표가 130만원\"-하나",
-      "url": "https://www.hankyung.com/article/2026052677856",
-      "summary": "하나증권은 26일 LG이노텍에 대해 \"카메라 모듈, 패키지솔루션, 플립칩볼그리드어레이(FC-BGA) 등 모든 사업부의 수익 개선이 예상된다\"며 목표주가를 기존 70만원에서 130만원으로 상향 조정했다. 투자의견 '매수'는 유지했다.이 증권사 김민경 연구원...",
-      "datetime_raw": "2026.05.26 07:43",
-      "datetime": "2026-05-26T07:43:00+09:00",
-      "dt": "2026-05-26 07:43",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 85.71428571428571,
-      "keywords": [
-        "LG이노텍"
-      ],
-      "hash": "3409dc5e4495"
     }
   ],
-  "consensus_signals": [
-    {
-      "keyword": "LG이노텍",
-      "n_brokers": 2,
-      "brokers": [
-        "KB",
-        "하나"
-      ],
-      "ups": 1,
-      "downs": 0,
-      "items": [
-        {
-          "title": "\"LG이노텍, AI 기판 품귀 수혜…목표가 160만원 제시\"-KB",
-          "url": "https://www.hankyung.com/article/2026052705316",
-          "brokers": [
-            "KB"
-          ],
-          "target_action": null,
-          "opinion": "매수",
-          "datetime": "2026-05-27T07:47:00+09:00"
-        },
-        {
-          "title": "\"LG이노텍, 모든 사업부 우상향…목표가 130만원\"-하나",
-          "url": "https://www.hankyung.com/article/2026052677856",
-          "brokers": [
-            "하나"
-          ],
-          "target_action": "up",
-          "opinion": "매수",
-          "datetime": "2026-05-26T07:43:00+09:00"
-        }
-      ],
-      "avg_target_change_pct": 59.52
-    }
-  ]
+  "consensus_signals": []
 }

@@ -1,16 +1,15 @@
 {
-  "computed_at": "2026-05-27T09:31:00.722180+09:00",
+  "computed_at": "2026-05-27T10:32:51.532450+09:00",
   "action_headline": "금리 민감 축 가속 + 반도체 신규 진입 검토",
-  "confidence": 2,
-  "confidence_pct": 38.0,
+  "confidence": 1,
+  "confidence_pct": 0.0,
   "rationale": [
     "미국 10년 yield -6.0bp — 금리 민감 회전축",
-    "합의 시그널 'LG이노텍' — Conviction 46/100 (2사 동조)",
     "KOSPI 컨센서스 mid 8,050 (8000~8100, n=2)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
-  "stars": "⭐⭐○○○",
+  "stars": "⭐○○○○",
   "friendly_emoji": "🔴",
   "friendly_action": "관망하세요",
   "friendly_reason": "오늘은 시장 의견이 갈리거나 신호가 약해요. 무리해서 진입하지 마세요.",

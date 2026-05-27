@@ -1,16 +1,16 @@
 {
-  "computed_at": "2026-05-27T09:31:00.722180+09:00",
+  "computed_at": "2026-05-27T10:32:51.532450+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 4,
+      "count": 5,
       "top": []
     },
     {
       "name": "자동차",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -46,7 +46,7 @@
     {
       "name": "커뮤니케이션",
       "intensity": 0.0,
-      "count": 2,
+      "count": 1,
       "top": []
     },
     {
@@ -69,15 +69,9 @@
     },
     {
       "name": "기타",
-      "intensity": 0.8,
+      "intensity": 0.0,
       "count": 52,
-      "top": [
-        {
-          "kw": "LG이노텍",
-          "n": 2,
-          "score": 46.1
-        }
-      ]
+      "top": []
     }
   ],
   "note": "★ 추정 — GICS 섹터 매핑 휴리스틱. 합의 강도는 ups-downs + conviction 합성."
