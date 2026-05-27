@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-27T11:00:55.811795+09:00",
+  "collected_at": "2026-05-27T13:00:57.269310+09:00",
   "date": "2026-05-27",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,8 +9,8 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 10,
-    "target_price_up": 5,
+    "with_broker_mention": 7,
+    "target_price_up": 4,
     "target_price_down": 1,
     "top_brokers": [
       [
@@ -28,22 +28,94 @@
       [
         "삼성",
         1
-      ],
-      [
-        "다올",
-        1
-      ],
-      [
-        "LS",
-        1
-      ],
-      [
-        "하나",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "방콕 'SEABW 2026' 성황리 종료…\"동남아 웹3, 기관 도입 국면 진입\"",
+      "url": "https://www.hankyung.com/article/202605271553B",
+      "summary": "글로벌 블록체인 벤처캐피털 해시드와 샤드랩이 공동 주관한 '동남아시아 블록체인 위크 2026(SEABW 2026)'가 태국 방콕에서 성황리에 막을 내렸다고 26일 밝혔다.지난 20~21일 양일간 아이콘시암(ICONSIAM)에서 열린 이번 행사에는 태국·인도네시아 정부 ...",
+      "datetime_raw": "2026.05.27 11:51",
+      "datetime": "2026-05-27T11:51:00+09:00",
+      "dt": "2026-05-27 11:51",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "SEABW 2026",
+        "동남아 웹3, 기관 도입 국면 진입"
+      ],
+      "hash": "52f9ea0eac12"
+    },
+    {
+      "title": "코스피 8400대 안착할까…코스닥선 바이오주 강세",
+      "url": "https://www.hankyung.com/article/2026052715106",
+      "summary": "코스피가 삼성전자와 SK하이닉스의 급등에 힘입어 8400선을 안착을 시도하고 있다.27일 오전 11시23분 현재 코스피는 전일 대비 368.75포인트(4.58%) 오른 8415.75에 거래되고 있다.기관과 외국인이 유가증권시장에서 각각 8157억원어치와 5387억원어치...",
+      "datetime_raw": "2026.05.27 11:35",
+      "datetime": "2026-05-27T11:35:00+09:00",
+      "dt": "2026-05-27 11:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 8400대 안착할까"
+      ],
+      "hash": "8b379f29ab84"
+    },
+    {
+      "title": "레버리지 출격한 삼전닉스…두 종목 중 하나만 고르라면?",
+      "url": "https://www.hankyung.com/article/202605271420i",
+      "summary": "삼성전자·SK하이닉스 시가총액 현황 및 격차 추이27일 현재 삼성전자와 SK하이닉스는 국내 증시에서 나란히 시가총액 1조 달러 클럽에 이름을 올리며 글로벌 반도체 강국으로서의 위상을 동시에 입증하고 있다.두 기업 간 시가총액 격차는 역사적으로 유례없는 수준...",
+      "datetime_raw": "2026.05.27 11:34",
+      "datetime": "2026-05-27T11:34:00+09:00",
+      "dt": "2026-05-27 11:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "레버리지 출격한 삼전닉스"
+      ],
+      "hash": "532f25ff38ea"
+    },
+    {
+      "title": "당국, '삼전닉스 레버리지 월배당 선물형' 키움운용에 마케팅 주의 요구",
+      "url": "https://www.hankyung.com/article/2026052710876",
+      "summary": "금융감독원이 월배당 구조의 삼성전자·SK하이닉스 단일 종목 레버리지 상장지수펀드(ETF)를 선보인 키움자산운용에 마케팅 관련 별도 주의를 당부했다. '음의 복리효과'가 작용하는 레버리지 상품의 위험성이 자칫 월배당 전략에 가려질 수 있다는 시...",
+      "datetime_raw": "2026.05.27 11:30",
+      "datetime": "2026-05-27T11:30:00+09:00",
+      "dt": "2026-05-27 11:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "당국",
+        "삼전닉스 레버리지 월배당 선물형"
+      ],
+      "hash": "05f9e736b782"
+    },
+    {
+      "title": "\"진작 할 걸\"…'단일종목 레버리지' 폭등에 교육사이트 '먹통'",
+      "url": "https://www.hankyung.com/article/2026052713996",
+      "summary": "삼성전자와 SK하이닉스 주가 흐름을 ±2배로 추종하는 단일종목 레버리지 상품이 상장 첫날부터 불을 뿜으면서 이 상품 투자를 위해 교육을 이수해야 하는 사이트가 '먹통'이 됐다.27일 금융투자협회 금융투자교육원에 따르면 이날 오전 11시께 홈페...",
+      "datetime_raw": "2026.05.27 11:18",
+      "datetime": "2026-05-27T11:18:00+09:00",
+      "dt": "2026-05-27 11:18",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "먹통",
+        "진작 할 걸",
+        "단일종목 레버리지"
+      ],
+      "hash": "1a75ad689d6d"
+    },
     {
       "title": "한온시스템, 장 초반 12%대 급등…한국타이어도 동반 상승",
       "url": "https://www.hankyung.com/article/2026052710426",
@@ -176,18 +248,18 @@
       "hash": "1e391e932d6e"
     },
     {
-      "title": "삼성전자 7%·SK하이닉스 10%↑…코스피 8400 단숨 돌파 [마켓라이브]",
+      "title": "삼전닉스 레버리지 ETF 등장에…코스피 8450까지 찍었다 [마켓라이브]",
       "url": "https://www.hankyung.com/article/202605270858i",
-      "summary": "반도체 강세에 코스피 4.24% 급등 출발… 삼성전자 7% 상승 (오전 9시10분)🕘 장초반 강세… 반도체·전자부품 업종 주도오늘 한국 증시는 미국 증시의 메모리 반도체 강세에 힘입어 강한 상승 출발했습니다. 마이크론의 폭등과 UB...",
+      "summary": "코스피 4.35% 급등… 반도체 8.46% 폭등, 외국인·기관 매수 강화(오전 11시)🕘 반도체 초강세 속 코스피 8,400선 돌파오전 11시 기준, 한국 증시는 미국 마이크론의 폭등과 단일종목 레버리지 ETF 상장 기대감에 힘입어 강한 상승세...",
       "datetime_raw": "2026.05.27 09:15",
       "datetime": "2026-05-27T09:15:00+09:00",
       "dt": "2026-05-27 09:15",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "삼성전자 7%"
+        "삼전닉스 레버리지 ETF 등장에"
       ],
       "hash": "2243dfc6330a"
     },
@@ -296,6 +368,87 @@
       "hash": "b2b331cd2bdb"
     },
     {
+      "title": "서소문고가도로 철거 중 붕괴…작업자 5~6명 매몰·추락",
+      "url": "https://www.hankyung.com/article/202605269399i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "서소문고가도로 철거 중 붕괴"
+      ],
+      "hash": "338f6b491a25"
+    },
+    {
+      "title": "삼성전자 '6억 성과급' 후폭풍…폭발한 개미들 고소장 날린다",
+      "url": "https://www.hankyung.com/article/202605268477g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "6억 성과급"
+      ],
+      "hash": "28e6599b6872"
+    },
+    {
+      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
+      "url": "https://www.hankyung.com/article/2026052695876",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스벅",
+        "초비상"
+      ],
+      "hash": "2b36dc67654c"
+    },
+    {
+      "title": "\"하이닉스 못 산 개미들 몰린다\"…1374% 폭등한 곳 어디길래",
+      "url": "https://www.hankyung.com/article/2026052677866",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하이닉스 못 산 개미들 몰린다"
+      ],
+      "hash": "942850acb8b4"
+    },
+    {
+      "title": "\"스펀지처럼 쭉 흡수\"…의사가 꼽은 공복에 먹어야 할 음식",
+      "url": "https://www.hankyung.com/article/2026052678937",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스펀지처럼 쭉 흡수"
+      ],
+      "hash": "7b5d029b686e"
+    },
+    {
       "title": "1년새 주가 13배 '껑충'…삼성전기, 투자전략은?",
       "url": "https://www.hankyung.com/article/202605269354i",
       "summary": "증권사 리포트 종합1분기 확정 실적 분석 — 창사 최초 분기 매출 3조원 돌파삼성전기는 1분기(2026년 1월 1일~3월 31일) 연결 기준 매출 3조 2,091억원, 영업이익 2,806억원을 기록했다.전년 동기 대비 매출은 17%(4,705억원), 영업이익...",
@@ -380,87 +533,6 @@
         "카카오게임즈"
       ],
       "hash": "ebb16e3e9af3"
-    },
-    {
-      "title": "서소문고가도로 철거 중 붕괴…작업자 5~6명 매몰·추락",
-      "url": "https://www.hankyung.com/article/202605269399i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "서소문고가도로 철거 중 붕괴"
-      ],
-      "hash": "338f6b491a25"
-    },
-    {
-      "title": "삼성전자 '6억 성과급' 후폭풍…폭발한 개미들 고소장 날린다",
-      "url": "https://www.hankyung.com/article/202605268477g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "6억 성과급"
-      ],
-      "hash": "28e6599b6872"
-    },
-    {
-      "title": "\"스펀지처럼 쭉 흡수\"…의사가 꼽은 공복에 먹어야 할 음식",
-      "url": "https://www.hankyung.com/article/2026052678937",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스펀지처럼 쭉 흡수"
-      ],
-      "hash": "7b5d029b686e"
-    },
-    {
-      "title": "\"하이닉스 못 산 개미들 몰린다\"…1374% 폭등한 곳 어디길래",
-      "url": "https://www.hankyung.com/article/2026052677866",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하이닉스 못 산 개미들 몰린다"
-      ],
-      "hash": "942850acb8b4"
-    },
-    {
-      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
-      "url": "https://www.hankyung.com/article/2026052695876",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스벅",
-        "초비상"
-      ],
-      "hash": "2b36dc67654c"
     },
     {
       "title": "\"HJ중공업, 美해군 MRO 등 성장 여력 많아…2분기부터 실적↑\"-DS",
@@ -1017,93 +1089,6 @@
         "양자내성암호 게이트웨이 기술 개발해 최종 검증 중"
       ],
       "hash": "ef7223fe83a4"
-    },
-    {
-      "title": "\"에스엘, 현대차 로봇 사업 최대 수혜 기업될 것…목표가↑\"-다올",
-      "url": "https://www.hankyung.com/article/2026052679346",
-      "summary": "다올투자증권은 26일 에스엘에 대해 \"현대자동차그룹 로봇 파운드리(위탁생산) 사업의 최대 수혜 기업이 될 것\"이라며 목표주가를 기존 10만원에서 11만원으로 상향조정했다. 투자의견 '매수'도 유지했다.이 증권사 유지웅 연구원은 \"에스엘은 광학·...",
-      "datetime_raw": "2026.05.26 08:30",
-      "datetime": "2026-05-26T08:30:00+09:00",
-      "dt": "2026-05-26 08:30",
-      "brokers": [
-        "다올"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 10.0,
-      "keywords": [
-        "에스엘"
-      ],
-      "hash": "b096385ff751"
-    },
-    {
-      "title": "\"코스피 1년 내 1만 간다…고유가·고금리·대규모 IPO 변수\"-LS",
-      "url": "https://www.hankyung.com/article/2026052678896",
-      "summary": "LS증권이 1년 내 코스피지수가 '1만피'를 달성할 것이란 전망을 내놨다. 인공지능(AI) 성장 사이클이 유지되는 가운데 개인투자자 중심의 자금 유입이 이어지고 있는 점을 반영하면서다. 다만 유가와 금리 수준이 높아졌고 대규모 글로벌 기업공개(I...",
-      "datetime_raw": "2026.05.26 08:20",
-      "datetime": "2026-05-26T08:20:00+09:00",
-      "dt": "2026-05-26 08:20",
-      "brokers": [
-        "LS"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 1년 내 1만 간다"
-      ],
-      "hash": "a26f723f3567"
-    },
-    {
-      "title": "\"올해 주목할 종목은?\"…'실적 반전주' 톱10 뽑아보니",
-      "url": "https://www.hankyung.com/article/202605246404i",
-      "summary": "영업이익 컨센서스 급등 상위 10개 종목 — 시장이 주목하는 ‘실적 반전주’3개 이상 증권사가 컨센서스를 집계한 국내 상장사 가운데 올해 영업이익 컨센서스가 3개월 전 대비 가장 큰 폭으로 상향 조정된 종목엔 어떤 게 있을까.투자전문 인...",
-      "datetime_raw": "2026.05.26 08:20",
-      "datetime": "2026-05-26T08:20:00+09:00",
-      "dt": "2026-05-26 08:20",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "실적 반전주",
-        "올해 주목할 종목은?"
-      ],
-      "hash": "a39b8a9734a1"
-    },
-    {
-      "title": "'삼전닉스' 폭등했는데 그 뒤엔…전문가들 돌연 경고한 이유",
-      "url": "https://www.hankyung.com/article/2026052678077",
-      "summary": "인공지능(AI) 열풍에 힘입어 삼성전자와 SK하이닉스 등 메모리 반도체 업체들의 주가가 치솟는 상황에서, 업계 특유의 \"'호황과 폭락'(boom and bust) 사이클이 반복될 수 있다\"는 경고가 나왔다.미국 경제매체 CNBC는 25일(현지시간) \u0003...",
-      "datetime_raw": "2026.05.26 08:11",
-      "datetime": "2026-05-26T08:11:00+09:00",
-      "dt": "2026-05-26 08:11",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스"
-      ],
-      "hash": "c159b433939f"
-    },
-    {
-      "title": "\"OCI홀딩스, 스페이스X에 폴리실리콘 공급 가능성 높아\"-하나",
-      "url": "https://www.hankyung.com/article/2026052678686",
-      "summary": "하나증권은 26일 OCI홀딩스에 대해 \"태양광이 미국 에너지 안보 자산으로서의 재평가 받고 있다\"며 \"해당 사업을 영위하고 있는 OCI홀딩스의 가치가 더 올라갈 것\"이라고 말했다. 그러면서 목표주가를 55만원과 투자의견 '매수'를 제시했다.이 증권사 윤재...",
-      "datetime_raw": "2026.05.26 08:05",
-      "datetime": "2026-05-26T08:05:00+09:00",
-      "dt": "2026-05-26 08:05",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "OCI홀딩스"
-      ],
-      "hash": "4fa3ec27c604"
     }
   ],
   "consensus_signals": []
