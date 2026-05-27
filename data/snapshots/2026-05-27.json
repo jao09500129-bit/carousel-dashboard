@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-27T13:00:57.269310+09:00",
+  "collected_at": "2026-05-27T15:01:05.471315+09:00",
   "date": "2026-05-27",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -32,6 +32,39 @@
     ]
   },
   "items": [
+    {
+      "title": "삼성중공업, 1조1800억 규모 LNG운반선 등 5척 수주",
+      "url": "https://www.hankyung.com/article/2026052717106",
+      "summary": "삼성중공업은 버뮤다 지역 선주와 총 1조1800억원 규모의 선박 공급계약 3건을 체결했다고 27일 공시했다.세부 계약은 액화천연가스(LNG) 운반선 1척(3814억원), 초대형가스운반선(VLGC) 2척(3420억원), 유조선 2척(2784억원) 등이다.계약금액은 각각 ...",
+      "datetime_raw": "2026.05.27 14:17",
+      "datetime": "2026-05-27T14:17:00+09:00",
+      "dt": "2026-05-27 14:17",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성중공업"
+      ],
+      "hash": "ecd2bc976c68"
+    },
+    {
+      "title": "\"해시드·샤드랩 'SEABW 2026' 성료…동남아, 웹3 기관 도입\"",
+      "url": "https://www.hankyung.com/article/2026052716706",
+      "summary": "글로벌 블록체인·테크 벤처캐피털 해시드와 샤드랩이 공동 주관한 '동남아시아 블록체인 위크 2026(SEABW 2026)'가 지난 20~21일 태국 방콕에서 개최됐다고 27일 블루밍비트가 보도했다.이날 블루밍비트에 따르면 이번 행사에는 동남아 ...",
+      "datetime_raw": "2026.05.27 13:54",
+      "datetime": "2026-05-27T13:54:00+09:00",
+      "dt": "2026-05-27 13:54",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "해시드",
+        "성료…동남아, 웹3 기관 도입"
+      ],
+      "hash": "cf93d5126d99"
+    },
     {
       "title": "방콕 'SEABW 2026' 성황리 종료…\"동남아 웹3, 기관 도입 국면 진입\"",
       "url": "https://www.hankyung.com/article/202605271553B",
@@ -248,9 +281,9 @@
       "hash": "1e391e932d6e"
     },
     {
-      "title": "삼전닉스 레버리지 ETF 등장에…코스피 8450까지 찍었다 [마켓라이브]",
+      "title": "반도체 9% 폭등에 코스피 8400선 횡보…코스닥은 2.52% 하락 [마켓라이브]",
       "url": "https://www.hankyung.com/article/202605270858i",
-      "summary": "코스피 4.35% 급등… 반도체 8.46% 폭등, 외국인·기관 매수 강화(오전 11시)🕘 반도체 초강세 속 코스피 8,400선 돌파오전 11시 기준, 한국 증시는 미국 마이크론의 폭등과 단일종목 레버리지 ETF 상장 기대감에 힘입어 강한 상승세...",
+      "summary": "코스피 4.32% 급등… 반도체 9.24% 폭등, 외국인·기관 매수 강화(오후 1시)🕘 반도체 초강세 속 코스피 8,395선 유지오후 1시 기준, 한국 증시는 미국 마이크론의 폭등과 단일종목 레버리지 ETF 상장 기대감에 힘입어 강한 상승세를 ...",
       "datetime_raw": "2026.05.27 09:15",
       "datetime": "2026-05-27T09:15:00+09:00",
       "dt": "2026-05-27 09:15",
@@ -259,7 +292,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "삼전닉스 레버리지 ETF 등장에"
+        "반도체 9% 폭등에 코스피 8400선 횡보"
       ],
       "hash": "2243dfc6330a"
     },
@@ -333,6 +366,87 @@
       "hash": "acb1eca76f92"
     },
     {
+      "title": "서소문고가도로 철거 중 붕괴…작업자 5~6명 매몰·추락",
+      "url": "https://www.hankyung.com/article/202605269399i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "서소문고가도로 철거 중 붕괴"
+      ],
+      "hash": "338f6b491a25"
+    },
+    {
+      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
+      "url": "https://www.hankyung.com/article/2026052695876",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스벅",
+        "초비상"
+      ],
+      "hash": "2b36dc67654c"
+    },
+    {
+      "title": "삼성전자 '6억 성과급' 후폭풍…폭발한 개미들 고소장 날린다",
+      "url": "https://www.hankyung.com/article/202605268477g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "6억 성과급"
+      ],
+      "hash": "28e6599b6872"
+    },
+    {
+      "title": "\"하이닉스 못 산 개미들 몰린다\"…1374% 폭등한 곳 어디길래",
+      "url": "https://www.hankyung.com/article/2026052677866",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하이닉스 못 산 개미들 몰린다"
+      ],
+      "hash": "942850acb8b4"
+    },
+    {
+      "title": "\"스펀지처럼 쭉 흡수\"…의사가 꼽은 공복에 먹어야 할 음식",
+      "url": "https://www.hankyung.com/article/2026052678937",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스펀지처럼 쭉 흡수"
+      ],
+      "hash": "7b5d029b686e"
+    },
+    {
       "title": "\"HD현대중공업, 데이터센터용 엔진 재평가 기대…목표가↑\"-DB",
       "url": "https://www.hankyung.com/article/2026052705706",
       "summary": "DB증권은 27일 HD현대중공업에 대해 \"데이터센터용 엔진 재평가(리레이팅)가 기대된다\"며 목표주가를 기존 80만원에서 100만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 서재호 연구원은 \"HD현대중공업은 지난 4월21일 미국 에너지 ...",
@@ -366,87 +480,6 @@
         "주가 30% 폭락 쇼크"
       ],
       "hash": "b2b331cd2bdb"
-    },
-    {
-      "title": "서소문고가도로 철거 중 붕괴…작업자 5~6명 매몰·추락",
-      "url": "https://www.hankyung.com/article/202605269399i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "서소문고가도로 철거 중 붕괴"
-      ],
-      "hash": "338f6b491a25"
-    },
-    {
-      "title": "삼성전자 '6억 성과급' 후폭풍…폭발한 개미들 고소장 날린다",
-      "url": "https://www.hankyung.com/article/202605268477g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "6억 성과급"
-      ],
-      "hash": "28e6599b6872"
-    },
-    {
-      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
-      "url": "https://www.hankyung.com/article/2026052695876",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스벅",
-        "초비상"
-      ],
-      "hash": "2b36dc67654c"
-    },
-    {
-      "title": "\"하이닉스 못 산 개미들 몰린다\"…1374% 폭등한 곳 어디길래",
-      "url": "https://www.hankyung.com/article/2026052677866",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하이닉스 못 산 개미들 몰린다"
-      ],
-      "hash": "942850acb8b4"
-    },
-    {
-      "title": "\"스펀지처럼 쭉 흡수\"…의사가 꼽은 공복에 먹어야 할 음식",
-      "url": "https://www.hankyung.com/article/2026052678937",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스펀지처럼 쭉 흡수"
-      ],
-      "hash": "7b5d029b686e"
     },
     {
       "title": "1년새 주가 13배 '껑충'…삼성전기, 투자전략은?",
@@ -1057,38 +1090,6 @@
         "대혈관 폐색 검출 AI 솔루션 효과, 유력 학술지 게재"
       ],
       "hash": "21ae731f287e"
-    },
-    {
-      "title": "코스피, 미·이란 종전 기대감에 장 초반 8000선 재탈환",
-      "url": "https://www.hankyung.com/article/2026052680296",
-      "summary": "[속보] 코스피, 미·이란 종전 기대감에 장 초반 8000선 재탈환이수 한경닷컴 기자 2su@hankyung.com",
-      "datetime_raw": "2026.05.26 09:03",
-      "datetime": "2026-05-26T09:03:00+09:00",
-      "dt": "2026-05-26 09:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "91d722da3eca"
-    },
-    {
-      "title": "지니언스 \"양자내성암호 게이트웨이 기술 개발해 최종 검증 중\"",
-      "url": "https://www.hankyung.com/article/2026052680416",
-      "summary": "지니언스는 제로트러스트3.0 전략의 일환으로 '양자 보안 게이트웨이(Quantum Security Gateway)' 핵심 기술을 개발해 최종 검증 단계를 진행 중이라고 26일 밝혔다.지니언스가 개발 중인 '양자 보안 게이트웨이'는 기존 ZT...",
-      "datetime_raw": "2026.05.26 08:51",
-      "datetime": "2026-05-26T08:51:00+09:00",
-      "dt": "2026-05-26 08:51",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "양자내성암호 게이트웨이 기술 개발해 최종 검증 중"
-      ],
-      "hash": "ef7223fe83a4"
     }
   ],
   "consensus_signals": []
