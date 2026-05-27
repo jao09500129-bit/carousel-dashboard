@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-27T10:32:51.532450+09:00",
+  "collected_at": "2026-05-27T11:00:55.811795+09:00",
   "date": "2026-05-27",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -398,22 +398,6 @@
       "hash": "338f6b491a25"
     },
     {
-      "title": "\"스펀지처럼 쭉 흡수\"…의사가 꼽은 공복에 먹어야 할 음식",
-      "url": "https://www.hankyung.com/article/2026052678937",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스펀지처럼 쭉 흡수"
-      ],
-      "hash": "7b5d029b686e"
-    },
-    {
       "title": "삼성전자 '6억 성과급' 후폭풍…폭발한 개미들 고소장 날린다",
       "url": "https://www.hankyung.com/article/202605268477g",
       "summary": "",
@@ -428,6 +412,22 @@
         "6억 성과급"
       ],
       "hash": "28e6599b6872"
+    },
+    {
+      "title": "\"스펀지처럼 쭉 흡수\"…의사가 꼽은 공복에 먹어야 할 음식",
+      "url": "https://www.hankyung.com/article/2026052678937",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스펀지처럼 쭉 흡수"
+      ],
+      "hash": "7b5d029b686e"
     },
     {
       "title": "\"하이닉스 못 산 개미들 몰린다\"…1374% 폭등한 곳 어디길래",
