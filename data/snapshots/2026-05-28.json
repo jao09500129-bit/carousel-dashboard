@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-28T11:01:07.197265+09:00",
+  "collected_at": "2026-05-28T13:01:08.143985+09:00",
   "date": "2026-05-28",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,8 +9,8 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 11,
-    "target_price_up": 6,
+    "with_broker_mention": 10,
+    "target_price_up": 5,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -26,15 +26,15 @@
         2
       ],
       [
-        "미래에셋",
-        2
-      ],
-      [
         "메리츠",
         1
       ],
       [
         "삼성",
+        1
+      ],
+      [
+        "미래에셋",
         1
       ],
       [
@@ -44,6 +44,22 @@
     ]
   },
   "items": [
+    {
+      "title": "\"하닉보다 덜 올랐네\"...삼성전자 담는 1% 초고수",
+      "url": "https://www.hankyung.com/article/202605283075i",
+      "summary": "28일 유가증권시장이 반도체 차익 실현 매물로 혼조세를 보이는 가운데, 투자 초고수들은 SK하이닉스를 팔고, 삼성전자를 사들이고 있는 것으로 나타났다. 최근 SK하이닉스보다 상승폭이 낮았던 삼성전자로 옮겨가고 있다는 분석이 나온다.이날 미래에셋엠클럽에 따르면 ...",
+      "datetime_raw": "2026.05.28 11:04",
+      "datetime": "2026-05-28T11:04:00+09:00",
+      "dt": "2026-05-28 11:04",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하닉보다 덜 올랐네"
+      ],
+      "hash": "062e07a85fa0"
+    },
     {
       "title": "코스피, 장중 8100선 약세 지속…코스닥 3%대 급락",
       "url": "https://www.hankyung.com/article/2026052838216",
@@ -315,7 +331,7 @@
       "hash": "6a3fda99da41"
     },
     {
-      "title": "수익률 8658%의 승부사…김영민 토러스운용 대표가 꼽은 차기 주도주는?",
+      "title": "수익률 8658%…9조원 굴리는 여의도 전설이 꼽은 차기 주도주",
       "url": "https://www.hankyung.com/article/202605283222i",
       "summary": "2009년 이후 올해 5월 초까지 누적 수익률 8658.42%. 같은 기간 코스피 상승률(556.71%)의 약 16배에 달하는 경이로운 기록을 세운 주인공이 있다. 바로 여의도 최고령 현역 매니저이자 ‘큰손’으로 불리는 토러스자산운용의 김영민 대표...",
       "datetime_raw": "2026.05.28 08:36",
@@ -326,7 +342,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "수익률 8658%의 승부사"
+        "수익률 8658%"
       ],
       "hash": "e0da664cf3f5"
     },
@@ -365,20 +381,37 @@
       "hash": "2d88cfbb2c41"
     },
     {
-      "title": "\"AI 전환에 몸값 달라졌네\"…대기업 SI 3사, 동반 급등 [종목+]",
-      "url": "https://www.hankyung.com/article/2026052830076",
-      "summary": "대기업 시스템통합(SI) 업체 주가가 인공지능(AI) 데이터센터와 피지컬 AI 수혜 기대에 동반 급등했다.28일 한국거래소에 따르면 전날 삼성SDS(삼성에스디에스), 현대오토에버, LG씨엔에스 등 SI 업체가 일제히 급등했다. 삼성SDS는 전 거래일 대비 6만원(29....",
-      "datetime_raw": "2026.05.28 08:13",
-      "datetime": "2026-05-28T08:13:00+09:00",
-      "dt": "2026-05-28 08:13",
+      "title": "\"손실 보며 거래량 부풀렸다\"…'삼전닉스 레버리지 ETF' 의혹",
+      "url": "https://www.hankyung.com/article/202605271875i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "AI 전환에 몸값 달라졌네"
+        "삼전닉스 레버리지 ETF",
+        "손실 보며 거래량 부풀렸다"
       ],
-      "hash": "e25f82af4713"
+      "hash": "5297c9760ba7"
+    },
+    {
+      "title": "'90만원 넘게 주고도 못 구할 지경'…9살부터 30대까지 열광",
+      "url": "https://www.hankyung.com/article/2026052722027",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "90만원 넘게 주고도 못 구할 지경"
+      ],
+      "hash": "7a94c5a936cf"
     },
     {
       "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
@@ -398,39 +431,6 @@
       "hash": "2b36dc67654c"
     },
     {
-      "title": "\"손실 보며 거래량 부풀렸다\"…'삼전닉스 레버리지 ETF' 의혹",
-      "url": "https://www.hankyung.com/article/202605271875i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 레버리지 ETF",
-        "손실 보며 거래량 부풀렸다"
-      ],
-      "hash": "5297c9760ba7"
-    },
-    {
-      "title": "\"중국판 하이닉스 뜬다\"…삼전 노사 다툰 사이 뭉칫돈 몰린 곳",
-      "url": "https://www.hankyung.com/article/2026052689506",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "중국판 하이닉스 뜬다"
-      ],
-      "hash": "031a946bb46c"
-    },
-    {
       "title": "삼성 노조위원장 \"500만원 수당받은 건 사실…금액 한도 둘 것\"",
       "url": "https://www.hankyung.com/article/202605271940g",
       "summary": "",
@@ -448,8 +448,8 @@
       "hash": "36f136136daf"
     },
     {
-      "title": "\"전라도 갈 땐 숟가락 챙기라\"…홈쇼핑서 지역 비하 용어 사용 논란",
-      "url": "https://www.hankyung.com/article/2026052705297",
+      "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
+      "url": "https://www.hankyung.com/article/2026052725641",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -459,9 +459,26 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "전라도 갈 땐 숟가락 챙기라"
+        "비장의 카드",
+        "예금 넣었는데 연 10%"
       ],
-      "hash": "e43c37a9465e"
+      "hash": "b440e0c94e78"
+    },
+    {
+      "title": "\"AI 전환에 몸값 달라졌네\"…대기업 SI 3사, 동반 급등 [종목+]",
+      "url": "https://www.hankyung.com/article/2026052830076",
+      "summary": "대기업 시스템통합(SI) 업체 주가가 인공지능(AI) 데이터센터와 피지컬 AI 수혜 기대에 동반 급등했다.28일 한국거래소에 따르면 전날 삼성SDS(삼성에스디에스), 현대오토에버, LG씨엔에스 등 SI 업체가 일제히 급등했다. 삼성SDS는 전 거래일 대비 6만원(29....",
+      "datetime_raw": "2026.05.28 08:13",
+      "datetime": "2026-05-28T08:13:00+09:00",
+      "dt": "2026-05-28 08:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 전환에 몸값 달라졌네"
+      ],
+      "hash": "e25f82af4713"
     },
     {
       "title": "한국전력 올해 영업이익 반토막 전망…자회사 한전KPS는 목표가 상향",
@@ -1111,24 +1128,6 @@
         "껑충"
       ],
       "hash": "2727fc6c385f"
-    },
-    {
-      "title": "\"SK하이닉스, LTA 본격화와 HBM 고객 다변화 기대…목표가↑\"-미래",
-      "url": "https://www.hankyung.com/article/2026052706256",
-      "summary": "미래에셋증권은 27일 SK하인기스에 대해 장기공급계약(LTA) 확산이 본격화되는 데다 고대역폭메모리(HBM)반도체 고객사도 다변화되고 있다며 목표주가를 기존 320만원에서 380만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.김영건 미래에셋증권 연...",
-      "datetime_raw": "2026.05.27 08:05",
-      "datetime": "2026-05-27T08:05:00+09:00",
-      "dt": "2026-05-27 08:05",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 18.75,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "6baa6832ad11"
     }
   ],
   "consensus_signals": []
