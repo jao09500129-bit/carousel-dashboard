@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-05-28T15:01:07.012044+09:00",
+  "computed_at": "2026-05-28T16:01:17.166448+09:00",
   "current_pivot": "에너지",
   "current_view": "브렌트 -4.57% 급락. 정유·해운·항공 비용 구조 영향. 단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
   "current_confidence": "낮음 — 변동성 자체가 검증 까다로움",
@@ -10,7 +10,7 @@
     {
       "name": "환율 민감",
       "probability": 0.2,
-      "trigger": "USDKRW +0.52%"
+      "trigger": "USDKRW +0.47%"
     }
   ],
   "note": "★ 추정 — 매크로 변동성·conviction 휴리스틱 기반, 백테스트 미검증."

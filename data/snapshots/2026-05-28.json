@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-28T15:01:07.012044+09:00",
+  "collected_at": "2026-05-28T16:01:17.166448+09:00",
   "date": "2026-05-28",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 8,
+    "with_broker_mention": 7,
     "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
@@ -22,20 +22,36 @@
         2
       ],
       [
-        "KB",
-        2
-      ],
-      [
         "메리츠",
         1
       ],
       [
         "삼성",
         1
+      ],
+      [
+        "KB",
+        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "블랙록 IBIT서 하루만 5.3억弗 순유출…출시 후 최대 규모",
+      "url": "https://www.hankyung.com/article/202605284599B",
+      "summary": "세계 최대 자산운용사 블랙록의 비트코인(BTC) 현물 상장지수펀드(ETF)에서 하루만에 5억 3000만달러 규모의 자금이 빠져나갔다.28일(현지시간) 더블록에 따르면 블랙록의 비트코인 현물 ETF인 IBIT는 전날(27일) 5억 2780만달러 규모의 순유출을 기록했다....",
+      "datetime_raw": "2026.05.28 15:20",
+      "datetime": "2026-05-28T15:20:00+09:00",
+      "dt": "2026-05-28 15:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "블랙록 IBIT서 하루만 5.3억弗 순유출"
+      ],
+      "hash": "ed2b3c0c82b3"
+    },
     {
       "title": "닥사, API Key 부당대여 방지 표준안 마련…\"의심 시 강제 만료\"",
       "url": "https://www.hankyung.com/article/202605284459B",
@@ -355,20 +371,21 @@
       "hash": "129169dc4bdd"
     },
     {
-      "title": "애드포러스 \"온더플래닛 인수해 브랜드 전략 컨설팅 사업 진출\"",
-      "url": "https://www.hankyung.com/article/2026052833016",
-      "summary": "애드포러스가 브랜드 전략 컨설팅 기업 온더플래닛의 지분 52%를 취득해 브랜드 전략 솔루션을 제공하는 비즈니스 컨설팅 분야로 진출한다고 28일 공시했다.온더플래닛은 2020년 설립 이후 연평균 140% 이상의 매출 성장률을 기록했으며, 2025년 대한민국 디지털 광고 ...",
-      "datetime_raw": "2026.05.28 08:52",
-      "datetime": "2026-05-28T08:52:00+09:00",
-      "dt": "2026-05-28 08:52",
+      "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
+      "url": "https://www.hankyung.com/article/2026052725641",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "온더플래닛 인수해 브랜드 전략 컨설팅 사업 진출"
+        "비장의 카드",
+        "예금 넣었는데 연 10%"
       ],
-      "hash": "adc6a4ca8a56"
+      "hash": "b440e0c94e78"
     },
     {
       "title": "'90만원 넘게 주고도 못 구할 지경'…9살부터 30대까지 열광",
@@ -385,23 +402,6 @@
         "90만원 넘게 주고도 못 구할 지경"
       ],
       "hash": "7a94c5a936cf"
-    },
-    {
-      "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
-      "url": "https://www.hankyung.com/article/2026052725641",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비장의 카드",
-        "예금 넣었는데 연 10%"
-      ],
-      "hash": "b440e0c94e78"
     },
     {
       "title": "\"손실 보며 거래량 부풀렸다\"…'삼전닉스 레버리지 ETF' 의혹",
@@ -438,8 +438,8 @@
       "hash": "36f136136daf"
     },
     {
-      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
-      "url": "https://www.hankyung.com/article/2026052695876",
+      "title": "등골 오싹한 '유령도시' 됐다…텅텅 빈 세종시 상권",
+      "url": "https://www.hankyung.com/article/2026052716507",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -449,10 +449,25 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "스벅",
-        "초비상"
+        "유령도시"
       ],
-      "hash": "2b36dc67654c"
+      "hash": "a9005dfbd3d7"
+    },
+    {
+      "title": "애드포러스 \"온더플래닛 인수해 브랜드 전략 컨설팅 사업 진출\"",
+      "url": "https://www.hankyung.com/article/2026052833016",
+      "summary": "애드포러스가 브랜드 전략 컨설팅 기업 온더플래닛의 지분 52%를 취득해 브랜드 전략 솔루션을 제공하는 비즈니스 컨설팅 분야로 진출한다고 28일 공시했다.온더플래닛은 2020년 설립 이후 연평균 140% 이상의 매출 성장률을 기록했으며, 2025년 대한민국 디지털 광고 ...",
+      "datetime_raw": "2026.05.28 08:52",
+      "datetime": "2026-05-28T08:52:00+09:00",
+      "dt": "2026-05-28 08:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "온더플래닛 인수해 브랜드 전략 컨설팅 사업 진출"
+      ],
+      "hash": "adc6a4ca8a56"
     },
     {
       "title": "\"롯데관광개발, 마카오 대비 회원 서비스 경쟁력 우수\"-다올",
@@ -1099,24 +1114,6 @@
         "코스피"
       ],
       "hash": "8cf283a9045f"
-    },
-    {
-      "title": "\"대웅제약, 톡신·디지털헬스 본격화…목표주가 21만원\"-KB",
-      "url": "https://www.hankyung.com/article/2026052707066",
-      "summary": "KB증권은 27일 대웅제약에 대해 \"보툴리눔 톡신의 글로벌 시장 침투가 빨라지고 있고 디지털 헬스케어 사업도 본격적인 매출 기여 구간에 진입했다\"며 투자의견 '매수'와 목표주가 21만원을 제시하며 기업분석을 개시했다.신지훈 KB증권 연구원은 \"미국 파트너...",
-      "datetime_raw": "2026.05.27 08:36",
-      "datetime": "2026-05-27T08:36:00+09:00",
-      "dt": "2026-05-27 08:36",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "대웅제약"
-      ],
-      "hash": "8f8b6735decf"
     }
   ],
   "consensus_signals": []

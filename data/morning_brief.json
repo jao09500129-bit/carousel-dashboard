@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-28 15:01 KST",
+  "as_of": "2026-05-28 16:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
+    "블랙록 IBIT서 하루만 5.3억弗 순유출…출시 후 최대 규모 (2026-05-28 15:20)",
     "닥사, API Key 부당대여 방지 표준안 마련…\"의심 시 강제 만료\" (2026-05-28 14:42)",
-    "요즘 다시 달리는 이차전지…'실적 바닥론' 나오는 이유는 (2026-05-28 13:55)",
-    "시트레아, 자체 토큰 CTR 공개 (2026-05-28 13:39)"
+    "요즘 다시 달리는 이차전지…'실적 바닥론' 나오는 이유는 (2026-05-28 13:55)"
   ],
   "carousel_implications": {
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
@@ -46,16 +46,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.52% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.47% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.52%"
+        "trigger_value": "+0.47%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-28T15:01:07.012044+09:00",
+    "collected_at": "2026-05-28T16:01:17.166448+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,504.93",
-            "chg": "7.80",
-            "chg_pct": "+0.52%"
+            "close": "1,504.23",
+            "chg": "7.10",
+            "chg_pct": "+0.47%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,744.23",
-            "chg": "3.60",
-            "chg_pct": "+0.21%"
+            "close": "1,746.56",
+            "chg": "5.93",
+            "chg_pct": "+0.34%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "943.12",
-            "chg": "4.51",
+            "close": "943.13",
+            "chg": "4.52",
             "chg_pct": "+0.48%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "221.99",
-            "chg": "1.40",
-            "chg_pct": "+0.63%"
+            "close": "221.87",
+            "chg": "1.28",
+            "chg_pct": "+0.58%"
           }
         ]
       },
