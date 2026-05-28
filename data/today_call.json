@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-05-28T13:01:08.143985+09:00",
+  "computed_at": "2026-05-28T15:01:07.012044+09:00",
   "action_headline": "에너지 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
     "브렌트 -4.57% — 에너지 회전축",
-    "Market Mood 58/100 (NEUTRAL)"
+    "Market Mood 60/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
