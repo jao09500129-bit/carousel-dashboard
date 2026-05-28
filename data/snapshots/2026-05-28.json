@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-28T10:21:41.874243+09:00",
+  "collected_at": "2026-05-28T11:01:07.197265+09:00",
   "date": "2026-05-28",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,20 +9,20 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 12,
-    "target_price_up": 7,
+    "with_broker_mention": 11,
+    "target_price_up": 6,
     "target_price_down": 0,
     "top_brokers": [
-      [
-        "KB",
-        3
-      ],
       [
         "키움",
         2
       ],
       [
         "다올",
+        2
+      ],
+      [
+        "KB",
         2
       ],
       [
@@ -44,6 +44,22 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피, 장중 8100선 약세 지속…코스닥 3%대 급락",
+      "url": "https://www.hankyung.com/article/2026052838216",
+      "summary": "코스피지수가 28일 장중 외국인 투자자의 매도세에 약세 흐름을 이어가고 있다. 미군이 호르무즈해협 인근에서 대이란 군사 행동에 나서면서 긴장 수위가 다시 높아진 상황 속 최근 지수가 급등한 데 따른 부담감이 맞물린 영향으로 보인다.이날 오전 10시39분 현재 코스피지수...",
+      "datetime_raw": "2026.05.28 10:50",
+      "datetime": "2026-05-28T10:50:00+09:00",
+      "dt": "2026-05-28 10:50",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "ac389c506ee1"
+    },
     {
       "title": "'왕홍 덤핑' 거절한 달바의 배짱 통했다…'깜짝 주인공' 등극",
       "url": "https://www.hankyung.com/article/202605272106i",
@@ -365,22 +381,6 @@
       "hash": "e25f82af4713"
     },
     {
-      "title": "한국전력 올해 영업이익 반토막 전망…자회사 한전KPS는 목표가 상향",
-      "url": "https://www.hankyung.com/article/202605272018i",
-      "summary": "증권가가 한전KPS의 목표주가는 올리는 반면 한국전력의 목표가는 낮추고 있다. 한전KPS는 한국전력의 발전설비 정비 자회사다. 세계적으로 원전 수명 연장 기조가 확산하면서 원전 정비 시장이 커져 한전KPS의 전망이 밝아지고 있지만, 한국전력은...",
-      "datetime_raw": "2026.05.28 08:00",
-      "datetime": "2026-05-28T08:00:00+09:00",
-      "dt": "2026-05-28 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": "up",
-      "target_change_pct": null,
-      "keywords": [
-        "한국전력 올해 영업이익 반토막 전망"
-      ],
-      "hash": "3b7b6b096838"
-    },
-    {
       "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
       "url": "https://www.hankyung.com/article/2026052695876",
       "summary": "",
@@ -462,6 +462,22 @@
         "전라도 갈 땐 숟가락 챙기라"
       ],
       "hash": "e43c37a9465e"
+    },
+    {
+      "title": "한국전력 올해 영업이익 반토막 전망…자회사 한전KPS는 목표가 상향",
+      "url": "https://www.hankyung.com/article/202605272018i",
+      "summary": "증권가가 한전KPS의 목표주가는 올리는 반면 한국전력의 목표가는 낮추고 있다. 한전KPS는 한국전력의 발전설비 정비 자회사다. 세계적으로 원전 수명 연장 기조가 확산하면서 원전 정비 시장이 커져 한전KPS의 전망이 밝아지고 있지만, 한국전력은...",
+      "datetime_raw": "2026.05.28 08:00",
+      "datetime": "2026-05-28T08:00:00+09:00",
+      "dt": "2026-05-28 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": "up",
+      "target_change_pct": null,
+      "keywords": [
+        "한국전력 올해 영업이익 반토막 전망"
+      ],
+      "hash": "3b7b6b096838"
     },
     {
       "title": "\"현대차, 피지컬 AI 대표 주자…목표가 120만원으로 상향\"-KB",
@@ -1113,59 +1129,7 @@
         "SK하이닉스"
       ],
       "hash": "6baa6832ad11"
-    },
-    {
-      "title": "\"삼성전기, MLCC·패키징 기판 일류 기업…목표가 220만원\"-KB",
-      "url": "https://www.hankyung.com/article/2026052705176",
-      "summary": "KB증권은 27일 삼성전기에 대해 \"인공지능(AI) 핵심 부품인 적층세라믹커패시터(MLCC)와 패키징 기판, 두 분야에서 모두 일류인 기업\"이라며 목표주가를 기존 160만원에서 220만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 이창민...",
-      "datetime_raw": "2026.05.27 08:02",
-      "datetime": "2026-05-27T08:02:00+09:00",
-      "dt": "2026-05-27 08:02",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 37.5,
-      "keywords": [
-        "삼성전기"
-      ],
-      "hash": "6c2f879d3234"
     }
   ],
-  "consensus_signals": [
-    {
-      "keyword": "삼성전기",
-      "n_brokers": 2,
-      "brokers": [
-        "KB",
-        "다올"
-      ],
-      "ups": 2,
-      "downs": 0,
-      "items": [
-        {
-          "title": "\"삼성전기, MLCC·FC-BGA 동시 호황 수혜…목표가 230만원\"-다올",
-          "url": "https://www.hankyung.com/article/2026052831876",
-          "brokers": [
-            "다올"
-          ],
-          "target_action": "up",
-          "opinion": "매수",
-          "datetime": "2026-05-28T08:23:00+09:00"
-        },
-        {
-          "title": "\"삼성전기, MLCC·패키징 기판 일류 기업…목표가 220만원\"-KB",
-          "url": "https://www.hankyung.com/article/2026052705176",
-          "brokers": [
-            "KB"
-          ],
-          "target_action": "up",
-          "opinion": "매수",
-          "datetime": "2026-05-27T08:02:00+09:00"
-        }
-      ],
-      "avg_target_change_pct": 45.42
-    }
-  ]
+  "consensus_signals": []
 }
