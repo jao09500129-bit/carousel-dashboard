@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-28T13:01:08.143985+09:00",
+  "collected_at": "2026-05-28T15:01:07.012044+09:00",
   "date": "2026-05-28",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,8 +9,8 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 10,
-    "target_price_up": 5,
+    "with_broker_mention": 8,
+    "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -32,18 +32,76 @@
       [
         "삼성",
         1
-      ],
-      [
-        "미래에셋",
-        1
-      ],
-      [
-        "DB",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "닥사, API Key 부당대여 방지 표준안 마련…\"의심 시 강제 만료\"",
+      "url": "https://www.hankyung.com/article/202605284459B",
+      "summary": "디지털자산거래소 공동협의체(닥사·DAXA)가 가상자산(암호화폐) 거래소 이용자의 API Key 부당대여 행위를 방지하기 위한 표준안을 마련했다고 28일 밝혔다.API Key는 이용자가 외부 프로그램과 연동해 시세 조회와 주문, 입출금 등의 기능을 사용할 수 있도록 하는...",
+      "datetime_raw": "2026.05.28 14:42",
+      "datetime": "2026-05-28T14:42:00+09:00",
+      "dt": "2026-05-28 14:42",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "닥사",
+        "의심 시 강제 만료"
+      ],
+      "hash": "602da2636503"
+    },
+    {
+      "title": "요즘 다시 달리는 이차전지…'실적 바닥론' 나오는 이유는",
+      "url": "https://www.hankyung.com/article/202605284224i",
+      "summary": "1. 이차전지 업종 및 대표 기업 최근 주가 동향업종 시가총액 현황 (27일 기준)이차전지 업종은 총 104개 기업으로 구성되어 있으며, 상위 20개 기업의 시가총액 현황은 다음과 같다.대표 3사 주간 주가 흐름 요약대표 3사의 최근 주가 흐름은 ...",
+      "datetime_raw": "2026.05.28 13:55",
+      "datetime": "2026-05-28T13:55:00+09:00",
+      "dt": "2026-05-28 13:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "실적 바닥론",
+        "요즘 다시 달리는 이차전지"
+      ],
+      "hash": "56af5d5e3f38"
+    },
+    {
+      "title": "시트레아, 자체 토큰 CTR 공개",
+      "url": "https://www.hankyung.com/article/2026052837276",
+      "summary": "비트코인 레이어2 프로젝트 시트레아(Citrea)가 자체 토큰 'CTR'을 공개했다고 블루밍비트가 28일 보도했다.블루밍비트에 따르면 시트레아는 지난 26일 CTR 출시와 함께 생태계 확장 방향, 주요 인프라 계획등을 공개했다. 시트레아는 비트코인 네트워...",
+      "datetime_raw": "2026.05.28 13:39",
+      "datetime": "2026-05-28T13:39:00+09:00",
+      "dt": "2026-05-28 13:39",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "시트레아"
+      ],
+      "hash": "ea5f294e8e4b"
+    },
+    {
+      "title": "코스피, 장중 8000선 붕괴…3%대 급락",
+      "url": "https://www.hankyung.com/article/2026052842086",
+      "summary": "코스피지수가 28일 장중 4% 넘게 급락해 7800선까지 밀렸다. 미국·이란 종전 협상이 막바지에 다다른 상황 속 두 국가의 군사적 충돌 소식이 전해지자 투자심리가 급격히 냉각된 모습이다. 외국인 투자자는 대장주 삼성전자·SK하이닉스를 비롯해 ...",
+      "datetime_raw": "2026.05.28 13:10",
+      "datetime": "2026-05-28T13:10:00+09:00",
+      "dt": "2026-05-28 13:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "6d6094e555a2"
+    },
     {
       "title": "\"하닉보다 덜 올랐네\"...삼성전자 담는 1% 초고수",
       "url": "https://www.hankyung.com/article/202605283075i",
@@ -146,18 +204,18 @@
       "hash": "0bf26d095abb"
     },
     {
-      "title": "코스피 장중 소폭 반등...이차전지·완성차는 강세, 반도체는 혼조 [마켓라이브]",
+      "title": "코스피, 장중 8000선 붕괴…미·이란 재충돌에 외국인 2.9조 순매도 [마켓라이브]",
       "url": "https://www.hankyung.com/article/202605283072i",
-      "summary": "코스피 0.23% 소폭 상승… 이차전지 강세에 반도체 차익실현 압력 지속 (오전 10시)🕘 장중 반등… 이차전지 급등에 반도체 차익실현 혼재오전 10시 기준, 한국 증시는 장 초반 급락 후 빠르게 반등하며 혼조세를 보이고 있습니다. 코스피는 0...",
+      "summary": "코스피 3.62% 급락… 미·이란 재충돌에 외국인 2.9조 원 순매도 (오후 2시)🕘 지정학 리스크 재확대… 외국인 매도세 급증에 반도체 급락오후 2시 기준, 한국 증시는 미국의 이란 재공습과 이란 혁명수비대의 보복 공격 소식에 급...",
       "datetime_raw": "2026.05.28 09:25",
       "datetime": "2026-05-28T09:25:00+09:00",
       "dt": "2026-05-28 09:25",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "코스피 장중 소폭 반등...이차전지"
+        "코스피"
       ],
       "hash": "49c12a1e5451"
     },
@@ -313,6 +371,90 @@
       "hash": "adc6a4ca8a56"
     },
     {
+      "title": "'90만원 넘게 주고도 못 구할 지경'…9살부터 30대까지 열광",
+      "url": "https://www.hankyung.com/article/2026052722027",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "90만원 넘게 주고도 못 구할 지경"
+      ],
+      "hash": "7a94c5a936cf"
+    },
+    {
+      "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
+      "url": "https://www.hankyung.com/article/2026052725641",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비장의 카드",
+        "예금 넣었는데 연 10%"
+      ],
+      "hash": "b440e0c94e78"
+    },
+    {
+      "title": "\"손실 보며 거래량 부풀렸다\"…'삼전닉스 레버리지 ETF' 의혹",
+      "url": "https://www.hankyung.com/article/202605271875i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스 레버리지 ETF",
+        "손실 보며 거래량 부풀렸다"
+      ],
+      "hash": "5297c9760ba7"
+    },
+    {
+      "title": "삼성 노조위원장 \"500만원 수당받은 건 사실…금액 한도 둘 것\"",
+      "url": "https://www.hankyung.com/article/202605271940g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "500만원 수당받은 건 사실…금액 한도 둘 것",
+        "삼성 노조위원장 \"500만원 수당받은 건 사실"
+      ],
+      "hash": "36f136136daf"
+    },
+    {
+      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
+      "url": "https://www.hankyung.com/article/2026052695876",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스벅",
+        "초비상"
+      ],
+      "hash": "2b36dc67654c"
+    },
+    {
       "title": "\"롯데관광개발, 마카오 대비 회원 서비스 경쟁력 우수\"-다올",
       "url": "https://www.hankyung.com/article/2026052832836",
       "summary": "다올투자증권은 28일 롯데관광개발에 대해 마카오 대비 경쟁력 있는 콤푸와 자체 영업력을 기반으로 멤버십이 지속적으로 증가하는 추세라며 투자의견 ‘매수’, 목표주가 2만9000원을 유지했다.김혜영 다올투자증권 연구원은 “롯데관광개발의 비즈...",
@@ -379,90 +521,6 @@
         "삼성전기"
       ],
       "hash": "2d88cfbb2c41"
-    },
-    {
-      "title": "\"손실 보며 거래량 부풀렸다\"…'삼전닉스 레버리지 ETF' 의혹",
-      "url": "https://www.hankyung.com/article/202605271875i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 레버리지 ETF",
-        "손실 보며 거래량 부풀렸다"
-      ],
-      "hash": "5297c9760ba7"
-    },
-    {
-      "title": "'90만원 넘게 주고도 못 구할 지경'…9살부터 30대까지 열광",
-      "url": "https://www.hankyung.com/article/2026052722027",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "90만원 넘게 주고도 못 구할 지경"
-      ],
-      "hash": "7a94c5a936cf"
-    },
-    {
-      "title": "'스벅' 논란에 국민연금도 움직이나…2700억 증발 '초비상'",
-      "url": "https://www.hankyung.com/article/2026052695876",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스벅",
-        "초비상"
-      ],
-      "hash": "2b36dc67654c"
-    },
-    {
-      "title": "삼성 노조위원장 \"500만원 수당받은 건 사실…금액 한도 둘 것\"",
-      "url": "https://www.hankyung.com/article/202605271940g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "500만원 수당받은 건 사실…금액 한도 둘 것",
-        "삼성 노조위원장 \"500만원 수당받은 건 사실"
-      ],
-      "hash": "36f136136daf"
-    },
-    {
-      "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
-      "url": "https://www.hankyung.com/article/2026052725641",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비장의 카드",
-        "예금 넣었는데 연 10%"
-      ],
-      "hash": "b440e0c94e78"
     },
     {
       "title": "\"AI 전환에 몸값 달라졌네\"…대기업 SI 3사, 동반 급등 [종목+]",
@@ -1059,75 +1117,6 @@
         "대웅제약"
       ],
       "hash": "8f8b6735decf"
-    },
-    {
-      "title": "\"삼성전자, 내년 영업익 500조 가능성…주가 여전히 저평가\"-미래",
-      "url": "https://www.hankyung.com/article/2026052707216",
-      "summary": "미래에셋증권은 27일 삼성전자에 대해 \"삼성전자의 주가를 글로벌 경쟁사들과 비교하면 여전히 저평가 상태\"라며 \"삼성전자의 주가 수준을 실적과 비교한 지표(PBR·PER)는 미국 마이크론, 일본 키옥시아 등 주요 메모리 업체 평균보다 크게 낮다\"라고 짚었다....",
-      "datetime_raw": "2026.05.27 08:33",
-      "datetime": "2026-05-27T08:33:00+09:00",
-      "dt": "2026-05-27 08:33",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자"
-      ],
-      "hash": "acb1eca76f92"
-    },
-    {
-      "title": "\"HD현대중공업, 데이터센터용 엔진 재평가 기대…목표가↑\"-DB",
-      "url": "https://www.hankyung.com/article/2026052705706",
-      "summary": "DB증권은 27일 HD현대중공업에 대해 \"데이터센터용 엔진 재평가(리레이팅)가 기대된다\"며 목표주가를 기존 80만원에서 100만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 서재호 연구원은 \"HD현대중공업은 지난 4월21일 미국 에너지 ...",
-      "datetime_raw": "2026.05.27 08:26",
-      "datetime": "2026-05-27T08:26:00+09:00",
-      "dt": "2026-05-27 08:26",
-      "brokers": [
-        "DB"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 25.0,
-      "keywords": [
-        "HD현대중공업"
-      ],
-      "hash": "d72832c62874"
-    },
-    {
-      "title": "주가 30% 폭락 쇼크…회장님 80억 베팅하더니 '반전' [종목+]",
-      "url": "https://www.hankyung.com/article/2026052704946",
-      "summary": "올 1분기 실적 충격파로 휘청인 한미반도체 주가가 반등 시도에 나서고 있다. 증권가에선 신규 모멘텀이 기대된다며 주가 'V자 반등'을 예상하고 있다.27일 한국거래소에 따르면 전날 한미반도체는 직전일 대비 2.65% 오른 32만9000원에 거래를 마쳤다....",
-      "datetime_raw": "2026.05.27 08:17",
-      "datetime": "2026-05-27T08:17:00+09:00",
-      "dt": "2026-05-27 08:17",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "반전",
-        "주가 30% 폭락 쇼크"
-      ],
-      "hash": "b2b331cd2bdb"
-    },
-    {
-      "title": "1년새 주가 13배 '껑충'…삼성전기, 투자전략은?",
-      "url": "https://www.hankyung.com/article/202605269354i",
-      "summary": "증권사 리포트 종합1분기 확정 실적 분석 — 창사 최초 분기 매출 3조원 돌파삼성전기는 1분기(2026년 1월 1일~3월 31일) 연결 기준 매출 3조 2,091억원, 영업이익 2,806억원을 기록했다.전년 동기 대비 매출은 17%(4,705억원), 영업이익...",
-      "datetime_raw": "2026.05.27 08:15",
-      "datetime": "2026-05-27T08:15:00+09:00",
-      "dt": "2026-05-27 08:15",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "껑충"
-      ],
-      "hash": "2727fc6c385f"
     }
   ],
   "consensus_signals": []

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-28T13:01:08.143985+09:00",
+  "collected_at": "2026-05-28T15:01:07.012044+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -69,30 +69,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,508.30",
-          "chg": "11.17",
-          "chg_pct": "+0.75%"
+          "close": "1,504.93",
+          "chg": "7.80",
+          "chg_pct": "+0.52%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,750.17",
-          "chg": "9.54",
-          "chg_pct": "+0.55%"
+          "close": "1,744.23",
+          "chg": "3.60",
+          "chg_pct": "+0.21%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "945.79",
-          "chg": "7.18",
-          "chg_pct": "+0.76%"
+          "close": "943.12",
+          "chg": "4.51",
+          "chg_pct": "+0.48%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "222.72",
-          "chg": "2.13",
-          "chg_pct": "+0.97%"
+          "close": "221.99",
+          "chg": "1.40",
+          "chg_pct": "+0.63%"
         }
       ]
     },
@@ -149,16 +149,16 @@
         {
           "name": "국고10년",
           "symbol": "KR10Y",
-          "close": "4.10",
+          "close": "4.13",
           "chg": "0.03",
           "chg_pct": "+0.71%"
         },
         {
           "name": "국고3년",
           "symbol": "KR3Y",
-          "close": "3.71",
-          "chg": "0.05",
-          "chg_pct": "+1.28%"
+          "close": "3.75",
+          "chg": "0.04",
+          "chg_pct": "+1.10%"
         },
         {
           "name": "미국 국채 10년",
