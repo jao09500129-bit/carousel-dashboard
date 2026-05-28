@@ -1,38 +1,38 @@
 {
-  "as_of": "2026-05-28 16:01 KST",
+  "as_of": "2026-05-28 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "종전 기대감에 3대지수 사상 최고치 마감…반도체는 '숨고르기' [뉴욕증시 브리핑]",
+  "headline": "\"반도체주, 닷컴버블 후 최고 성과…필라델피아 반도체지수 75%↑\"",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "종전 기대감에 3대지수 사상 최고치 마감…반도체는 '숨고르기' [뉴욕증시 브리핑]",
+      "title": "\"반도체주, 닷컴버블 후 최고 성과…필라델피아 반도체지수 75%↑\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026052830346"
+      "url": "https://www.hankyung.com/article/2026052848477"
     },
     {
-      "title": "호즈무르 곧 열린다?…골드만 8000 vs BoA \"여름 조정\" [김현석의 월스트리트나우]",
+      "title": "호즈무르 곧 열린다?…골드만 \"8000\" vs BoA \"여름 조정\" [김현석의 월스트리트나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202605282918i"
     },
     {
-      "title": "이란 \"농축우라늄·호르무즈는 레드라인\"…트럼프 압박에 맞대응",
+      "title": "일본 제조업 뭉쳤다…소프트뱅크 중심 '국산 AI 연합' 시동 [도쿄나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026052830287"
+      "url": "https://www.hankyung.com/article/202605283170i"
     },
     {
-      "title": "이란전 남은 과제 3가지…가장 민감한 것은 역시 '돈 문제' [이상은의 워싱턴나우]",
+      "title": "美 모기지금리 9개월 만에 최고치…소비자 심리 위축에 '찬물' 더해 [Fed워치]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202605282935i"
+      "url": "https://www.hankyung.com/article/202605282979i"
     }
   ],
   "today_kr_focus": [
-    "블랙록 IBIT서 하루만 5.3억弗 순유출…출시 후 최대 규모 (2026-05-28 15:20)",
-    "닥사, API Key 부당대여 방지 표준안 마련…\"의심 시 강제 만료\" (2026-05-28 14:42)",
-    "요즘 다시 달리는 이차전지…'실적 바닥론' 나오는 이유는 (2026-05-28 13:55)"
+    "삼전닉스 앞질렀다…삼성전기·LG이노텍 '무서운 질주' [종목+] (2026-05-28 22:00)",
+    "비트코인, 美·이란 충돌에 7만3000달러대 후퇴…\"반등보다 하방 관리 구간\" [강민승의 트레이드나우] (2026-05-28 18:44)",
+    "삼전닉스 레버리지ETF의 함정 [한경 프리미엄9 TODAY] (2026-05-28 17:55)"
   ],
   "carousel_implications": {
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
@@ -43,19 +43,12 @@
         "confidence": "낮음 — 변동성 자체가 검증 까다로움",
         "trigger_metric": "브렌트",
         "trigger_value": "-4.57%"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.47% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "+0.47%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-28T16:01:17.166448+09:00",
+    "collected_at": "2026-05-28T23:10:55.673297+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -92,16 +85,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "64,999.41",
-            "chg": "3.32",
-            "chg_pct": "+0.01%"
+            "close": "64,693.12",
+            "chg": "306.29",
+            "chg_pct": "-0.47%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "44,256.80",
-            "chg": "731.43",
-            "chg_pct": "+1.68%"
+            "close": "43,636.44",
+            "chg": "620.36",
+            "chg_pct": "-1.40%"
           },
           {
             "name": "독일",
@@ -113,9 +106,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "25,328.23",
-            "chg": "271.22",
-            "chg_pct": "-1.06%"
+            "close": "25,006.16",
+            "chg": "322.07",
+            "chg_pct": "-1.27%"
           }
         ]
       },
@@ -125,30 +118,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,504.23",
-            "chg": "7.10",
-            "chg_pct": "+0.47%"
+            "close": "1,500.76",
+            "chg": "3.63",
+            "chg_pct": "+0.24%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,746.56",
-            "chg": "5.93",
-            "chg_pct": "+0.34%"
+            "close": "1,745.05",
+            "chg": "4.42",
+            "chg_pct": "+0.25%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "943.13",
-            "chg": "4.52",
-            "chg_pct": "+0.48%"
+            "close": "941.16",
+            "chg": "2.55",
+            "chg_pct": "+0.27%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "221.87",
-            "chg": "1.28",
-            "chg_pct": "+0.58%"
+            "close": "221.38",
+            "chg": "0.79",
+            "chg_pct": "+0.36%"
           }
         ]
       },
@@ -205,16 +198,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.13",
-            "chg": "0.03",
-            "chg_pct": "+0.71%"
+            "close": "4.15",
+            "chg": "0.05",
+            "chg_pct": "+1.10%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.75",
-            "chg": "0.04",
-            "chg_pct": "+1.10%"
+            "close": "3.77",
+            "chg": "0.06",
+            "chg_pct": "+1.48%"
           },
           {
             "name": "미국 국채 10년",
