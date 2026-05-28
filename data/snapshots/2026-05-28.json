@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-28T16:01:17.166448+09:00",
+  "collected_at": "2026-05-28T23:10:55.673297+09:00",
   "date": "2026-05-28",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 7,
+    "with_broker_mention": 8,
     "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
@@ -20,6 +20,10 @@
       [
         "다올",
         2
+      ],
+      [
+        "신한",
+        1
       ],
       [
         "메리츠",
@@ -36,6 +40,156 @@
     ]
   },
   "items": [
+    {
+      "title": "삼전닉스 앞질렀다…삼성전기·LG이노텍 '무서운 질주' [종목+]",
+      "url": "https://www.hankyung.com/article/2026052848226",
+      "summary": "반도체 기판주 삼성전기와 LG이노텍 주가가 끝 모를 상승세를 이어가고 있다. 글로벌 인공지능(AI) 인프라 투자 확대로 반도체 기판 수요가 폭발적으로 늘어나면서 실적 개선 기대가 커지고 있기 때문이다. 증권가에서는 이들 주가가 최근 가파르게 뛰었음에도 실적 성장세를 감...",
+      "datetime_raw": "2026.05.28 22:00",
+      "datetime": "2026-05-28T22:00:00+09:00",
+      "dt": "2026-05-28 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "무서운 질주",
+        "삼전닉스 앞질렀다"
+      ],
+      "hash": "d636ab7d1791"
+    },
+    {
+      "title": "비트코인, 美·이란 충돌에 7만3000달러대 후퇴…\"반등보다 하방 관리 구간\" [강민승의 트레이드나우]",
+      "url": "https://www.hankyung.com/article/202605285253B",
+      "summary": "미국과 이란의 종전 기대에도 군사 충돌이 재격화하고 전쟁발(發) 인플레이션에 따른 금리 불확실성이 맞물리며 비트코인(BTC) 하방 압력이 이어지고 있다. 전문가들은 7만4000달러선 회복 여부를 기준으로 단기 반등과 추가 하락 시나리오가 갈릴 수 있다고 보고 있다. 현...",
+      "datetime_raw": "2026.05.28 18:44",
+      "datetime": "2026-05-28T18:44:00+09:00",
+      "dt": "2026-05-28 18:44",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비트코인",
+        "반등보다 하방 관리 구간"
+      ],
+      "hash": "2cc9134b5975"
+    },
+    {
+      "title": "삼전닉스 레버리지ETF의 함정 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026052851401",
+      "summary": "삼전닉스 레버리지ETF의 함정삼성전자와 SK하이닉스의 단일 종목 레버리지 상장지수펀드(ETF)가 화제를 모으고 있다. 투자 다양성을 넓히는 긍정적 측면이 있지만 사람들이 잘 모르는 위험성도 내포하고 있다. 신성호 한국경제신문 지수데이터부 부장이 레버리지 ET...",
+      "datetime_raw": "2026.05.28 17:55",
+      "datetime": "2026-05-28T17:55:00+09:00",
+      "dt": "2026-05-28 17:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "cfdc73a1f8f3"
+    },
+    {
+      "title": "위고비·마운자로 열풍에 ‘체중계’ 인바디 뜬다...“美 매출 1100억 전망”",
+      "url": "https://www.hankyung.com/article/202605283845i",
+      "summary": "위고비, 마운자로 등 GLP-1 계열 비만치료제 대중화로 체성분 관리에 대한 관심이 커지면서 국내 체성분 분석기 업체인 인바디의 기업가치가 재평가 받을 것이란 전망이 나왔다. 글로벌 체성분 분석 수요가 급증하면서 인바디의 실적 성장에 대한 기대가 커지고 있다....",
+      "datetime_raw": "2026.05.28 17:24",
+      "datetime": "2026-05-28T17:24:00+09:00",
+      "dt": "2026-05-28 17:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "체중계",
+        "위고비",
+        "美 매출 1100억 전망"
+      ],
+      "hash": "622efa76856b"
+    },
+    {
+      "title": "그들은 왜 한국 주식을 팔까?…﻿외국인 순매도에 대한 오해와 진실",
+      "url": "https://www.hankyung.com/article/202605284265i",
+      "summary": "홍성관 라이프자산운용 부사장 2026년 5월, 코스피가 사상 처음으로 8,000선을 돌파했다. 2024년 말 2,399.49 포인트였던 점을 고려하면 가히 상전벽해다. 삼성전자와 SK하이닉스를 필두로 한 AI 반도체 랠리가 지수를 끌어올렸고, 여의도에서는 코스...",
+      "datetime_raw": "2026.05.28 17:13",
+      "datetime": "2026-05-28T17:13:00+09:00",
+      "dt": "2026-05-28 17:13",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "그들은 왜 한국 주식을 팔까?"
+      ],
+      "hash": "21891b79907f"
+    },
+    {
+      "title": "지역난방공사·에스티팜, 기업가치 제고 우수기업으로 밸류업지수 특례편입",
+      "url": "https://www.hankyung.com/article/2026052848956",
+      "summary": "한국거래소는 지난 21일 주가지수운영위원회를 열고 코리아 밸류업 지수 구성종목 정기변경안을 심의하고, 27일 기업가치 제고 우수기업을 시상한 결과에 따라, 19개 종목이 지수에서 편출되고 20개 종목이 새롭게 편입된다고 28일 밝혔다.편입 종목이 1개 더 많은 이유는 ...",
+      "datetime_raw": "2026.05.28 16:54",
+      "datetime": "2026-05-28T16:54:00+09:00",
+      "dt": "2026-05-28 16:54",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "지역난방공사"
+      ],
+      "hash": "50ee51c2ed93"
+    },
+    {
+      "title": "코스피지수, 하루새 412p 들썩…'삼전 2배' 5% 하락",
+      "url": "https://www.hankyung.com/article/202605284685i",
+      "summary": "코스피지수가 하루새 400포인트 넘게 출렁였다. 장중 '8천피'가 깨지기도 했지만 저가매수 수요가 몰리면서 낙폭을 줄였다. 삼성전자 단일종목 레버리지 상장지수펀드(ETF)는 5%대 하락했다. 28일 코스피지수는 전날보다 0.53% 내린 8185....",
+      "datetime_raw": "2026.05.28 16:17",
+      "datetime": "2026-05-28T16:17:00+09:00",
+      "dt": "2026-05-28 16:17",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전 2배",
+        "코스피지수"
+      ],
+      "hash": "d92c01dbcba7"
+    },
+    {
+      "title": "은행주, PBR보다는 ‘총주주환원금액’을 보라",
+      "url": "https://www.hankyung.com/article/202605284672i",
+      "summary": "은행주의 투자 지표로서 주가순자산비율(PBR)보다 총주주환원율(TSR)이 더 중요해지고 있다는 해석이 증권가에서 굳어지고 있다. 금융지주들이 총주주환원율 목표치를 더욱 높일 것이라는 관측도 나온다.28일 금융투자업계에 따르면 신한투자증권은 최근 발간한 은행업 분석 보고...",
+      "datetime_raw": "2026.05.28 16:07",
+      "datetime": "2026-05-28T16:07:00+09:00",
+      "dt": "2026-05-28 16:07",
+      "brokers": [
+        "신한"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "은행주",
+        "총주주환원금액"
+      ],
+      "hash": "863717d019b2"
+    },
+    {
+      "title": "코스피, 중동 긴장 속 낙폭 줄여 8180선 하락 마감…코스닥 2%대 급락",
+      "url": "https://www.hankyung.com/article/2026052845916",
+      "summary": "코스피지수가 28일 장중 4% 넘게 급락하는 등 극심한 변동성을 보인 끝에 8180선의 소폭 하락세로 마감했다. 장 막판 반도체주를 중심으로 저가 매수세가 유입되면서 낙폭을 상당분 만회했다.미국과 이란 간 군사적 긴장이 재차 고조된 가운데 지수 급등에 따른 부담감과 한...",
+      "datetime_raw": "2026.05.28 16:06",
+      "datetime": "2026-05-28T16:06:00+09:00",
+      "dt": "2026-05-28 16:06",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "3b43bc712b16"
+    },
     {
       "title": "블랙록 IBIT서 하루만 5.3억弗 순유출…출시 후 최대 규모",
       "url": "https://www.hankyung.com/article/202605284599B",
@@ -220,9 +374,92 @@
       "hash": "0bf26d095abb"
     },
     {
-      "title": "코스피, 장중 8000선 붕괴…미·이란 재충돌에 외국인 2.9조 순매도 [마켓라이브]",
+      "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
+      "url": "https://www.hankyung.com/article/2026052725641",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비장의 카드",
+        "예금 넣었는데 연 10%"
+      ],
+      "hash": "b440e0c94e78"
+    },
+    {
+      "title": "'90만원 넘게 주고도 못 구할 지경'…9살부터 30대까지 열광",
+      "url": "https://www.hankyung.com/article/2026052722027",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "90만원 넘게 주고도 못 구할 지경"
+      ],
+      "hash": "7a94c5a936cf"
+    },
+    {
+      "title": "등골 오싹한 '유령도시' 됐다…텅텅 빈 세종시 상권",
+      "url": "https://www.hankyung.com/article/2026052716507",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유령도시"
+      ],
+      "hash": "a9005dfbd3d7"
+    },
+    {
+      "title": "LG 구광모-젠슨 황, 한국서 만나 '피지컬 AI' 동맹 맺는다",
+      "url": "https://www.hankyung.com/article/202605284659i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "피지컬 AI",
+        "LG 구광모"
+      ],
+      "hash": "c7831059a38d"
+    },
+    {
+      "title": "'이재용 회장도 탄다'…벤츠 S클래스 꺾고 '1위' 등극한 車",
+      "url": "https://www.hankyung.com/article/202605272287g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1위",
+        "이재용 회장도 탄다"
+      ],
+      "hash": "dc7199dddf33"
+    },
+    {
+      "title": "반도체 혼조·외인 2.9조 순매도에도...코스피, 8000선 사수[마켓라이브]",
       "url": "https://www.hankyung.com/article/202605283072i",
-      "summary": "코스피 3.62% 급락… 미·이란 재충돌에 외국인 2.9조 원 순매도 (오후 2시)🕘 지정학 리스크 재확대… 외국인 매도세 급증에 반도체 급락오후 2시 기준, 한국 증시는 미국의 이란 재공습과 이란 혁명수비대의 보복 공격 소식에 급...",
+      "summary": "코스피 0.53% 하락 마감… 미·이란 재충돌에 외국인 2.9조 원 순매도 (장 마감)🕘 지정학 리스크 재확대… 외국인 대규모 매도에 반도체 약세오후 3시 30분 마감 기준, 한국 증시는 미국의 이란 재공습과 이란 혁명수비대의 보복...",
       "datetime_raw": "2026.05.28 09:25",
       "datetime": "2026-05-28T09:25:00+09:00",
       "dt": "2026-05-28 09:25",
@@ -231,7 +468,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "코스피"
+        "반도체 혼조"
       ],
       "hash": "49c12a1e5451"
     },
@@ -369,89 +606,6 @@
         "수익 2배 먹자"
       ],
       "hash": "129169dc4bdd"
-    },
-    {
-      "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
-      "url": "https://www.hankyung.com/article/2026052725641",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비장의 카드",
-        "예금 넣었는데 연 10%"
-      ],
-      "hash": "b440e0c94e78"
-    },
-    {
-      "title": "'90만원 넘게 주고도 못 구할 지경'…9살부터 30대까지 열광",
-      "url": "https://www.hankyung.com/article/2026052722027",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "90만원 넘게 주고도 못 구할 지경"
-      ],
-      "hash": "7a94c5a936cf"
-    },
-    {
-      "title": "\"손실 보며 거래량 부풀렸다\"…'삼전닉스 레버리지 ETF' 의혹",
-      "url": "https://www.hankyung.com/article/202605271875i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 레버리지 ETF",
-        "손실 보며 거래량 부풀렸다"
-      ],
-      "hash": "5297c9760ba7"
-    },
-    {
-      "title": "삼성 노조위원장 \"500만원 수당받은 건 사실…금액 한도 둘 것\"",
-      "url": "https://www.hankyung.com/article/202605271940g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "500만원 수당받은 건 사실…금액 한도 둘 것",
-        "삼성 노조위원장 \"500만원 수당받은 건 사실"
-      ],
-      "hash": "36f136136daf"
-    },
-    {
-      "title": "등골 오싹한 '유령도시' 됐다…텅텅 빈 세종시 상권",
-      "url": "https://www.hankyung.com/article/2026052716507",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "유령도시"
-      ],
-      "hash": "a9005dfbd3d7"
     },
     {
       "title": "애드포러스 \"온더플래닛 인수해 브랜드 전략 컨설팅 사업 진출\"",
@@ -965,155 +1119,6 @@
         "조이웍스앤코"
       ],
       "hash": "731edd4311a1"
-    },
-    {
-      "title": "삼성물산, 삼성전자 지분 가치 부각에 3%대 강세",
-      "url": "https://www.hankyung.com/article/2026052708776",
-      "summary": "삼성물산이 삼성전자 지분가치 부각에 동반 강세다.27일 오전 9시23분 현재 삼성물산은 전 거래일 대비 1만6000원(3.89%) 오른 42만7000원에 거래되고 있다. 같은 시간 삼성전자는 전 거래일 대비 1만4500원(4.85%) 뛴 31만3500원에 거래되고 있다...",
-      "datetime_raw": "2026.05.27 09:47",
-      "datetime": "2026-05-27T09:47:00+09:00",
-      "dt": "2026-05-27 09:47",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성물산"
-      ],
-      "hash": "318632f33832"
-    },
-    {
-      "title": "LG이노텍, 4거래일 연속 강세…장 초반 8%대 급등",
-      "url": "https://www.hankyung.com/article/2026052709476",
-      "summary": "LG이노텍이 인공지능(AI) 기판 공급 부족 수혜 기대감에 4거래일 연속 오름세를 이어가고 있다.27일 오전 9시15분 현재 LG이노텍은 전장 대비 8.71% 오른 116만1000원에 거래되고 있다.시장에서는 AI 데이터센터 투자 확대에 따른 고다층 반도체 기판 수요 ...",
-      "datetime_raw": "2026.05.27 09:46",
-      "datetime": "2026-05-27T09:46:00+09:00",
-      "dt": "2026-05-27 09:46",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "LG이노텍"
-      ],
-      "hash": "476e918de6f3"
-    },
-    {
-      "title": "'삼전닉스 레버리지' 첫날부터 불기둥…\"수익 2배\" 개미들 '환호'",
-      "url": "https://www.hankyung.com/article/2026052710206",
-      "summary": "삼성전자와 SK하이닉스 주가 흐름을 ±2배로 추종하는 단일종목 레버리지 상품이 상장 첫날부터 불을 뿜고 있다.27일 오전 9시17분 현재 KODEX 삼성전자단일종목레버리지는 기준가 대비 13.1% 오른 2만4485원에 거래되고 있다. TIGER 삼성전자단일...",
-      "datetime_raw": "2026.05.27 09:46",
-      "datetime": "2026-05-27T09:46:00+09:00",
-      "dt": "2026-05-27 09:46",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "환호",
-        "수익 2배",
-        "삼전닉스 레버리지"
-      ],
-      "hash": "d16f71c77f81"
-    },
-    {
-      "title": "\"삼성전기 오르니 동반 상승\"…삼성SDS, 장 초반 15% 급등",
-      "url": "https://www.hankyung.com/article/2026052710076",
-      "summary": "삼성SDS 주가가 27일 장 초반 급등세다. 인공지능(AI) 서버와 데이터센터 투자 확대의 직접 수혜주로 꼽히는 삼성전기의 주가가 최근 가파른 상승세를 보이는 가운데, 삼성SDS까지 'AI 수혜주'로 시장의 재평가를 받으며 동반 강세 흐름에 올랐다는 분석...",
-      "datetime_raw": "2026.05.27 09:45",
-      "datetime": "2026-05-27T09:45:00+09:00",
-      "dt": "2026-05-27 09:45",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기 오르니 동반 상승"
-      ],
-      "hash": "be2e40913813"
-    },
-    {
-      "title": "SK하이닉스, 시총 1조달러 달성…삼전 이어 두번째",
-      "url": "https://www.hankyung.com/article/2026052709856",
-      "summary": "SK하이닉스가 27일 시가총액 1조달러를 돌파했다. 이로써 글로벌 메모리반도체 빅3이 모두 시총 1조달러 클럽에 가입하게 됐다.이날 오전 9시35분 현재 SK하이닉스는 전일 대비 19만3000원(9.41%) 상승한 224만5000원에 거래되고 있다. 시초가는 11.06...",
-      "datetime_raw": "2026.05.27 09:34",
-      "datetime": "2026-05-27T09:34:00+09:00",
-      "dt": "2026-05-27 09:34",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "db35519b3ed1"
-    },
-    {
-      "title": "삼전닉스 나란히 폭등…코스피, 장중 8400선 '역대급 신기록'",
-      "url": "https://www.hankyung.com/article/2026052709096",
-      "summary": "코스피가 27일 장 초반 8400선을 넘어서며 신기록 행진을 이어가고 있다. 간밤 뉴욕증시에서 폭등한 마이크론테크놀로지를 따라 삼성전자와 SK하이닉스도 급등하면서다. 특히 장 초반부터 외국인의 매수세가 두드러지고 있다.27일 오전 9시10분 현재 코스피는 전일 대비 3...",
-      "datetime_raw": "2026.05.27 09:20",
-      "datetime": "2026-05-27T09:20:00+09:00",
-      "dt": "2026-05-27 09:20",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "역대급 신기록",
-        "삼전닉스 나란히 폭등"
-      ],
-      "hash": "1e391e932d6e"
-    },
-    {
-      "title": "'30만전자·224만닉스'… 코스피 2.25% 상승해 8228 '사상 최고' [마켓라이브]",
-      "url": "https://www.hankyung.com/article/202605270858i",
-      "summary": "코스피 2.25% 상승 마감… 반도체 5.65% 급등, 외국인 순매도 전환(장마감)🕘 반도체 강세 속 외국인 차익 실현 매물 출회5월 27일 오후 3시 30분 마감 기준, 한국 증시는 미국 마이크론의 폭등과 단일종목 레버리지 ETF 상장 기대감에 힘입어 상...",
-      "datetime_raw": "2026.05.27 09:15",
-      "datetime": "2026-05-27T09:15:00+09:00",
-      "dt": "2026-05-27 09:15",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사상 최고",
-        "30만전자"
-      ],
-      "hash": "2243dfc6330a"
-    },
-    {
-      "title": "급등장에 코스피 매수 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026052708656",
-      "summary": "코스피에서 프로그램 매수 호가 효력 일시정지(매수 사이드카)가 발동됐다. 올해 들어 10번째다.한국거래소는 이날 오전 9시6분께 코스피200선물 가격이 5% 이상 상승한 상태가 1분이상 지속되자 매수 사이드카를 발동했다.발동 당시 미니코스피200선물은 1333.5를 기...",
-      "datetime_raw": "2026.05.27 09:09",
-      "datetime": "2026-05-27T09:09:00+09:00",
-      "dt": "2026-05-27 09:09",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급등장에 코스피 매수 사이드카 발동"
-      ],
-      "hash": "84d9b55f07b5"
-    },
-    {
-      "title": "코스피, 2.42% 오른 8242.12 개장…삼전·하닉 ‘급등’",
-      "url": "https://www.hankyung.com/article/2026052708186",
-      "summary": "코스피가 급등 출발해 8200을 돌파했다. 간밤 뉴욕증시에서 폭등한 마이크론테크놀로지를 따라 삼성전자와 SK하이닉스도 급등하면서다.27일 코스피는 194,61포인트(2.42%) 오른 8242.12에 개장했다.삼성전자는 7.53% 오른 수준에서 시초가가 형성됐다.간밤 뉴...",
-      "datetime_raw": "2026.05.27 09:02",
-      "datetime": "2026-05-27T09:02:00+09:00",
-      "dt": "2026-05-27 09:02",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급등",
-        "코스피"
-      ],
-      "hash": "8cf283a9045f"
     }
   ],
   "consensus_signals": []
