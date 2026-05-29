@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-29T11:01:06.427807+09:00",
+  "collected_at": "2026-05-29T13:00:59.810544+09:00",
   "date": "2026-05-29",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -44,6 +44,22 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피, 종전 기대감에 장중 8400선 회복…LG씨엔에스 '上'",
+      "url": "https://www.hankyung.com/article/2026052963756",
+      "summary": "코스피지수가 미국-이란 종전 기대감에 장중 8400선을 회복했다. 코스닥지수는 사흘째 하락세다.29일 오전 11시5분 현재 코스피지수는 전일 대비 2.35% 오른 8377.86을 기록 중이다. 지수는 장 초반 한때 2.92% 뛴 8420선까지 오르면서 사상 최고가를 위...",
+      "datetime_raw": "2026.05.29 11:07",
+      "datetime": "2026-05-29T11:07:00+09:00",
+      "dt": "2026-05-29 11:07",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "ac531eadca2d"
+    },
     {
       "title": "코스피 1.59% 상승 중… 반도체·전자부품 강세, 외국인 매도세 지속 [오전10시 시황]",
       "url": "https://www.hankyung.com/article/202605296282i",
@@ -368,22 +384,6 @@
       "hash": "cea69578481a"
     },
     {
-      "title": "\"AI 인프라·반도체주 올라타라\"…특허기술이 선정한 포트폴리오 [인터뷰+]",
-      "url": "https://www.hankyung.com/article/2026052846906",
-      "summary": "\"장중 실시간으로 여러 종목을 추천하면 포트폴리오 수익률을 올릴 수 있습니다. 그러나 일반 투자자는 해당 포트폴리오를 따라오기 어렵습니다. '뉴지랭크'는 한경유레카에서 누구나 쉽게 투자할 수 있도록 현실적인 포트폴리오를 제공합니다.\"문호준 뉴지스탁 본부장...",
-      "datetime_raw": "2026.05.29 06:30",
-      "datetime": "2026-05-29T06:30:00+09:00",
-      "dt": "2026-05-29 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "AI 인프라"
-      ],
-      "hash": "85ddd0f4c04f"
-    },
-    {
       "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
       "url": "https://www.hankyung.com/article/2026052725641",
       "summary": "",
@@ -399,6 +399,23 @@
         "예금 넣었는데 연 10%"
       ],
       "hash": "b440e0c94e78"
+    },
+    {
+      "title": "LG 구광모-젠슨 황, 한국서 만나 '피지컬 AI' 동맹 맺는다",
+      "url": "https://www.hankyung.com/article/202605284659i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "피지컬 AI",
+        "LG 구광모"
+      ],
+      "hash": "c7831059a38d"
     },
     {
       "title": "등골 오싹한 '유령도시' 됐다…텅텅 빈 세종시 상권",
@@ -433,23 +450,6 @@
       "hash": "7a94c5a936cf"
     },
     {
-      "title": "LG 구광모-젠슨 황, 한국서 만나 '피지컬 AI' 동맹 맺는다",
-      "url": "https://www.hankyung.com/article/202605284659i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "피지컬 AI",
-        "LG 구광모"
-      ],
-      "hash": "c7831059a38d"
-    },
-    {
       "title": "수익률 8658%…9조원 굴리는 여의도 전설이 꼽은 차기 주도주",
       "url": "https://www.hankyung.com/article/202605283222i",
       "summary": "",
@@ -464,6 +464,22 @@
         "수익률 8658%"
       ],
       "hash": "e0da664cf3f5"
+    },
+    {
+      "title": "\"AI 인프라·반도체주 올라타라\"…특허기술이 선정한 포트폴리오 [인터뷰+]",
+      "url": "https://www.hankyung.com/article/2026052846906",
+      "summary": "\"장중 실시간으로 여러 종목을 추천하면 포트폴리오 수익률을 올릴 수 있습니다. 그러나 일반 투자자는 해당 포트폴리오를 따라오기 어렵습니다. '뉴지랭크'는 한경유레카에서 누구나 쉽게 투자할 수 있도록 현실적인 포트폴리오를 제공합니다.\"문호준 뉴지스탁 본부장...",
+      "datetime_raw": "2026.05.29 06:30",
+      "datetime": "2026-05-29T06:30:00+09:00",
+      "dt": "2026-05-29 06:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 인프라"
+      ],
+      "hash": "85ddd0f4c04f"
     },
     {
       "title": "외인 순매도, 넉달째 이어졌지만…규모 4조원대로 줄어",
@@ -1100,23 +1116,6 @@
         "녹십자"
       ],
       "hash": "de3131c0c860"
-    },
-    {
-      "title": "종전 기대감에 3대지수 사상 최고치 마감…반도체는 '숨고르기' [뉴욕증시 브리핑]",
-      "url": "https://www.hankyung.com/article/2026052830346",
-      "summary": "미국과 이란의 종전 협상 타결이 임박하고 호르무즈해협이 다시 열릴 것이란 기대감에 뉴욕증시의 주요 3대 지수가 27일(현지시간) 일제히 사상 최고치로 마감했다.이날 뉴욕증권거래소(NYSE)에서 다우존스30산업평균지수는 182.60포인트(0.36%) 오른 5만644.28...",
-      "datetime_raw": "2026.05.28 07:24",
-      "datetime": "2026-05-28T07:24:00+09:00",
-      "dt": "2026-05-28 07:24",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "숨고르기",
-        "종전 기대감에 3대지수 사상 최고치 마감"
-      ],
-      "hash": "5f0b3953b907"
     }
   ],
   "consensus_signals": []

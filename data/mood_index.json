@@ -1,18 +1,18 @@
 {
-  "computed_at": "2026-05-29T11:01:06.427807+09:00",
+  "computed_at": "2026-05-29T13:00:59.810544+09:00",
   "score": 70,
   "label": "GREED",
   "label_kr": "낙관적",
   "label_emoji": "😊",
   "components": {
-    "volatility": 52.1,
+    "volatility": 50.1,
     "divergence": 50,
     "target_up_ratio": 100.0,
     "publish_freq": 100,
     "rotation_velocity": 60
   },
   "raw": {
-    "vol_sum": 9.58,
+    "vol_sum": 9.98,
     "n_divergence": 0,
     "n_signals": 0,
     "target_up": 5,
