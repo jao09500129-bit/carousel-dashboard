@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-29 10:31 KST",
+  "as_of": "2026-05-29 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,25 +30,25 @@
     }
   ],
   "today_kr_focus": [
+    "코스피 1.59% 상승 중… 반도체·전자부품 강세, 외국인 매도세 지속 [오전10시 시황] (2026-05-29 10:38)",
     "KB증권, 저출생 극복 위해 '위기임산부' 3년째 지원 (2026-05-29 10:13)",
-    "국민성장펀드, 퓨리오사AI 8000억 투자 소식에…TS·DSC인베 '불기둥' (2026-05-29 09:47)",
-    "삼성전자 93%까지 추격한 하이닉스 시총…역전 가능성 따져보니 (2026-05-29 09:39)"
+    "국민성장펀드, 퓨리오사AI 8000억 투자 소식에…TS·DSC인베 '불기둥' (2026-05-29 09:47)"
   ],
   "carousel_implications": {
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
     "axes": [
       {
-        "axis": "관찰 대기",
-        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-        "confidence": "낮음 — 신호 부재",
-        "trigger_metric": "",
-        "trigger_value": ""
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW +0.35% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "+0.35%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-29T10:30:53.888639+09:00",
+    "collected_at": "2026-05-29T11:01:06.427807+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -118,30 +118,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,499.74",
-            "chg": "3.72",
-            "chg_pct": "+0.25%"
+            "close": "1,501.21",
+            "chg": "5.19",
+            "chg_pct": "+0.35%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,747.51",
-            "chg": "4.52",
-            "chg_pct": "+0.26%"
+            "close": "1,748.13",
+            "chg": "5.14",
+            "chg_pct": "+0.29%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "941.51",
-            "chg": "2.00",
-            "chg_pct": "+0.21%"
+            "close": "942.24",
+            "chg": "2.73",
+            "chg_pct": "+0.29%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "221.20",
-            "chg": "0.50",
-            "chg_pct": "+0.23%"
+            "close": "221.40",
+            "chg": "0.70",
+            "chg_pct": "+0.32%"
           }
         ]
       },

@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-05-29T10:30:53.888639+09:00",
-  "action_headline": "회전축 신호 약함 — 기존 포지션 유지·관찰",
+  "computed_at": "2026-05-29T11:01:06.427807+09:00",
+  "action_headline": "환율 민감 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
-    "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
+    "USDKRW +0.35% — 환율 민감 회전축",
     "KOSPI 컨센서스 mid 8,400 (8400~8400, n=1)"
   ],
   "action": "DIVERGENT",
