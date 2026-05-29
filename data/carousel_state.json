@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-05-28T23:10:55.673297+09:00",
-  "current_pivot": "에너지",
-  "current_view": "브렌트 -4.57% 급락. 정유·해운·항공 비용 구조 영향. 단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
-  "current_confidence": "낮음 — 변동성 자체가 검증 까다로움",
+  "computed_at": "2026-05-29T09:31:01.511320+09:00",
+  "current_pivot": "관찰 대기",
+  "current_view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
+  "current_confidence": "낮음 — 신호 부재",
   "current_days": 1,
-  "rotation_velocity": "빠름",
-  "volatility_index": 13.0,
+  "rotation_velocity": "중간",
+  "volatility_index": 9.6,
   "candidates": [],
   "note": "★ 추정 — 매크로 변동성·conviction 휴리스틱 기반, 백테스트 미검증."
 }

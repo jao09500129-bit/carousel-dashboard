@@ -1,0 +1,1121 @@
+{
+  "collected_at": "2026-05-29T09:31:01.511320+09:00",
+  "date": "2026-05-29",
+  "source": "hankyung_koreamarket_news",
+  "pages": [
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "total_items": 64,
+  "stats": {
+    "with_broker_mention": 11,
+    "target_price_up": 5,
+    "target_price_down": 0,
+    "top_brokers": [
+      [
+        "KB",
+        3
+      ],
+      [
+        "키움",
+        2
+      ],
+      [
+        "다올",
+        2
+      ],
+      [
+        "유진",
+        1
+      ],
+      [
+        "신한",
+        1
+      ],
+      [
+        "메리츠",
+        1
+      ],
+      [
+        "삼성",
+        1
+      ]
+    ]
+  },
+  "items": [
+    {
+      "title": "삼성전자, 장 초반 급등…\"세계 최초 7세대 HBM4E 샘플 출하\"",
+      "url": "https://www.hankyung.com/article/2026052959276",
+      "summary": "삼성전자가 29일 장 초반 급등하고 있다. 인공지능(AI) 산업 핵심 부품인 고대역폭메모리(HBM)의 7세대 제품 HBM4E의 샘플 출하를 세계 최초로 시작한 영향으로 읽힌다.이날 오전 9시10분 현재 삼성전자는 전 거래일보다 5.51% 오른 31만6000원에 거래 중...",
+      "datetime_raw": "2026.05.29 09:21",
+      "datetime": "2026-05-29T09:21:00+09:00",
+      "dt": "2026-05-29 09:21",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자",
+        "세계 최초 7세대 HBM4E 샘플 출하"
+      ],
+      "hash": "560cfa43482a"
+    },
+    {
+      "title": "코스피, 종전 기대감에 장 초반 8400선 위로…삼성전자 5%↑",
+      "url": "https://www.hankyung.com/article/2026052958946",
+      "summary": "코스피지수가 미국-이란 종전 기대감에 29일 장 초반 8400선 위로 올라섰다.이날 오전 9시7분 현재 코스피지수는 전일 대비 2.65% 오른 8402.26을 기록 중이다.앞서 이날 새벽 뉴욕증시는 종전 임박 기대감에 3대 지수가 모두 사상 최고치를 경신했다.미 매체 ...",
+      "datetime_raw": "2026.05.29 09:17",
+      "datetime": "2026-05-29T09:17:00+09:00",
+      "dt": "2026-05-29 09:17",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "4e9b9dc9ed72"
+    },
+    {
+      "title": "'정의선 로봇' 기대하는 투심…삼전닉스 다음은 '현대차 ETF' [투자톡]",
+      "url": "https://www.hankyung.com/article/2026052957846",
+      "summary": "국내 자산운용사들이 잇따라 현대자동차그룹을 담은 상장지수펀드(ETF) 출시에 나서고 있다. 휴머노이드 로봇과 피지컬 인공지능(AI) 시장에서 존재감이 커지자 현대차를 완성차 기업이 아닌 AI 플랫폼 기업으로 바라보고 투자 상품을 출시했다는 분석이다. 증권가는 현대차가 ...",
+      "datetime_raw": "2026.05.29 09:07",
+      "datetime": "2026-05-29T09:07:00+09:00",
+      "dt": "2026-05-29 09:07",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "정의선 로봇",
+        "현대차 ETF"
+      ],
+      "hash": "1c4a3e8476f6"
+    },
+    {
+      "title": "서학개미 순매수 8위…나스닥 접수한 '네비우스'의 정체",
+      "url": "https://www.hankyung.com/article/202605295715i",
+      "summary": "국내 투자자들에게 낯선 기업이 최근 해외 주식 순매수 상위권에 이름을 올렸다. '러시아의 구글'로 불리던 검색엔진 기업 얀덱스다. 현재 나스닥 상장 공식 이름은 네비우스 그룹이다. 네비우스는 폭발적인 인공지능(AI) 인프라 수요를 흡수하며 글로벌 시장의 ...",
+      "datetime_raw": "2026.05.29 08:30",
+      "datetime": "2026-05-29T08:30:00+09:00",
+      "dt": "2026-05-29 08:30",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "네비우스",
+        "서학개미 순매수 8위"
+      ],
+      "hash": "d48807d69afa"
+    },
+    {
+      "title": "\"AI 인프라 수혜로 재평가\"…2차전지주, ESS로 캐즘 돌파할까 [종목+]",
+      "url": "https://www.hankyung.com/article/2026052955446",
+      "summary": "LG에너지솔루션이 미국 에너지 기업에 에너지저장장치(ESS) 배터리를 공급하기로 했다는 소식이 전해지면서 2차전지주(株)가 큰 폭으로 올랐다. 증권가에서는 ESS가 전기차 캐즘(일시적 수요 정체)을 겪고 있는 2차전지 업계의 새로운 성장 동력으로 작용...",
+      "datetime_raw": "2026.05.29 08:20",
+      "datetime": "2026-05-29T08:20:00+09:00",
+      "dt": "2026-05-29 08:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 인프라 수혜로 재평가"
+      ],
+      "hash": "312a178297a3"
+    },
+    {
+      "title": "피델리티 \"달러 중심 결제 체계 균열 조짐\"…비트코인·금 수요 확대 주목",
+      "url": "https://www.hankyung.com/article/202605295698B",
+      "summary": "피델리티 디지털애셋(Fidelity Digital Assets)이 비트코인(BTC)과 금 수요 확대를 근거로 글로벌 금융 시스템이 달러 중심 구조에서 점차 벗어나고 있다고 진단했다.29일(현지시간) 코인텔레그래프에 따르면 피델리티는 최근 공개한 '2026년 디지털자산 ...",
+      "datetime_raw": "2026.05.29 08:08",
+      "datetime": "2026-05-29T08:08:00+09:00",
+      "dt": "2026-05-29 08:08",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "달러 중심 결제 체계 균열 조짐"
+      ],
+      "hash": "e253f935dbfd"
+    },
+    {
+      "title": "6개월 전 '7500피' 예측한 여의도 스타…\"올해 '1만피' 돌파, 개미는 ○○○로 승부 봐야\"",
+      "url": "https://www.hankyung.com/article/202605271926i",
+      "summary": "\"코스피는 연내 최대 1만500포인트까지 오를 것으로 예상합니다. 강세장이 유지되면서 반도체와 전력, 로보틱스 등 주도주를 중심으로 랠리가 계속될 전망입니다.\"김동원 KB증권 리서치본부장은 28일 한국경제신문과의 인터뷰에서 \"대한민국 증시 상승 사이클은 '3저 ...",
+      "datetime_raw": "2026.05.29 08:06",
+      "datetime": "2026-05-29T08:06:00+09:00",
+      "dt": "2026-05-29 08:06",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "올해",
+        "7500피",
+        "돌파, 개미는 ○○○로 승부 봐야"
+      ],
+      "hash": "b8a8fbbc9275"
+    },
+    {
+      "title": "'국민 밉상' 된 네이버·카카오…언제 반등할지 물어보니",
+      "url": "https://www.hankyung.com/article/202605284548i",
+      "summary": "1. 5년 주가 흐름과 시가총액 변화 — 영광과 추락의 기록네이버: 정점에서 절반 토막, 그리고 부분 회복네이버(035420)의 주가는 2021년 상반기 강력한 상승세를 타며 2021년 7~8월 사이 465,000원(월중 고가 기준)까지...",
+      "datetime_raw": "2026.05.29 08:05",
+      "datetime": "2026-05-29T08:05:00+09:00",
+      "dt": "2026-05-29 08:05",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "국민 밉상"
+      ],
+      "hash": "c72dd5d28ed2"
+    },
+    {
+      "title": "10년간 내리막길 걷더니…12년만에 첫 '상한가' 이유는?",
+      "url": "https://www.hankyung.com/article/202605285374i",
+      "summary": "10년간 내리막길을 걷던 삼성SDS 주가가 최근 급등하고 있다. 회사가 인공지능(AI) 사업 전환에 대한 '진심'을 보여주자 시장이 반응하고 있다는 평가다. 글로벌 사모펀드인 KKR의 대규모 투자, 이를 기반으로 한 미국 등 글로벌 시장에서의 인수합병(M...",
+      "datetime_raw": "2026.05.29 08:00",
+      "datetime": "2026-05-29T08:00:00+09:00",
+      "dt": "2026-05-29 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "상한가",
+        "10년간 내리막길 걷더니"
+      ],
+      "hash": "630ffcbb3be7"
+    },
+    {
+      "title": "현대차 로봇 운영체제 전담 …'넥스트 황제주' 노리는 현대오토에버",
+      "url": "https://www.hankyung.com/article/202605285223i",
+      "summary": "28일 종가 기준 국내 코스피 시장의 '황제주(주당 100만 원 이상 주식)'는 11개에 달한다. 증시 상황에 따라 100만원 선을 오르내리는 태광산업까지 포함하면 총 12개로 역대 최다다. 시장의 눈은 자연스럽게 '다음 황제주' 자리를 꿰...",
+      "datetime_raw": "2026.05.29 08:00",
+      "datetime": "2026-05-29T08:00:00+09:00",
+      "dt": "2026-05-29 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "넥스트 황제주",
+        "현대차 로봇 운영체제 전담"
+      ],
+      "hash": "faa550bad3e0"
+    },
+    {
+      "title": "'실탄 2조' 확보한 카카오, AI 올인…증권가는 '의구심' [종목+]",
+      "url": "https://www.hankyung.com/article/2026052955826",
+      "summary": "카카오가 가상자산 거래소 업비트 운영사 두나무 지분을 사실상 전량 처분하며 2조원이 넘는 현금을 확보했다. 비핵심 자산을 정리하고 인공지능(AI) 중심으로 사업 재편에 속도를 내는 모습이다. 다만 증권가에서는 단기 주가 반등에 여전히 신중한 분위기다.29일 금융투자업계...",
+      "datetime_raw": "2026.05.29 07:48",
+      "datetime": "2026-05-29T07:48:00+09:00",
+      "dt": "2026-05-29 07:48",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "의구심",
+        "실탄 2조"
+      ],
+      "hash": "2743d9617ed9"
+    },
+    {
+      "title": "\"현대모비스, 로봇 부품사로 재평가…목표가 91만원으로 상향\"-유진",
+      "url": "https://www.hankyung.com/article/2026052956116",
+      "summary": "유진투자증권은 29일 현대모비스에 대해 \"로봇 부품사로 재평가 받을 것\"이라며 목표주가를 기존 56만원에서 91만원으로 상향하고 투자의견 '매수'를 유지했다.이 증권사 이재일 연구원은 \"현대모비스는 자율주행과 전동화 영역에 대한 집중적인 기술 투자로 &#...",
+      "datetime_raw": "2026.05.29 07:41",
+      "datetime": "2026-05-29T07:41:00+09:00",
+      "dt": "2026-05-29 07:41",
+      "brokers": [
+        "유진"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 62.5,
+      "keywords": [
+        "현대모비스"
+      ],
+      "hash": "815f0ec218e1"
+    },
+    {
+      "title": "\"SK하이닉스, 여전히 저평가…내년 영업익 454조원 전망\"-KB",
+      "url": "https://www.hankyung.com/article/2026052956006",
+      "summary": "KB증권은 29일 SK하이닉스에 대해 \"메모리 수요의 구조적 변화는 SK하이닉스의 밸류에이션 상승으로 이어지고 있어 궁극적으로 주가 상승의 핵심 동력으로 작용할 전망\"이라며 \"SK하이닉스의 본격적인 주가 상승은 이제부터 시작될 것\"이라고 분석했다. 목표주가는 기존 30...",
+      "datetime_raw": "2026.05.29 07:35",
+      "datetime": "2026-05-29T07:35:00+09:00",
+      "dt": "2026-05-29 07:35",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "SK하이닉스"
+      ],
+      "hash": "cea69578481a"
+    },
+    {
+      "title": "\"AI 인프라·반도체주 올라타라\"…특허기술이 선정한 포트폴리오 [인터뷰+]",
+      "url": "https://www.hankyung.com/article/2026052846906",
+      "summary": "\"장중 실시간으로 여러 종목을 추천하면 포트폴리오 수익률을 올릴 수 있습니다. 그러나 일반 투자자는 해당 포트폴리오를 따라오기 어렵습니다. '뉴지랭크'는 한경유레카에서 누구나 쉽게 투자할 수 있도록 현실적인 포트폴리오를 제공합니다.\"문호준 뉴지스탁 본부장...",
+      "datetime_raw": "2026.05.29 06:30",
+      "datetime": "2026-05-29T06:30:00+09:00",
+      "dt": "2026-05-29 06:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 인프라"
+      ],
+      "hash": "85ddd0f4c04f"
+    },
+    {
+      "title": "외인 순매도, 넉달째 이어졌지만…규모 4조원대로 줄어",
+      "url": "https://www.hankyung.com/article/2026052955337",
+      "summary": "외국인 투자자가 4월 국내 상장주식을 4조460억원어치 순매도한 것으로 나타났다. 매도세는 4개월째 이어졌지만 전월 43조원대 순매도보다 규모가 크게 줄었다.금융감독원이 29일 발표한 ‘2026년 4월 외국인 증권투자 동향’에 따르면 외국인은 지난...",
+      "datetime_raw": "2026.05.29 06:19",
+      "datetime": "2026-05-29T06:19:00+09:00",
+      "dt": "2026-05-29 06:19",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "외인 순매도"
+      ],
+      "hash": "8f0f87a7d0e4"
+    },
+    {
+      "title": "악시오스 \"미·이란, 휴전 합의 도달…트럼프 최종 승인 남아\"",
+      "url": "https://www.hankyung.com/article/202605285436B",
+      "summary": "미국과 이란이 60일간의 휴전 합의에 도달한 것으로 알려졌다.미 정치전문 매체 악시오스는 \"미국과 이란 협상단이 60일간의 휴전과 핵 협상 프레임워크에 합의했다\"고 28일(현지시간) 보도했다. 악시오스는 \"해당 합의는 아직 도널드 트럼프 미국 대통령의 최종 승인을 기다...",
+      "datetime_raw": "2026.05.28 23:27",
+      "datetime": "2026-05-28T23:27:00+09:00",
+      "dt": "2026-05-28 23:27",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "악시오스 \"미",
+        "미·이란, 휴전 합의 도달…트럼프 최종 승인 남아"
+      ],
+      "hash": "9f2b86899c10"
+    },
+    {
+      "title": "없어서 못 판다더니 일냈다…주가 624%·318% 폭등한 韓 회사 [종목+]",
+      "url": "https://www.hankyung.com/article/2026052848226",
+      "summary": "반도체 기판주 삼성전기와 LG이노텍 주가가 끝 모를 상승세를 이어가고 있다. 글로벌 인공지능(AI) 인프라 투자 확대로 반도체 기판 수요가 폭발적으로 늘어나면서 실적 개선 기대가 커지고 있기 때문이다. 증권가에서는 이들 주가가 최근 가파르게 뛰었음에도 실적 성장세를 감...",
+      "datetime_raw": "2026.05.28 22:00",
+      "datetime": "2026-05-28T22:00:00+09:00",
+      "dt": "2026-05-28 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "없어서 못 판다더니 일냈다"
+      ],
+      "hash": "d636ab7d1791"
+    },
+    {
+      "title": "비트코인, 美·이란 충돌에 7만3000달러대 후퇴…\"반등보다 하방 관리 구간\" [강민승의 트레이드나우]",
+      "url": "https://www.hankyung.com/article/202605285253B",
+      "summary": "미국과 이란의 종전 기대에도 군사 충돌이 재격화하고 전쟁발(發) 인플레이션에 따른 금리 불확실성이 맞물리며 비트코인(BTC) 하방 압력이 이어지고 있다. 전문가들은 7만4000달러선 회복 여부를 기준으로 단기 반등과 추가 하락 시나리오가 갈릴 수 있다고 보고 있다. 현...",
+      "datetime_raw": "2026.05.28 18:44",
+      "datetime": "2026-05-28T18:44:00+09:00",
+      "dt": "2026-05-28 18:44",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비트코인",
+        "반등보다 하방 관리 구간"
+      ],
+      "hash": "2cc9134b5975"
+    },
+    {
+      "title": "삼전닉스 레버리지ETF의 함정 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026052851401",
+      "summary": "삼전닉스 레버리지ETF의 함정삼성전자와 SK하이닉스의 단일 종목 레버리지 상장지수펀드(ETF)가 화제를 모으고 있다. 투자 다양성을 넓히는 긍정적 측면이 있지만 사람들이 잘 모르는 위험성도 내포하고 있다. 신성호 한국경제신문 지수데이터부 부장이 레버리지 ET...",
+      "datetime_raw": "2026.05.28 17:55",
+      "datetime": "2026-05-28T17:55:00+09:00",
+      "dt": "2026-05-28 17:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "cfdc73a1f8f3"
+    },
+    {
+      "title": "위고비·마운자로 열풍에 ‘체중계’ 인바디 뜬다...“美 매출 1100억 전망”",
+      "url": "https://www.hankyung.com/article/202605283845i",
+      "summary": "위고비, 마운자로 등 GLP-1 계열 비만치료제 대중화로 체성분 관리에 대한 관심이 커지면서 국내 체성분 분석기 업체인 인바디의 기업가치가 재평가 받을 것이란 전망이 나왔다. 글로벌 체성분 분석 수요가 급증하면서 인바디의 실적 성장에 대한 기대가 커지고 있다....",
+      "datetime_raw": "2026.05.28 17:24",
+      "datetime": "2026-05-28T17:24:00+09:00",
+      "dt": "2026-05-28 17:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "체중계",
+        "위고비",
+        "美 매출 1100억 전망"
+      ],
+      "hash": "622efa76856b"
+    },
+    {
+      "title": "\"예금 넣었는데 연 10%\"…개미 이탈에 은행 '비장의 카드'",
+      "url": "https://www.hankyung.com/article/2026052725641",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비장의 카드",
+        "예금 넣었는데 연 10%"
+      ],
+      "hash": "b440e0c94e78"
+    },
+    {
+      "title": "등골 오싹한 '유령도시' 됐다…텅텅 빈 세종시 상권",
+      "url": "https://www.hankyung.com/article/2026052716507",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유령도시"
+      ],
+      "hash": "a9005dfbd3d7"
+    },
+    {
+      "title": "'90만원 넘게 주고도 못 구할 지경'…9살부터 30대까지 열광",
+      "url": "https://www.hankyung.com/article/2026052722027",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "90만원 넘게 주고도 못 구할 지경"
+      ],
+      "hash": "7a94c5a936cf"
+    },
+    {
+      "title": "LG 구광모-젠슨 황, 한국서 만나 '피지컬 AI' 동맹 맺는다",
+      "url": "https://www.hankyung.com/article/202605284659i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "피지컬 AI",
+        "LG 구광모"
+      ],
+      "hash": "c7831059a38d"
+    },
+    {
+      "title": "수익률 8658%…9조원 굴리는 여의도 전설이 꼽은 차기 주도주",
+      "url": "https://www.hankyung.com/article/202605283222i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "수익률 8658%"
+      ],
+      "hash": "e0da664cf3f5"
+    },
+    {
+      "title": "그들은 왜 한국 주식을 팔까?…﻿외국인 순매도에 대한 오해와 진실",
+      "url": "https://www.hankyung.com/article/202605284265i",
+      "summary": "홍성관 라이프자산운용 부사장 2026년 5월, 코스피가 사상 처음으로 8,000선을 돌파했다. 2024년 말 2,399.49 포인트였던 점을 고려하면 가히 상전벽해다. 삼성전자와 SK하이닉스를 필두로 한 AI 반도체 랠리가 지수를 끌어올렸고, 여의도에서는 코스...",
+      "datetime_raw": "2026.05.28 17:13",
+      "datetime": "2026-05-28T17:13:00+09:00",
+      "dt": "2026-05-28 17:13",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "그들은 왜 한국 주식을 팔까?"
+      ],
+      "hash": "21891b79907f"
+    },
+    {
+      "title": "지역난방공사·에스티팜, 기업가치 제고 우수기업으로 밸류업지수 특례편입",
+      "url": "https://www.hankyung.com/article/2026052848956",
+      "summary": "한국거래소는 지난 21일 주가지수운영위원회를 열고 코리아 밸류업 지수 구성종목 정기변경안을 심의하고, 27일 기업가치 제고 우수기업을 시상한 결과에 따라, 19개 종목이 지수에서 편출되고 20개 종목이 새롭게 편입된다고 28일 밝혔다.편입 종목이 1개 더 많은 이유는 ...",
+      "datetime_raw": "2026.05.28 16:54",
+      "datetime": "2026-05-28T16:54:00+09:00",
+      "dt": "2026-05-28 16:54",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "지역난방공사"
+      ],
+      "hash": "50ee51c2ed93"
+    },
+    {
+      "title": "코스피지수, 하루새 412p 들썩…'삼전 2배' 5% 하락",
+      "url": "https://www.hankyung.com/article/202605284685i",
+      "summary": "코스피지수가 하루새 400포인트 넘게 출렁였다. 장중 '8천피'가 깨지기도 했지만 저가매수 수요가 몰리면서 낙폭을 줄였다. 삼성전자 단일종목 레버리지 상장지수펀드(ETF)는 5%대 하락했다. 28일 코스피지수는 전날보다 0.53% 내린 8185....",
+      "datetime_raw": "2026.05.28 16:17",
+      "datetime": "2026-05-28T16:17:00+09:00",
+      "dt": "2026-05-28 16:17",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전 2배",
+        "코스피지수"
+      ],
+      "hash": "d92c01dbcba7"
+    },
+    {
+      "title": "은행주, PBR보다는 ‘총주주환원금액’을 보라",
+      "url": "https://www.hankyung.com/article/202605284672i",
+      "summary": "은행주의 투자 지표로서 주가순자산비율(PBR)보다 총주주환원율(TSR)이 더 중요해지고 있다는 해석이 증권가에서 굳어지고 있다. 금융지주들이 총주주환원율 목표치를 더욱 높일 것이라는 관측도 나온다.28일 금융투자업계에 따르면 신한투자증권은 최근 발간한 은행업 분석 보고...",
+      "datetime_raw": "2026.05.28 16:07",
+      "datetime": "2026-05-28T16:07:00+09:00",
+      "dt": "2026-05-28 16:07",
+      "brokers": [
+        "신한"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "은행주",
+        "총주주환원금액"
+      ],
+      "hash": "863717d019b2"
+    },
+    {
+      "title": "코스피, 중동 긴장 속 낙폭 줄여 8180선 하락 마감…코스닥 2%대 급락",
+      "url": "https://www.hankyung.com/article/2026052845916",
+      "summary": "코스피지수가 28일 장중 4% 넘게 급락하는 등 극심한 변동성을 보인 끝에 8180선의 소폭 하락세로 마감했다. 장 막판 반도체주를 중심으로 저가 매수세가 유입되면서 낙폭을 상당분 만회했다.미국과 이란 간 군사적 긴장이 재차 고조된 가운데 지수 급등에 따른 부담감과 한...",
+      "datetime_raw": "2026.05.28 16:06",
+      "datetime": "2026-05-28T16:06:00+09:00",
+      "dt": "2026-05-28 16:06",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "3b43bc712b16"
+    },
+    {
+      "title": "블랙록 IBIT서 하루만 5.3억弗 순유출…출시 후 최대 규모",
+      "url": "https://www.hankyung.com/article/202605284599B",
+      "summary": "세계 최대 자산운용사 블랙록의 비트코인(BTC) 현물 상장지수펀드(ETF)에서 하루만에 5억 3000만달러 규모의 자금이 빠져나갔다.28일(현지시간) 더블록에 따르면 블랙록의 비트코인 현물 ETF인 IBIT는 전날(27일) 5억 2780만달러 규모의 순유출을 기록했다....",
+      "datetime_raw": "2026.05.28 15:20",
+      "datetime": "2026-05-28T15:20:00+09:00",
+      "dt": "2026-05-28 15:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "블랙록 IBIT서 하루만 5.3억弗 순유출"
+      ],
+      "hash": "ed2b3c0c82b3"
+    },
+    {
+      "title": "닥사, API Key 부당대여 방지 표준안 마련…\"의심 시 강제 만료\"",
+      "url": "https://www.hankyung.com/article/202605284459B",
+      "summary": "디지털자산거래소 공동협의체(닥사·DAXA)가 가상자산(암호화폐) 거래소 이용자의 API Key 부당대여 행위를 방지하기 위한 표준안을 마련했다고 28일 밝혔다.API Key는 이용자가 외부 프로그램과 연동해 시세 조회와 주문, 입출금 등의 기능을 사용할 수 있도록 하는...",
+      "datetime_raw": "2026.05.28 14:42",
+      "datetime": "2026-05-28T14:42:00+09:00",
+      "dt": "2026-05-28 14:42",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "닥사",
+        "의심 시 강제 만료"
+      ],
+      "hash": "602da2636503"
+    },
+    {
+      "title": "요즘 다시 달리는 이차전지…'실적 바닥론' 나오는 이유는",
+      "url": "https://www.hankyung.com/article/202605284224i",
+      "summary": "1. 이차전지 업종 및 대표 기업 최근 주가 동향업종 시가총액 현황 (27일 기준)이차전지 업종은 총 104개 기업으로 구성되어 있으며, 상위 20개 기업의 시가총액 현황은 다음과 같다.대표 3사 주간 주가 흐름 요약대표 3사의 최근 주가 흐름은 ...",
+      "datetime_raw": "2026.05.28 13:55",
+      "datetime": "2026-05-28T13:55:00+09:00",
+      "dt": "2026-05-28 13:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "실적 바닥론",
+        "요즘 다시 달리는 이차전지"
+      ],
+      "hash": "56af5d5e3f38"
+    },
+    {
+      "title": "시트레아, 자체 토큰 CTR 공개",
+      "url": "https://www.hankyung.com/article/2026052837276",
+      "summary": "비트코인 레이어2 프로젝트 시트레아(Citrea)가 자체 토큰 'CTR'을 공개했다고 블루밍비트가 28일 보도했다.블루밍비트에 따르면 시트레아는 지난 26일 CTR 출시와 함께 생태계 확장 방향, 주요 인프라 계획등을 공개했다. 시트레아는 비트코인 네트워...",
+      "datetime_raw": "2026.05.28 13:39",
+      "datetime": "2026-05-28T13:39:00+09:00",
+      "dt": "2026-05-28 13:39",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "시트레아"
+      ],
+      "hash": "ea5f294e8e4b"
+    },
+    {
+      "title": "코스피, 장중 8000선 붕괴…3%대 급락",
+      "url": "https://www.hankyung.com/article/2026052842086",
+      "summary": "코스피지수가 28일 장중 4% 넘게 급락해 7800선까지 밀렸다. 미국·이란 종전 협상이 막바지에 다다른 상황 속 두 국가의 군사적 충돌 소식이 전해지자 투자심리가 급격히 냉각된 모습이다. 외국인 투자자는 대장주 삼성전자·SK하이닉스를 비롯해 ...",
+      "datetime_raw": "2026.05.28 13:10",
+      "datetime": "2026-05-28T13:10:00+09:00",
+      "dt": "2026-05-28 13:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "6d6094e555a2"
+    },
+    {
+      "title": "\"하닉보다 덜 올랐네\"...삼성전자 담는 1% 초고수",
+      "url": "https://www.hankyung.com/article/202605283075i",
+      "summary": "28일 유가증권시장이 반도체 차익 실현 매물로 혼조세를 보이는 가운데, 투자 초고수들은 SK하이닉스를 팔고, 삼성전자를 사들이고 있는 것으로 나타났다. 최근 SK하이닉스보다 상승폭이 낮았던 삼성전자로 옮겨가고 있다는 분석이 나온다.이날 미래에셋엠클럽에 따르면 ...",
+      "datetime_raw": "2026.05.28 11:04",
+      "datetime": "2026-05-28T11:04:00+09:00",
+      "dt": "2026-05-28 11:04",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하닉보다 덜 올랐네"
+      ],
+      "hash": "062e07a85fa0"
+    },
+    {
+      "title": "코스피, 장중 8100선 약세 지속…코스닥 3%대 급락",
+      "url": "https://www.hankyung.com/article/2026052838216",
+      "summary": "코스피지수가 28일 장중 외국인 투자자의 매도세에 약세 흐름을 이어가고 있다. 미군이 호르무즈해협 인근에서 대이란 군사 행동에 나서면서 긴장 수위가 다시 높아진 상황 속 최근 지수가 급등한 데 따른 부담감이 맞물린 영향으로 보인다.이날 오전 10시39분 현재 코스피지수...",
+      "datetime_raw": "2026.05.28 10:50",
+      "datetime": "2026-05-28T10:50:00+09:00",
+      "dt": "2026-05-28 10:50",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "ac389c506ee1"
+    },
+    {
+      "title": "'왕홍 덤핑' 거절한 달바의 배짱 통했다…'깜짝 주인공' 등극",
+      "url": "https://www.hankyung.com/article/202605272106i",
+      "summary": "\"달바글로벌은 에이피알 대비 밸류에이션 할인을 받아왔다. 상대적으로 속도감이 떨어지는 지역과 카테고리 확장 전략 때문이었다. 이제 에이피알과의 밸류에이션 간극을 축소하는 리레이팅 구간에 진입할 것으로 기대된다.\"(박종대 메리츠증권 연구원)미스트 하나로 글로벌 시장을 두...",
+      "datetime_raw": "2026.05.28 10:00",
+      "datetime": "2026-05-28T10:00:00+09:00",
+      "dt": "2026-05-28 10:00",
+      "brokers": [
+        "메리츠"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "왕홍 덤핑",
+        "깜짝 주인공"
+      ],
+      "hash": "947c232c129c"
+    },
+    {
+      "title": "티로보틱스, 유리기판 이송로봇 日특허 등록 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026052835946",
+      "summary": "티로보틱스가 반도체 유리기판 이송용 진공로봇 관련 기술의 일본 특허 등록을 마쳤다는 소식 이후 주가가 28일 장 초반 급등세다. 이날 오전 9시54분 현재 티로보틱스는 전 거래일보다 1510원(8.54%) 오른 1만9200원을 기록하고 있다. 장 초반 28%대...",
+      "datetime_raw": "2026.05.28 09:58",
+      "datetime": "2026-05-28T09:58:00+09:00",
+      "dt": "2026-05-28 09:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "티로보틱스"
+      ],
+      "hash": "2f5598338440"
+    },
+    {
+      "title": "코스피, 장중 상승 전환해 8230선…기관 '사자'",
+      "url": "https://www.hankyung.com/article/2026052835446",
+      "summary": "[속보] 코스피, 장중 상승 전환해 8230선…기관 '사자'고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.05.28 09:48",
+      "datetime": "2026-05-28T09:48:00+09:00",
+      "dt": "2026-05-28 09:48",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "사자",
+        "코스피"
+      ],
+      "hash": "7a5e0556b28f"
+    },
+    {
+      "title": "디앤디파마텍, 이틀째 급등세…지방간염 치료제 기대감 지속",
+      "url": "https://www.hankyung.com/article/2026052834706",
+      "summary": "디앤디파마텍이 지방간염 치료제 임상 기대감에 이틀째 급등세다.28일 오전 9시29분 현재 디앤디파마텍은 전장 대비 8% 오른 10만6700원에 거래되고 있다. 디앤디파마텍은 전날 상한가로 뛰었다.시장에서는 최근 공개된 대사이상지방간염(MASH) 치료제 임상 결과에 주목...",
+      "datetime_raw": "2026.05.28 09:40",
+      "datetime": "2026-05-28T09:40:00+09:00",
+      "dt": "2026-05-28 09:40",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "디앤디파마텍"
+      ],
+      "hash": "0bf26d095abb"
+    },
+    {
+      "title": "반도체 혼조·외인 2.9조 순매도에도...코스피, 8000선 사수[마켓라이브]",
+      "url": "https://www.hankyung.com/article/202605283072i",
+      "summary": "코스피 0.53% 하락 마감… 미·이란 재충돌에 외국인 2.9조 원 순매도 (장 마감)🕘 지정학 리스크 재확대… 외국인 대규모 매도에 반도체 약세오후 3시 30분 마감 기준, 한국 증시는 미국의 이란 재공습과 이란 혁명수비대의 보복...",
+      "datetime_raw": "2026.05.28 09:25",
+      "datetime": "2026-05-28T09:25:00+09:00",
+      "dt": "2026-05-28 09:25",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 혼조"
+      ],
+      "hash": "49c12a1e5451"
+    },
+    {
+      "title": "코스피, 중동 긴장·차익 매물에 장중 8100선 아래로…외인·기관 '팔자'",
+      "url": "https://www.hankyung.com/article/2026052833486",
+      "summary": "코스피지수가 28일 장 초반 1% 넘게 급락해 8100선 아래로 밀렸다. 최근 반도체주를 중심으로 급등한 데 따른 부담감과 미국이 이란의 군사시설을 공습했다는 소식이 맞물리면서 시장 전반의 투자심리가 위축된 것으로 풀이된다.이날 오전 9시12분 현재 코스피지수는 전장 ...",
+      "datetime_raw": "2026.05.28 09:25",
+      "datetime": "2026-05-28T09:25:00+09:00",
+      "dt": "2026-05-28 09:25",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔자",
+        "코스피"
+      ],
+      "hash": "392e73c239a2"
+    },
+    {
+      "title": "\"車 불티나게 팔리는데\"…기아 주가만 빠진 뜻밖의 이유 [분석+]",
+      "url": "https://www.hankyung.com/article/2026052830146",
+      "summary": "현대차그룹주가 피지컬 인공지능(AI) 수혜 기대로 질주하는 가운데 기아가 상대적으로 부진한 흐름을 보이고 있다. 현대차·현대모비스·현대오토에버 주가는 로보틱스와 소프트웨어 중심 제조(SDF), 자율주행 등 피지컬 AI...",
+      "datetime_raw": "2026.05.28 09:19",
+      "datetime": "2026-05-28T09:19:00+09:00",
+      "dt": "2026-05-28 09:19",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "車 불티나게 팔리는데"
+      ],
+      "hash": "e3895ac212cb"
+    },
+    {
+      "title": "LG엔솔, 미국서 16억달러 규모 ESS 배터리 수주 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026052833626",
+      "summary": "LG에너지솔루션이 급등하고 있다. 미국 전력회사 DTE에너지와 16억달러 규모의 에너지저장장치(ESS)용 배터리 공급 계약을 맺었다는 소식이 전해진 영향이다.28일 오전 9시2분 현재 LG에너지솔루션은 전일 대비 4만1500원(10.82%) 상승한 42만5000원에 거...",
+      "datetime_raw": "2026.05.28 09:06",
+      "datetime": "2026-05-28T09:06:00+09:00",
+      "dt": "2026-05-28 09:06",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "LG엔솔"
+      ],
+      "hash": "b6fe4e1e1e18"
+    },
+    {
+      "title": "삼성증권, SDS·카드와 두나무 지분 4% 취득…가상자산 동맹",
+      "url": "https://www.hankyung.com/article/2026052833416",
+      "summary": "삼성증권은 삼성SDS, 삼성카드와 함께 카카오 계열사가 보유한 두나무 지분 4.0%를 취득하기로 했다고 28일 밝혔다. 삼성증권이 2.0%, 삼성SDS와 삼성카드가 1.0%씩, 총 139만주를 6128억원 취득한다.매수 대상은 카카오인베스트먼트, 카카오벤처스, 카카오 ...",
+      "datetime_raw": "2026.05.28 09:06",
+      "datetime": "2026-05-28T09:06:00+09:00",
+      "dt": "2026-05-28 09:06",
+      "brokers": [
+        "삼성"
+      ],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성증권"
+      ],
+      "hash": "3355312dc8ec"
+    },
+    {
+      "title": "코스피, 0.77% 하락 출발…8200선 아래로",
+      "url": "https://www.hankyung.com/article/2026052833366",
+      "summary": "[속보] 코스피, 0.77% 하락 출발…8200선 아래로고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.05.28 09:01",
+      "datetime": "2026-05-28T09:01:00+09:00",
+      "dt": "2026-05-28 09:01",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "2203360b7b79"
+    },
+    {
+      "title": "\"수익 2배 먹자\"...1% 초고수, 삼전닉스 팔고 '○○○'으로 갈아탔다",
+      "url": "https://www.hankyung.com/article/202605283074i",
+      "summary": "코스피지수가 사상 최고치를 찍은 지난 27일 초고수 투자자들이 '삼전닉스'와 반도체 관련 상장지수펀드(ETF)를 팔고, 이날 상장한 삼전닉스 단일종목 레버리지로 옮겨간 것으로 나타났다.28일 키움증권에 따르면 투자원금 1000만원 이상이면서 전월 기준 수...",
+      "datetime_raw": "2026.05.28 09:01",
+      "datetime": "2026-05-28T09:01:00+09:00",
+      "dt": "2026-05-28 09:01",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "○○○",
+        "수익 2배 먹자"
+      ],
+      "hash": "129169dc4bdd"
+    },
+    {
+      "title": "애드포러스 \"온더플래닛 인수해 브랜드 전략 컨설팅 사업 진출\"",
+      "url": "https://www.hankyung.com/article/2026052833016",
+      "summary": "애드포러스가 브랜드 전략 컨설팅 기업 온더플래닛의 지분 52%를 취득해 브랜드 전략 솔루션을 제공하는 비즈니스 컨설팅 분야로 진출한다고 28일 공시했다.온더플래닛은 2020년 설립 이후 연평균 140% 이상의 매출 성장률을 기록했으며, 2025년 대한민국 디지털 광고 ...",
+      "datetime_raw": "2026.05.28 08:52",
+      "datetime": "2026-05-28T08:52:00+09:00",
+      "dt": "2026-05-28 08:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "온더플래닛 인수해 브랜드 전략 컨설팅 사업 진출"
+      ],
+      "hash": "adc6a4ca8a56"
+    },
+    {
+      "title": "\"롯데관광개발, 마카오 대비 회원 서비스 경쟁력 우수\"-다올",
+      "url": "https://www.hankyung.com/article/2026052832836",
+      "summary": "다올투자증권은 28일 롯데관광개발에 대해 마카오 대비 경쟁력 있는 콤푸와 자체 영업력을 기반으로 멤버십이 지속적으로 증가하는 추세라며 투자의견 ‘매수’, 목표주가 2만9000원을 유지했다.김혜영 다올투자증권 연구원은 “롯데관광개발의 비즈...",
+      "datetime_raw": "2026.05.28 08:43",
+      "datetime": "2026-05-28T08:43:00+09:00",
+      "dt": "2026-05-28 08:43",
+      "brokers": [
+        "다올"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "롯데관광개발"
+      ],
+      "hash": "6a3fda99da41"
+    },
+    {
+      "title": "상한가 치며 ‘바이오 랠리’ 이끈 디앤디파마텍, 핵심 변수는?",
+      "url": "https://www.hankyung.com/article/202605283137i",
+      "summary": "디앤디파마텍 상한가 원인 분석지난 27일 디앤디파마텍(347850)은 전일 종가 대비 30.00% 급등하며 상한가(98,800원)로 마감했다. 시가 72,200원으로 출발한 이날 주가는 장중 66,900원까지 하락하는 등 초반 약세를 보였으나, 핵심 임상 데이터 공시 ...",
+      "datetime_raw": "2026.05.28 08:30",
+      "datetime": "2026-05-28T08:30:00+09:00",
+      "dt": "2026-05-28 08:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "바이오 랠리"
+      ],
+      "hash": "a9a606b37af6"
+    },
+    {
+      "title": "\"삼성전기, MLCC·FC-BGA 동시 호황 수혜…목표가 230만원\"-다올",
+      "url": "https://www.hankyung.com/article/2026052831876",
+      "summary": "다올투자증권은 28일 삼성전기에 대해 \"적층세라믹커패시터(MLCC)와 플립칩 볼그리드어레이(FC-BGA) 동시 호황의 수혜를 받는 유일한 기업\"이라며 목표주가를 기존 150만원에서 230만원으로 상향하고 투자의견 '매수'를 유지했다.이 증권사 김연미 연구...",
+      "datetime_raw": "2026.05.28 08:23",
+      "datetime": "2026-05-28T08:23:00+09:00",
+      "dt": "2026-05-28 08:23",
+      "brokers": [
+        "다올"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 53.333333333333336,
+      "keywords": [
+        "삼성전기"
+      ],
+      "hash": "2d88cfbb2c41"
+    },
+    {
+      "title": "\"AI 전환에 몸값 달라졌네\"…대기업 SI 3사, 동반 급등 [종목+]",
+      "url": "https://www.hankyung.com/article/2026052830076",
+      "summary": "대기업 시스템통합(SI) 업체 주가가 인공지능(AI) 데이터센터와 피지컬 AI 수혜 기대에 동반 급등했다.28일 한국거래소에 따르면 전날 삼성SDS(삼성에스디에스), 현대오토에버, LG씨엔에스 등 SI 업체가 일제히 급등했다. 삼성SDS는 전 거래일 대비 6만원(29....",
+      "datetime_raw": "2026.05.28 08:13",
+      "datetime": "2026-05-28T08:13:00+09:00",
+      "dt": "2026-05-28 08:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 전환에 몸값 달라졌네"
+      ],
+      "hash": "e25f82af4713"
+    },
+    {
+      "title": "한국전력 올해 영업이익 반토막 전망…자회사 한전KPS는 목표가 상향",
+      "url": "https://www.hankyung.com/article/202605272018i",
+      "summary": "증권가가 한전KPS의 목표주가는 올리는 반면 한국전력의 목표가는 낮추고 있다. 한전KPS는 한국전력의 발전설비 정비 자회사다. 세계적으로 원전 수명 연장 기조가 확산하면서 원전 정비 시장이 커져 한전KPS의 전망이 밝아지고 있지만, 한국전력은...",
+      "datetime_raw": "2026.05.28 08:00",
+      "datetime": "2026-05-28T08:00:00+09:00",
+      "dt": "2026-05-28 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": "up",
+      "target_change_pct": null,
+      "keywords": [
+        "한국전력 올해 영업이익 반토막 전망"
+      ],
+      "hash": "3b7b6b096838"
+    },
+    {
+      "title": "\"현대차, 피지컬 AI 대표 주자…목표가 120만원으로 상향\"-KB",
+      "url": "https://www.hankyung.com/article/2026052830916",
+      "summary": "KB증권은 28일 현대차에 대해 \"전 세계 피지컬 인공지능(AI) 산업의 대표 주자로 도약할 것\"이라며 목표주가를 기존 80만원에서 120만원으로 상향하고 투자의견 '매수'를 유지했다. 이 증권사 강성진 연구원은 \"엔비디아의 자율주행 AI 플랫폼...",
+      "datetime_raw": "2026.05.28 07:57",
+      "datetime": "2026-05-28T07:57:00+09:00",
+      "dt": "2026-05-28 07:57",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 50.0,
+      "keywords": [
+        "현대차"
+      ],
+      "hash": "604706fe05d4"
+    },
+    {
+      "title": "\"외인·기관 수급 기반 우량·성장주 선별…로봇주 주목해야\" [인터뷰+]",
+      "url": "https://www.hankyung.com/article/2026052830296",
+      "summary": "\"'수급몬스터'는 한경유레카에서 단순히 '좋아 보이는 종목'을 추천하는 것이 아니라 외국인과 기관의 수급을 비롯한 시장의 흐름을 종합적으로 분석해 실제로 돈이 몰리는 방향을 추적합니다.\"최락운 루돌프랩스 대표는 28일 한경닷컴과의 인터뷰에서...",
+      "datetime_raw": "2026.05.28 07:52",
+      "datetime": "2026-05-28T07:52:00+09:00",
+      "dt": "2026-05-28 07:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "외인"
+      ],
+      "hash": "42da5c9c7805"
+    },
+    {
+      "title": "\"녹십자, 릴리로 자회사 매각 따른 선순환 기대…목표가↑\"-키움",
+      "url": "https://www.hankyung.com/article/2026052830446",
+      "summary": "키움증권은 28일 녹십자에 대해 일라이릴리로 자회사 큐레보를 매각한 게 향후 캐시카우 역할을 톡톡히 해줄 것이라며 목표주가를 기존 18만원에서 21만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.앞서 녹십자는 미국에 있는 백신 개발 전문 자회사 큐...",
+      "datetime_raw": "2026.05.28 07:31",
+      "datetime": "2026-05-28T07:31:00+09:00",
+      "dt": "2026-05-28 07:31",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 16.666666666666664,
+      "keywords": [
+        "녹십자"
+      ],
+      "hash": "de3131c0c860"
+    },
+    {
+      "title": "종전 기대감에 3대지수 사상 최고치 마감…반도체는 '숨고르기' [뉴욕증시 브리핑]",
+      "url": "https://www.hankyung.com/article/2026052830346",
+      "summary": "미국과 이란의 종전 협상 타결이 임박하고 호르무즈해협이 다시 열릴 것이란 기대감에 뉴욕증시의 주요 3대 지수가 27일(현지시간) 일제히 사상 최고치로 마감했다.이날 뉴욕증권거래소(NYSE)에서 다우존스30산업평균지수는 182.60포인트(0.36%) 오른 5만644.28...",
+      "datetime_raw": "2026.05.28 07:24",
+      "datetime": "2026-05-28T07:24:00+09:00",
+      "dt": "2026-05-28 07:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "숨고르기",
+        "종전 기대감에 3대지수 사상 최고치 마감"
+      ],
+      "hash": "5f0b3953b907"
+    },
+    {
+      "title": "\"왜 마이너스지?\"…삼전닉스 레버리지 ETF의 함정",
+      "url": "https://www.hankyung.com/article/202605270805i",
+      "summary": "국내에도 단일 종목 레버리지와 인버스 ETF가 상장되었다. 해외에 상장되었거나 상장될 삼성전자 레버리지 ETF, SK하이닉스 레버리지 ETF로 국내 투자자들의 자금 유출을 막기 위함이다. 투자상품의 다양성이 강화된다는 장점도 있지만 단기 매매 비중의 증가와 변동성 확대...",
+      "datetime_raw": "2026.05.28 07:00",
+      "datetime": "2026-05-28T07:00:00+09:00",
+      "dt": "2026-05-28 07:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "왜 마이너스지?"
+      ],
+      "hash": "93ed2d4360c2"
+    },
+    {
+      "title": "\"삼전닉스 언제까지 올라요?\"…개미들 놀랄 증권가 전망 [분석+]",
+      "url": "https://www.hankyung.com/article/2026052721286",
+      "summary": "글로벌 메모리반도체 빅3의 시가총액이 모두 1조달러를 넘어섰다. 인공지능(AI) 인프라 투자 경쟁이 치열해지면서 반도체 공급 부족에 따른 호황이 길게 이어질 것이란 전망에 무게가 실리면서다. 다만 증권가 일각에서는 금리 상승이 반도체 업황을 꺾을 가능성이 제기되기도 한...",
+      "datetime_raw": "2026.05.27 22:00",
+      "datetime": "2026-05-27T22:00:00+09:00",
+      "dt": "2026-05-27 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스 언제까지 올라요?"
+      ],
+      "hash": "7c4ba71315f4"
+    },
+    {
+      "title": "레버리지 출격한 삼전닉스…하나만 고르라면? [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026052725901",
+      "summary": "레버리지 출격한 삼전닉스…하나만 고르라면?삼성전자와 SK하이닉스의 시가총액 격차가 역대 최소 수준으로 좁혀졌다. 두 회사 모두 독보적인 수익성과 밸류에이션 매력으로 초호황기 수혜를 양분하고 있다. 27일엔 개별 종목 레버리지 상장지수펀드(ETF)...",
+      "datetime_raw": "2026.05.27 17:57",
+      "datetime": "2026-05-27T17:57:00+09:00",
+      "dt": "2026-05-27 17:57",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "레버리지 출격한 삼전닉스"
+      ],
+      "hash": "ed8ae36a9dfa"
+    },
+    {
+      "title": "글로벌 반도체 랠리…SK하이닉스·마이크론도 시총 '1조 달러 클럽'",
+      "url": "https://www.hankyung.com/article/202605271855i",
+      "summary": "SK하이닉스 시가총액이 27일 1조 달러를 넘었다. 글로벌 메모리 반도체 호황이 지속될 것이란 전망에 힘이 실리면서 이달 초 삼성전자, 간밤 마이크론테크놀로지에 이어 빅3 기업이 일제히 '1조 달러' 클럽에 가입했다. 삼성전자와 SK하이닉스 단일 종목 레...",
+      "datetime_raw": "2026.05.27 17:40",
+      "datetime": "2026-05-27T17:40:00+09:00",
+      "dt": "2026-05-27 17:40",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1조 달러 클럽",
+        "글로벌 반도체 랠리"
+      ],
+      "hash": "9e376ffc6fa0"
+    },
+    {
+      "title": "\"AI 데이터센터 깔리면 돈 번다\"…줄줄이 상한가 친 '이 종목'",
+      "url": "https://www.hankyung.com/article/202605272404i",
+      "summary": "국내 시스템통합(SI)업체들이 27일 줄줄이 상한가를 기록했다. 글로벌 인공지능(AI) 인프라 투자가 확대되면서 그룹 차원에서 역점을 두고&nb...",
+      "datetime_raw": "2026.05.27 17:22",
+      "datetime": "2026-05-27T17:22:00+09:00",
+      "dt": "2026-05-27 17:22",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목",
+        "AI 데이터센터 깔리면 돈 번다"
+      ],
+      "hash": "c31684a72ffe"
+    },
+    {
+      "title": "'삼전닉스' 단일종목 레버리지 첫날부터 '후끈'…장중 60% 뛰기도 [종합]",
+      "url": "https://www.hankyung.com/article/2026052721986",
+      "summary": "삼성전자와 SK하이닉스 주가 흐름을 ±2배로 추종하는 단일종목 레버리지 상품이 상장 첫날부터 불을 뿜었다. 기초자산이 된 삼성전자와 SK하이닉스 주가가 크게 뛰면서다.27일 KODEX SK하이닉스단일종목레버리지는 기준가 대비 18.44% 뛴 2만7775원에...",
+      "datetime_raw": "2026.05.27 16:43",
+      "datetime": "2026-05-27T16:43:00+09:00",
+      "dt": "2026-05-27 16:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "후끈",
+        "삼전닉스"
+      ],
+      "hash": "2ad25d8c4b4d"
+    }
+  ],
+  "consensus_signals": []
+}

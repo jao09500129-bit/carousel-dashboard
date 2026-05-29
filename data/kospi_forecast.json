@@ -1,10 +1,21 @@
 {
-  "computed_at": "2026-05-28T23:10:55.673297+09:00",
-  "date": "2026-05-28",
-  "low": null,
-  "high": null,
-  "mid": null,
-  "sample_size": 0,
-  "sources": [],
+  "computed_at": "2026-05-29T09:31:01.511320+09:00",
+  "date": "2026-05-29",
+  "low": 8400,
+  "high": 8400,
+  "mid": 8400,
+  "sample_size": 1,
+  "sources": [
+    {
+      "url": "https://www.hankyung.com/article/2026052958946",
+      "title": "코스피, 종전 기대감에 장 초반 8400선 위로…삼성전자 5%↑",
+      "low": null,
+      "high": null,
+      "points": [
+        8400,
+        8400
+      ]
+    }
+  ],
   "note": "★ 추정 — 기사 본문 정규식 추출, 백테스트 미검증. 7000~9000 범위 내 수치만 채택."
 }
