@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-05-29T13:00:59.810544+09:00",
+  "computed_at": "2026-05-30T17:15:48.924426+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 4,
+      "count": 8,
       "top": []
     },
     {
@@ -22,13 +22,13 @@
     {
       "name": "금융",
       "intensity": 0.0,
-      "count": 4,
+      "count": 3,
       "top": []
     },
     {
       "name": "헬스케어",
       "intensity": 0.0,
-      "count": 2,
+      "count": 0,
       "top": []
     },
     {
@@ -46,7 +46,7 @@
     {
       "name": "커뮤니케이션",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "유틸리티",
       "intensity": 0.0,
-      "count": 1,
+      "count": 0,
       "top": []
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "기타",
       "intensity": 0.0,
-      "count": 50,
+      "count": 47,
       "top": []
     }
   ],
