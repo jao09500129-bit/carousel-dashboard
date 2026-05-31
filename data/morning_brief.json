@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-05-30 17:16 KST",
+  "as_of": "2026-05-31 19:23 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "AI 랠리·종전협상 기대감에 '쑥'…美 3대지수 또 최고치 [뉴욕증시 브리핑]",
+  "headline": "3년 전 젠슨 황의 '큰 그림'…\"AI가 밖에 나온다\" 기대감 폭발 [빈난새의 빈틈없이월가]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "AI 랠리·종전협상 기대감에 '쑥'…美 3대지수 또 최고치 [뉴욕증시 브리핑]",
+      "title": "3년 전 젠슨 황의 '큰 그림'…\"AI가 밖에 나온다\" 기대감 폭발 [빈난새의 빈틈없이월가]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026053078347"
+      "url": "https://www.hankyung.com/article/202605318354i"
     },
     {
       "title": "\"랠리 불안하지만 지속\"…전쟁 끝→반도체 위험? [김현석의 월스트리트나우]",
@@ -19,9 +19,9 @@
       "url": "https://www.hankyung.com/article/202605307799i"
     },
     {
-      "title": "트럼프, '이란과 종전' 합의 결론 없이 종료",
+      "title": "앤스로픽 금지한 마이크로소프트? AI 수요의 진실은 [월가백브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026053078687"
+      "url": "https://www.hankyung.com/article/202605307750i"
     },
     {
       "title": "트럼프 \"종전협상 최종 결정 위해 회의\"…호르무즈 개방엔 이견 [이상은의 워싱턴나우]",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "'장기 저평가' 한방에 깬 LG그룹주…핵심 동력과 리스크 따져보니 (2026-05-30 08:30)",
-    "덴마크 연기금, 스페이스X '블랙리스트' 올렸다…\"지나치게 고평가\" (2026-05-29 22:20)",
-    "\"하이닉스보다 더 올랐다\"…올 들어 700% 넘게 급등한 회사 [종목+] (2026-05-29 22:00)"
+    "한달 전보다 목표가 크게 뛴 '톱10'…\"아직 덜 오른 종목 있다\" [한경 프리미엄9 TODAY] (2026-05-31 19:17)",
+    "\"수익률 440%\"…삼전닉스 임원들 자사주 '대박' 터졌다 (2026-05-31 18:10)",
+    "\"100만원이 8000만원 됐다\"…19세 아이돌, 주식 대박난 비결 (2026-05-31 17:15)"
   ],
   "carousel_implications": {
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
@@ -48,7 +48,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-05-30T17:15:48.924426+09:00",
+    "collected_at": "2026-05-31T19:23:40.138094+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
