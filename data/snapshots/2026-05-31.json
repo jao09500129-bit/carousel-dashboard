@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-31T19:23:40.138094+09:00",
+  "collected_at": "2026-05-31T23:11:06.928999+09:00",
   "date": "2026-05-31",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -391,6 +391,23 @@
       "hash": "e026e23c12cc"
     },
     {
+      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
+      "url": "https://www.hankyung.com/article/202605318719i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국 브랜드",
+        "미국인들 밤새 줄 세웠다"
+      ],
+      "hash": "6552b5c43dd8"
+    },
+    {
       "title": "비행기 뜨자 불 꺼졌다…3000억 들인 '유령 공항'의 민낯",
       "url": "https://www.hankyung.com/article/2026052841827",
       "summary": "",
@@ -422,23 +439,6 @@
         "드디어 영접했네요"
       ],
       "hash": "5acb6e36db6c"
-    },
-    {
-      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
-      "url": "https://www.hankyung.com/article/202605318719i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국 브랜드",
-        "미국인들 밤새 줄 세웠다"
-      ],
-      "hash": "6552b5c43dd8"
     },
     {
       "title": "코스피, 종전 기대감에 사상 최고치 마감…삼전·우선주 시총 2000조",
