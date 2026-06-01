@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-01T16:00:58.872296+09:00",
+  "collected_at": "2026-06-01T23:10:52.093401+09:00",
   "date": "2026-06-01",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,8 +9,8 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 10,
-    "target_price_up": 6,
+    "with_broker_mention": 8,
+    "target_price_up": 7,
     "target_price_down": 1,
     "top_brokers": [
       [
@@ -18,16 +18,12 @@
         2
       ],
       [
-        "한국투자",
-        2
-      ],
-      [
         "IBK",
         2
       ],
       [
-        "KB",
-        2
+        "한국투자",
+        1
       ],
       [
         "키움",
@@ -36,10 +32,176 @@
       [
         "NH",
         1
+      ],
+      [
+        "KB",
+        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "\"주가 61만원 간다\"…삼성전자 또 역대급 전망에 '들썩' [종목+]",
+      "url": "https://www.hankyung.com/article/2026060114866",
+      "summary": "삼성전자가 6월의 첫 거래일 10%대 급등해 보통주 시가총액이 2000조원을 넘어섰다. 앞서 삼성전자는 우선주를 포함해 시총이 2000조원을 넘은 바 있다. 증권가에서는 글로벌 메모리 반도체 주요 기업 3곳 중 삼성전자의 주가 상승 여력이 가장 높다고 평가했다.한국거래...",
+      "datetime_raw": "2026.06.01 22:00",
+      "datetime": "2026-06-01T22:00:00+09:00",
+      "dt": "2026-06-01 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "주가 61만원 간다"
+      ],
+      "hash": "39b87bdd80f3"
+    },
+    {
+      "title": "그룹주 ETF, LG 웃고 포스코 울었다",
+      "url": "https://www.hankyung.com/article/2026060114881",
+      "summary": "지난 한 달간 LG그룹과 삼성에 투자하는 상장지수펀드(ETF)가 그룹주(株) ETF 중 수익률 1, 2위를 차지했다. 반면 미국과 이란 간 종전 기대가 커지며 한화그룹과 포스코그룹 ETF는 저조한 수익률을 나타내 희비가 엇갈렸다.1일 ETF체크에 따르면 ‘TIGER LG그룹플러스’는 지난 한 달간 58.83% 상승률을 기록하며 그룹주 ...",
+      "datetime_raw": "2026.06.01 17:53",
+      "datetime": "2026-06-01T17:53:00+09:00",
+      "dt": "2026-06-01 17:53",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "그룹주 ETF"
+      ],
+      "hash": "897e79732962"
+    },
+    {
+      "title": "내수소비 회복에…눈높이 올라간 롯데쇼핑",
+      "url": "https://www.hankyung.com/article/2026060114891",
+      "summary": "증권가가 롯데쇼핑 목표주가를 올리고 있다. 내수 소비 강세와 외국인 방문 증가 등으로 백화점 실적 개선이 기대된다는 이유에서다.1일 유가증권시장에서 롯데쇼핑은 전 거래일보다 0.14% 하락한 14만7500원에 장을 마감했다. 롯데쇼핑은 실적 개선에 대한 기대로 올 들어...",
+      "datetime_raw": "2026.06.01 17:51",
+      "datetime": "2026-06-01T17:51:00+09:00",
+      "dt": "2026-06-01 17:51",
+      "brokers": [],
+      "opinion": null,
+      "target_action": "up",
+      "target_change_pct": null,
+      "keywords": [
+        "내수소비 회복에"
+      ],
+      "hash": "13d3b0a1c43e"
+    },
+    {
+      "title": "\"1억 넣고 수익률 0%여도…\" 국민성장펀드 투자자 '당혹'",
+      "url": "https://www.hankyung.com/article/2026060114941",
+      "summary": "이 기사는 6월 1일 오전 8시 한국경제신문 투자정보 플랫폼 '한경 프리미엄9'에 게재됐습니다.국민참여형 성장펀드 가입자는 상장 주식의 주가 하락으로 손실을 볼 경우에도 세금을 내야 하는 것으로 나타났다. 상장 주식 가치가 떨어져도 펀드의 과세 대상 소득...",
+      "datetime_raw": "2026.06.01 17:44",
+      "datetime": "2026-06-01T17:44:00+09:00",
+      "dt": "2026-06-01 17:44",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "당혹",
+        "1억 넣고 수익률 0%여도"
+      ],
+      "hash": "ab22ca5b6541"
+    },
+    {
+      "title": "부진한 코스닥도 1900 간다는데…",
+      "url": "https://www.hankyung.com/article/2026060115201",
+      "summary": "올해 하반기 코스닥지수가 1900선에 다다를 수 있다는 증권가 전망이 나왔다. 정부의 코스닥시장 활성화 정책과 국민성장펀드 투자 확대에 힘입어 코스피지수와 키 맞추기를 시도할 것이라는 이유에서다. 하지만 유가증권시장 대형주가 주도하는 장세가 이어질 공산이 큰 만큼 코스닥시장으로의 자금 유입이 제한적일 것이라는 관측도 나온다.1일 금융투자업계에 따르면 유안타...",
+      "datetime_raw": "2026.06.01 17:40",
+      "datetime": "2026-06-01T17:40:00+09:00",
+      "dt": "2026-06-01 17:40",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "부진한 코스닥도 1900 간다는데"
+      ],
+      "hash": "58440f7f5a60"
+    },
+    {
+      "title": "강방천이 말하는 富의 공식 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026060114971",
+      "summary": "강방천이 말하는 富의 공식자산운용업계 전설로 불리는 강방천 에셋플러스자산운용 회장(사진)이 “생계를 유지하기 위해 직장인이 되는 시대는 사라질 것”이라고 단언했다. 혁신 기업에 투자하는 ‘동업자’가 돼 자본소득을 누...",
+      "datetime_raw": "2026.06.01 17:37",
+      "datetime": "2026-06-01T17:37:00+09:00",
+      "dt": "2026-06-01 17:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "a7e016af7679"
+    },
+    {
+      "title": "코스피 고공행진 속 포스트워 투자전략",
+      "url": "https://www.hankyung.com/article/2026060114981",
+      "summary": "한경미디어그룹과 한경매거진앤북이 오는 11일 ‘포스트워 투자 콘서트’를 엽니다. 미국·이란전 종전 이후 물가와 미 금리 정책, 환율, 산업 변화의 흐름을 짚습니다. 또 코스피지수 10,000 시대를 앞두고 증시 향방을 전망합니다.한상춘...",
+      "datetime_raw": "2026.06.01 17:35",
+      "datetime": "2026-06-01T17:35:00+09:00",
+      "dt": "2026-06-01 17:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 고공행진 속 포스트워 투자전략"
+      ],
+      "hash": "4a44f6b82c4d"
+    },
+    {
+      "title": "\"그렇게 안오르더니 반전\"…LG그룹 ETF 수익률 첫 1위, 한화는 '꼴찌'",
+      "url": "https://www.hankyung.com/article/202606011099i",
+      "summary": "지난 한달 간 LG그룹과 삼성에 투자하는 상장지수펀드(ETF)가 그룹주(株) ETF 중 수익률 1, 2위를 차지했다. 반면 이란 전쟁의 종전 기대가 커지며 한화그룹과 포스코그룹 ETF는 저조한 수익률을 기록했다.1일 ETF체크에 따르면 'TIGER LG그룹플러스...",
+      "datetime_raw": "2026.06.01 16:37",
+      "datetime": "2026-06-01T16:37:00+09:00",
+      "dt": "2026-06-01 16:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "꼴찌",
+        "그렇게 안오르더니 반전"
+      ],
+      "hash": "a61f3c9027a4"
+    },
+    {
+      "title": "'파죽지세' 코스피, 하반기 리스크는 '이것'…증권가의 워스트 시나리오는?",
+      "url": "https://www.hankyung.com/article/202606010768i",
+      "summary": "올 하반기 국내 증시가 상승세를 이어갈 것이라는 게 증권가의 중론이지만, 리스크가 없는 것은 아니다. 전문가들은 특히 미국 중앙은행(Fed)의 금리 인상 기조와 11월 미국 중간선거, 반도체 수출 증가율 둔화 등을 코스피의 최대 변수로 꼽았다...",
+      "datetime_raw": "2026.06.01 16:35",
+      "datetime": "2026-06-01T16:35:00+09:00",
+      "dt": "2026-06-01 16:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이것",
+        "파죽지세"
+      ],
+      "hash": "ae89d0a1dbf1"
+    },
+    {
+      "title": "이제 구천피도 가시권…코스피, 사상 첫 8700선 마감",
+      "url": "https://www.hankyung.com/article/2026060109836",
+      "summary": "코스피지수가 사상 처음으로 8700선에 마감하며 '구천피(코스피 9000)'를 가시권에 뒀다. 국내 기업과 엔비디아의 협력 기대가 커지면서 인공지능(AI) 랠리가 지속된 영향으로 풀이된다. 특히 삼성전자는 10%대 급등 마감하면서 보통주 시가총액이 200...",
+      "datetime_raw": "2026.06.01 16:09",
+      "datetime": "2026-06-01T16:09:00+09:00",
+      "dt": "2026-06-01 16:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이제 구천피도 가시권"
+      ],
+      "hash": "7d12bb562cae"
+    },
     {
       "title": "\"캐나다 잠수함 수주시 잭팟\"…한화오션·HD현대重 주목",
       "url": "https://www.hankyung.com/article/202606011007i",
@@ -206,6 +368,89 @@
       "hash": "f09ba3b38545"
     },
     {
+      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
+      "url": "https://www.hankyung.com/article/2026053191571",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "갓 졸업한 고3 모셔갑니다"
+      ],
+      "hash": "c955617e61cb"
+    },
+    {
+      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
+      "url": "https://www.hankyung.com/article/202605318719i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국 브랜드",
+        "미국인들 밤새 줄 세웠다"
+      ],
+      "hash": "6552b5c43dd8"
+    },
+    {
+      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
+      "url": "https://www.hankyung.com/article/202606010766g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "교섭 리스크",
+        "두산에너빌리티도 뚫렸다"
+      ],
+      "hash": "2c72751ad49c"
+    },
+    {
+      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
+      "url": "https://www.hankyung.com/article/2026052973726",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "중대 결단",
+        "집 파느니 차라리"
+      ],
+      "hash": "6e33bed2eaff"
+    },
+    {
+      "title": "박세익 \"2028년초까지 큰 돈 벌 기회 온다\"",
+      "url": "https://www.hankyung.com/article/202605318975i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2028년초까지 큰 돈 벌 기회 온다"
+      ],
+      "hash": "b68316626251"
+    },
+    {
       "title": "코스피, 8800선 돌파해 최고치 재경신…삼성전자 10% 급등",
       "url": "https://www.hankyung.com/article/2026060102646",
       "summary": "코스피지수가 6월의 첫 거래일 장중 상단을 8800선까지 높였다. 삼성전자는 장중 10%대 급등하면서 사상 처음으로 보통주 시가총액이 2000조원을 넘어섰다.1일 오전 10시55분 현재 코스피지수는 전 거래일보다 355.01포인트(4.19%) 오른 8831.16을 기록...",
@@ -368,88 +613,6 @@
         "코스피"
       ],
       "hash": "88e410d8c64f"
-    },
-    {
-      "title": "박세익 \"2028년초까지 큰 돈 벌 기회 온다\"",
-      "url": "https://www.hankyung.com/article/202605318975i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "2028년초까지 큰 돈 벌 기회 온다"
-      ],
-      "hash": "b68316626251"
-    },
-    {
-      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
-      "url": "https://www.hankyung.com/article/202605318719i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국 브랜드",
-        "미국인들 밤새 줄 세웠다"
-      ],
-      "hash": "6552b5c43dd8"
-    },
-    {
-      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
-      "url": "https://www.hankyung.com/article/2026053191571",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "갓 졸업한 고3 모셔갑니다"
-      ],
-      "hash": "c955617e61cb"
-    },
-    {
-      "title": "한화그룹, 美 스페이스X 공급망 뚫었다",
-      "url": "https://www.hankyung.com/article/202605318979i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한화그룹"
-      ],
-      "hash": "96fa1f759b96"
-    },
-    {
-      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
-      "url": "https://www.hankyung.com/article/2026052973726",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "중대 결단",
-        "집 파느니 차라리"
-      ],
-      "hash": "6e33bed2eaff"
     },
     {
       "title": "\"역대급 '불장'이라는데 내 주식만 한겨울\"…이유 있었네",
@@ -938,174 +1101,6 @@
         "27만원 주식이 212만원"
       ],
       "hash": "c348355ba70a"
-    },
-    {
-      "title": "코스피, 종전 기대감에 사상 최고치 마감…삼전·우선주 시총 2000조",
-      "url": "https://www.hankyung.com/article/2026052970226",
-      "summary": "코스피지수가 미국과 이란의 종전 기대감에 29일 다시 한번 사상 최고치를 경신했다. 삼성전자와 삼성전자 우선주는 합계 시가총액 2000조원을 돌파하면서 증시 새 역사를 썼다. 반면 코스닥지수는 사흘째 하락세를 이어갔다. 이날 코스피지수는 전일 대비 290.86...",
-      "datetime_raw": "2026.05.29 15:49",
-      "datetime": "2026-05-29T15:49:00+09:00",
-      "dt": "2026-05-29 15:49",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "9b24476fb5b8"
-    },
-    {
-      "title": "한투증권·OKX, 코인원 지분 20%씩 취득…'공동 3대주주' 등극",
-      "url": "https://www.hankyung.com/article/202605297015B",
-      "summary": "한국투자증권이 약 800억원을 투자해 국내 가상자산 거래소 코인원의 지분 약 20%%를 취득하며 3대주주로 올라섰다.코인원은 한국투자증권과 OKX벤처스가 자사 지분을 각각 약 20%%씩 취득하기로 결정했다고 29일 밝혔다. 양사의 투자액은 각각 800억원 규모인 것으로...",
-      "datetime_raw": "2026.05.29 15:26",
-      "datetime": "2026-05-29T15:26:00+09:00",
-      "dt": "2026-05-29 15:26",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한투증권",
-        "공동 3대주주"
-      ],
-      "hash": "75c550b6fe6a"
-    },
-    {
-      "title": "삼성전자, 우선주 포함해 시총 2000조원 돌파",
-      "url": "https://www.hankyung.com/article/2026052969166",
-      "summary": "삼성전자, 우선주 포함해 시총 2000조원 돌파노정동 한경닷컴 기자 dong2@hankyung.com",
-      "datetime_raw": "2026.05.29 14:55",
-      "datetime": "2026-05-29T14:55:00+09:00",
-      "dt": "2026-05-29 14:55",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자"
-      ],
-      "hash": "a7c0c410c805"
-    },
-    {
-      "title": "남화민 SM라이프디자인 대표, 자사주 7만주 매입",
-      "url": "https://www.hankyung.com/article/2026052967296",
-      "summary": "에스엠엔터테인먼트 계열사 SM라이프디자인(SM Life Design)은 남화민 대표가 자사주 6만9854주를 장내 매수 방식으로 사들였다고 29일 공시했다. 자사주 매입에 투입된 금액은 총 8400여만원이다.고정삼 한경닷컴 기자 jsk@hankyung.com",
-      "datetime_raw": "2026.05.29 13:56",
-      "datetime": "2026-05-29T13:56:00+09:00",
-      "dt": "2026-05-29 13:56",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "남화민 SM라이프디자인 대표"
-      ],
-      "hash": "e391f558163d"
-    },
-    {
-      "title": "코스피, 종전 기대감에 장중 사상 최고치 재경신…8457선",
-      "url": "https://www.hankyung.com/article/2026052966916",
-      "summary": "[속보] 코스피, 종전 기대감에 장중 사상 최고치 경신…8457.32노정동 한경닷컴 기자 dong2@hankyung.com",
-      "datetime_raw": "2026.05.29 13:46",
-      "datetime": "2026-05-29T13:46:00+09:00",
-      "dt": "2026-05-29 13:46",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "7e3d16897fb4"
-    },
-    {
-      "title": "벡트, 일본 특수교육 시장 진출…\"추가 수출 협의 중\"",
-      "url": "https://www.hankyung.com/article/2026052966816",
-      "summary": "코스닥 상장사 벡트는 디지털 실내 활동기기 '모션마루(Motion MARU)'를 통해 일본 특수교육 시장 공략에 나선다고 29일 밝혔다.일본 발달장애 아동 교육센터를 대상으로 첫 수출을 진행한 데 이어 추가 공급도 추진하며 해외 판로 확대에 속도를 내고 ...",
-      "datetime_raw": "2026.05.29 13:38",
-      "datetime": "2026-05-29T13:38:00+09:00",
-      "dt": "2026-05-29 13:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "벡트",
-        "추가 수출 협의 중"
-      ],
-      "hash": "03a9765557d3"
-    },
-    {
-      "title": "코스피, 종전 기대감에 장중 8400선 회복…LG씨엔에스 '上'",
-      "url": "https://www.hankyung.com/article/2026052963756",
-      "summary": "코스피지수가 미국-이란 종전 기대감에 장중 8400선을 회복했다. 코스닥지수는 사흘째 하락세다.29일 오전 11시5분 현재 코스피지수는 전일 대비 2.35% 오른 8377.86을 기록 중이다. 지수는 장 초반 한때 2.92% 뛴 8420선까지 오르면서 사상 최고가를 위...",
-      "datetime_raw": "2026.05.29 11:07",
-      "datetime": "2026-05-29T11:07:00+09:00",
-      "dt": "2026-05-29 11:07",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "ac531eadca2d"
-    },
-    {
-      "title": "코스피 3.55% 급등 마감… 반도체·전자부품 강세, 기관 2.3조 순매수 [장 마감 시황]",
-      "url": "https://www.hankyung.com/article/202605296282i",
-      "summary": "코스피 3.55% 급등 마감… 반도체·전자부품 강세, 기관 2.3조 순매수 [장 마감 시황]🕘 기관 매수세 확대… 코스피 8,476선 마감5월 29일 오후 3시 30분 마감 기준, 한국 증시는 미·이란 휴전 ...",
-      "datetime_raw": "2026.05.29 10:38",
-      "datetime": "2026-05-29T10:38:00+09:00",
-      "dt": "2026-05-29 10:38",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 3.55% 급등 마감"
-      ],
-      "hash": "9897f28c9fee"
-    },
-    {
-      "title": "KB증권, 저출생 극복 위해 '위기임산부' 3년째 지원",
-      "url": "https://www.hankyung.com/article/2026052961626",
-      "summary": "KB증권은 '위기임산부'의 안정적 출산과 자립을 지원하기 위해 국가아동권리보장원 및 전국 17개 지역상담기관에 기부금 1억원을 전달했다고 29일 밝혔다.위기임산부는 경제적·신체적 어려움이나 예상치 못한 임신, 사회적 편견 등으로 출산과 양육에...",
-      "datetime_raw": "2026.05.29 10:13",
-      "datetime": "2026-05-29T10:13:00+09:00",
-      "dt": "2026-05-29 10:13",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "KB증권",
-        "위기임산부"
-      ],
-      "hash": "da035f9e3c81"
-    },
-    {
-      "title": "국민성장펀드, 퓨리오사AI 8000억 투자 소식에…TS·DSC인베 '불기둥'",
-      "url": "https://www.hankyung.com/article/2026052960546",
-      "summary": "국민성장펀드가 인공지능(AI) 반도체 개발 기업 퓨리오사AI에 8000억원 규모의 지분 투자를 결정했다는 소식 이후 관련주가 29일 장 초반 동반 급등세다.이날 오전 9시35분 현재 TS인베스트먼트는 가격제한폭(352원·29.96%)까지 오른 1527원에 ...",
-      "datetime_raw": "2026.05.29 09:47",
-      "datetime": "2026-05-29T09:47:00+09:00",
-      "dt": "2026-05-29 09:47",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "불기둥",
-        "국민성장펀드"
-      ],
-      "hash": "72f48b8618ec"
     }
   ],
   "consensus_signals": []
