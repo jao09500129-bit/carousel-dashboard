@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-01T15:01:09.214878+09:00",
+  "collected_at": "2026-06-01T16:00:58.872296+09:00",
   "date": "2026-06-01",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -41,7 +41,39 @@
   },
   "items": [
     {
-      "title": "젠슨 황이 '네이버' 찍었다…엔비디아 효과에 주가 '불기둥'",
+      "title": "\"캐나다 잠수함 수주시 잭팟\"…한화오션·HD현대重 주목",
+      "url": "https://www.hankyung.com/article/202606011007i",
+      "summary": "60조원 규모의 캐나다 차세대 잠수함(CPSP) 사업자 선정이 임박하자 한화오션과 HD현대중공업에 대한 증권가 기대가 커지고 있다.1일 한국거래소에서 한화오션은 전 거래일 대비 1.30% 상승한 12만4900원에 장을 마쳤다. 한화오션은 HD현대중공업과 함께 '...",
+      "datetime_raw": "2026.06.01 15:44",
+      "datetime": "2026-06-01T15:44:00+09:00",
+      "dt": "2026-06-01 15:44",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "캐나다 잠수함 수주시 잭팟"
+      ],
+      "hash": "9e7374c8bfb3"
+    },
+    {
+      "title": "코스피, 종가 기준 사상 최고치 마감…3.68% 오른 8788.38",
+      "url": "https://www.hankyung.com/article/2026060109846",
+      "summary": "[속보] 코스피, 종가 기준 사상 최고치 마감…3.68% 오른 8788.38[속보] 코스피, 종가 기준 사상 최고치 마감…8788.38이수 한경닷컴 기자 2su@hankyung.com",
+      "datetime_raw": "2026.06.01 15:34",
+      "datetime": "2026-06-01T15:34:00+09:00",
+      "dt": "2026-06-01 15:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "414e3e05faf8"
+    },
+    {
+      "title": "젠슨 황 한마디에 터졌다…엔비디아 잭팟에 주가 '불기둥' [종목+]",
       "url": "https://www.hankyung.com/article/2026060107986",
       "summary": "NAVER(네이버)가 1일 장중 급등하고 있다. 엔비디아와의 협력 기대감이 커지면서 투자 심리가 자극받은 것으로 풀이된다. 장중 상한가에 근접하기도 했다.이날 오후 2시24분께 네이버는 전 거래일 대비 5만6500원(24.15%) 뛴 29만500원에 거래되고 있다. 장...",
       "datetime_raw": "2026.06.01 14:45",
@@ -52,8 +84,8 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "네이버",
-        "불기둥"
+        "불기둥",
+        "젠슨 황 한마디에 터졌다"
       ],
       "hash": "5480aeb483c0"
     },
@@ -338,41 +370,6 @@
       "hash": "88e410d8c64f"
     },
     {
-      "title": "\"역대급 '불장'이라는데 내 주식만 한겨울\"…이유 있었네",
-      "url": "https://www.hankyung.com/article/2026060196857",
-      "summary": "코스피가 사상 최고치 '불장' 행진을 이어가고 있지만 반도체를 빼면 체감 온도는 크게 낮다는 분석이 나왔다. 삼성전자와 SK하이닉스 등 메모리 반도체주가 지수 상승을 이끄는 동안 다른 업종은 코스피 상승률을 따라가지 못하면서 시장 내부의 쏠림도 커지고 있...",
-      "datetime_raw": "2026.06.01 08:56",
-      "datetime": "2026-06-01T08:56:00+09:00",
-      "dt": "2026-06-01 08:56",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "역대급",
-        "이라는데 내 주식만 한겨울"
-      ],
-      "hash": "3c86f4e02fdb"
-    },
-    {
-      "title": "\"NC, 1분기 호실적에 AI 사업 기대 커져…목표가↑\"-IBK",
-      "url": "https://www.hankyung.com/article/2026060195746",
-      "summary": "IBK투자증권은 1일 NC에 대해 \"1분기 호실적에 이어 자회사 인공지능(AI) 사업에 대한 기대가 커지고 있다\"며 목표주가를 기존 28만원에서 39만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 이승훈 연구원은 \"올해 1분기 연결 기준...",
-      "datetime_raw": "2026.06.01 08:46",
-      "datetime": "2026-06-01T08:46:00+09:00",
-      "dt": "2026-06-01 08:46",
-      "brokers": [
-        "IBK"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 39.285714285714285,
-      "keywords": [
-        "NC"
-      ],
-      "hash": "c8177c6a1c89"
-    },
-    {
       "title": "박세익 \"2028년초까지 큰 돈 벌 기회 온다\"",
       "url": "https://www.hankyung.com/article/202605318975i",
       "summary": "",
@@ -438,8 +435,8 @@
       "hash": "96fa1f759b96"
     },
     {
-      "title": "\"다른 반도체주 오를 때 뭐했지?\"…1/4 토막 났다가 반등 시작",
-      "url": "https://www.hankyung.com/article/202605297461i",
+      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
+      "url": "https://www.hankyung.com/article/2026052973726",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -449,9 +446,45 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "다른 반도체주 오를 때 뭐했지?"
+        "중대 결단",
+        "집 파느니 차라리"
       ],
-      "hash": "511e23d7861a"
+      "hash": "6e33bed2eaff"
+    },
+    {
+      "title": "\"역대급 '불장'이라는데 내 주식만 한겨울\"…이유 있었네",
+      "url": "https://www.hankyung.com/article/2026060196857",
+      "summary": "코스피가 사상 최고치 '불장' 행진을 이어가고 있지만 반도체를 빼면 체감 온도는 크게 낮다는 분석이 나왔다. 삼성전자와 SK하이닉스 등 메모리 반도체주가 지수 상승을 이끄는 동안 다른 업종은 코스피 상승률을 따라가지 못하면서 시장 내부의 쏠림도 커지고 있...",
+      "datetime_raw": "2026.06.01 08:56",
+      "datetime": "2026-06-01T08:56:00+09:00",
+      "dt": "2026-06-01 08:56",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "역대급",
+        "이라는데 내 주식만 한겨울"
+      ],
+      "hash": "3c86f4e02fdb"
+    },
+    {
+      "title": "\"NC, 1분기 호실적에 AI 사업 기대 커져…목표가↑\"-IBK",
+      "url": "https://www.hankyung.com/article/2026060195746",
+      "summary": "IBK투자증권은 1일 NC에 대해 \"1분기 호실적에 이어 자회사 인공지능(AI) 사업에 대한 기대가 커지고 있다\"며 목표주가를 기존 28만원에서 39만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 이승훈 연구원은 \"올해 1분기 연결 기준...",
+      "datetime_raw": "2026.06.01 08:46",
+      "datetime": "2026-06-01T08:46:00+09:00",
+      "dt": "2026-06-01 08:46",
+      "brokers": [
+        "IBK"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 39.285714285714285,
+      "keywords": [
+        "NC"
+      ],
+      "hash": "c8177c6a1c89"
     },
     {
       "title": "\"더블유게임즈, AI 활용해 수익성 강화…목표가↑\"-IBK",
@@ -1073,39 +1106,6 @@
         "국민성장펀드"
       ],
       "hash": "72f48b8618ec"
-    },
-    {
-      "title": "삼성전자 93%까지 추격한 하이닉스 시총…역전 가능성 따져보니",
-      "url": "https://www.hankyung.com/article/202605295681i",
-      "summary": "삼성전자·SK하이닉스 시가총액 비교 및 투자 분석시가총액 시계열 비교: SK하이닉스의 삼성전자 대비 비율 추이월별 시가총액 비교 (2023년 5월 ~ 2026년 5월)양사의 월말 기준 시가총액을 정리하고, SK하이닉스의 삼성전자 대비 ...",
-      "datetime_raw": "2026.05.29 09:39",
-      "datetime": "2026-05-29T09:39:00+09:00",
-      "dt": "2026-05-29 09:39",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 93%까지 추격한 하이닉스 시총"
-      ],
-      "hash": "6e4d66da7f9c"
-    },
-    {
-      "title": "삼성전기, 장 초반 7%대 급등…\"200만원 눈앞\"",
-      "url": "https://www.hankyung.com/article/2026052959956",
-      "summary": "삼성전기가 장중 200만원 돌파를 목전에 뒀다.29일 오전 9시24분 현재 삼성전기는 전장 대비 7.08% 오른 198만원에 거래되고 있다. 삼성전기는 지난 20일부터 7거래일 연속 상승세를 기록했다. 이날 장 초반 199만6000원에 거래되며 장중 52주 신...",
-      "datetime_raw": "2026.05.29 09:37",
-      "datetime": "2026-05-29T09:37:00+09:00",
-      "dt": "2026-05-29 09:37",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기",
-        "200만원 눈앞"
-      ],
-      "hash": "531362620952"
     }
   ],
   "consensus_signals": []
