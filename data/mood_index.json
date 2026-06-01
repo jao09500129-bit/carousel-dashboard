@@ -1,18 +1,18 @@
 {
-  "computed_at": "2026-06-01T15:01:09.214878+09:00",
+  "computed_at": "2026-06-01T16:00:58.872296+09:00",
   "score": 52,
   "label": "NEUTRAL",
   "label_kr": "보통",
   "label_emoji": "😐",
   "components": {
-    "volatility": 15.8,
+    "volatility": 16.5,
     "divergence": 50,
     "target_up_ratio": 85.7,
     "publish_freq": 100,
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 16.85,
+    "vol_sum": 16.7,
     "n_divergence": 0,
     "n_signals": 0,
     "target_up": 6,

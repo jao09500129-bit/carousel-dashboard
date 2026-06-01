@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-01T15:01:09.214878+09:00",
+  "computed_at": "2026-06-01T16:00:58.872296+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 6,
+      "count": 4,
       "top": []
     },
     {
@@ -46,7 +46,7 @@
     {
       "name": "커뮤니케이션",
       "intensity": 0.0,
-      "count": 4,
+      "count": 3,
       "top": []
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "기타",
       "intensity": 0.0,
-      "count": 43,
+      "count": 46,
       "top": []
     }
   ],
