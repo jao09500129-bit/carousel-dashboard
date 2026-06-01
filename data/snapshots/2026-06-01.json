@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-01T09:31:14.982463+09:00",
+  "collected_at": "2026-06-01T10:38:12.933389+09:00",
   "date": "2026-06-01",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,13 +9,17 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 11,
-    "target_price_up": 7,
+    "with_broker_mention": 10,
+    "target_price_up": 6,
     "target_price_down": 1,
     "top_brokers": [
       [
         "KB",
-        4
+        3
+      ],
+      [
+        "한국투자",
+        2
       ],
       [
         "IBK",
@@ -32,18 +36,126 @@
       [
         "NH",
         1
-      ],
-      [
-        "한국투자",
-        1
-      ],
-      [
-        "유진",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "거래소 이사장, WEF 이사회 참석 및 노르웨이 국부펀드 면담 위해 출국",
+      "url": "https://www.hankyung.com/article/2026060101836",
+      "summary": "한국거래소는 정은보 이사장이 오는 2일 룩셈부르크에서 열리는 2026년도 세계거래소연맹(WFE) 2차 이사회에 참석하고 노르웨이 국부펀드와 면담하기 위해 5월31일 출국했다고 6월1일 밝혔다.우선 정 이사장은 오는 2일 WFE 2차 이사회에서 나스닥, 시가고상업거래소,...",
+      "datetime_raw": "2026.06.01 10:34",
+      "datetime": "2026-06-01T10:34:00+09:00",
+      "dt": "2026-06-01 10:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "거래소 이사장"
+      ],
+      "hash": "a74deac4c334"
+    },
+    {
+      "title": "하이브랩, 자회사 키스톤마케팅컴퍼니 각자대표로 박정재 CFO 선임",
+      "url": "https://www.hankyung.com/article/2026060101506",
+      "summary": "하이브랩은 자회사 키스톤마케팅컴퍼니의 관리 부문 각자 대표이사로 박정재 최고재무책임자(CFO)를 신규 선임했다고 1일 밝혔다.앞서 키스톤마케팅컴퍼니는 지난 3월 주주총회에서 박 대표를 선임한 후 2개월간 내부 정비 기간을 가졌다. 이번 개편으로 회사는 기존 이기호 대표...",
+      "datetime_raw": "2026.06.01 10:19",
+      "datetime": "2026-06-01T10:19:00+09:00",
+      "dt": "2026-06-01 10:19",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하이브랩"
+      ],
+      "hash": "9d9298774e20"
+    },
+    {
+      "title": "한국투자증권, 일본 엔화 RP 판매 개시",
+      "url": "https://www.hankyung.com/article/2026060100646",
+      "summary": "한국투자증권은 일본 엔화(JPY)로 단기 투자할 수 있는 환매조건부채권(RP) 상품을 판매한다고 1일 밝혔다.외화 RP는 금융기관이 보유한 채권을 일정 기간이 지난 후 다시 매수하는 조건으로 투자자에게 매도하고, 보유 기간에 따른 약정 금리를 외화로 지급한다. 외화를 ...",
+      "datetime_raw": "2026.06.01 10:05",
+      "datetime": "2026-06-01T10:05:00+09:00",
+      "dt": "2026-06-01 10:05",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국투자증권"
+      ],
+      "hash": "0f1cd67fda26"
+    },
+    {
+      "title": "강훈식, 캐나다 CPSP 수주전 현지 지원 기대에…한화오션 강세",
+      "url": "https://www.hankyung.com/article/2026060199626",
+      "summary": "한화오션이 강세다. 60조원 규모의 캐나다 차세대 잠수함 사업(CPSP) 수주를 지원하기 위해 강훈식 청와대 비서실장이 캐나다를 방문한다는 소식에 해양 방산 관련 기대감이 커진 영향으로 보인다.1일 오전 9시36분 현재 한화오션은 전일 대비 4900원(3.97%) 상승...",
+      "datetime_raw": "2026.06.01 09:42",
+      "datetime": "2026-06-01T09:42:00+09:00",
+      "dt": "2026-06-01 09:42",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "강훈식"
+      ],
+      "hash": "40abd974fe6c"
+    },
+    {
+      "title": "'제2의 깐부회동' 기대감에…로봇株 일제 '불기둥'",
+      "url": "https://www.hankyung.com/article/2026060199296",
+      "summary": "로봇주가 1일 장 초반 동반 급등세다. 젠슨 황 엔비디아 최고경영자(CEO)가 오는 5일 방한할 것이란 소식 이후 로봇 테마에 대한 투자자들의 기대심리가 자극된 것으로 풀이된다. 이날 오전 9시20분 현재 로보스타는 가격제한폭(2만8200원·30....",
+      "datetime_raw": "2026.06.01 09:37",
+      "datetime": "2026-06-01T09:37:00+09:00",
+      "dt": "2026-06-01 09:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "불기둥",
+        "제2의 깐부회동"
+      ],
+      "hash": "6c5ca1ecac5e"
+    },
+    {
+      "title": "'젠슨 황 회동 기대감' LG 삼형제, 장 초반 급등…LG전자 '上'",
+      "url": "https://www.hankyung.com/article/2026060198956",
+      "summary": "젠슨 황 엔비디아 최고경영자(CEO) 방한 기대감에 LG그룹 주요 계열사 주가가 장 초반 일제히 급등하고 있다.1일 오전 9시14분 현재 LG전자는 전장 대비 27.99% 오른 37만5000원에 거래되고 있다. LG전자는 장 초반 한때 가격제한폭까지 뛰기도 했다. 같은...",
+      "datetime_raw": "2026.06.01 09:37",
+      "datetime": "2026-06-01T09:37:00+09:00",
+      "dt": "2026-06-01 09:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "젠슨 황 회동 기대감"
+      ],
+      "hash": "da1e0e159079"
+    },
+    {
+      "title": "코스피, 미·이란 합의 기대 장 초반 8600선 '터치'…시총 7000조",
+      "url": "https://www.hankyung.com/article/2026060196936",
+      "summary": "코스피지수가 미국과 이란의 종전 협상 합의 기대에 장 초반 8600선을 터치했다. 코스피 시가총액은 7000조원을 넘어섰다.1일 오전 9시13분 현재 코스피지수는 전 거래일보다 102.43포인트(1.21%) 오른 8578.58을 기록 중이다. 이날 코스피지수는 0.11...",
+      "datetime_raw": "2026.06.01 09:35",
+      "datetime": "2026-06-01T09:35:00+09:00",
+      "dt": "2026-06-01 09:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "터치",
+        "코스피"
+      ],
+      "hash": "72ecdda1376e"
+    },
     {
       "title": "코스피, 장 초반 8500선 위로…사상 최고치 경신",
       "url": "https://www.hankyung.com/article/2026060197556",
@@ -80,7 +192,7 @@
     {
       "title": "\"NC, 1분기 호실적에 AI 사업 기대 커져…목표가↑\"-IBK",
       "url": "https://www.hankyung.com/article/2026060195746",
-      "summary": "IBK투자증권은 1일 NC에 대해 \"1분기 호실적에 이어 자회사 인공지능(AI) 사업에 대한 기대감이 커지고 있다\"며 목표주가를 기존 28만원에서 39만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 이승훈 연구원은 \"올해 1분기 연결 기...",
+      "summary": "IBK투자증권은 1일 NC에 대해 \"1분기 호실적에 이어 자회사 인공지능(AI) 사업에 대한 기대가 커지고 있다\"며 목표주가를 기존 28만원에서 39만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 이승훈 연구원은 \"올해 1분기 연결 기준...",
       "datetime_raw": "2026.06.01 08:46",
       "datetime": "2026-06-01T08:46:00+09:00",
       "dt": "2026-06-01 08:46",
@@ -227,9 +339,9 @@
       "hash": "678f08ce7d60"
     },
     {
-      "title": "\"LG, 주요 자회사의 신사업 수혜 기대…목표가↑\"-키움",
+      "title": "\"LG, 주요 자회사 신사업 수혜 기대…목표가↑\"-키움",
       "url": "https://www.hankyung.com/article/2026060194306",
-      "summary": "키움증권은 1일 LG에 대해 \"LG전자, LG씨엔에스 등 주요 자회사의 신사업 수혜를 직접적으로 누릴 수 있을 것\"이라며 목표주가를 기존 11만5000원에서 20만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 안영준 연구원은 \"최근 그룹...",
+      "summary": "키움증권은 1일 LG에 대해 \"LG전자, LG씨엔에스 등 주요 자회사 신사업 수혜를 직접적으로 누릴 수 있을 것\"이라며 목표주가를 기존 11만5000원에서 20만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 안영준 연구원은 \"최근 그룹사...",
       "datetime_raw": "2026.06.01 07:44",
       "datetime": "2026-06-01T07:44:00+09:00",
       "dt": "2026-06-01 07:44",
@@ -260,6 +372,87 @@
         "아직 덜 오른 종목 있다"
       ],
       "hash": "49e7a5b54790"
+    },
+    {
+      "title": "박세익 \"2028년초까지 큰 돈 벌 기회 온다\"",
+      "url": "https://www.hankyung.com/article/202605318975i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2028년초까지 큰 돈 벌 기회 온다"
+      ],
+      "hash": "b68316626251"
+    },
+    {
+      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
+      "url": "https://www.hankyung.com/article/202605318719i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국 브랜드",
+        "미국인들 밤새 줄 세웠다"
+      ],
+      "hash": "6552b5c43dd8"
+    },
+    {
+      "title": "한화그룹, 美 스페이스X 공급망 뚫었다",
+      "url": "https://www.hankyung.com/article/202605318979i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한화그룹"
+      ],
+      "hash": "96fa1f759b96"
+    },
+    {
+      "title": "'드디어 영접했네요'…빵덕후들도 쇼핑백에 쓸어 담았다는데",
+      "url": "https://www.hankyung.com/article/202605296715g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "드디어 영접했네요"
+      ],
+      "hash": "5acb6e36db6c"
+    },
+    {
+      "title": "\"다른 반도체주 오를 때 뭐했지?\"…1/4 토막 났다가 반등 시작",
+      "url": "https://www.hankyung.com/article/202605297461i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "다른 반도체주 오를 때 뭐했지?"
+      ],
+      "hash": "511e23d7861a"
     },
     {
       "title": "\"수익률 440%\"…삼전닉스 임원들 자사주 '대박' 터졌다",
@@ -293,22 +486,6 @@
         "100만원이 8000만원 됐다"
       ],
       "hash": "ba9356b034eb"
-    },
-    {
-      "title": "박세익 \"2028년초까지 큰 돈 벌 기회 온다\"",
-      "url": "https://www.hankyung.com/article/202605318975i",
-      "summary": "“내후년 초까지는 강세장이 계속될 것이다”(박세익 체슬리투자자문 대표)“삼성전자, SK하이닉스 앞으로 30~60% 더 오른다”(...",
-      "datetime_raw": "2026.05.31 15:49",
-      "datetime": "2026-05-31T15:49:00+09:00",
-      "dt": "2026-05-31 15:49",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "2028년초까지 큰 돈 벌 기회 온다"
-      ],
-      "hash": "b68316626251"
     },
     {
       "title": "\"삼전닉스 믿었다간 큰 코 다친다\"…역대급 빚투에 '경고' [노정동의 어쩌다 투자자]",
@@ -379,71 +556,6 @@
         "코스닥 1위"
       ],
       "hash": "aad024b7814c"
-    },
-    {
-      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
-      "url": "https://www.hankyung.com/article/202605318719i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국 브랜드",
-        "미국인들 밤새 줄 세웠다"
-      ],
-      "hash": "6552b5c43dd8"
-    },
-    {
-      "title": "'드디어 영접했네요'…빵덕후들도 쇼핑백에 쓸어 담았다는데",
-      "url": "https://www.hankyung.com/article/202605296715g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "드디어 영접했네요"
-      ],
-      "hash": "5acb6e36db6c"
-    },
-    {
-      "title": "한화그룹, 美 스페이스X 공급망 뚫었다",
-      "url": "https://www.hankyung.com/article/202605318979i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한화그룹"
-      ],
-      "hash": "96fa1f759b96"
-    },
-    {
-      "title": "\"다른 반도체주 오를 때 뭐했지?\"…1/4 토막 났다가 반등 시작",
-      "url": "https://www.hankyung.com/article/202605297461i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "다른 반도체주 오를 때 뭐했지?"
-      ],
-      "hash": "511e23d7861a"
     },
     {
       "title": "한 달 전보다 목표주가 크게 뛴 '톱10'…\"아직 덜 오른 종목 있다\"",
@@ -997,125 +1109,6 @@
         "10년간 내리막길 걷더니"
       ],
       "hash": "630ffcbb3be7"
-    },
-    {
-      "title": "현대차 로봇 운영체제 전담 …'넥스트 황제주' 노리는 현대오토에버",
-      "url": "https://www.hankyung.com/article/202605285223i",
-      "summary": "28일 종가 기준 국내 코스피 시장의 '황제주(주당 100만 원 이상 주식)'는 11개에 달한다. 증시 상황에 따라 100만원 선을 오르내리는 태광산업까지 포함하면 총 12개로 역대 최다다. 시장의 눈은 자연스럽게 '다음 황제주' 자리를 꿰...",
-      "datetime_raw": "2026.05.29 08:00",
-      "datetime": "2026-05-29T08:00:00+09:00",
-      "dt": "2026-05-29 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "넥스트 황제주",
-        "현대차 로봇 운영체제 전담"
-      ],
-      "hash": "faa550bad3e0"
-    },
-    {
-      "title": "2조 잭팟 터졌다더니…'내 주식은 왜?' 카카오 개미들 분통 [종목+]",
-      "url": "https://www.hankyung.com/article/2026052955826",
-      "summary": "카카오가 가상자산 거래소 업비트 운영사 두나무 지분을 사실상 전량 처분하며 2조원이 넘는 현금을 확보했다. 비핵심 자산을 정리하고 인공지능(AI) 중심으로 사업 재편에 속도를 내는 모습이다. 다만 증권가에서는 단기 주가 반등에 여전히 신중한 분위기다.29일 금융투자업계...",
-      "datetime_raw": "2026.05.29 07:48",
-      "datetime": "2026-05-29T07:48:00+09:00",
-      "dt": "2026-05-29 07:48",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "내 주식은 왜?",
-        "2조 잭팟 터졌다더니"
-      ],
-      "hash": "2743d9617ed9"
-    },
-    {
-      "title": "\"현대모비스, 로봇 부품사로 재평가…목표가 91만원으로 상향\"-유진",
-      "url": "https://www.hankyung.com/article/2026052956116",
-      "summary": "유진투자증권은 29일 현대모비스에 대해 \"로봇 부품사로 재평가 받을 것\"이라며 목표주가를 기존 56만원에서 91만원으로 상향하고 투자의견 '매수'를 유지했다.이 증권사 이재일 연구원은 \"현대모비스는 자율주행과 전동화 영역에 대한 집중적인 기술 투자로 &#...",
-      "datetime_raw": "2026.05.29 07:41",
-      "datetime": "2026-05-29T07:41:00+09:00",
-      "dt": "2026-05-29 07:41",
-      "brokers": [
-        "유진"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 62.5,
-      "keywords": [
-        "현대모비스"
-      ],
-      "hash": "815f0ec218e1"
-    },
-    {
-      "title": "\"SK하이닉스, 여전히 저평가…내년 영업익 454조원 전망\"-KB",
-      "url": "https://www.hankyung.com/article/2026052956006",
-      "summary": "KB증권은 29일 SK하이닉스에 대해 \"메모리 수요의 구조적 변화는 SK하이닉스의 밸류에이션 상승으로 이어지고 있어 궁극적으로 주가 상승의 핵심 동력으로 작용할 전망\"이라며 \"SK하이닉스의 본격적인 주가 상승은 이제부터 시작될 것\"이라고 분석했다. 목표주가는 기존 30...",
-      "datetime_raw": "2026.05.29 07:35",
-      "datetime": "2026-05-29T07:35:00+09:00",
-      "dt": "2026-05-29 07:35",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "cea69578481a"
-    },
-    {
-      "title": "\"AI 인프라·반도체주 올라타라\"…특허기술이 선정한 포트폴리오 [인터뷰+]",
-      "url": "https://www.hankyung.com/article/2026052846906",
-      "summary": "\"장중 실시간으로 여러 종목을 추천하면 포트폴리오 수익률을 올릴 수 있습니다. 그러나 일반 투자자는 해당 포트폴리오를 따라오기 어렵습니다. '뉴지랭크'는 한경유레카에서 누구나 쉽게 투자할 수 있도록 현실적인 포트폴리오를 제공합니다.\"문호준 뉴지스탁 본부장...",
-      "datetime_raw": "2026.05.29 06:30",
-      "datetime": "2026-05-29T06:30:00+09:00",
-      "dt": "2026-05-29 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "AI 인프라"
-      ],
-      "hash": "85ddd0f4c04f"
-    },
-    {
-      "title": "외인 순매도, 넉달째 이어졌지만…규모 4조원대로 줄어",
-      "url": "https://www.hankyung.com/article/2026052955337",
-      "summary": "외국인 투자자가 4월 국내 상장주식을 4조460억원어치 순매도한 것으로 나타났다. 매도세는 4개월째 이어졌지만 전월 43조원대 순매도보다 규모가 크게 줄었다.금융감독원이 29일 발표한 ‘2026년 4월 외국인 증권투자 동향’에 따르면 외국인은 지난...",
-      "datetime_raw": "2026.05.29 06:19",
-      "datetime": "2026-05-29T06:19:00+09:00",
-      "dt": "2026-05-29 06:19",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "외인 순매도"
-      ],
-      "hash": "8f0f87a7d0e4"
-    },
-    {
-      "title": "악시오스 \"미·이란, 휴전 합의 도달…트럼프 최종 승인 남아\"",
-      "url": "https://www.hankyung.com/article/202605285436B",
-      "summary": "미국과 이란이 60일간의 휴전 합의에 도달한 것으로 알려졌다.미 정치전문 매체 악시오스는 \"미국과 이란 협상단이 60일간의 휴전과 핵 협상 프레임워크에 합의했다\"고 28일(현지시간) 보도했다. 악시오스는 \"해당 합의는 아직 도널드 트럼프 미국 대통령의 최종 승인을 기다...",
-      "datetime_raw": "2026.05.28 23:27",
-      "datetime": "2026-05-28T23:27:00+09:00",
-      "dt": "2026-05-28 23:27",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "악시오스 \"미",
-        "미·이란, 휴전 합의 도달…트럼프 최종 승인 남아"
-      ],
-      "hash": "9f2b86899c10"
     }
   ],
   "consensus_signals": []

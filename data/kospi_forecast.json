@@ -1,11 +1,20 @@
 {
-  "computed_at": "2026-06-01T09:31:14.982463+09:00",
+  "computed_at": "2026-06-01T10:38:12.933389+09:00",
   "date": "2026-06-01",
   "low": 8400,
-  "high": 8400,
-  "mid": 8400,
-  "sample_size": 2,
+  "high": 8600,
+  "mid": 8440,
+  "sample_size": 3,
   "sources": [
+    {
+      "url": "https://www.hankyung.com/article/2026060196936",
+      "title": "코스피, 미·이란 합의 기대 장 초반 8600선 '터치'…시총 7000조",
+      "low": null,
+      "high": null,
+      "points": [
+        8600
+      ]
+    },
     {
       "url": "https://www.hankyung.com/article/2026052963756",
       "title": "코스피, 종전 기대감에 장중 8400선 회복…LG씨엔에스 '上'",
