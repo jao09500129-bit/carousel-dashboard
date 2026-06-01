@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-06-01T10:38:12.933389+09:00",
+  "computed_at": "2026-06-01T11:01:06.600121+09:00",
   "current_pivot": "환율 민감",
-  "current_view": "USDKRW +0.47% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+  "current_view": "USDKRW +0.50% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
   "current_confidence": "낮음 — 단기 변동성 큼",
   "current_days": 1,
   "rotation_velocity": "빠름",
-  "volatility_index": 17.8,
+  "volatility_index": 17.9,
   "candidates": [],
   "note": "★ 추정 — 매크로 변동성·conviction 휴리스틱 기반, 백테스트 미검증."
 }
