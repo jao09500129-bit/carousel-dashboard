@@ -60,8 +60,8 @@
 
 <link rel="stylesheet" href="https://hkstatic.hankyung.com/plugin/jquery-ui/jquery-ui.min.css">
 <link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/common/library/slick/v1.8.1/slick.css">
-<link rel="stylesheet" href="https://hkstatic.hankyung.com/css/www/w/common.ui.all.css?v=202606011116">
-<link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/www/list/css/w/list.css?v=202606011116">
+<link rel="stylesheet" href="https://hkstatic.hankyung.com/css/www/w/common.ui.all.css?v=202606011710">
+<link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/www/list/css/w/list.css?v=202606011710">
 
 <script type="application/ld+json">
 {
@@ -94,8 +94,8 @@
 <script type="text/javascript" src="https://hkstatic.hankyung.com/plugin/jquery.cookie.js"></script>
 <script type="text/javascript" src="https://hkstatic.hankyung.com/plugin/function.hk.js"></script>
 <script src="https://hkstatic.hankyung.com/resource/common/library/slick/v1.8.1/slick.min.js"></script>
-<script type="text/javascript" src="/resource/js/w/common.js?v=202606011116"></script>
-<script async src="https://hkstatic.hankyung.com/js/www/w/mark-pm.js?v=202606011116"></script>
+<script type="text/javascript" src="/resource/js/w/common.js?v=202606011710"></script>
+<script async src="https://hkstatic.hankyung.com/js/www/w/mark-pm.js?v=202606011710"></script>
 
 <!-- html5 태그 브라우저 호환성 -->
 <!--[if lt IE 9]>
@@ -103,7 +103,7 @@
 <![endif]-->
 
 <script>window.GATrackingData = {title: `한경코리아마켓>뉴스>전체뉴스`}</script>
-    <script src="https://hkstatic.hankyung.com/resource/www/common/js/gtm/tracking.js?v=202606011116" async></script>
+    <script src="https://hkstatic.hankyung.com/resource/www/common/js/gtm/tracking.js?v=202606011710" async></script>
 
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <script>
@@ -575,6 +575,10 @@ $(function () {
 
     // Sticky header
     let headerTop = $('.hk-header').offset().top;
+    if ($('.hk-header').css('position') == 'fixed') {
+        headerTop = 0;
+    }
+
     let headerH = $('.hk-header').outerHeight();
     // 초기 .hk-header 높이 세팅(fixed 후 스크롤 움직임 방지)
     $('.hk-header').css('height',headerH);
@@ -771,6 +775,166 @@ $(function () {
                         <div class="news-item">
                             <div class="text-cont">
                                 <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060102646" data-pm="N">코스피, 8800선 돌파해 최고치 재경신…삼성전자 10% 급등</a>
+                                </h2>
+                                <p class="lead">코스피지수가 6월의 첫 거래일 장중 상단을 8800선까지 높였다. 삼성전자는 장중 10%대 급등하면서 사상 처음으로 보통주 시가총액이 2000조원을 넘어섰다.1일 오전 10시55분 현재 코스피지수는 전 거래일보다 355.01포인트(4.19%) 오른 8831.16을 기록...</p>
+                                <p class="txt-date">2026.06.01 11:12</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060102646">
+                                    <img src="https://img.hankyung.com/photo/202606/ZA.44487892.3.jpg" alt="코스피, 8800선 돌파해 최고치 재경신…삼성전자 10% 급등">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060103196" data-pm="N">비에이치아이 "일본서 1883억원 규모 HRSG 2기 수주"</a>
+                                </h2>
+                                <p class="lead">비에이치아이는 도시바 플랜트 시스템&서비스(TPSC)에 1883억원 규모의 LNG 복합화력 발전설비를 공급하기로 하는 계약을 지난달 29일 맺었다고 6월1일 공시했다.계약에 따라 비에이치아이는 일본 지바현에 위치한 소데가우라 가스화력발전소에 800MW급 배열회수보일러(...</p>
+                                <p class="txt-date">2026.06.01 11:03</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060103196">
+                                    <img src="https://img.hankyung.com/photo/202606/01.36709957.3.jpg" alt="비에이치아이 &quot;일본서 1883억원 규모 HRSG 2기 수주&quot;">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060101836" data-pm="N">거래소 이사장, WEF 이사회 참석 및 노르웨이 국부펀드 면담 위해 출국</a>
+                                </h2>
+                                <p class="lead">한국거래소는 정은보 이사장이 오는 2일 룩셈부르크에서 열리는 2026년도 세계거래소연맹(WFE) 2차 이사회에 참석하고 노르웨이 국부펀드와 면담하기 위해 5월31일 출국했다고 6월1일 밝혔다.우선 정 이사장은 오는 2일 WFE 2차 이사회에서 나스닥, 시가고상업거래소,...</p>
+                                <p class="txt-date">2026.06.01 10:34</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060101836">
+                                    <img src="https://img.hankyung.com/photo/202606/01.43666639.3.jpg" alt="거래소 이사장, WEF 이사회 참석 및 노르웨이 국부펀드 면담 위해 출국">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060101506" data-pm="N">하이브랩, 자회사 키스톤마케팅컴퍼니 각자대표로 박정재 CFO 선임</a>
+                                </h2>
+                                <p class="lead">하이브랩은 자회사 키스톤마케팅컴퍼니의 관리 부문 각자 대표이사로 박정재 최고재무책임자(CFO)를 신규 선임했다고 1일 밝혔다.앞서 키스톤마케팅컴퍼니는 지난 3월 주주총회에서 박 대표를 선임한 후 2개월간 내부 정비 기간을 가졌다. 이번 개편으로 회사는 기존 이기호 대표...</p>
+                                <p class="txt-date">2026.06.01 10:19</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060101506">
+                                    <img src="https://img.hankyung.com/photo/202606/01.44488240.3.jpg" alt="하이브랩, 자회사 키스톤마케팅컴퍼니 각자대표로 박정재 CFO 선임">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060100646" data-pm="N">한국투자증권, 일본 엔화 RP 판매 개시</a>
+                                </h2>
+                                <p class="lead">한국투자증권은 일본 엔화(JPY)로 단기 투자할 수 있는 환매조건부채권(RP) 상품을 판매한다고 1일 밝혔다.외화 RP는 금융기관이 보유한 채권을 일정 기간이 지난 후 다시 매수하는 조건으로 투자자에게 매도하고, 보유 기간에 따른 약정 금리를 외화로 지급한다. 외화를 ...</p>
+                                <p class="txt-date">2026.06.01 10:05</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060100646">
+                                    <img src="https://img.hankyung.com/photo/202606/01.43048239.3.jpg" alt="한국투자증권, 일본 엔화 RP 판매 개시">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060199626" data-pm="N">강훈식, 캐나다 CPSP 수주전 현지 지원 기대에…한화오션 강세</a>
+                                </h2>
+                                <p class="lead">한화오션이 강세다. 60조원 규모의 캐나다 차세대 잠수함 사업(CPSP) 수주를 지원하기 위해 강훈식 청와대 비서실장이 캐나다를 방문한다는 소식에 해양 방산 관련 기대감이 커진 영향으로 보인다.1일 오전 9시36분 현재 한화오션은 전일 대비 4900원(3.97%) 상승...</p>
+                                <p class="txt-date">2026.06.01 09:42</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060199626">
+                                    <img src="https://img.hankyung.com/photo/202606/01.43114028.3.jpg" alt="강훈식, 캐나다 CPSP 수주전 현지 지원 기대에…한화오션 강세">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060199296" data-pm="N">'제2의 깐부회동' 기대감에…로봇株 일제 '불기둥'</a>
+                                </h2>
+                                <p class="lead">로봇주가 1일 장 초반 동반 급등세다. 젠슨 황 엔비디아 최고경영자(CEO)가 오는 5일 방한할 것이란 소식 이후 로봇 테마에 대한 투자자들의 기대심리가 자극된 것으로 풀이된다. 이날 오전 9시20분 현재 로보스타는 가격제한폭(2만8200원·30....</p>
+                                <p class="txt-date">2026.06.01 09:37</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060199296">
+                                    <img src="https://img.hankyung.com/photo/202606/AD.44461601.3.jpg" alt="'제2의 깐부회동' 기대감에…로봇株 일제 '불기둥'">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060198956" data-pm="N">'젠슨 황 회동 기대감' LG 삼형제, 장 초반 급등…LG전자 '上'</a>
+                                </h2>
+                                <p class="lead">젠슨 황 엔비디아 최고경영자(CEO) 방한 기대감에 LG그룹 주요 계열사 주가가 장 초반 일제히 급등하고 있다.1일 오전 9시14분 현재 LG전자는 전장 대비 27.99% 오른 37만5000원에 거래되고 있다. LG전자는 장 초반 한때 가격제한폭까지 뛰기도 했다. 같은...</p>
+                                <p class="txt-date">2026.06.01 09:37</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060198956">
+                                    <img src="https://img.hankyung.com/photo/202606/ZA.43867448.3.jpg" alt="'젠슨 황 회동 기대감' LG 삼형제, 장 초반 급등…LG전자 '上'">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060196936" data-pm="N">코스피, 미·이란 합의 기대 장 초반 8600선 '터치'…시총 7000조</a>
+                                </h2>
+                                <p class="lead">코스피지수가 미국과 이란의 종전 협상 합의 기대에 장 초반 8600선을 터치했다. 코스피 시가총액은 7000조원을 넘어섰다.1일 오전 9시13분 현재 코스피지수는 전 거래일보다 102.43포인트(1.21%) 오른 8578.58을 기록 중이다. 이날 코스피지수는 0.11...</p>
+                                <p class="txt-date">2026.06.01 09:35</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060196936">
+                                    <img src="https://img.hankyung.com/photo/202606/ZA.44487462.3.jpg" alt="코스피, 미·이란 합의 기대 장 초반 8600선 '터치'…시총 7000조">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026060197556" data-pm="N"> 코스피, 장 초반 8500선 위로…사상 최고치 경신</a>
+                                </h2>
+                                <p class="lead">[속보] 코스피, 장 초반 8500선 위로…사상 최고치 경신이수 한경닷컴 기자 2su@hankyung.com</p>
+                                <p class="txt-date">2026.06.01 09:04</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026060197556">
+                                    <img src="https://img.hankyung.com/photo/202606/02.22579247.3.jpg" alt=" 코스피, 장 초반 8500선 위로…사상 최고치 경신">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
                                     <a href="https://www.hankyung.com/article/2026060196857" data-pm="N">"역대급 '불장'이라는데 내 주식만 한겨울"…이유 있었네</a>
                                 </h2>
                                 <p class="lead">코스피가 사상 최고치 &#39;불장&#39; 행진을 이어가고 있지만 반도체를 빼면 체감 온도는 크게 낮다는 분석이 나왔다. 삼성전자와 SK하이닉스 등 메모리 반도체주가 지수 상승을 이끄는 동안 다른 업종은 코스피 상승률을 따라가지 못하면서 시장 내부의 쏠림도 커지고 있...</p>
@@ -938,176 +1102,6 @@ $(function () {
                             <figure class="thumb">
                                 <a href="https://www.hankyung.com/article/2026060194636">
                                     <img src="https://img.hankyung.com/photo/202606/01.37907867.3.jpg" alt="&quot;에코프로에이치엔, 반도체 팹 증설 수혜주&quot;-DS">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026060194306" data-pm="N">"LG, 주요 자회사 신사업 수혜 기대…목표가↑"-키움</a>
-                                </h2>
-                                <p class="lead">키움증권은 1일 LG에 대해 "LG전자, LG씨엔에스 등 주요 자회사 신사업 수혜를 직접적으로 누릴 수 있을 것"이라며 목표주가를 기존 11만5000원에서 20만원으로 상향 조정했다. 투자의견은 &#39;매수&#39;를 유지했다.이 증권사 안영준 연구원은 "최근 그룹사...</p>
-                                <p class="txt-date">2026.06.01 07:44</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026060194306">
-                                    <img src="https://img.hankyung.com/photo/202606/ZA.43867446.3.jpg" alt="&quot;LG, 주요 자회사 신사업 수혜 기대…목표가↑&quot;-키움">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026053191541" data-pm="N">한달 전보다 목표가 크게 뛴 '톱10'…"아직 덜 오른 종목 있다" [한경 프리미엄9 TODAY]</a>
-                                </h2>
-                                <p class="lead"> 한달 전보다 목표가 크게 뛴 &#39;톱10&#39;…"아직 덜 오른 종목 있다"최근 증권사 목표주가 평균치를 분석한 결과 삼성전기 등 10개 종목은 목표주가가 크게 뛴 반면 실적이 부진한 10개는 하향 조정됐다. 자본시장 전문 코파일럿 에픽AI...</p>
-                                <p class="txt-date">2026.05.31 19:17</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026053191541">
-                                    <img src="https://img.hankyung.com/photo/202605/AA.44483158.3.jpg" alt="한달 전보다 목표가 크게 뛴 '톱10'…&quot;아직 덜 오른 종목 있다&quot; [한경 프리미엄9 TODAY]">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026053192227" data-pm="N">"수익률 440%"…삼전닉스 임원들 자사주 '대박' 터졌다</a>
-                                </h2>
-                                <p class="lead">삼성전자와 SK하이닉스 주가가 크게 오르면서 두 회사 일부 등기임원의 자사주 수익률이 최대 440%에 달한 것으로 나타났다. 최근 주가 기준으로 삼성전자·SK하이닉스 사장 이상 등기임원 5명이 보유한 자사주 평가액은 모두 1000억원을 넘어섰다.31일 금융...</p>
-                                <p class="txt-date">2026.05.31 18:10</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026053192227">
-                                    <img src="https://img.hankyung.com/photo/202605/01.44437297.3.jpg" alt="&quot;수익률 440%&quot;…삼전닉스 임원들 자사주 '대박' 터졌다">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026053190407" data-pm="N">"100만원이 8000만원 됐다"…19세 아이돌, 주식 대박난 비결</a>
-                                </h2>
-                                <p class="lead">아이돌 그룹 앤더블의 멤버 한유진이 14살 때 100만원의 종자돈으로 시작한 주식 투자 수익률이 8000%에 달한다고 밝혀 화제다. 그는 2007년생으로 현재 만 19세다.한유진은 지난 30일 방영된 JTBC 예능 프로그램 ‘아는 형님’에 출연해 ...</p>
-                                <p class="txt-date">2026.05.31 17:15</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026053190407">
-                                    <img src="https://img.hankyung.com/photo/202605/01.44426477.3.jpg" alt="&quot;100만원이 8000만원 됐다&quot;…19세 아이돌, 주식 대박난 비결">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <div class="news-item__meta">
-                                    <a href="/premium9/0102005" class="news-item__series">
-                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">투자 인사이트
-                                    </a>
-                                </div>
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/202605318975i" data-pm="P9P">박세익 "2028년초까지 큰 돈 벌 기회 온다"</a>
-                                </h2>
-                                <p class="lead">“내후년 초까지는 강세장이 계속될 것이다”(박세익 체슬리투자자문 대표)“삼성전자, SK하이닉스 앞으로 30~60% 더 오른다”(...</p>
-                                <p class="txt-date">2026.05.31 15:49</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/202605318975i">
-                                    <img src="https://img.hankyung.com/photo/202605/01.44482135.3.jpg" alt="박세익 &quot;2028년초까지 큰 돈 벌 기회 온다&quot;">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026052968886" data-pm="N">"삼전닉스 믿었다간 큰 코 다친다"…역대급 빚투에 '경고' [노정동의 어쩌다 투자자]</a>
-                                </h2>
-                                <p class="lead">코스피지수가 미국·이란 전쟁 종전 기대감과 인공지능(AI) 산업 모멘텀(상승동력)에 힘입어 사상 최고치 행진을 이어가고 있는 가운데 한국은행이 연내 기준금리 인상을 사실상 공식화하면서 증시 투자자 사이에서 우려의 목소리가 나온다.국내 증시가 당분간 &#39...</p>
-                                <p class="txt-date">2026.05.31 14:21</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026052968886">
-                                    <img src="https://img.hankyung.com/photo/202605/01.44425688.3.jpg" alt="&quot;삼전닉스 믿었다간 큰 코 다친다&quot;…역대급 빚투에 '경고' [노정동의 어쩌다 투자자]">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/202605318874B" data-pm="N">트럼프 "미·이란, '좋은 합의'에 근접…불발시 전쟁부 개입"</a>
-                                </h2>
-                                <p class="lead">도널드 트럼프 미국 대통령이 "이란과 '매우 좋은 합의(very good deal)'에 근접했다"는 입장을 내놨다.트럼프 대통령은 30일(현지시간) 폭스뉴스와의 인터뷰에서 "내가 반드시 확보해야 하는 한 가지 보장은 (이란에) 핵무기가 존재하지 않는 것"이라며 이같이 ...</p>
-                                <p class="txt-date">2026.05.31 13:58</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/202605318874B">
-                                    <img src="https://img.hankyung.com/photo/202605/cd2581e3-67a9-4811-8703-0d1f2b0881fc.webp" alt="트럼프 &quot;미·이란, '좋은 합의'에 근접…불발시 전쟁부 개입&quot;">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/202605318637B" data-pm="N">트럼프, '휴전 합의' 조건 강화…"이란에 수정안 검토 요청"</a>
-                                </h2>
-                                <p class="lead">도널드 트럼프 미국 대통령이 이란과의 휴전 조건을 강화한 것으로 알려졌다.뉴욕타임스(NYT)는 복수의 소식통을 인용해 트럼프 대통령이 최근 미국과 이란 간 휴전을 위한 잠정 합의안에 보다 엄격한 조건을 추가했다고 30일(현지시간) 보도했다. 뉴욕타임스는 "(미국은) 수...</p>
-                                <p class="txt-date">2026.05.31 09:55</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/202605318637B">
-                                    <img src="https://img.hankyung.com/photo/202605/58258e51-3643-4aae-873c-fd394e0d956e.webp" alt="트럼프, '휴전 합의' 조건 강화…&quot;이란에 수정안 검토 요청&quot;">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026053186017" data-pm="N">'코스닥 1위' 회사마저 제쳤다…'28조' 뚫은 ETF 뭐길래</a>
-                                </h2>
-                                <p class="lead">상장지수펀드(ETF) 시가총액이 500조원을 넘어서면서 코스닥 시가총액을 추격하고 있다.31일 한국거래소에 따르면 지난 27일 ETF 순자산 가치는 501조8199조원을 기록하며 &#39;순자산 500조원 시대&#39;를 열었다. 이는 지난 29일 기준 코스닥 시총의 ...</p>
-                                <p class="txt-date">2026.05.31 09:26</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026053186017">
-                                    <img src="https://img.hankyung.com/photo/202605/99.25047236.3.jpg" alt="'코스닥 1위' 회사마저 제쳤다…'28조' 뚫은 ETF 뭐길래">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <div class="news-item__meta">
-                                    <a href="/premium9/0102001" class="news-item__series">
-                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">핫스톡
-                                    </a>
-                                </div>
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/202605296666i" data-pm="P9P">한 달 전보다 목표주가 크게 뛴 '톱10'…"아직 덜 오른 종목 있다"</a>
-                                </h2>
-                                <p class="lead">  평균 목표주가 상향 조정 상위 10개 종목※ 본 분석은 29일 기준 검색된 컨센서스 데이터를 바탕으로, 1개월 전 대비 평균 목표주가 변동률을 산출한 결과다. 변동률은 에픽AI 내부 랭킹 데이터 기준이다.상향 조정 상위 10개 종목 분석1. 삼성전...</p>
-                                <p class="txt-date">2026.05.31 08:40</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/202605296666i">
-                                    <img src="https://img.hankyung.com/photo/202605/01.44464452.3.jpg" alt="한 달 전보다 목표주가 크게 뛴 '톱10'…&quot;아직 덜 오른 종목 있다&quot;">
                                 </a>
                             </figure>
                         </div>
@@ -1366,12 +1360,12 @@ $(function () {
 				<div class="news-item">
 					<div class="txt-cont">
 						<p class="news-tit">
-							<a href="https://www.hankyung.com/article/202605318975i" data-pm="P9P">박세익 "2028년초까지 큰 돈 벌 기회 온다"</a>
+							<a href="https://www.hankyung.com/article/2026053191571" data-pm="N">"갓 졸업한 고3 모셔갑니다"…삼전닉스 러브콜 받는 학교</a>
 						</p>
 					</div>
 					<div class="thumb">
-						<a href="https://www.hankyung.com/article/202605318975i">
-							<img src="https://img.hankyung.com/photo/202605/01.44482135.3.jpg" alt="박세익 &quot;2028년초까지 큰 돈 벌 기회 온다&quot;">
+						<a href="https://www.hankyung.com/article/2026053191571">
+							<img src="https://img.hankyung.com/photo/202605/AA.44482694.3.jpg" alt="&quot;갓 졸업한 고3 모셔갑니다&quot;…삼전닉스 러브콜 받는 학교">
 						</a>
 					</div>
 				</div>
@@ -1396,12 +1390,12 @@ $(function () {
 				<div class="news-item">
 					<div class="txt-cont">
 						<p class="news-tit">
-							<a href="https://www.hankyung.com/article/2026053191571" data-pm="N">"갓 졸업한 고3 모셔갑니다"…삼전닉스 러브콜 받는 학교</a>
+							<a href="https://www.hankyung.com/article/202606010766g" data-pm="N">두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상</a>
 						</p>
 					</div>
 					<div class="thumb">
-						<a href="https://www.hankyung.com/article/2026053191571">
-							<img src="https://img.hankyung.com/photo/202605/AA.44482694.3.jpg" alt="&quot;갓 졸업한 고3 모셔갑니다&quot;…삼전닉스 러브콜 받는 학교">
+						<a href="https://www.hankyung.com/article/202606010766g">
+							<img src="https://img.hankyung.com/photo/202606/01.44490620.3.jpg" alt="두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상">
 						</a>
 					</div>
 				</div>
@@ -1411,12 +1405,12 @@ $(function () {
 				<div class="news-item">
 					<div class="txt-cont">
 						<p class="news-tit">
-							<a href="https://www.hankyung.com/article/202605318979i" data-pm="P9P">한화그룹, 美 스페이스X 공급망 뚫었다</a>
+							<a href="https://www.hankyung.com/article/2026052973726" data-pm="N">"집 파느니 차라리" 집주인들 '중대 결단'…강남서 무슨 일이</a>
 						</p>
 					</div>
 					<div class="thumb">
-						<a href="https://www.hankyung.com/article/202605318979i">
-							<img src="https://img.hankyung.com/photo/202605/01.44482186.3.jpg" alt="한화그룹, 美 스페이스X 공급망 뚫었다">
+						<a href="https://www.hankyung.com/article/2026052973726">
+							<img src="https://img.hankyung.com/photo/202605/ZN.44463768.3.jpg" alt="&quot;집 파느니 차라리&quot; 집주인들 '중대 결단'…강남서 무슨 일이">
 						</a>
 					</div>
 				</div>
@@ -1426,12 +1420,12 @@ $(function () {
 				<div class="news-item">
 					<div class="txt-cont">
 						<p class="news-tit">
-							<a href="https://www.hankyung.com/article/2026052973726" data-pm="N">"집 파느니 차라리" 집주인들 '중대 결단'…강남서 무슨 일이</a>
+							<a href="https://www.hankyung.com/article/202605318975i" data-pm="P9P">박세익 "2028년초까지 큰 돈 벌 기회 온다"</a>
 						</p>
 					</div>
 					<div class="thumb">
-						<a href="https://www.hankyung.com/article/2026052973726">
-							<img src="https://img.hankyung.com/photo/202605/ZN.44463768.3.jpg" alt="&quot;집 파느니 차라리&quot; 집주인들 '중대 결단'…강남서 무슨 일이">
+						<a href="https://www.hankyung.com/article/202605318975i">
+							<img src="https://img.hankyung.com/photo/202605/01.44482135.3.jpg" alt="박세익 &quot;2028년초까지 큰 돈 벌 기회 온다&quot;">
 						</a>
 					</div>
 				</div>

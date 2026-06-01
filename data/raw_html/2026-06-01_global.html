@@ -58,16 +58,16 @@
 <link rel="preload" href="https://hkstatic.hankyung.com/resource/common/library/slick/v1.8.1/slick.css" as="style">
 <link rel="preload" href="https://hkstatic.hankyung.com/plugin/swiper/css/swiper.min.css" as="style">
 
-<link rel="preload" href="https://hkstatic.hankyung.com/css/www/w/common.ui.all.css?v=202606011116" as="style">
-<link rel="preload" href="https://hkstatic.hankyung.com/resource/www/globalmarket/css/w/globalmarket.css?v=202606011116" as="style">
+<link rel="preload" href="https://hkstatic.hankyung.com/css/www/w/common.ui.all.css?v=202606011710" as="style">
+<link rel="preload" href="https://hkstatic.hankyung.com/resource/www/globalmarket/css/w/globalmarket.css?v=202606011710" as="style">
 
 <link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/common/font/NotoSans/NotoSans.css">
 
 <link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/common/library/slick/v1.8.1/slick.css">
 <link rel="stylesheet" href="https://hkstatic.hankyung.com/plugin/swiper/css/swiper.min.css">
 
-<link rel="stylesheet" href="https://hkstatic.hankyung.com/css/www/w/common.ui.all.css?v=202606011116">
-<link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/www/globalmarket/css/w/globalmarket.css?v=202606011116">
+<link rel="stylesheet" href="https://hkstatic.hankyung.com/css/www/w/common.ui.all.css?v=202606011710">
+<link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/www/globalmarket/css/w/globalmarket.css?v=202606011710">
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -100,10 +100,10 @@
 
 <script src="https://hkstatic.hankyung.com/plugin/swiper/js/swiper.min.js"></script>
 
-<script src="https://hkstatic.hankyung.com/js/www/w/mark-pm.js?v=202606011116"></script>
+<script src="https://hkstatic.hankyung.com/js/www/w/mark-pm.js?v=202606011710"></script>
 
 <script>window.GATrackingData = {title: `한경글로벌마켓`}</script>
-    <script src="https://hkstatic.hankyung.com/resource/www/common/js/gtm/tracking.js?v=202606011116" async></script>
+    <script src="https://hkstatic.hankyung.com/resource/www/common/js/gtm/tracking.js?v=202606011710" async></script>
 
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <script>
@@ -564,6 +564,10 @@ $(function () {
 
     // Sticky header
     let headerTop = $('.hk-header').offset().top;
+    if ($('.hk-header').css('position') == 'fixed') {
+        headerTop = 0;
+    }
+
     let headerH = $('.hk-header').outerHeight();
     // 초기 .hk-header 높이 세팅(fixed 후 스크롤 움직임 방지)
     $('.hk-header').css('height',headerH);
@@ -1144,17 +1148,43 @@ $(function () {
                             <article class="news-item type-headline">
                                 <div class="txt-cont">
                                     <h2 class="news-tit">
-                                        <a href="https://www.hankyung.com/article/202606010281i" data-pm="N">워시 Fed 의장 "인플레이션 측정 방식 바꿔야"…절사평균 물가 주목</a>
+                                        <a href="https://www.hankyung.com/article/2026060114771" data-pm="N">워시가 띄운 물가 지표…근원 물가와 괴리 커졌다</a>
                                     </h2>
-                                    <p class="txt-date">2026.06.01 11:22</p>
+                                    <p class="txt-date">2026.06.01 17:32</p>
                                 </div>
                                 <div class="thumb">
-                                    <a href="https://www.hankyung.com/article/202606010281i">
-                                        <img src="https://img.hankyung.com/photo/202606/01.44488954.3.jpg" alt="워시 Fed 의장 &quot;인플레이션 측정 방식 바꿔야&quot;…절사평균 물가 주목">
+                                    <a href="https://www.hankyung.com/article/2026060114771">
+                                        <img src="https://img.hankyung.com/photo/202606/ZA.44390112.3.jpg" alt="워시가 띄운 물가 지표…근원 물가와 괴리 커졌다">
                                     </a>
                                 </div>
                             </article>
                             <article class="news-item type-headline">
+                                <div class="news-item__meta">
+                                    <a href="/premium9/0102005" class="news-item__series">
+                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9-light.svg" alt="PREMIUM9" class="icon-premium9">투자 인사이트
+                                    </a>
+                                </div>
+                                <div class="txt-cont">
+                                    <h2 class="news-tit">
+                                        <a href="https://www.hankyung.com/article/202606010768i" data-pm="P9F">'파죽지세' 코스피, 하반기 리스크는 '이것'…증권가의 워스트 시나리오는?</a>
+                                    </h2>
+                                    <p class="txt-date">2026.06.01 16:35</p>
+                                </div>
+                                <div class="thumb">
+                                    <a href="https://www.hankyung.com/article/202606010768i">
+                                        <img src="https://img.hankyung.com/photo/202606/01.44491972.3.jpg" alt="'파죽지세' 코스피, 하반기 리스크는 '이것'…증권가의 워스트 시나리오는?">
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="news-item type-ellip">
+                                <div class="txt-cont">
+                                    <h2 class="news-tit">
+                                        <a href="https://www.hankyung.com/article/202606010281i" data-pm="N">워시 Fed 의장 "인플레이션 측정 방식 바꿔야"…절사평균 물가 주목</a>
+                                    </h2>
+                                    <p class="txt-date">2026.06.01 11:22</p>
+                                </div>
+                            </article>
+                            <article class="news-item type-ellip">
                                 <div class="news-item__meta">
                                     <a href="/premium9/0101003" class="news-item__series">
                                         <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">글로벌 시장 브리핑
@@ -1165,11 +1195,6 @@ $(function () {
                                         <a href="https://www.hankyung.com/article/202606019502i" data-pm="P9P">미국 카드빚 1.25조달러…연체율 15년 만에 최고</a>
                                     </h2>
                                     <p class="txt-date">2026.06.01 08:11</p>
-                                </div>
-                                <div class="thumb">
-                                    <a href="https://www.hankyung.com/article/202606019502i">
-                                        <img src="https://img.hankyung.com/photo/202606/01.44486776.3.jpg" alt="미국 카드빚 1.25조달러…연체율 15년 만에 최고">
-                                    </a>
                                 </div>
                             </article>
                             <article class="news-item type-ellip">
@@ -1214,27 +1239,6 @@ $(function () {
                                     <p class="txt-date">2026.05.31 14:44</p>
                                 </div>
                             </article>
-                            <article class="news-item type-ellip">
-                                <div class="txt-cont">
-                                    <h2 class="news-tit">
-                                        <a href="https://www.hankyung.com/article/202605318811i" data-pm="N">고민 길어지는 트럼프…국내 반발과 이란 사이에서 고심</a>
-                                    </h2>
-                                    <p class="txt-date">2026.05.31 13:58</p>
-                                </div>
-                            </article>
-                            <article class="news-item type-ellip">
-                                <div class="news-item__meta">
-                                    <a href="/premium9/0101003" class="news-item__series">
-                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">글로벌 시장 브리핑
-                                    </a>
-                                </div>
-                                <div class="txt-cont">
-                                    <h2 class="news-tit">
-                                        <a href="https://www.hankyung.com/article/202605295792i" data-pm="P9P">포드 주가 3년내 최고…"차보다 에너지 저장이 견인"</a>
-                                    </h2>
-                                    <p class="txt-date">2026.05.29 11:33</p>
-                                </div>
-                            </article>
                         </div>
                     </section>
 
@@ -1256,14 +1260,30 @@ $(function () {
                                     <article class="news-item type-headline">
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
+                                                <a href="https://www.hankyung.com/article/2026060114911" data-pm="N">90년대 잘 나가던 '스타 테크주'…AI 열풍 타고 부활</a>
+                                            </h2>
+                                            <p class="txt-date">2026.06.01 17:48</p>
+                                        </div>
+                                        <div class="thumb">
+                                            <a href="https://www.hankyung.com/article/2026060114911">
+                                                <img src="https://img.hankyung.com/photo/202606/ZA.44458392.3.jpg" alt="90년대 잘 나가던 '스타 테크주'…AI 열풍 타고 부활">
+                                            </a>
+                                        </div>
+                                    </article>
+                                    <article class="news-item type-ellip">
+                                        <div class="txt-cont">
+                                            <h2 class="news-tit">
+                                                <a href="https://www.hankyung.com/article/202606010985i" data-pm="N">1990년대 ‘스타 테크주들’, AI 열풍 타고 컴백</a>
+                                            </h2>
+                                            <p class="txt-date">2026.06.01 16:05</p>
+                                        </div>
+                                    </article>
+                                    <article class="news-item type-ellip">
+                                        <div class="txt-cont">
+                                            <h2 class="news-tit">
                                                 <a href="https://www.hankyung.com/article/202606019427i" data-pm="N">피자헛, 사모펀드 롱레인지에 수주 내 매각될 전망</a>
                                             </h2>
                                             <p class="txt-date">2026.06.01 08:38</p>
-                                        </div>
-                                        <div class="thumb">
-                                            <a href="https://www.hankyung.com/article/202606019427i">
-                                                <img src="https://img.hankyung.com/photo/202606/01.44487050.3.jpg" alt="피자헛, 사모펀드 롱레인지에 수주 내 매각될 전망">
-                                            </a>
                                         </div>
                                     </article>
                                     <article class="news-item type-ellip">
@@ -1272,22 +1292,6 @@ $(function () {
                                                 <a href="https://www.hankyung.com/article/2026053191921" data-pm="N">中, 5년간 3340조원 투입해 도심 재생</a>
                                             </h2>
                                             <p class="txt-date">2026.05.31 18:35</p>
-                                        </div>
-                                    </article>
-                                    <article class="news-item type-ellip">
-                                        <div class="txt-cont">
-                                            <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202605318995i" data-pm="N">노후 주택·가스관 대수술…中, 3340조 도시 재생 카드 꺼냈다</a>
-                                            </h2>
-                                            <p class="txt-date">2026.05.31 16:19</p>
-                                        </div>
-                                    </article>
-                                    <article class="news-item type-ellip">
-                                        <div class="txt-cont">
-                                            <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202605318750i" data-pm="N">"더 이상은 못 참아"…중국산 저가 공습에 칼 빼든 유럽</a>
-                                            </h2>
-                                            <p class="txt-date">2026.05.31 15:24</p>
                                         </div>
                                     </article>
                                 </div>
@@ -1307,53 +1311,38 @@ $(function () {
                                     <article class="news-item type-headline">
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202606010208i" data-pm="N">"이제야 좀 사람 같네"…패션계 뒤흔든 로봇의 대변신</a>
+                                                <a href="https://www.hankyung.com/article/2026060117497" data-pm="N">소프트뱅크, 프랑스에 79조원 투자…마크롱·손정의 '포옹'</a>
                                             </h2>
-                                            <p class="txt-date">2026.06.01 10:38</p>
+                                            <p class="txt-date">2026.06.01 21:59</p>
                                         </div>
                                         <div class="thumb">
-                                            <a href="https://www.hankyung.com/article/202606010208i">
-                                                <img src="https://img.hankyung.com/photo/202606/01.44488449.3.jpg" alt="&quot;이제야 좀 사람 같네&quot;…패션계 뒤흔든 로봇의 대변신">
+                                            <a href="https://www.hankyung.com/article/2026060117497">
+                                                <img src="https://img.hankyung.com/photo/202606/01.44494713.3.jpg" alt="소프트뱅크, 프랑스에 79조원 투자…마크롱·손정의 '포옹'">
                                             </a>
                                         </div>
                                     </article>
                                     <article class="news-item type-ellip">
-                                        <div class="news-item__meta">
-                                            <a href="/premium9/0101003" class="news-item__series">
-                                                <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">글로벌 시장 브리핑
-                                            </a>
-                                        </div>
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202606019504i" data-pm="P9P">저렴한 시대와의 작별</a>
+                                                <a href="https://www.hankyung.com/article/2026060117437" data-pm="N">막판 꼬인 종전 협상…이란 "레바논 휴전이 근본 조건"</a>
                                             </h2>
-                                            <p class="txt-date">2026.06.01 08:42</p>
+                                            <p class="txt-date">2026.06.01 21:50</p>
                                         </div>
                                     </article>
                                     <article class="news-item type-ellip">
-                                        <div class="news-item__meta">
-                                            <a href="/premium9/0101001" class="news-item__series">
-                                                <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">모닝 글로벌 뉴스
-                                            </a>
-                                        </div>
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202606019499i" data-pm="P9P">UN 8월 파산 위기설…돈줄 쥔 미국과 중국의 기싸움</a>
+                                                <a href="https://www.hankyung.com/article/2026060114791" data-pm="N">더 인간답게…니트 입은 中 휴머노이드</a>
                                             </h2>
-                                            <p class="txt-date">2026.06.01 08:13</p>
+                                            <p class="txt-date">2026.06.01 17:31</p>
                                         </div>
                                     </article>
                                     <article class="news-item type-ellip">
-                                        <div class="news-item__meta">
-                                            <a href="/premium9/0101001" class="news-item__series">
-                                                <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">모닝 글로벌 뉴스
-                                            </a>
-                                        </div>
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202606019470i" data-pm="P9P">미국 카드빚 1.25조 달러 폭발…그런데도 'AI 랠리'에 베팅하는 이유?</a>
+                                                <a href="https://www.hankyung.com/article/2026060112387" data-pm="N">"노후에 10억도 모자라요"…은퇴자 초비상 걸린 '연금천국'</a>
                                             </h2>
-                                            <p class="txt-date">2026.06.01 07:55</p>
+                                            <p class="txt-date">2026.06.01 16:43</p>
                                         </div>
                                     </article>
                                 </div>
@@ -2348,7 +2337,7 @@ $(function () {
     </div>
 </div>
 
-<script src="/resource/js/globalmarket/main.js?v=202606011116"></script>
+<script src="/resource/js/globalmarket/main.js?v=202606011710"></script>
             <!-- // 콘텐츠 영역 -->
 
             <!-- 콘텐츠 하단 공통 안내문구 -->
