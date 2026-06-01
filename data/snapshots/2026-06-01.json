@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-01T13:01:00.120958+09:00",
+  "collected_at": "2026-06-01T15:01:09.214878+09:00",
   "date": "2026-06-01",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,10 +9,14 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 9,
+    "with_broker_mention": 10,
     "target_price_up": 6,
     "target_price_down": 1,
     "top_brokers": [
+      [
+        "유안타",
+        2
+      ],
       [
         "한국투자",
         2
@@ -26,10 +30,6 @@
         2
       ],
       [
-        "유안타",
-        1
-      ],
-      [
         "키움",
         1
       ],
@@ -40,6 +40,91 @@
     ]
   },
   "items": [
+    {
+      "title": "젠슨 황이 '네이버' 찍었다…엔비디아 효과에 주가 '불기둥'",
+      "url": "https://www.hankyung.com/article/2026060107986",
+      "summary": "NAVER(네이버)가 1일 장중 급등하고 있다. 엔비디아와의 협력 기대감이 커지면서 투자 심리가 자극받은 것으로 풀이된다. 장중 상한가에 근접하기도 했다.이날 오후 2시24분께 네이버는 전 거래일 대비 5만6500원(24.15%) 뛴 29만500원에 거래되고 있다. 장...",
+      "datetime_raw": "2026.06.01 14:45",
+      "datetime": "2026-06-01T14:45:00+09:00",
+      "dt": "2026-06-01 14:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "네이버",
+        "불기둥"
+      ],
+      "hash": "5480aeb483c0"
+    },
+    {
+      "title": "유안타증권, 'iM에셋 히어로 셀렉션' 펀드 판매액 500억 돌파",
+      "url": "https://www.hankyung.com/article/2026060108106",
+      "summary": "유안타증권은 'iM에셋 히어로 셀렉션 증권투자신탁'(사모투자재간접형)의 판매액이 500억원을 돌파했다고 1일 밝혔다. 유안타증권이 약 3개월간 단독 판매한 이 펀드는 사모펀드 운용사의 대표 사모펀드를 편입해 분산 투자한다. 지난달 28일 기준 해...",
+      "datetime_raw": "2026.06.01 14:17",
+      "datetime": "2026-06-01T14:17:00+09:00",
+      "dt": "2026-06-01 14:17",
+      "brokers": [
+        "유안타"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유안타증권",
+        "iM에셋 히어로 셀렉션"
+      ],
+      "hash": "7e94b9f1520c"
+    },
+    {
+      "title": "\"비상장 로보틱스·피지컬 AI 투자 펀드 '로보스트래티지' 상장\"",
+      "url": "https://www.hankyung.com/article/2026060107696",
+      "summary": "비상장 로보틱스·피지컬 인공지능(AI) 기업에 투자하는 미국 나스닥 상장 펀드 로보스트래티지가 출범했다고 블루밍비트가 1일 보도했다.로보스트래티지는 지난달 11일 미국 나스닥 시장에 상장돼 티커명 'BOT'으로 거래되고 있으며 현재 약 5억9...",
+      "datetime_raw": "2026.06.01 14:17",
+      "datetime": "2026-06-01T14:17:00+09:00",
+      "dt": "2026-06-01 14:17",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "상장"
+      ],
+      "hash": "289ae73b0d4b"
+    },
+    {
+      "title": "코스콤 금융사업본부, 'AI 인사이트 데이' 행사 개최",
+      "url": "https://www.hankyung.com/article/2026060107736",
+      "summary": "코스콤 금융사업본부는 지난 5월29일 ‘금융사업본부 AI Insight Day’를 개최했다고 1일 밝혔다.임직원 100여 명이 참석한 이번 행사는 현업 중심의 인공지능(AI) 활용 사례를 공유하고 업무에 적용하기 위해 마련됐다.첫 번째 세션에서는 ...",
+      "datetime_raw": "2026.06.01 14:04",
+      "datetime": "2026-06-01T14:04:00+09:00",
+      "dt": "2026-06-01 14:04",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 인사이트 데이",
+        "코스콤 금융사업본부"
+      ],
+      "hash": "da960d7c774e"
+    },
+    {
+      "title": "한화에어로스페이스, 사업장 폭발사고에 장중 하락 전환",
+      "url": "https://www.hankyung.com/article/2026060105936",
+      "summary": "한화에어로스페이스가 1일 대전공장 폭발 사고 소식 이후 장중 하락 전환했다.이날 오후 1시10분께 한화에어로스페이스는 전 거래일 대비 2만5000원(2.13%) 내린 114만8000원에 거래되고 있다. 장중 한때 4%대 떨어지기도 했다.경찰과 소방 당국에 따르면 이날 ...",
+      "datetime_raw": "2026.06.01 13:15",
+      "datetime": "2026-06-01T13:15:00+09:00",
+      "dt": "2026-06-01 13:15",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한화에어로스페이스"
+      ],
+      "hash": "85218a9885c4"
+    },
     {
       "title": "'8800선 돌파' 코스피, 매수 사이드카 발동…삼전 시총 2000조 돌파",
       "url": "https://www.hankyung.com/article/2026060104716",
@@ -288,6 +373,87 @@
       "hash": "c8177c6a1c89"
     },
     {
+      "title": "박세익 \"2028년초까지 큰 돈 벌 기회 온다\"",
+      "url": "https://www.hankyung.com/article/202605318975i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2028년초까지 큰 돈 벌 기회 온다"
+      ],
+      "hash": "b68316626251"
+    },
+    {
+      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
+      "url": "https://www.hankyung.com/article/202605318719i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국 브랜드",
+        "미국인들 밤새 줄 세웠다"
+      ],
+      "hash": "6552b5c43dd8"
+    },
+    {
+      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
+      "url": "https://www.hankyung.com/article/2026053191571",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "갓 졸업한 고3 모셔갑니다"
+      ],
+      "hash": "c955617e61cb"
+    },
+    {
+      "title": "한화그룹, 美 스페이스X 공급망 뚫었다",
+      "url": "https://www.hankyung.com/article/202605318979i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한화그룹"
+      ],
+      "hash": "96fa1f759b96"
+    },
+    {
+      "title": "\"다른 반도체주 오를 때 뭐했지?\"…1/4 토막 났다가 반등 시작",
+      "url": "https://www.hankyung.com/article/202605297461i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "다른 반도체주 오를 때 뭐했지?"
+      ],
+      "hash": "511e23d7861a"
+    },
+    {
       "title": "\"더블유게임즈, AI 활용해 수익성 강화…목표가↑\"-IBK",
       "url": "https://www.hankyung.com/article/2026060196336",
       "summary": "IBK투자증권은 1일 더블유게임즈에 대해 \"팍시게임즈 내 AI 연구조직을 통해 게임 기획부터 출시까지 전 과정을 자동화하는 등 AI 역량을 강화했다\"며 목표주가를 기존 7만원에서 10만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이승훈 IBK투자...",
@@ -367,87 +533,6 @@
         "한미약품"
       ],
       "hash": "6dff17f1f9ff"
-    },
-    {
-      "title": "박세익 \"2028년초까지 큰 돈 벌 기회 온다\"",
-      "url": "https://www.hankyung.com/article/202605318975i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "2028년초까지 큰 돈 벌 기회 온다"
-      ],
-      "hash": "b68316626251"
-    },
-    {
-      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
-      "url": "https://www.hankyung.com/article/202605318719i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국 브랜드",
-        "미국인들 밤새 줄 세웠다"
-      ],
-      "hash": "6552b5c43dd8"
-    },
-    {
-      "title": "한화그룹, 美 스페이스X 공급망 뚫었다",
-      "url": "https://www.hankyung.com/article/202605318979i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한화그룹"
-      ],
-      "hash": "96fa1f759b96"
-    },
-    {
-      "title": "\"다른 반도체주 오를 때 뭐했지?\"…1/4 토막 났다가 반등 시작",
-      "url": "https://www.hankyung.com/article/202605297461i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "다른 반도체주 오를 때 뭐했지?"
-      ],
-      "hash": "511e23d7861a"
-    },
-    {
-      "title": "'드디어 영접했네요'…빵덕후들도 쇼핑백에 쓸어 담았다는데",
-      "url": "https://www.hankyung.com/article/202605296715g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "드디어 영접했네요"
-      ],
-      "hash": "5acb6e36db6c"
     },
     {
       "title": "“달리는 말 올라탈까” 5월 급등주 가운데 6월에도 유망한 종목은?",
@@ -1021,89 +1106,6 @@
         "200만원 눈앞"
       ],
       "hash": "531362620952"
-    },
-    {
-      "title": "'제2의 깐부회동' 열리나…젠슨 황 방한 기대감에 LG·네이버·현대오토↑",
-      "url": "https://www.hankyung.com/article/2026052958926",
-      "summary": "다음 달 5일 젠슨 황 엔비디아 CEO(최고경영자)가 방한해 최태원 SK그룹 회장, 정의선 현대차그룹 회장, 구광모 LG그룹 회장, 이해진 네이버 의장과 회동하는 방안이 추진되고 있는 것으로 알려지면서 관련주들이 들썩이고 있다. 업계에선 '제2 깐부회동'...",
-      "datetime_raw": "2026.05.29 09:35",
-      "datetime": "2026-05-29T09:35:00+09:00",
-      "dt": "2026-05-29 09:35",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "제2의 깐부회동"
-      ],
-      "hash": "1b3f23357094"
-    },
-    {
-      "title": "삼성전자, 장 초반 급등…\"세계 최초 7세대 HBM4E 샘플 출하\"",
-      "url": "https://www.hankyung.com/article/2026052959276",
-      "summary": "삼성전자가 29일 장 초반 급등하고 있다. 인공지능(AI) 산업 핵심 부품인 고대역폭메모리(HBM)의 7세대 제품 HBM4E의 샘플 출하를 세계 최초로 시작한 영향으로 읽힌다.이날 오전 9시10분 현재 삼성전자는 전 거래일보다 5.51% 오른 31만6000원에 거래 중...",
-      "datetime_raw": "2026.05.29 09:21",
-      "datetime": "2026-05-29T09:21:00+09:00",
-      "dt": "2026-05-29 09:21",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자",
-        "세계 최초 7세대 HBM4E 샘플 출하"
-      ],
-      "hash": "560cfa43482a"
-    },
-    {
-      "title": "코스피, 종전 기대감에 장 초반 8400선 위로…삼성전자 5%↑",
-      "url": "https://www.hankyung.com/article/2026052958946",
-      "summary": "코스피지수가 미국-이란 종전 기대감에 29일 장 초반 8400선 위로 올라섰다.이날 오전 9시7분 현재 코스피지수는 전일 대비 2.65% 오른 8402.26을 기록 중이다.앞서 이날 새벽 뉴욕증시는 종전 임박 기대감에 3대 지수가 모두 사상 최고치를 경신했다.미 매체 ...",
-      "datetime_raw": "2026.05.29 09:17",
-      "datetime": "2026-05-29T09:17:00+09:00",
-      "dt": "2026-05-29 09:17",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "4e9b9dc9ed72"
-    },
-    {
-      "title": "'정의선 비밀병기' 뭐길래…삼전닉스 다음으로 '여기'에 꽂혔다 [투자톡]",
-      "url": "https://www.hankyung.com/article/2026052957846",
-      "summary": "국내 자산운용사들이 잇따라 현대자동차그룹을 담은 상장지수펀드(ETF) 출시에 나서고 있다. 휴머노이드 로봇과 피지컬 인공지능(AI) 시장에서 존재감이 커지자 현대차를 완성차 기업이 아닌 AI 플랫폼 기업으로 바라보고 투자 상품을 출시했다는 분석이다. 증권가는 현대차가 ...",
-      "datetime_raw": "2026.05.29 09:07",
-      "datetime": "2026-05-29T09:07:00+09:00",
-      "dt": "2026-05-29 09:07",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "여기",
-        "정의선 비밀병기"
-      ],
-      "hash": "1c4a3e8476f6"
-    },
-    {
-      "title": "서학개미 순매수 8위…나스닥 접수한 '얀덱스'의 정체",
-      "url": "https://www.hankyung.com/article/202605295715i",
-      "summary": "국내 투자자들에게 낯선 기업이 최근 해외 주식 순매수 상위권에 이름을 올렸다. '러시아의 구글'로 불리던 검색엔진 기업 얀덱스다. 현재 나스닥 상장 공식 이름은 네비우스 그룹이다. 네비우스는 폭발적인 인공지능(AI) 인프라 수요를 흡수하며 글로벌 시장의 ...",
-      "datetime_raw": "2026.05.29 08:30",
-      "datetime": "2026-05-29T08:30:00+09:00",
-      "dt": "2026-05-29 08:30",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "얀덱스",
-        "서학개미 순매수 8위"
-      ],
-      "hash": "d48807d69afa"
     }
   ],
   "consensus_signals": []
