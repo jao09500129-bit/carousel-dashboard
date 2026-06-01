@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-01T13:01:00.120958+09:00",
+  "computed_at": "2026-06-01T15:01:09.214878+09:00",
   "date": "2026-06-01",
   "low": 8400,
   "high": 8600,
-  "mid": 8440,
-  "sample_size": 3,
+  "mid": 8467,
+  "sample_size": 2,
   "sources": [
     {
       "url": "https://www.hankyung.com/article/2026060196936",
@@ -18,16 +18,6 @@
     {
       "url": "https://www.hankyung.com/article/2026052963756",
       "title": "코스피, 종전 기대감에 장중 8400선 회복…LG씨엔에스 '上'",
-      "low": null,
-      "high": null,
-      "points": [
-        8400,
-        8400
-      ]
-    },
-    {
-      "url": "https://www.hankyung.com/article/2026052958946",
-      "title": "코스피, 종전 기대감에 장 초반 8400선 위로…삼성전자 5%↑",
       "low": null,
       "high": null,
       "points": [
