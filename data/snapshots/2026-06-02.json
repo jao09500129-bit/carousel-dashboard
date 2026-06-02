@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-02T15:00:55.430014+09:00",
+  "collected_at": "2026-06-02T16:00:49.619283+09:00",
   "date": "2026-06-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,16 +9,16 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 9,
+    "with_broker_mention": 10,
     "target_price_up": 6,
     "target_price_down": 0,
     "top_brokers": [
       [
-        "KB",
-        2
+        "한국투자",
+        3
       ],
       [
-        "한국투자",
+        "KB",
         2
       ],
       [
@@ -40,6 +40,73 @@
     ]
   },
   "items": [
+    {
+      "title": "한국투자증권, 데이터·AI로 MTS 고도화",
+      "url": "https://www.hankyung.com/article/2026060233766",
+      "summary": "한국투자증권은 자사 모바일트레이딩시스템(MTS)을 고도화했다고 2일 밝혔다.이번 MTS 개편은 기존 단순 시세 조회를 넘어 고객의 빅데이터와 첨단 인공지능(AI) 기술을 적극 활용해 투자 판단 과정 전반을 입체적으로 지원하는 데 초점을 맞췄다.우선 투자자 데이터 기반의...",
+      "datetime_raw": "2026.06.02 15:53",
+      "datetime": "2026-06-02T15:53:00+09:00",
+      "dt": "2026-06-02 15:53",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국투자증권"
+      ],
+      "hash": "df96b95e9938"
+    },
+    {
+      "title": "코스피, 오르락내리락 끝에 8800선 사상 최고가 마감",
+      "url": "https://www.hankyung.com/article/2026060232996",
+      "summary": "코스피지수가 '9천피'(코스피 9000포인트)를 앞두고 심한 변동성을 보이면서 강보합 마감했다. 다만 사상 처음으로 종가 기준 8800선을 넘겼다. 젠슨 황 엔비디아 최고경영자(CEO) 방한을 앞두고 AI, 로봇 관련주들이 강세를 보였다.2일 코스피지수는...",
+      "datetime_raw": "2026.06.02 15:52",
+      "datetime": "2026-06-02T15:52:00+09:00",
+      "dt": "2026-06-02 15:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "5a73b2a07b95"
+    },
+    {
+      "title": "코스피, 변동성 끝에 사상 첫 8800선 위에서 마감",
+      "url": "https://www.hankyung.com/article/2026060233486",
+      "summary": "[속보] 코스피, 변동성 끝에 사상 첫 8800선 위에서 마감노정동 한경닷컴 기자 dong2@hankyung.com",
+      "datetime_raw": "2026.06.02 15:42",
+      "datetime": "2026-06-02T15:42:00+09:00",
+      "dt": "2026-06-02 15:42",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "73e22a3de6fd"
+    },
+    {
+      "title": "우리자산운용, '삼성전자·현대차 담은 채권혼합형 ETF' 출시",
+      "url": "https://www.hankyung.com/article/2026060232366",
+      "summary": "우리자산운용은 2일 'WON 삼성전자현대차채권혼합50 상장지수펀드(ETF)'를 상장했다고 밝혔다.이 ETF는 삼성전자와 현대차를 각각 25%씩 담고, 나머지 50%는 단기채로 구성해 성장성과 안정성을 동시에 추구하는 상품이다.글로벌 인공지능(AI...",
+      "datetime_raw": "2026.06.02 15:24",
+      "datetime": "2026-06-02T15:24:00+09:00",
+      "dt": "2026-06-02 15:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "우리자산운용",
+        "삼성전자·현대차 담은 채권혼합형 ETF"
+      ],
+      "hash": "861899bd6159"
+    },
     {
       "title": "단기 조정은 AI 주도주 매수 기회",
       "url": "https://www.hankyung.com/article/202606022334i",
@@ -304,75 +371,6 @@
       "hash": "1c1c2871fad1"
     },
     {
-      "title": "코스피, 장 초반 급락 전환…8600선 등락",
-      "url": "https://www.hankyung.com/article/2026060222586",
-      "summary": "코스피지수가 2일 장 초반 8600선에서 등락하고 있다.이날 오전 9시17분 현재 코스피지수는 전일 대비 120.42포인트(1.37%) 내린 8667.96을 기록 중이다. 1.08% 상승 출발한 지수는 장 초반 8933선까지 상단을 높이면서 '9천피'(코...",
-      "datetime_raw": "2026.06.02 09:20",
-      "datetime": "2026-06-02T09:20:00+09:00",
-      "dt": "2026-06-02 09:20",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "659f26c02f96"
-    },
-    {
-      "title": "오스코텍, 1조원 규모 신약 후보 기술이전 소식에 '급등'",
-      "url": "https://www.hankyung.com/article/2026060222656",
-      "summary": "오스코텍이 급등하고 있다. 자가면역질환 신약 후보물질을 최대 1조원 규모로 기술이전하기로 했다는 소식이 전해진 영향이다.2일 오전 9시5분 현재 오스코텍은 전일 대비 4900원(12.08%) 오른 4만5450원에 거래되고 있다.오스코텍은 미국 희귀질환 치료제 전문 제약...",
-      "datetime_raw": "2026.06.02 09:09",
-      "datetime": "2026-06-02T09:09:00+09:00",
-      "dt": "2026-06-02 09:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급등",
-        "오스코텍"
-      ],
-      "hash": "1822482602db"
-    },
-    {
-      "title": "\"한미약품, 기술이전으로 R&D 경쟁력 입증…목표가↑\"-키움",
-      "url": "https://www.hankyung.com/article/2026060220286",
-      "summary": "키움증권은 2일 한미약품에 대해 일라이릴리로 소네페글루타이드의 개발·상업화 권리를 이전해 연구·개발(R&D) 중심 기업으로의 경쟁력을 입증했다며 목표주가를 기존 56만원에서 66만원으로 올렸다. 투자의견은 ‘매수’를 유지했...",
-      "datetime_raw": "2026.06.02 08:08",
-      "datetime": "2026-06-02T08:08:00+09:00",
-      "dt": "2026-06-02 08:08",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 17.857142857142858,
-      "keywords": [
-        "한미약품"
-      ],
-      "hash": "fb2ec3a32e6d"
-    },
-    {
-      "title": "\"현대차, 보스턴다이내믹스와 협업 구체화 단계…목표가 100만원\"-다올",
-      "url": "https://www.hankyung.com/article/2026060219536",
-      "summary": "다올투자증권은 2일 현대차에 대해 \"보스턴다이내믹스(이하 BD)와 협업이 구체화함에 따라 밸류에이션 상승 모멘텀을 동반한 주가 리레이팅이 될 것으로 기대한다\"며 목표주가를 기존 74만원에서 100만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 ...",
-      "datetime_raw": "2026.06.02 07:59",
-      "datetime": "2026-06-02T07:59:00+09:00",
-      "dt": "2026-06-02 07:59",
-      "brokers": [
-        "다올"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 35.13513513513514,
-      "keywords": [
-        "현대차"
-      ],
-      "hash": "2086e4c43cbe"
-    },
-    {
       "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
       "url": "https://www.hankyung.com/article/202606010766g",
       "summary": "",
@@ -456,6 +454,75 @@
         "미국인들 밤새 줄 세웠다"
       ],
       "hash": "6552b5c43dd8"
+    },
+    {
+      "title": "코스피, 장 초반 급락 전환…8600선 등락",
+      "url": "https://www.hankyung.com/article/2026060222586",
+      "summary": "코스피지수가 2일 장 초반 8600선에서 등락하고 있다.이날 오전 9시17분 현재 코스피지수는 전일 대비 120.42포인트(1.37%) 내린 8667.96을 기록 중이다. 1.08% 상승 출발한 지수는 장 초반 8933선까지 상단을 높이면서 '9천피'(코...",
+      "datetime_raw": "2026.06.02 09:20",
+      "datetime": "2026-06-02T09:20:00+09:00",
+      "dt": "2026-06-02 09:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "659f26c02f96"
+    },
+    {
+      "title": "오스코텍, 1조원 규모 신약 후보 기술이전 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026060222656",
+      "summary": "오스코텍이 급등하고 있다. 자가면역질환 신약 후보물질을 최대 1조원 규모로 기술이전하기로 했다는 소식이 전해진 영향이다.2일 오전 9시5분 현재 오스코텍은 전일 대비 4900원(12.08%) 오른 4만5450원에 거래되고 있다.오스코텍은 미국 희귀질환 치료제 전문 제약...",
+      "datetime_raw": "2026.06.02 09:09",
+      "datetime": "2026-06-02T09:09:00+09:00",
+      "dt": "2026-06-02 09:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "오스코텍"
+      ],
+      "hash": "1822482602db"
+    },
+    {
+      "title": "\"한미약품, 기술이전으로 R&D 경쟁력 입증…목표가↑\"-키움",
+      "url": "https://www.hankyung.com/article/2026060220286",
+      "summary": "키움증권은 2일 한미약품에 대해 일라이릴리로 소네페글루타이드의 개발·상업화 권리를 이전해 연구·개발(R&D) 중심 기업으로의 경쟁력을 입증했다며 목표주가를 기존 56만원에서 66만원으로 올렸다. 투자의견은 ‘매수’를 유지했...",
+      "datetime_raw": "2026.06.02 08:08",
+      "datetime": "2026-06-02T08:08:00+09:00",
+      "dt": "2026-06-02 08:08",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 17.857142857142858,
+      "keywords": [
+        "한미약품"
+      ],
+      "hash": "fb2ec3a32e6d"
+    },
+    {
+      "title": "\"현대차, 보스턴다이내믹스와 협업 구체화 단계…목표가 100만원\"-다올",
+      "url": "https://www.hankyung.com/article/2026060219536",
+      "summary": "다올투자증권은 2일 현대차에 대해 \"보스턴다이내믹스(이하 BD)와 협업이 구체화함에 따라 밸류에이션 상승 모멘텀을 동반한 주가 리레이팅이 될 것으로 기대한다\"며 목표주가를 기존 74만원에서 100만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 ...",
+      "datetime_raw": "2026.06.02 07:59",
+      "datetime": "2026-06-02T07:59:00+09:00",
+      "dt": "2026-06-02 07:59",
+      "brokers": [
+        "다올"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 35.13513513513514,
+      "keywords": [
+        "현대차"
+      ],
+      "hash": "2086e4c43cbe"
     },
     {
       "title": "\"현대모비스, 액추에이터 사업 전망 밝아…목표가↑\"-KB",
@@ -1050,69 +1117,6 @@
         "더블유게임즈"
       ],
       "hash": "141a2ace12e0"
-    },
-    {
-      "title": "'코스피 고점' 같아 다 팔았는데…\"만이천피 간다\" 파격 전망",
-      "url": "https://www.hankyung.com/article/2026060196377",
-      "summary": "코스피가 올 들어 가파른 상승세를 이어가면서 증권가의 지수 전망치도 빠르게 높아지고 있다. 국내외 주요 증권사들은 인공지능(AI) 투자 확대와 반도체 이익 전망 상향을 근거로 코스피 9000선 안팎을 제시하고 있다. 일부 증권사는 1만선을 넘어서는 시나리오까지 내놨다....",
-      "datetime_raw": "2026.06.01 08:42",
-      "datetime": "2026-06-01T08:42:00+09:00",
-      "dt": "2026-06-01 08:42",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 고점",
-        "만이천피 간다"
-      ],
-      "hash": "cd371dc35f1d"
-    },
-    {
-      "title": "강방천 \"반도체 급등은 과속 경쟁이 만든 압축수요 덕분…과도한 낙관론 경계해야\"",
-      "url": "https://www.hankyung.com/article/202605043209i",
-      "summary": "“근로소득은 이제 꺼져가는 등불입니다. 인공지능(AI)이 인간의 노동을 대체하는 시대에 스스로 창업할 수 없다면, 적어도 당대의 혁신을 이끄는 1등 기업에 투자하는 '동업자'가 되어 자본소득을 누려야 합니다”자산운용 업계의 &lsqu...",
-      "datetime_raw": "2026.06.01 08:42",
-      "datetime": "2026-06-01T08:42:00+09:00",
-      "dt": "2026-06-01 08:42",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "faa23242edcd"
-    },
-    {
-      "title": "저렴한 시대와의 작별",
-      "url": "https://www.hankyung.com/article/202606019504i",
-      "summary": "미국 경제가 지난 반세기 동안 누려온 ‘값싼 자본과 값싼 노동, 값싼 에너지’의 시대가 저물고 있다는 진단이 나왔다. 글로벌 금융시장이 구조적 고금리 환경에 적응해야 한다는 분석이다.파이낸셜타임스(FT)는 1일 칼럼에서 미국 30년물 국채...",
-      "datetime_raw": "2026.06.01 08:42",
-      "datetime": "2026-06-01T08:42:00+09:00",
-      "dt": "2026-06-01 08:42",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "저렴한 시대와의 작별"
-      ],
-      "hash": "2ec17a3e8304"
-    },
-    {
-      "title": "한미약품, 美릴리에 1조9000억 소화기질환 신약 기술 수출",
-      "url": "https://www.hankyung.com/article/2026060195356",
-      "summary": "한미약품은 미국 글로벌 제약사 일라이 릴리에 지속형 GLP-2(글루카곤유사펩타이드-2) 신약 후보물질인 '소네페글루타이드'를 기술 수출했다고 1일 공시했다. 계약 규모는 최대 12억6000만달러(약 1조8973억원)다.소네페글루타이드는 한미약품의 장기 지...",
-      "datetime_raw": "2026.06.01 08:11",
-      "datetime": "2026-06-01T08:11:00+09:00",
-      "dt": "2026-06-01 08:11",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한미약품"
-      ],
-      "hash": "6dff17f1f9ff"
     }
   ],
   "consensus_signals": []
