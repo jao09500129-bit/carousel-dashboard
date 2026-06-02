@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-02T09:30:54.641603+09:00",
+  "collected_at": "2026-06-02T10:44:11.158561+09:00",
   "date": "2026-06-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,8 +9,8 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 10,
-    "target_price_up": 9,
+    "with_broker_mention": 9,
+    "target_price_up": 8,
     "target_price_down": 1,
     "top_brokers": [
       [
@@ -36,14 +36,106 @@
       [
         "한국투자",
         1
-      ],
-      [
-        "NH",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "업비트 데이터랩, 온체인 지수 4종 추가 출시…라인업 6종으로 확대",
+      "url": "https://www.hankyung.com/article/202606022627B",
+      "summary": "두나무는 업비트 데이터랩이 온체인 데이터 기반 신규 투자 지수 4종을 출시했다고 2일 밝혔다.이번에 추가된 지수는 ▲이더리움 월렛 액티브 저평가 ▲이더리움 월렛 액티브 고평가 ▲이더리움 트랜잭션 액티브 저평가 ▲이더리움 트랜잭션 액티브 고평가 등 총 4종이다. 이에 따...",
+      "datetime_raw": "2026.06.02 10:41",
+      "datetime": "2026-06-02T10:41:00+09:00",
+      "dt": "2026-06-02 10:41",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "업비트 데이터랩"
+      ],
+      "hash": "c0be4909674e"
+    },
+    {
+      "title": "백화점 3사 주가 동반 강세…4월 매출 전년비 21%↑",
+      "url": "https://www.hankyung.com/article/2026060224916",
+      "summary": "백화점주(株)가 2일 장중 동반 강세를 보이고 있다. 백화점 3사 매출이 지난해 동기 대비 큰 폭으로 증가하자 투자 심리가 개선된 것으로 풀이된다.이날 오전 10시10분께 신세계는 전 거래일 대비 2만3000원(4.46%) 오른 53만9000원에 거래되고 있다. 현대백...",
+      "datetime_raw": "2026.06.02 10:26",
+      "datetime": "2026-06-02T10:26:00+09:00",
+      "dt": "2026-06-02 10:26",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "백화점 3사 주가 동반 강세"
+      ],
+      "hash": "75eaf22fea64"
+    },
+    {
+      "title": "한국디지털에셋, SOC1 Type 2 인증 획득…수탁 내부통제 검증",
+      "url": "https://www.hankyung.com/article/202606022575B",
+      "summary": "디지털자산 수탁(커스터디) 전문 기업 한국디지털에셋(KODA)이 국제 표준 내부통제 인증인 'SOC1 Type 2'를 획득했다고 2일 밝혔다.SOC1 Type 2는 고객 자산 보관과 재무 보고에 영향을 미치는 서비스 조직의 내부통제 체계가 일정 기간 적절하게 설계·운영...",
+      "datetime_raw": "2026.06.02 10:26",
+      "datetime": "2026-06-02T10:26:00+09:00",
+      "dt": "2026-06-02 10:26",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국디지털에셋"
+      ],
+      "hash": "8a9327fa72f0"
+    },
+    {
+      "title": "SK텔레콤, 엔비디아 협력 기대에 장중 '신고가'",
+      "url": "https://www.hankyung.com/article/2026060221996",
+      "summary": "SK텔레콤이 2일 52주 신고가를 경신했다. 엔비디아와의 협력 기대가 커지면서 투자 심리가 자극받은 것으로 풀이된다.이날 오전 9시31분께 SK텔레콤은 전 거래일 대비 1만2500원(11.14%) 오른 12만4700원에 거래되고 있다. 장중 한때 14만300원까지 치솟...",
+      "datetime_raw": "2026.06.02 09:40",
+      "datetime": "2026-06-02T09:40:00+09:00",
+      "dt": "2026-06-02 09:40",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신고가",
+        "SK텔레콤"
+      ],
+      "hash": "6c76d41b4174"
+    },
+    {
+      "title": "'젠슨황 효과'로 확 커진 '1만피' 가능성…최적의 투자전략 물어보니",
+      "url": "https://www.hankyung.com/article/202606022089i",
+      "summary": "2026년 코스피지수 전망: 증권사 리포트 종합 분석2026년 코스피지수는 반도체 중심의 이익 펀더멘털 개선을 핵심 동력으로 삼아 역사적 강세장을 이어가고 있다.연초 이후 코스피는 두 배가량 뛰었으며, 현재 8,000선을 훌쩍 상회하는 수준에서 거...",
+      "datetime_raw": "2026.06.02 09:36",
+      "datetime": "2026-06-02T09:36:00+09:00",
+      "dt": "2026-06-02 09:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1만피",
+        "젠슨황 효과"
+      ],
+      "hash": "6d9e58a766eb"
+    },
+    {
+      "title": "장 초반 8900→8500→8700...차익실현에 출렁이는 코스피 [마켓라이브]",
+      "url": "https://www.hankyung.com/article/202606022309i",
+      "summary": "코스피 2.74% 급락… 외국인 2.5조 순매도, 전자부품 업종 10% 폭락 (오전 10시)🕘 장 초반 8900선 터치 후 급락… 외국인 대규모 매도세오전 10시 기준, 한국 증시는 미국 증시의 강세에도 불구하고 급락세를 보이고 있습니다. 코스...",
+      "datetime_raw": "2026.06.02 09:31",
+      "datetime": "2026-06-02T09:31:00+09:00",
+      "dt": "2026-06-02 09:31",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": -90.4494382022472,
+      "keywords": [],
+      "hash": "1c1c2871fad1"
+    },
     {
       "title": "코스피, 장 초반 급락 전환…8600선 등락",
       "url": "https://www.hankyung.com/article/2026060222586",
@@ -276,6 +368,89 @@
       "hash": "4a44f6b82c4d"
     },
     {
+      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
+      "url": "https://www.hankyung.com/article/202606010766g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "교섭 리스크",
+        "두산에너빌리티도 뚫렸다"
+      ],
+      "hash": "2c72751ad49c"
+    },
+    {
+      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
+      "url": "https://www.hankyung.com/article/2026053191571",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "갓 졸업한 고3 모셔갑니다"
+      ],
+      "hash": "c955617e61cb"
+    },
+    {
+      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
+      "url": "https://www.hankyung.com/article/2026052973726",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "중대 결단",
+        "집 파느니 차라리"
+      ],
+      "hash": "6e33bed2eaff"
+    },
+    {
+      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
+      "url": "https://www.hankyung.com/article/202605318719i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국 브랜드",
+        "미국인들 밤새 줄 세웠다"
+      ],
+      "hash": "6552b5c43dd8"
+    },
+    {
+      "title": "삼성전기 차익실현한 고수들…이 종목에 집중 투자",
+      "url": "https://www.hankyung.com/article/202606019701i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전기 차익실현한 고수들"
+      ],
+      "hash": "44ece7e95b83"
+    },
+    {
       "title": "\"그렇게 안오르더니 반전\"…LG그룹 ETF 수익률 첫 1위, 한화는 '꼴찌'",
       "url": "https://www.hankyung.com/article/202606011099i",
       "summary": "지난 한달 간 LG그룹과 삼성에 투자하는 상장지수펀드(ETF)가 그룹주(株) ETF 중 수익률 1, 2위를 차지했다. 반면 이란 전쟁의 종전 기대가 커지며 한화그룹과 포스코그룹 ETF는 저조한 수익률을 기록했다.1일 ETF체크에 따르면 'TIGER LG그룹플러스...",
@@ -373,89 +548,6 @@
         "젠슨 황 한마디에 터졌다"
       ],
       "hash": "5480aeb483c0"
-    },
-    {
-      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
-      "url": "https://www.hankyung.com/article/202606010766g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "교섭 리스크",
-        "두산에너빌리티도 뚫렸다"
-      ],
-      "hash": "2c72751ad49c"
-    },
-    {
-      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
-      "url": "https://www.hankyung.com/article/2026053191571",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "갓 졸업한 고3 모셔갑니다"
-      ],
-      "hash": "c955617e61cb"
-    },
-    {
-      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
-      "url": "https://www.hankyung.com/article/2026052973726",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "중대 결단",
-        "집 파느니 차라리"
-      ],
-      "hash": "6e33bed2eaff"
-    },
-    {
-      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
-      "url": "https://www.hankyung.com/article/202605318719i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국 브랜드",
-        "미국인들 밤새 줄 세웠다"
-      ],
-      "hash": "6552b5c43dd8"
-    },
-    {
-      "title": "삼성전기 차익실현한 고수들…이 종목에 집중 투자",
-      "url": "https://www.hankyung.com/article/202606019701i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기 차익실현한 고수들"
-      ],
-      "hash": "44ece7e95b83"
     },
     {
       "title": "유안타증권, 'iM에셋 히어로 셀렉션' 펀드 판매액 500억 돌파",
@@ -1021,110 +1113,6 @@
         "에 근접…불발시 전쟁부 개입"
       ],
       "hash": "c225e54bdaf0"
-    },
-    {
-      "title": "트럼프, '휴전 합의' 조건 강화…\"이란에 수정안 검토 요청\"",
-      "url": "https://www.hankyung.com/article/202605318637B",
-      "summary": "도널드 트럼프 미국 대통령이 이란과의 휴전 조건을 강화한 것으로 알려졌다.뉴욕타임스(NYT)는 복수의 소식통을 인용해 트럼프 대통령이 최근 미국과 이란 간 휴전을 위한 잠정 합의안에 보다 엄격한 조건을 추가했다고 30일(현지시간) 보도했다. 뉴욕타임스는 \"(미국은) 수...",
-      "datetime_raw": "2026.05.31 09:55",
-      "datetime": "2026-05-31T09:55:00+09:00",
-      "dt": "2026-05-31 09:55",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "트럼프",
-        "휴전 합의",
-        "이란에 수정안 검토 요청"
-      ],
-      "hash": "84b8d76a1854"
-    },
-    {
-      "title": "'코스닥 1위' 회사마저 제쳤다…'28조' 뚫은 ETF 뭐길래",
-      "url": "https://www.hankyung.com/article/2026053186017",
-      "summary": "상장지수펀드(ETF) 시가총액이 500조원을 넘어서면서 코스닥 시가총액을 추격하고 있다.31일 한국거래소에 따르면 지난 27일 ETF 순자산 가치는 501조8199조원을 기록하며 '순자산 500조원 시대'를 열었다. 이는 지난 29일 기준 코스닥 시총의 ...",
-      "datetime_raw": "2026.05.31 09:26",
-      "datetime": "2026-05-31T09:26:00+09:00",
-      "dt": "2026-05-31 09:26",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "28조",
-        "코스닥 1위"
-      ],
-      "hash": "aad024b7814c"
-    },
-    {
-      "title": "한 달 전보다 목표주가 크게 뛴 '톱10'…\"아직 덜 오른 종목 있다\"",
-      "url": "https://www.hankyung.com/article/202605296666i",
-      "summary": "평균 목표주가 상향 조정 상위 10개 종목※ 본 분석은 29일 기준 검색된 컨센서스 데이터를 바탕으로, 1개월 전 대비 평균 목표주가 변동률을 산출한 결과다. 변동률은 에픽AI 내부 랭킹 데이터 기준이다.상향 조정 상위 10개 종목 분석1. 삼성전...",
-      "datetime_raw": "2026.05.31 08:40",
-      "datetime": "2026-05-31T08:40:00+09:00",
-      "dt": "2026-05-31 08:40",
-      "brokers": [],
-      "opinion": null,
-      "target_action": "up",
-      "target_change_pct": null,
-      "keywords": [
-        "톱10",
-        "아직 덜 오른 종목 있다"
-      ],
-      "hash": "3578d27c0e29"
-    },
-    {
-      "title": "코스피, 최고치 랠리 이어갈까…\"美 경제지표·AI 이벤트 변수\" [주간전망]",
-      "url": "https://www.hankyung.com/article/2026052968376",
-      "summary": "증권가는 이번주(1~5일) 코스피지수가 인공지능(AI) 산업 모멘텀, 미국·이란 전쟁 종전 기대 영향에 힘입어 상승 흐름을 이어나갈 것으로 전망했다.NH투자증권은 31일 이번주 코스피지수가 7500~8600선 사이에서 움직일 것으로 내다봤다.이 증권사 이상...",
-      "datetime_raw": "2026.05.31 08:00",
-      "datetime": "2026-05-31T08:00:00+09:00",
-      "dt": "2026-05-31 08:00",
-      "brokers": [
-        "NH"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피",
-        "美 경제지표·AI 이벤트 변수"
-      ],
-      "hash": "6dc55fc73534"
-    },
-    {
-      "title": "외국인, 이달 코스피 44조 팔아치웠다…역대 최대 규모",
-      "url": "https://www.hankyung.com/article/2026053184527",
-      "summary": "이달 외국인이 코스피 시장에서 44조원 넘게 팔며 역대 최대 규모로 순매도한 것으로 나타났다.31일 한국거래소에 따르면 이달 들어 외국인 투자자는 코스피 시장에서 44조7150억원어치 순매도 우위로 나타났다. 이는 월간 기준 외국인 코스피 순매도액 역대 최대 수치다. ...",
-      "datetime_raw": "2026.05.31 07:22",
-      "datetime": "2026-05-31T07:22:00+09:00",
-      "dt": "2026-05-31 07:22",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "외국인"
-      ],
-      "hash": "d11369aa8519"
-    },
-    {
-      "title": "하워드 막스 \"AI 경쟁, 이런 기업이 승자가 된다\"",
-      "url": "https://www.hankyung.com/article/202605308332i",
-      "summary": "국내 최대 투자축제 코리아 인베스트먼트 위크(KIW)가 지난 12일부터 15일까지 4일간 서울 신라호텔에서 열렸습니다. 70여명의 국내외 산업, 경제 전문가들이 글로벌 경제와 국내 증시의 향방에 대해 발표하고 토론했습니다. 하워드 막스 오크트리캐피털 회장은 ...",
-      "datetime_raw": "2026.05.30 23:21",
-      "datetime": "2026-05-30T23:21:00+09:00",
-      "dt": "2026-05-30 23:21",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하워드 막스 \"AI 경쟁",
-        "AI 경쟁, 이런 기업이 승자가 된다"
-      ],
-      "hash": "452e031cf9ba"
     }
   ],
   "consensus_signals": []
