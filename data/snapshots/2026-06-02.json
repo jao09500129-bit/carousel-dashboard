@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-02T13:00:53.102629+09:00",
+  "collected_at": "2026-06-02T15:00:55.430014+09:00",
   "date": "2026-06-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -10,15 +10,15 @@
   "total_items": 65,
   "stats": {
     "with_broker_mention": 9,
-    "target_price_up": 8,
-    "target_price_down": 1,
+    "target_price_up": 6,
+    "target_price_down": 0,
     "top_brokers": [
       [
-        "키움",
+        "KB",
         2
       ],
       [
-        "유안타",
+        "한국투자",
         2
       ],
       [
@@ -26,20 +26,123 @@
         2
       ],
       [
+        "키움",
+        1
+      ],
+      [
         "다올",
         1
       ],
       [
-        "KB",
-        1
-      ],
-      [
-        "한국투자",
+        "유안타",
         1
       ]
     ]
   },
   "items": [
+    {
+      "title": "단기 조정은 AI 주도주 매수 기회",
+      "url": "https://www.hankyung.com/article/202606022334i",
+      "summary": "﻿지표와 달리 움직이는 지수·주도주한국 증시와 미국 증시에서 최근 지수와 주도주의 움직임은 전통적인 지표의 해석과 정반대로 움직이는 경향이 있다. 유가 폭등, 인플레이션 임계점 돌파, 장단기 국채 금리 급등, 미국 글로벌 펀드 현금 비...",
+      "datetime_raw": "2026.06.02 14:57",
+      "datetime": "2026-06-02T14:57:00+09:00",
+      "dt": "2026-06-02 14:57",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "단기 조정은 AI 주도주 매수 기회"
+      ],
+      "hash": "ec9a920f4f8e"
+    },
+    {
+      "title": "KB증권, 중개형 ISA 전용 ELB 특판…세전 연 6%",
+      "url": "https://www.hankyung.com/article/2026060231506",
+      "summary": "KB증권은 중개형 인종합자산관리계좌(ISA) 고객을 대상으로 3개월 만기 세전 연 6% 수준의 주가연계파생결합사채(ELB)를 특별 판매한다고 2일 밝혔다.이번에 판매하는 ELB는 코스피200지수를 기초자산으로 하는 원금지급형 상품이다. 만기평가일의 코스피200지수 종가...",
+      "datetime_raw": "2026.06.02 14:34",
+      "datetime": "2026-06-02T14:34:00+09:00",
+      "dt": "2026-06-02 14:34",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "KB증권"
+      ],
+      "hash": "8fed670cdb65"
+    },
+    {
+      "title": "게임사 '큰 형님'의 귀환…체질개선 마친 NC, 주가 '퀀텀점프' 노린다",
+      "url": "https://www.hankyung.com/article/202606023039i",
+      "summary": "바닥을 확인한 NC 주가가 다시 꿈틀대고 있다. 52주 최저가인 15만400원까지 추락하며 굴욕을 맛봤던 NC 주가는 연초 대...",
+      "datetime_raw": "2026.06.02 14:17",
+      "datetime": "2026-06-02T14:17:00+09:00",
+      "dt": "2026-06-02 14:17",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "큰 형님",
+        "퀀텀점프"
+      ],
+      "hash": "fe005ef03ab8"
+    },
+    {
+      "title": "칠리즈, 남아공·스코틀랜드 축구대표팀 팬 토큰 출시",
+      "url": "https://www.hankyung.com/article/202606023057B",
+      "summary": "글로벌 스포츠·엔터테인먼트 블록체인 기업 칠리즈(CHZ)가 남아프리카공화국과 스코틀랜드 축구 국가대표팀의 공식 팬 토큰을 출시했다고 2일 밝혔다.이번 팬 토큰 출시는 2026 북중미 월드컵을 앞두고 진행됐다. 칠리즈는 앞서 아르헨티나와 포르투갈, 이탈리아 축구대표팀 팬...",
+      "datetime_raw": "2026.06.02 14:02",
+      "datetime": "2026-06-02T14:02:00+09:00",
+      "dt": "2026-06-02 14:02",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "칠리즈"
+      ],
+      "hash": "9ba03680a2f8"
+    },
+    {
+      "title": "카이아, 에잇퍼센트와 RWA 투자 인프라 구축…\"국내 대출채권 글로벌 투자자 연결\"",
+      "url": "https://www.hankyung.com/article/202606022921B",
+      "summary": "카이아(KAIA)가 온라인투자연계금융(P2P금융) 기업 에잇퍼센트와 대출채권 원리금수취권 기반 실물연계자산(RWA) 투자 인프라 구축을 위한 업무협약(MOU)을 체결했다고 2일 밝혔다.이번 협약은 에잇퍼센트가 운영하는 국내 대출채권 원리금수취권을 토큰화해 카이아 생태계...",
+      "datetime_raw": "2026.06.02 13:02",
+      "datetime": "2026-06-02T13:02:00+09:00",
+      "dt": "2026-06-02 13:02",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "카이아",
+        "국내 대출채권 글로벌 투자자 연결"
+      ],
+      "hash": "b07b5067905c"
+    },
+    {
+      "title": "한투운용, '고배당주+삼전닉스' 커버드콜 액티브 ETF 출시",
+      "url": "https://www.hankyung.com/article/2026060229146",
+      "summary": "한국투자신탁운용은 고배당주 20개 종목에 반도체 대장주 삼성전자와 SK하이닉스를 더한 'ACE 고배당주Plus커버드콜액티브' 상장지수펀드(ETF)를 신규 상장했다고 2일 밝혔다.편입 대상인 고배당주는 배당 수익률이나 배당 성장률, 주주환원 정책 강화 기조...",
+      "datetime_raw": "2026.06.02 13:00",
+      "datetime": "2026-06-02T13:00:00+09:00",
+      "dt": "2026-06-02 13:00",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한투운용",
+        "고배당주+삼전닉스"
+      ],
+      "hash": "185a838d99aa"
+    },
     {
       "title": "거래소 \"유가증권시장 상장사 모두 올해 기업지배구조보고서 제출\"",
       "url": "https://www.hankyung.com/article/2026060229126",
@@ -89,7 +192,7 @@
       "hash": "8c0ec79f2300"
     },
     {
-      "title": "\"삼전 팔고 바이오주 담자\"...롤러코스피에 1% 초고수 몰려간 곳",
+      "title": "\"삼전 팔고 바이오주 담자\"…롤러코스피에 1% 초고수 몰려간 곳",
       "url": "https://www.hankyung.com/article/202606022561i",
       "summary": "투자수익률 상위 1%의 초고수가 2일 오전 증시에서 1조9000억원 규모의 기술수출을 발표한 한미약품을 가장 많이 매수한 것으로 나타났다. 전날 대만에서 진행된 젠슨 황 엔비디아 최고경영자(CEO)의 발표에서 핵심 파트너사로 등장한 SK텔레콤에도 매수세가 몰렸다.27일...",
       "datetime_raw": "2026.06.02 11:04",
@@ -187,16 +290,16 @@
       "hash": "6d9e58a766eb"
     },
     {
-      "title": "장 초반 8900→8500→8700...차익실현에 출렁이는 코스피 [마켓라이브]",
+      "title": "6조원 던지는 외국인...9000 돌파 앞두고 코스피 숨고르기 [마켓라이브]",
       "url": "https://www.hankyung.com/article/202606022309i",
-      "summary": "코스피 2.74% 급락… 외국인 2.5조 순매도, 전자부품 업종 10% 폭락 (오전 10시)🕘 장 초반 8900선 터치 후 급락… 외국인 대규모 매도세오전 10시 기준, 한국 증시는 미국 증시의 강세에도 불구하고 급락세를 보이고 있습니다. 코스...",
+      "summary": "코스피 1.19% 하락 중… 외국인 6조 순매도, 전자부품 업종 7.8% 급락 (오후 2시)🕘 장 초반 8900선 돌파 후 급락… 외국인 대규모 매도세 지속오후 2시 기준, 한국 증시는 장 초반 사상 최고치를 경신한 후 외국인의 대규모 순매도로...",
       "datetime_raw": "2026.06.02 09:31",
       "datetime": "2026-06-02T09:31:00+09:00",
       "dt": "2026-06-02 09:31",
       "brokers": [],
       "opinion": "매도",
       "target_action": null,
-      "target_change_pct": -90.4494382022472,
+      "target_change_pct": null,
       "keywords": [],
       "hash": "1c1c2871fad1"
     },
@@ -268,6 +371,91 @@
         "현대차"
       ],
       "hash": "2086e4c43cbe"
+    },
+    {
+      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
+      "url": "https://www.hankyung.com/article/202606010766g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "교섭 리스크",
+        "두산에너빌리티도 뚫렸다"
+      ],
+      "hash": "2c72751ad49c"
+    },
+    {
+      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
+      "url": "https://www.hankyung.com/article/2026053191571",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "갓 졸업한 고3 모셔갑니다"
+      ],
+      "hash": "c955617e61cb"
+    },
+    {
+      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
+      "url": "https://www.hankyung.com/article/2026052973726",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "중대 결단",
+        "집 파느니 차라리"
+      ],
+      "hash": "6e33bed2eaff"
+    },
+    {
+      "title": "한국도 '돈벼락' 맞나…\"역사 바꾼다\" 젠슨 황 야심에 '들썩'",
+      "url": "https://www.hankyung.com/article/2026060115571",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "돈벼락",
+        "역사 바꾼다"
+      ],
+      "hash": "157af7d3e2f3"
+    },
+    {
+      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
+      "url": "https://www.hankyung.com/article/202605318719i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국 브랜드",
+        "미국인들 밤새 줄 세웠다"
+      ],
+      "hash": "6552b5c43dd8"
     },
     {
       "title": "\"현대모비스, 액추에이터 사업 전망 밝아…목표가↑\"-KB",
@@ -367,89 +555,6 @@
         "내수소비 회복에"
       ],
       "hash": "13d3b0a1c43e"
-    },
-    {
-      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
-      "url": "https://www.hankyung.com/article/202606010766g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "교섭 리스크",
-        "두산에너빌리티도 뚫렸다"
-      ],
-      "hash": "2c72751ad49c"
-    },
-    {
-      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
-      "url": "https://www.hankyung.com/article/2026053191571",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "갓 졸업한 고3 모셔갑니다"
-      ],
-      "hash": "c955617e61cb"
-    },
-    {
-      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
-      "url": "https://www.hankyung.com/article/2026052973726",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "중대 결단",
-        "집 파느니 차라리"
-      ],
-      "hash": "6e33bed2eaff"
-    },
-    {
-      "title": "삼성전기 차익실현한 고수들…이 종목에 집중 투자",
-      "url": "https://www.hankyung.com/article/202606019701i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기 차익실현한 고수들"
-      ],
-      "hash": "44ece7e95b83"
-    },
-    {
-      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
-      "url": "https://www.hankyung.com/article/202605318719i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국 브랜드",
-        "미국인들 밤새 줄 세웠다"
-      ],
-      "hash": "6552b5c43dd8"
     },
     {
       "title": "\"1억 넣고 수익률 0%여도…\" 국민성장펀드 투자자 '당혹'",
@@ -1008,108 +1113,6 @@
         "한미약품"
       ],
       "hash": "6dff17f1f9ff"
-    },
-    {
-      "title": "“달리는 말 올라탈까” 5월 급등주 가운데 6월에도 유망한 종목은?",
-      "url": "https://www.hankyung.com/article/202605297065i",
-      "summary": "지난달 ‘코스피(유가증권시장) 상승률 상위 10개’ 종목을 뽑으면 아래와 같다. 각 종목별 급등 배경과 1분기 실적, 컨센서스에 근거한 투자 전략, 그리고 6월 유망 종목까지 투자전문 인공지능(AI) 서비스인 에픽AI에 물어봤다.5월 한 ...",
-      "datetime_raw": "2026.06.01 08:10",
-      "datetime": "2026-06-01T08:10:00+09:00",
-      "dt": "2026-06-01 08:10",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "달리는 말 올라탈까"
-      ],
-      "hash": "3939d31b2ed8"
-    },
-    {
-      "title": "\"한화솔루션, 재무 안전성 위해 유증 꼭 필요…목표가↑\"-유안타",
-      "url": "https://www.hankyung.com/article/2026060194796",
-      "summary": "유안타증권은 1일 한화솔루션에 대해 재무 안정성을 위해 유상증자가 꼭 필요하다고 조언하며 투자의견을 ‘중립’으로 유지했다. 다만 유상증자와 자산 매각을 통해 현금을 확보하려는 회사의 노력은 긍정적이라며 목표주가는 기존 3만원에서 3만5900원으로 ...",
-      "datetime_raw": "2026.06.01 07:54",
-      "datetime": "2026-06-01T07:54:00+09:00",
-      "dt": "2026-06-01 07:54",
-      "brokers": [
-        "유안타"
-      ],
-      "opinion": "중립",
-      "target_action": "up",
-      "target_change_pct": 0.0,
-      "keywords": [
-        "한화솔루션"
-      ],
-      "hash": "7c0e648fffd9"
-    },
-    {
-      "title": "\"에코프로에이치엔, 반도체 팹 증설 수혜주\"-DS",
-      "url": "https://www.hankyung.com/article/2026060194636",
-      "summary": "DS투자증권은 1일 에코프로에이치엔에 대해 \"반도체 팹(제조 공장) 증설의 숨은 수혜주\"라고 평가했다. 투자의견 '매수'와 목표주가 4만5000원을 제시했다.이 증권사 안주원 연구원은 \"에코프로에이치엔의 제품들은 반도체 및 디스플레이 제조 공정에서 발생하...",
-      "datetime_raw": "2026.06.01 07:50",
-      "datetime": "2026-06-01T07:50:00+09:00",
-      "dt": "2026-06-01 07:50",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "에코프로에이치엔"
-      ],
-      "hash": "678f08ce7d60"
-    },
-    {
-      "title": "\"LG, 주요 자회사 신사업 수혜 기대…목표가↑\"-키움",
-      "url": "https://www.hankyung.com/article/2026060194306",
-      "summary": "키움증권은 1일 LG에 대해 \"LG전자, LG씨엔에스 등 주요 자회사 신사업 수혜를 직접적으로 누릴 수 있을 것\"이라며 목표주가를 기존 11만5000원에서 20만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 안영준 연구원은 \"최근 그룹사...",
-      "datetime_raw": "2026.06.01 07:44",
-      "datetime": "2026-06-01T07:44:00+09:00",
-      "dt": "2026-06-01 07:44",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": -99.6,
-      "keywords": [
-        "LG"
-      ],
-      "hash": "f8c8396d8e1c"
-    },
-    {
-      "title": "한달 전보다 목표가 크게 뛴 '톱10'…\"아직 덜 오른 종목 있다\" [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026053191541",
-      "summary": "한달 전보다 목표가 크게 뛴 '톱10'…\"아직 덜 오른 종목 있다\"최근 증권사 목표주가 평균치를 분석한 결과 삼성전기 등 10개 종목은 목표주가가 크게 뛴 반면 실적이 부진한 10개는 하향 조정됐다. 자본시장 전문 코파일럿 에픽AI...",
-      "datetime_raw": "2026.05.31 19:17",
-      "datetime": "2026-05-31T19:17:00+09:00",
-      "dt": "2026-05-31 19:17",
-      "brokers": [],
-      "opinion": null,
-      "target_action": "down",
-      "target_change_pct": null,
-      "keywords": [
-        "톱10",
-        "아직 덜 오른 종목 있다"
-      ],
-      "hash": "49e7a5b54790"
-    },
-    {
-      "title": "\"수익률 440%\"…삼전닉스 임원들 자사주 '대박' 터졌다",
-      "url": "https://www.hankyung.com/article/2026053192227",
-      "summary": "삼성전자와 SK하이닉스 주가가 크게 오르면서 두 회사 일부 등기임원의 자사주 수익률이 최대 440%에 달한 것으로 나타났다. 최근 주가 기준으로 삼성전자·SK하이닉스 사장 이상 등기임원 5명이 보유한 자사주 평가액은 모두 1000억원을 넘어섰다.31일 금융...",
-      "datetime_raw": "2026.05.31 18:10",
-      "datetime": "2026-05-31T18:10:00+09:00",
-      "dt": "2026-05-31 18:10",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "대박",
-        "수익률 440%"
-      ],
-      "hash": "057d7aa8d7d6"
     }
   ],
   "consensus_signals": []
