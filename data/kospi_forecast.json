@@ -1,20 +1,10 @@
 {
-  "computed_at": "2026-06-02T16:00:49.619283+09:00",
+  "computed_at": "2026-06-02T23:10:49.992211+09:00",
   "date": "2026-06-02",
-  "low": 8600,
-  "high": 8600,
-  "mid": 8600,
-  "sample_size": 1,
-  "sources": [
-    {
-      "url": "https://www.hankyung.com/article/2026060196936",
-      "title": "코스피, 미·이란 합의 기대 장 초반 8600선 '터치'…시총 7000조",
-      "low": null,
-      "high": null,
-      "points": [
-        8600
-      ]
-    }
-  ],
+  "low": null,
+  "high": null,
+  "mid": null,
+  "sample_size": 0,
+  "sources": [],
   "note": "★ 추정 — 기사 본문 정규식 추출, 백테스트 미검증. 7000~9000 범위 내 수치만 채택."
 }
