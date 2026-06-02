@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-02T11:00:55.104486+09:00",
+  "collected_at": "2026-06-02T13:00:53.102629+09:00",
   "date": "2026-06-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -40,6 +40,70 @@
     ]
   },
   "items": [
+    {
+      "title": "거래소 \"유가증권시장 상장사 모두 올해 기업지배구조보고서 제출\"",
+      "url": "https://www.hankyung.com/article/2026060229126",
+      "summary": "한국거래소는 유가증권시장 상장기업 829개가 지난 1일부로 2026년도 기업지배구조보고서를 모두 제출했다고 2일 밝혔다.상장폐지 결정을 받았거나 가처분신청을 한 기업 6곳은 보고서 제출 대상에서 제외됐다.2017년 지배구조 공시제도를 도입해 운영해온 거래소는 2019년...",
+      "datetime_raw": "2026.06.02 12:56",
+      "datetime": "2026-06-02T12:56:00+09:00",
+      "dt": "2026-06-02 12:56",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유가증권시장 상장사 모두 올해 기업지배구조보고서 제출"
+      ],
+      "hash": "b5d613e91d25"
+    },
+    {
+      "title": "한국 증시, 반도체 랠리로 인도 제쳐…시가총액 세계 6위",
+      "url": "https://www.hankyung.com/article/2026060227517",
+      "summary": "한국 주식시장 시가총액이 인도를 추월해 세계 6위로 올라섰다. 인공지능(AI) 메모리 반도체 슈퍼 사이클에 올라탄 삼성전자와 SK하이닉스가 이끈 결과다.블룸버그 통신은 1일 기준으로 한국 유가증권시장 시총이 올해 86% 급등해 5조420억달러(약 7550조원)로, 인도...",
+      "datetime_raw": "2026.06.02 11:21",
+      "datetime": "2026-06-02T11:21:00+09:00",
+      "dt": "2026-06-02 11:21",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국 증시"
+      ],
+      "hash": "5c2abcafd9a3"
+    },
+    {
+      "title": "코스피, 장중 낙폭 키워 8500선까지 내려",
+      "url": "https://www.hankyung.com/article/2026060227436",
+      "summary": "코스피지수가 '9천피'(코스닥 9000포인트)를 앞에 두고 차익실현 매물이 나오면서 장중 급락 전환했다.2일 오전 11시13분 현재 코스피지수는 전일 대비 2.5% 하락한 8568.52를 기록 중이다. 1.08% 상승 출발한 지수는 장 초반 상단을 893...",
+      "datetime_raw": "2026.06.02 11:20",
+      "datetime": "2026-06-02T11:20:00+09:00",
+      "dt": "2026-06-02 11:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "8c0ec79f2300"
+    },
+    {
+      "title": "\"삼전 팔고 바이오주 담자\"...롤러코스피에 1% 초고수 몰려간 곳",
+      "url": "https://www.hankyung.com/article/202606022561i",
+      "summary": "투자수익률 상위 1%의 초고수가 2일 오전 증시에서 1조9000억원 규모의 기술수출을 발표한 한미약품을 가장 많이 매수한 것으로 나타났다. 전날 대만에서 진행된 젠슨 황 엔비디아 최고경영자(CEO)의 발표에서 핵심 파트너사로 등장한 SK텔레콤에도 매수세가 몰렸다.27일...",
+      "datetime_raw": "2026.06.02 11:04",
+      "datetime": "2026-06-02T11:04:00+09:00",
+      "dt": "2026-06-02 11:04",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전 팔고 바이오주 담자"
+      ],
+      "hash": "8eb525e0ade9"
+    },
     {
       "title": "업비트 데이터랩, 온체인 지수 4종 추가 출시…라인업 6종으로 확대",
       "url": "https://www.hankyung.com/article/202606022627B",
@@ -305,6 +369,89 @@
       "hash": "13d3b0a1c43e"
     },
     {
+      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
+      "url": "https://www.hankyung.com/article/202606010766g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "교섭 리스크",
+        "두산에너빌리티도 뚫렸다"
+      ],
+      "hash": "2c72751ad49c"
+    },
+    {
+      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
+      "url": "https://www.hankyung.com/article/2026053191571",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "갓 졸업한 고3 모셔갑니다"
+      ],
+      "hash": "c955617e61cb"
+    },
+    {
+      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
+      "url": "https://www.hankyung.com/article/2026052973726",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "중대 결단",
+        "집 파느니 차라리"
+      ],
+      "hash": "6e33bed2eaff"
+    },
+    {
+      "title": "삼성전기 차익실현한 고수들…이 종목에 집중 투자",
+      "url": "https://www.hankyung.com/article/202606019701i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전기 차익실현한 고수들"
+      ],
+      "hash": "44ece7e95b83"
+    },
+    {
+      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
+      "url": "https://www.hankyung.com/article/202605318719i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국 브랜드",
+        "미국인들 밤새 줄 세웠다"
+      ],
+      "hash": "6552b5c43dd8"
+    },
+    {
       "title": "\"1억 넣고 수익률 0%여도…\" 국민성장펀드 투자자 '당혹'",
       "url": "https://www.hankyung.com/article/2026060114941",
       "summary": "이 기사는 6월 1일 오전 8시 한국경제신문 투자정보 플랫폼 '한경 프리미엄9'에 게재됐습니다.국민참여형 성장펀드 가입자는 상장 주식 주가가 하락해 손실을 볼 경우에도 세금을 내야 하는 것으로 나타났다. 상장 주식 가치가 떨어져도 펀드의 과세 ...",
@@ -366,89 +513,6 @@
         "코스피 고공행진 속 포스트워 투자전략"
       ],
       "hash": "4a44f6b82c4d"
-    },
-    {
-      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
-      "url": "https://www.hankyung.com/article/202606010766g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "교섭 리스크",
-        "두산에너빌리티도 뚫렸다"
-      ],
-      "hash": "2c72751ad49c"
-    },
-    {
-      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
-      "url": "https://www.hankyung.com/article/2026053191571",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "갓 졸업한 고3 모셔갑니다"
-      ],
-      "hash": "c955617e61cb"
-    },
-    {
-      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
-      "url": "https://www.hankyung.com/article/2026052973726",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "중대 결단",
-        "집 파느니 차라리"
-      ],
-      "hash": "6e33bed2eaff"
-    },
-    {
-      "title": "미국인들 밤새 줄 세웠다…LA 뒤흔든 '한국 브랜드' 정체",
-      "url": "https://www.hankyung.com/article/202605318719i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국 브랜드",
-        "미국인들 밤새 줄 세웠다"
-      ],
-      "hash": "6552b5c43dd8"
-    },
-    {
-      "title": "삼성전기 차익실현한 고수들…이 종목에 집중 투자",
-      "url": "https://www.hankyung.com/article/202606019701i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기 차익실현한 고수들"
-      ],
-      "hash": "44ece7e95b83"
     },
     {
       "title": "\"그렇게 안오르더니 반전\"…LG그룹 ETF 수익률 첫 1위, 한화는 '꼴찌'",
@@ -1046,73 +1110,6 @@
         "수익률 440%"
       ],
       "hash": "057d7aa8d7d6"
-    },
-    {
-      "title": "\"100만원이 8000만원 됐다\"…19세 아이돌, 주식 대박난 비결",
-      "url": "https://www.hankyung.com/article/2026053190407",
-      "summary": "아이돌 그룹 앤더블의 멤버 한유진이 14살 때 100만원의 종자돈으로 시작한 주식 투자 수익률이 8000%에 달한다고 밝혀 화제다. 그는 2007년생으로 현재 만 19세다.한유진은 지난 30일 방영된 JTBC 예능 프로그램 ‘아는 형님’에 출연해 ...",
-      "datetime_raw": "2026.05.31 17:15",
-      "datetime": "2026-05-31T17:15:00+09:00",
-      "dt": "2026-05-31 17:15",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "100만원이 8000만원 됐다"
-      ],
-      "hash": "ba9356b034eb"
-    },
-    {
-      "title": "박세익 \"2028년초까지 큰 돈 벌 기회 온다\"",
-      "url": "https://www.hankyung.com/article/202605318975i",
-      "summary": "“내후년 초까지는 강세장이 계속될 것이다”(박세익 체슬리투자자문 대표)“삼성전자, SK하이닉스 앞으로 30~60% 더 오른다”(...",
-      "datetime_raw": "2026.05.31 15:49",
-      "datetime": "2026-05-31T15:49:00+09:00",
-      "dt": "2026-05-31 15:49",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "2028년초까지 큰 돈 벌 기회 온다"
-      ],
-      "hash": "b68316626251"
-    },
-    {
-      "title": "\"삼전닉스 믿었다간 큰 코 다친다\"…역대급 빚투에 '경고' [노정동의 어쩌다 투자자]",
-      "url": "https://www.hankyung.com/article/2026052968886",
-      "summary": "코스피지수가 미국·이란 전쟁 종전 기대감과 인공지능(AI) 산업 모멘텀(상승동력)에 힘입어 사상 최고치 행진을 이어가고 있는 가운데 한국은행이 연내 기준금리 인상을 사실상 공식화하면서 증시 투자자 사이에서 우려의 목소리가 나온다.국내 증시가 당분간 '...",
-      "datetime_raw": "2026.05.31 14:21",
-      "datetime": "2026-05-31T14:21:00+09:00",
-      "dt": "2026-05-31 14:21",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "경고",
-        "삼전닉스 믿었다간 큰 코 다친다"
-      ],
-      "hash": "37bb066a18e3"
-    },
-    {
-      "title": "트럼프 \"미·이란, '좋은 합의'에 근접…불발시 전쟁부 개입\"",
-      "url": "https://www.hankyung.com/article/202605318874B",
-      "summary": "도널드 트럼프 미국 대통령이 \"이란과 '매우 좋은 합의(very good deal)'에 근접했다\"는 입장을 내놨다.트럼프 대통령은 30일(현지시간) 폭스뉴스와의 인터뷰에서 \"내가 반드시 확보해야 하는 한 가지 보장은 (이란에) 핵무기가 존재하지 않는 것\"이라며 이같이 ...",
-      "datetime_raw": "2026.05.31 13:58",
-      "datetime": "2026-05-31T13:58:00+09:00",
-      "dt": "2026-05-31 13:58",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "미·이란,",
-        "트럼프 \"미",
-        "에 근접…불발시 전쟁부 개입"
-      ],
-      "hash": "c225e54bdaf0"
     }
   ],
   "consensus_signals": []
