@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-03T11:06:26.767846+09:00",
+  "collected_at": "2026-06-03T13:00:47.344138+09:00",
   "date": "2026-06-03",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -366,8 +366,8 @@
       "hash": "5c2abcafd9a3"
     },
     {
-      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
-      "url": "https://www.hankyung.com/article/202606010766g",
+      "title": "다급해진 스타벅스 건물주들…\"가격만 맞으면 팔겠다\"",
+      "url": "https://www.hankyung.com/article/2026060236981",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -377,10 +377,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "교섭 리스크",
-        "두산에너빌리티도 뚫렸다"
+        "가격만 맞으면 팔겠다",
+        "다급해진 스타벅스 건물주들"
       ],
-      "hash": "2c72751ad49c"
+      "hash": "ebc2920e4b43"
     },
     {
       "title": "\"삼전 팔고 바이오주 담자\"…롤러코스피에 1% 초고수 몰려간 곳",
@@ -399,8 +399,8 @@
       "hash": "8eb525e0ade9"
     },
     {
-      "title": "다급해진 스타벅스 건물주들…\"가격만 맞으면 팔겠다\"",
-      "url": "https://www.hankyung.com/article/2026060236981",
+      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
+      "url": "https://www.hankyung.com/article/202606010766g",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -410,10 +410,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "가격만 맞으면 팔겠다",
-        "다급해진 스타벅스 건물주들"
+        "교섭 리스크",
+        "두산에너빌리티도 뚫렸다"
       ],
-      "hash": "ebc2920e4b43"
+      "hash": "2c72751ad49c"
     },
     {
       "title": "\"4년 기다린 월드컵인데 어쩌나\"…치킨집 사장님 한숨 이유",
