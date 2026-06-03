@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-03T13:00:47.344138+09:00",
+  "collected_at": "2026-06-03T15:00:45.268640+09:00",
   "date": "2026-06-03",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,13 +9,13 @@
   ],
   "total_items": 63,
   "stats": {
-    "with_broker_mention": 8,
+    "with_broker_mention": 7,
     "target_price_up": 5,
     "target_price_down": 0,
     "top_brokers": [
       [
         "한국투자",
-        3
+        2
       ],
       [
         "KB",
@@ -36,6 +36,41 @@
     ]
   },
   "items": [
+    {
+      "title": "\"코스피 1만2000 간다\"…골드만삭스 '깜짝 전망'",
+      "url": "https://www.hankyung.com/article/2026060346107",
+      "summary": "글로벌 투자은행 골드만삭스가 코스피 12개월 목표치를 기존 9000에서 1만2000으로 높였다. 반도체 업황이 예상보다 오래 이어지고 기업 이익 전망도 개선되고 있다는 판단에서다. 지난달 초 목표치를 8000에서 9000으로 올린 지 한 달도 되지 않아 전망치...",
+      "datetime_raw": "2026.06.03 14:55",
+      "datetime": "2026-06-03T14:55:00+09:00",
+      "dt": "2026-06-03 14:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": -99.9888888888889,
+      "keywords": [
+        "깜짝 전망",
+        "코스피 1만2000 간다"
+      ],
+      "hash": "b56a8be2a711"
+    },
+    {
+      "title": "\"삼전 말고 '이 전자' 샀더니\"…300% 폭등에 개미들 '환호'",
+      "url": "https://www.hankyung.com/article/2026060345767",
+      "summary": "인공지능(AI)과 반도체에 이어 로봇주가 강세다.3일 한국거래소에 따르면 유가증권시장에서 시가총액 50조원 이상 종목 가운데 로봇주로 꼽히는 현대차·현대모비스·기아·LG전자의 올해 평균 상승률은 155%로 집계됐다.이들 중에선 LG...",
+      "datetime_raw": "2026.06.03 14:35",
+      "datetime": "2026-06-03T14:35:00+09:00",
+      "dt": "2026-06-03 14:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "환호",
+        "샀더니",
+        "삼전 말고"
+      ],
+      "hash": "2be5702676b7"
+    },
     {
       "title": "\"압승이냐 견제냐\"…선거 결과 따른 수혜 섹터·종목 예측해보니",
       "url": "https://www.hankyung.com/article/202606023109i",
@@ -334,6 +369,72 @@
       "hash": "185a838d99aa"
     },
     {
+      "title": "난감한 스타벅스 건물주들…\"가격만 맞으면 팔겠다\"",
+      "url": "https://www.hankyung.com/article/2026060236981",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "가격만 맞으면 팔겠다",
+        "난감한 스타벅스 건물주들"
+      ],
+      "hash": "ebc2920e4b43"
+    },
+    {
+      "title": "\"삼전 팔고 바이오주 담자\"…롤러코스피에 1% 초고수 몰려간 곳",
+      "url": "https://www.hankyung.com/article/202606022561i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전 팔고 바이오주 담자"
+      ],
+      "hash": "8eb525e0ade9"
+    },
+    {
+      "title": "\"4년 기다린 월드컵인데 어쩌나\"…치킨집 사장님 한숨 이유",
+      "url": "https://www.hankyung.com/article/202606022200i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "4년 기다린 월드컵인데 어쩌나"
+      ],
+      "hash": "3da6cb2d9644"
+    },
+    {
+      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
+      "url": "https://www.hankyung.com/article/202606010766g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "교섭 리스크",
+        "두산에너빌리티도 뚫렸다"
+      ],
+      "hash": "2c72751ad49c"
+    },
+    {
       "title": "거래소 \"유가증권시장 상장사 모두 올해 기업지배구조보고서 제출\"",
       "url": "https://www.hankyung.com/article/2026060229126",
       "summary": "한국거래소는 유가증권시장 상장기업 829개가 지난 1일부로 2026년도 기업지배구조보고서를 모두 제출했다고 2일 밝혔다.상장폐지 결정을 받았거나 가처분신청을 한 기업 6곳은 보고서 제출 대상에서 제외됐다.2017년 지배구조 공시제도를 도입해 운영해온 거래소는 2019년...",
@@ -364,72 +465,6 @@
         "한국 증시"
       ],
       "hash": "5c2abcafd9a3"
-    },
-    {
-      "title": "다급해진 스타벅스 건물주들…\"가격만 맞으면 팔겠다\"",
-      "url": "https://www.hankyung.com/article/2026060236981",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "가격만 맞으면 팔겠다",
-        "다급해진 스타벅스 건물주들"
-      ],
-      "hash": "ebc2920e4b43"
-    },
-    {
-      "title": "\"삼전 팔고 바이오주 담자\"…롤러코스피에 1% 초고수 몰려간 곳",
-      "url": "https://www.hankyung.com/article/202606022561i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전 팔고 바이오주 담자"
-      ],
-      "hash": "8eb525e0ade9"
-    },
-    {
-      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
-      "url": "https://www.hankyung.com/article/202606010766g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "교섭 리스크",
-        "두산에너빌리티도 뚫렸다"
-      ],
-      "hash": "2c72751ad49c"
-    },
-    {
-      "title": "\"4년 기다린 월드컵인데 어쩌나\"…치킨집 사장님 한숨 이유",
-      "url": "https://www.hankyung.com/article/202606022200i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "4년 기다린 월드컵인데 어쩌나"
-      ],
-      "hash": "3da6cb2d9644"
     },
     {
       "title": "코스피, 장중 낙폭 키워 8500선까지 내려",
@@ -1036,40 +1071,6 @@
         "거래소 이사장"
       ],
       "hash": "a74deac4c334"
-    },
-    {
-      "title": "하이브랩, 자회사 키스톤마케팅컴퍼니 각자대표로 박정재 CFO 선임",
-      "url": "https://www.hankyung.com/article/2026060101506",
-      "summary": "하이브랩은 자회사 키스톤마케팅컴퍼니의 관리 부문 각자 대표이사로 박정재 최고재무책임자(CFO)를 신규 선임했다고 1일 밝혔다.앞서 키스톤마케팅컴퍼니는 지난 3월 주주총회에서 박 대표를 선임한 후 2개월간 내부 정비 기간을 가졌다. 이번 개편으로 회사는 기존 이기호 대표...",
-      "datetime_raw": "2026.06.01 10:19",
-      "datetime": "2026-06-01T10:19:00+09:00",
-      "dt": "2026-06-01 10:19",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하이브랩"
-      ],
-      "hash": "9d9298774e20"
-    },
-    {
-      "title": "한국투자증권, 일본 엔화 RP 판매 개시",
-      "url": "https://www.hankyung.com/article/2026060100646",
-      "summary": "한국투자증권은 일본 엔화(JPY)로 단기 투자할 수 있는 환매조건부채권(RP) 상품을 판매한다고 1일 밝혔다.외화 RP는 금융기관이 보유한 채권을 일정 기간이 지난 후 다시 매수하는 조건으로 투자자에게 매도하고, 보유 기간에 따른 약정 금리를 외화로 지급한다. 외화를 ...",
-      "datetime_raw": "2026.06.01 10:05",
-      "datetime": "2026-06-01T10:05:00+09:00",
-      "dt": "2026-06-01 10:05",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국투자증권"
-      ],
-      "hash": "0f1cd67fda26"
     }
   ],
   "consensus_signals": []
