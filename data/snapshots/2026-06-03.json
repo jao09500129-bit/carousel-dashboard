@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-03T09:30:53.034701+09:00",
+  "collected_at": "2026-06-03T11:00:44.136106+09:00",
   "date": "2026-06-03",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 63,
   "stats": {
     "with_broker_mention": 8,
     "target_price_up": 5,
@@ -399,22 +399,6 @@
       "hash": "8eb525e0ade9"
     },
     {
-      "title": "\"갓 졸업한 고3 모셔갑니다\"…삼전닉스 러브콜 받는 학교",
-      "url": "https://www.hankyung.com/article/2026053191571",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "갓 졸업한 고3 모셔갑니다"
-      ],
-      "hash": "c955617e61cb"
-    },
-    {
       "title": "다급해진 스타벅스 건물주들…\"가격만 맞으면 팔겠다\"",
       "url": "https://www.hankyung.com/article/2026060236981",
       "summary": "",
@@ -432,8 +416,8 @@
       "hash": "ebc2920e4b43"
     },
     {
-      "title": "\"집 파느니 차라리\" 집주인들 '중대 결단'…강남서 무슨 일이",
-      "url": "https://www.hankyung.com/article/2026052973726",
+      "title": "\"4년 기다린 월드컵인데 어쩌나\"…치킨집 사장님 한숨 이유",
+      "url": "https://www.hankyung.com/article/202606022200i",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -443,10 +427,9 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "중대 결단",
-        "집 파느니 차라리"
+        "4년 기다린 월드컵인데 어쩌나"
       ],
-      "hash": "6e33bed2eaff"
+      "hash": "3da6cb2d9644"
     },
     {
       "title": "코스피, 장중 낙폭 키워 8500선까지 내려",
