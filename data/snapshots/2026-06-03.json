@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-03T15:00:45.268640+09:00",
+  "collected_at": "2026-06-03T16:00:45.033186+09:00",
   "date": "2026-06-03",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -402,6 +402,22 @@
       "hash": "8eb525e0ade9"
     },
     {
+      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
+      "url": "https://www.hankyung.com/article/2026060236751",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "깜빡했어요"
+      ],
+      "hash": "1fb128b1aa11"
+    },
+    {
       "title": "\"4년 기다린 월드컵인데 어쩌나\"…치킨집 사장님 한숨 이유",
       "url": "https://www.hankyung.com/article/202606022200i",
       "summary": "",
@@ -416,23 +432,6 @@
         "4년 기다린 월드컵인데 어쩌나"
       ],
       "hash": "3da6cb2d9644"
-    },
-    {
-      "title": "두산에너빌리티도 뚫렸다…몰아치는 '교섭 리스크' 비상",
-      "url": "https://www.hankyung.com/article/202606010766g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "교섭 리스크",
-        "두산에너빌리티도 뚫렸다"
-      ],
-      "hash": "2c72751ad49c"
     },
     {
       "title": "거래소 \"유가증권시장 상장사 모두 올해 기업지배구조보고서 제출\"",
