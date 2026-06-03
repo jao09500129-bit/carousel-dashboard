@@ -1,11 +1,30 @@
 {
-  "computed_at": "2026-06-03T16:00:45.033186+09:00",
+  "computed_at": "2026-06-03T23:10:51.992694+09:00",
   "date": "2026-06-03",
   "low": 9000,
   "high": 9000,
   "mid": 9000,
-  "sample_size": 1,
+  "sample_size": 3,
   "sources": [
+    {
+      "url": "https://www.hankyung.com/article/2026060350891",
+      "title": "골드만, 코스피 목표치 9000 → 1만2000",
+      "low": null,
+      "high": null,
+      "points": [
+        9000,
+        9000
+      ]
+    },
+    {
+      "url": "https://www.hankyung.com/article/2026060347757",
+      "title": "\"코스피, 삼전닉스 없어도 1만2000 간다\"…역대급 베팅",
+      "low": null,
+      "high": null,
+      "points": [
+        9000
+      ]
+    },
     {
       "url": "https://www.hankyung.com/article/2026060346107",
       "title": "\"코스피 1만2000 간다\"…골드만삭스 '깜짝 전망'",

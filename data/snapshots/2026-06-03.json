@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-03T16:00:45.033186+09:00",
+  "collected_at": "2026-06-03T23:10:51.992694+09:00",
   "date": "2026-06-03",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 63,
+  "total_items": 62,
   "stats": {
     "with_broker_mention": 7,
     "target_price_up": 5,
@@ -36,6 +36,104 @@
     ]
   },
   "items": [
+    {
+      "title": "골드만, 코스피 목표치 9000 → 1만2000",
+      "url": "https://www.hankyung.com/article/2026060350891",
+      "summary": "글로벌 투자은행(IB) 골드만삭스는 3일 코스피지수 목표치를 기존 9000에서 12,000으로 상향했다. 골드만삭스는 목표 상향 근거로 “한국은 아시아 지역에서 가장 강한 실적 모멘텀을 보여주고 있다”고 설명했다.골드만삭스는 이날 보고서를 통해 “코스피지수는 37%가량 추가 상승 여력이 있다”며 이같이 밝혔다. 이...",
+      "datetime_raw": "2026.06.03 20:28",
+      "datetime": "2026-06-03T20:28:00+09:00",
+      "dt": "2026-06-03 20:28",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": -99.9888888888889,
+      "keywords": [
+        "골드만"
+      ],
+      "hash": "ea37fc64ac8d"
+    },
+    {
+      "title": "골드만 CEO \"금융시장, AI기업 IPO 감당할 자금 충분\"",
+      "url": "https://www.hankyung.com/article/2026060349561",
+      "summary": "데이비드 솔로몬 골드만삭스 최고경영자(CEO)가 최근 금융시장 투자 환경에 관해 “확실히 ‘공포’보다 ‘탐욕’이 많은 시점에 놓여 있다”고 진단했다.솔로몬 CEO는 2일(현지시간) CNBC 인터뷰에서 “세계가 계속 낙관적 분위기를 유지한다면 금융 시스템 내 유동성은 충분하다&rdqu...",
+      "datetime_raw": "2026.06.03 19:12",
+      "datetime": "2026-06-03T19:12:00+09:00",
+      "dt": "2026-06-03 19:12",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "골드만 CEO \"금융시장",
+        "금융시장, AI기업 IPO 감당할 자금 충분"
+      ],
+      "hash": "0c2d53f2217f"
+    },
+    {
+      "title": "\"코스피, 삼전닉스 없어도 1만2000 간다\"…역대급 베팅",
+      "url": "https://www.hankyung.com/article/2026060347757",
+      "summary": "골드만삭스가 코스피 목표치를 기존 9000에서 1만2000으로 대폭 높여 잡았다. 높은 실적 성장세와 메모리 업황의 저평가 국면이 지속되고 있다는 판단에서다.골드만삭스는 3일 보고서를 통해 \"코스피는 37%가량의 추가 상승 여력이 있다\"며 \"단기 조정 가능성도 존재하지...",
+      "datetime_raw": "2026.06.03 17:21",
+      "datetime": "2026-06-03T17:21:00+09:00",
+      "dt": "2026-06-03 17:21",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": -99.9888888888889,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "7666f9331bb6"
+    },
+    {
+      "title": "\"이란 전쟁 장기화시 '글로벌 경기 침체'\"…OECD 경고",
+      "url": "https://www.hankyung.com/article/202606034766B",
+      "summary": "중동 분쟁 장기화가 세계 경제를 침체 위기로 몰아넣을 수 있다는 경제협력개발기구(OECD) 경고가 나왔다.3일(현지시간) 블룸버그에 따르면 OECD는 이날 최신 경제전망 보고서를 통해 이란 전쟁이 이미 글로벌 경제 성장세를 제약하고 있다고 진단했다. OECD는 이란 전...",
+      "datetime_raw": "2026.06.03 17:00",
+      "datetime": "2026-06-03T17:00:00+09:00",
+      "dt": "2026-06-03 17:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이란 전쟁 장기화시"
+      ],
+      "hash": "3c4ea8927b4b"
+    },
+    {
+      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
+      "url": "https://www.hankyung.com/article/202606034746i",
+      "summary": "강방천 에셋플러스자산운용 회장 인터뷰 기사 전문은 한국경제신문이 만드는 온라인 투자전문 플랫폼 '한경 프리미엄9'에서 볼 수 있습니다.“근로소득은 이제 꺼져가는 등불입니다. 인공지능(AI)이 인간의 노동을 대체하는 시대에 스스로 창업할 수 없다...",
+      "datetime_raw": "2026.06.03 16:38",
+      "datetime": "2026-06-03T16:38:00+09:00",
+      "dt": "2026-06-03 16:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 안 사는 이유 있다"
+      ],
+      "hash": "8346e092b9fb"
+    },
+    {
+      "title": "김수민 \"韓 우량자산, 온체인서 빛 보게 할 것\"",
+      "url": "https://www.hankyung.com/article/202606034747B",
+      "summary": "김수민 플룸네트워크 한국 총괄\"지갑도 모른채 웹3 입문\"국내 자산 온체인화 등 추진\"규제, 라이선스 등 모두 다뤄야\"'좋은 사람을 만나 좋은 대화를 나눈다.' 블루밍런치의 기본 취지입니다. 크립토 씬(Crypto Scene, 블록체인·가상자산 생태계)의 좋은 사람들을 ...",
+      "datetime_raw": "2026.06.03 16:33",
+      "datetime": "2026-06-03T16:33:00+09:00",
+      "dt": "2026-06-03 16:33",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "김수민 \"韓 우량자산",
+        "韓 우량자산, 온체인서 빛 보게 할 것"
+      ],
+      "hash": "368570f28e7b"
+    },
     {
       "title": "\"코스피 1만2000 간다\"…골드만삭스 '깜짝 전망'",
       "url": "https://www.hankyung.com/article/2026060346107",
@@ -266,6 +364,39 @@
       "hash": "861899bd6159"
     },
     {
+      "title": "난감한 스타벅스 건물주들…\"가격만 맞으면 팔겠다\"",
+      "url": "https://www.hankyung.com/article/2026060236981",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "가격만 맞으면 팔겠다",
+        "난감한 스타벅스 건물주들"
+      ],
+      "hash": "ebc2920e4b43"
+    },
+    {
+      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
+      "url": "https://www.hankyung.com/article/2026060236751",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "깜빡했어요"
+      ],
+      "hash": "1fb128b1aa11"
+    },
+    {
       "title": "단기 조정은 AI 주도주 매수 기회",
       "url": "https://www.hankyung.com/article/202606022334i",
       "summary": "﻿지표와 달리 움직이는 지수·주도주한국 증시와 미국 증시에서 최근 지수와 주도주의 움직임은 전통적인 지표의 해석과 정반대로 움직이는 경향이 있다. 유가 폭등, 인플레이션 임계점 돌파, 장단기 국채 금리 급등, 미국 글로벌 펀드 현금 비...",
@@ -369,71 +500,6 @@
       "hash": "185a838d99aa"
     },
     {
-      "title": "난감한 스타벅스 건물주들…\"가격만 맞으면 팔겠다\"",
-      "url": "https://www.hankyung.com/article/2026060236981",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "가격만 맞으면 팔겠다",
-        "난감한 스타벅스 건물주들"
-      ],
-      "hash": "ebc2920e4b43"
-    },
-    {
-      "title": "\"삼전 팔고 바이오주 담자\"…롤러코스피에 1% 초고수 몰려간 곳",
-      "url": "https://www.hankyung.com/article/202606022561i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전 팔고 바이오주 담자"
-      ],
-      "hash": "8eb525e0ade9"
-    },
-    {
-      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
-      "url": "https://www.hankyung.com/article/2026060236751",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "깜빡했어요"
-      ],
-      "hash": "1fb128b1aa11"
-    },
-    {
-      "title": "\"4년 기다린 월드컵인데 어쩌나\"…치킨집 사장님 한숨 이유",
-      "url": "https://www.hankyung.com/article/202606022200i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "4년 기다린 월드컵인데 어쩌나"
-      ],
-      "hash": "3da6cb2d9644"
-    },
-    {
       "title": "거래소 \"유가증권시장 상장사 모두 올해 기업지배구조보고서 제출\"",
       "url": "https://www.hankyung.com/article/2026060229126",
       "summary": "한국거래소는 유가증권시장 상장기업 829개가 지난 1일부로 2026년도 기업지배구조보고서를 모두 제출했다고 2일 밝혔다.상장폐지 결정을 받았거나 가처분신청을 한 기업 6곳은 보고서 제출 대상에서 제외됐다.2017년 지배구조 공시제도를 도입해 운영해온 거래소는 2019년...",
@@ -480,6 +546,22 @@
         "코스피"
       ],
       "hash": "8c0ec79f2300"
+    },
+    {
+      "title": "\"삼전 팔고 바이오주 담자\"…롤러코스피에 1% 초고수 몰려간 곳",
+      "url": "https://www.hankyung.com/article/202606022561i",
+      "summary": "투자수익률 상위 1%의 초고수가 2일 오전 증시에서 1조9000억원 규모의 기술수출을 발표한 한미약품을 가장 많이 매수한 것으로 나타났다. 전날 대만에서 진행된 젠슨 황 엔비디아 최고경영자(CEO)의 발표에서 핵심 파트너사로 등장한 SK텔레콤에도 매수세가 몰렸다.27일...",
+      "datetime_raw": "2026.06.02 11:04",
+      "datetime": "2026-06-02T11:04:00+09:00",
+      "dt": "2026-06-02 11:04",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전 팔고 바이오주 담자"
+      ],
+      "hash": "8eb525e0ade9"
     },
     {
       "title": "업비트 데이터랩, 온체인 지수 4종 추가 출시…라인업 6종으로 확대",
@@ -974,102 +1056,6 @@
         "한화에어로스페이스"
       ],
       "hash": "85218a9885c4"
-    },
-    {
-      "title": "'8800선 돌파' 코스피, 매수 사이드카 발동…삼전 시총 2000조 돌파",
-      "url": "https://www.hankyung.com/article/2026060104716",
-      "summary": "코스피지수가 6월의 첫 거래일 사상 최고치 행진을 이어가며 매수 '사이드카'(프로그램 매매호가 효력을 5분간 정지하는 제도)가 발동됐다. 장중 상단을 8870선까지 높여 구천피(코스피지수 9000)에 대한 기대를 높였다. 대장주 삼성전자는 장중 10%대 ...",
-      "datetime_raw": "2026.06.01 12:08",
-      "datetime": "2026-06-01T12:08:00+09:00",
-      "dt": "2026-06-01 12:08",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "8800선 돌파"
-      ],
-      "hash": "c8b6c24f87c2"
-    },
-    {
-      "title": "급등장에 코스피 매수 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026060104457",
-      "summary": "홍민성 한경닷컴 기자 mshong@hankyung.com",
-      "datetime_raw": "2026.06.01 11:34",
-      "datetime": "2026-06-01T11:34:00+09:00",
-      "dt": "2026-06-01 11:34",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급등장에 코스피 매수 사이드카 발동"
-      ],
-      "hash": "b1c76ef1cc65"
-    },
-    {
-      "title": "거래소 \"6월29일 삼전·SK하닉·현대차·LG엔솔 위클리 옵션 상장\"",
-      "url": "https://www.hankyung.com/article/2026060103856",
-      "summary": "한국거래소는 다양한 상장지수펀드(ETF) 개발 기반을 마련하고 국내 투자자에게 다양한 투자 기회를 제공하기 위해 개별주식 위클리 옵션을 오는 29일 상장할 예정이라고 1일 밝혔다.현재 국내 옵션 시장에는 64개 종목에 대한 매월만기옵션만 상장돼 있다. 커버드콜 ETF ...",
-      "datetime_raw": "2026.06.01 11:16",
-      "datetime": "2026-06-01T11:16:00+09:00",
-      "dt": "2026-06-01 11:16",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "거래소 \"6월29일 삼전"
-      ],
-      "hash": "f09ba3b38545"
-    },
-    {
-      "title": "코스피, 8800선 돌파해 최고치 재경신…삼성전자 10% 급등",
-      "url": "https://www.hankyung.com/article/2026060102646",
-      "summary": "코스피지수가 6월의 첫 거래일 장중 상단을 8800선까지 높였다. 삼성전자는 장중 10%대 급등하면서 사상 처음으로 보통주 시가총액이 2000조원을 넘어섰다.1일 오전 10시55분 현재 코스피지수는 전 거래일보다 355.01포인트(4.19%) 오른 8831.16을 기록...",
-      "datetime_raw": "2026.06.01 11:12",
-      "datetime": "2026-06-01T11:12:00+09:00",
-      "dt": "2026-06-01 11:12",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "0fa91aaa00cf"
-    },
-    {
-      "title": "비에이치아이 \"일본서 1883억원 규모 HRSG 2기 수주\"",
-      "url": "https://www.hankyung.com/article/2026060103196",
-      "summary": "비에이치아이는 도시바 플랜트 시스템&서비스(TPSC)에 1883억원 규모의 LNG 복합화력 발전설비를 공급하기로 하는 계약을 지난달 29일 맺었다고 6월1일 공시했다.계약에 따라 비에이치아이는 일본 지바현에 위치한 소데가우라 가스화력발전소에 800MW급 배열회수보일러(...",
-      "datetime_raw": "2026.06.01 11:03",
-      "datetime": "2026-06-01T11:03:00+09:00",
-      "dt": "2026-06-01 11:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "일본서 1883억원 규모 HRSG 2기 수주"
-      ],
-      "hash": "b62870b0f8c2"
-    },
-    {
-      "title": "거래소 이사장, WEF 이사회 참석 및 노르웨이 국부펀드 면담 위해 출국",
-      "url": "https://www.hankyung.com/article/2026060101836",
-      "summary": "한국거래소는 정은보 이사장이 오는 2일 룩셈부르크에서 열리는 2026년도 세계거래소연맹(WFE) 2차 이사회에 참석하고 노르웨이 국부펀드와 면담하기 위해 5월31일 출국했다고 6월1일 밝혔다.우선 정 이사장은 오는 2일 WFE 2차 이사회에서 나스닥, 시가고상업거래소,...",
-      "datetime_raw": "2026.06.01 10:34",
-      "datetime": "2026-06-01T10:34:00+09:00",
-      "dt": "2026-06-01 10:34",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "거래소 이사장"
-      ],
-      "hash": "a74deac4c334"
     }
   ],
   "consensus_signals": []
