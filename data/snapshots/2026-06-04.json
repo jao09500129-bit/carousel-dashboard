@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-04T13:01:03.212325+09:00",
+  "collected_at": "2026-06-04T15:00:51.284697+09:00",
   "date": "2026-06-04",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -36,6 +36,84 @@
     ]
   },
   "items": [
+    {
+      "title": "라이콤 \"약 39억원 규모 통신용 광증폭기 수주…작년 매출 22% 규모\"",
+      "url": "https://www.hankyung.com/article/2026060475886",
+      "summary": "라이콤은 해외기업 원피니티(1finity)에 38억6851만원 규모의 데이터센터간 통신에 사용되는 광증폭기를 내년 12월6일까지 공급해주기로 하는 계약을 지난 2일 맺었다고 4일 공시했다.계약 금액은 라이콤의 작년 연간 매출액 대비 21.87% 규모다.회사 측은 원인피...",
+      "datetime_raw": "2026.06.04 14:52",
+      "datetime": "2026-06-04T14:52:00+09:00",
+      "dt": "2026-06-04 14:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "06909a517d31"
+    },
+    {
+      "title": "예탁원 전자등록 자산 규모 1경원 돌파",
+      "url": "https://www.hankyung.com/article/2026060475556",
+      "summary": "한국예탁결제원은 전자등록돼 관리 중인 증권 자산이 2026년 4월말 기준 1경1065조원으로, 1경원을 돌파했다고 4일 밝혔다.이는 전자증권법이 시행된 2019년 9월말 기준 전자등록자산 규모인 4780조원이 7년여만에 2배 이상 늘어난 것이다.자산 유형별로는 상장 및...",
+      "datetime_raw": "2026.06.04 14:42",
+      "datetime": "2026-06-04T14:42:00+09:00",
+      "dt": "2026-06-04 14:42",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "예탁원 전자등록 자산 규모 1경원 돌파"
+      ],
+      "hash": "8ebd4e4c68bf"
+    },
+    {
+      "title": "플랜티넷 \"33억원 규모 자사주 소각 결정\"",
+      "url": "https://www.hankyung.com/article/2026060475246",
+      "summary": "플랜티넷은 4일 이사회를 열고 오는 19일 보유하고 있는 자사주 50만주를 소각하기로 결정했다고 공시했다.소각 예정금액은 32억8812만원이다.앞서 플랜티넷은 작년도 결산배당으로 주당 100원을 지난 4월8일 주주들에게 지급한 바 있다. 배당금 총액은 15억5866만원...",
+      "datetime_raw": "2026.06.04 14:32",
+      "datetime": "2026-06-04T14:32:00+09:00",
+      "dt": "2026-06-04 14:32",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "33억원 규모 자사주 소각 결정"
+      ],
+      "hash": "09d53af3f73b"
+    },
+    {
+      "title": "\"무브먼트, 美·캐나다·EU 결제망 접근권 확보\"",
+      "url": "https://www.hankyung.com/article/2026060473166",
+      "summary": "스테이블코인 인프라 기업 무브먼트가 미국·캐나다·유럽연합(EU) 내 라이선스 결제망 접근권을 확보했다고 블루밍비트가 4일 보도했다.무브먼트는 이를 기반으로 스테이블코인과 신흥시장 전통 금융 시스템을 연결하는 결제·정산 인프...",
+      "datetime_raw": "2026.06.04 13:35",
+      "datetime": "2026-06-04T13:35:00+09:00",
+      "dt": "2026-06-04 13:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "무브먼트"
+      ],
+      "hash": "c68dcc3e6027"
+    },
+    {
+      "title": "금감원, 홍콩 ELS 판매銀 5곳에 과징금 6000억…절반 이하 감경",
+      "url": "https://www.hankyung.com/article/2026060473136",
+      "summary": "금융감독원이 홍콩H지수 주가연계증권(ELS) 판매 은행사 5곳에 제재 수위를 감경해 6000억원 수준의 과징금을 부과하기로 결정했다. 기존에 결정했던 과징금의 절반 이하 수준이다.금감원은 4일 오전 임시 제재심의위원회를 열고 KB국민·신한·하나...",
+      "datetime_raw": "2026.06.04 13:21",
+      "datetime": "2026-06-04T13:21:00+09:00",
+      "dt": "2026-06-04 13:21",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "금감원"
+      ],
+      "hash": "64073dfd871b"
+    },
     {
       "title": "헥토콘 IPO 시대가 열리다",
       "url": "https://www.hankyung.com/article/202606023005i",
@@ -287,6 +365,89 @@
       "hash": "29320f8a2bbe"
     },
     {
+      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
+      "url": "https://www.hankyung.com/article/202606034746i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 안 사는 이유 있다"
+      ],
+      "hash": "8346e092b9fb"
+    },
+    {
+      "title": "\"삼전 말고 '이 전자' 샀더니\"…300% 폭등에 개미들 '환호'",
+      "url": "https://www.hankyung.com/article/2026060345767",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "환호",
+        "샀더니",
+        "삼전 말고"
+      ],
+      "hash": "2be5702676b7"
+    },
+    {
+      "title": "잘나가던 삼성전기 급락 왜…\"가득 채운 ETF, 리밸런싱 우려 커졌다\"",
+      "url": "https://www.hankyung.com/article/202606034393i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "잘나가던 삼성전기 급락 왜",
+        "가득 채운 ETF, 리밸런싱 우려 커졌다"
+      ],
+      "hash": "b46f5cb0b2cf"
+    },
+    {
+      "title": "엔비디아, 한국에 AI기술센터 설립 속도…부지는 새만금 유력",
+      "url": "https://www.hankyung.com/article/202606034510i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "엔비디아"
+      ],
+      "hash": "b00abc114c95"
+    },
+    {
+      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
+      "url": "https://www.hankyung.com/article/2026060236751",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "깜빡했어요"
+      ],
+      "hash": "1fb128b1aa11"
+    },
+    {
       "title": "\"삼상물산, 지분가치 상승·주주환원 확대 긍정적…목표가↑\"-SK",
       "url": "https://www.hankyung.com/article/2026060462046",
       "summary": "SK증권은 4일 삼성물산에 대해 \"자회사 지분가치 상승과 주주환원 확대 가능성이 있다\"며 목표주가를 기존 48만원에서 59만원으로 상향하고 투자의견 '매수'를 유지했다.최관순 SK증권 연구원은 \"삼성물산의 현재 지분가치는 165조원으로 삼성전자 64.5%...",
@@ -371,89 +532,6 @@
         "AI 위협론 눈 녹듯 녹였다"
       ],
       "hash": "c22d6be239c2"
-    },
-    {
-      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
-      "url": "https://www.hankyung.com/article/202606034746i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 안 사는 이유 있다"
-      ],
-      "hash": "8346e092b9fb"
-    },
-    {
-      "title": "\"삼전 말고 '이 전자' 샀더니\"…300% 폭등에 개미들 '환호'",
-      "url": "https://www.hankyung.com/article/2026060345767",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "환호",
-        "샀더니",
-        "삼전 말고"
-      ],
-      "hash": "2be5702676b7"
-    },
-    {
-      "title": "잘나가던 삼성전기 급락 왜…\"가득 채운 ETF, 리밸런싱 우려 커졌다\"",
-      "url": "https://www.hankyung.com/article/202606034393i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "잘나가던 삼성전기 급락 왜",
-        "가득 채운 ETF, 리밸런싱 우려 커졌다"
-      ],
-      "hash": "b46f5cb0b2cf"
-    },
-    {
-      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
-      "url": "https://www.hankyung.com/article/2026060236751",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "깜빡했어요"
-      ],
-      "hash": "1fb128b1aa11"
-    },
-    {
-      "title": "엔비디아, 한국에 AI기술센터 설립 속도…부지는 새만금 유력",
-      "url": "https://www.hankyung.com/article/202606034510i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "엔비디아"
-      ],
-      "hash": "b00abc114c95"
     },
     {
       "title": "'인기 폭발' 액티브 ETF…계열사 주문 몰아주기에 비용 '줄줄' [한경우의 케이스스터디]",
@@ -996,87 +1074,6 @@
         "한국디지털에셋"
       ],
       "hash": "8a9327fa72f0"
-    },
-    {
-      "title": "SK텔레콤, 엔비디아 협력 기대에 장중 '신고가'",
-      "url": "https://www.hankyung.com/article/2026060221996",
-      "summary": "SK텔레콤이 2일 52주 신고가를 경신했다. 엔비디아와의 협력 기대가 커지면서 투자 심리가 자극받은 것으로 풀이된다.이날 오전 9시31분께 SK텔레콤은 전 거래일 대비 1만2500원(11.14%) 오른 12만4700원에 거래되고 있다. 장중 한때 14만300원까지 치솟...",
-      "datetime_raw": "2026.06.02 09:40",
-      "datetime": "2026-06-02T09:40:00+09:00",
-      "dt": "2026-06-02 09:40",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신고가",
-        "SK텔레콤"
-      ],
-      "hash": "6c76d41b4174"
-    },
-    {
-      "title": "'젠슨황 효과'로 확 커진 '1만피' 가능성…최적의 투자전략 물어보니",
-      "url": "https://www.hankyung.com/article/202606022089i",
-      "summary": "2026년 코스피지수 전망: 증권사 리포트 종합 분석2026년 코스피지수는 반도체 중심의 이익 펀더멘털 개선을 핵심 동력으로 삼아 역사적 강세장을 이어가고 있다.연초 이후 코스피는 두 배가량 뛰었으며, 현재 8,000선을 훌쩍 상회하는 수준에서 거...",
-      "datetime_raw": "2026.06.02 09:36",
-      "datetime": "2026-06-02T09:36:00+09:00",
-      "dt": "2026-06-02 09:36",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "1만피",
-        "젠슨황 효과"
-      ],
-      "hash": "6d9e58a766eb"
-    },
-    {
-      "title": "개인 6.4조 매수에 코스피 사상 최고치 마감...글로벌 시총 6위 등극 [마켓라이브]",
-      "url": "https://www.hankyung.com/article/202606022309i",
-      "summary": "코스피 0.15% 소폭 상승 마감… 외국인 6.6조 순매도에도 개인 6.4조 매수로 방어 (장 마감 시황)🕘 장 초반 8900선 돌파 후 급락… 개인 매수세로 8800선 회복2026년 6월 2일 오후 3시 30분 마감 기준, 한국 증시는 장 초...",
-      "datetime_raw": "2026.06.02 09:31",
-      "datetime": "2026-06-02T09:31:00+09:00",
-      "dt": "2026-06-02 09:31",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "1c1c2871fad1"
-    },
-    {
-      "title": "코스피, 장 초반 급락 전환…8600선 등락",
-      "url": "https://www.hankyung.com/article/2026060222586",
-      "summary": "코스피지수가 2일 장 초반 8600선에서 등락하고 있다.이날 오전 9시17분 현재 코스피지수는 전일 대비 120.42포인트(1.37%) 내린 8667.96을 기록 중이다. 1.08% 상승 출발한 지수는 장 초반 8933선까지 상단을 높이면서 '9천피'(코...",
-      "datetime_raw": "2026.06.02 09:20",
-      "datetime": "2026-06-02T09:20:00+09:00",
-      "dt": "2026-06-02 09:20",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "659f26c02f96"
-    },
-    {
-      "title": "오스코텍, 1조원 규모 신약 후보 기술이전 소식에 '급등'",
-      "url": "https://www.hankyung.com/article/2026060222656",
-      "summary": "오스코텍이 급등하고 있다. 자가면역질환 신약 후보물질을 최대 1조원 규모로 기술이전하기로 했다는 소식이 전해진 영향이다.2일 오전 9시5분 현재 오스코텍은 전일 대비 4900원(12.08%) 오른 4만5450원에 거래되고 있다.오스코텍은 미국 희귀질환 치료제 전문 제약...",
-      "datetime_raw": "2026.06.02 09:09",
-      "datetime": "2026-06-02T09:09:00+09:00",
-      "dt": "2026-06-02 09:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급등",
-        "오스코텍"
-      ],
-      "hash": "1822482602db"
     }
   ],
   "consensus_signals": []
