@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-04T15:00:51.284697+09:00",
+  "collected_at": "2026-06-04T16:00:45.446112+09:00",
   "date": "2026-06-04",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -36,6 +36,39 @@
     ]
   },
   "items": [
+    {
+      "title": "숨고르기 들어간 대표 AI 수혜주들…증권가에선 \"다시 고점 오른다\"",
+      "url": "https://www.hankyung.com/article/202606047607i",
+      "summary": "국내 증시에서 대표적인 인공지능(AI) 수혜주로 꼽히던 LS일렉트릭과 삼성전기가 일시적인 주가 조정을 겪고 있다. 시장 일각에서는 고점 신호가 아니냐는 우려의 목소리도 나오지만, 증권가에서는 두 기업의 전방 수요 폭발과 공급 부족 현상이 오히려 심해지고 있다며 일제히 ...",
+      "datetime_raw": "2026.06.04 15:41",
+      "datetime": "2026-06-04T15:41:00+09:00",
+      "dt": "2026-06-04 15:41",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "다시 고점 오른다",
+        "숨고르기 들어간 대표 AI 수혜주들"
+      ],
+      "hash": "4c55aafbba6f"
+    },
+    {
+      "title": "왜 이렇게 떨어지지?…1억원 깨진 비트코인 전망 물어보니",
+      "url": "https://www.hankyung.com/article/202606047501i",
+      "summary": "1. 최근 1년간 비트코인 가격 동향 및 최근 하락 원인가격 흐름 요약표최근 1년간 가격 흐름 개관비트코인은 작년 10월 12만 달러를 상회하며 사상 최고 수준에 근접했으나, 올해 2월까지 하락세가 이어졌다. 이 시기 하락의 핵심 원인은 두 가지로...",
+      "datetime_raw": "2026.06.04 15:01",
+      "datetime": "2026-06-04T15:01:00+09:00",
+      "dt": "2026-06-04 15:01",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "왜 이렇게 떨어지지?"
+      ],
+      "hash": "c5614ea7baac"
+    },
     {
       "title": "라이콤 \"약 39억원 규모 통신용 광증폭기 수주…작년 매출 22% 규모\"",
       "url": "https://www.hankyung.com/article/2026060475886",
@@ -331,40 +364,6 @@
       "hash": "39e0a1ffc7c4"
     },
     {
-      "title": "\"삼성중공업, 하반기까지 FLNG 6기 확보…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026060463116",
-      "summary": "한국투자증권은 4일 삼성중공업에 대해 \"부유식 액화천연가스 생산설비(FLNG) 4기 확보를 완료했고 하반기 2기를 추가 수주해 총 6기를 확보하게 될 것\"이라며 목표주가를 기존 4만3000원에서 4만4000원으로 높이고 투자의견 '매수'를 유지했다.강경태...",
-      "datetime_raw": "2026.06.04 08:33",
-      "datetime": "2026-06-04T08:33:00+09:00",
-      "dt": "2026-06-04 08:33",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": -99.86666666666667,
-      "keywords": [
-        "삼성중공업"
-      ],
-      "hash": "a8391ee23037"
-    },
-    {
-      "title": "1년만에 ‘텐배거’ 된 SK하이닉스, ADR 상장 후 주가 전망해보니",
-      "url": "https://www.hankyung.com/article/202606023323i",
-      "summary": "SK하이닉스 ADR 상장 추진 현황 및 파급 효과 분석SK하이닉스의 미국 주식예탁증서(ADR) 상장 추진은 한국 자본시장 역사상 가장 주목받는 해외 상장 이벤트 중 하나로 부상하고 있다.글로벌 AI 인프라 투자 사이클이 본격화되는 가운데, 세계 HBM 시장 점유율 1위...",
-      "datetime_raw": "2026.06.04 08:10",
-      "datetime": "2026-06-04T08:10:00+09:00",
-      "dt": "2026-06-04 08:10",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "텐배거"
-      ],
-      "hash": "29320f8a2bbe"
-    },
-    {
       "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
       "url": "https://www.hankyung.com/article/202606034746i",
       "summary": "",
@@ -446,6 +445,40 @@
         "깜빡했어요"
       ],
       "hash": "1fb128b1aa11"
+    },
+    {
+      "title": "\"삼성중공업, 하반기까지 FLNG 6기 확보…목표가↑\"-한국",
+      "url": "https://www.hankyung.com/article/2026060463116",
+      "summary": "한국투자증권은 4일 삼성중공업에 대해 \"부유식 액화천연가스 생산설비(FLNG) 4기 확보를 완료했고 하반기 2기를 추가 수주해 총 6기를 확보하게 될 것\"이라며 목표주가를 기존 4만3000원에서 4만4000원으로 높이고 투자의견 '매수'를 유지했다.강경태...",
+      "datetime_raw": "2026.06.04 08:33",
+      "datetime": "2026-06-04T08:33:00+09:00",
+      "dt": "2026-06-04 08:33",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": -99.86666666666667,
+      "keywords": [
+        "삼성중공업"
+      ],
+      "hash": "a8391ee23037"
+    },
+    {
+      "title": "1년만에 ‘텐배거’ 된 SK하이닉스, ADR 상장 후 주가 전망해보니",
+      "url": "https://www.hankyung.com/article/202606023323i",
+      "summary": "SK하이닉스 ADR 상장 추진 현황 및 파급 효과 분석SK하이닉스의 미국 주식예탁증서(ADR) 상장 추진은 한국 자본시장 역사상 가장 주목받는 해외 상장 이벤트 중 하나로 부상하고 있다.글로벌 AI 인프라 투자 사이클이 본격화되는 가운데, 세계 HBM 시장 점유율 1위...",
+      "datetime_raw": "2026.06.04 08:10",
+      "datetime": "2026-06-04T08:10:00+09:00",
+      "dt": "2026-06-04 08:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "텐배거"
+      ],
+      "hash": "29320f8a2bbe"
     },
     {
       "title": "\"삼상물산, 지분가치 상승·주주환원 확대 긍정적…목표가↑\"-SK",
@@ -1042,38 +1075,6 @@
         "업비트 데이터랩"
       ],
       "hash": "c0be4909674e"
-    },
-    {
-      "title": "백화점 3사 주가 동반 강세…4월 매출 전년비 21%↑",
-      "url": "https://www.hankyung.com/article/2026060224916",
-      "summary": "백화점주(株)가 2일 장중 동반 강세를 보이고 있다. 백화점 3사 매출이 지난해 동기 대비 큰 폭으로 증가하자 투자 심리가 개선된 것으로 풀이된다.이날 오전 10시10분께 신세계는 전 거래일 대비 2만3000원(4.46%) 오른 53만9000원에 거래되고 있다. 현대백...",
-      "datetime_raw": "2026.06.02 10:26",
-      "datetime": "2026-06-02T10:26:00+09:00",
-      "dt": "2026-06-02 10:26",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "백화점 3사 주가 동반 강세"
-      ],
-      "hash": "75eaf22fea64"
-    },
-    {
-      "title": "한국디지털에셋, SOC1 Type 2 인증 획득…수탁 내부통제 검증",
-      "url": "https://www.hankyung.com/article/202606022575B",
-      "summary": "디지털자산 수탁(커스터디) 전문 기업 한국디지털에셋(KODA)이 국제 표준 내부통제 인증인 'SOC1 Type 2'를 획득했다고 2일 밝혔다.SOC1 Type 2는 고객 자산 보관과 재무 보고에 영향을 미치는 서비스 조직의 내부통제 체계가 일정 기간 적절하게 설계·운영...",
-      "datetime_raw": "2026.06.02 10:26",
-      "datetime": "2026-06-02T10:26:00+09:00",
-      "dt": "2026-06-02 10:26",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국디지털에셋"
-      ],
-      "hash": "8a9327fa72f0"
     }
   ],
   "consensus_signals": []
