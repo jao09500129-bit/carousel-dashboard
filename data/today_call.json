@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-03T23:10:51.992694+09:00",
-  "action_headline": "반도체 축 유지 — 신규 후보 신호 약함",
+  "computed_at": "2026-06-04T09:30:53.003781+09:00",
+  "action_headline": "환율 민감 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
-    "美 반도체 지수 +5.87% — 반도체 회전축",
+    "USDKRW -0.34% — 환율 민감 회전축",
     "KOSPI 컨센서스 mid 9,000 (9000~9000, n=3)"
   ],
   "action": "DIVERGENT",
