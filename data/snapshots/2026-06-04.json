@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-04T11:05:14.489679+09:00",
+  "collected_at": "2026-06-04T13:01:03.212325+09:00",
   "date": "2026-06-04",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,8 +9,8 @@
   ],
   "total_items": 63,
   "stats": {
-    "with_broker_mention": 11,
-    "target_price_up": 6,
+    "with_broker_mention": 10,
+    "target_price_up": 5,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -32,14 +32,26 @@
       [
         "KB",
         1
-      ],
-      [
-        "키움",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "헥토콘 IPO 시대가 열리다",
+      "url": "https://www.hankyung.com/article/202606023005i",
+      "summary": "지금 자본 시장은 1000억 달러 가치의 ‘헥토콘’ 기업들 (헥토콘: 기업가치 1000억 달러 이상의 초거대 스타트업)이 증시의 문을 두드리는 유례없는 사이클을 맞이했다. 특히 6월 12일 상장하는 스페이스 X는 AI와 우주 인프라를 결합하여 약 ...",
+      "datetime_raw": "2026.06.04 11:19",
+      "datetime": "2026-06-04T11:19:00+09:00",
+      "dt": "2026-06-04 11:19",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "헥토콘 IPO 시대가 열리다"
+      ],
+      "hash": "2267353a2725"
+    },
     {
       "title": "반도체 쏠림에 대한 단상",
       "url": "https://www.hankyung.com/article/202606022459i",
@@ -361,23 +373,6 @@
       "hash": "c22d6be239c2"
     },
     {
-      "title": "'인기 폭발' 액티브 ETF…계열사 주문 몰아주기에 비용 '줄줄' [한경우의 케이스스터디]",
-      "url": "https://www.hankyung.com/article/2026060228906",
-      "summary": "자산운용사와 보험사, 은행이 최근 1년간 주식을 매매하는 과정에서 개인투자자 등 다른 매매 주체보다 많은 암묵적 거래비용을 부담한 것으로 집계됐다. 암묵적 거래비용이란 주식 매매 과정에서 주식을 더 비싸게 사거나 싸게 팔면서 보는 손실을 뜻한다. 금융투자업계에서는 일부...",
-      "datetime_raw": "2026.06.04 06:30",
-      "datetime": "2026-06-04T06:30:00+09:00",
-      "dt": "2026-06-04 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "줄줄",
-        "인기 폭발"
-      ],
-      "hash": "72601d7e0487"
-    },
-    {
       "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
       "url": "https://www.hankyung.com/article/202606034746i",
       "summary": "",
@@ -412,22 +407,6 @@
       "hash": "2be5702676b7"
     },
     {
-      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
-      "url": "https://www.hankyung.com/article/2026060236751",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "깜빡했어요"
-      ],
-      "hash": "1fb128b1aa11"
-    },
-    {
       "title": "잘나가던 삼성전기 급락 왜…\"가득 채운 ETF, 리밸런싱 우려 커졌다\"",
       "url": "https://www.hankyung.com/article/202606034393i",
       "summary": "",
@@ -445,6 +424,22 @@
       "hash": "b46f5cb0b2cf"
     },
     {
+      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
+      "url": "https://www.hankyung.com/article/2026060236751",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "깜빡했어요"
+      ],
+      "hash": "1fb128b1aa11"
+    },
+    {
       "title": "엔비디아, 한국에 AI기술센터 설립 속도…부지는 새만금 유력",
       "url": "https://www.hankyung.com/article/202606034510i",
       "summary": "",
@@ -459,6 +454,23 @@
         "엔비디아"
       ],
       "hash": "b00abc114c95"
+    },
+    {
+      "title": "'인기 폭발' 액티브 ETF…계열사 주문 몰아주기에 비용 '줄줄' [한경우의 케이스스터디]",
+      "url": "https://www.hankyung.com/article/2026060228906",
+      "summary": "자산운용사와 보험사, 은행이 최근 1년간 주식을 매매하는 과정에서 개인투자자 등 다른 매매 주체보다 많은 암묵적 거래비용을 부담한 것으로 집계됐다. 암묵적 거래비용이란 주식 매매 과정에서 주식을 더 비싸게 사거나 싸게 팔면서 보는 손실을 뜻한다. 금융투자업계에서는 일부...",
+      "datetime_raw": "2026.06.04 06:30",
+      "datetime": "2026-06-04T06:30:00+09:00",
+      "dt": "2026-06-04 06:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "줄줄",
+        "인기 폭발"
+      ],
+      "hash": "72601d7e0487"
     },
     {
       "title": "\"젠슨 황 온다\" 41% 뛰었는데…여의도 증권가 '서늘한 경고' [종목+]",
@@ -1065,24 +1077,6 @@
         "오스코텍"
       ],
       "hash": "1822482602db"
-    },
-    {
-      "title": "\"한미약품, 기술이전으로 R&D 경쟁력 입증…목표가↑\"-키움",
-      "url": "https://www.hankyung.com/article/2026060220286",
-      "summary": "키움증권은 2일 한미약품에 대해 일라이릴리로 소네페글루타이드의 개발·상업화 권리를 이전해 연구·개발(R&D) 중심 기업으로의 경쟁력을 입증했다며 목표주가를 기존 56만원에서 66만원으로 올렸다. 투자의견은 ‘매수’를 유지했...",
-      "datetime_raw": "2026.06.02 08:08",
-      "datetime": "2026-06-02T08:08:00+09:00",
-      "dt": "2026-06-02 08:08",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 17.857142857142858,
-      "keywords": [
-        "한미약품"
-      ],
-      "hash": "fb2ec3a32e6d"
     }
   ],
   "consensus_signals": []
