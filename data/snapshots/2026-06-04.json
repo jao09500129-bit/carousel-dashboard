@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-04T09:30:53.003781+09:00",
+  "collected_at": "2026-06-04T11:00:56.305047+09:00",
   "date": "2026-06-04",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,10 +7,10 @@
     "p2",
     "p3"
   ],
-  "total_items": 62,
+  "total_items": 63,
   "stats": {
-    "with_broker_mention": 13,
-    "target_price_up": 8,
+    "with_broker_mention": 11,
+    "target_price_up": 6,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -22,10 +22,6 @@
         2
       ],
       [
-        "KB",
-        2
-      ],
-      [
         "메리츠",
         1
       ],
@@ -34,16 +30,114 @@
         1
       ],
       [
-        "키움",
+        "KB",
         1
       ],
       [
-        "다올",
+        "키움",
         1
       ]
     ]
   },
   "items": [
+    {
+      "title": "반도체 쏠림에 대한 단상",
+      "url": "https://www.hankyung.com/article/202606022459i",
+      "summary": "﻿2026년 연초 이후 코스피 지수는 100% 넘게 상승하는 기염을 토하고 있다. 심지어 작년에 이미 76%나 상승했음에도 불구하고 말이다. 한국 주식시장은 2년 연속 전세계 국가 중 압도적 1위의 수익률을 달성 중이다. K증시의 저력이 드러나는 중이다. 하지...",
+      "datetime_raw": "2026.06.04 10:53",
+      "datetime": "2026-06-04T10:53:00+09:00",
+      "dt": "2026-06-04 10:53",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 쏠림에 대한 단상"
+      ],
+      "hash": "35058dbf9eb5"
+    },
+    {
+      "title": "죽다 살아난 케미칼, 훨훨 나는 쇼핑…롯데지주 반등 채비",
+      "url": "https://www.hankyung.com/article/202606023586i",
+      "summary": "지주회사 관점에서 롯데지주를 바라보는 투자자라면 ‘주요 사업부의 실적 안정화’와 ‘그룹 포트폴리오 재편’이라는 두 가지 키워드에 주목해야 한다. 1분기 성적표를 받아든 증권가의 평가는 “그룹 전체가 본격적인 안정화 ...",
+      "datetime_raw": "2026.06.04 10:07",
+      "datetime": "2026-06-04T10:07:00+09:00",
+      "dt": "2026-06-04 10:07",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "죽다 살아난 케미칼"
+      ],
+      "hash": "f5353df55b17"
+    },
+    {
+      "title": "'젠슨 황' 기대 떨어졌나…LG그룹주 일제히 급락",
+      "url": "https://www.hankyung.com/article/2026060467116",
+      "summary": "LG그룹주가 4일 장 초반 하락세를 보이고 있다. 젠슨 황 엔비디아 최고경영자(CEO) 방한 기대감에 급등했던 주가가 차익 실현 매물이 출회한 것으로 보인다.이날 오전 9시 42분 현재 LG전자는 전 거래일 대비 8.80% 하락한 37만5000원에 거래 중이다. 같은 ...",
+      "datetime_raw": "2026.06.04 09:55",
+      "datetime": "2026-06-04T09:55:00+09:00",
+      "dt": "2026-06-04 09:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "젠슨 황"
+      ],
+      "hash": "3e4f87e60406"
+    },
+    {
+      "title": "코스피, 2% 넘게 하락…브로드컴 실망+중동 긴장 재고조 [종합]",
+      "url": "https://www.hankyung.com/article/2026060466506",
+      "summary": "코스피지수가 장 초반 2% 넘게 하락하고 있다. 간밤 미국 반도체 기업 브로드컴이 시장 기대에 못 미치는 매출 전망을 내놓은 데다 이란의 쿠웨이트 공습 등 중동 긴장이 다시 고조된 영향으로 읽힌다.4일 한국거래소에 따르면 오전 9시20분 현재 코스피는 전 거래...",
+      "datetime_raw": "2026.06.04 09:46",
+      "datetime": "2026-06-04T09:46:00+09:00",
+      "dt": "2026-06-04 09:46",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "1825f2bc7987"
+    },
+    {
+      "title": "나이스정보통신, KIS정보통신 인수 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026060466296",
+      "summary": "나이스정보통신이 KIS정보통신을 인수하기로 결정했다는 소식 이후 주가가 4일 장 초반 급등세다.이날 오전 9시27분 현재 나이스정보통신은 전 거래일 대비 2250원(8.51%) 오른 2만8700원을 기록하고 있다. 장중 13%대까지 상승폭을 키우기도 했다.앞서 나이스정...",
+      "datetime_raw": "2026.06.04 09:33",
+      "datetime": "2026-06-04T09:33:00+09:00",
+      "dt": "2026-06-04 09:33",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "나이스정보통신"
+      ],
+      "hash": "cf65e6e45ac1"
+    },
+    {
+      "title": "신세계, 장 초반 5%대 급등…\"백화점 구매력 초강세\"",
+      "url": "https://www.hankyung.com/article/2026060465936",
+      "summary": "신세계가 장 초반 5% 넘게 오르며 60만원선을 회복했다.4일 한국거래소에 따르면 오전 9시22분 현재 신세계는 전 거래일 대비 5.45% 오른 60만원에 거래 중이다. 장 초반에는 61만5000원까지 치솟으며 52주 신고가를 새로 썼다.신세계는 최근 스타벅스코리아의 ...",
+      "datetime_raw": "2026.06.04 09:29",
+      "datetime": "2026-06-04T09:29:00+09:00",
+      "dt": "2026-06-04 09:29",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신세계",
+        "백화점 구매력 초강세"
+      ],
+      "hash": "a5f9c475710a"
+    },
     {
       "title": "삼성중공업, 4.3조원대 해양플랜트 수주 소식에 강세",
       "url": "https://www.hankyung.com/article/2026060465756",
@@ -284,6 +378,89 @@
       "hash": "72601d7e0487"
     },
     {
+      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
+      "url": "https://www.hankyung.com/article/202606034746i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 안 사는 이유 있다"
+      ],
+      "hash": "8346e092b9fb"
+    },
+    {
+      "title": "\"삼전 말고 '이 전자' 샀더니\"…300% 폭등에 개미들 '환호'",
+      "url": "https://www.hankyung.com/article/2026060345767",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "환호",
+        "샀더니",
+        "삼전 말고"
+      ],
+      "hash": "2be5702676b7"
+    },
+    {
+      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
+      "url": "https://www.hankyung.com/article/2026060236751",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "깜빡했어요"
+      ],
+      "hash": "1fb128b1aa11"
+    },
+    {
+      "title": "잘나가던 삼성전기 급락 왜…\"가득 채운 ETF, 리밸런싱 우려 커졌다\"",
+      "url": "https://www.hankyung.com/article/202606034393i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "잘나가던 삼성전기 급락 왜",
+        "가득 채운 ETF, 리밸런싱 우려 커졌다"
+      ],
+      "hash": "b46f5cb0b2cf"
+    },
+    {
+      "title": "엔비디아, 한국에 AI기술센터 설립 속도…부지는 새만금 유력",
+      "url": "https://www.hankyung.com/article/202606034510i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "엔비디아"
+      ],
+      "hash": "b00abc114c95"
+    },
+    {
       "title": "\"젠슨 황 온다\" 41% 뛰었는데…여의도 증권가 '서늘한 경고' [종목+]",
       "url": "https://www.hankyung.com/article/2026060234836",
       "summary": "네이버가 인공지능(AI) 기대에 힘입어 연일 급등세를 이어가고 있다. 젠슨 황 엔비디아 최고경영자(CEO)의 방한과 사옥 방문 가능성이 부각된 데 이어 국방 AI 사업 진출 소식까지 더해지면서 투자심리가 개선된 모습이다. 다만 증권가에서는 AI 사업 방향성에는 공감하면...",
@@ -364,90 +541,6 @@
         "이란 전쟁 장기화시"
       ],
       "hash": "3c4ea8927b4b"
-    },
-    {
-      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
-      "url": "https://www.hankyung.com/article/202606034746i",
-      "summary": "강방천 에셋플러스자산운용 회장 인터뷰 기사 전문은 한국경제신문이 만드는 온라인 투자전문 플랫폼 '한경 프리미엄9'에서 볼 수 있습니다.“근로소득은 이제 꺼져가는 등불입니다. 인공지능(AI)이 인간의 노동을 대체하는 시대에 스스로 창업할 수 없다...",
-      "datetime_raw": "2026.06.03 16:38",
-      "datetime": "2026-06-03T16:38:00+09:00",
-      "dt": "2026-06-03 16:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 안 사는 이유 있다"
-      ],
-      "hash": "8346e092b9fb"
-    },
-    {
-      "title": "\"삼전 말고 '이 전자' 샀더니\"…300% 폭등에 개미들 '환호'",
-      "url": "https://www.hankyung.com/article/2026060345767",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "환호",
-        "샀더니",
-        "삼전 말고"
-      ],
-      "hash": "2be5702676b7"
-    },
-    {
-      "title": "\"깜빡했어요\" 다시 투표하러 간 50대女…결국 200만원 토해냈다",
-      "url": "https://www.hankyung.com/article/2026060236751",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "깜빡했어요"
-      ],
-      "hash": "1fb128b1aa11"
-    },
-    {
-      "title": "잘나가던 삼성전기 급락 왜…\"가득 채운 ETF, 리밸런싱 우려 커졌다\"",
-      "url": "https://www.hankyung.com/article/202606034393i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "잘나가던 삼성전기 급락 왜",
-        "가득 채운 ETF, 리밸런싱 우려 커졌다"
-      ],
-      "hash": "b46f5cb0b2cf"
-    },
-    {
-      "title": "난감한 스타벅스 건물주들…\"가격만 맞으면 팔겠다\"",
-      "url": "https://www.hankyung.com/article/2026060236981",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "가격만 맞으면 팔겠다",
-        "난감한 스타벅스 건물주들"
-      ],
-      "hash": "ebc2920e4b43"
     },
     {
       "title": "김수민 \"韓 우량자산, 온체인서 빛 보게 할 것\"",
@@ -990,91 +1083,6 @@
         "한미약품"
       ],
       "hash": "fb2ec3a32e6d"
-    },
-    {
-      "title": "\"현대차, 보스턴다이내믹스와 협업 구체화 단계…목표가 100만원\"-다올",
-      "url": "https://www.hankyung.com/article/2026060219536",
-      "summary": "다올투자증권은 2일 현대차에 대해 \"보스턴다이내믹스(이하 BD)와 협업이 구체화함에 따라 밸류에이션 상승 모멘텀을 동반한 주가 리레이팅이 될 것으로 기대한다\"며 목표주가를 기존 74만원에서 100만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 ...",
-      "datetime_raw": "2026.06.02 07:59",
-      "datetime": "2026-06-02T07:59:00+09:00",
-      "dt": "2026-06-02 07:59",
-      "brokers": [
-        "다올"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 35.13513513513514,
-      "keywords": [
-        "현대차"
-      ],
-      "hash": "2086e4c43cbe"
-    },
-    {
-      "title": "\"현대모비스, 액추에이터 사업 전망 밝아…목표가↑\"-KB",
-      "url": "https://www.hankyung.com/article/2026060219196",
-      "summary": "KB증권은 2일 현대모비스의 액추에이터 사업 전망에 대해 긍정적으로 평가하며 목표주가를 기존 75만원에서 120만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 강성진 연구원은 \"2035년 기준 액추에이터 사업은 영업이익 14조원을 창출하...",
-      "datetime_raw": "2026.06.02 07:35",
-      "datetime": "2026-06-02T07:35:00+09:00",
-      "dt": "2026-06-02 07:35",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 60.0,
-      "keywords": [
-        "현대모비스"
-      ],
-      "hash": "b8595f95fda0"
-    },
-    {
-      "title": "앤트로픽, 상장 절차 착수…오픈AI보다 빨라",
-      "url": "https://www.hankyung.com/article/2026060219217",
-      "summary": "인공지능(AI) 모델 '클로드' 개발사 앤트로픽이 오픈AI를 넘어서는 기업가치 평가를 받은 데 이어 미국 상장 절차 착수도 앞서나갔다. 앤트로픽은 기업공개(IPO)를 위해 미국 증권거래위원회(SEC)에 상장 신청서 초안을 비공개로 제출했다고 1일...",
-      "datetime_raw": "2026.06.02 07:25",
-      "datetime": "2026-06-02T07:25:00+09:00",
-      "dt": "2026-06-02 07:25",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "앤트로픽"
-      ],
-      "hash": "90a6fbb13c75"
-    },
-    {
-      "title": "4월 기업 직접금융 조달 22.6조…전월비 13%↑",
-      "url": "https://www.hankyung.com/article/2026060108416",
-      "summary": "국내 기업들이 올 4월 주식과 회사채 등을 통해 조달한 장기 자금이 전달보다 2조원 이상 증가해 22조원을 넘어선 것으로 나타났다. 2일 금융감독원이 발표한 '기업의 직접금융 조달실적'에 따르면 지난 4월 국내 기업의 회사채·주식 공...",
-      "datetime_raw": "2026.06.02 06:00",
-      "datetime": "2026-06-02T06:00:00+09:00",
-      "dt": "2026-06-02 06:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "4월 기업 직접금융 조달 22.6조"
-      ],
-      "hash": "8167a19cc345"
-    },
-    {
-      "title": "\"주가 61만원 간다\"…삼성전자 또 역대급 전망에 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026060114866",
-      "summary": "삼성전자가 6월의 첫 거래일 10%대 급등해 보통주 시가총액이 2000조원을 넘어섰다. 앞서 삼성전자는 우선주를 포함해 시총이 2000조원을 넘은 바 있다. 증권가에서는 글로벌 메모리 반도체 주요 기업 3곳 중 삼성전자의 주가 상승 여력이 가장 높다고 평가했다.한국거래...",
-      "datetime_raw": "2026.06.01 22:00",
-      "datetime": "2026-06-01T22:00:00+09:00",
-      "dt": "2026-06-01 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "주가 61만원 간다"
-      ],
-      "hash": "39b87bdd80f3"
     }
   ],
   "consensus_signals": []
