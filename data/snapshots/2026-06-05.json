@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-05T15:00:50.062845+09:00",
+  "collected_at": "2026-06-05T16:00:50.344121+09:00",
   "date": "2026-06-05",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,14 +9,10 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 12,
-    "target_price_up": 7,
+    "with_broker_mention": 10,
+    "target_price_up": 5,
     "target_price_down": 0,
     "top_brokers": [
-      [
-        "한국투자",
-        4
-      ],
       [
         "하나",
         3
@@ -26,20 +22,107 @@
         2
       ],
       [
+        "한국투자",
+        2
+      ],
+      [
+        "NH",
+        1
+      ],
+      [
         "대신",
         1
       ],
       [
         "메리츠",
         1
-      ],
-      [
-        "SK",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "스트래티지 매도·중동 리스크 겹악재…비트코인 약세 지속 [이수현의 코인레이더]",
+      "url": "https://www.hankyung.com/article/202606059976B",
+      "summary": "는 한 주간 가상자산(암호화폐) 시장의 흐름을 짚고, 그 배경을 해설하는 코너입니다. 단순한 시세 나열을 넘어 글로벌 경제 이슈와 투자자 움직임을 입체적으로 분석하며, 시장의 방향성을 가늠할 수 있는 인사이트를 제공합니다.주요 코인1. 비트코인(BTC)비트코인은 이번주...",
+      "datetime_raw": "2026.06.05 15:58",
+      "datetime": "2026-06-05T15:58:00+09:00",
+      "dt": "2026-06-05 15:58",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스트래티지 매도"
+      ],
+      "hash": "a77b16d32594"
+    },
+    {
+      "title": "'브로드컴 쇼크'에 코스피·코스닥 와르르…환율 1539원 마감",
+      "url": "https://www.hankyung.com/article/2026060599236",
+      "summary": "코스피와 코스닥이 미국 반도체 기업 브로드컴의 실적 실망감 여파에 동반 급락 마감했다. 인공지능(AI) 반도체 기대주로 꼽히던 브로드컴이 시장 기대에 못 미치는 전망을 내놓으면서 국내 증시에서도 반도체주를 중심으로 차익실현 매물이 쏟아졌다.5일 코스피지수는 전일 대비 ...",
+      "datetime_raw": "2026.06.05 15:53",
+      "datetime": "2026-06-05T15:53:00+09:00",
+      "dt": "2026-06-05 15:53",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "브로드컴 쇼크"
+      ],
+      "hash": "ac91072e90d3"
+    },
+    {
+      "title": "붉은사막 초대박 났는데…펄어비스 주가는 왜 식어가나",
+      "url": "https://www.hankyung.com/article/202606059842i",
+      "summary": "펄어비스 주가가 신작 ‘붉은사막’ 흥행 기대감이 정점을 지나며 빠르게 식고 있다. 하지만 기본적 체력이 탄탄히 다져진 만큼 향후 상승 동력이 충분하다는 증권가...",
+      "datetime_raw": "2026.06.05 15:34",
+      "datetime": "2026-06-05T15:34:00+09:00",
+      "dt": "2026-06-05 15:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "붉은사막 초대박 났는데"
+      ],
+      "hash": "ee0b0549cad4"
+    },
+    {
+      "title": "국민연금의 국내주식 비중 상향, 얼마나 오래 고민한 결과일까",
+      "url": "https://www.hankyung.com/article/202606059768i",
+      "summary": "지난 5월 28일 열린 기금운용위원회에서, 국내주식의 목표 비중을 20.8%까지 상향했다. 지난 10년 동안 꾸준히 국내주식 비중을 줄이던 흐름과 정반대의 조치였다. 이 대목에서 국민연금이 2016년 20.0%이던 국내 주식 목표 비중을 2025년 14.9%까...",
+      "datetime_raw": "2026.06.05 15:29",
+      "datetime": "2026-06-05T15:29:00+09:00",
+      "dt": "2026-06-05 15:29",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "국민연금의 국내주식 비중 상향"
+      ],
+      "hash": "606c5651c10d"
+    },
+    {
+      "title": "NH투자증권 \"IMA 2호 상품에도 법인·신규 자금 몰려\"",
+      "url": "https://www.hankyung.com/article/2026060598216",
+      "summary": "NH투자증권은 종합투자계좌(IMA) 2호 상품인 ‘N2 IMA1 중기형 2호’의 모집금액 1200억원의 66%가 법인 고객의 자금이었다고 5일 밝혔다.앞서 1호 상품 판매 때의 법인 자금 유입 비율은 55%였는데, 두 번째 상품에서는 법인 자금 비...",
+      "datetime_raw": "2026.06.05 15:10",
+      "datetime": "2026-06-05T15:10:00+09:00",
+      "dt": "2026-06-05 15:10",
+      "brokers": [
+        "NH"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "NH투자증권 \"IMA 2호 상품에도 법인",
+        "IMA 2호 상품에도 법인·신규 자금 몰려"
+      ],
+      "hash": "106f0a1d1b9e"
+    },
     {
       "title": "\"환율 수급,역대급 안 좋다\"...1,550원선 위협",
       "url": "https://www.hankyung.com/article/2026060597595",
@@ -286,6 +369,90 @@
       "hash": "4844135c9046"
     },
     {
+      "title": "부동산 규제에 등 돌렸다…'분노의 표'로 답한 한강벨트",
+      "url": "https://www.hankyung.com/article/2026060481441",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "분노의 표",
+        "부동산 규제에 등 돌렸다"
+      ],
+      "hash": "2c8c9e370ba8"
+    },
+    {
+      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
+      "url": "https://www.hankyung.com/article/202606034746i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 안 사는 이유 있다"
+      ],
+      "hash": "8346e092b9fb"
+    },
+    {
+      "title": "시장·구청장 다른 정당 찍었다…서울·부산 '교차 투표' 뚜렷",
+      "url": "https://www.hankyung.com/article/2026060481541",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "시장",
+        "교차 투표"
+      ],
+      "hash": "0545af8bc596"
+    },
+    {
+      "title": "\"조용해서 이사 왔는데\"…잠실 아파트 주민들 '날벼락'",
+      "url": "https://www.hankyung.com/article/202606047182i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "날벼락",
+        "조용해서 이사 왔는데"
+      ],
+      "hash": "10656eec6302"
+    },
+    {
+      "title": "\"젠슨 황 온다\" 41% 뛰었는데…여의도 증권가 '서늘한 경고'",
+      "url": "https://www.hankyung.com/article/2026060234836",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "서늘한 경고",
+        "젠슨 황 온다"
+      ],
+      "hash": "71b5ace32be9"
+    },
+    {
       "title": "'브로드컴 쇼크' 코스피, 장 초반 4%대 급락…반도체↓",
       "url": "https://www.hankyung.com/article/2026060587896",
       "summary": "'브로드컴 쇼크' 코스피, 장 초반 4%대 급락…반도체↓김연지 한경닷컴 기자 kongzi@hankyung.com",
@@ -368,90 +535,6 @@
         "들썩"
       ],
       "hash": "86ddaa7dafa0"
-    },
-    {
-      "title": "부동산 규제에 등 돌렸다…'분노의 표'로 답한 한강벨트",
-      "url": "https://www.hankyung.com/article/2026060481441",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "분노의 표",
-        "부동산 규제에 등 돌렸다"
-      ],
-      "hash": "2c8c9e370ba8"
-    },
-    {
-      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
-      "url": "https://www.hankyung.com/article/202606034746i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 안 사는 이유 있다"
-      ],
-      "hash": "8346e092b9fb"
-    },
-    {
-      "title": "\"조용해서 이사 왔는데\"…잠실 아파트 주민들 '날벼락'",
-      "url": "https://www.hankyung.com/article/202606047182i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "날벼락",
-        "조용해서 이사 왔는데"
-      ],
-      "hash": "10656eec6302"
-    },
-    {
-      "title": "시장·구청장 다른 정당 찍었다…서울·부산 '교차 투표' 뚜렷",
-      "url": "https://www.hankyung.com/article/2026060481541",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "시장",
-        "교차 투표"
-      ],
-      "hash": "0545af8bc596"
-    },
-    {
-      "title": "\"젠슨 황 온다\" 41% 뛰었는데…여의도 증권가 '서늘한 경고'",
-      "url": "https://www.hankyung.com/article/2026060234836",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "서늘한 경고",
-        "젠슨 황 온다"
-      ],
-      "hash": "71b5ace32be9"
     },
     {
       "title": "\"AI 입은 애플 신고가 경신…LG디스플레이 수혜 입을 것\"-대신",
@@ -1032,91 +1115,6 @@
         "삼성중공업"
       ],
       "hash": "a8391ee23037"
-    },
-    {
-      "title": "1년만에 ‘텐배거’ 된 SK하이닉스, ADR 상장 후 주가 전망해보니",
-      "url": "https://www.hankyung.com/article/202606023323i",
-      "summary": "SK하이닉스 ADR 상장 추진 현황 및 파급 효과 분석SK하이닉스의 미국 주식예탁증서(ADR) 상장 추진은 한국 자본시장 역사상 가장 주목받는 해외 상장 이벤트 중 하나로 부상하고 있다.글로벌 AI 인프라 투자 사이클이 본격화되는 가운데, 세계 HBM 시장 점유율 1위...",
-      "datetime_raw": "2026.06.04 08:10",
-      "datetime": "2026-06-04T08:10:00+09:00",
-      "dt": "2026-06-04 08:10",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "텐배거"
-      ],
-      "hash": "29320f8a2bbe"
-    },
-    {
-      "title": "\"삼상물산, 지분가치 상승·주주환원 확대 긍정적…목표가↑\"-SK",
-      "url": "https://www.hankyung.com/article/2026060462046",
-      "summary": "SK증권은 4일 삼성물산에 대해 \"자회사 지분가치 상승과 주주환원 확대 가능성이 있다\"며 목표주가를 기존 48만원에서 59만원으로 상향하고 투자의견 '매수'를 유지했다.최관순 SK증권 연구원은 \"삼성물산의 현재 지분가치는 165조원으로 삼성전자 64.5%...",
-      "datetime_raw": "2026.06.04 08:01",
-      "datetime": "2026-06-04T08:01:00+09:00",
-      "dt": "2026-06-04 08:01",
-      "brokers": [
-        "SK"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 22.916666666666664,
-      "keywords": [
-        "삼상물산"
-      ],
-      "hash": "a291ac5f019e"
-    },
-    {
-      "title": "\"LS일렉트릭, 북미 데이터센터용 수주 증가…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026060461696",
-      "summary": "한국투자증권은 4일 LS ELECTRIC(LS일렉트릭)에 대해 \"북미 데이터센터용 제품 공급 계약 수주가 지속적으로 늘어나고 있다\"며 목표주가를 기존 22만원에서 28만5000원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 장남현 연구원은...",
-      "datetime_raw": "2026.06.04 08:00",
-      "datetime": "2026-06-04T08:00:00+09:00",
-      "dt": "2026-06-04 08:00",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 27.27272727272727,
-      "keywords": [
-        "LS일렉트릭"
-      ],
-      "hash": "22ccbc423110"
-    },
-    {
-      "title": "\"3분기까지 상승세 이어져 코스피 1만1000까지 오를 것\"-한국",
-      "url": "https://www.hankyung.com/article/2026060462246",
-      "summary": "한국투자증권은 4일 코스피 예상 밴드 상단을 기존 9250에서 1만1000으로 올렸다.김대준 한국투자증권 연구원은 “전망을 상향 조정한 근거는 기업 실적”이라며 “슈퍼사이클에 올라탄 반도체 업종이 막대한 이익을 창출해 지수 상승을 지지하...",
-      "datetime_raw": "2026.06.04 07:57",
-      "datetime": "2026-06-04T07:57:00+09:00",
-      "dt": "2026-06-04 07:57",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": -99.98918918918919,
-      "keywords": [],
-      "hash": "630e7cd380b6"
-    },
-    {
-      "title": "\"성과급 받아 명품관으로\"…삼전닉스 효과에 백화점주 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026060460776",
-      "summary": "롯데쇼핑, 신세계, 현대백화점 등 백화점을 운영하는 3사 주가가 실적 기대에 강세를 나타내고 있다. 증권가에서는 반도체 기업의 성과급과 방한 외국인 매출 등에 힘입어 백화점 3사의 2분기 실적이 크게 개선될 것이란 분석이 나온다.4일 한국거래소에 따르면 지난 2일 신세...",
-      "datetime_raw": "2026.06.04 07:45",
-      "datetime": "2026-06-04T07:45:00+09:00",
-      "dt": "2026-06-04 07:45",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "성과급 받아 명품관으로"
-      ],
-      "hash": "53c6921afafd"
     }
   ],
   "consensus_signals": []
