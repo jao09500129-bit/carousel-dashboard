@@ -1,17 +1,22 @@
 {
-  "as_of": "2026-06-05 16:00 KST",
+  "as_of": "2026-06-05 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "다우 사상 최고에도 브로드컴 급락에 반도체주 부진 [뉴욕증시 브리핑]",
+  "headline": "하이닉스 담은 美 AI ETF '고공행진'",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "다우 사상 최고에도 브로드컴 급락에 반도체주 부진 [뉴욕증시 브리핑]",
+      "title": "하이닉스 담은 美 AI ETF '고공행진'",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026060585066"
+      "url": "https://www.hankyung.com/article/2026060501881"
+    },
+    {
+      "title": "\"삼전·하닉 사도 원화는 안 사\"…치솟는 환율, 무슨 일이",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202606058432i"
     },
     {
       "title": "세계 외환보유액서 금 비중이 미국 국채 제쳤다",
@@ -19,20 +24,15 @@
       "url": "https://www.hankyung.com/article/202606046952Y"
     },
     {
-      "title": "미국 백화점 소비 살아나나…메이시스 실적 개선",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202606058633i"
-    },
-    {
-      "title": "\"내 돈인데 마음대로 못하나\"…미국 주식 거래 꽉 막혔다 [차이나 워치]",
+      "title": "\"내 돈인데 마음대로 못하나\"…미국 주식 거래 꽉 막혔다",
       "summary": "",
       "url": "https://www.hankyung.com/article/202606059697i"
     }
   ],
   "today_kr_focus": [
-    "스트래티지 매도·중동 리스크 겹악재…비트코인 약세 지속 [이수현의 코인레이더] (2026-06-05 15:58)",
-    "'브로드컴 쇼크'에 코스피·코스닥 와르르…환율 1539원 마감 (2026-06-05 15:53)",
-    "붉은사막 초대박 났는데…펄어비스 주가는 왜 식어가나 (2026-06-05 15:34)"
+    "'브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] (2026-06-05 22:00)",
+    "\"'IPX NFT 파트너' 크립코, 커뮤니티 폐쇄…러그풀 논란\" (2026-06-05 18:47)",
+    "스테이블코인은 어떻게 '결제 인프라'가 되었나 (2026-06-05 18:22)"
   ],
   "carousel_implications": {
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
@@ -53,16 +53,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.56% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +1.51% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.56%"
+        "trigger_value": "+1.51%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-05T16:00:50.344121+09:00",
+    "collected_at": "2026-06-05T23:10:50.575715+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -99,16 +99,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "67,470.69",
-            "chg": "931.44",
-            "chg_pct": "-1.36%"
+            "close": "66,588.12",
+            "chg": "882.57",
+            "chg_pct": "-1.31%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "45,677.46",
-            "chg": "781.70",
-            "chg_pct": "-1.68%"
+            "close": "45,070.94",
+            "chg": "606.52",
+            "chg_pct": "-1.33%"
           },
           {
             "name": "독일",
@@ -120,9 +120,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "25,253.40",
-            "chg": "379.81",
-            "chg_pct": "-1.48%"
+            "close": "24,961.95",
+            "chg": "291.45",
+            "chg_pct": "-1.15%"
           }
         ]
       },
@@ -132,30 +132,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,540.50",
-            "chg": "8.58",
-            "chg_pct": "+0.56%"
+            "close": "1,555.07",
+            "chg": "23.15",
+            "chg_pct": "+1.51%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,789.41",
-            "chg": "7.69",
-            "chg_pct": "+0.43%"
+            "close": "1,797.88",
+            "chg": "16.16",
+            "chg_pct": "+0.91%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "963.04",
-            "chg": "5.69",
-            "chg_pct": "+0.59%"
+            "close": "970.94",
+            "chg": "13.59",
+            "chg_pct": "+1.42%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "227.38",
-            "chg": "1.15",
-            "chg_pct": "+0.51%"
+            "close": "229.55",
+            "chg": "3.32",
+            "chg_pct": "+1.47%"
           }
         ]
       },
