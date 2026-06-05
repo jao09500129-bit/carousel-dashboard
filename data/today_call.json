@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-06-05T09:30:53.290945+09:00",
+  "computed_at": "2026-06-05T10:36:10.375005+09:00",
   "action_headline": "반도체 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
     "브렌트 -2.84% — 에너지 회전축",
-    "KOSPI 컨센서스 mid 9,000 (9000~9000, n=3)"
+    "KOSPI 컨센서스 mid 9,000 (9000~9000, n=1)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-05T09:30:53.290945+09:00",
+  "collected_at": "2026-06-05T10:36:10.375005+09:00",
   "date": "2026-06-05",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 63,
+  "total_items": 64,
   "stats": {
     "with_broker_mention": 12,
     "target_price_up": 7,
@@ -40,6 +40,104 @@
     ]
   },
   "items": [
+    {
+      "title": "환율 1540원 넘어 금융위기 후 최고…K증시 '빨간불' [분석+]",
+      "url": "https://www.hankyung.com/article/2026060589856",
+      "summary": "원·달러 환율이 5일 중동발 지정학적 충격과 외국인 자금 이탈이 겹치면서 1540원을 넘었다. 금융위기 이후 최고 수준으로 뛴 것이다.국제 유가 급등에 따른 달러 강세와 국내 증시 매도 압력이 맞물리며 정부와 한국은행의 연이은 구두 개입도 시장 흐름을 되돌...",
+      "datetime_raw": "2026.06.05 10:18",
+      "datetime": "2026-06-05T10:18:00+09:00",
+      "dt": "2026-06-05 10:18",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "빨간불",
+        "환율 1540원 넘어 금융위기 후 최고"
+      ],
+      "hash": "737819b98945"
+    },
+    {
+      "title": "젠슨 황 기대에 상한가→급락…'로봇株 옥석가리기' 시작 됐다",
+      "url": "https://www.hankyung.com/article/202606058492i",
+      "summary": "이달 1일 코스피 시장에서 LG전자, 두산로보틱스, 현대차가 일제히 큰 폭으로 상승했다. 젠슨 황 엔비디아 최고경영자(CEO)가 방한해 이들과 로봇 관련 협업을 논의한다는 소식 때문이다. 코스닥에서도 로보스타, 로보티즈, 엔젤로보틱스, 유일로보틱스 등 사명에 '...",
+      "datetime_raw": "2026.06.05 10:03",
+      "datetime": "2026-06-05T10:03:00+09:00",
+      "dt": "2026-06-05 10:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "로봇株 옥석가리기",
+        "젠슨 황 기대에 상한가→급락"
+      ],
+      "hash": "647849e09460"
+    },
+    {
+      "title": "코스닥, 장중 1000선 붕괴…투심 급랭",
+      "url": "https://www.hankyung.com/article/2026060589616",
+      "summary": "[속보] 코스닥, 장중 1000선 붕괴…투심 급랭김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.05 09:52",
+      "datetime": "2026-06-05T09:52:00+09:00",
+      "dt": "2026-06-05 09:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥"
+      ],
+      "hash": "938e701024de"
+    },
+    {
+      "title": "\"케이젠, 토큰 공급량 축소 프레임워크 출시\"",
+      "url": "https://www.hankyung.com/article/2026060588696",
+      "summary": "웹3 데이터 인프라 기업 케이젠이 매출 증가와 토큰 공급량 감소를 연동하는 '케이젠 2.0' 프레임워크를 출시했다고 블루밍비트가 5일 보도했다.이번 조치로 케이젠은 인공지능(AI) 기업들과의 파트너십으로 번 매출을 토큰 가치 상승으로 연결, 현재...",
+      "datetime_raw": "2026.06.05 09:43",
+      "datetime": "2026-06-05T09:43:00+09:00",
+      "dt": "2026-06-05 09:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "케이젠"
+      ],
+      "hash": "722b06839ecd"
+    },
+    {
+      "title": "'브로드컴 쇼크' 코스피, 장 초반 6%대 급락…사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026060588856",
+      "summary": "코스피지수가 5일 장 초반 6% 넘게 하락하며 8000선까지 밀렸다. 급격한 매도세가 쏟아지면서 유가증권시장에는 매도 사이드카가 발동됐다.이날 오전 9시20분 현재 코스피지수는 전 거래일보다 486.30포인트(5.63%) 내린 8153.11을 기록 중이다. 장 초반 한...",
+      "datetime_raw": "2026.06.05 09:32",
+      "datetime": "2026-06-05T09:32:00+09:00",
+      "dt": "2026-06-05 09:32",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "브로드컴 쇼크"
+      ],
+      "hash": "bf2c803b4685"
+    },
+    {
+      "title": "홍콩 ELS 과징금 절반 넘게 줄자…은행株 동반 강세",
+      "url": "https://www.hankyung.com/article/2026060589216",
+      "summary": "은행주가 5일 장 초반 동반 강세다. 금리 인상 가능성에 더해 홍콩H지수 주가연계증권(ELS) 불완전판매 관련 과징금 리스크가 완화된 영향으로 풀이된다. 이날 오전 9시15분 현재 KB금융은 전 거래일보다 7500원(4.57%) 오른 17만1700원을 기록하고...",
+      "datetime_raw": "2026.06.05 09:29",
+      "datetime": "2026-06-05T09:29:00+09:00",
+      "dt": "2026-06-05 09:29",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "홍콩 ELS 과징금 절반 넘게 줄자"
+      ],
+      "hash": "d1e766c0732e"
+    },
     {
       "title": "'브로드컴 여파' SK하이닉스, 장 초반 7%↓…삼전 5% 급락",
       "url": "https://www.hankyung.com/article/2026060588346",
@@ -279,6 +377,89 @@
       "hash": "edcef8fc80e5"
     },
     {
+      "title": "부동산 규제에 등 돌렸다…'분노의 표'로 답한 한강벨트",
+      "url": "https://www.hankyung.com/article/2026060481441",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "분노의 표",
+        "부동산 규제에 등 돌렸다"
+      ],
+      "hash": "2c8c9e370ba8"
+    },
+    {
+      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
+      "url": "https://www.hankyung.com/article/202606034746i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 안 사는 이유 있다"
+      ],
+      "hash": "8346e092b9fb"
+    },
+    {
+      "title": "\"젠슨 황 온다\" 41% 뛰었는데…여의도 증권가 '서늘한 경고'",
+      "url": "https://www.hankyung.com/article/2026060234836",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "서늘한 경고",
+        "젠슨 황 온다"
+      ],
+      "hash": "71b5ace32be9"
+    },
+    {
+      "title": "\"조용해서 이사 왔는데\"…잠실 아파트 주민들 '날벼락'",
+      "url": "https://www.hankyung.com/article/202606047182i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "날벼락",
+        "조용해서 이사 왔는데"
+      ],
+      "hash": "10656eec6302"
+    },
+    {
+      "title": "박정수 \"삼성전자 주식 8만원대 몇천주 샀는데\"…깜짝 고백",
+      "url": "https://www.hankyung.com/article/202606046783H",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 주식 8만원대 몇천주 샀는데"
+      ],
+      "hash": "3ee44106f1de"
+    },
+    {
       "title": "박현주 \"미래 변화 포착하는 ETF 내놓을 것\"",
       "url": "https://www.hankyung.com/article/2026060480301",
       "summary": "“자산운용사의 성패는 결국 미래를 담는 상품에 달려 있습니다.”미래에셋그룹의 글로벌전략책임자(GSO)인 박현주 회장(사진)이 글로벌 ETF(상장지수펀드) 사업의 성공 조건으로 ‘킬러 프로덕트’의 중요성을 강조했다. 시장이 주목...",
@@ -373,89 +554,6 @@
         "진짜 1만피 가나요?"
       ],
       "hash": "8eb46a62d185"
-    },
-    {
-      "title": "\"삼성전자 안 사는 이유 있다\"…156억 번 투자 전설의 일침",
-      "url": "https://www.hankyung.com/article/202606034746i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 안 사는 이유 있다"
-      ],
-      "hash": "8346e092b9fb"
-    },
-    {
-      "title": "부동산 규제에 등 돌렸다…'분노의 표'로 답한 한강벨트",
-      "url": "https://www.hankyung.com/article/2026060481441",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "분노의 표",
-        "부동산 규제에 등 돌렸다"
-      ],
-      "hash": "2c8c9e370ba8"
-    },
-    {
-      "title": "\"젠슨 황 온다\" 41% 뛰었는데…여의도 증권가 '서늘한 경고'",
-      "url": "https://www.hankyung.com/article/2026060234836",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "서늘한 경고",
-        "젠슨 황 온다"
-      ],
-      "hash": "71b5ace32be9"
-    },
-    {
-      "title": "\"조용해서 이사 왔는데\"…잠실 아파트 주민들 '날벼락'",
-      "url": "https://www.hankyung.com/article/202606047182i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "날벼락",
-        "조용해서 이사 왔는데"
-      ],
-      "hash": "10656eec6302"
-    },
-    {
-      "title": "박정수 \"삼성전자 주식 8만원대 몇천주 샀는데\"…깜짝 고백",
-      "url": "https://www.hankyung.com/article/202606046783H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 주식 8만원대 몇천주 샀는데"
-      ],
-      "hash": "3ee44106f1de"
     },
     {
       "title": "한투운용 \"스페이스X IPO 참여…우주ETF·펀드에 배정\"",
@@ -1004,90 +1102,6 @@
         "금융시장, AI기업 IPO 감당할 자금 충분"
       ],
       "hash": "0c2d53f2217f"
-    },
-    {
-      "title": "\"코스피, 삼전닉스 없어도 1만2000 간다\"…역대급 베팅",
-      "url": "https://www.hankyung.com/article/2026060347757",
-      "summary": "골드만삭스가 코스피 목표치를 기존 9000에서 1만2000으로 대폭 높여 잡았다. 높은 실적 성장세와 메모리 업황의 저평가 국면이 지속되고 있다는 판단에서다.골드만삭스는 3일 보고서를 통해 \"코스피는 37%가량의 추가 상승 여력이 있다\"며 \"단기 조정 가능성도 존재하지...",
-      "datetime_raw": "2026.06.03 17:21",
-      "datetime": "2026-06-03T17:21:00+09:00",
-      "dt": "2026-06-03 17:21",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": -99.9888888888889,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "7666f9331bb6"
-    },
-    {
-      "title": "\"이란 전쟁 장기화시 '글로벌 경기 침체'\"…OECD 경고",
-      "url": "https://www.hankyung.com/article/202606034766B",
-      "summary": "중동 분쟁 장기화가 세계 경제를 침체 위기로 몰아넣을 수 있다는 경제협력개발기구(OECD) 경고가 나왔다.3일(현지시간) 블룸버그에 따르면 OECD는 이날 최신 경제전망 보고서를 통해 이란 전쟁이 이미 글로벌 경제 성장세를 제약하고 있다고 진단했다. OECD는 이란 전...",
-      "datetime_raw": "2026.06.03 17:00",
-      "datetime": "2026-06-03T17:00:00+09:00",
-      "dt": "2026-06-03 17:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이란 전쟁 장기화시"
-      ],
-      "hash": "3c4ea8927b4b"
-    },
-    {
-      "title": "김수민 \"韓 우량자산, 온체인서 빛 보게 할 것\"",
-      "url": "https://www.hankyung.com/article/202606034747B",
-      "summary": "김수민 플룸네트워크 한국 총괄\"지갑도 모른채 웹3 입문\"국내 자산 온체인화 등 추진\"규제, 라이선스 등 모두 다뤄야\"'좋은 사람을 만나 좋은 대화를 나눈다.' 블루밍런치의 기본 취지입니다. 크립토 씬(Crypto Scene, 블록체인·가상자산 생태계)의 좋은 사람들을 ...",
-      "datetime_raw": "2026.06.03 16:33",
-      "datetime": "2026-06-03T16:33:00+09:00",
-      "dt": "2026-06-03 16:33",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "김수민 \"韓 우량자산",
-        "韓 우량자산, 온체인서 빛 보게 할 것"
-      ],
-      "hash": "368570f28e7b"
-    },
-    {
-      "title": "\"코스피 1만2000 간다\"…골드만삭스 '깜짝 전망'",
-      "url": "https://www.hankyung.com/article/2026060346107",
-      "summary": "글로벌 투자은행 골드만삭스가 코스피 12개월 목표치를 기존 9000에서 1만2000으로 높였다. 반도체 업황이 예상보다 오래 이어지고 기업 이익 전망도 개선되고 있다는 판단에서다. 지난달 초 목표치를 8000에서 9000으로 올린 지 한 달도 되지 않아 전망치...",
-      "datetime_raw": "2026.06.03 14:55",
-      "datetime": "2026-06-03T14:55:00+09:00",
-      "dt": "2026-06-03 14:55",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": -99.9888888888889,
-      "keywords": [
-        "깜짝 전망",
-        "코스피 1만2000 간다"
-      ],
-      "hash": "b56a8be2a711"
-    },
-    {
-      "title": "\"삼전 말고 '이 전자' 샀더니\"…300% 폭등에 개미들 '환호'",
-      "url": "https://www.hankyung.com/article/2026060345767",
-      "summary": "인공지능(AI)과 반도체에 이어 로봇주가 강세다.3일 한국거래소에 따르면 유가증권시장에서 시가총액 50조원 이상 종목 가운데 로봇주로 꼽히는 현대차·현대모비스·기아·LG전자의 올해 평균 상승률은 155%로 집계됐다.이들 중에선 LG...",
-      "datetime_raw": "2026.06.03 14:35",
-      "datetime": "2026-06-03T14:35:00+09:00",
-      "dt": "2026-06-03 14:35",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "환호",
-        "샀더니",
-        "삼전 말고"
-      ],
-      "hash": "2be5702676b7"
     }
   ],
   "consensus_signals": []
