@@ -1,21 +1,10 @@
 {
-  "computed_at": "2026-06-05T10:36:10.375005+09:00",
+  "computed_at": "2026-06-05T13:00:49.972233+09:00",
   "date": "2026-06-05",
-  "low": 9000,
-  "high": 9000,
-  "mid": 9000,
-  "sample_size": 1,
-  "sources": [
-    {
-      "url": "https://www.hankyung.com/article/2026060350891",
-      "title": "골드만, 코스피 목표치 9000→1만2000",
-      "low": null,
-      "high": null,
-      "points": [
-        9000,
-        9000
-      ]
-    }
-  ],
+  "low": null,
+  "high": null,
+  "mid": null,
+  "sample_size": 0,
+  "sources": [],
   "note": "★ 추정 — 기사 본문 정규식 추출, 백테스트 미검증. 7000~9000 범위 내 수치만 채택."
 }
