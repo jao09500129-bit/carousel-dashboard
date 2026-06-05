@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-05T13:00:49.972233+09:00",
+  "collected_at": "2026-06-05T15:00:50.062845+09:00",
   "date": "2026-06-05",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -40,6 +40,22 @@
     ]
   },
   "items": [
+    {
+      "title": "\"환율 수급,역대급 안 좋다\"...1,550원선 위협",
+      "url": "https://www.hankyung.com/article/2026060597595",
+      "summary": "코스피에서는 오늘도 조 단위 외국인 자금이 빠져나가고 있습니다. 한 주 만에 20조 원에 달하는 과격한 순매도가 이어지면서 환율은 달러당 1,550원에 가까워졌습니다. 수출로 막대한 달러를 벌어들이고 있지만, 환율의 급등을 막아내지 못하는 모습입니다.정치경제부 김예원 ...",
+      "datetime_raw": "2026.06.05 14:53",
+      "datetime": "2026-06-05T14:53:00+09:00",
+      "dt": "2026-06-05 14:53",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "환율 수급"
+      ],
+      "hash": "d96384a529b4"
+    },
     {
       "title": "제이엘케이 \"국내에서 AI 특허 출원 건수 42위 기록\"",
       "url": "https://www.hankyung.com/article/2026060594096",
@@ -354,24 +370,6 @@
       "hash": "86ddaa7dafa0"
     },
     {
-      "title": "\"AI 입은 애플 신고가 경신…LG디스플레이 수혜 입을 것\"-대신",
-      "url": "https://www.hankyung.com/article/2026060585516",
-      "summary": "대신증권은 5일 LG디스플레이에 대해 \"인공지능(AI), 반도체, 로봇 모멘텀으로 애플의 주가가 신고가를 경신했다\"며 \"애플의 핵심 부품 기업인 LG디스플레이가 수혜를 입을 것\"이라고 분석했다. 투자의견 '매수'와 목표주가 1만7000원도 유지했다.이 증...",
-      "datetime_raw": "2026.06.05 07:55",
-      "datetime": "2026-06-05T07:55:00+09:00",
-      "dt": "2026-06-05 07:55",
-      "brokers": [
-        "대신"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "AI 입은 애플 신고가 경신"
-      ],
-      "hash": "349b15f04f3d"
-    },
-    {
       "title": "부동산 규제에 등 돌렸다…'분노의 표'로 답한 한강벨트",
       "url": "https://www.hankyung.com/article/2026060481441",
       "summary": "",
@@ -422,6 +420,23 @@
       "hash": "10656eec6302"
     },
     {
+      "title": "시장·구청장 다른 정당 찍었다…서울·부산 '교차 투표' 뚜렷",
+      "url": "https://www.hankyung.com/article/2026060481541",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "시장",
+        "교차 투표"
+      ],
+      "hash": "0545af8bc596"
+    },
+    {
       "title": "\"젠슨 황 온다\" 41% 뛰었는데…여의도 증권가 '서늘한 경고'",
       "url": "https://www.hankyung.com/article/2026060234836",
       "summary": "",
@@ -439,20 +454,22 @@
       "hash": "71b5ace32be9"
     },
     {
-      "title": "박정수 \"삼성전자 주식 8만원대 몇천주 샀는데\"…깜짝 고백",
-      "url": "https://www.hankyung.com/article/202606046783H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
+      "title": "\"AI 입은 애플 신고가 경신…LG디스플레이 수혜 입을 것\"-대신",
+      "url": "https://www.hankyung.com/article/2026060585516",
+      "summary": "대신증권은 5일 LG디스플레이에 대해 \"인공지능(AI), 반도체, 로봇 모멘텀으로 애플의 주가가 신고가를 경신했다\"며 \"애플의 핵심 부품 기업인 LG디스플레이가 수혜를 입을 것\"이라고 분석했다. 투자의견 '매수'와 목표주가 1만7000원도 유지했다.이 증...",
+      "datetime_raw": "2026.06.05 07:55",
+      "datetime": "2026-06-05T07:55:00+09:00",
+      "dt": "2026-06-05 07:55",
+      "brokers": [
+        "대신"
+      ],
+      "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "삼성전자 주식 8만원대 몇천주 샀는데"
+        "AI 입은 애플 신고가 경신"
       ],
-      "hash": "3ee44106f1de"
+      "hash": "349b15f04f3d"
     },
     {
       "title": "\"LG화학, 배터리·화학 회복에 2분기 ‘깜짝 실적’ 기대…목표가↑\"-KB",
@@ -1100,23 +1117,6 @@
         "성과급 받아 명품관으로"
       ],
       "hash": "53c6921afafd"
-    },
-    {
-      "title": "AI 위협론 눈 녹듯 녹였다…한 달새 2배 오르며 부활한 '이 기업'",
-      "url": "https://www.hankyung.com/article/202606023950i",
-      "summary": "생성형 인공지능(AI)의 도래로 지속가능성을 의심받던 기업이 화려하게 부활했다. 주인공은 미국의 데이터솔루션 기업 스노우플레이크다. 최근 한 달간 회사의 주가가 2배 가까이(81.08%) 폭등하며 시장의 우려를 날렸다. 과거 인공지능(AI)의 발전이 소프트웨어 기업에 ...",
-      "datetime_raw": "2026.06.04 07:33",
-      "datetime": "2026-06-04T07:33:00+09:00",
-      "dt": "2026-06-04 07:33",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 기업",
-        "AI 위협론 눈 녹듯 녹였다"
-      ],
-      "hash": "c22d6be239c2"
     }
   ],
   "consensus_signals": []
