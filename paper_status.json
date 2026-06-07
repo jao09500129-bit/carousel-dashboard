@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-06",
-  "updated_at": "2026-06-06T23:10:02+09:00",
+  "date": "2026-06-07",
+  "updated_at": "2026-06-07T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "UP_STRONG",
@@ -76,12 +76,20 @@
         "pnl_pct": -5.36
       }
     ],
-    "last_updated": "2026-06-06T15:40:04.328533",
-    "since_start_days": 38
+    "last_updated": "2026-06-07T15:40:03.271901",
+    "since_start_days": 39
   },
   "trade_today": {
     "executed": false,
-    "actions": []
+    "actions": [
+      {
+        "side": "sell",
+        "code": "122630",
+        "name": "KODEX 레버리지",
+        "executed": false,
+        "result_msg": "모의투자 영업일이 아닙니다."
+      }
+    ]
   },
   "m28h_shadow": {
     "date": "2026-06-05",
@@ -214,11 +222,11 @@
       "vol_off_pct": 19.16
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-06-06T23:10:05+09:00"
+    "updated_at": "2026-06-07T23:10:04+09:00"
   },
   "m30_shadow": {
     "date": "2026-06-05",
-    "updated_at": "2026-06-06T23:10:06+09:00",
+    "updated_at": "2026-06-07T23:10:05+09:00",
     "m21": {
       "wl": 1.0,
       "ws": 0.0,
@@ -263,7 +271,7 @@
   },
   "m37_shadow": {
     "date": "2026-06-05",
-    "updated_at": "2026-06-06T23:10:09+09:00",
+    "updated_at": "2026-06-07T23:10:08+09:00",
     "m21": {
       "wl": 1.0,
       "ws": 0.0
@@ -443,6 +451,11 @@
       },
       {
         "date": "2026-06-06",
+        "total_return_pct": 41.11,
+        "holding_qty": 376
+      },
+      {
+        "date": "2026-06-07",
         "total_return_pct": 41.11,
         "holding_qty": 376
       }
@@ -657,6 +670,13 @@
         "qty": 376,
         "return_pct": 41.11,
         "memo": "KIS API 자동 갱신 [자동갱신 06-06 15:40]"
+      },
+      {
+        "date": "2026-06-07",
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 41.11,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-07 15:40]"
       }
     ],
     "trading_stats": {
@@ -664,7 +684,7 @@
       "buy_count": 6,
       "sell_count": 6,
       "stop_loss_count": 3,
-      "hold_days": 18,
+      "hold_days": 19,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -788,9 +808,13 @@
       {
         "date": "2026-06-06",
         "drawdown_pct": -13.41
+      },
+      {
+        "date": "2026-06-07",
+        "drawdown_pct": -13.41
       }
     ],
-    "generated_at": "2026-06-06T23:10:13"
+    "generated_at": "2026-06-07T23:10:11"
   },
   "evaluation": {
     "month1_review": "2026-05-29",
