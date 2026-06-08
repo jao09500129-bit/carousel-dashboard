@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-08T15:00:50.680998+09:00",
+  "collected_at": "2026-06-08T16:00:45.115729+09:00",
   "date": "2026-06-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 65,
+  "total_items": 64,
   "stats": {
     "with_broker_mention": 8,
     "target_price_up": 3,
@@ -40,6 +40,22 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피 8% 급락한 7484.41 마감…코스닥도 9% 하락",
+      "url": "https://www.hankyung.com/article/2026060836766",
+      "summary": "코스피 8% 급락한 7484.41 마감…코스닥도 9% 하락김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.08 15:34",
+      "datetime": "2026-06-08T15:34:00+09:00",
+      "dt": "2026-06-08 15:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 8% 급락한 7484.41 마감"
+      ],
+      "hash": "bfc0c15ed281"
+    },
     {
       "title": "코스닥, 거래재개…'서킷브레이커' 20분간 매매중단 해제",
       "url": "https://www.hankyung.com/article/2026060835697",
@@ -356,23 +372,6 @@
       "hash": "242387fd27b6"
     },
     {
-      "title": "'공포의 검은 월요일'…코스피 8% 폭락에 개미들 '패닉'",
-      "url": "https://www.hankyung.com/article/2026060824616",
-      "summary": "코스피지수가 8일 장 초반 8% 넘게 급락하며 7400선까지 밀렸다. 미국 브로드컴의 실적 전망 실망감으로 미 반도체주가 급락한 여파가 국내 증시를 덮치면서 개장 직후 유가증권시장에는 1단계 서킷브레이커가 발동됐다.이날 오전 9시9분 현재 코스피지수는 전 거래일 대비 ...",
-      "datetime_raw": "2026.06.08 09:19",
-      "datetime": "2026-06-08T09:19:00+09:00",
-      "dt": "2026-06-08 09:19",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "패닉",
-        "공포의 검은 월요일"
-      ],
-      "hash": "4f0cebb82e08"
-    },
-    {
       "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
       "url": "https://www.hankyung.com/article/202605256557i",
       "summary": "",
@@ -454,6 +453,23 @@
         "60조 잭팟 터질라"
       ],
       "hash": "8a26e09a7cad"
+    },
+    {
+      "title": "'공포의 검은 월요일'…코스피 8% 폭락에 개미들 '패닉'",
+      "url": "https://www.hankyung.com/article/2026060824616",
+      "summary": "코스피지수가 8일 장 초반 8% 넘게 급락하며 7400선까지 밀렸다. 미국 브로드컴의 실적 전망 실망감으로 미 반도체주가 급락한 여파가 국내 증시를 덮치면서 개장 직후 유가증권시장에는 1단계 서킷브레이커가 발동됐다.이날 오전 9시9분 현재 코스피지수는 전 거래일 대비 ...",
+      "datetime_raw": "2026.06.08 09:19",
+      "datetime": "2026-06-08T09:19:00+09:00",
+      "dt": "2026-06-08 09:19",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "패닉",
+        "공포의 검은 월요일"
+      ],
+      "hash": "4f0cebb82e08"
     },
     {
       "title": "'8천피' 깨진 '검은 월요일'…삼성전자 9%, SK하이닉스 8% 하락",
@@ -792,6 +808,22 @@
       "hash": "337e51859010"
     },
     {
+      "title": "외국인 매도에 2분기 환율 외환위기 후 최고…공항선 1620원대",
+      "url": "https://www.hankyung.com/article/202606071069Y",
+      "summary": "원화 가치 이달에만 3.5% 하락…하락폭 러시아 이어 주요국 2위구두 개입에도 사라진 경계감…경상수지 흑자여도 기업 달러 충분히 안 풀려올해 2분기 원/달러 평균 환율이 외환위기 이후 최고 수준으로 치솟았다.주식시장에서 외국인 매도세가 이어지는...",
+      "datetime_raw": "2026.06.07 06:41",
+      "datetime": "2026-06-07T06:41:00+09:00",
+      "dt": "2026-06-07 06:41",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "외국인 매도에 2분기 환율 외환위기 후 최고"
+      ],
+      "hash": "0036c78ffc33"
+    },
+    {
       "title": "반도체 급락에 개미들 '당황'…연기금·외국인은 '이것' 샀다 [종목+]",
       "url": "https://www.hankyung.com/article/2026060595766",
       "summary": "인공지능(AI) 투자의 정점 통과(피크아웃) 우려가 또 불거졌다. 고객의 요구대로 맞춤형 반도체를 만들어주는 주문형반도체(ASIC) 설계기업 브로드컴이 시장 기대에 못 미치는 AI 반도체 매출 가이던스(자체 전망치)를 내놓자, 이전까지 투자심리를 독차지하며 급등했던 반...",
@@ -1073,54 +1105,6 @@
         "대형 IPO 앞두고 현금화"
       ],
       "hash": "64be358ef79a"
-    },
-    {
-      "title": "코스피 약세에도 웃은 레저주…호텔·카지노 강세",
-      "url": "https://www.hankyung.com/article/202606050035i",
-      "summary": "코스피가 약세를 보인 가운데 카지노·호텔 등 레저 업종 종목들은 강세를 보였다. 관광 수요 회복에 따른 실적 개선 기대가 커진 영향이다.5일 유가증권시장에서 GS피앤엘은 전일보다 9.14% 오른 4만8950원에 거래를 마쳤다. 파라다이스는 5.51% 상승한...",
-      "datetime_raw": "2026.06.05 16:53",
-      "datetime": "2026-06-05T16:53:00+09:00",
-      "dt": "2026-06-05 16:53",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 약세에도 웃은 레저주"
-      ],
-      "hash": "a07de920f350"
-    },
-    {
-      "title": "커뮤니티 돌연 폐쇄...IPX, NFT 러그풀 논란",
-      "url": "https://www.hankyung.com/article/202606050075B",
-      "summary": "IPX, NFT 러그풀 논란 휩싸여발행사는 커뮤니티 폐쇄후 잠적\"약속 미이행\"...가격 95%% 폭락디지털 IP 엔터테인먼트 기업 IPX(구 라인프렌즈)가 대체불가토큰(NFT) 러그풀 논란에 휩싸였다. NFT 발행 파트너사인 크립코(CRIPCO)가 돌연 커뮤니티를 폐쇄...",
-      "datetime_raw": "2026.06.05 16:42",
-      "datetime": "2026-06-05T16:42:00+09:00",
-      "dt": "2026-06-05 16:42",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "커뮤니티 돌연 폐쇄...IPX"
-      ],
-      "hash": "98326aa5248d"
-    },
-    {
-      "title": "금융주는 왜 올랐나요?…코스피 급락 속 나홀로 강세",
-      "url": "https://www.hankyung.com/article/202606059971i",
-      "summary": "코스피지수가 5% 넘게 급락한 5일 주요 금융지주가 2%가 넘는 상승률을 보이며 강세를 나타냈다. 홍콩H지수 주가연계증권(ELS) 과징금 부담이 큰 폭으로 줄어든 가운데 금리 상승에 따른 수익성 개선 기대까지 겹치면서 정보기술(IT) 시황에 비교적 덜 민감한 금융주로 ...",
-      "datetime_raw": "2026.06.05 16:12",
-      "datetime": "2026-06-05T16:12:00+09:00",
-      "dt": "2026-06-05 16:12",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "금융주는 왜 올랐나요?"
-      ],
-      "hash": "6457c815eed3"
     }
   ],
   "consensus_signals": []
