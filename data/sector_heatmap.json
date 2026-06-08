@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-07T23:10:42.805583+09:00",
+  "computed_at": "2026-06-08T09:30:47.424218+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 2,
+      "count": 0,
       "top": []
     },
     {
@@ -16,31 +16,31 @@
     {
       "name": "에너지",
       "intensity": 0.0,
-      "count": 1,
+      "count": 0,
       "top": []
     },
     {
       "name": "금융",
       "intensity": 0.0,
-      "count": 1,
+      "count": 2,
       "top": []
     },
     {
       "name": "헬스케어",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
       "name": "산업재",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
       "name": "필수소비재",
       "intensity": 0.0,
-      "count": 0,
+      "count": 2,
       "top": []
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "기타",
       "intensity": 0.0,
-      "count": 59,
+      "count": 57,
       "top": []
     }
   ],
