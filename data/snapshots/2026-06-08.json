@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-08T13:00:46.655181+09:00",
+  "collected_at": "2026-06-08T15:00:50.680998+09:00",
   "date": "2026-06-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,12 +9,12 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 7,
+    "with_broker_mention": 8,
     "target_price_up": 3,
     "target_price_down": 0,
     "top_brokers": [
       [
-        "NH",
+        "한국투자",
         2
       ],
       [
@@ -22,20 +22,175 @@
         2
       ],
       [
+        "미래에셋",
+        1
+      ],
+      [
         "IBK",
+        1
+      ],
+      [
+        "NH",
         1
       ],
       [
         "키움",
         1
-      ],
-      [
-        "한국투자",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "코스닥, 거래재개…'서킷브레이커' 20분간 매매중단 해제",
+      "url": "https://www.hankyung.com/article/2026060835697",
+      "summary": "[속보] 코스닥, 거래재개…'서킷브레이커' 20분간 매매중단 해제이정우 한경닷컴 기자 krse9059@hankyung.com",
+      "datetime_raw": "2026.06.08 14:59",
+      "datetime": "2026-06-08T14:59:00+09:00",
+      "dt": "2026-06-08 14:59",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥",
+        "서킷브레이커"
+      ],
+      "hash": "fc681465a8e9"
+    },
+    {
+      "title": "코스닥도 서킷브레이커…20분간 매매중단",
+      "url": "https://www.hankyung.com/article/2026060835136",
+      "summary": "코스닥도 서킷브레이커…20분간 매매중단김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.08 14:43",
+      "datetime": "2026-06-08T14:43:00+09:00",
+      "dt": "2026-06-08 14:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥도 서킷브레이커"
+      ],
+      "hash": "364cfe65b7d7"
+    },
+    {
+      "title": "'스페이스X IPO 참여'…한투운용 우주테크 ETF 한달 개인순매수 600억 돌파",
+      "url": "https://www.hankyung.com/article/2026060835246",
+      "summary": "한국투자신탁운용은 'ACE 미국우주테크액티브' 상장지수펀드(ETF)의 최근 한 달 개인투자자 순매수가 600억원을 넘어섰다고 8일 밝혔다.한국거래소에 따르면 전날 기준 해당 ETF로 최근 한 달간 유입된 개인 순매수는 612억원으로 집계됐다. &...",
+      "datetime_raw": "2026.06.08 14:43",
+      "datetime": "2026-06-08T14:43:00+09:00",
+      "dt": "2026-06-08 14:43",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스페이스X IPO 참여"
+      ],
+      "hash": "5a3a737621ac"
+    },
+    {
+      "title": "급락에 코스닥도 서킷브레이커…20분간 매매중단",
+      "url": "https://www.hankyung.com/article/2026060835167",
+      "summary": "급락에 코스닥도 서킷브레이커…20분간 매매중단이정우 한경닷컴 기자 krse9059@hankyung.com",
+      "datetime_raw": "2026.06.08 14:40",
+      "datetime": "2026-06-08T14:40:00+09:00",
+      "dt": "2026-06-08 14:40",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급락에 코스닥도 서킷브레이커"
+      ],
+      "hash": "1abd0a72ab4d"
+    },
+    {
+      "title": "버스에잇, 메이플스토리 IP 창작 공간 'MSU 스페이스' 공개",
+      "url": "https://www.hankyung.com/article/202606083481B",
+      "summary": "인공지능(AI) 게임 창작 플랫폼 버스에잇(Verse8)이 넥슨의 블록체인 자회사 넥스페이스(NEXPACE)와 협력해 메이플스토리(MapleStory) 지식재산권(IP) 전용 창작 공간인 'MSU 스페이스(MSU Space)'를 공개했다고 8일 밝혔다.이번 협업은 넥스...",
+      "datetime_raw": "2026.06.08 14:31",
+      "datetime": "2026-06-08T14:31:00+09:00",
+      "dt": "2026-06-08 14:31",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "버스에잇",
+        "MSU 스페이스"
+      ],
+      "hash": "a6b5f0b4d490"
+    },
+    {
+      "title": "\"2분도 안걸렸다\"...미래에셋증권, 스페이스X 2차 청약도 완판",
+      "url": "https://www.hankyung.com/article/202606083323i",
+      "summary": "미래에셋증권이 8일 진행한 스페이스X 공모주 2차 청약이 조기 완판됐다.이날 금융투자업계에 따르면 미래에셋증권은 이날 오전 8시 30분부터 스페이스X 공모주 청약을 개시했고, 2분이 채 되지 않아 전량이 소진됐다. 개인 및 법인 전문투자자를 대상으로 진행한 이번 청약의...",
+      "datetime_raw": "2026.06.08 14:22",
+      "datetime": "2026-06-08T14:22:00+09:00",
+      "dt": "2026-06-08 14:22",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2분도 안걸렸다"
+      ],
+      "hash": "1d42cb6a6a91"
+    },
+    {
+      "title": "\"대세하락 아니다, 분할매수 기회로\"…리서치센터장 긴급진단",
+      "url": "https://www.hankyung.com/article/202606083306i",
+      "summary": "국내 증시가 예상치 못한 급락세를 맞이하며 투자심리가 급격히 위축되고 있다. 미 10년물 국채 금리 상승이라는 매크로(거시경제) 압박 속에서, 그간 증시를 견인해 온 빅테크와 반도체 업종을 중심으로 차익 실현 매물이 쏟아진 결과다.이에 본지는 국내 자본시장을 대표하는 ...",
+      "datetime_raw": "2026.06.08 14:06",
+      "datetime": "2026-06-08T14:06:00+09:00",
+      "dt": "2026-06-08 14:06",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "대세하락 아니다"
+      ],
+      "hash": "423acba41064"
+    },
+    {
+      "title": "상장사 731개 밸류업 공시 나서…공시기업 시총 비중 88%",
+      "url": "https://www.hankyung.com/article/2026060832716",
+      "summary": "코리아 밸류업 지수가 지난달 29일 3977.00으로 사상 최고치를 기록했다. 5월말까지 기업가치 제고(밸류업) 계획을 공시한 기업은 모두 731개로 집계됐다.한국거래소가 8일 발표한 월간 기업가치 제고 현황에 따르면 5월말까지 밸류업 공시를 제출한 유가증권시장 상장사...",
+      "datetime_raw": "2026.06.08 13:27",
+      "datetime": "2026-06-08T13:27:00+09:00",
+      "dt": "2026-06-08 13:27",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "상장사 731개 밸류업 공시 나서"
+      ],
+      "hash": "d1e23dd0d23c"
+    },
+    {
+      "title": "\"반도체 2배로 먹는다\"…'삼성 vs 미래' 레버리지 ETF 쩐의 전쟁 [맞짱대결]",
+      "url": "https://www.hankyung.com/article/2026060587336",
+      "summary": "맞수는 치열한 경쟁을 통해 서로를 발전시키는 관계입니다. 기업과 제품이 벌이는 라이벌전은 소비자 편익에 도움이 되기도 하죠. 제품 스펙부터 기업의 숨은 전략까지, 다양한 맞수들을 '맞짱대결'에서 다룹니다. 업계 최고의 라이벌들이 지닌 장...",
+      "datetime_raw": "2026.06.08 13:20",
+      "datetime": "2026-06-08T13:20:00+09:00",
+      "dt": "2026-06-08 13:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성 vs 미래",
+        "반도체 2배로 먹는다"
+      ],
+      "hash": "9b637158bd1a"
+    },
     {
       "title": "업비트 데이터랩, 데이터 콘텐츠 플랫폼 '인텔리전스' 출시",
       "url": "https://www.hankyung.com/article/202606083043B",
@@ -218,6 +373,89 @@
       "hash": "4f0cebb82e08"
     },
     {
+      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
+      "url": "https://www.hankyung.com/article/202605256557i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "날벼락",
+        "직원 부탁에 실업급여 타게 해줬다가"
+      ],
+      "hash": "3264ddb106b2"
+    },
+    {
+      "title": "'오세훈 앞날 어쩌나'…시의회·구청장, 민주당에 다 뺏겼다",
+      "url": "https://www.hankyung.com/article/2026060502201",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "오세훈 앞날 어쩌나"
+      ],
+      "hash": "68d57c977da7"
+    },
+    {
+      "title": "'지금 들어가야 돈 번다'…부자들 800억 넘게 쓸어 담은 종목",
+      "url": "https://www.hankyung.com/article/202606071382i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "지금 들어가야 돈 번다"
+      ],
+      "hash": "11ae12da0f62"
+    },
+    {
+      "title": "\"시원하다, 시원해\" 감탄…금값 뛰더니 20대 '최애템' 됐다",
+      "url": "https://www.hankyung.com/article/2026060598297",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "최애템",
+        "시원하다"
+      ],
+      "hash": "6148a309544e"
+    },
+    {
+      "title": "60조 잭팟 터질라…1년 만에 '92% 급등' 들썩이는 종목",
+      "url": "https://www.hankyung.com/article/2026060717461",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "92% 급등",
+        "60조 잭팟 터질라"
+      ],
+      "hash": "8a26e09a7cad"
+    },
+    {
       "title": "'8천피' 깨진 '검은 월요일'…삼성전자 9%, SK하이닉스 8% 하락",
       "url": "https://www.hankyung.com/article/202606082386i",
       "summary": "8일 코스피 지수가 8%대 급락했다. 주말새 미국 증시가 기술주를 중심으로 떨어진 데다 원·달러 환율이 한때 장중 1560원까지 돌파하는 등 악재가 겹치면서 대형 반도체주를 중심으로 주가가 빠르게 하락하고 있다. 이날 오전 9시9분 기준 코스피 지...",
@@ -366,89 +604,6 @@
         "검은 월요일"
       ],
       "hash": "e805950dc513"
-    },
-    {
-      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
-      "url": "https://www.hankyung.com/article/202605256557i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "날벼락",
-        "직원 부탁에 실업급여 타게 해줬다가"
-      ],
-      "hash": "3264ddb106b2"
-    },
-    {
-      "title": "'오세훈 앞날 어쩌나'…시의회·구청장, 민주당에 다 뺏겼다",
-      "url": "https://www.hankyung.com/article/2026060502201",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "오세훈 앞날 어쩌나"
-      ],
-      "hash": "68d57c977da7"
-    },
-    {
-      "title": "'지금 들어가야 돈 번다'…부자들 800억 넘게 쓸어 담은 종목",
-      "url": "https://www.hankyung.com/article/202606071382i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "지금 들어가야 돈 번다"
-      ],
-      "hash": "11ae12da0f62"
-    },
-    {
-      "title": "\"시원하다, 시원해\" 감탄…금값 뛰더니 20대 '최애템' 됐다",
-      "url": "https://www.hankyung.com/article/2026060598297",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "최애템",
-        "시원하다"
-      ],
-      "hash": "6148a309544e"
-    },
-    {
-      "title": "60조 잭팟 터질라…1년 만에 '92% 급등' 들썩이는 종목",
-      "url": "https://www.hankyung.com/article/2026060717461",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "92% 급등",
-        "60조 잭팟 터질라"
-      ],
-      "hash": "8a26e09a7cad"
     },
     {
       "title": "배당주서 성장주로 진화하나…KT&G 담는 외인 큰손 [종목+]",
@@ -635,22 +790,6 @@
         "스페이스X 블랙홀 되나"
       ],
       "hash": "337e51859010"
-    },
-    {
-      "title": "외국인 매도에 2분기 환율 외환위기 후 최고…공항선 1620원대",
-      "url": "https://www.hankyung.com/article/202606071069Y",
-      "summary": "원화 가치 이달에만 3.5% 하락…하락폭 러시아 이어 주요국 2위구두 개입에도 사라진 경계감…경상수지 흑자여도 기업 달러 충분히 안 풀려올해 2분기 원/달러 평균 환율이 외환위기 이후 최고 수준으로 치솟았다.주식시장에서 외국인 매도세가 이어지는...",
-      "datetime_raw": "2026.06.07 06:41",
-      "datetime": "2026-06-07T06:41:00+09:00",
-      "dt": "2026-06-07 06:41",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "외국인 매도에 2분기 환율 외환위기 후 최고"
-      ],
-      "hash": "0036c78ffc33"
     },
     {
       "title": "반도체 급락에 개미들 '당황'…연기금·외국인은 '이것' 샀다 [종목+]",
@@ -982,139 +1121,6 @@
         "금융주는 왜 올랐나요?"
       ],
       "hash": "6457c815eed3"
-    },
-    {
-      "title": "주식·성과급으로 돈 벌어 명품 산다…백화점주 '불기둥'",
-      "url": "https://www.hankyung.com/article/202606058788i",
-      "summary": "백화점 관련 종목의 강세가 이어지는 모습이다. 시장에서는 자산 가격 상승에 따른 부(富)의 효과 및 내수 소비 성장 기대가 맞물린 결과라는 분석이 나온다.5일 인공지능(AI) 기반 투자 정보 서비스 에픽AI에 따르면 국내 증권사가 추정한 올해 롯데쇼핑 영업이익 전망치 ...",
-      "datetime_raw": "2026.06.05 16:11",
-      "datetime": "2026-06-05T16:11:00+09:00",
-      "dt": "2026-06-05 16:11",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "주식",
-        "불기둥"
-      ],
-      "hash": "1b33fb748d55"
-    },
-    {
-      "title": "반짝 상승하더니 장중 1000선도 붕괴…위태로운 코스닥 시장",
-      "url": "https://www.hankyung.com/article/202606059580i",
-      "summary": "전일 반짝 상승한 코스닥지수가 다시 하락했다. 장중 한때 6% 가까이 하락하며 석 달 만에 천스닥이 붕괴됐으나, 기관과 개인이 대거 순매수에 나서면서 겨우 1000선을 회복했다.5일 코스닥지수는 전일 대비 4.51% 내린 1002.43에 장을 마감했다. 오전 10시 1...",
-      "datetime_raw": "2026.06.05 16:09",
-      "datetime": "2026-06-05T16:09:00+09:00",
-      "dt": "2026-06-05 16:09",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "반짝 상승하더니 장중 1000선도 붕괴"
-      ],
-      "hash": "cbcb9d385930"
-    },
-    {
-      "title": "스트래티지 매도·중동 리스크 겹악재…비트코인 약세 지속 [이수현의 코인레이더]",
-      "url": "https://www.hankyung.com/article/202606059976B",
-      "summary": "는 한 주간 가상자산(암호화폐) 시장의 흐름을 짚고, 그 배경을 해설하는 코너입니다. 단순한 시세 나열을 넘어 글로벌 경제 이슈와 투자자 움직임을 입체적으로 분석하며, 시장의 방향성을 가늠할 수 있는 인사이트를 제공합니다.주요 코인1. 비트코인(BTC)비트코인은 이번주...",
-      "datetime_raw": "2026.06.05 15:58",
-      "datetime": "2026-06-05T15:58:00+09:00",
-      "dt": "2026-06-05 15:58",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스트래티지 매도"
-      ],
-      "hash": "a77b16d32594"
-    },
-    {
-      "title": "'검은 금요일' 코스피·코스닥 '와르르'…환율 1539원 마감",
-      "url": "https://www.hankyung.com/article/2026060599236",
-      "summary": "코스피와 코스닥이 미국 반도체 기업 브로드컴의 실적 실망감 여파에 동반 급락 마감했다. 인공지능(AI) 반도체 기대주로 꼽히던 브로드컴이 시장 기대에 못 미치는 전망을 내놓으면서 국내 증시에서도 반도체주를 중심으로 차익실현 매물이 쏟아졌다.5일 코스피지수는 전일 대비 ...",
-      "datetime_raw": "2026.06.05 15:53",
-      "datetime": "2026-06-05T15:53:00+09:00",
-      "dt": "2026-06-05 15:53",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "와르르",
-        "검은 금요일"
-      ],
-      "hash": "ac91072e90d3"
-    },
-    {
-      "title": "붉은사막 초대박 났는데…펄어비스 주가는 왜 식어가나",
-      "url": "https://www.hankyung.com/article/202606059842i",
-      "summary": "펄어비스 주가가 신작 ‘붉은사막’ 흥행 기대감이 정점을 지나며 빠르게 식고 있다. 하지만 기본적 체력이 탄탄히 다져진 만큼 향후 상승 동력이 충분하다는 증권가...",
-      "datetime_raw": "2026.06.05 15:34",
-      "datetime": "2026-06-05T15:34:00+09:00",
-      "dt": "2026-06-05 15:34",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "붉은사막 초대박 났는데"
-      ],
-      "hash": "ee0b0549cad4"
-    },
-    {
-      "title": "국민연금의 국내주식 비중 상향, 얼마나 오래 고민한 결과일까",
-      "url": "https://www.hankyung.com/article/202606059768i",
-      "summary": "지난 5월 28일 열린 기금운용위원회에서, 국내주식의 목표 비중을 20.8%까지 상향했다. 지난 10년 동안 꾸준히 국내주식 비중을 줄이던 흐름과 정반대의 조치였다. 이 대목에서 국민연금이 2016년 20.0%이던 국내 주식 목표 비중을 2025년 14.9%까...",
-      "datetime_raw": "2026.06.05 15:29",
-      "datetime": "2026-06-05T15:29:00+09:00",
-      "dt": "2026-06-05 15:29",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "국민연금의 국내주식 비중 상향"
-      ],
-      "hash": "606c5651c10d"
-    },
-    {
-      "title": "NH투자증권 \"IMA 2호 상품에도 법인·신규 자금 몰려\"",
-      "url": "https://www.hankyung.com/article/2026060598216",
-      "summary": "NH투자증권은 종합투자계좌(IMA) 2호 상품인 ‘N2 IMA1 중기형 2호’의 모집금액 1200억원의 66%가 법인 고객의 자금이었다고 5일 밝혔다.앞서 1호 상품 판매 때의 법인 자금 유입 비율은 55%였는데, 두 번째 상품에서는 법인 자금 비...",
-      "datetime_raw": "2026.06.05 15:10",
-      "datetime": "2026-06-05T15:10:00+09:00",
-      "dt": "2026-06-05 15:10",
-      "brokers": [
-        "NH"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "NH투자증권 \"IMA 2호 상품에도 법인",
-        "IMA 2호 상품에도 법인·신규 자금 몰려"
-      ],
-      "hash": "106f0a1d1b9e"
-    },
-    {
-      "title": "\"환율 수급,역대급 안 좋다\"...1,550원선 위협",
-      "url": "https://www.hankyung.com/article/2026060597595",
-      "summary": "코스피에서는 오늘도 조 단위 외국인 자금이 빠져나가고 있습니다. 한 주 만에 20조 원에 달하는 과격한 순매도가 이어지면서 환율은 달러당 1,550원에 가까워졌습니다. 수출로 막대한 달러를 벌어들이고 있지만, 환율의 급등을 막아내지 못하는 모습입니다.정치경제부 김예원 ...",
-      "datetime_raw": "2026.06.05 14:53",
-      "datetime": "2026-06-05T14:53:00+09:00",
-      "dt": "2026-06-05 14:53",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "환율 수급"
-      ],
-      "hash": "d96384a529b4"
     }
   ],
   "consensus_signals": []
