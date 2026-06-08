@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-08T11:00:50.138716+09:00",
+  "collected_at": "2026-06-08T13:00:46.655181+09:00",
   "date": "2026-06-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -36,6 +36,40 @@
     ]
   },
   "items": [
+    {
+      "title": "업비트 데이터랩, 데이터 콘텐츠 플랫폼 '인텔리전스' 출시",
+      "url": "https://www.hankyung.com/article/202606083043B",
+      "summary": "두나무가 운영하는 업비트 데이터랩이 데이터 기반 콘텐츠 플랫폼 '인텔리전스(Intelligence)'를 출시했다고 8일 밝혔다.인텔리전스는 디지털자산 시장 데이터를 기반으로 투자자에게 시황 분석과 교육 콘텐츠, 뉴스 브리핑, 실시간 알림 서비스를 제공하는 것이 특징이다...",
+      "datetime_raw": "2026.06.08 11:17",
+      "datetime": "2026-06-08T11:17:00+09:00",
+      "dt": "2026-06-08 11:17",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "인텔리전스",
+        "업비트 데이터랩"
+      ],
+      "hash": "5adb0cdb623e"
+    },
+    {
+      "title": "\"지금이 '줍줍' 타이밍\"...현대차·하이닉스 담은 초고수, SKT는 던졌다",
+      "url": "https://www.hankyung.com/article/202606082935i",
+      "summary": "투자수익률 상위 1%의 초고수들은 9일 오전 증시에서 현대차와 SK하이닉스, 삼성전자 등을 집중 순매수한 것으로 나타났다. 미국 반도체주 급락 여파로 국내 증시가 조정을 받자 낙폭이 큰 시총 상위 종목을 중심으로 저가 매수에 나서는 모습이다. 9일 미래에셋엠클...",
+      "datetime_raw": "2026.06.08 11:00",
+      "datetime": "2026-06-08T11:00:00+09:00",
+      "dt": "2026-06-08 11:00",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "지금이",
+        "타이밍"
+      ],
+      "hash": "9de2c8f1e8fe"
+    },
     {
       "title": "코스콤, 공공부문 안전한 개인정보 전송 지원 나서",
       "url": "https://www.hankyung.com/article/2026060827926",
@@ -334,38 +368,6 @@
       "hash": "e805950dc513"
     },
     {
-      "title": "배당주서 성장주로 진화하나…KT&G 담는 외인 큰손 [종목+]",
-      "url": "https://www.hankyung.com/article/2026060821096",
-      "summary": "KT&G가 증시에서 배당주를 넘어 성장주로 재평가받고 있다. 해외 사업 비중이 국내를 추월하는 체질 개선이 가시화되면서다. 최근 외국인 지분율이 51%를 넘어선 가운데 블랙록, 캐피털그룹, 싱가포르투자청(GIC)에 이어 미국계 투자펀드 퍼스트이글 글로벌 펀드까지 주요 ...",
-      "datetime_raw": "2026.06.08 08:03",
-      "datetime": "2026-06-08T08:03:00+09:00",
-      "dt": "2026-06-08 08:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "배당주서 성장주로 진화하나"
-      ],
-      "hash": "172938f61e84"
-    },
-    {
-      "title": "7년만의 시진핑 방북…증시를 움직일 종목은?",
-      "url": "https://www.hankyung.com/article/202606059501i",
-      "summary": "시진핑 방북 및 전략적 배경중국 공산당 중앙위원회 대외연락부(중련부)는 시진핑 중국 국가주석이 김정은 조선노동당 총비서 겸 국무위원장의 초청으로 8일부터 이틀 간 북한을 국빈 방문한다고 발표했다. 2019년 6월 이후 약 7년 만이다.중국 외교부가 아닌 당 대외교류를 ...",
-      "datetime_raw": "2026.06.08 08:00",
-      "datetime": "2026-06-08T08:00:00+09:00",
-      "dt": "2026-06-08 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "7년만의 시진핑 방북"
-      ],
-      "hash": "abdb7567148d"
-    },
-    {
       "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
       "url": "https://www.hankyung.com/article/202605256557i",
       "summary": "",
@@ -447,6 +449,38 @@
         "60조 잭팟 터질라"
       ],
       "hash": "8a26e09a7cad"
+    },
+    {
+      "title": "배당주서 성장주로 진화하나…KT&G 담는 외인 큰손 [종목+]",
+      "url": "https://www.hankyung.com/article/2026060821096",
+      "summary": "KT&G가 증시에서 배당주를 넘어 성장주로 재평가받고 있다. 해외 사업 비중이 국내를 추월하는 체질 개선이 가시화되면서다. 최근 외국인 지분율이 51%를 넘어선 가운데 블랙록, 캐피털그룹, 싱가포르투자청(GIC)에 이어 미국계 투자펀드 퍼스트이글 글로벌 펀드까지 주요 ...",
+      "datetime_raw": "2026.06.08 08:03",
+      "datetime": "2026-06-08T08:03:00+09:00",
+      "dt": "2026-06-08 08:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배당주서 성장주로 진화하나"
+      ],
+      "hash": "172938f61e84"
+    },
+    {
+      "title": "7년만의 시진핑 방북…증시를 움직일 종목은?",
+      "url": "https://www.hankyung.com/article/202606059501i",
+      "summary": "시진핑 방북 및 전략적 배경중국 공산당 중앙위원회 대외연락부(중련부)는 시진핑 중국 국가주석이 김정은 조선노동당 총비서 겸 국무위원장의 초청으로 8일부터 이틀 간 북한을 국빈 방문한다고 발표했다. 2019년 6월 이후 약 7년 만이다.중국 외교부가 아닌 당 대외교류를 ...",
+      "datetime_raw": "2026.06.08 08:00",
+      "datetime": "2026-06-08T08:00:00+09:00",
+      "dt": "2026-06-08 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "7년만의 시진핑 방북"
+      ],
+      "hash": "abdb7567148d"
     },
     {
       "title": "\"버블붕괴인가, 단기조정인가…두 가지 지표만 확인하면 알 수 있어\"",
@@ -1081,38 +1115,6 @@
         "환율 수급"
       ],
       "hash": "d96384a529b4"
-    },
-    {
-      "title": "제이엘케이 \"국내에서 AI 특허 출원 건수 42위 기록\"",
-      "url": "https://www.hankyung.com/article/2026060594096",
-      "summary": "제이엘케이는 국내에서 인공지능(AI) 관련 특허를 42번째로 많이 출원한 기업으로 꼽혔다고 5일 밝혔다.워트인텔리전스가 집계하고 포브스코리아가 보도한 ‘국내 AI 특허 출원 톱(Top) 50’에서 이 같이 나타났다. 특히 제이엘케이는 의료 AI 분...",
-      "datetime_raw": "2026.06.05 11:59",
-      "datetime": "2026-06-05T11:59:00+09:00",
-      "dt": "2026-06-05 11:59",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "국내에서 AI 특허 출원 건수 42위 기록"
-      ],
-      "hash": "78e912620a32"
-    },
-    {
-      "title": "강원경찰청, 폴리마켓 국내 이용자 소환 조사 착수…불법 도박 혐의",
-      "url": "https://www.hankyung.com/article/202606059397B",
-      "summary": "경찰이 글로벌 예측시장 플랫폼인 폴리마켓의 국내 이용자들을 특정하고 최근 본격적인 소환 조사에 착수한 것으로 확인됐다. 가상자산 거래내역을 역추적하는 방식으로 전국의 이용자들을 파악해 전방위 수사를 벌이고 있는 것으로 나타났다.최근 법조계에 따르면 강원경찰청 사이버수사...",
-      "datetime_raw": "2026.06.05 11:48",
-      "datetime": "2026-06-05T11:48:00+09:00",
-      "dt": "2026-06-05 11:48",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "강원경찰청"
-      ],
-      "hash": "3b53026fb2b9"
     }
   ],
   "consensus_signals": []
