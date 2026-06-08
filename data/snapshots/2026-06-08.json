@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-08T16:00:45.115729+09:00",
+  "collected_at": "2026-06-08T23:10:45.815818+09:00",
   "date": "2026-06-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 65,
   "stats": {
     "with_broker_mention": 8,
     "target_price_up": 3,
@@ -41,6 +41,318 @@
   },
   "items": [
     {
+      "title": "\"하루 만에 20% 날렸다\" 패닉…'삼전닉스' 급락에 '비상' [분석+]",
+      "url": "https://www.hankyung.com/article/2026060838606",
+      "summary": "삼성전자와 SK하이닉스 주가가 나란히 급락세를 보이면서 국내 증시에 '반도체 피크아웃' 공포가 빠르게 번지고 있다. 코스피를 이끌어온 '삼전닉스' 주가가 흔들리면서 단일종목 레버리지 상장지수펀드(ETF) 투자자들도 하루 만에 20% 안팎의 ...",
+      "datetime_raw": "2026.06.08 22:00",
+      "datetime": "2026-06-08T22:00:00+09:00",
+      "dt": "2026-06-08 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비상",
+        "삼전닉스",
+        "하루 만에 20% 날렸다"
+      ],
+      "hash": "de6f981b7ca0"
+    },
+    {
+      "title": "'삼성닉스'도 무너졌는데…폭락장서 네이버만 웃은 이유 [종목+]",
+      "url": "https://www.hankyung.com/article/2026060839326",
+      "summary": "글로벌 반도체주 급락 여파로 코스피지수가 8% 넘게 폭락한 가운데 네이버가 시가총액 상위 30개 종목 중 유일하게 강세를 나타냈다. 젠슨 황 엔비디아 최고경영자(CEO)의 방한을 계기로 엔비디아와 초대형 인공지능(AI) 인프라 구축 계획을 공개하면서 새로운 성장 기대감...",
+      "datetime_raw": "2026.06.08 20:00",
+      "datetime": "2026-06-08T20:00:00+09:00",
+      "dt": "2026-06-08 20:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성닉스"
+      ],
+      "hash": "96d9bb1df89d"
+    },
+    {
+      "title": "연일 몸집 불리던 ETF, 순자산 500조 밑으로",
+      "url": "https://www.hankyung.com/article/2026060841121",
+      "summary": "국내 증시가 지난 5일부터 2거래일 연속 하락세를 이어가면서 연일 몸집을 불리던 상장지수펀드(ETF) 시가총액이 다시 500조원 밑으로 떨어진 것으로 나타났다. 지수 하락에 따라 코스피 등 지수형 ETF는 물론 테마형 ETF, 단일종목 레버리지 ETF 등 종류를 막론하고 대부분 상품에서 자금이 빠져나갔기 때문이다.한국거래소에 따르면 8일 기준 국내 ETF ...",
+      "datetime_raw": "2026.06.08 17:55",
+      "datetime": "2026-06-08T17:55:00+09:00",
+      "dt": "2026-06-08 17:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "연일 몸집 불리던 ETF"
+      ],
+      "hash": "bd9399bd2036"
+    },
+    {
+      "title": "'30만전자·200만닉스' 붕괴…전문가 \"코스피 7000까지 밀린다\"",
+      "url": "https://www.hankyung.com/article/2026060841071",
+      "summary": "코스피지수가 8% 넘게 하락해 7500선이 붕괴했다. 코스닥지수는 9% 급락해 6개월 만에 가장 낮은 수준으로 밀렸다. 반도체 업황 우려와 기준금리 인상 가능성 확대로 글로벌 증시가 조정받은 가운데 상승 속도가 빠르던 한국 증시도 조정을 피해 가지 못했다. 유가증권시장...",
+      "datetime_raw": "2026.06.08 17:48",
+      "datetime": "2026-06-08T17:48:00+09:00",
+      "dt": "2026-06-08 17:48",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "30만전자",
+        "코스피 7000까지 밀린다"
+      ],
+      "hash": "a44d96b887d1"
+    },
+    {
+      "title": "코스피 7500 붕괴…시총 1000兆 증발",
+      "url": "https://www.hankyung.com/article/2026060841481",
+      "summary": "코스피지수가 8% 넘게 하락해 7500선이 붕괴했다. 코스닥지수는 9% 급락해 6개월 만에 가장 낮은 수준으로 밀렸다. 반도체 업황 우려와 기준금리 인상 가능성 확대로 글로벌 증시가 조정받은 가운데 상승 속도가 빠르던 한국 증시도 조정을 피해 가지 못했다. 유가증권시장 시가총액은 2일 고점 대비 1083조원 증발했다. 8일 코스피지수는 8.29% ...",
+      "datetime_raw": "2026.06.08 17:45",
+      "datetime": "2026-06-08T17:45:00+09:00",
+      "dt": "2026-06-08 17:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 7500 붕괴"
+      ],
+      "hash": "1e9a646f5a3b"
+    },
+    {
+      "title": "60만원대 초고가 볼펜이 완판…'日 국민 필기구' 제브라의 반란 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026060841091",
+      "summary": "60만원대 초고가 볼펜이 완판…'日 국민 필기구' 제브라의 반란 일본의 대표 문구 기업 제브라가 내놓은 6만엔대 초고가 볼펜이 예상 밖의 인기를 끌고 있다. 초기 물량이 완판되고 예약 대기까지 발생했다. 기존의 대중적 이미지에서 벗...",
+      "datetime_raw": "2026.06.08 17:41",
+      "datetime": "2026-06-08T17:41:00+09:00",
+      "dt": "2026-06-08 17:41",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "日 국민 필기구",
+        "60만원대 초고가 볼펜이 완판"
+      ],
+      "hash": "d926e3098119"
+    },
+    {
+      "title": "두번 우는 코스닥…상승장엔 소외, 폭락장엔 동행",
+      "url": "https://www.hankyung.com/article/2026060841061",
+      "summary": "77.60%, -1.52%. 올해 들어 8일까지 코스피지수 상승률과 코스닥지수 하락률이다. 코스피지수가 연간 75% 이상 오르며 초강세를 보이는 와중에 코스닥시장은 좀처럼 상승의 실마리를 찾지 못하고 있다.한국거래소에 따르면 이날 코스닥지수는 9.08% 하락한 911.39에 장을 마감했다. 종가 기준으로 3개월 만에 천스닥이 붕괴하며 한 해 상승분을 모두 ...",
+      "datetime_raw": "2026.06.08 17:38",
+      "datetime": "2026-06-08T17:38:00+09:00",
+      "dt": "2026-06-08 17:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "두번 우는 코스닥"
+      ],
+      "hash": "5d6b362730b7"
+    },
+    {
+      "title": "적자 늪에서 조용히 칼 갈더니…\"드디어 오르나\" 개미 들썩",
+      "url": "https://www.hankyung.com/article/2026060840371",
+      "summary": "롯데그룹 지주회사인 롯데지주가 올 하반기 주가 반등에 나설 것이란 전망이 나오고 있다. 그간 롯데지주는 유통 부문 실적 악화와 케미칼·건설 등 재무 부담 가중으로 부진을 면치 못했다. 하지만 올해 들어 주요 사업 실적이 눈에 띄게 개선됐고, 그룹 포트폴리오...",
+      "datetime_raw": "2026.06.08 17:38",
+      "datetime": "2026-06-08T17:38:00+09:00",
+      "dt": "2026-06-08 17:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "드디어 오르나",
+        "적자 늪에서 조용히 칼 갈더니"
+      ],
+      "hash": "7d0141c22cb7"
+    },
+    {
+      "title": "급락장서 '하이닉스 레버리지' 50% 뛴 까닭",
+      "url": "https://www.hankyung.com/article/2026060840391",
+      "summary": "국내 최초로 상장된 단일종목레버리지 상장지수펀드(ETF)가 인기를 끌고 있는 가운데 장 마감 직전 시장가로 주문한 ETF 가격이 50% 가까이 급등하는 이례적인 사고가 발생했다. 레버리지 상품의 높은 변동성과 구조적 위험성을 보여준 사례라는 평가가 나온다.◇장 마감 직...",
+      "datetime_raw": "2026.06.08 17:35",
+      "datetime": "2026-06-08T17:35:00+09:00",
+      "dt": "2026-06-08 17:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하이닉스 레버리지"
+      ],
+      "hash": "a10ee693d26e"
+    },
+    {
+      "title": "공매도 잔액 22조 돌파…대차거래액은 182조",
+      "url": "https://www.hankyung.com/article/2026060840321",
+      "summary": "유가증권시장의 공매도 잔액이 22조원을 넘어섰다. 대차거래 잔액도 역대 최고 수준까지 늘면서 종목별 변동성이 확대될 수 있다는 전망이 나온다.한국거래소에 따르면 최신 집계일인 지난 2일 유가증권시장 공매도 순보유잔액은 22조4942억원을 나타났다. 이는 연초(1월 2일...",
+      "datetime_raw": "2026.06.08 17:35",
+      "datetime": "2026-06-08T17:35:00+09:00",
+      "dt": "2026-06-08 17:35",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "공매도 잔액 22조 돌파"
+      ],
+      "hash": "1f04892f54a5"
+    },
+    {
+      "title": "\"솔스티스, 에이펙스E3·텐서릭스와 맞손…소버린 AI 시장 진출\"",
+      "url": "https://www.hankyung.com/article/2026060838476",
+      "summary": "솔라나 기반 온체인 신용·재무관리 플랫폼 솔스티스가 소버린 인공지능(AI) 인프라 금융시장에 진출한다고 블루밍비트가 8일 보도했다.솔스티스는 소버린 AI 인프라 기업인...",
+      "datetime_raw": "2026.06.08 16:58",
+      "datetime": "2026-06-08T16:58:00+09:00",
+      "dt": "2026-06-08 16:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "솔스티스"
+      ],
+      "hash": "b98246770c00"
+    },
+    {
+      "title": "30만전자, 200만닉스 붕괴…글로벌 금융위기 때도 없었던 '서킷브레이커' 올해만 세번째",
+      "url": "https://www.hankyung.com/article/202606083617i",
+      "summary": "코스피 시장에서 패닉으로 인한 투매를 막기 위해 거래를 일정 기간 원천적으로 차단하는 '서킷브레이커'가 발동된 것은 지난 1998년 제도가 만들어진 뒤 아홉차례에 불과했다. 2001년 9·11 테러 때 발동한 이후엔 2020년 코로나 19가 ...",
+      "datetime_raw": "2026.06.08 16:43",
+      "datetime": "2026-06-08T16:43:00+09:00",
+      "dt": "2026-06-08 16:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "30만전자",
+        "서킷브레이커"
+      ],
+      "hash": "54c4dde8f173"
+    },
+    {
+      "title": "\"젠슨 황 효과\"…'검은 월요일' 공포에도 주가 오른 기업들 [종목+]",
+      "url": "https://www.hankyung.com/article/202606083739i",
+      "summary": "8일 코스피가 7500선까지 내준 가운데 시가총액 상위 100개 기업 중 네이버와 SK텔레콤, LG유플러스만 유일하게 주가가 상승한 것으로 나타났다. 이들 기업은 방한 중인 젠슨 황 엔비디아 최고경영자(CEO)가 인공지능(AI) 팩토리 공동 구축 등 협력 방안을 발표하...",
+      "datetime_raw": "2026.06.08 16:35",
+      "datetime": "2026-06-08T16:35:00+09:00",
+      "dt": "2026-06-08 16:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "검은 월요일",
+        "젠슨 황 효과"
+      ],
+      "hash": "2dbe0bbad606"
+    },
+    {
+      "title": "솔스티스, 에이펙스E3·텐서릭스와 맞손…'소버린 AI' 시장 진출",
+      "url": "https://www.hankyung.com/article/202606083859B",
+      "summary": "솔라나(SOL) 기반 온체인 신용·재무관리 플랫폼 솔스티스(Solstice)가 소버린 인공지능(AI) 인프라 금융시장에 진출한다.솔스티스는 에이펙스E3(ApexE3), 텐서릭스(Tensorix)와 파트너십을 맺고 소버린 AI 인프라 금융 사업을 본격화한다고 8일 밝혔다...",
+      "datetime_raw": "2026.06.08 16:32",
+      "datetime": "2026-06-08T16:32:00+09:00",
+      "dt": "2026-06-08 16:32",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "솔스티스",
+        "소버린 AI"
+      ],
+      "hash": "7ea76ced6891"
+    },
+    {
+      "title": "환율 급등에 은행권도 비상…긴급회의 소집·모니터링 강화",
+      "url": "https://www.hankyung.com/article/202606083853Y",
+      "summary": "1,600원대 환율도 염두 '컨틴전시 플랜' 준비원/달러 환율이 1,500원대에서 고공행진을 이어가자 은행권도 대응 수위를 점차 높이는 모습이다.8일 금융권에 따르면 KB금융지주는 이날 오전 임원회의에서 외환시장 동향과 그룹 전반의 대응 현황을 점검했다....",
+      "datetime_raw": "2026.06.08 16:31",
+      "datetime": "2026-06-08T16:31:00+09:00",
+      "dt": "2026-06-08 16:31",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "환율 급등에 은행권도 비상"
+      ],
+      "hash": "97d48b0d87c4"
+    },
+    {
+      "title": "\"오를 땐 덜 오르더니 빠질땐 더 빠지네\" 코스닥 한해 상승분 전부 반납",
+      "url": "https://www.hankyung.com/article/202606083543i",
+      "summary": "+77.60%, - 1.52%. 올해들어 코스피지수와 코스닥지수의 등락률이다. 코스피지수가 연간 75% 이상 오르며 초강세를 보이는 와중에 코스닥시장은 좀처럼 상승의 실마리를 찾지 못하고 있다.8일 한국거래소에 따르면 이날 코스닥지수는 9.08% 하락한 911.39에 ...",
+      "datetime_raw": "2026.06.08 16:16",
+      "datetime": "2026-06-08T16:16:00+09:00",
+      "dt": "2026-06-08 16:16",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "오를 땐 덜 오르더니 빠질땐 더 빠지네"
+      ],
+      "hash": "43367caaea6b"
+    },
+    {
+      "title": "'검은 월요일' 코스피, 7500 붕괴…젠슨 황 \"저가매수 기회\"",
+      "url": "https://www.hankyung.com/article/202606083398i",
+      "summary": "코스피지수가 8% 넘게 하락해 7500선이 붕괴됐다. 코스닥지수는 9% 급락해 6개월만에 가장 낮은 수준까지 밀렸다. 반도체 업황 우려와 중앙은행의 금리 인상 가능성 확대로 글로벌 증시가 조정을 받은 가운데 상승 속도가 빨랐던 한국 증시도 조정을 피해가지 못했다. 유가...",
+      "datetime_raw": "2026.06.08 16:09",
+      "datetime": "2026-06-08T16:09:00+09:00",
+      "dt": "2026-06-08 16:09",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "검은 월요일",
+        "저가매수 기회"
+      ],
+      "hash": "f9821085aff6"
+    },
+    {
+      "title": "'검은 월요일' 못 피했다…美 반도체 쇼크에 국내 증시 '초토화'",
+      "url": "https://www.hankyung.com/article/2026060837216",
+      "summary": "글로벌 반도체주 급락 여파가 국내 증시를 덮치면서 코스피와 코스닥이 나란히 8% 넘게 폭락 마감했다. 코스피 낙폭은 올 들어 두번째로 컸다. 장중 유가증권시장과 코스닥시장 모두 서킷브레이커가 발동되며 거래가 일시 중단되는 등 투자심리가 급격히 얼어붙었다.8일 한국거래소...",
+      "datetime_raw": "2026.06.08 16:04",
+      "datetime": "2026-06-08T16:04:00+09:00",
+      "dt": "2026-06-08 16:04",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "초토화",
+        "검은 월요일"
+      ],
+      "hash": "fada0bd9177a"
+    },
+    {
+      "title": "코스피 급락에 승승장구 하던 ETF 시총도 다시 500조원 밑으로",
+      "url": "https://www.hankyung.com/article/202606083690i",
+      "summary": "국내 증시가 지난 5일부터 2거래일 연속 하락세를 이어가면서 연일 몸집을 불리던 상장지수펀드(ETF) 시가총액이 다시 500조원 밑으로...",
+      "datetime_raw": "2026.06.08 15:59",
+      "datetime": "2026-06-08T15:59:00+09:00",
+      "dt": "2026-06-08 15:59",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "76c3df77f74a"
+    },
+    {
       "title": "코스피 8% 급락한 7484.41 마감…코스닥도 9% 하락",
       "url": "https://www.hankyung.com/article/2026060836766",
       "summary": "코스피 8% 급락한 7484.41 마감…코스닥도 9% 하락김연지 한경닷컴 기자 kongzi@hankyung.com",
@@ -55,6 +367,90 @@
         "코스피 8% 급락한 7484.41 마감"
       ],
       "hash": "bfc0c15ed281"
+    },
+    {
+      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
+      "url": "https://www.hankyung.com/article/202605256557i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "날벼락",
+        "직원 부탁에 실업급여 타게 해줬다가"
+      ],
+      "hash": "3264ddb106b2"
+    },
+    {
+      "title": "하이닉스 7% 빠졌는데 '50% 폭등' 마감…레버리지 '호가 참사'",
+      "url": "https://www.hankyung.com/article/202606083814i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "호가 참사",
+        "50% 폭등"
+      ],
+      "hash": "d1eda8c8bbc7"
+    },
+    {
+      "title": "60조 잭팟 터질라…1년 만에 '92% 급등' 들썩이는 종목",
+      "url": "https://www.hankyung.com/article/2026060717461",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "92% 급등",
+        "60조 잭팟 터질라"
+      ],
+      "hash": "8a26e09a7cad"
+    },
+    {
+      "title": "\"서울에 호텔방이 없어요\" 싹 동났다…'역대급 호황' 이유",
+      "url": "https://www.hankyung.com/article/2026060716681",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "역대급 호황",
+        "서울에 호텔방이 없어요"
+      ],
+      "hash": "7be8479ce365"
+    },
+    {
+      "title": "'지금 들어가야 돈 번다'…부자들 800억 넘게 쓸어 담은 종목",
+      "url": "https://www.hankyung.com/article/202606071382i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "지금 들어가야 돈 번다"
+      ],
+      "hash": "11ae12da0f62"
     },
     {
       "title": "코스닥, 거래재개…'서킷브레이커' 20분간 매매중단 해제",
@@ -370,89 +766,6 @@
         "서킷브레이커"
       ],
       "hash": "242387fd27b6"
-    },
-    {
-      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
-      "url": "https://www.hankyung.com/article/202605256557i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "날벼락",
-        "직원 부탁에 실업급여 타게 해줬다가"
-      ],
-      "hash": "3264ddb106b2"
-    },
-    {
-      "title": "'오세훈 앞날 어쩌나'…시의회·구청장, 민주당에 다 뺏겼다",
-      "url": "https://www.hankyung.com/article/2026060502201",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "오세훈 앞날 어쩌나"
-      ],
-      "hash": "68d57c977da7"
-    },
-    {
-      "title": "'지금 들어가야 돈 번다'…부자들 800억 넘게 쓸어 담은 종목",
-      "url": "https://www.hankyung.com/article/202606071382i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "지금 들어가야 돈 번다"
-      ],
-      "hash": "11ae12da0f62"
-    },
-    {
-      "title": "\"시원하다, 시원해\" 감탄…금값 뛰더니 20대 '최애템' 됐다",
-      "url": "https://www.hankyung.com/article/2026060598297",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "최애템",
-        "시원하다"
-      ],
-      "hash": "6148a309544e"
-    },
-    {
-      "title": "60조 잭팟 터질라…1년 만에 '92% 급등' 들썩이는 종목",
-      "url": "https://www.hankyung.com/article/2026060717461",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "92% 급등",
-        "60조 잭팟 터질라"
-      ],
-      "hash": "8a26e09a7cad"
     },
     {
       "title": "'공포의 검은 월요일'…코스피 8% 폭락에 개미들 '패닉'",
@@ -806,305 +1119,6 @@
         "스페이스X 블랙홀 되나"
       ],
       "hash": "337e51859010"
-    },
-    {
-      "title": "외국인 매도에 2분기 환율 외환위기 후 최고…공항선 1620원대",
-      "url": "https://www.hankyung.com/article/202606071069Y",
-      "summary": "원화 가치 이달에만 3.5% 하락…하락폭 러시아 이어 주요국 2위구두 개입에도 사라진 경계감…경상수지 흑자여도 기업 달러 충분히 안 풀려올해 2분기 원/달러 평균 환율이 외환위기 이후 최고 수준으로 치솟았다.주식시장에서 외국인 매도세가 이어지는...",
-      "datetime_raw": "2026.06.07 06:41",
-      "datetime": "2026-06-07T06:41:00+09:00",
-      "dt": "2026-06-07 06:41",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "외국인 매도에 2분기 환율 외환위기 후 최고"
-      ],
-      "hash": "0036c78ffc33"
-    },
-    {
-      "title": "반도체 급락에 개미들 '당황'…연기금·외국인은 '이것' 샀다 [종목+]",
-      "url": "https://www.hankyung.com/article/2026060595766",
-      "summary": "인공지능(AI) 투자의 정점 통과(피크아웃) 우려가 또 불거졌다. 고객의 요구대로 맞춤형 반도체를 만들어주는 주문형반도체(ASIC) 설계기업 브로드컴이 시장 기대에 못 미치는 AI 반도체 매출 가이던스(자체 전망치)를 내놓자, 이전까지 투자심리를 독차지하며 급등했던 반...",
-      "datetime_raw": "2026.06.06 17:08",
-      "datetime": "2026-06-06T17:08:00+09:00",
-      "dt": "2026-06-06 17:08",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "당황",
-        "이것"
-      ],
-      "hash": "299064f36962"
-    },
-    {
-      "title": "코스피 오를 때 20% 빠진 '이 종목'…\"하반기 희소식 있다\" [종목+]",
-      "url": "https://www.hankyung.com/article/2026060599406",
-      "summary": "건설주 주가가 부진한 흐름을 이어가고 있다. 중동 분쟁 장기화로 재건 수혜 기대가 사그라든 데다 연초 상승세를 이끌었던 원전 모멘텀도 한풀 꺾인 탓으로 분석된다. 다만 증권가에서는 하반기부터 원전 수주 소식이 들려오면서 건설주를 둘러싼 투자심리가 개선될 것으로 전망한다...",
-      "datetime_raw": "2026.06.06 16:02",
-      "datetime": "2026-06-06T16:02:00+09:00",
-      "dt": "2026-06-06 16:02",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "하반기 희소식 있다"
-      ],
-      "hash": "a98ce81de438"
-    },
-    {
-      "title": "\"월요일이 무섭다\"…하루 만에 시총 2000조원 증발 '공포'",
-      "url": "https://www.hankyung.com/article/2026060609047",
-      "summary": "미국 뉴욕증시에서 인공지능(AI) 수혜주로 주목받아온 반도체 종목들이 5일(현지시간) 일제히 급락하며 시가총액 약 1조3000억달러(약 2026조원)가 하루 만에 증발했다.브로드컴의 AI 반도체 사업 성장세가 시장 기대에 못 미쳤다는 평가가 확산한 데다 미국 고용지표 ...",
-      "datetime_raw": "2026.06.06 15:54",
-      "datetime": "2026-06-06T15:54:00+09:00",
-      "dt": "2026-06-06 15:54",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "공포",
-        "월요일이 무섭다"
-      ],
-      "hash": "549f0a774f18"
-    },
-    {
-      "title": "젠슨 황 '삼소 회동' 1년 전에 'SK·네이버·LG 주식' 샀다면…",
-      "url": "https://www.hankyung.com/article/2026060608347",
-      "summary": "젠슨 황 엔비디아 최고경영자(CEO)와 최태원 SK그룹 회장, 구광모 LG그룹 회장, 이해진 네이버 창업자의 '삼소 회동'이 시장의 관심을 끌면서 관련 기업 주가에도 관심이 높아졌다. 인공지능(AI) 반도체와 고대역폭메모리(HBM), 로봇, 플랫폼 협력 ...",
-      "datetime_raw": "2026.06.06 14:23",
-      "datetime": "2026-06-06T14:23:00+09:00",
-      "dt": "2026-06-06 14:23",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼소 회동",
-        "SK·네이버·LG 주식"
-      ],
-      "hash": "17cf06e44e3b"
-    },
-    {
-      "title": "\"어제 레버리지 샀더니…\" 삼전닉스 급락에 개미들 '멘붕'",
-      "url": "https://www.hankyung.com/article/2026060607267",
-      "summary": "삼성전자와 SK하이닉스 주가가 급락하면서 두 종목 상승에 베팅한 개인 투자자들의 손실이 커졌다. 인공지능(AI)발 반도체 초호황 기대감에 레버리지 상품으로 뒤늦게 뛰어든 투자자들은 하루 만에 두 자릿수 손실을 떠안게 됐다.6일 한국거래소에 따르면 전날 삼성전자와 SK하...",
-      "datetime_raw": "2026.06.06 13:21",
-      "datetime": "2026-06-06T13:21:00+09:00",
-      "dt": "2026-06-06 13:21",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "멘붕",
-        "어제 레버리지 샀더니"
-      ],
-      "hash": "0252fd1e06fc"
-    },
-    {
-      "title": "머스크 또 '돈벼락' 맞나…'5000조' 파격 전망에 관심 폭발",
-      "url": "https://www.hankyung.com/article/2026060606977",
-      "summary": "일론 머스크가 이끄는 우주기업 스페이스X의 매출이 2040년 5000조원대에 달할 것이라는 전망이 나왔다. 기업공개를 앞두고 월가 투자은행들이 공격적인 성장 전망을 내놓으면서 시장의 관심이 커지고 있다.5일(현지시간) 월스트리트저널에 따르면 스페이스X 기업공개...",
-      "datetime_raw": "2026.06.06 09:01",
-      "datetime": "2026-06-06T09:01:00+09:00",
-      "dt": "2026-06-06 09:01",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "돈벼락",
-        "5000조"
-      ],
-      "hash": "4cb617564769"
-    },
-    {
-      "title": "17년만에 최고 찍은 원달러 환율…하반기 전망과 수혜·피해주는",
-      "url": "https://www.hankyung.com/article/202606059310i",
-      "summary": "원·달러 환율 10년 궤적과 현재의 고환율 구조 분석원·달러 환율은 1997년 외환위기 이후 최장 기간인 14거래일 연속 1,500원대를 유지하고 있다.2009년 글로벌 금융위기 당시의 11거래일 기록을 넘어선 것으로, 한국 외환시장 역사상 전...",
-      "datetime_raw": "2026.06.06 08:10",
-      "datetime": "2026-06-06T08:10:00+09:00",
-      "dt": "2026-06-06 08:10",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "17년만에 최고 찍은 원달러 환율"
-      ],
-      "hash": "bded6a153aea"
-    },
-    {
-      "title": "원·달러 환율, 장중 1560원도 뚫어…금융위기 이후 최고치",
-      "url": "https://www.hankyung.com/article/2026060605867",
-      "summary": "원·달러 환율이 야간 거래에서 장중 달러당 1560원선을 넘어섰다. 글로벌 금융위기 이후 17년여 만에 가장 높은 수준이다.6일 서울 외환시장 야간 거래에서 오전 2시 기준 원·달러 환율은 달러당 1559.0원에 마감했다. 전날 주간 거래 종가...",
-      "datetime_raw": "2026.06.06 07:04",
-      "datetime": "2026-06-06T07:04:00+09:00",
-      "dt": "2026-06-06 07:04",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "6916af4cb9a4"
-    },
-    {
-      "title": "미친 듯이 파는 외국인…증시·환율 '검은 금요일'",
-      "url": "https://www.hankyung.com/article/2026060502691",
-      "summary": "코스피지수가 5% 넘게 급락했다. 미국 증시에서 반도체 기업 실적 우려가 제기되자 반도체 중심의 상승세를 이어가던 코스피지수가 큰 폭으로 조정받았다. 외국인 투자자 매도세가 강하게 나타나면서 원·달러 환율은 1550원 턱밑까지 급등했다. 5일 코스피지수는 5.54% 내린 8160.59에 마감했다. 장중 8038.10까지 내려 &lsqu...",
-      "datetime_raw": "2026.06.06 01:26",
-      "datetime": "2026-06-06T01:26:00+09:00",
-      "dt": "2026-06-06 01:26",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "검은 금요일",
-        "미친 듯이 파는 외국인"
-      ],
-      "hash": "6794ba7bcbb1"
-    },
-    {
-      "title": "'브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+]",
-      "url": "https://www.hankyung.com/article/2026060500626",
-      "summary": "미국 맞춤형 인공지능(AI) 칩 설계회사 브로드컴이 시장 기대에 못 미치는 실적 전망을 내놓으면서 국내 반도체주 투자심리가 경색, 투매가 확산했다. 삼성전자와 SK하이닉스가 나란히 급락한 데 이어 반도체 장비·소부장 종목들까지 일제히 하락하며 &#...",
-      "datetime_raw": "2026.06.05 22:00",
-      "datetime": "2026-06-05T22:00:00+09:00",
-      "dt": "2026-06-05 22:00",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "브로드컴 쇼크",
-        "저가매수 기회"
-      ],
-      "hash": "289689211c21"
-    },
-    {
-      "title": "\"'IPX NFT 파트너' 크립코, 커뮤니티 폐쇄…러그풀 논란\"",
-      "url": "https://www.hankyung.com/article/2026060500806",
-      "summary": "디지털 지식재산권(IP) 엔터테인먼트 기업 IPX(구 라인프렌즈)의 파트너사 크립코가 대체불가토큰(NFT)을 팔아 투자금을 모은 뒤 도주하는 러그풀 논란에 휩싸였다고 5일 블루밍비트가 보도했다.블루밍비트에 따르면 IPX의 NFT 발행 파트너사인 크립코(CRIPCO)는 ...",
-      "datetime_raw": "2026.06.05 18:47",
-      "datetime": "2026-06-05T18:47:00+09:00",
-      "dt": "2026-06-05 18:47",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "IPX NFT 파트너"
-      ],
-      "hash": "d99fc1ebd4c5"
-    },
-    {
-      "title": "스테이블코인은 어떻게 '결제 인프라'가 되었나",
-      "url": "https://www.hankyung.com/article/2026060598656",
-      "summary": "디지털자산을 오랫동안 지켜본 결과, 지금이 산업의 결정적 변곡점이라고 본다. 한때 스테이블코인은 가상자산 시장의 변동성을 피하기 위한 '대피소', 혹은 거래소 안에서만 의미를 갖는 수단으로 여겨졌다. 그러나 지금 스테이블코인은 글로벌 금융 시스템의 핵심 ...",
-      "datetime_raw": "2026.06.05 18:22",
-      "datetime": "2026-06-05T18:22:00+09:00",
-      "dt": "2026-06-05 18:22",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "결제 인프라"
-      ],
-      "hash": "525cf5d2ce23"
-    },
-    {
-      "title": "'아파트값은 올라도 주가는 안오른다?'…GS건설, 반등할 수 있을까",
-      "url": "https://www.hankyung.com/article/202605296995i",
-      "summary": "건설업은 '내수기업'으로 평가돼 주식시장에서 그다지 관심을 끌지 못했다. '아파트값은 올라도 건설주는 상승하지 않는다'는 자조 섞인 분석도 나왔다. 올해 들어 상황이 달라졌다. 해외 원전 수주, 중동 재건 프로젝트 참여 등을 통해 수출 기업...",
-      "datetime_raw": "2026.06.05 18:00",
-      "datetime": "2026-06-05T18:00:00+09:00",
-      "dt": "2026-06-05 18:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "아파트값은 올라도 주가는 안오른다?"
-      ],
-      "hash": "302826451e42"
-    },
-    {
-      "title": "스페이스X로 몰려가는 증시 자금…'삼전닉스' 조정 시작됐나",
-      "url": "https://www.hankyung.com/article/2026060502141",
-      "summary": "‘9천피’를 바라보던 코스피지수가 급격한 조정을 받은 것은 미국에서 반도체 기업 실적 우려가 나온 영향이다. 그간 코스피지수가 극심한 반도체 쏠림 현상과 함께 급등한 만큼 조정 폭도 주요국 증시보다 컸다. 스페이스X, 오픈AI 등 대규모 기업공개(...",
-      "datetime_raw": "2026.06.05 17:57",
-      "datetime": "2026-06-05T17:57:00+09:00",
-      "dt": "2026-06-05 17:57",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스",
-        "스페이스X로 몰려가는 증시 자금"
-      ],
-      "hash": "056d28c4dfbb"
-    },
-    {
-      "title": "반등하나 싶더니…'천스닥' 한때 붕괴",
-      "url": "https://www.hankyung.com/article/2026060502121",
-      "summary": "지난 4일 반짝 상승한 코스닥지수가 다시 하락했다. 장중 한때 6% 가까이 떨어지며 석 달 만에 천스닥이 붕괴했으나 기관과 개인이 대거 순매수에 나서면서 겨우 1000선을 회복했다.5일 코스닥지수는 전날보다 4.50% 내린 1002.44에 장을 마감했다. 오전 한때 992.80까지 하락해 장중 1000 아래로 떨어졌다. 코스닥지수가 장중 1000선을 내준 ...",
-      "datetime_raw": "2026.06.05 17:55",
-      "datetime": "2026-06-05T17:55:00+09:00",
-      "dt": "2026-06-05 17:55",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "천스닥",
-        "반등하나 싶더니"
-      ],
-      "hash": "9296f971e05b"
-    },
-    {
-      "title": "붉은 사막 흥행 이후 숨고르기…'멀티 IP' 시험대 오른 펄어비스 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026060502351",
-      "summary": "심상찮은 美 반도체 투매…'삼전닉스' 투자 전략은?브로드컴 실적 가이던스에 대한 실망으로 글로벌 반도체 주가가 단기 조정을 받고 있다. 여기에 중동 사태 여파까지 겹쳤다. 삼성전자와 SK하이닉스 주가에는 어떤 영향을 미칠까. 자본시...",
-      "datetime_raw": "2026.06.05 17:38",
-      "datetime": "2026-06-05T17:38:00+09:00",
-      "dt": "2026-06-05 17:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "멀티 IP",
-        "붉은 사막 흥행 이후 숨고르기"
-      ],
-      "hash": "cdfb442d80d3"
-    },
-    {
-      "title": "반도체로 급등했던 코스피, 반도체 악재에 '급락'…\"대형 IPO 앞두고 현금화\" 움직임도",
-      "url": "https://www.hankyung.com/article/202606059708i",
-      "summary": "코스피지수가 5% 넘게 급락했다. 미국 증시에서 반도체 기업 실적 우려가 제기되자 반도체 중심의 상승세가 나타났던 코스피가 큰 폭의 조정을 받았다. 외국인 투자자 매도세가 강하게 나타나면서 원·달러 환율은 1550원 턱밑까지 급등했다. ...",
-      "datetime_raw": "2026.06.05 16:55",
-      "datetime": "2026-06-05T16:55:00+09:00",
-      "dt": "2026-06-05 16:55",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급락",
-        "반도체로 급등했던 코스피",
-        "대형 IPO 앞두고 현금화"
-      ],
-      "hash": "64be358ef79a"
     }
   ],
   "consensus_signals": []

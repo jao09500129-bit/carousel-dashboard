@@ -1,10 +1,20 @@
 {
-  "computed_at": "2026-06-08T16:00:45.115729+09:00",
+  "computed_at": "2026-06-08T23:10:45.815818+09:00",
   "date": "2026-06-08",
-  "low": null,
-  "high": null,
-  "mid": null,
-  "sample_size": 0,
-  "sources": [],
+  "low": 7000,
+  "high": 7000,
+  "mid": 7000,
+  "sample_size": 1,
+  "sources": [
+    {
+      "url": "https://www.hankyung.com/article/2026060841071",
+      "title": "'30만전자·200만닉스' 붕괴…전문가 \"코스피 7000까지 밀린다\"",
+      "low": null,
+      "high": null,
+      "points": [
+        7000
+      ]
+    }
+  ],
   "note": "★ 추정 — 기사 본문 정규식 추출, 백테스트 미검증. 7000~9000 범위 내 수치만 채택."
 }

@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-06-08T16:00:45.115729+09:00",
+  "computed_at": "2026-06-08T23:10:45.815818+09:00",
   "action_headline": "금리 민감 축 가속 + 반도체 신규 진입 검토",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
     "미국 10년 yield +8.0bp — 금리 민감 회전축",
-    "Market Mood 51/100 (NEUTRAL)"
+    "KOSPI 컨센서스 mid 7,000 (7000~7000, n=1)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
