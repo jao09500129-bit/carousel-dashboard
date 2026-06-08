@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-08T09:30:47.424218+09:00",
+  "collected_at": "2026-06-08T10:39:28.640952+09:00",
   "date": "2026-06-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -37,7 +37,137 @@
   },
   "items": [
     {
-      "title": "'검은 월요일' 코스피 8% 폭락…서킷브레이커 발동",
+      "title": "코스콤, 공공부문 안전한 개인정보 전송 지원 나서",
+      "url": "https://www.hankyung.com/article/2026060827926",
+      "summary": "코스콤이 공공시스템운영기관의 본인전송요구권 제도 이행을 지원한다. 오는 8월까지 필요한 개인정보 전송체계 마련을 돕기 위해 응용프로그램인터페이스(API) 방식 전환과 중계시스템 기반 전송 방안을 제공할 계획이다.코스콤은 개인정보관리 전문기관(중계전문기관)으로서 마이데이...",
+      "datetime_raw": "2026.06.08 10:14",
+      "datetime": "2026-06-08T10:14:00+09:00",
+      "dt": "2026-06-08 10:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스콤"
+      ],
+      "hash": "e2ae6c23a5cf"
+    },
+    {
+      "title": "코인원 이용자보호부서, 경찰청장 감사장 수상…피싱 범죄 예방 공로 인정",
+      "url": "https://www.hankyung.com/article/202606082762B",
+      "summary": "코인원이 이용자 보호 및 피싱 범죄 예방 활동 공로를 인정받아 경찰청장 감사장을 수상했다고 8일 밝혔다.코인원에 따르면 지난 4일 열린 '경찰청·국내 5대 가상자산 사업자 업무협약 체결식'에서 이용자보호부서 소속 직원이 경찰청장 감사장을 받았다. 이번 수상은 경찰청 보...",
+      "datetime_raw": "2026.06.08 10:06",
+      "datetime": "2026-06-08T10:06:00+09:00",
+      "dt": "2026-06-08 10:06",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코인원 이용자보호부서"
+      ],
+      "hash": "7423ab3e8a9b"
+    },
+    {
+      "title": "원·달러 환율 1555원 쇼크…17년3개월 만에 최고치 '초비상'",
+      "url": "https://www.hankyung.com/article/2026060825346",
+      "summary": "원·달러 환율이 17년3개월 만에 개장가 최고치를 기록했다.8일 오전 9시 서울 외환시장에서 원·달러 환율은 직전 거래일 주간 종가(1539.1원) 대비 16.1원 오른 1555.2원에 거래를 시작했다. 환율 시초가로는 글로벌 금융위기 당시인 ...",
+      "datetime_raw": "2026.06.08 09:49",
+      "datetime": "2026-06-08T09:49:00+09:00",
+      "dt": "2026-06-08 09:49",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "초비상"
+      ],
+      "hash": "a468f45b2dc3"
+    },
+    {
+      "title": "코스피, 서킷브레이커 이어 매도 사이드카",
+      "url": "https://www.hankyung.com/article/2026060826606",
+      "summary": "[속보] 코스피, 서킷브레이커 이어 매도사이드카김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.08 09:48",
+      "datetime": "2026-06-08T09:48:00+09:00",
+      "dt": "2026-06-08 09:48",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "54cf6ae6097a"
+    },
+    {
+      "title": "\"AI 주식 매우 싸다\" 젠슨 황 구원 등판…삼전닉스 낙폭 줄었다",
+      "url": "https://www.hankyung.com/article/2026060825726",
+      "summary": "삼성전자와 SK하이닉스가 8일 장 초반 동반 급락하며 국내 증시를 뒤흔들었다. 미국 반도체주 폭락 충격이 국내 시장으로 번지면서 '30만전자'와 '200만닉스'가 동시에 무너졌다. 다만 서킷브레이커 발동 이후 시장이 다소 진정되면서 장 초반...",
+      "datetime_raw": "2026.06.08 09:45",
+      "datetime": "2026-06-08T09:45:00+09:00",
+      "dt": "2026-06-08 09:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 주식 매우 싸다"
+      ],
+      "hash": "06562034f6d8"
+    },
+    {
+      "title": "과거 대폭락 때마다 한 달 내 회복…지금 코스피 대응전략은?",
+      "url": "https://www.hankyung.com/article/202606082472i",
+      "summary": "코스피 매도 사이드카 및 서킷브레이커 발동 사례매도 사이드카 발동 사례매도 사이드카는 코스피200 선물 가격이 전일 대비 5% 이상 하락한 상태가 1분 이상 지속될 때 발동되며, 발동 시점부터 5분간 프로그램 매도 호가의 효력이 정지된다.코스피 시...",
+      "datetime_raw": "2026.06.08 09:45",
+      "datetime": "2026-06-08T09:45:00+09:00",
+      "dt": "2026-06-08 09:45",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "과거 대폭락 때마다 한 달 내 회복"
+      ],
+      "hash": "8e6906f99e91"
+    },
+    {
+      "title": "피스피스스튜디오, 코스닥 상장 첫날 '급락'",
+      "url": "https://www.hankyung.com/article/2026060825886",
+      "summary": "브랜드 '마르디 메크르디' 운영사 피스피스스튜디오가 코스닥시장 상장 첫날인 8일 장 초반 급락세다.이날 오전 9시30분 현재 피스피스스튜디오는 공모가(2만1500원) 대비 2580원(12.0%) 내린 1만8920원에 거래되고 있다. 앞서 피스피스...",
+      "datetime_raw": "2026.06.08 09:38",
+      "datetime": "2026-06-08T09:38:00+09:00",
+      "dt": "2026-06-08 09:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급락",
+        "피스피스스튜디오"
+      ],
+      "hash": "20338fb34412"
+    },
+    {
+      "title": "코스피, 거래 재개…'서킷브레이커' 20분간 매매중단 해제",
+      "url": "https://www.hankyung.com/article/2026060825746",
+      "summary": "[속보] 코스피, 거래 재개…'서킷브레이커' 20분간 매매중단 해제김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.08 09:35",
+      "datetime": "2026-06-08T09:35:00+09:00",
+      "dt": "2026-06-08 09:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피",
+        "서킷브레이커"
+      ],
+      "hash": "242387fd27b6"
+    },
+    {
+      "title": "'공포의 검은 월요일'…코스피 8% 폭락에 개미들 '패닉'",
       "url": "https://www.hankyung.com/article/2026060824616",
       "summary": "코스피지수가 8일 장 초반 8% 넘게 급락하며 7400선까지 밀렸다. 미국 브로드컴의 실적 전망 실망감으로 미 반도체주가 급락한 여파가 국내 증시를 덮치면서 개장 직후 유가증권시장에는 1단계 서킷브레이커가 발동됐다.이날 오전 9시9분 현재 코스피지수는 전 거래일 대비 ...",
       "datetime_raw": "2026.06.08 09:19",
@@ -48,7 +178,8 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "검은 월요일"
+        "패닉",
+        "공포의 검은 월요일"
       ],
       "hash": "4f0cebb82e08"
     },
@@ -235,6 +366,89 @@
       "hash": "abdb7567148d"
     },
     {
+      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
+      "url": "https://www.hankyung.com/article/202605256557i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "날벼락",
+        "직원 부탁에 실업급여 타게 해줬다가"
+      ],
+      "hash": "3264ddb106b2"
+    },
+    {
+      "title": "'오세훈 앞날 어쩌나'…시의회·구청장, 민주당에 다 뺏겼다",
+      "url": "https://www.hankyung.com/article/2026060502201",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "오세훈 앞날 어쩌나"
+      ],
+      "hash": "68d57c977da7"
+    },
+    {
+      "title": "'지금 들어가야 돈 번다'…부자들 800억 넘게 쓸어 담은 종목",
+      "url": "https://www.hankyung.com/article/202606071382i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "지금 들어가야 돈 번다"
+      ],
+      "hash": "11ae12da0f62"
+    },
+    {
+      "title": "\"시원하다, 시원해\" 감탄…금값 뛰더니 20대 '최애템' 됐다",
+      "url": "https://www.hankyung.com/article/2026060598297",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "최애템",
+        "시원하다"
+      ],
+      "hash": "6148a309544e"
+    },
+    {
+      "title": "60조 잭팟 터질라…1년 만에 '92% 급등' 들썩이는 종목",
+      "url": "https://www.hankyung.com/article/2026060717461",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "92% 급등",
+        "60조 잭팟 터질라"
+      ],
+      "hash": "8a26e09a7cad"
+    },
+    {
       "title": "\"버블붕괴인가, 단기조정인가…두 가지 지표만 확인하면 알 수 있어\"",
       "url": "https://www.hankyung.com/article/202606059934i",
       "summary": "\"금리 상승이 무조건적인 매도 신호는 아닙니다. '인플레이션으로 인해 되돌릴 수 없는 상황인지' 또는 '경험해보지 못한 금리 수준으로 진입하는 지' 등을 확인하는 것만으로도 단기 조정을 이용한 성공적인 투자가 가능합니다.\"2026년 상반기 ...",
@@ -371,88 +585,6 @@
         "국민 재테크"
       ],
       "hash": "5959a52467b6"
-    },
-    {
-      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
-      "url": "https://www.hankyung.com/article/202605256557i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "날벼락",
-        "직원 부탁에 실업급여 타게 해줬다가"
-      ],
-      "hash": "3264ddb106b2"
-    },
-    {
-      "title": "'오세훈 앞날 어쩌나'…시의회·구청장, 민주당에 다 뺏겼다",
-      "url": "https://www.hankyung.com/article/2026060502201",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "오세훈 앞날 어쩌나"
-      ],
-      "hash": "68d57c977da7"
-    },
-    {
-      "title": "'지금 들어가야 돈 번다'…부자들 800억 넘게 쓸어 담은 종목",
-      "url": "https://www.hankyung.com/article/202606071382i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "지금 들어가야 돈 번다"
-      ],
-      "hash": "11ae12da0f62"
-    },
-    {
-      "title": "\"시원하다, 시원해\" 감탄…금값 뛰더니 20대 '최애템' 됐다",
-      "url": "https://www.hankyung.com/article/2026060598297",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "최애템",
-        "시원하다"
-      ],
-      "hash": "6148a309544e"
-    },
-    {
-      "title": "젠슨 황, 전영현 삼성전자 부회장과 회동…HBM4 물량 확보 나선다",
-      "url": "https://www.hankyung.com/article/202606071379i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "젠슨 황"
-      ],
-      "hash": "68cf1a91d58e"
     },
     {
       "title": "\"스페이스X 블랙홀 되나\"…코스피 흔들 변수에 쏠리는 시선 [주간전망]",
@@ -981,137 +1113,6 @@
         "강원경찰청"
       ],
       "hash": "3b53026fb2b9"
-    },
-    {
-      "title": "도지OS 창업자 \"도지코인 사용자 1000만 시대…실사용 경제 구축\"",
-      "url": "https://www.hankyung.com/article/2026060592086",
-      "summary": "\"도지코인(DOGE)은 1000만 명 이상의 사용자를 확보했지만 아직 실사용 경제는 초기 단계에 머물러 있습니다. 도지OS는 디파이(탈중앙화금융)와 소비자 애플리케이션을 통해 도지코인을 실제 활용하는 인터넷 경제로 확장할 계획입니다.\"5일 블루밍비트에 따르면 조던 제퍼...",
-      "datetime_raw": "2026.06.05 11:05",
-      "datetime": "2026-06-05T11:05:00+09:00",
-      "dt": "2026-06-05 11:05",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "도지코인 사용자 1000만 시대…실사용 경제 구축"
-      ],
-      "hash": "1cb732111797"
-    },
-    {
-      "title": "\"젠슨 황은 믿어야지\"…'검은 금요일' 초고수들 몰린 곳",
-      "url": "https://www.hankyung.com/article/202606059233i",
-      "summary": "투자수익률 상위 1%의 초고수가 5일 오전 증시에서 젠슨 황 엔비디아 최고경영자(CEO)와 총수 간 회동이 예정된 네이버, SK하이닉스, LG전자 등을 가장 많이 매수한 것으로 나타났다. 반면 삼성SDI와 포스코홀딩스, 삼성전기 등 최근 주가가 급등한 기업에는 매도세가...",
-      "datetime_raw": "2026.06.05 10:59",
-      "datetime": "2026-06-05T10:59:00+09:00",
-      "dt": "2026-06-05 10:59",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "검은 금요일",
-        "젠슨 황은 믿어야지"
-      ],
-      "hash": "08d0a03ff83c"
-    },
-    {
-      "title": "환율 1540원 넘어 금융위기 후 최고…K증시 '빨간불' [분석+]",
-      "url": "https://www.hankyung.com/article/2026060589856",
-      "summary": "원·달러 환율이 5일 중동발 지정학적 충격과 외국인 자금 이탈이 겹치면서 1540원을 넘었다. 금융위기 이후 최고 수준으로 뛴 것이다.국제 유가 급등에 따른 달러 강세와 국내 증시 매도 압력이 맞물리며 정부와 한국은행의 연이은 구두 개입도 시장 흐름을 되돌...",
-      "datetime_raw": "2026.06.05 10:18",
-      "datetime": "2026-06-05T10:18:00+09:00",
-      "dt": "2026-06-05 10:18",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "빨간불",
-        "환율 1540원 넘어 금융위기 후 최고"
-      ],
-      "hash": "737819b98945"
-    },
-    {
-      "title": "젠슨 황 기대에 상한가→급락…'로봇株 옥석가리기' 시작 됐다",
-      "url": "https://www.hankyung.com/article/202606058492i",
-      "summary": "이달 1일 코스피 시장에서 LG전자, 두산로보틱스, 현대차가 일제히 큰 폭으로 상승했다. 젠슨 황 엔비디아 최고경영자(CEO)가 방한해 이들과 로봇 관련 협업을 논의한다는 소식 때문이다. 코스닥에서도 로보스타, 로보티즈, 엔젤로보틱스, 유일로보틱스 등 사명에 '...",
-      "datetime_raw": "2026.06.05 10:03",
-      "datetime": "2026-06-05T10:03:00+09:00",
-      "dt": "2026-06-05 10:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "로봇株 옥석가리기",
-        "젠슨 황 기대에 상한가→급락"
-      ],
-      "hash": "647849e09460"
-    },
-    {
-      "title": "코스닥, 장중 1000선 붕괴…투심 급랭",
-      "url": "https://www.hankyung.com/article/2026060589616",
-      "summary": "[속보] 코스닥, 장중 1000선 붕괴…투심 급랭김연지 한경닷컴 기자 kongzi@hankyung.com",
-      "datetime_raw": "2026.06.05 09:52",
-      "datetime": "2026-06-05T09:52:00+09:00",
-      "dt": "2026-06-05 09:52",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스닥"
-      ],
-      "hash": "938e701024de"
-    },
-    {
-      "title": "\"케이젠, 토큰 공급량 축소 프레임워크 출시\"",
-      "url": "https://www.hankyung.com/article/2026060588696",
-      "summary": "웹3 데이터 인프라 기업 케이젠이 매출 증가와 토큰 공급량 감소를 연동하는 '케이젠 2.0' 프레임워크를 출시했다고 블루밍비트가 5일 보도했다.이번 조치로 케이젠은 인공지능(AI) 기업들과의 파트너십으로 번 매출을 토큰 가치 상승으로 연결, 현재...",
-      "datetime_raw": "2026.06.05 09:43",
-      "datetime": "2026-06-05T09:43:00+09:00",
-      "dt": "2026-06-05 09:43",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "케이젠"
-      ],
-      "hash": "722b06839ecd"
-    },
-    {
-      "title": "'브로드컴 쇼크' 코스피, 장 초반 6%대 급락…사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026060588856",
-      "summary": "코스피지수가 5일 장 초반 6% 넘게 하락하며 8000선까지 밀렸다. 급격한 매도세가 쏟아지면서 유가증권시장에는 매도 사이드카가 발동됐다.이날 오전 9시20분 현재 코스피지수는 전 거래일보다 486.30포인트(5.63%) 내린 8153.11을 기록 중이다. 장 초반 한...",
-      "datetime_raw": "2026.06.05 09:32",
-      "datetime": "2026-06-05T09:32:00+09:00",
-      "dt": "2026-06-05 09:32",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "브로드컴 쇼크"
-      ],
-      "hash": "bf2c803b4685"
-    },
-    {
-      "title": "홍콩 ELS 과징금 절반 넘게 줄자…은행株 동반 강세",
-      "url": "https://www.hankyung.com/article/2026060589216",
-      "summary": "은행주가 5일 장 초반 동반 강세다. 금리 인상 가능성에 더해 홍콩H지수 주가연계증권(ELS) 불완전판매 관련 과징금 리스크가 완화된 영향으로 풀이된다. 이날 오전 9시15분 현재 KB금융은 전 거래일보다 7500원(4.57%) 오른 17만1700원을 기록하고...",
-      "datetime_raw": "2026.06.05 09:29",
-      "datetime": "2026-06-05T09:29:00+09:00",
-      "dt": "2026-06-05 09:29",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "홍콩 ELS 과징금 절반 넘게 줄자"
-      ],
-      "hash": "d1e766c0732e"
     }
   ],
   "consensus_signals": []
