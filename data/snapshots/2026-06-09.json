@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-09T09:30:48.011860+09:00",
+  "collected_at": "2026-06-09T10:27:04.041306+09:00",
   "date": "2026-06-09",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 65,
   "stats": {
     "with_broker_mention": 7,
     "target_price_up": 3,
@@ -44,6 +44,154 @@
     ]
   },
   "items": [
+    {
+      "title": "알테오젠, ALT-B4 유럽 물질특허 등록 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026060952786",
+      "summary": "알테오젠이 자사의 재조합 인간 히알루로니다제 'ALT-B4'가 유럽 특허청(EPO)으로부터 특허 등록 허여 결정을 받았다는 소식을 전한 이후 주가가 9일 장 초반 급등세다.이날 오전 10시10분 현재 알테오젠은 전 거래일 대비 3만7000원(12.78%)...",
+      "datetime_raw": "2026.06.09 10:15",
+      "datetime": "2026-06-09T10:15:00+09:00",
+      "dt": "2026-06-09 10:15",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "알테오젠"
+      ],
+      "hash": "ee1063aa63ca"
+    },
+    {
+      "title": "SK하이닉스는 6% 뛰는데…ACE 단일종목레버리지는 급락?",
+      "url": "https://www.hankyung.com/article/2026060950676",
+      "summary": "ACE SK하이닉스단일종목레버리지가 9일 장중 급락하고 있다.이날 오전 9시47분께 ACE SK하이닉스단일종목레버리지는 전 거래일 대비 1만1275원(37.58%) 내린 1만8725원에 거래되고 있다. 같은 시각 SK하이닉스는 전 거래일 대비 12만5000원(6.54%...",
+      "datetime_raw": "2026.06.09 10:05",
+      "datetime": "2026-06-09T10:05:00+09:00",
+      "dt": "2026-06-09 10:05",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "SK하이닉스는 6% 뛰는데"
+      ],
+      "hash": "a3c57838b168"
+    },
+    {
+      "title": "아모레퍼시픽, 장 초반 7%대 급등…\"코스알엑스 성장 기대\"",
+      "url": "https://www.hankyung.com/article/2026060951366",
+      "summary": "아모레퍼시픽이 장 초반 강세를 보이고 있다.9일 오전 9시50분 현재 아모레퍼시픽은 전장 대비 7.62% 오른 11만3000원에 거래되고 있다. 아모레퍼시픽은 지난달 22일 12만700원을 기록한 이후 약세 흐름을 이어왔으나, 이날 반등에 나서며 11만원선을 ...",
+      "datetime_raw": "2026.06.09 10:03",
+      "datetime": "2026-06-09T10:03:00+09:00",
+      "dt": "2026-06-09 10:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "아모레퍼시픽",
+        "코스알엑스 성장 기대"
+      ],
+      "hash": "8b5c711f1ad6"
+    },
+    {
+      "title": "아마존·코닝, 광 섬유·케이블 공급 계약에…광통신 테마 '들썩'",
+      "url": "https://www.hankyung.com/article/2026060951456",
+      "summary": "광통신 테마에 포함된 종목들 주가가 들썩이고 있다. 미국 빅테크 기업인 아마존이 코닝으로부터 수년 동안 대규모 광섬유 케이블을 공급받기로 하는 계약을 맺었다는 소식에 투자심리가 개선된 모습이다.9일 오전 9시48분 현재 성호전자는 전일 대비 28600원(20.62%) ...",
+      "datetime_raw": "2026.06.09 10:02",
+      "datetime": "2026-06-09T10:02:00+09:00",
+      "dt": "2026-06-09 10:02",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "아마존"
+      ],
+      "hash": "aec398200117"
+    },
+    {
+      "title": "반도체 다음은 로봇?…국내 로봇주 투자전략 짜보니",
+      "url": "https://www.hankyung.com/article/202606094763i",
+      "summary": "국내 로봇주 현황 및 투자 분석국내 로봇 산업 구조적 전환과 시장 현황2026년 현재 국내 로봇 산업은 단순한 테마 투자를 넘어 실질적인 산업 구조 전환의 원년으로 평가받고 있다.엔비디아 젠슨 황 CEO의 방한(2026년 6월 4~8일)을 계기로 ...",
+      "datetime_raw": "2026.06.09 10:01",
+      "datetime": "2026-06-09T10:01:00+09:00",
+      "dt": "2026-06-09 10:01",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 다음은 로봇?"
+      ],
+      "hash": "218cb9108c7c"
+    },
+    {
+      "title": "팔 걷어붙인 당국에 환율 5.6원 하락 출발…1530원 밑으로",
+      "url": "https://www.hankyung.com/article/202606094943Y",
+      "summary": "원/달러 환율은 9일 외환 당국의 환율 관리 강화 의지에 1,530원 아래서 거래를 시작했다.이날 서울 외환시장에서 미국 달러화 대비 원화 환율은 오전 9시 기준 전 거래일 주간 거래 종가(1,535.0원)보다 5.6원 내린 1,529.4원에 거래됐다.이후 1,530원...",
+      "datetime_raw": "2026.06.09 09:53",
+      "datetime": "2026-06-09T09:53:00+09:00",
+      "dt": "2026-06-09 09:53",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔 걷어붙인 당국에 환율 5.6원 하락 출발"
+      ],
+      "hash": "b3122b334526"
+    },
+    {
+      "title": "TIGER 삼전·닉스 단일종목 레버리지 개인 순매수 '3조' 돌파",
+      "url": "https://www.hankyung.com/article/2026060950827",
+      "summary": "미래에셋자산운용이 'TIGER SK하이닉스단일종목레버리지'와 'TIGER 삼성전자단일종목레버리지'의 상장 이후 누적 개인 순매수 규모가 3조원을 돌파했다고 밝혔다.한국거래소에 따르면 지난 8일 기준 개인 투자자들은 TIGER SK하이닉스단일...",
+      "datetime_raw": "2026.06.09 09:51",
+      "datetime": "2026-06-09T09:51:00+09:00",
+      "dt": "2026-06-09 09:51",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "3조",
+        "TIGER 삼전"
+      ],
+      "hash": "0f44f1c82c8c"
+    },
+    {
+      "title": "코스닥, 매수 사이드카 발동…5%대 급등",
+      "url": "https://www.hankyung.com/article/2026060950587",
+      "summary": "[속보] 코스닥, 매수 사이드카 발동…5%대 급등박수빈 한경닷컴 기자 waterbean@hankyung.com",
+      "datetime_raw": "2026.06.09 09:34",
+      "datetime": "2026-06-09T09:34:00+09:00",
+      "dt": "2026-06-09 09:34",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥"
+      ],
+      "hash": "cef838e3f0b6"
+    },
+    {
+      "title": "코스피 이어 코스닥도 매수 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026060950396",
+      "summary": "유가증권시장에 이어 코스닥 시장에서도 프로그램 매수 호가 효력 일시정지(매수 사이드카)가 발동됐다.한국거래소는 9일 오전 9시28분께 코스닥150 선물 가격과 현물지수의 변동을 이유로 5분간 프로그램 매수 호가의 효력을 정지한다고 공시했다.발동 당시 코스닥150 선물가...",
+      "datetime_raw": "2026.06.09 09:32",
+      "datetime": "2026-06-09T09:32:00+09:00",
+      "dt": "2026-06-09 09:32",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 이어 코스닥도 매수 사이드카 발동"
+      ],
+      "hash": "d9ec51bec90f"
+    },
     {
       "title": "30만전자·200만닉스 회복…중동 긴장 완화·美 반도체주 강세",
       "url": "https://www.hankyung.com/article/2026060949676",
@@ -228,6 +376,90 @@
       "hash": "72912e71e956"
     },
     {
+      "title": "하이닉스 7% 빠졌는데 '50% 폭등' 마감…레버리지 '호가 참사'",
+      "url": "https://www.hankyung.com/article/202606083814i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "호가 참사",
+        "50% 폭등"
+      ],
+      "hash": "d1eda8c8bbc7"
+    },
+    {
+      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
+      "url": "https://www.hankyung.com/article/202605256557i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "날벼락",
+        "직원 부탁에 실업급여 타게 해줬다가"
+      ],
+      "hash": "3264ddb106b2"
+    },
+    {
+      "title": "과거 대폭락 때마다 한 달 내 회복…지금 코스피 대응전략은?",
+      "url": "https://www.hankyung.com/article/202606082472i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "과거 대폭락 때마다 한 달 내 회복"
+      ],
+      "hash": "8e6906f99e91"
+    },
+    {
+      "title": "\"성과 국민과 나누겠다\"…삼성전자 '역대급 행사' 시작",
+      "url": "https://www.hankyung.com/article/202606082228g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "역대급 행사",
+        "성과 국민과 나누겠다"
+      ],
+      "hash": "46a0934054b8"
+    },
+    {
+      "title": "\"이제 주가 떨어질 때 됐다\" 무더기 베팅…개미들 '비상'",
+      "url": "https://www.hankyung.com/article/202606083422i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비상",
+        "이제 주가 떨어질 때 됐다"
+      ],
+      "hash": "6be98446c0b7"
+    },
+    {
       "title": "\"파크시스템스, 2분기 실적 개선 재개 전망…목표가↑\"-iM",
       "url": "https://www.hankyung.com/article/2026060947116",
       "summary": "iM증권은 9일 파크시스템스에 대해 \"1분기 실적은 기대치를 밑돌았지만 2분기부터 실적 개선이 재개될 전망\"이라며 목표주가를 기존 30만원에서 33만4000원으로 높여 제시하고 투자의견 '매수'를 유지했다.송명섭 iM증권 연구원은 \"1분기 매출과 영업이익...",
@@ -382,90 +614,6 @@
       "hash": "70f0a06eddf7"
     },
     {
-      "title": "하이닉스 7% 빠졌는데 '50% 폭등' 마감…레버리지 '호가 참사'",
-      "url": "https://www.hankyung.com/article/202606083814i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "호가 참사",
-        "50% 폭등"
-      ],
-      "hash": "d1eda8c8bbc7"
-    },
-    {
-      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
-      "url": "https://www.hankyung.com/article/202605256557i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "날벼락",
-        "직원 부탁에 실업급여 타게 해줬다가"
-      ],
-      "hash": "3264ddb106b2"
-    },
-    {
-      "title": "과거 대폭락 때마다 한 달 내 회복…지금 코스피 대응전략은?",
-      "url": "https://www.hankyung.com/article/202606082472i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "과거 대폭락 때마다 한 달 내 회복"
-      ],
-      "hash": "8e6906f99e91"
-    },
-    {
-      "title": "\"성과 국민과 나누겠다\"…삼성전자 '역대급 행사' 시작",
-      "url": "https://www.hankyung.com/article/202606082228g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "역대급 행사",
-        "성과 국민과 나누겠다"
-      ],
-      "hash": "46a0934054b8"
-    },
-    {
-      "title": "30년 '암 전문의'도 매일 아침 먹는다…\"최고의 식품\" 극찬",
-      "url": "https://www.hankyung.com/article/2026060715527",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "암 전문의",
-        "최고의 식품"
-      ],
-      "hash": "7a106c6cf4d8"
-    },
-    {
       "title": "\"상단 어디까지\"…금융위기 수준으로 치솟은 환율, 변수는? [분석+]",
       "url": "https://www.hankyung.com/article/2026060945716",
       "summary": "원·달러 환율이 1550원 선을 돌파하며 글로벌 금융위기 당시 수준으로 치솟았다. 외환당국이 강력한 대응 의지를 밝힌 가운데 원·달러 환율 향방에 관심이 쏠리고 있다. 증권가에서는 원·달러 환율 안정화를 위해서는 중동 전쟁 등 대외...",
@@ -482,7 +630,7 @@
       "hash": "5b28b160b8c4"
     },
     {
-      "title": "금감원, 기업공시 설명회 개최…22~23일 광주·대전",
+      "title": "금감원, 기업공시 설명회 개최…23~24일 광주·대전",
       "url": "https://www.hankyung.com/article/2026060834726",
       "summary": "금융감독원은 올해 세 차례에 걸쳐 기업 공시 설명회를 개최한다고 8일 밝혔다.금감원은 한국상장회사협의회·코스닥협회와 함께 해마다 주요 지역별 거점 6개 도시에서 사업보고서 제출 대상 법인 등을 대상으로 공시 설명회를 진행하고 있다.올해는 오는 23~24일 ...",
       "datetime_raw": "2026.06.09 06:00",
@@ -547,55 +695,6 @@
         "60만원대 초고가 볼펜이 완판"
       ],
       "hash": "d926e3098119"
-    },
-    {
-      "title": "적자 늪에서 조용히 칼 갈더니…\"드디어 오르나\" 개미 들썩",
-      "url": "https://www.hankyung.com/article/2026060840371",
-      "summary": "롯데그룹 지주회사인 롯데지주가 올 하반기 주가 반등에 나설 것이란 전망이 나오고 있다. 올해 들어 주요 사업 실적이 눈에 띄게 개선됐고, 그룹 포트폴리오 재편 작업도 마무리되면서 주가 반등이 기대된다는 분석이다.8일 유가증권시장에서 롯데지주는 전거래일 대비 4.55% ...",
-      "datetime_raw": "2026.06.08 17:38",
-      "datetime": "2026-06-08T17:38:00+09:00",
-      "dt": "2026-06-08 17:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "드디어 오르나",
-        "적자 늪에서 조용히 칼 갈더니"
-      ],
-      "hash": "7d0141c22cb7"
-    },
-    {
-      "title": "급락장서 '하이닉스 레버리지' 50% 뛴 까닭",
-      "url": "https://www.hankyung.com/article/2026060840391",
-      "summary": "국내 최초로 상장된 단일종목레버리지 상장지수펀드(ETF)가 인기를 끌고 있는 가운데 장 마감 직전 시장가로 주문한 ETF 가격이 50% 가까이 급등하는 이례적인 사고가 발생했다. 레버리지 상품의 높은 변동성과 구조적 위험성을 보여준 사례라는 평가가 나온다.◇장 마감 직...",
-      "datetime_raw": "2026.06.08 17:35",
-      "datetime": "2026-06-08T17:35:00+09:00",
-      "dt": "2026-06-08 17:35",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하이닉스 레버리지"
-      ],
-      "hash": "a10ee693d26e"
-    },
-    {
-      "title": "공매도 잔액 22조 돌파…대차거래액은 182조",
-      "url": "https://www.hankyung.com/article/2026060840321",
-      "summary": "유가증권시장의 공매도 잔액이 22조원을 넘어섰다. 대차거래 잔액도 역대 최대 수준까지 늘면서 종목별 변동성이 확대될 수 있다는 전망이 나온다.한국거래소에 따르면 최신 집계일인 지난 2일 유가증권시장 공매도 순보유잔액은 22조4942억원을 나타냈다. 이는 연초(1월 2일...",
-      "datetime_raw": "2026.06.08 17:35",
-      "datetime": "2026-06-08T17:35:00+09:00",
-      "dt": "2026-06-08 17:35",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "공매도 잔액 22조 돌파"
-      ],
-      "hash": "1f04892f54a5"
     },
     {
       "title": "\"솔스티스, 에이펙스E3·텐서릭스와 맞손…소버린 AI 시장 진출\"",
@@ -1024,90 +1123,6 @@
         "AI 주식 매우 싸다"
       ],
       "hash": "06562034f6d8"
-    },
-    {
-      "title": "피스피스스튜디오, 코스닥 상장 첫날 '급락'",
-      "url": "https://www.hankyung.com/article/2026060825886",
-      "summary": "브랜드 '마르디 메크르디' 운영사 피스피스스튜디오가 코스닥시장 상장 첫날인 8일 장 초반 급락세다.이날 오전 9시30분 현재 피스피스스튜디오는 공모가(2만1500원) 대비 2580원(12.0%) 내린 1만8920원에 거래되고 있다. 앞서 피스피스...",
-      "datetime_raw": "2026.06.08 09:38",
-      "datetime": "2026-06-08T09:38:00+09:00",
-      "dt": "2026-06-08 09:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급락",
-        "피스피스스튜디오"
-      ],
-      "hash": "20338fb34412"
-    },
-    {
-      "title": "코스피, 거래 재개…'서킷브레이커' 20분간 매매중단 해제",
-      "url": "https://www.hankyung.com/article/2026060825746",
-      "summary": "[속보] 코스피, 거래 재개…'서킷브레이커' 20분간 매매중단 해제김연지 한경닷컴 기자 kongzi@hankyung.com",
-      "datetime_raw": "2026.06.08 09:35",
-      "datetime": "2026-06-08T09:35:00+09:00",
-      "dt": "2026-06-08 09:35",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피",
-        "서킷브레이커"
-      ],
-      "hash": "242387fd27b6"
-    },
-    {
-      "title": "'공포의 검은 월요일'…코스피 8% 폭락에 개미들 '패닉'",
-      "url": "https://www.hankyung.com/article/2026060824616",
-      "summary": "코스피지수가 8일 장 초반 8% 넘게 급락하며 7400선까지 밀렸다. 미국 브로드컴의 실적 전망 실망감으로 미 반도체주가 급락한 여파가 국내 증시를 덮치면서 개장 직후 유가증권시장에는 1단계 서킷브레이커가 발동됐다.이날 오전 9시9분 현재 코스피지수는 전 거래일 대비 ...",
-      "datetime_raw": "2026.06.08 09:19",
-      "datetime": "2026-06-08T09:19:00+09:00",
-      "dt": "2026-06-08 09:19",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "패닉",
-        "공포의 검은 월요일"
-      ],
-      "hash": "4f0cebb82e08"
-    },
-    {
-      "title": "'8천피' 깨진 '검은 월요일'…삼성전자 9%, SK하이닉스 8% 하락",
-      "url": "https://www.hankyung.com/article/202606082386i",
-      "summary": "8일 코스피 지수가 8%대 급락했다. 주말새 미국 증시가 기술주를 중심으로 떨어진 데다 원·달러 환율이 한때 장중 1560원까지 돌파하는 등 악재가 겹치면서 대형 반도체주를 중심으로 주가가 빠르게 하락하고 있다. 이날 오전 9시9분 기준 코스피 지...",
-      "datetime_raw": "2026.06.08 09:10",
-      "datetime": "2026-06-08T09:10:00+09:00",
-      "dt": "2026-06-08 09:10",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "8천피",
-        "검은 월요일"
-      ],
-      "hash": "303d15d44b2b"
-    },
-    {
-      "title": "코스피, 개장 직후 1단계 서킷브레이커 발동",
-      "url": "https://www.hankyung.com/article/2026060823386",
-      "summary": "[속보] 코스피, 개장 직후 1단계 서킷브레이커 발동김연지 한경닷컴 기자 kongzi@hankyung.com",
-      "datetime_raw": "2026.06.08 09:05",
-      "datetime": "2026-06-08T09:05:00+09:00",
-      "dt": "2026-06-08 09:05",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "da887da886d2"
     }
   ],
   "consensus_signals": []
