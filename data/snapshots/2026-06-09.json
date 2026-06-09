@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-09T11:00:47.962638+09:00",
+  "collected_at": "2026-06-09T13:00:37.655675+09:00",
   "date": "2026-06-09",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,10 +9,14 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 7,
+    "with_broker_mention": 8,
     "target_price_up": 3,
     "target_price_down": 0,
     "top_brokers": [
+      [
+        "미래에셋",
+        2
+      ],
       [
         "한화",
         1
@@ -36,14 +40,44 @@
       [
         "한국투자",
         1
-      ],
-      [
-        "미래에셋",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "이틀째 투자 초고수가 품은 '현대차'...오랜만에 주가 오른 셀트리온은 순매도",
+      "url": "https://www.hankyung.com/article/202606095368i",
+      "summary": "투자수익률 상위 1%의 초고수들은 9일 오전 증시에서 현대차와 삼성전자, SK네트웍스 등을 집중 순매수한 것으로 나타났다. 반면 셀트리온과 네이버 등은 순매도 상위권에 이름을 올렸다. 9일 미래에셋엠클럽에 따르면 미래에셋증권 계좌 가운데 전월 수익률 상위 1%...",
+      "datetime_raw": "2026.06.09 11:09",
+      "datetime": "2026-06-09T11:09:00+09:00",
+      "dt": "2026-06-09 11:09",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "현대차"
+      ],
+      "hash": "18e9972042ea"
+    },
+    {
+      "title": "코스피, 개인·기관 반발매수에 7700선 회복…코스닥 5%대 반등",
+      "url": "https://www.hankyung.com/article/2026060954946",
+      "summary": "코스피가 개인과 기관의 저가매수에 힘입어 7700선을 회복했다. 코스닥도 5%대 중반의 반등을 보이고 있다.9일 오전 10시58분 현재 코스피는 전일 대비 252.16(3.37%) 오른 7736.57에 거래되고 있다. 장중엔 오름폭이 4.85%까지 커져 7800대 중반...",
+      "datetime_raw": "2026.06.09 11:08",
+      "datetime": "2026-06-09T11:08:00+09:00",
+      "dt": "2026-06-09 11:08",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "1a0823bd0a53"
+    },
     {
       "title": "비에이치아이, 한국에너지기술연구원과 차세대 에너지 기술 국산화 '맞손'",
       "url": "https://www.hankyung.com/article/2026060954006",
@@ -338,6 +372,90 @@
       "hash": "555b534defd8"
     },
     {
+      "title": "하이닉스 7% 빠졌는데 '50% 폭등' 마감…레버리지 '호가 참사'",
+      "url": "https://www.hankyung.com/article/202606083814i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "호가 참사",
+        "50% 폭등"
+      ],
+      "hash": "d1eda8c8bbc7"
+    },
+    {
+      "title": "마이바흐 탔던 젠슨 황이 선택한 '끝판왕'…의전차 바뀐 이유",
+      "url": "https://www.hankyung.com/article/202606083190g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "끝판왕"
+      ],
+      "hash": "2ebba98adcd5"
+    },
+    {
+      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
+      "url": "https://www.hankyung.com/article/202605256557i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "날벼락",
+        "직원 부탁에 실업급여 타게 해줬다가"
+      ],
+      "hash": "3264ddb106b2"
+    },
+    {
+      "title": "\"이제 주가 떨어질 때 됐다\" 무더기 베팅…개미들 '비상'",
+      "url": "https://www.hankyung.com/article/202606083422i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비상",
+        "이제 주가 떨어질 때 됐다"
+      ],
+      "hash": "6be98446c0b7"
+    },
+    {
+      "title": "30년 '암 전문의'도 매일 아침 먹는다…\"최고의 식품\" 극찬",
+      "url": "https://www.hankyung.com/article/2026060715527",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "암 전문의",
+        "최고의 식품"
+      ],
+      "hash": "7a106c6cf4d8"
+    },
+    {
       "title": "은행주, ‘리스크 대비 생산성' 개선될까",
       "url": "https://www.hankyung.com/article/202606094468i",
       "summary": "국내 은행주의 리스크 대비 수익성이 개선될 것이라는 기대감이 증권가에서 나오고 있다. 순이자마진(NIM)과 수수료 이익이 함께 개선되는 모습을 보이면서 금융지주의 주주환원 여력 역시 커질 것이라는 관측이다.9일 금융투자업계에 따르면 한화투자증권은 최근 “은행...",
@@ -372,90 +490,6 @@
         "뇌졸중 진단 솔루션, 신의료기술 평가 유예 대상 지정"
       ],
       "hash": "05f509fb8425"
-    },
-    {
-      "title": "하이닉스 7% 빠졌는데 '50% 폭등' 마감…레버리지 '호가 참사'",
-      "url": "https://www.hankyung.com/article/202606083814i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "호가 참사",
-        "50% 폭등"
-      ],
-      "hash": "d1eda8c8bbc7"
-    },
-    {
-      "title": "\"직원 부탁에 실업급여 타게 해줬다가\"…400만원 '날벼락'",
-      "url": "https://www.hankyung.com/article/202605256557i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "날벼락",
-        "직원 부탁에 실업급여 타게 해줬다가"
-      ],
-      "hash": "3264ddb106b2"
-    },
-    {
-      "title": "과거 대폭락 때마다 한 달 내 회복…지금 코스피 대응전략은?",
-      "url": "https://www.hankyung.com/article/202606082472i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "과거 대폭락 때마다 한 달 내 회복"
-      ],
-      "hash": "8e6906f99e91"
-    },
-    {
-      "title": "\"성과 국민과 나누겠다\"…삼성전자 '역대급 행사' 시작",
-      "url": "https://www.hankyung.com/article/202606082228g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "역대급 행사",
-        "성과 국민과 나누겠다"
-      ],
-      "hash": "46a0934054b8"
-    },
-    {
-      "title": "\"이제 주가 떨어질 때 됐다\" 무더기 베팅…개미들 '비상'",
-      "url": "https://www.hankyung.com/article/202606083422i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비상",
-        "이제 주가 떨어질 때 됐다"
-      ],
-      "hash": "6be98446c0b7"
     },
     {
       "title": "8800선 뚫고 추락한 코스피…\"주도주 단기 매수 기회\" [분석+]",
@@ -1092,38 +1126,6 @@
         "코스콤"
       ],
       "hash": "e2ae6c23a5cf"
-    },
-    {
-      "title": "코인원 이용자보호부서, 경찰청장 감사장 수상…피싱 범죄 예방 공로 인정",
-      "url": "https://www.hankyung.com/article/202606082762B",
-      "summary": "코인원이 이용자 보호 및 피싱 범죄 예방 활동 공로를 인정받아 경찰청장 감사장을 수상했다고 8일 밝혔다.코인원에 따르면 지난 4일 열린 '경찰청·국내 5대 가상자산 사업자 업무협약 체결식'에서 이용자보호부서 소속 직원이 경찰청장 감사장을 받았다. 이번 수상은 경찰청 보...",
-      "datetime_raw": "2026.06.08 10:06",
-      "datetime": "2026-06-08T10:06:00+09:00",
-      "dt": "2026-06-08 10:06",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코인원 이용자보호부서"
-      ],
-      "hash": "7423ab3e8a9b"
-    },
-    {
-      "title": "원·달러 환율 1555원 쇼크…17년3개월 만에 최고치 '초비상'",
-      "url": "https://www.hankyung.com/article/2026060825346",
-      "summary": "원·달러 환율이 17년3개월 만에 개장가 최고치를 기록했다.8일 오전 9시 서울 외환시장에서 원·달러 환율은 직전 거래일 주간 종가(1539.1원) 대비 16.1원 오른 1555.2원에 거래를 시작했다. 환율 시초가로는 글로벌 금융위기 당시인 ...",
-      "datetime_raw": "2026.06.08 09:49",
-      "datetime": "2026-06-08T09:49:00+09:00",
-      "dt": "2026-06-08 09:49",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "초비상"
-      ],
-      "hash": "a468f45b2dc3"
     }
   ],
   "consensus_signals": []
