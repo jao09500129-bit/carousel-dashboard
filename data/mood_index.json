@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-10T09:30:49.081675+09:00",
+  "computed_at": "2026-06-10T10:35:31.474698+09:00",
   "score": 51,
   "label": "NEUTRAL",
   "label_kr": "보통",
@@ -12,10 +12,10 @@
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 23.69,
+    "vol_sum": 22.91,
     "n_divergence": 0,
     "n_signals": 0,
-    "target_up": 5,
+    "target_up": 4,
     "target_down": 0,
     "total_items": 65,
     "velocity": "빠름"
