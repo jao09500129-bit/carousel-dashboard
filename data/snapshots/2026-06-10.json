@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-10T09:30:49.081675+09:00",
+  "collected_at": "2026-06-10T10:35:31.474698+09:00",
   "date": "2026-06-10",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,8 +9,8 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 12,
-    "target_price_up": 5,
+    "with_broker_mention": 11,
+    "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -40,14 +40,58 @@
       [
         "IBK",
         1
-      ],
-      [
-        "삼성",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "금감원, 금융사 해외 진출 지원 간담회 개최",
+      "url": "https://www.hankyung.com/article/2026060959076",
+      "summary": "금융감독원은 금융사의 해외 진출 관련 주요 현안 및 애로·건의 사항을 논의하기 위해 간담회를 개최했다고 10일 밝혔다.간담회에는 금융사 해외사업 담당 임원 10명이 참석해 각 사의 전략 및 애로·건의 사항을 공유했다. 이날 이세훈 수석...",
+      "datetime_raw": "2026.06.10 10:00",
+      "datetime": "2026-06-10T10:00:00+09:00",
+      "dt": "2026-06-10 10:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "금감원"
+      ],
+      "hash": "027a85421ec7"
+    },
+    {
+      "title": "한미반도체, HBM4 장비 수주 기대감에 반등세",
+      "url": "https://www.hankyung.com/article/2026061075426",
+      "summary": "한미반도체가 이틀째 강세를 이어가고 있다.10일 오전 9시34분 현재 한미반도체는 전장 대비 7.05% 오른 29만6000원에 거래되고 있다. 전날에도 12.03% 상승 마감하며 이틀 연속 강세 흐름을 나타내고 있다.시장에서는 최근 SK하이닉스로부터 차세대 고대역폭메모...",
+      "datetime_raw": "2026.06.10 09:45",
+      "datetime": "2026-06-10T09:45:00+09:00",
+      "dt": "2026-06-10 09:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한미반도체"
+      ],
+      "hash": "765079be741f"
+    },
+    {
+      "title": "코스피, 美기술주 불안에 다시 8000선 아래로…코스닥은 상승",
+      "url": "https://www.hankyung.com/article/2026061072496",
+      "summary": "코스피가 미 기술주 불안에 다시 8000선 밑으로 내려 앉았다. 코스닥은 개인 매수세에 힘입어 오르고 있다.10일 오전 9시10분 현재 코스피지수는 전 거래일보다 125.58포인트(1.55%) 내린 7971.35를 기록 중이다.이날 하락은 미 기술주 변동성에 기인한 것...",
+      "datetime_raw": "2026.06.10 09:34",
+      "datetime": "2026-06-10T09:34:00+09:00",
+      "dt": "2026-06-10 09:34",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "3955ed80b3bd"
+    },
     {
       "title": "\"새 판 짠다\" SK그룹·KKR '빅딜'에…신재생에너지株 동반 강세",
       "url": "https://www.hankyung.com/article/2026061074326",
@@ -335,54 +379,6 @@
       "hash": "427d44d9a21f"
     },
     {
-      "title": "주식 선물 담은 외국인…코스피 8% 급등해 8천피 복귀",
-      "url": "https://www.hankyung.com/article/202606096166i",
-      "summary": "코스피지수가 급락한지 하루만에 급반등에 성공해 '8천피'에 복귀했다. 전날 큰 폭으로 내렸던 대형주가 일제히 반등한 가운데, 외국인 투자자가 주식 선물을 대거 매수하면서 상승세를 이끌었다.9일 코스피지수는 전날보다 8.18% 오른 8096.93에 거래를 ...",
-      "datetime_raw": "2026.06.09 16:18",
-      "datetime": "2026-06-09T16:18:00+09:00",
-      "dt": "2026-06-09 16:18",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "주식 선물 담은 외국인"
-      ],
-      "hash": "dadd242582db"
-    },
-    {
-      "title": "\"삼전닉스 팔고 쓸어 담았다\"…외국인 갈아탄 종목 뭐길래",
-      "url": "https://www.hankyung.com/article/2026060952021",
-      "summary": "51조4621억원. 지난달 외국인 투자자가 코스피에서 순매도한 주식 규모다. 이 중 79%(40조8569억원)가 삼성전자와 SK하이닉스 등 반도체 투톱에 쏠렸다. 두 종목이 올해 들어 가파르게 오르자 포트폴리오 비중 조정을 위해 차익 실현에 나선 것이다.그 대신 외국인...",
-      "datetime_raw": "2026.06.09 16:04",
-      "datetime": "2026-06-09T16:04:00+09:00",
-      "dt": "2026-06-09 16:04",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 팔고 쓸어 담았다"
-      ],
-      "hash": "deef95dbec06"
-    },
-    {
-      "title": "치솟는 유가에 신재생에너지 ETF 부상",
-      "url": "https://www.hankyung.com/article/2026060952031",
-      "summary": "중동 전쟁 이후 높아진 유가 레벨로 신재생에너지 테마에 대한 관심이 높아졌다. 에너지 안보 이슈는 이미 수년째 투자 테마로 주목받은 분야다. 과거 러시아-우크라이나 전쟁 이후 유럽 지역을 중심으로 화석 연료 의존성에 대한 국가적 차원의 관심 제고가 수요를 촉발한 것이 ...",
-      "datetime_raw": "2026.06.09 16:00",
-      "datetime": "2026-06-09T16:00:00+09:00",
-      "dt": "2026-06-09 16:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "치솟는 유가에 신재생에너지 ETF 부상"
-      ],
-      "hash": "7fea335e799b"
-    },
-    {
       "title": "\"솔직히 놀랐다\"…이재용 결단에 삼성 임원들도 '감탄'",
       "url": "https://www.hankyung.com/article/202606095339g",
       "summary": "",
@@ -465,6 +461,54 @@
         "경력단절자라면 무조건 이득"
       ],
       "hash": "baaf0ab67247"
+    },
+    {
+      "title": "주식 선물 담은 외국인…코스피 8% 급등해 8천피 복귀",
+      "url": "https://www.hankyung.com/article/202606096166i",
+      "summary": "코스피지수가 급락한지 하루만에 급반등에 성공해 '8천피'에 복귀했다. 전날 큰 폭으로 내렸던 대형주가 일제히 반등한 가운데, 외국인 투자자가 주식 선물을 대거 매수하면서 상승세를 이끌었다.9일 코스피지수는 전날보다 8.18% 오른 8096.93에 거래를 ...",
+      "datetime_raw": "2026.06.09 16:18",
+      "datetime": "2026-06-09T16:18:00+09:00",
+      "dt": "2026-06-09 16:18",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "주식 선물 담은 외국인"
+      ],
+      "hash": "dadd242582db"
+    },
+    {
+      "title": "\"삼전닉스 팔고 쓸어 담았다\"…외국인 갈아탄 종목 뭐길래",
+      "url": "https://www.hankyung.com/article/2026060952021",
+      "summary": "51조4621억원. 지난달 외국인 투자자가 코스피에서 순매도한 주식 규모다. 이 중 79%(40조8569억원)가 삼성전자와 SK하이닉스 등 반도체 투톱에 쏠렸다. 두 종목이 올해 들어 가파르게 오르자 포트폴리오 비중 조정을 위해 차익 실현에 나선 것이다.그 대신 외국인...",
+      "datetime_raw": "2026.06.09 16:04",
+      "datetime": "2026-06-09T16:04:00+09:00",
+      "dt": "2026-06-09 16:04",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스 팔고 쓸어 담았다"
+      ],
+      "hash": "deef95dbec06"
+    },
+    {
+      "title": "치솟는 유가에 신재생에너지 ETF 부상",
+      "url": "https://www.hankyung.com/article/2026060952031",
+      "summary": "중동 전쟁 이후 높아진 유가 레벨로 신재생에너지 테마에 대한 관심이 높아졌다. 에너지 안보 이슈는 이미 수년째 투자 테마로 주목받은 분야다. 과거 러시아-우크라이나 전쟁 이후 유럽 지역을 중심으로 화석 연료 의존성에 대한 국가적 차원의 관심 제고가 수요를 촉발한 것이 ...",
+      "datetime_raw": "2026.06.09 16:00",
+      "datetime": "2026-06-09T16:00:00+09:00",
+      "dt": "2026-06-09 16:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "치솟는 유가에 신재생에너지 ETF 부상"
+      ],
+      "hash": "7fea335e799b"
     },
     {
       "title": "'어제는 서킷, 오늘은 사이드카'…코스피, 8% 반등 '롤러코스터'",
@@ -1081,57 +1125,6 @@
         "메모리 재평가 아직 멀었다"
       ],
       "hash": "c18766bc09ea"
-    },
-    {
-      "title": "'유출 사고' 딛고 일어선 SK텔레콤…엔비디아 손잡고 '10만 텔레콤' 굳히나",
-      "url": "https://www.hankyung.com/article/202606083446i",
-      "summary": "지난 8일 코스피지수가 8.29% 급락했음에도 꿋꿋하게 0.28% 상승한 종목이 있다. 지난해 대규모 개인정보 유출 사고 여파로 주가가 '롤러코스터'를 탔던 SK텔레콤이다.본업인 무선통신 사업의 안정성에 더해 인공지능(AI) 데이터센터와 앤스로픽 지분 가...",
-      "datetime_raw": "2026.06.09 07:52",
-      "datetime": "2026-06-09T07:52:00+09:00",
-      "dt": "2026-06-09 07:52",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "유출 사고",
-        "10만 텔레콤"
-      ],
-      "hash": "3b2ad020f330"
-    },
-    {
-      "title": "\"NAVER, AI 팩토리 사업으로 성장 동력 확보…목표가↑\"-삼성",
-      "url": "https://www.hankyung.com/article/2026060946506",
-      "summary": "삼성증권은 9일 NAVER에 대해 엔비디아와 손잡고 아시아 지역 인공지능(AI) 팩토리 시장 진출을 공식 선언하며 성장 동력을 확보했다고 평가했다. 이에 목표주가를 기존 26만원에서 30만원으로 올렸고, 투자의견은 ‘매수’를 유지했다.NAVER는 ...",
-      "datetime_raw": "2026.06.09 07:50",
-      "datetime": "2026-06-09T07:50:00+09:00",
-      "dt": "2026-06-09 07:50",
-      "brokers": [
-        "삼성"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 15.384615384615385,
-      "keywords": [
-        "NAVER"
-      ],
-      "hash": "70f0a06eddf7"
-    },
-    {
-      "title": "\"상단 어디까지\"…금융위기 수준으로 치솟은 환율, 변수는? [분석+]",
-      "url": "https://www.hankyung.com/article/2026060945716",
-      "summary": "원·달러 환율이 1550원 선을 돌파하며 글로벌 금융위기 당시 수준으로 치솟았다. 외환당국이 강력한 대응 의지를 밝힌 가운데 원·달러 환율 향방에 관심이 쏠리고 있다. 증권가에서는 원·달러 환율 안정화를 위해서는 중동 전쟁 등 대외...",
-      "datetime_raw": "2026.06.09 07:49",
-      "datetime": "2026-06-09T07:49:00+09:00",
-      "dt": "2026-06-09 07:49",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "상단 어디까지"
-      ],
-      "hash": "5b28b160b8c4"
     }
   ],
   "consensus_signals": []
