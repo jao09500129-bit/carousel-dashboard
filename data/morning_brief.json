@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-10 10:35 KST",
+  "as_of": "2026-06-10 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -50,19 +50,12 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "-1.93%"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.31% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.31%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-10T10:35:31.474698+09:00",
+    "collected_at": "2026-06-10T11:00:55.536628+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -132,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,520.86",
-            "chg": "4.77",
-            "chg_pct": "-0.31%"
+            "close": "1,524.23",
+            "chg": "1.40",
+            "chg_pct": "-0.09%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,754.94",
-            "chg": "10.00",
-            "chg_pct": "-0.57%"
+            "close": "1,757.91",
+            "chg": "7.03",
+            "chg_pct": "-0.40%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "948.43",
-            "chg": "3.71",
-            "chg_pct": "-0.39%"
+            "close": "950.33",
+            "chg": "1.81",
+            "chg_pct": "-0.19%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "224.57",
-            "chg": "0.34",
-            "chg_pct": "-0.15%"
+            "close": "225.04",
+            "chg": "0.13",
+            "chg_pct": "+0.06%"
           }
         ]
       },
