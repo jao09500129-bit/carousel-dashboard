@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-10T15:00:49.946743+09:00",
+  "collected_at": "2026-06-10T16:00:44.197243+09:00",
   "date": "2026-06-10",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 65,
+  "total_items": 64,
   "stats": {
     "with_broker_mention": 9,
     "target_price_up": 4,
@@ -44,6 +44,38 @@
     ]
   },
   "items": [
+    {
+      "title": "중동 불안에 외국인 '팔자' 지속…환율 다시 1520원대",
+      "url": "https://www.hankyung.com/article/202606108665Y",
+      "summary": "원/달러 환율은 10일 중동 긴장 고조로 위험 선호 심리가 위축되고 외국인의 주식 순매도가 이어지면서 10원 넘게 상승했다.이날 서울 외환시장에서 미국 달러화 대비 원화 환율의 주간 거래 종가(오후 3시30분 기준)는 1,524.2원으로, 전 거래일(1,512.1원)보...",
+      "datetime_raw": "2026.06.10 15:54",
+      "datetime": "2026-06-10T15:54:00+09:00",
+      "dt": "2026-06-10 15:54",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔자"
+      ],
+      "hash": "aff516fd8829"
+    },
+    {
+      "title": "코스피 4.52% 하락…7730.82 마감",
+      "url": "https://www.hankyung.com/article/2026061085766",
+      "summary": "[속보] 코스피 4.52% 하락…7730.82 마감이수 한경닷컴 기자 2su@hankyung.com",
+      "datetime_raw": "2026.06.10 15:31",
+      "datetime": "2026-06-10T15:31:00+09:00",
+      "dt": "2026-06-10 15:31",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 4.52% 하락"
+      ],
+      "hash": "bf805cb83ed1"
+    },
     {
       "title": "코스피 급락에 매도 사이드카 발동",
       "url": "https://www.hankyung.com/article/2026061082006",
@@ -349,39 +381,6 @@
       "hash": "7823ee6f87cd"
     },
     {
-      "title": "\"다음 AI 병목은 광통신\"…코닝·아마존 계약에 테마주 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026060961866",
-      "summary": "광(光)통신 테마에 포함된 종목이 동반 급등했다. 글로벌 광통신 테마의 대장주인 코닝이 아마존으로부터 수십억달러 규모의 광섬유 케이블 등을 수주했다는 소식이 전해지면서다. 증권가에선 인공지능(AI) 인프라 확장에서 병목현상이 반도체에 이어 광통신 분야에서도 나타날 것이...",
-      "datetime_raw": "2026.06.09 22:00",
-      "datetime": "2026-06-09T22:00:00+09:00",
-      "dt": "2026-06-09 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "다음 AI 병목은 광통신"
-      ],
-      "hash": "63178f59075e"
-    },
-    {
-      "title": "'이 방법 밖에 없어'…외국인들 70조 던진 이유 있었다",
-      "url": "https://www.hankyung.com/article/2026060967377",
-      "summary": "외국인 투자자가 코스피 시장에서 22거래일 연속 순매도를 이어가며 70조원이 넘는 물량을 매도했지만, 시장의 펀더멘털 약화보다는 포트폴리오 재조정 과정에서 이뤄졌다는 분석이 나왔다.9일 한국거래소에 따르면 외국인 투자자는 지난달 7일부터 이날까지 22거래일 연속 매도 ...",
-      "datetime_raw": "2026.06.09 20:01",
-      "datetime": "2026-06-09T20:01:00+09:00",
-      "dt": "2026-06-09 20:01",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 방법 밖에 없어"
-      ],
-      "hash": "c36749878dea"
-    },
-    {
       "title": "\"솔직히 놀랐다\"…이재용 결단에 삼성 임원들도 '감탄'",
       "url": "https://www.hankyung.com/article/202606095339g",
       "summary": "",
@@ -449,8 +448,8 @@
       "hash": "baaf0ab67247"
     },
     {
-      "title": "\"한국 멋져\"…머스크가 태극기까지 올리며 '샤라웃'한 이유",
-      "url": "https://www.hankyung.com/article/2026060950717",
+      "title": "\"삼전닉스 팔고 쓸어 담았다\"…외국인 갈아탄 종목 뭐길래",
+      "url": "https://www.hankyung.com/article/2026060952021",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -460,10 +459,42 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "샤라웃",
-        "한국 멋져"
+        "삼전닉스 팔고 쓸어 담았다"
       ],
-      "hash": "22213d0590f8"
+      "hash": "deef95dbec06"
+    },
+    {
+      "title": "\"다음 AI 병목은 광통신\"…코닝·아마존 계약에 테마주 '들썩' [종목+]",
+      "url": "https://www.hankyung.com/article/2026060961866",
+      "summary": "광(光)통신 테마에 포함된 종목이 동반 급등했다. 글로벌 광통신 테마의 대장주인 코닝이 아마존으로부터 수십억달러 규모의 광섬유 케이블 등을 수주했다는 소식이 전해지면서다. 증권가에선 인공지능(AI) 인프라 확장에서 병목현상이 반도체에 이어 광통신 분야에서도 나타날 것이...",
+      "datetime_raw": "2026.06.09 22:00",
+      "datetime": "2026-06-09T22:00:00+09:00",
+      "dt": "2026-06-09 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "다음 AI 병목은 광통신"
+      ],
+      "hash": "63178f59075e"
+    },
+    {
+      "title": "'이 방법 밖에 없어'…외국인들 70조 던진 이유 있었다",
+      "url": "https://www.hankyung.com/article/2026060967377",
+      "summary": "외국인 투자자가 코스피 시장에서 22거래일 연속 순매도를 이어가며 70조원이 넘는 물량을 매도했지만, 시장의 펀더멘털 약화보다는 포트폴리오 재조정 과정에서 이뤄졌다는 분석이 나왔다.9일 한국거래소에 따르면 외국인 투자자는 지난달 7일부터 이날까지 22거래일 연속 매도 ...",
+      "datetime_raw": "2026.06.09 20:01",
+      "datetime": "2026-06-09T20:01:00+09:00",
+      "dt": "2026-06-09 20:01",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 방법 밖에 없어"
+      ],
+      "hash": "c36749878dea"
     },
     {
       "title": "삼전닉스 하반기 더 갈 수 있을까 [한경 프리미엄9 TODAY]",
@@ -542,22 +573,6 @@
         "주식 선물 담은 외국인"
       ],
       "hash": "dadd242582db"
-    },
-    {
-      "title": "\"삼전닉스 팔고 쓸어 담았다\"…외국인 갈아탄 종목 뭐길래",
-      "url": "https://www.hankyung.com/article/2026060952021",
-      "summary": "51조4621억원. 지난달 외국인 투자자가 코스피에서 순매도한 주식 규모다. 이 중 79%(40조8569억원)가 삼성전자와 SK하이닉스 등 반도체 투톱에 쏠렸다. 두 종목이 올해 들어 가파르게 오르자 포트폴리오 비중 조정을 위해 차익 실현에 나선 것이다.그 대신 외국인...",
-      "datetime_raw": "2026.06.09 16:04",
-      "datetime": "2026-06-09T16:04:00+09:00",
-      "dt": "2026-06-09 16:04",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 팔고 쓸어 담았다"
-      ],
-      "hash": "deef95dbec06"
     },
     {
       "title": "치솟는 유가에 신재생에너지 ETF 부상",
@@ -1087,40 +1102,6 @@
         "파크시스템스"
       ],
       "hash": "b9fc72cbcbf8"
-    },
-    {
-      "title": "글로벌텍스프리, 최대주주 관계사가 지분 매입…\"성장 자신감\"",
-      "url": "https://www.hankyung.com/article/2026060947346",
-      "summary": "글로벌텍스프리의 최대주주인 지티에프홀딩스는 관계사인 제이에스아이홀딩스가 최근 글로벌텍스프리 주식 약 43만주를 장내 매수했다고 밝혔다. 매수 규모는 약 20억원 수준이며, 이에 따라 글로벌텍스프리 최대주주 및 특별관계자의 지분율은 24.28%로 약 0.62%포인트 확대...",
-      "datetime_raw": "2026.06.09 08:19",
-      "datetime": "2026-06-09T08:19:00+09:00",
-      "dt": "2026-06-09 08:19",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "성장 자신감",
-        "글로벌텍스프리"
-      ],
-      "hash": "8a31da1dc824"
-    },
-    {
-      "title": "장 마감 직전 50% 급등…SK하이닉스 레버리지 ETF '사고'",
-      "url": "https://www.hankyung.com/article/202606084178i",
-      "summary": "국내 최초 단일종목 레버리지 상장지수펀드(ETF)가 인기를 끌고 있는 가운데 장 마감 직전 시장가로 주문한 ETF 가격이 50% 가까이 급등하는 이례적인 사고가 발생했다. 단일종목 레버리지 ETF가 높은 수익률로 투자자들의 관심을 끌고 있지만, 동시에 구조적 ...",
-      "datetime_raw": "2026.06.09 08:18",
-      "datetime": "2026-06-09T08:18:00+09:00",
-      "dt": "2026-06-09 08:18",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사고",
-        "장 마감 직전 50% 급등"
-      ],
-      "hash": "b01b7d4568c8"
     }
   ],
   "consensus_signals": []
