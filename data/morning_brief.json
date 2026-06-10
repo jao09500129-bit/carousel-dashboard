@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-10 13:01 KST",
+  "as_of": "2026-06-10 15:00 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
+    "코스피 급락에 매도 사이드카 발동 (2026-06-10 13:26)",
     "\"앞으로 35% 더 오른다고?\"…투자고수, 1등주 집중 매수 (2026-06-10 11:19)",
-    "닥사, 불법 가상자산업체 12곳 적발…경찰 수사 의뢰 (2026-06-10 11:03)",
-    "스페이스X 공모에 개미들 현금 '탈탈'…전문가 \"위험한 베팅\" [분석+] (2026-06-10 11:00)"
+    "닥사, 불법 가상자산업체 12곳 적발…경찰 수사 의뢰 (2026-06-10 11:03)"
   ],
   "carousel_implications": {
     "regime": "美 증시 조정 — 위험회피 분위기 (가설)",
@@ -55,7 +55,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-10T13:00:49.121587+09:00",
+    "collected_at": "2026-06-10T15:00:49.946743+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,524.00",
-            "chg": "1.63",
-            "chg_pct": "-0.11%"
+            "close": "1,524.27",
+            "chg": "1.36",
+            "chg_pct": "-0.09%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,759.99",
-            "chg": "4.95",
-            "chg_pct": "-0.28%"
+            "close": "1,760.94",
+            "chg": "4.00",
+            "chg_pct": "-0.23%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "950.43",
-            "chg": "1.71",
-            "chg_pct": "-0.18%"
+            "close": "950.65",
+            "chg": "1.49",
+            "chg_pct": "-0.16%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "225.03",
-            "chg": "0.12",
-            "chg_pct": "+0.05%"
+            "close": "225.06",
+            "chg": "0.15",
+            "chg_pct": "+0.07%"
           }
         ]
       },
@@ -205,16 +205,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.27",
-            "chg": "0.08",
-            "chg_pct": "-1.72%"
+            "close": "4.30",
+            "chg": "0.02",
+            "chg_pct": "+0.54%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.86",
-            "chg": "0.08",
-            "chg_pct": "-2.13%"
+            "close": "3.91",
+            "chg": "0.05",
+            "chg_pct": "+1.35%"
           },
           {
             "name": "미국 국채 10년",
