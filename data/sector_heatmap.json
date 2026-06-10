@@ -1,16 +1,16 @@
 {
-  "computed_at": "2026-06-09T23:10:42.907628+09:00",
+  "computed_at": "2026-06-10T09:30:49.081675+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 5,
+      "count": 6,
       "top": []
     },
     {
       "name": "자동차",
       "intensity": 0.0,
-      "count": 2,
+      "count": 3,
       "top": []
     },
     {
@@ -40,7 +40,7 @@
     {
       "name": "필수소비재",
       "intensity": 0.0,
-      "count": 1,
+      "count": 3,
       "top": []
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "기타",
       "intensity": 0.0,
-      "count": 52,
+      "count": 48,
       "top": []
     }
   ],
