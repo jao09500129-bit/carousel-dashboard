@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-10T11:00:55.536628+09:00",
+  "collected_at": "2026-06-10T13:00:49.121587+09:00",
   "date": "2026-06-10",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 11,
+    "with_broker_mention": 9,
     "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
@@ -18,15 +18,15 @@
         3
       ],
       [
+        "유진",
+        1
+      ],
+      [
         "KB",
-        2
+        1
       ],
       [
         "메리츠",
-        2
-      ],
-      [
-        "유진",
         1
       ],
       [
@@ -44,6 +44,55 @@
     ]
   },
   "items": [
+    {
+      "title": "\"앞으로 35% 더 오른다고?\"…투자고수, 1등주 집중 매수",
+      "url": "https://www.hankyung.com/article/202606107803i",
+      "summary": "투자수익률 상위 1％ 고수들이 삼성전자를 집중 매수하고 있다. 오는 10일 발표를 앞둔 5월 미국 소비자물가지수(CPI) 발표를 앞두고 경계감이 높아지고 있지만 투자자들이 주가가 상승할 것이란 전망에 베팅하고 있는 것으로 풀이된다. 10일 미래에셋엠클...",
+      "datetime_raw": "2026.06.10 11:19",
+      "datetime": "2026-06-10T11:19:00+09:00",
+      "dt": "2026-06-10 11:19",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "앞으로 35% 더 오른다고?"
+      ],
+      "hash": "d28e7dba323a"
+    },
+    {
+      "title": "닥사, 불법 가상자산업체 12곳 적발…경찰 수사 의뢰",
+      "url": "https://www.hankyung.com/article/202606107928B",
+      "summary": "디지털자산거래소 공동협의체(DAXA, 이하 닥사)가 국내 가상자산사업자(VASP)들과 함께 실시한 합동 조사 결과, 불법 가상자산 취급업체 12곳을 적발해 경찰에 수사 의뢰했다고 10일 밝혔다.이번 조사는 지난 2월부터 약 3개월간 진행됐다. 닥사와 국내 신고 가상자산...",
+      "datetime_raw": "2026.06.10 11:03",
+      "datetime": "2026-06-10T11:03:00+09:00",
+      "dt": "2026-06-10 11:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "닥사"
+      ],
+      "hash": "fb671c3c5500"
+    },
+    {
+      "title": "스페이스X 공모에 개미들 현금 '탈탈'…전문가 \"위험한 베팅\" [분석+]",
+      "url": "https://www.hankyung.com/article/2026061072136",
+      "summary": "이틀 앞으로 다가온 스페이스X의 기업공개(IPO)가 자본시장의 최대 변수로 떠오르고 있다. 기업가치 1조7500억달러 규모의 상장을 앞두고 전 세계 투자자들이 현금 확보에 나서면서 한국 증시에서도 외국인 자금 이탈과 변동성 우려가 커지는 상황이다. 증권가는 스페이스X ...",
+      "datetime_raw": "2026.06.10 11:00",
+      "datetime": "2026-06-10T11:00:00+09:00",
+      "dt": "2026-06-10 11:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "탈탈",
+        "위험한 베팅"
+      ],
+      "hash": "dbeb3d32f74a"
+    },
     {
       "title": "금감원, 금융사 해외 진출 지원 간담회 개최",
       "url": "https://www.hankyung.com/article/2026060959076",
@@ -333,52 +382,6 @@
       "hash": "5649cbfb9f9d"
     },
     {
-      "title": "과거 주력 투자상품 사례 반영, 투자자별 위험관리 필요 시점 도래",
-      "url": "https://www.hankyung.com/article/202606095736i",
-      "summary": "﻿올해 들어 국내외 주가지수를 추종하는 ‘지수형ETF’와 테마성 개별주식종목에 투자하는 ‘액티브ETF’의 투자규모가 크게 증가하면서 주력 투자상품으로 자리를 잡고 있다.지난해 말 297조 원이었던 ETF 순자산총액은 올해 1분...",
-      "datetime_raw": "2026.06.09 17:19",
-      "datetime": "2026-06-09T17:19:00+09:00",
-      "dt": "2026-06-09 17:19",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "과거 주력 투자상품 사례 반영"
-      ],
-      "hash": "fffedbeae293"
-    },
-    {
-      "title": "코스피 8000 회복에도 소외된 조선주...미 하원 규제 법안·고금리 부담에 약세",
-      "url": "https://www.hankyung.com/article/202606096198i",
-      "summary": "코스피가 9일 8000선을 회복했지만, 조선주는 약세를 보였다. 미국 군함 건조 시장 진출 기대가 흔들린 데다 고금리 우려까지 겹치면서 투자심리가 위축된 영향이다.이날 유가증권시장에서 시가총액 상위 10개 종목 가운데 상승 마감에 실패한 종목은 현대차와 HD현대중공업 ...",
-      "datetime_raw": "2026.06.09 16:44",
-      "datetime": "2026-06-09T16:44:00+09:00",
-      "dt": "2026-06-09 16:44",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "8429c95e8879"
-    },
-    {
-      "title": "코스피 급락 이틀간 개인 보유 3000억 '강제처분'",
-      "url": "https://www.hankyung.com/article/2026060962267",
-      "summary": "코스피가 큰 폭으로 하락하면서 이틀 동안 반대매매로 강제 처분된 개인 주식만 3000억원에 이르는 것으로 파악됐다.9일 금융투자협회에 따르면 지난 8일 기준 '초단기 빚투'(빚내서 투자)로 분류되는 위탁매매 미수금은 1조6245억원이었다. 이는 전장인 지...",
-      "datetime_raw": "2026.06.09 16:29",
-      "datetime": "2026-06-09T16:29:00+09:00",
-      "dt": "2026-06-09 16:29",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "강제처분"
-      ],
-      "hash": "427d44d9a21f"
-    },
-    {
       "title": "\"솔직히 놀랐다\"…이재용 결단에 삼성 임원들도 '감탄'",
       "url": "https://www.hankyung.com/article/202606095339g",
       "summary": "",
@@ -429,6 +432,23 @@
       "hash": "1120e973c64b"
     },
     {
+      "title": "\"경력단절자라면 무조건 이득\"…국민연금 '반환일시금'의 마법",
+      "url": "https://www.hankyung.com/article/202606082947i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반환일시금",
+        "경력단절자라면 무조건 이득"
+      ],
+      "hash": "baaf0ab67247"
+    },
+    {
       "title": "\"한국 멋져\"…머스크가 태극기까지 올리며 '샤라웃'한 이유",
       "url": "https://www.hankyung.com/article/2026060950717",
       "summary": "",
@@ -446,21 +466,50 @@
       "hash": "22213d0590f8"
     },
     {
-      "title": "\"경력단절자라면 무조건 이득\"…국민연금 '반환일시금'의 마법",
-      "url": "https://www.hankyung.com/article/202606082947i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
+      "title": "과거 주력 투자상품 사례 반영, 투자자별 위험관리 필요 시점 도래",
+      "url": "https://www.hankyung.com/article/202606095736i",
+      "summary": "﻿올해 들어 국내외 주가지수를 추종하는 ‘지수형ETF’와 테마성 개별주식종목에 투자하는 ‘액티브ETF’의 투자규모가 크게 증가하면서 주력 투자상품으로 자리를 잡고 있다.지난해 말 297조 원이었던 ETF 순자산총액은 올해 1분...",
+      "datetime_raw": "2026.06.09 17:19",
+      "datetime": "2026-06-09T17:19:00+09:00",
+      "dt": "2026-06-09 17:19",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "반환일시금",
-        "경력단절자라면 무조건 이득"
+        "과거 주력 투자상품 사례 반영"
       ],
-      "hash": "baaf0ab67247"
+      "hash": "fffedbeae293"
+    },
+    {
+      "title": "코스피 8000 회복에도 소외된 조선주...미 하원 규제 법안·고금리 부담에 약세",
+      "url": "https://www.hankyung.com/article/202606096198i",
+      "summary": "코스피가 9일 8000선을 회복했지만, 조선주는 약세를 보였다. 미국 군함 건조 시장 진출 기대가 흔들린 데다 고금리 우려까지 겹치면서 투자심리가 위축된 영향이다.이날 유가증권시장에서 시가총액 상위 10개 종목 가운데 상승 마감에 실패한 종목은 현대차와 HD현대중공업 ...",
+      "datetime_raw": "2026.06.09 16:44",
+      "datetime": "2026-06-09T16:44:00+09:00",
+      "dt": "2026-06-09 16:44",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "8429c95e8879"
+    },
+    {
+      "title": "코스피 급락 이틀간 개인 보유 3000억 '강제처분'",
+      "url": "https://www.hankyung.com/article/2026060962267",
+      "summary": "코스피가 큰 폭으로 하락하면서 이틀 동안 반대매매로 강제 처분된 개인 주식만 3000억원에 이르는 것으로 파악됐다.9일 금융투자협회에 따르면 지난 8일 기준 '초단기 빚투'(빚내서 투자)로 분류되는 위탁매매 미수금은 1조6245억원이었다. 이는 전장인 지...",
+      "datetime_raw": "2026.06.09 16:29",
+      "datetime": "2026-06-09T16:29:00+09:00",
+      "dt": "2026-06-09 16:29",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "강제처분"
+      ],
+      "hash": "427d44d9a21f"
     },
     {
       "title": "주식 선물 담은 외국인…코스피 8% 급등해 8천피 복귀",
@@ -1072,59 +1121,6 @@
         "삼성전기"
       ],
       "hash": "8712be075065"
-    },
-    {
-      "title": "\"SK하이닉스, 2분기 영업익 전년비 649%↑…어닝서프라이즈 기대\"-KB",
-      "url": "https://www.hankyung.com/article/2026060947176",
-      "summary": "KB증권은 9일 SK하이닉스에 대해 \"메모리 수요 가속 국면에 진입했다\"며 \"2분기 어닝서프라이즈가 기대된다\"고 분석했다. 투자의견 '매수'와 목표주가 380만원도 유지했다.이 증권사 김동원 리서치본부장은 \"인공지능(AI) 에이전트 시장이 클라우드 중심에...",
-      "datetime_raw": "2026.06.09 08:13",
-      "datetime": "2026-06-09T08:13:00+09:00",
-      "dt": "2026-06-09 08:13",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "f20baa31ce3e"
-    },
-    {
-      "title": "월가 반도체 고점론 실체는…전문가들 \"지금이 저점 매수 타이밍\"",
-      "url": "https://www.hankyung.com/article/202606084381i",
-      "summary": "삼성전자·SK하이닉스가 최근 3거래일간 각각 19.08%, -20.23 폭락했다. 지난 4일(현지시간) 브로드컴의 실적 발표 전후로 해외 투자 업계에서 반도체 고점론이 불거지면서 패닉 매도세가 연출된 영향이다. 국내 반도체 연구원 등 전문가들은 대부분은 \"...",
-      "datetime_raw": "2026.06.09 08:08",
-      "datetime": "2026-06-09T08:08:00+09:00",
-      "dt": "2026-06-09 08:08",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "지금이 저점 매수 타이밍",
-        "월가 반도체 고점론 실체는"
-      ],
-      "hash": "42c2408c2ecb"
-    },
-    {
-      "title": "\"메모리 재평가 아직 멀었다\"...삼전닉스 하반기 더 갈 수 있는 이유",
-      "url": "https://www.hankyung.com/article/202606083648i",
-      "summary": "\"인공지능(AI) 시대에는 메모리 반도체의 위상이 과거와 완전히 달라질 겁니다. 메모리는 그동안 저평가돼왔지만, 앞으로는 비메모리 수준으로까지 재평가가 꾸준히 이뤄질 것으로 보입니다.\"2026년 상반기 반도체 부문 한경 베스트애널리스트인 김선우 메리츠증권 기업분석1팀장...",
-      "datetime_raw": "2026.06.09 08:04",
-      "datetime": "2026-06-09T08:04:00+09:00",
-      "dt": "2026-06-09 08:04",
-      "brokers": [
-        "메리츠"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "메모리 재평가 아직 멀었다"
-      ],
-      "hash": "c18766bc09ea"
     }
   ],
   "consensus_signals": []
