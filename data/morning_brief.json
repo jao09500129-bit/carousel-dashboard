@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-06-11 09:30 KST",
+  "as_of": "2026-06-11 10:59 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "트럼프 \"이란 더 강하게 타격\"…나스닥 2% 급락 [뉴욕증시 브리핑]",
+  "headline": "[속보] 美중부사령부 \"호르무즈해협 폐쇄 안돼…상선 통항 계속\"",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "트럼프 \"이란 더 강하게 타격\"…나스닥 2% 급락 [뉴욕증시 브리핑]",
+      "title": "[속보] 美중부사령부 \"호르무즈해협 폐쇄 안돼…상선 통항 계속\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026061195616"
+      "url": "https://www.hankyung.com/article/2026061199207"
     },
     {
       "title": "인플레 꼭지? 무시된 호재…스페이스X 태풍 \"상장 후 나흘 기다려야\" [김현석의 월스트리트나우]",
@@ -19,20 +19,20 @@
       "url": "https://www.hankyung.com/article/202606119450i"
     },
     {
-      "title": "\"이란 곳곳에서 폭발음\"…美, 이틀째 다수 표적 추가공습",
+      "title": "[속보] 이란, 이틀째 美에 맞불…\"바레인 미군 5함대에 드론 공격\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026061195647"
+      "url": "https://www.hankyung.com/article/2026061199597"
     },
     {
-      "title": "세계 돈줄 삼키는 AI 제국…IPO·증자·사모대출 '영끌'",
+      "title": "트럼프 \"이란 더 강하게 타격\"…나스닥 2% 급락 [뉴욕증시 브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026061090791"
+      "url": "https://www.hankyung.com/article/2026061195616"
     }
   ],
   "today_kr_focus": [
-    "'네 마녀의 날' 코스피, 4% 급락해 7300선…중동 긴장 여파 (2026-06-11 09:14)",
-    "코스피, 2.86% 하락 출발…7500선 아래로 (2026-06-11 09:02)",
-    "\"LS일렉트릭, 수주 가이던스 상향이 가장 빠르게 확인될 것…목표가↑\"-유안타 (2026-06-11 08:45)"
+    "NH證 CEO 레이스 법적분쟁 휘말려…후보 거론 임원 보직해임에 '시끌' (2026-06-11 10:23)",
+    "코스피, 장중 상승 전환…다시 7700선 위로 (2026-06-11 10:12)",
+    "中 관광객 몰리자 잭팟 터트린 '이 종목'… 외국인은 사 모은다 (2026-06-11 10:10)"
   ],
   "carousel_implications": {
     "regime": "美 증시 조정 — 위험회피 분위기 (가설)",
@@ -46,16 +46,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.31% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.49% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.31%"
+        "trigger_value": "+0.49%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-11T09:30:47.457369+09:00",
+    "collected_at": "2026-06-11T10:58:53.649855+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,524.79",
-            "chg": "4.69",
-            "chg_pct": "+0.31%"
+            "close": "1,527.49",
+            "chg": "7.39",
+            "chg_pct": "+0.49%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,759.60",
-            "chg": "3.77",
-            "chg_pct": "+0.21%"
+            "close": "1,763.96",
+            "chg": "8.13",
+            "chg_pct": "+0.46%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "949.72",
-            "chg": "2.54",
-            "chg_pct": "+0.27%"
+            "close": "951.69",
+            "chg": "4.51",
+            "chg_pct": "+0.48%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "225.11",
-            "chg": "0.68",
-            "chg_pct": "+0.30%"
+            "close": "225.51",
+            "chg": "1.08",
+            "chg_pct": "+0.48%"
           }
         ]
       },
@@ -240,9 +240,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.67",
-            "chg": "0.05",
-            "chg_pct": "-1.69%"
+            "close": "2.68",
+            "chg": "0.01",
+            "chg_pct": "+0.45%"
           }
         ]
       }

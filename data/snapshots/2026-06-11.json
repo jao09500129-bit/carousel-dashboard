@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-11T09:30:47.457369+09:00",
+  "collected_at": "2026-06-11T10:58:53.649855+09:00",
   "date": "2026-06-11",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -18,6 +18,10 @@
         4
       ],
       [
+        "NH",
+        2
+      ],
+      [
         "KB",
         2
       ],
@@ -30,24 +34,97 @@
         1
       ],
       [
-        "NH",
-        1
-      ],
-      [
         "유진",
         1
       ],
       [
         "메리츠",
         1
-      ],
-      [
-        "미래에셋",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "NH證 CEO 레이스 법적분쟁 휘말려…후보 거론 임원 보직해임에 '시끌'",
+      "url": "https://www.hankyung.com/article/2026061196816",
+      "summary": "NH투자증권의 차기 최고경영자(CEO) 선임 과정에서 불거진 갈등이 법적 분쟁으로 비화됐다. 회사가 차기 CEO 후보 중 한 명으로 거론된 임원을 보직 해임하자, 당사자가 \"현 CEO의 횡포\"라며 법적 대응에 나섰다. NH투자증권 측은 \"보직 해임은 해당 임원...",
+      "datetime_raw": "2026.06.11 10:23",
+      "datetime": "2026-06-11T10:23:00+09:00",
+      "dt": "2026-06-11 10:23",
+      "brokers": [
+        "NH"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "시끌",
+        "NH證 CEO 레이스 법적분쟁 휘말려"
+      ],
+      "hash": "5c94c6611dcd"
+    },
+    {
+      "title": "코스피, 장중 상승 전환…다시 7700선 위로",
+      "url": "https://www.hankyung.com/article/2026061102356",
+      "summary": "[속보] 코스피, 장중 상승 전환…다시 7700선 위로고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.06.11 10:12",
+      "datetime": "2026-06-11T10:12:00+09:00",
+      "dt": "2026-06-11 10:12",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "fbc7050c2ffa"
+    },
+    {
+      "title": "中 관광객 몰리자 잭팟 터트린 '이 종목'… 외국인은 사 모은다",
+      "url": "https://www.hankyung.com/article/202606096325i",
+      "summary": "'이제 성수기가 온다' '더 보여줄 성장이 있다' 카지노 관련주로 불리는 롯데관광개발에 대한 증권사들의 평가다. 원화 가치 하락에 더해 중국의 '한일령(限日令)' 여파로 일본 여행을 자제하는 중국인 관광객들이 제주로 몰리고 있...",
+      "datetime_raw": "2026.06.11 10:10",
+      "datetime": "2026-06-11T10:10:00+09:00",
+      "dt": "2026-06-11 10:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목"
+      ],
+      "hash": "4ecc4801a1c0"
+    },
+    {
+      "title": "개미군단의 힘...코스피 낙폭 축소 [오전 10시 10분 시황]",
+      "url": "https://www.hankyung.com/article/202606110069i",
+      "summary": "개미군단의 힘...코스피은 낙폭 줄이고 코스닥은 반등 전환[오전 10시 10분 시황]🕘 급락 출발 후 낙폭 축소… 코스닥 반등 전환오전 10시 기준, 한국 증시는 미·이란 군사 충돌 격화와 뉴욕 증시 급락 여파로 장 초반 큰 폭의 하...",
+      "datetime_raw": "2026.06.11 09:45",
+      "datetime": "2026-06-11T09:45:00+09:00",
+      "dt": "2026-06-11 09:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "3f6ce6dfe43f"
+    },
+    {
+      "title": "중동발 긴장·외환 당국 경계감 팽팽…환율 보합권 출발",
+      "url": "https://www.hankyung.com/article/202606119952Y",
+      "summary": "원/달러 환율은 11일 중동 불안 재점화에도 외환 당국 경계감이 팽팽하게 맞서면서 보합권에서 움직이고 있다.이날 서울 외환시장에서 미국 달러화 대비 원화 환율은 오전 9시 기준 전 거래일 주간 종가(1,524.2원)보다 1.3원 오른 1,525.5원으로 집계됐다.이후 ...",
+      "datetime_raw": "2026.06.11 09:45",
+      "datetime": "2026-06-11T09:45:00+09:00",
+      "dt": "2026-06-11 09:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "중동발 긴장"
+      ],
+      "hash": "5c458f4b9366"
+    },
     {
       "title": "'네 마녀의 날' 코스피, 4% 급락해 7300선…중동 긴장 여파",
       "url": "https://www.hankyung.com/article/2026061198866",
@@ -117,7 +194,7 @@
       "hash": "1abfba37a1df"
     },
     {
-      "title": "구조대 안 오는 '국민밉상주' 카카오…1년 후 주가 예측해보니",
+      "title": "1년 후엔 구조대 올까…'국민밉상주' 카카오 주가 예측해보니",
       "url": "https://www.hankyung.com/article/202606107980i",
       "summary": "카카오(035720) 주가 5년 추이 및 부진 배경 분석주가 장기 하락 궤적: 고점 대비 77% 이상 하락카카오 주가는 2021년 6월 24일 역사적 고점인 173,000원을 달성하며 시가총액 72.4조 원에 달하는 국내 대표 성장주로 군림했다.그...",
       "datetime_raw": "2026.06.11 08:10",
@@ -128,7 +205,8 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "국민밉상주"
+        "국민밉상주",
+        "1년 후엔 구조대 올까"
       ],
       "hash": "9da8f317baf1"
     },
@@ -151,7 +229,7 @@
       "hash": "23267ac288eb"
     },
     {
-      "title": "한동안 찬밥 신세였는데 주가 '들썩'…\"본게임은 하반기\" [종목+]",
+      "title": "'100조 실탄' 장전…폭락장서 '나홀로 질주'한 진짜 이유 [종목+]",
       "url": "https://www.hankyung.com/article/2026061195566",
       "summary": "전날 코스피가 4% 넘게 급락하며 7700선으로 밀려난 가운데 방산주는 강세를 나타냈다. 미국과 이란 간 군사적 충돌 재개가 투자심리를 자극한 것으로 풀이된다. 다만 증권업계에서는 최근 중동 정세보다 하반기 실적과 수출 확대 여부를 더 중요한 주가 변수로 꼽았다.&nb...",
       "datetime_raw": "2026.06.11 08:00",
@@ -162,8 +240,8 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "들썩",
-        "본게임은 하반기"
+        "나홀로 질주",
+        "100조 실탄"
       ],
       "hash": "52513df42723"
     },
@@ -300,6 +378,88 @@
       "hash": "a0e64a5790de"
     },
     {
+      "title": "한 달 만에 주가 900% 띄우더니 '상폐'…개미들 '날벼락'",
+      "url": "https://www.hankyung.com/article/202606108545i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "상폐",
+        "날벼락"
+      ],
+      "hash": "2ec1e20daf10"
+    },
+    {
+      "title": "삼성에 밀려 추락한 패배자…'젠슨 황도 1조 베팅' 대반전",
+      "url": "https://www.hankyung.com/article/2026061090811",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "젠슨 황도 1조 베팅",
+        "삼성에 밀려 추락한 패배자"
+      ],
+      "hash": "c3cb26e9e71d"
+    },
+    {
+      "title": "\"앞으로 35% 더 오른다고?\"…투자고수, 1등주 집중 매수",
+      "url": "https://www.hankyung.com/article/202606107803i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "앞으로 35% 더 오른다고?"
+      ],
+      "hash": "d28e7dba323a"
+    },
+    {
+      "title": "\"한국이 이렇게 쌀 줄 몰랐어요\"…외국인 관광객 몰리는 이유",
+      "url": "https://www.hankyung.com/article/202606107312g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국이 이렇게 쌀 줄 몰랐어요"
+      ],
+      "hash": "9f6996651ef2"
+    },
+    {
+      "title": "\"삼전닉스 팔고 쓸어 담았다\"…외국인 갈아탄 종목 뭐길래",
+      "url": "https://www.hankyung.com/article/2026060952021",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스 팔고 쓸어 담았다"
+      ],
+      "hash": "deef95dbec06"
+    },
+    {
       "title": "VIP자산운용, 8개월간 롯데관광개발 주식 167만주 추가 취득",
       "url": "https://www.hankyung.com/article/2026061089476",
       "summary": "VIP자산운용은 지난 9일 기준 롯데관광개발 주식 622만441주를 보유하고 있다고 10일 공시했다.직전 보고였던 작년 10월2일의 454만8096주 대비 167만2345주를 늘렸다. 지분율은 기존 5.72%에서 7.81%로 2.09%포인트 확대됐다.VIP자산운용은 지...",
@@ -378,87 +538,6 @@
         "아르시움"
       ],
       "hash": "84b5bc3cfbba"
-    },
-    {
-      "title": "한 달 만에 주가 900% 띄우더니 '상폐'…개미들 '날벼락'",
-      "url": "https://www.hankyung.com/article/202606108545i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "상폐",
-        "날벼락"
-      ],
-      "hash": "2ec1e20daf10"
-    },
-    {
-      "title": "\"아침에 한 번만 바르고 끝\"…피부 망치는 주범이었다",
-      "url": "https://www.hankyung.com/article/202606094875i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "아침에 한 번만 바르고 끝"
-      ],
-      "hash": "60555378ddfa"
-    },
-    {
-      "title": "\"삼전닉스 팔고 쓸어 담았다\"…외국인 갈아탄 종목 뭐길래",
-      "url": "https://www.hankyung.com/article/2026060952021",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 팔고 쓸어 담았다"
-      ],
-      "hash": "deef95dbec06"
-    },
-    {
-      "title": "\"앞으로 35% 더 오른다고?\"…투자고수, 1등주 집중 매수",
-      "url": "https://www.hankyung.com/article/202606107803i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "앞으로 35% 더 오른다고?"
-      ],
-      "hash": "d28e7dba323a"
-    },
-    {
-      "title": "\"한국이 이렇게 쌀 줄 몰랐어요\"…외국인 관광객 몰리는 이유",
-      "url": "https://www.hankyung.com/article/202606107312g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국이 이렇게 쌀 줄 몰랐어요"
-      ],
-      "hash": "9f6996651ef2"
     },
     {
       "title": "\"오픈AI, 762조 초대형 데이터센터 확보 막바지 협상\"",
@@ -1003,90 +1082,6 @@
         "코스피 8.18% 오른 8096.93 마감"
       ],
       "hash": "bd7241b3b299"
-    },
-    {
-      "title": "삼전닉스 급등에 '팔천피' 회복…코스닥은 소부장·바이오 '쌍끌이'",
-      "url": "https://www.hankyung.com/article/2026060957886",
-      "summary": "국내 주식시장에 반발 매수세가 강하게 유입되며 코스피지수가 8000선을 회복했다. 코스닥 시장에선 반도체 소부장(소재·부품·장비) 관련 종목들과 바이오주들의 상승세가 두드러진다.9일 오후 1시46분 현재 코스피는 전일 대비 553.35포인트(7...",
-      "datetime_raw": "2026.06.09 13:57",
-      "datetime": "2026-06-09T13:57:00+09:00",
-      "dt": "2026-06-09 13:57",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "팔천피",
-        "쌍끌이"
-      ],
-      "hash": "6bbf43622f61"
-    },
-    {
-      "title": "코스피, 장중 급등해 '8천피' 회복",
-      "url": "https://www.hankyung.com/article/2026060957237",
-      "summary": "[속보] 코스피, 장중 급등해 '8천피' 회복박수빈 한경닷컴 기자 waterbean@hankyung.com",
-      "datetime_raw": "2026.06.09 13:29",
-      "datetime": "2026-06-09T13:29:00+09:00",
-      "dt": "2026-06-09 13:29",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "8천피",
-        "코스피"
-      ],
-      "hash": "a9ec88a665b4"
-    },
-    {
-      "title": "젠슨 황도 \"사랑해요 현대차그룹\"…퇴직연금에 가득 담으려면",
-      "url": "https://www.hankyung.com/article/202606095598i",
-      "summary": "현대차와 기아가 완성차 업체를 넘어 피지컬 인공지능(AI) 핵심 수혜주로 떠올랐다. 자동차를 판매해 수익을 내는 전통 제조기업에서 피지컬AI·자율주행·소프트웨어정의차량(SDV) 등 미래 모빌리티 플랫폼으로 진화하고 있다는 평가가 나온다. 이에 ...",
-      "datetime_raw": "2026.06.09 13:00",
-      "datetime": "2026-06-09T13:00:00+09:00",
-      "dt": "2026-06-09 13:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사랑해요 현대차그룹"
-      ],
-      "hash": "03682a3c1443"
-    },
-    {
-      "title": "이틀째 투자 초고수가 품은 '현대차'…오랜만에 주가 오른 셀트리온은 순매도",
-      "url": "https://www.hankyung.com/article/202606095368i",
-      "summary": "투자수익률 상위 1%의 초고수들은 9일 오전 증시에서 현대차와 삼성전자, SK네트웍스 등을 집중 순매수한 것으로 나타났다. 반면 셀트리온과 네이버 등은 순매도 상위권에 이름을 올렸다. 9일 미래에셋엠클럽에 따르면 미래에셋증권 계좌 가운데 전월 수익률 상위 1%...",
-      "datetime_raw": "2026.06.09 11:09",
-      "datetime": "2026-06-09T11:09:00+09:00",
-      "dt": "2026-06-09 11:09",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "현대차"
-      ],
-      "hash": "18e9972042ea"
-    },
-    {
-      "title": "코스피, 개인·기관 반발매수에 7700선 회복…코스닥 5%대 반등",
-      "url": "https://www.hankyung.com/article/2026060954946",
-      "summary": "코스피가 개인과 기관의 저가매수에 힘입어 7700선을 회복했다. 코스닥도 5%대 중반의 반등을 보이고 있다.9일 오전 10시58분 현재 코스피는 전일 대비 252.16(3.37%) 오른 7736.57에 거래되고 있다. 장중엔 오름폭이 4.85%까지 커져 7800대 중반...",
-      "datetime_raw": "2026.06.09 11:08",
-      "datetime": "2026-06-09T11:08:00+09:00",
-      "dt": "2026-06-09 11:08",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "1a0823bd0a53"
     }
   ],
   "consensus_signals": []
