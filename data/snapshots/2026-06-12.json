@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-12T13:00:50.629226+09:00",
+  "collected_at": "2026-06-12T15:00:50.125070+09:00",
   "date": "2026-06-12",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 12,
+    "with_broker_mention": 13,
     "target_price_up": 3,
     "target_price_down": 1,
     "top_brokers": [
@@ -22,12 +22,12 @@
         3
       ],
       [
-        "NH",
+        "한국투자",
         2
       ],
       [
-        "한국투자",
-        1
+        "NH",
+        2
       ],
       [
         "유안타",
@@ -40,6 +40,57 @@
     ]
   },
   "items": [
+    {
+      "title": "\"월드컵 티켓 결제 코인으로?\"…가상자산 사기 주의보",
+      "url": "https://www.hankyung.com/article/2026061232347",
+      "summary": "북중미 월드컵 계기로 가상자산 사기 범죄가 성행할 가능성이 있다고 글로벌 블록체인 리서치업체 TRM랩스가 12일 밝혔다.보고서에 따르면 월드컵 개막 전 국제축구연맹(FIFA) 공식 홈페이지를 사칭해 티켓 결제를 유도하는 가짜 사이트 등 사기와 연관된 가상자산 지갑 주소...",
+      "datetime_raw": "2026.06.12 14:53",
+      "datetime": "2026-06-12T14:53:00+09:00",
+      "dt": "2026-06-12 14:53",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "월드컵 티켓 결제 코인으로?"
+      ],
+      "hash": "a8f7a212d10b"
+    },
+    {
+      "title": "'코스닥 상장' 스트라드비젼 \"글로벌 완성차 공급해 누적 500만대 양산\"",
+      "url": "https://www.hankyung.com/article/2026061230286",
+      "summary": "\"스트라드비젼은 독자적인 비전 인공지능(AI) 기술력을 바탕으로 글로벌 완성차 제조사(OEM) 및 1차 부품업체(Tier-1) 고객사와 다양한 양산 프로젝트를 수행했습니다. 누적 500만 대 이상의 차량 양산 경험을 바탕으로 첨단운전자보조시스템(ADAS)과 자율주행 시...",
+      "datetime_raw": "2026.06.12 14:28",
+      "datetime": "2026-06-12T14:28:00+09:00",
+      "dt": "2026-06-12 14:28",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥 상장",
+        "글로벌 완성차 공급해 누적 500만대 양산"
+      ],
+      "hash": "7a1d08d80d11"
+    },
+    {
+      "title": "한국투자증권, 시민 4000여명과 축구 국가대표 거리응원",
+      "url": "https://www.hankyung.com/article/2026061230356",
+      "summary": "한국투자증권은 서울 여의도 본사 앞 'KIS SQUARE'에서 고객과 시민 4000여명이 함께한 축구 국가대표 거리 응원 행사를 성황리에 개최했다고 12일 밝혔다.이는 여의도에서 처음 열린 대규모 거리 응원 행사다. 국가대표 경기 응원은 물론 시민들이 함...",
+      "datetime_raw": "2026.06.12 13:55",
+      "datetime": "2026-06-12T13:55:00+09:00",
+      "dt": "2026-06-12 13:55",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국투자증권"
+      ],
+      "hash": "91aeb26b9562"
+    },
     {
       "title": "한미반도체 \"500억 규모 스페이스X 주식 장내 매수 결정\"",
       "url": "https://www.hankyung.com/article/2026061224336",
@@ -122,17 +173,19 @@
       "hash": "778daac94249"
     },
     {
-      "title": "미·이란 종전 기대감·반도체 급등에 코스피 6.63%·코스닥 3.73% 출발 [오전 9시10분 시황]",
+      "title": "코스피 8400선 안착 시도… 외국인·기관 쌍끌이 매수 [오후 2시10분 시황]",
       "url": "https://www.hankyung.com/article/202606122195i",
-      "summary": "🕘 장초반 폭등 출발… 반도체·건설 업종 전방위 강세오늘 한국 증시는 트럼프 대통령의 미·이란 종전 합의 시사 발언에 따른 지정학적 리스크 완화와 미국 반도체주 급등의 훈풍을 그대로 받아 역대급 강세 출발을 보이고 있습니다.오전 9...",
+      "summary": "🕘 미·이란 종전 기대감 지속… 외국인·기관 순매수 확대로 8,400선 재도전[오후 2시10분 시황]오후 2시 기준, 한국 증시는 트럼프 대통령의 미·이란 종전 합의 시사 발언과 미국 반도체주 급등의 훈풍을 이어받아 강...",
       "datetime_raw": "2026.06.12 09:21",
       "datetime": "2026-06-12T09:21:00+09:00",
       "dt": "2026-06-12 09:21",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
-      "keywords": [],
+      "keywords": [
+        "코스피 8400선 안착 시도"
+      ],
       "hash": "f2798a03db31"
     },
     {
@@ -325,6 +378,90 @@
       "hash": "cc262a3c1990"
     },
     {
+      "title": "한 달 만에 주가 900% 띄우더니 '상폐'…개미들 '날벼락'",
+      "url": "https://www.hankyung.com/article/202606108545i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "상폐",
+        "날벼락"
+      ],
+      "hash": "2ec1e20daf10"
+    },
+    {
+      "title": "배용준·박수진, 싱가포르서 자녀들과 포착…박신혜·최태준과 동반 여행",
+      "url": "https://www.hankyung.com/article/202606094903H",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배용준"
+      ],
+      "hash": "07d5c5c209bd"
+    },
+    {
+      "title": "외국인도 쓸어담더니…\"65만원 간다\" 전망에 개미들 '들썩'",
+      "url": "https://www.hankyung.com/article/2026061114531",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "65만원 간다",
+        "외국인도 쓸어담더니"
+      ],
+      "hash": "f6028664f7bf"
+    },
+    {
+      "title": "인구 6만 마을에 5600명 유입…데이터센터 건설에 주거난 우려",
+      "url": "https://www.hankyung.com/article/202606110103i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "인구 6만 마을에 5600명 유입"
+      ],
+      "hash": "612e6bc8b4c2"
+    },
+    {
+      "title": "삼성에 밀려 추락한 패배자…'젠슨 황도 1조 베팅' 대반전",
+      "url": "https://www.hankyung.com/article/2026061090811",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "젠슨 황도 1조 베팅",
+        "삼성에 밀려 추락한 패배자"
+      ],
+      "hash": "c3cb26e9e71d"
+    },
+    {
       "title": "\"에이치브이엠, 스페이스X 상장에 따른 수혜 기대\"-하나",
       "url": "https://www.hankyung.com/article/2026061220006",
       "summary": "하나증권은 12일 에이치브이엠에 대해 \"스페이스X 상장에 따른 직간접적 수혜가 기대된다\"고 평가했다. 에이치브이엠은 스페이스X의 공식적인 특수 소재 공급 업체다.이 증권사 한유건 연구원은 \"민간 최대 우주 기업인 스페이스X는 오는 12일(현지시간) 상장을 앞두고 있다\"...",
@@ -376,88 +513,6 @@
       "hash": "61d29aac9fa3"
     },
     {
-      "title": "한 달 만에 주가 900% 띄우더니 '상폐'…개미들 '날벼락'",
-      "url": "https://www.hankyung.com/article/202606108545i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "상폐",
-        "날벼락"
-      ],
-      "hash": "2ec1e20daf10"
-    },
-    {
-      "title": "배용준·박수진, 싱가포르서 자녀들과 포착…박신혜·최태준과 동반 여행",
-      "url": "https://www.hankyung.com/article/202606094903H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "배용준"
-      ],
-      "hash": "07d5c5c209bd"
-    },
-    {
-      "title": "삼성에 밀려 추락한 패배자…'젠슨 황도 1조 베팅' 대반전",
-      "url": "https://www.hankyung.com/article/2026061090811",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "젠슨 황도 1조 베팅",
-        "삼성에 밀려 추락한 패배자"
-      ],
-      "hash": "c3cb26e9e71d"
-    },
-    {
-      "title": "인구 6만 마을에 5600명 유입…데이터센터 건설에 주거난 우려",
-      "url": "https://www.hankyung.com/article/202606110103i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "인구 6만 마을에 5600명 유입"
-      ],
-      "hash": "612e6bc8b4c2"
-    },
-    {
-      "title": "'여자 골프 간판' 박현경 실격당했다…거리 측정기 사용 위반",
-      "url": "https://www.hankyung.com/article/202606111296i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "여자 골프 간판"
-      ],
-      "hash": "7b64adcdc2b5"
-    },
-    {
       "title": "증시 흔드는 금리…고금리 환경서 잘 버틸 종목은? [분석+]",
       "url": "https://www.hankyung.com/article/2026061107006",
       "summary": "거시경제(매크로) 이슈가 증시의 발목을 잡고 있다. 금리 상승은 그 자체로 주식시장의 유동성을 위축시키는 악재인 데다, 증시 랠리의 배경인 인공지능(AI) 투자 열풍을 꺾을 가능성이 우려된다.고금리 환경에서도 기업가치를 유지할 가능성이 큰 기업의 특성으로 △수익성 향상...",
@@ -502,6 +557,22 @@
       "target_change_pct": null,
       "keywords": [],
       "hash": "b21479e04d01"
+    },
+    {
+      "title": "SSG닷컴 FI지분 1.2조…신세계그룹, 전량 매입",
+      "url": "https://www.hankyung.com/article/2026061114511",
+      "summary": "▶마켓인사이트 6월 11일 오후 3시 27분신세계그룹이 SSG닷컴 재무적투자자인 올림푸스제일차가 보유한 SSG닷컴의 지분 전량을 매입한다. 상장이 여의찮아 보이자 SSG닷컴의 성장 전략을 수정했다는 분석이 나온다.이마트와 신세계는 11일 각각 이사회를 열어 올림푸스제일차가 보유한 자회사 SSG닷컴의 지분 30% 전량을 공동 매입하기로 결정했다. 기...",
+      "datetime_raw": "2026.06.11 17:26",
+      "datetime": "2026-06-11T17:26:00+09:00",
+      "dt": "2026-06-11 17:26",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "SSG닷컴 FI지분 1.2조"
+      ],
+      "hash": "e78192c8bc7e"
     },
     {
       "title": "레버리지 ETF發 '극한 변동장'…공포지수 사상 최고치 찍었다",
@@ -1048,70 +1119,6 @@
         "아르시움"
       ],
       "hash": "84b5bc3cfbba"
-    },
-    {
-      "title": "\"오픈AI, 762조 초대형 데이터센터 확보 막바지 협상\"",
-      "url": "https://www.hankyung.com/article/2026061087557",
-      "summary": "챗GPT 개발사 오픈AI가 미국 오하이오주에서 조성 중인 10기가와트(GW) 규모의 초대형 인공지능(AI) 데이터센터 단지를 리스하고자 막바지 협상을 진행하고 있다고 미 정보기술 매체 디인포메이션이 9일(현지시간) 보도했다.해당 매체가 소식통들을 인용한 보도에 따르면 ...",
-      "datetime_raw": "2026.06.10 16:25",
-      "datetime": "2026-06-10T16:25:00+09:00",
-      "dt": "2026-06-10 16:25",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "오픈AI"
-      ],
-      "hash": "c42ca7f32d25"
-    },
-    {
-      "title": "코스피, 미 기술주 약세·중동 리스크에 4.5% 급락…7700선 후퇴",
-      "url": "https://www.hankyung.com/article/2026061085346",
-      "summary": "코스피지수가 10일 4.5% 넘게 급락해 다시 7700선으로 주저앉았다. 간밤 뉴욕증시에서 미 기술주가 약세를 보이고 중동 지정학적 리스크가 재부각된 영향으로 분석된다.이날 코스피지수는 전 거래일보다 366.11포인트(4.52%) 내린 7730.82를 기록했다. 전날 ...",
-      "datetime_raw": "2026.06.10 16:16",
-      "datetime": "2026-06-10T16:16:00+09:00",
-      "dt": "2026-06-10 16:16",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "75ecc40d2ae1"
-    },
-    {
-      "title": "SK·KKR 신재생에너지 빅딜에...SK이터닉스 상한가",
-      "url": "https://www.hankyung.com/article/202606108238i",
-      "summary": "SK그룹이 글로벌 사모펀드 콜버그크래비스로버츠(KKR)와 신재생에너지 합작법인을 설립한다는 소식에 SK이터닉스 등 관련주가 코스피 급락을 뚫고 상승 마감했다. ▶본지 2월13일자 A1·12면 참조10일 SK이터닉스는 전거래일 대비 29.87% 급등...",
-      "datetime_raw": "2026.06.10 16:04",
-      "datetime": "2026-06-10T16:04:00+09:00",
-      "dt": "2026-06-10 16:04",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "SK"
-      ],
-      "hash": "d1c8c5092250"
-    },
-    {
-      "title": "중동 불안에 외국인 '팔자' 지속…환율 다시 1520원대",
-      "url": "https://www.hankyung.com/article/202606108665Y",
-      "summary": "원/달러 환율은 10일 중동 긴장 고조로 위험 선호 심리가 위축되고 외국인의 주식 순매도가 이어지면서 10원 넘게 상승했다.이날 서울 외환시장에서 미국 달러화 대비 원화 환율의 주간 거래 종가(오후 3시30분 기준)는 1,524.2원으로, 전 거래일(1,512.1원)보...",
-      "datetime_raw": "2026.06.10 15:54",
-      "datetime": "2026-06-10T15:54:00+09:00",
-      "dt": "2026-06-10 15:54",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "팔자"
-      ],
-      "hash": "aff516fd8829"
     }
   ],
   "consensus_signals": []
