@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "updated_at": "2026-06-12T15:00:11+09:00",
+  "updated_at": "2026-06-12T16:00:05+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "UP_STRONG",
@@ -69,7 +69,7 @@
     "total_return_pct": 30.64,
     "cash_pct": 100.0,
     "holdings": [],
-    "last_updated": "2026-06-12T15:00:10.407780",
+    "last_updated": "2026-06-12T16:00:04.611252",
     "since_start_days": 44
   },
   "trade_today": {
@@ -207,11 +207,11 @@
       "vol_off_pct": 19.14
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-06-12T15:00:12+09:00"
+    "updated_at": "2026-06-12T16:00:06+09:00"
   },
   "m30_shadow": {
     "date": "2026-06-11",
-    "updated_at": "2026-06-12T15:00:13+09:00",
+    "updated_at": "2026-06-12T16:00:08+09:00",
     "m21": {
       "wl": 2.0,
       "ws": 0.0,
@@ -256,7 +256,7 @@
   },
   "m37_shadow": {
     "date": "2026-06-11",
-    "updated_at": "2026-06-12T15:00:17+09:00",
+    "updated_at": "2026-06-12T16:00:10+09:00",
     "m21": {
       "wl": 2.0,
       "ws": 0.0
@@ -721,7 +721,7 @@
         "action_short": "⏸ HOLD",
         "qty": 0,
         "return_pct": 30.64,
-        "memo": "KIS API 자동 갱신 [자동갱신 06-12 09:10]"
+        "memo": "KIS API 자동 갱신 [자동갱신 06-12 15:40]"
       }
     ],
     "trading_stats": {
@@ -879,7 +879,7 @@
         "drawdown_pct": -23.88
       }
     ],
-    "generated_at": "2026-06-12T15:00:20"
+    "generated_at": "2026-06-12T16:00:14"
   },
   "evaluation": {
     "month1_review": "2026-05-29",
