@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-12T09:30:48.403839+09:00",
+  "collected_at": "2026-06-12T10:43:44.734119+09:00",
   "date": "2026-06-12",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -40,6 +40,87 @@
     ]
   },
   "items": [
+    {
+      "title": "한미반도체 \"500억 규모 스페이스X 주식 장내 매수 결정\"",
+      "url": "https://www.hankyung.com/article/2026061224336",
+      "summary": "한미반도체는 상장을 앞둔 미국 우주기업 스페이스X의 주식을 500억원 규모로 장내 매수하기로 결정했다고 12일 공시했다. 취득 예정 금액은 자기자본 대비 7.24%에 해당한다.취득 목적은 인공지능(AI), 위성통신, 우주항공, 첨단 반도체 수요 폭발에...",
+      "datetime_raw": "2026.06.12 09:59",
+      "datetime": "2026-06-12T09:59:00+09:00",
+      "dt": "2026-06-12 09:59",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "500억 규모 스페이스X 주식 장내 매수 결정"
+      ],
+      "hash": "cc813c1b2ebf"
+    },
+    {
+      "title": "한화오션, KDDX 수주 기대…7%대 강세",
+      "url": "https://www.hankyung.com/article/2026061224506",
+      "summary": "한화오션이 장 초반 강세를 보이고 있다. 한국형 차기 구축함(KDDX) 상세설계 및 선도함(1번함) 건조 사업자로 사실상 선정됐다는 소식이 주가에 영향을 미친 것으로 보인다.12일 오전 9시44분 현재 한화오션은 전 거래일 대비 7.46% 오른 11만2200원...",
+      "datetime_raw": "2026.06.12 09:52",
+      "datetime": "2026-06-12T09:52:00+09:00",
+      "dt": "2026-06-12 09:52",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한화오션"
+      ],
+      "hash": "59101c3beba6"
+    },
+    {
+      "title": "\"삼전, 가장 싼 주식인데 안 샀다고?\"…4조 굴리는 큰손의 일침",
+      "url": "https://www.hankyung.com/article/202606122194i",
+      "summary": "강대권 라이프자산운용 대표 인터뷰 기사 전문은 한국경제신문이 만드는 온라인 투자전문 플랫폼 '한경 프리미엄9'에서 볼 수 있습니다.\"가치투자를 한다는 사람들은 요즘 수익률이 좋지 않습니다. 삼성전자를 사지 않았기 때문이죠. 왜 그럴까요?\"강대권 ...",
+      "datetime_raw": "2026.06.12 09:48",
+      "datetime": "2026-06-12T09:48:00+09:00",
+      "dt": "2026-06-12 09:48",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전"
+      ],
+      "hash": "cb0906119927"
+    },
+    {
+      "title": "트럼프 이란 공습 취소에 증시 환호…'팔천피' 단숨에 회복",
+      "url": "https://www.hankyung.com/article/2026061224376",
+      "summary": "코스피지수가 12일 장 초반 8% 가까이 급등하며 8300선을 돌파했고, 원·달러 환율은 1510원대로 내려왔다. 미국과 이란의 종전 협상 기대가 확산하면서 국제 유가와 달러 가치가 동반 하락하자 위험자산 선호 심리가 급격히 살아난 영향이다. 반도체를 중심...",
+      "datetime_raw": "2026.06.12 09:45",
+      "datetime": "2026-06-12T09:45:00+09:00",
+      "dt": "2026-06-12 09:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔천피",
+        "트럼프 이란 공습 취소에 증시 환호"
+      ],
+      "hash": "ae08a7105930"
+    },
+    {
+      "title": "트럼프 \"이란과 최종 조율 단계\"…건설株 동반 강세",
+      "url": "https://www.hankyung.com/article/2026061224386",
+      "summary": "건설주가 12일 장 초반 동반 강세다.이날 오전 9시30분 현재 GS건설은 전 거래일보다 2200원(8.4%) 오른 2만8400원을 기록하고 있다. 이밖에 삼성물산(9.02%) 현대건설(8.88%) 대우건설(6.85%) DL이앤씨(6.27%) 등 다른 건설주도 일제히 ...",
+      "datetime_raw": "2026.06.12 09:37",
+      "datetime": "2026-06-12T09:37:00+09:00",
+      "dt": "2026-06-12 09:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이란과 최종 조율 단계"
+      ],
+      "hash": "778daac94249"
+    },
     {
       "title": "미·이란 종전 기대감·반도체 급등에 코스피 6.63%·코스닥 3.73% 출발 [오전 9시10분 시황]",
       "url": "https://www.hankyung.com/article/202606122195i",
@@ -295,86 +376,6 @@
       "hash": "61d29aac9fa3"
     },
     {
-      "title": "외국인도 쓸어담더니…\"65만원 간다\" 전망에 개미들 '들썩'",
-      "url": "https://www.hankyung.com/article/2026061114531",
-      "summary": "삼성그룹의 실질적 지주회사인 삼성물산이 증권가에서 주목받고 있다. 코스피지수 랠리를 이끄는 삼성전자와 삼성생명 지분을 모두 보유한 덕분에 순자산가치(NAV)가 100조원을 뛰어넘자 주가가 본격적으로 상승세를 타기 시작했다. 반도체 공장 건설 등 자체 사업까지 순항하면서...",
-      "datetime_raw": "2026.06.12 06:00",
-      "datetime": "2026-06-12T06:00:00+09:00",
-      "dt": "2026-06-12 06:00",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "65만원 간다",
-        "외국인도 쓸어담더니"
-      ],
-      "hash": "f6028664f7bf"
-    },
-    {
-      "title": "증시 흔드는 금리…고금리 환경서 잘 버틸 종목은? [분석+]",
-      "url": "https://www.hankyung.com/article/2026061107006",
-      "summary": "거시경제(매크로) 이슈가 증시의 발목을 잡고 있다. 금리 상승은 그 자체로 주식시장의 유동성을 위축시키는 악재인 데다, 증시 랠리의 배경인 인공지능(AI) 투자 열풍을 꺾을 가능성이 우려된다.고금리 환경에서도 기업가치를 유지할 가능성이 큰 기업의 특성으로 △수익성 향상...",
-      "datetime_raw": "2026.06.11 22:00",
-      "datetime": "2026-06-11T22:00:00+09:00",
-      "dt": "2026-06-11 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "증시 흔드는 금리"
-      ],
-      "hash": "384f6cb83316"
-    },
-    {
-      "title": "\"오늘은 삼전닉스보다 손흥민\"…월드컵 특수에 불티난 주식 [종목+]",
-      "url": "https://www.hankyung.com/article/2026061112576",
-      "summary": "국내 증시에서 닭고기 관련주가 일제히 상승했다. 올해는 2026 북중미 월드컵 대한민국과 체코전 기대와 함께 치킨 소비 증가 가능성이 부각되면서 육계 생산·가공 기업을 중심으로 매수세가 몰렸다는 분석이다. 다만 한국 대표팀 경기 시간이 모두 평일 오전으로 ...",
-      "datetime_raw": "2026.06.11 20:00",
-      "datetime": "2026-06-11T20:00:00+09:00",
-      "dt": "2026-06-11 20:00",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "오늘은 삼전닉스보다 손흥민"
-      ],
-      "hash": "3f74c41bc761"
-    },
-    {
-      "title": "이 변동장에 10% 수익률 낸 상품은 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026061114671",
-      "summary": "이 변동장에 10% 수익률 낸 상품은코스피지수가 이달 ‘9천피’를 앞두고 7700선으로 하락하는 등 변동성이 극도로 높아진 가운데 10% 넘는 수익률을 기록한 증권 상품이 있다. ‘코스피 양매도 상장지수증권(ETN)&rsquo...",
-      "datetime_raw": "2026.06.11 18:02",
-      "datetime": "2026-06-11T18:02:00+09:00",
-      "dt": "2026-06-11 18:02",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "b21479e04d01"
-    },
-    {
-      "title": "레버리지 ETF發 '극한 변동장'…공포지수 사상 최고치 찍었다",
-      "url": "https://www.hankyung.com/article/2026061114161",
-      "summary": "한국 증시 공포지수가 사상 최고 수준으로 치솟았다. 시장 참가자들이 증시가 급등락할 것으로 예상하며 불안을 느끼고 있다는 의미다. 이번주 들어 거래 일시 중단 조치인 서킷브레이커와 매수·매도 사이드카가 매일 번갈아 발동되는 등 주식시장 변동성이 극도로 커진...",
-      "datetime_raw": "2026.06.11 17:24",
-      "datetime": "2026-06-11T17:24:00+09:00",
-      "dt": "2026-06-11 17:24",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "극한 변동장"
-      ],
-      "hash": "1fc2629a5f16"
-    },
-    {
       "title": "한 달 만에 주가 900% 띄우더니 '상폐'…개미들 '날벼락'",
       "url": "https://www.hankyung.com/article/202606108545i",
       "summary": "",
@@ -455,6 +456,68 @@
         "여자 골프 간판"
       ],
       "hash": "7b64adcdc2b5"
+    },
+    {
+      "title": "증시 흔드는 금리…고금리 환경서 잘 버틸 종목은? [분석+]",
+      "url": "https://www.hankyung.com/article/2026061107006",
+      "summary": "거시경제(매크로) 이슈가 증시의 발목을 잡고 있다. 금리 상승은 그 자체로 주식시장의 유동성을 위축시키는 악재인 데다, 증시 랠리의 배경인 인공지능(AI) 투자 열풍을 꺾을 가능성이 우려된다.고금리 환경에서도 기업가치를 유지할 가능성이 큰 기업의 특성으로 △수익성 향상...",
+      "datetime_raw": "2026.06.11 22:00",
+      "datetime": "2026-06-11T22:00:00+09:00",
+      "dt": "2026-06-11 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "증시 흔드는 금리"
+      ],
+      "hash": "384f6cb83316"
+    },
+    {
+      "title": "\"오늘은 삼전닉스보다 손흥민\"…월드컵 특수에 불티난 주식 [종목+]",
+      "url": "https://www.hankyung.com/article/2026061112576",
+      "summary": "국내 증시에서 닭고기 관련주가 일제히 상승했다. 올해는 2026 북중미 월드컵 대한민국과 체코전 기대와 함께 치킨 소비 증가 가능성이 부각되면서 육계 생산·가공 기업을 중심으로 매수세가 몰렸다는 분석이다. 다만 한국 대표팀 경기 시간이 모두 평일 오전으로 ...",
+      "datetime_raw": "2026.06.11 20:00",
+      "datetime": "2026-06-11T20:00:00+09:00",
+      "dt": "2026-06-11 20:00",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "오늘은 삼전닉스보다 손흥민"
+      ],
+      "hash": "3f74c41bc761"
+    },
+    {
+      "title": "이 변동장에 10% 수익률 낸 상품은 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026061114671",
+      "summary": "이 변동장에 10% 수익률 낸 상품은코스피지수가 이달 ‘9천피’를 앞두고 7700선으로 하락하는 등 변동성이 극도로 높아진 가운데 10% 넘는 수익률을 기록한 증권 상품이 있다. ‘코스피 양매도 상장지수증권(ETN)&rsquo...",
+      "datetime_raw": "2026.06.11 18:02",
+      "datetime": "2026-06-11T18:02:00+09:00",
+      "dt": "2026-06-11 18:02",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "b21479e04d01"
+    },
+    {
+      "title": "레버리지 ETF發 '극한 변동장'…공포지수 사상 최고치 찍었다",
+      "url": "https://www.hankyung.com/article/2026061114161",
+      "summary": "한국 증시 공포지수가 사상 최고 수준으로 치솟았다. 시장 참가자들이 증시가 급등락할 것으로 예상하며 불안을 느끼고 있다는 의미다. 이번주 들어 거래 일시 중단 조치인 서킷브레이커와 매수·매도 사이드카가 매일 번갈아 발동되는 등 주식시장 변동성이 극도로 커진...",
+      "datetime_raw": "2026.06.11 17:24",
+      "datetime": "2026-06-11T17:24:00+09:00",
+      "dt": "2026-06-11 17:24",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "극한 변동장"
+      ],
+      "hash": "1fc2629a5f16"
     },
     {
       "title": "에버노스 CEO \"DAT, 2세대로 전환…XRPL 기관 참여 이끌 것\"",
@@ -1049,70 +1112,6 @@
         "팔자"
       ],
       "hash": "aff516fd8829"
-    },
-    {
-      "title": "코스피 4.52% 하락…7730.82 마감",
-      "url": "https://www.hankyung.com/article/2026061085766",
-      "summary": "[속보] 코스피 4.52% 하락…7730.82 마감이수 한경닷컴 기자 2su@hankyung.com",
-      "datetime_raw": "2026.06.10 15:31",
-      "datetime": "2026-06-10T15:31:00+09:00",
-      "dt": "2026-06-10 15:31",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 4.52% 하락"
-      ],
-      "hash": "bf805cb83ed1"
-    },
-    {
-      "title": "코스피 급락에 매도 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026061082006",
-      "summary": "[속보] 코스피 급락에 매도 사이드카 발동이수 한경닷컴 기자 2su@hankyung.com",
-      "datetime_raw": "2026.06.10 13:26",
-      "datetime": "2026-06-10T13:26:00+09:00",
-      "dt": "2026-06-10 13:26",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 급락에 매도 사이드카 발동"
-      ],
-      "hash": "7d6d42c01498"
-    },
-    {
-      "title": "\"앞으로 35% 더 오른다고?\"…투자고수, 1등주 집중 매수",
-      "url": "https://www.hankyung.com/article/202606107803i",
-      "summary": "투자수익률 상위 1％ 고수들이 삼성전자를 집중 매수하고 있다. 오는 10일 발표를 앞둔 5월 미국 소비자물가지수(CPI) 발표를 앞두고 경계감이 높아지고 있지만 투자자들이 주가가 상승할 것이란 전망에 베팅하고 있는 것으로 풀이된다. 10일 미래에셋엠클...",
-      "datetime_raw": "2026.06.10 11:19",
-      "datetime": "2026-06-10T11:19:00+09:00",
-      "dt": "2026-06-10 11:19",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "앞으로 35% 더 오른다고?"
-      ],
-      "hash": "d28e7dba323a"
-    },
-    {
-      "title": "닥사, 불법 가상자산업체 12곳 적발…경찰 수사 의뢰",
-      "url": "https://www.hankyung.com/article/202606107928B",
-      "summary": "디지털자산거래소 공동협의체(DAXA, 이하 닥사)가 국내 가상자산사업자(VASP)들과 함께 실시한 합동 조사 결과, 불법 가상자산 취급업체 12곳을 적발해 경찰에 수사 의뢰했다고 10일 밝혔다.이번 조사는 지난 2월부터 약 3개월간 진행됐다. 닥사와 국내 신고 가상자산...",
-      "datetime_raw": "2026.06.10 11:03",
-      "datetime": "2026-06-10T11:03:00+09:00",
-      "dt": "2026-06-10 11:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "닥사"
-      ],
-      "hash": "fb671c3c5500"
     }
   ],
   "consensus_signals": []
