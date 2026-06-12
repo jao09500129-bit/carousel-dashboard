@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-12T15:00:50.125070+09:00",
+  "collected_at": "2026-06-12T16:00:45.089987+09:00",
   "date": "2026-06-12",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -40,6 +40,54 @@
     ]
   },
   "items": [
+    {
+      "title": "\"반도체 슈퍼사이클 이제 시작\"...골드만삭스·노무라 한목소리",
+      "url": "https://www.hankyung.com/article/202606123179i",
+      "summary": "반도체 슈퍼사이클이 초입 단계에 있다는 분석이 잇따르고 있다. 골드만삭스와 노무라증권이 인공지능(AI) 투자 확대를 근거로 반도체 업황에 대한 긍정적인 전망을 제시하면서 시장의 기대가 커지고 있다.글로벌 투자은행(IB) 골드만삭스는 지난 11일(현지시간) 발간한 보고서...",
+      "datetime_raw": "2026.06.12 15:58",
+      "datetime": "2026-06-12T15:58:00+09:00",
+      "dt": "2026-06-12 15:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 슈퍼사이클 이제 시작"
+      ],
+      "hash": "f198f04c434d"
+    },
+    {
+      "title": "\"스페이스X에 투자한 상장사 뽑아줘\"…에픽AI가 바로 찾아준다",
+      "url": "https://www.hankyung.com/article/202606123312i",
+      "summary": "한국경제신문의 투자정보 플랫폼인 한경 프리미엄9을 구독하면 국내 상장사들의 타법인 출자 여부를 한눈에 파악할 수 있게 된다.숨은 알짜 비상장 주식이나 스페이스X와 같은 해외 대형 스타트업 지분을 얼마나 보유했는지도 알 수 있다. 한경 프리미엄9에 탑재된 자본시장 전문 ...",
+      "datetime_raw": "2026.06.12 15:51",
+      "datetime": "2026-06-12T15:51:00+09:00",
+      "dt": "2026-06-12 15:51",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "스페이스X에 투자한 상장사 뽑아줘"
+      ],
+      "hash": "5dd8f2a3c150"
+    },
+    {
+      "title": "창(긴축)과 방패(반도체)의 대결",
+      "url": "https://www.hankyung.com/article/202606110924i",
+      "summary": "혹시나 한풀 꺾이나 했던 환율이 반대로 1500원대의 벽을 넘지 못하며 원화 약세가 쉽사리 잡히지 않는 모습이다. 아무래도 트럼프가 촉발한 중동전쟁, 젠슨 황이 다시 불 지핀 AI발 미국 증시 호황 그리고 연준의 금리인상 경계감 등 대외 변수가 시시각각 엇갈리며 국내외...",
+      "datetime_raw": "2026.06.12 15:00",
+      "datetime": "2026-06-12T15:00:00+09:00",
+      "dt": "2026-06-12 15:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "창(긴축)과 방패(반도체)의 대결"
+      ],
+      "hash": "187d8e84bba2"
+    },
     {
       "title": "\"월드컵 티켓 결제 코인으로?\"…가상자산 사기 주의보",
       "url": "https://www.hankyung.com/article/2026061232347",
@@ -326,58 +374,6 @@
       "hash": "9dd380d596a7"
     },
     {
-      "title": "\"한화시스템, K-방산 핵심 밸류체인 장악…목표가 12만원\"-KB",
-      "url": "https://www.hankyung.com/article/2026061220306",
-      "summary": "KB증권은 11일 한화시스템에 대해 \"K-방산 핵심 부품과 소프트웨어 가치사슬(밸류체인)을 장악한 기업\"이라며 투자의견 '매수'와 목표주가 12만원으로 기업평가를 개시했다. 정동익 KB증권 연구원은 \"한화시스템은 K-방산 핵심 부품과 소프트웨어 ...",
-      "datetime_raw": "2026.06.12 07:50",
-      "datetime": "2026-06-12T07:50:00+09:00",
-      "dt": "2026-06-12 07:50",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한화시스템"
-      ],
-      "hash": "0ad887148a31"
-    },
-    {
-      "title": "\"대한항공, 아시아나 합병으로 연 3265억원 당기순이익 가산 효과\"-KB",
-      "url": "https://www.hankyung.com/article/2026061220336",
-      "summary": "KB증권은 12일 대한항공에 대해 \"화물운임이 코로나19 이후 가장 높은 수준으로 급등해 유가 상승 부담을 상당히 상쇄하고 있다\"며 \"아시아나항공의 합병도 장기적으로 당기순이익을 30% 증가시킬 수 있는 이벤트가 될 것\"이라고 분석했다. 투자의견 '매수'...",
-      "datetime_raw": "2026.06.12 07:46",
-      "datetime": "2026-06-12T07:46:00+09:00",
-      "dt": "2026-06-12 07:46",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "대한항공"
-      ],
-      "hash": "eebef489d7ad"
-    },
-    {
-      "title": "올해 527% 올랐던 광통신주…한달새 쭉 빠졌다, 왜",
-      "url": "https://www.hankyung.com/article/202606111409i",
-      "summary": "인공지능(AI) 인프라 시대에 발생할 수 있는 '데이터 병목 현상' 대안으로 부각된 광통신주(株)가 최근 전반적으로 약세를 이어가고 있다. 차세대 기술로 꼽히는 광패키지엔진(CPO)의 양산이 2029년까지 지연될 것이란 관측이 나오며 기술 상용화가 예상보...",
-      "datetime_raw": "2026.06.12 07:30",
-      "datetime": "2026-06-12T07:30:00+09:00",
-      "dt": "2026-06-12 07:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "올해 527% 올랐던 광통신주"
-      ],
-      "hash": "cc262a3c1990"
-    },
-    {
       "title": "한 달 만에 주가 900% 띄우더니 '상폐'…개미들 '날벼락'",
       "url": "https://www.hankyung.com/article/202606108545i",
       "summary": "",
@@ -445,8 +441,8 @@
       "hash": "612e6bc8b4c2"
     },
     {
-      "title": "삼성에 밀려 추락한 패배자…'젠슨 황도 1조 베팅' 대반전",
-      "url": "https://www.hankyung.com/article/2026061090811",
+      "title": "'여자 골프 간판' 박현경 실격당했다…거리 측정기 사용 위반",
+      "url": "https://www.hankyung.com/article/202606111296i",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -456,10 +452,61 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "젠슨 황도 1조 베팅",
-        "삼성에 밀려 추락한 패배자"
+        "여자 골프 간판"
       ],
-      "hash": "c3cb26e9e71d"
+      "hash": "7b64adcdc2b5"
+    },
+    {
+      "title": "\"한화시스템, K-방산 핵심 밸류체인 장악…목표가 12만원\"-KB",
+      "url": "https://www.hankyung.com/article/2026061220306",
+      "summary": "KB증권은 11일 한화시스템에 대해 \"K-방산 핵심 부품과 소프트웨어 가치사슬(밸류체인)을 장악한 기업\"이라며 투자의견 '매수'와 목표주가 12만원으로 기업평가를 개시했다. 정동익 KB증권 연구원은 \"한화시스템은 K-방산 핵심 부품과 소프트웨어 ...",
+      "datetime_raw": "2026.06.12 07:50",
+      "datetime": "2026-06-12T07:50:00+09:00",
+      "dt": "2026-06-12 07:50",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한화시스템"
+      ],
+      "hash": "0ad887148a31"
+    },
+    {
+      "title": "\"대한항공, 아시아나 합병으로 연 3265억원 당기순이익 가산 효과\"-KB",
+      "url": "https://www.hankyung.com/article/2026061220336",
+      "summary": "KB증권은 12일 대한항공에 대해 \"화물운임이 코로나19 이후 가장 높은 수준으로 급등해 유가 상승 부담을 상당히 상쇄하고 있다\"며 \"아시아나항공의 합병도 장기적으로 당기순이익을 30% 증가시킬 수 있는 이벤트가 될 것\"이라고 분석했다. 투자의견 '매수'...",
+      "datetime_raw": "2026.06.12 07:46",
+      "datetime": "2026-06-12T07:46:00+09:00",
+      "dt": "2026-06-12 07:46",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "대한항공"
+      ],
+      "hash": "eebef489d7ad"
+    },
+    {
+      "title": "올해 527% 올랐던 광통신주…한달새 쭉 빠졌다, 왜",
+      "url": "https://www.hankyung.com/article/202606111409i",
+      "summary": "인공지능(AI) 인프라 시대에 발생할 수 있는 '데이터 병목 현상' 대안으로 부각된 광통신주(株)가 최근 전반적으로 약세를 이어가고 있다. 차세대 기술로 꼽히는 광패키지엔진(CPO)의 양산이 2029년까지 지연될 것이란 관측이 나오며 기술 상용화가 예상보...",
+      "datetime_raw": "2026.06.12 07:30",
+      "datetime": "2026-06-12T07:30:00+09:00",
+      "dt": "2026-06-12 07:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "올해 527% 올랐던 광통신주"
+      ],
+      "hash": "cc262a3c1990"
     },
     {
       "title": "\"에이치브이엠, 스페이스X 상장에 따른 수혜 기대\"-하나",
@@ -1071,54 +1118,6 @@
         "진짜 모멘텀은 종전"
       ],
       "hash": "d7600a0b8f58"
-    },
-    {
-      "title": "삼성·애플폰 신제품 출격…환율 악조건 속에도 K디스플레이 달린다",
-      "url": "https://www.hankyung.com/article/202606108646i",
-      "summary": "국내 디스플레이 업계가 올해 환율 급등과 중동 정세 불안으로 인한 원자재 가격 상승 등 악조건에도 양호한 성적표를 받을 것으로 관측된다. 삼성전자와 애플이 올 하반기부터 줄줄이 프리미엄 스마트폰 신제품 출시를 앞두고 있어 직접적인 수혜가 예상되기 때문...",
-      "datetime_raw": "2026.06.10 16:48",
-      "datetime": "2026-06-10T16:48:00+09:00",
-      "dt": "2026-06-10 16:48",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성"
-      ],
-      "hash": "bb0b83372e2b"
-    },
-    {
-      "title": "\"삼전닉스 올랐는데 왜 손실이지\"…레버리지의 숨겨진 함정",
-      "url": "https://www.hankyung.com/article/202606108698i",
-      "summary": "삼성전자와 SK하이닉스가 급등락을 이어가면서 두 기업을 기초자산으로 둔 단일종목 레버리지·인버스 상장지수펀드(ETF) 수익률이 악화하고 있다. 특히 기초자산 주가가 며칠간 횡보한 끝에 종가가 투자 시점과 동일하더라도 레버리지·인버스 ETF에 투...",
-      "datetime_raw": "2026.06.10 16:42",
-      "datetime": "2026-06-10T16:42:00+09:00",
-      "dt": "2026-06-10 16:42",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 올랐는데 왜 손실이지"
-      ],
-      "hash": "1e399aabd78c"
-    },
-    {
-      "title": "\"아르시움, 기밀 연산 100만건 넘었다\"",
-      "url": "https://www.hankyung.com/article/2026061087796",
-      "summary": "블록체인 기반 기밀 컴퓨팅 네트워크 아르시움의 누적 기밀 연산이 100만건을 넘어섰다고 블루밍비트가 10일 보도했다.블루밍비트에 따르면 현재 아르시움 네트워크는 하루 20만 건 이상의 기밀 연산을 처리하고 있다. 기밀 컴퓨팅은 데이터를 암호화한 상태 그대로 연산하는 기...",
-      "datetime_raw": "2026.06.10 16:38",
-      "datetime": "2026-06-10T16:38:00+09:00",
-      "dt": "2026-06-10 16:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "아르시움"
-      ],
-      "hash": "84b5bc3cfbba"
     }
   ],
   "consensus_signals": []
