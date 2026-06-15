@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-06-15 01:41 KST",
+  "as_of": "2026-06-15 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "\"AI값 떨어진다\" 술렁인 월가...가격 전쟁의 진짜 의미 [빈난새의 빈틈없이월가]",
+  "headline": "\"머스크만 돈 번 게 아니었다\"…스페이스X 상장 숨은 승자들",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "\"AI값 떨어진다\" 술렁인 월가...가격 전쟁의 진짜 의미 [빈난새의 빈틈없이월가]",
+      "title": "\"머스크만 돈 번 게 아니었다\"…스페이스X 상장 숨은 승자들",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606144622i"
+      "url": "https://www.hankyung.com/article/2026061556267"
     },
     {
       "title": "로켓처럼 튄 스페이스X…6개월 뒤? 하락 50%/상승 35% [김현석의 월스트리트나우]",
@@ -19,20 +19,20 @@
       "url": "https://www.hankyung.com/article/202606134041i"
     },
     {
-      "title": "\"지속 불가능한 주가\"까지 오를 스페이스X [월가백브리핑]",
+      "title": "\"AI값 떨어진다\" 술렁인 월가...가격 전쟁의 진짜 의미 [빈난새의 빈틈없이월가]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606134164i"
+      "url": "https://www.hankyung.com/article/202606144622i"
     },
     {
-      "title": "FOMC 등판하는 워시, 매파에 포위된 그의 선택은? [김현석의 퀵브리프]",
+      "title": "중동 전쟁 종전 소식에 유가 4% 하락, 달러도 약세",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606122098i"
+      "url": "https://www.hankyung.com/article/202606155953i"
     }
   ],
   "today_kr_focus": [
-    "반도체 소부장 '뜀박질'…레버지리ETF도 뭉칫돈 (2026-06-15 01:06)",
-    "에스에프에이·덕산네오룩스 실적 전망치 상향 (2026-06-14 18:16)",
-    "스페이스X 어디까지 오를까 [한경 프리미엄9 TODAY] (2026-06-14 18:10)"
+    "복지장관 \"하반기 탈모치료 건보 적용 추진\"…JW신약·TS트릴리온 '上' (2026-06-15 09:25)",
+    "코스피, 美·이란 협상에 8500선 돌파…'34만전자·230만닉스' 회복 (2026-06-15 09:22)",
+    "단숨에 코스피 8500…'종전 협상 타결'에 매수 사이드카 발동 [마켓 라이브] (2026-06-15 09:18)"
   ],
   "carousel_implications": {
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
@@ -50,12 +50,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "+1.52%"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.74% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.74%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-15T01:41:39.842991+09:00",
+    "collected_at": "2026-06-15T09:30:52.974038+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,9 +132,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,517.04",
-            "chg": "1.12",
-            "chg_pct": "+0.07%"
+            "close": "1,505.83",
+            "chg": "11.21",
+            "chg_pct": "-0.74%"
           },
           {
             "name": "유로",
@@ -139,16 +146,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "947.32",
-            "chg": "1.10",
-            "chg_pct": "+0.12%"
+            "close": "941.25",
+            "chg": "6.07",
+            "chg_pct": "-0.64%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "224.17",
-            "chg": "0.43",
-            "chg_pct": "+0.19%"
+            "close": "222.36",
+            "chg": "1.81",
+            "chg_pct": "-0.81%"
           }
         ]
       },
