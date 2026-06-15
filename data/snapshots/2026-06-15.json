@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-15T11:00:53.434361+09:00",
+  "collected_at": "2026-06-15T13:00:56.285938+09:00",
   "date": "2026-06-15",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 7,
+    "with_broker_mention": 6,
     "target_price_up": 2,
     "target_price_down": 0,
     "top_brokers": [
@@ -28,14 +28,75 @@
       [
         "하나",
         1
-      ],
-      [
-        "한국투자",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "a16z, 서울 사무소 공식 개소…한국 시장 공략 본격화",
+      "url": "https://www.hankyung.com/article/202606156669B",
+      "summary": "글로벌 벤처캐피털(VC) 앤드리슨 호로위츠(Andreessen Horowitz·a16z)가 서울 사무소를 공식 개소했다고 15일 밝혔다.a16z는 지난해 12월 아시아 시장 진출 계획을 발표한 이후 포트폴리오 기업들의 한국 및 아시아 시장 진출을 지원하기 위해 서울 사...",
+      "datetime_raw": "2026.06.15 11:24",
+      "datetime": "2026-06-15T11:24:00+09:00",
+      "dt": "2026-06-15 11:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "a16z"
+      ],
+      "hash": "c562caf5d55b"
+    },
+    {
+      "title": "이채윤 리노공업 대표, 700만주 블록딜 완료…할인율 12%",
+      "url": "https://www.hankyung.com/article/2026061564946",
+      "summary": "코스닥 시가총액 8위(15일 기준)인 리노공업의 최대주주 이채윤 대표가 7000억원대 규모의 지분 매각을 시간외 대량매매(블록딜) 방식으로 마무리했다. 당초 예정됐던 매각 기한을 약 2주 앞두고 거래가 조기에 성사되면서 시장이 우려했던 오버행(잠재적 매도 물량) 부담도...",
+      "datetime_raw": "2026.06.15 11:11",
+      "datetime": "2026-06-15T11:11:00+09:00",
+      "dt": "2026-06-15 11:11",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이채윤 리노공업 대표"
+      ],
+      "hash": "55a53c6da29e"
+    },
+    {
+      "title": "코인원, 프로덕트 직군 집중 채용 실시…제품 경쟁력 강화 나서",
+      "url": "https://www.hankyung.com/article/202606156613B",
+      "summary": "코인원이 프로덕트 직군 집중 채용을 진행한다고 15일 밝혔다.이번 채용은 가상자산 시장 제도화가 본격화되는 가운데 우수 인재를 확보해 서비스 경쟁력을 높이고 신규 제품 개발을 강화하기 위한 차원에서 마련됐다.모집 분야는 ▲시니어 프로덕트 오너(Senior Product...",
+      "datetime_raw": "2026.06.15 11:11",
+      "datetime": "2026-06-15T11:11:00+09:00",
+      "dt": "2026-06-15 11:11",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코인원"
+      ],
+      "hash": "a1ff70434a2d"
+    },
+    {
+      "title": "스페이스X도 전쟁도 끝났다…증시 승부처는 '금리'",
+      "url": "https://www.hankyung.com/article/2026061565317",
+      "summary": "지난주 시장의 시선을 빨아들였던 스페이스X 기업공개(IPO)가 마무리되고 100일 넘게 이어진 중동전쟁도 사실상 종전 수순에 들어갔다. 투자자들의 관심은 이제 빠르게 미국 중앙은행(Fed)의 금리 판단으로 옮겨가고 있다.15일 관련업계에 따르면 오는 17일 케빈 워시 ...",
+      "datetime_raw": "2026.06.15 11:03",
+      "datetime": "2026-06-15T11:03:00+09:00",
+      "dt": "2026-06-15 11:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "금리",
+        "스페이스X도 전쟁도 끝났다"
+      ],
+      "hash": "80a8622bde8d"
+    },
     {
       "title": "한국투자금융그룹, '캐년 ABF 파트너스' 지분투자",
       "url": "https://www.hankyung.com/article/2026061565066",
@@ -249,9 +310,9 @@
       "hash": "b00dfb2599f9"
     },
     {
-      "title": "단숨에 코스피 8500…'종전 협상 타결'에 매수 사이드카 발동 [마켓 라이브]",
+      "title": "코스피 '8500선' 재돌파에 1.2조 던진 개미…코스닥은 보합 [마켓 라이브]",
       "url": "https://www.hankyung.com/article/202606156062i",
-      "summary": "미·이란 종전 합의 효과 본격화… 코스피 4.5% 급등 출발, 반도체·전자부품 주도(오전 9시10분)15일 장 초반 코스피가 4% 넘게 급등하면서 매수 사이드카가 발동됐습니다. 직전 거래일이었던 지난 12일 매수 사이드카가 발동된데...",
+      "summary": "코스피 8,500선 공방… 기관·외국인 동반 순매수, 항공·반도체·전자부품 강세(오전 11시)🕘 종전 합의 효과 지속… 코스피 강세, 코스닥 보합권 혼조오전 11시 기준, 한국 증시는 미국·이란...",
       "datetime_raw": "2026.06.15 09:18",
       "datetime": "2026-06-15T09:18:00+09:00",
       "dt": "2026-06-15 09:18",
@@ -260,8 +321,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "종전 협상 타결",
-        "단숨에 코스피 8500"
+        "8500선"
       ],
       "hash": "8b462bab26b0"
     },
@@ -296,73 +356,6 @@
         "코스피 급등에 매수 사이드카 발동"
       ],
       "hash": "b1d9d5ad3790"
-    },
-    {
-      "title": "코스피 8500선 돌파…5%대 급등",
-      "url": "https://www.hankyung.com/article/2026061560166",
-      "summary": "[속보] 코스피 8500선 돌파…5%대 급등고정삼 한경닷컴 기자 jsk@hankyung.com",
-      "datetime_raw": "2026.06.15 09:01",
-      "datetime": "2026-06-15T09:01:00+09:00",
-      "dt": "2026-06-15 09:01",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 8500선 돌파"
-      ],
-      "hash": "59d5ff1d1243"
-    },
-    {
-      "title": "타임폴리오 'TIME액티브 ETF', 스페이스X 상장일 즉시 편입",
-      "url": "https://www.hankyung.com/article/2026061558656",
-      "summary": "타임폴리오자산운용이 스페이스X 상장 당일인 12일(현지시간) 주요 글로벌 액티브 상장지수펀드(ETF) 3종에 스페이스X를 즉시 편입했다. TIME 글로벌우주테크&방산액티브 ETF, TIME 미국나스닥100액티브 ETF, TIME 글로벌AI인공지능액티브 ETF 등이 대상...",
-      "datetime_raw": "2026.06.15 08:58",
-      "datetime": "2026-06-15T08:58:00+09:00",
-      "dt": "2026-06-15 08:58",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "TIME액티브 ETF"
-      ],
-      "hash": "355215f67992"
-    },
-    {
-      "title": "\"전쟁 끝난다\" 소식에 美 선물 상승…국제유가는 4% 급락",
-      "url": "https://www.hankyung.com/article/2026061558767",
-      "summary": "미국과 이란이 오는 19일 종전 양해각서(MOU)에 서명할 예정이라고 밝히면서 글로벌 금융시장이 즉각 반응했다. 미국 지수 선물은 일제히 상승했고, 국제유가는 3~4%대 하락했다. 안전자산 선호가 완화되면서 미국 달러화도 약세를 보였다.15일(한국시간) 오전 7시20분...",
-      "datetime_raw": "2026.06.15 08:32",
-      "datetime": "2026-06-15T08:32:00+09:00",
-      "dt": "2026-06-15 08:32",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "전쟁 끝난다"
-      ],
-      "hash": "811027205469"
-    },
-    {
-      "title": "\"스페이스X 투자할 것\" 상한가 찍자…고수들 '풀베팅'한 곳",
-      "url": "https://www.hankyung.com/article/202606155747i",
-      "summary": "투자 수익률 상위 1%의 초고수가 지난 12일 한미반도체와 이 회사가 최대 주주인 HPSP를 집중 매수했다. 한미반도체가 16일 스페이스X 주식 500억원어치 규모를 취득한다고 밝힌 데 따른 것이다.15일 키움증권에 따르면 투자원금 1000만원 이상이면서 전월 기준 수...",
-      "datetime_raw": "2026.06.15 08:30",
-      "datetime": "2026-06-15T08:30:00+09:00",
-      "dt": "2026-06-15 08:30",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "풀베팅",
-        "스페이스X 투자할 것"
-      ],
-      "hash": "b70cb7d80930"
     },
     {
       "title": "\"삼성전자 사자\" 외국인 돌변한 이유가…'파격 전망' 나왔다",
@@ -446,6 +439,73 @@
         "회사와 안 맞아"
       ],
       "hash": "6f8535672f11"
+    },
+    {
+      "title": "코스피 8500선 돌파…5%대 급등",
+      "url": "https://www.hankyung.com/article/2026061560166",
+      "summary": "[속보] 코스피 8500선 돌파…5%대 급등고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.06.15 09:01",
+      "datetime": "2026-06-15T09:01:00+09:00",
+      "dt": "2026-06-15 09:01",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 8500선 돌파"
+      ],
+      "hash": "59d5ff1d1243"
+    },
+    {
+      "title": "타임폴리오 'TIME액티브 ETF', 스페이스X 상장일 즉시 편입",
+      "url": "https://www.hankyung.com/article/2026061558656",
+      "summary": "타임폴리오자산운용이 스페이스X 상장 당일인 12일(현지시간) 주요 글로벌 액티브 상장지수펀드(ETF) 3종에 스페이스X를 즉시 편입했다. TIME 글로벌우주테크&방산액티브 ETF, TIME 미국나스닥100액티브 ETF, TIME 글로벌AI인공지능액티브 ETF 등이 대상...",
+      "datetime_raw": "2026.06.15 08:58",
+      "datetime": "2026-06-15T08:58:00+09:00",
+      "dt": "2026-06-15 08:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "TIME액티브 ETF"
+      ],
+      "hash": "355215f67992"
+    },
+    {
+      "title": "\"전쟁 끝난다\" 소식에 美 선물 상승…국제유가는 4% 급락",
+      "url": "https://www.hankyung.com/article/2026061558767",
+      "summary": "미국과 이란이 오는 19일 종전 양해각서(MOU)에 서명할 예정이라고 밝히면서 글로벌 금융시장이 즉각 반응했다. 미국 지수 선물은 일제히 상승했고, 국제유가는 3~4%대 하락했다. 안전자산 선호가 완화되면서 미국 달러화도 약세를 보였다.15일(한국시간) 오전 7시20분...",
+      "datetime_raw": "2026.06.15 08:32",
+      "datetime": "2026-06-15T08:32:00+09:00",
+      "dt": "2026-06-15 08:32",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "전쟁 끝난다"
+      ],
+      "hash": "811027205469"
+    },
+    {
+      "title": "\"스페이스X 투자할 것\" 상한가 찍자…고수들 '풀베팅'한 곳",
+      "url": "https://www.hankyung.com/article/202606155747i",
+      "summary": "투자 수익률 상위 1%의 초고수가 지난 12일 한미반도체와 이 회사가 최대 주주인 HPSP를 집중 매수했다. 한미반도체가 16일 스페이스X 주식 500억원어치 규모를 취득한다고 밝힌 데 따른 것이다.15일 키움증권에 따르면 투자원금 1000만원 이상이면서 전월 기준 수...",
+      "datetime_raw": "2026.06.15 08:30",
+      "datetime": "2026-06-15T08:30:00+09:00",
+      "dt": "2026-06-15 08:30",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "풀베팅",
+        "스페이스X 투자할 것"
+      ],
+      "hash": "b70cb7d80930"
     },
     {
       "title": "벡트·AID·심플랫폼, 엣지데이터센터 시장 공략…\"AI 인프라 선도\"",
@@ -1025,73 +1085,6 @@
         "스페이스X에 투자한 상장사 어디?"
       ],
       "hash": "5dd8f2a3c150"
-    },
-    {
-      "title": "창(긴축)과 방패(반도체)의 대결",
-      "url": "https://www.hankyung.com/article/202606110924i",
-      "summary": "혹시나 한풀 꺾이나 했던 환율이 반대로 1500원대의 벽을 넘지 못하며 원화 약세가 쉽사리 잡히지 않는 모습이다. 아무래도 트럼프가 촉발한 중동전쟁, 젠슨 황이 다시 불 지핀 AI발 미국 증시 호황 그리고 연준의 금리인상 경계감 등 대외 변수가 시시각각 엇갈리며 국내외...",
-      "datetime_raw": "2026.06.12 15:00",
-      "datetime": "2026-06-12T15:00:00+09:00",
-      "dt": "2026-06-12 15:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "창(긴축)과 방패(반도체)의 대결"
-      ],
-      "hash": "187d8e84bba2"
-    },
-    {
-      "title": "\"월드컵 티켓 결제 코인으로?\"…가상자산 사기 주의보",
-      "url": "https://www.hankyung.com/article/2026061232347",
-      "summary": "북중미 월드컵 계기로 가상자산 사기 범죄가 성행할 가능성이 있다고 글로벌 블록체인 리서치업체 TRM랩스가 12일 밝혔다.보고서에 따르면 월드컵 개막 전 국제축구연맹(FIFA) 공식 홈페이지를 사칭해 티켓 결제를 유도하는 가짜 사이트 등 사기와 연관된 가상자산 지갑 주소...",
-      "datetime_raw": "2026.06.12 14:53",
-      "datetime": "2026-06-12T14:53:00+09:00",
-      "dt": "2026-06-12 14:53",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "월드컵 티켓 결제 코인으로?"
-      ],
-      "hash": "a8f7a212d10b"
-    },
-    {
-      "title": "'코스닥 상장' 스트라드비젼 \"글로벌 완성차 공급해 누적 500만대 양산\"",
-      "url": "https://www.hankyung.com/article/2026061230286",
-      "summary": "\"스트라드비젼은 독자적인 비전 인공지능(AI) 기술력을 바탕으로 글로벌 완성차 제조사(OEM) 및 1차 부품업체(Tier-1) 고객사와 다양한 양산 프로젝트를 수행했습니다. 누적 500만 대 이상의 차량 양산 경험을 바탕으로 첨단운전자보조시스템(ADAS)과 자율주행 시...",
-      "datetime_raw": "2026.06.12 14:28",
-      "datetime": "2026-06-12T14:28:00+09:00",
-      "dt": "2026-06-12 14:28",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스닥 상장",
-        "글로벌 완성차 공급해 누적 500만대 양산"
-      ],
-      "hash": "7a1d08d80d11"
-    },
-    {
-      "title": "한국투자증권, 시민 4000여명과 축구 국가대표 거리응원",
-      "url": "https://www.hankyung.com/article/2026061230356",
-      "summary": "한국투자증권은 서울 여의도 본사 앞 'KIS SQUARE'에서 고객과 시민 4000여명이 함께한 축구 국가대표 거리 응원 행사를 성황리에 개최했다고 12일 밝혔다.이는 여의도에서 처음 열린 대규모 거리 응원 행사다. 국가대표 경기 응원은 물론 시민들이 함...",
-      "datetime_raw": "2026.06.12 13:55",
-      "datetime": "2026-06-12T13:55:00+09:00",
-      "dt": "2026-06-12 13:55",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한국투자증권"
-      ],
-      "hash": "91aeb26b9562"
     }
   ],
   "consensus_signals": []
