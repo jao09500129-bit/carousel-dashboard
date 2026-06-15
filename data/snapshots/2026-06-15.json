@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-15T13:00:56.285938+09:00",
+  "collected_at": "2026-06-15T15:00:54.986263+09:00",
   "date": "2026-06-15",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,13 +9,21 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 6,
+    "with_broker_mention": 8,
     "target_price_up": 2,
     "target_price_down": 0,
     "top_brokers": [
       [
         "KB",
         3
+      ],
+      [
+        "현대차",
+        1
+      ],
+      [
+        "한국투자",
+        1
       ],
       [
         "키움",
@@ -32,6 +40,43 @@
     ]
   },
   "items": [
+    {
+      "title": "\"지금 오른다고 덥석 샀다간 낭패\"…하반기 '진짜 주도주'는?",
+      "url": "https://www.hankyung.com/article/202606157053i",
+      "summary": "올 하반기 국내 증시에서 이익 모멘텀이 뚜렷한 증권주와 저평가 매력이 큰 자동차주가 유망한 대안 투자처로 꼽혔다. 반면 지난 한 달간 순환매가 유입됐던 백화점·은행 등 내수·방어주들에 대해선 경고등이 켜졌다.현대차증권은 15일 최근 주가 상승세...",
+      "datetime_raw": "2026.06.15 14:51",
+      "datetime": "2026-06-15T14:51:00+09:00",
+      "dt": "2026-06-15 14:51",
+      "brokers": [
+        "현대차"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "진짜 주도주",
+        "지금 오른다고 덥석 샀다간 낭패"
+      ],
+      "hash": "2366c3aaa8e1"
+    },
+    {
+      "title": "한국투자증권, 카카오뱅크 앱서 적립식 발행어음 서비스",
+      "url": "https://www.hankyung.com/article/2026061570546",
+      "summary": "한국투자증권은 카카오뱅크 애플리케이션(앱)을 통해 '적립식 발행어음' 서비스를 선보였다고 15일 밝혔다. 해당 서비스는 매월 지정한 날짜에 맞춰 발행어음 상품을 자동 투자한다. 투자 기간은 1년이다. 이날 기준으로 연 4.35%의 세전 수익률을 ...",
+      "datetime_raw": "2026.06.15 14:39",
+      "datetime": "2026-06-15T14:39:00+09:00",
+      "dt": "2026-06-15 14:39",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국투자증권"
+      ],
+      "hash": "e9c0c8874f07"
+    },
     {
       "title": "a16z, 서울 사무소 공식 개소…한국 시장 공략 본격화",
       "url": "https://www.hankyung.com/article/202606156669B",
@@ -310,9 +355,9 @@
       "hash": "b00dfb2599f9"
     },
     {
-      "title": "코스피 '8500선' 재돌파에 1.2조 던진 개미…코스닥은 보합 [마켓 라이브]",
+      "title": "\"반갑다 외인\"…6500억 순매수에 코스피 8500선 뒷받침 [마켓 라이브]",
       "url": "https://www.hankyung.com/article/202606156062i",
-      "summary": "코스피 8,500선 공방… 기관·외국인 동반 순매수, 항공·반도체·전자부품 강세(오전 11시)🕘 종전 합의 효과 지속… 코스피 강세, 코스닥 보합권 혼조오전 11시 기준, 한국 증시는 미국·이란...",
+      "summary": "코스피 8,500선 상회 지속… 기관·외국인 동반 순매수, 항공·반도체·전자부품 강세(오후 2시 기준)🕘 종전 합의 효과 지속… 코스피 강세, 코스닥 소폭 상승 혼조오후 2시 기준, 한국 증시는 미국&mid...",
       "datetime_raw": "2026.06.15 09:18",
       "datetime": "2026-06-15T09:18:00+09:00",
       "dt": "2026-06-15 09:18",
@@ -321,41 +366,9 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "8500선"
+        "반갑다 외인"
       ],
       "hash": "8b462bab26b0"
-    },
-    {
-      "title": "콘텐트리중앙·메가박스 회생절차 개시…주권거래 정지",
-      "url": "https://www.hankyung.com/article/2026061560126",
-      "summary": "중앙그룹 계열의 콘텐트리중앙과 메가박스중앙이 지난 14일 회생절차를 개시했다.15일 금융감독원 전자공시시스템에 따르면 콘텐트리중앙은 이사회의 결정에 따라 서울회생법원에 회생절차 개시와 보전처분, 포괄적금지명령 신청서를 접수했다. 회사 측은 신청사유에 대해 경영정상화 및...",
-      "datetime_raw": "2026.06.15 09:13",
-      "datetime": "2026-06-15T09:13:00+09:00",
-      "dt": "2026-06-15 09:13",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "콘텐트리중앙"
-      ],
-      "hash": "eb0700791f58"
-    },
-    {
-      "title": "코스피 급등에 매수 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026061560446",
-      "summary": "[속보] 코스피 급등에 매수 사이드카 발동고정삼 한경닷컴 기자 jsk@hankyung.com",
-      "datetime_raw": "2026.06.15 09:07",
-      "datetime": "2026-06-15T09:07:00+09:00",
-      "dt": "2026-06-15 09:07",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 급등에 매수 사이드카 발동"
-      ],
-      "hash": "b1d9d5ad3790"
     },
     {
       "title": "\"삼성전자 사자\" 외국인 돌변한 이유가…'파격 전망' 나왔다",
@@ -439,6 +452,38 @@
         "회사와 안 맞아"
       ],
       "hash": "6f8535672f11"
+    },
+    {
+      "title": "콘텐트리중앙·메가박스 회생절차 개시…주권거래 정지",
+      "url": "https://www.hankyung.com/article/2026061560126",
+      "summary": "중앙그룹 계열의 콘텐트리중앙과 메가박스중앙이 지난 14일 회생절차를 개시했다.15일 금융감독원 전자공시시스템에 따르면 콘텐트리중앙은 이사회의 결정에 따라 서울회생법원에 회생절차 개시와 보전처분, 포괄적금지명령 신청서를 접수했다. 회사 측은 신청사유에 대해 경영정상화 및...",
+      "datetime_raw": "2026.06.15 09:13",
+      "datetime": "2026-06-15T09:13:00+09:00",
+      "dt": "2026-06-15 09:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "콘텐트리중앙"
+      ],
+      "hash": "eb0700791f58"
+    },
+    {
+      "title": "코스피 급등에 매수 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026061560446",
+      "summary": "[속보] 코스피 급등에 매수 사이드카 발동고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.06.15 09:07",
+      "datetime": "2026-06-15T09:07:00+09:00",
+      "dt": "2026-06-15 09:07",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 급등에 매수 사이드카 발동"
+      ],
+      "hash": "b1d9d5ad3790"
     },
     {
       "title": "코스피 8500선 돌파…5%대 급등",
@@ -1053,38 +1098,6 @@
         "주가 14% 급등"
       ],
       "hash": "e8caaefa32f2"
-    },
-    {
-      "title": "\"59만전자·500만닉스 간다\"…파격 전망에 설레는 개미들",
-      "url": "https://www.hankyung.com/article/202606123179i",
-      "summary": "반도체 슈퍼사이클이 초입 단계에 있다는 분석이 잇따르고 있다. 골드만삭스와 노무라증권이 인공지능(AI) 투자 확대를 근거로 반도체 업황에 대한 긍정적인 전망을 제시하면서 시장의 기대가 커지고 있다.글로벌 투자은행(IB) 골드만삭스는 지난 11일(현지시간) 발간한 보고서...",
-      "datetime_raw": "2026.06.12 15:58",
-      "datetime": "2026-06-12T15:58:00+09:00",
-      "dt": "2026-06-12 15:58",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "59만전자"
-      ],
-      "hash": "f198f04c434d"
-    },
-    {
-      "title": "\"스페이스X에 투자한 상장사 어디?\"… 에픽AI가 바로 찾아준다",
-      "url": "https://www.hankyung.com/article/202606123312i",
-      "summary": "한국경제신문의 투자정보 플랫폼인 한경 프리미엄9을 구독하면 국내 상장사들의 타법인 출자 여부를 한눈에 파악할 수 있게 된다.숨은 알짜 비상장 주식이나 스페이스X와 같은 해외 대형 스타트업 지분을 얼마나 보유했는지도 알 수 있다. 한경 프리미엄9에 탑재된 자본시장 전문 ...",
-      "datetime_raw": "2026.06.12 15:51",
-      "datetime": "2026-06-12T15:51:00+09:00",
-      "dt": "2026-06-12 15:51",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "스페이스X에 투자한 상장사 어디?"
-      ],
-      "hash": "5dd8f2a3c150"
     }
   ],
   "consensus_signals": []
