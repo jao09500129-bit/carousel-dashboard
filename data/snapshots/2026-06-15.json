@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-15T15:00:54.986263+09:00",
+  "collected_at": "2026-06-15T16:00:46.949681+09:00",
   "date": "2026-06-15",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -40,6 +40,39 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피, 5.2% 급등 마감…8500선 회복",
+      "url": "https://www.hankyung.com/article/2026061572677",
+      "summary": "박수림 한경닷컴 기자 paksr365@hankyung.com",
+      "datetime_raw": "2026.06.15 15:37",
+      "datetime": "2026-06-15T15:37:00+09:00",
+      "dt": "2026-06-15 15:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "1304e4630070"
+    },
+    {
+      "title": "'코스닥 노크' 져스텍 \"초정밀 모션제어로 반도체 시장 공략\"",
+      "url": "https://www.hankyung.com/article/2026061568446",
+      "summary": "\"초정밀 모션 시스템 기업 져스텍은 당초 디스플레이와 산업 자동화가 근간이었지만 인공지능(AI) 붐이 일어나면서 반도체 관련 고객사를 상당수 확보하게 됐습니다. 현재 져스텍의 초정밀 모션제어 기술은 고대역폭메모리(HBM) 및 첨단 패키징에 적용됩니다.\"최동수 져스텍 대...",
+      "datetime_raw": "2026.06.15 15:22",
+      "datetime": "2026-06-15T15:22:00+09:00",
+      "dt": "2026-06-15 15:22",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥 노크",
+        "초정밀 모션제어로 반도체 시장 공략"
+      ],
+      "hash": "0838abbffcba"
+    },
     {
       "title": "\"지금 오른다고 덥석 샀다간 낭패\"…하반기 '진짜 주도주'는?",
       "url": "https://www.hankyung.com/article/202606157053i",
@@ -338,39 +371,6 @@
       "hash": "760b53c948e4"
     },
     {
-      "title": "코스피, 美·이란 협상에 8500선 돌파…'34만전자·230만닉스' 회복",
-      "url": "https://www.hankyung.com/article/2026061560916",
-      "summary": "코스피지수가 15일 장 초반 5% 넘게 급등해 8500선 위로 올라섰다. 미국과 이란 간 종전 협상이 타결됐다는 소식에 시장 전반의 투자심리가 개선된 것으로 풀이된다. 이날 오전 9시12분 현재 코스피지수는 전장 대비 405.89포인트(5.0%) 오른 8529...",
-      "datetime_raw": "2026.06.15 09:22",
-      "datetime": "2026-06-15T09:22:00+09:00",
-      "dt": "2026-06-15 09:22",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피",
-        "34만전자·230만닉스"
-      ],
-      "hash": "b00dfb2599f9"
-    },
-    {
-      "title": "\"반갑다 외인\"…6500억 순매수에 코스피 8500선 뒷받침 [마켓 라이브]",
-      "url": "https://www.hankyung.com/article/202606156062i",
-      "summary": "코스피 8,500선 상회 지속… 기관·외국인 동반 순매수, 항공·반도체·전자부품 강세(오후 2시 기준)🕘 종전 합의 효과 지속… 코스피 강세, 코스닥 소폭 상승 혼조오후 2시 기준, 한국 증시는 미국&mid...",
-      "datetime_raw": "2026.06.15 09:18",
-      "datetime": "2026-06-15T09:18:00+09:00",
-      "dt": "2026-06-15 09:18",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "반갑다 외인"
-      ],
-      "hash": "8b462bab26b0"
-    },
-    {
       "title": "\"삼성전자 사자\" 외국인 돌변한 이유가…'파격 전망' 나왔다",
       "url": "https://www.hankyung.com/article/2026061235086",
       "summary": "",
@@ -452,6 +452,39 @@
         "회사와 안 맞아"
       ],
       "hash": "6f8535672f11"
+    },
+    {
+      "title": "코스피, 美·이란 협상에 8500선 돌파…'34만전자·230만닉스' 회복",
+      "url": "https://www.hankyung.com/article/2026061560916",
+      "summary": "코스피지수가 15일 장 초반 5% 넘게 급등해 8500선 위로 올라섰다. 미국과 이란 간 종전 협상이 타결됐다는 소식에 시장 전반의 투자심리가 개선된 것으로 풀이된다. 이날 오전 9시12분 현재 코스피지수는 전장 대비 405.89포인트(5.0%) 오른 8529...",
+      "datetime_raw": "2026.06.15 09:22",
+      "datetime": "2026-06-15T09:22:00+09:00",
+      "dt": "2026-06-15 09:22",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피",
+        "34만전자·230만닉스"
+      ],
+      "hash": "b00dfb2599f9"
+    },
+    {
+      "title": "\"반갑다 외인\"…6500억 순매수에 코스피 8500선 뒷받침 [마켓 라이브]",
+      "url": "https://www.hankyung.com/article/202606156062i",
+      "summary": "코스피 8,500선 상회 지속… 기관·외국인 동반 순매수, 항공·반도체·전자부품 강세(오후 2시 기준)🕘 종전 합의 효과 지속… 코스피 강세, 코스닥 소폭 상승 혼조오후 2시 기준, 한국 증시는 미국&mid...",
+      "datetime_raw": "2026.06.15 09:18",
+      "datetime": "2026-06-15T09:18:00+09:00",
+      "dt": "2026-06-15 09:18",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반갑다 외인"
+      ],
+      "hash": "8b462bab26b0"
     },
     {
       "title": "콘텐트리중앙·메가박스 회생절차 개시…주권거래 정지",
@@ -1066,38 +1099,6 @@
         "이차전지 호재 가득하다는데"
       ],
       "hash": "e1ffbc106f05"
-    },
-    {
-      "title": "\"일본은행, 내주 기준금리 1%로 인상 전망…31년만 최고치\"",
-      "url": "https://www.hankyung.com/article/202606123516B",
-      "summary": "일본은행(BOJ)이 다음주 기준금리를 31년만에 최고 수준으로 끌어올릴 수 있다는 관측이 나왔다.로이터통신은 일본은행이 오는 16일 종료되는 금융정책결정회의에서 기준금리를 기존 0.75%%에서 1%%로 0.25%%포인트 인상할 가능성이 높다고 보도했다. 기준금리가 1%...",
-      "datetime_raw": "2026.06.12 16:29",
-      "datetime": "2026-06-12T16:29:00+09:00",
-      "dt": "2026-06-12 16:29",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "일본은행"
-      ],
-      "hash": "853fc8e0fc35"
-    },
-    {
-      "title": "역대급 과징금 폭탄 맞고 '주가 14% 급등'…쿠팡 무슨 일이",
-      "url": "https://www.hankyung.com/article/202606123399i",
-      "summary": "미국 증시에 상장된 쿠팡 주가가 급등했다. 개인정보 유출 사고로 6000억원대 과징금 처분을 받았지만 불확실성이 해소되면서 주가가 상승했다는 분석이 나온다. 미국 뉴욕증시에 상장된 모회사인 쿠팡Inc는 11일(현지시간) 14.09% 상승한 17.25달러에 거래...",
-      "datetime_raw": "2026.06.12 16:02",
-      "datetime": "2026-06-12T16:02:00+09:00",
-      "dt": "2026-06-12 16:02",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "주가 14% 급등"
-      ],
-      "hash": "e8caaefa32f2"
     }
   ],
   "consensus_signals": []
