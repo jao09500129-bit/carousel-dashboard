@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-15T09:30:52.974038+09:00",
+  "collected_at": "2026-06-15T10:58:29.833213+09:00",
   "date": "2026-06-15",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,17 +9,13 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 8,
+    "with_broker_mention": 7,
     "target_price_up": 2,
     "target_price_down": 0,
     "top_brokers": [
       [
         "KB",
         3
-      ],
-      [
-        "한국투자",
-        2
       ],
       [
         "키움",
@@ -32,10 +28,193 @@
       [
         "하나",
         1
+      ],
+      [
+        "한국투자",
+        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "한국투자금융그룹, '캐년 ABF 파트너스' 지분투자",
+      "url": "https://www.hankyung.com/article/2026061565066",
+      "summary": "한국투자금융그룹은 글로벌 자산담보부금융(ABF) 전문 투자 법인 '캐년 ABF 파트너스(CAP)' 설립에 앵커 투자자 자격으로 참여한다고 15일 밝혔다.CAP는 글로벌 대체투자 운용사 캐년 파트너스(Canyon Partners), 일본 다이치생명(Daii...",
+      "datetime_raw": "2026.06.15 10:48",
+      "datetime": "2026-06-15T10:48:00+09:00",
+      "dt": "2026-06-15 10:48",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국투자금융그룹",
+        "캐년 ABF 파트너스"
+      ],
+      "hash": "3214b51911f9"
+    },
+    {
+      "title": "거래소, 상장사 내부자거래 알림서비스 전면 개편해 편의성 개선",
+      "url": "https://www.hankyung.com/article/2026061564356",
+      "summary": "한국거래소는 시장감시위원회가 상장법인의 업무 편의성과 관리 효율성을 높이기 위해 ‘상장법인 내부자거래 알림서비스(K-ITAS)’를 전면 개편하고 15일부터 개편 서비스를 가동하고 있다고 밝혔다.K-ITAS는 상장법인 내부자가 자사주를 거래하면 거래...",
+      "datetime_raw": "2026.06.15 10:27",
+      "datetime": "2026-06-15T10:27:00+09:00",
+      "dt": "2026-06-15 10:27",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "거래소"
+      ],
+      "hash": "8d88e03e46c9"
+    },
+    {
+      "title": "예탁원, 증권박물관 부산관서 주말 교육프로그램운영",
+      "url": "https://www.hankyung.com/article/2026061563696",
+      "summary": "한국예탁결제원은 증권박물관 부산관에서 다음달 4일부터 8월29일까지 매주 토요일에 유아부터 초등생을 둔 가족을 대상으로 한 교육프로그램 ‘반가워! 증권이 만든 세상’을 운영한다고 15일 밝혔다.이번 프로그램은 평일 방문이 어려운 가족 관람객을 위한...",
+      "datetime_raw": "2026.06.15 10:13",
+      "datetime": "2026-06-15T10:13:00+09:00",
+      "dt": "2026-06-15 10:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "예탁원"
+      ],
+      "hash": "7723f50f2053"
+    },
+    {
+      "title": "타임폴리오운용, 신임 대표이사에 차문현 부사장 선임",
+      "url": "https://www.hankyung.com/article/2026061562536",
+      "summary": "타임폴리오자산운용은 15일 차문현 부사장을 신임 대표이사로 선임했다고 밝혔다.타임폴리오자산운용은 이날 이 같은 내용의 정기 임원인사를 단행했다.차 신임 대표는 황성환 대표이사 사장과 각자 대표이사를 맡을 예정이다. 신임 차 대표는 1972년생으로 타임폴리오자산운용의 창...",
+      "datetime_raw": "2026.06.15 10:11",
+      "datetime": "2026-06-15T10:11:00+09:00",
+      "dt": "2026-06-15 10:11",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "타임폴리오운용"
+      ],
+      "hash": "8b223e58f78a"
+    },
+    {
+      "title": "제이엘케이, 공공의료 AI 사업 대상 17곳 중 11곳에 솔루션 공급키로",
+      "url": "https://www.hankyung.com/article/2026061563346",
+      "summary": "제이엘케이는 보건복지부의 ‘권역책임의료기관 AI 기반 진료시스템 지원사업’에서 전체 대상 17곳 중 11곳의 인공지능(AI) 솔루션 공급사로 선정됐다고 15일 밝혔다.이번 사업은 권역책임의료기관의 필수·공공의료 역량 강화와 지역 간 의...",
+      "datetime_raw": "2026.06.15 10:05",
+      "datetime": "2026-06-15T10:05:00+09:00",
+      "dt": "2026-06-15 10:05",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "제이엘케이"
+      ],
+      "hash": "c69d315c73fe"
+    },
+    {
+      "title": "이번주 FOMC·G7·PPI…증시 영향 끼칠 이슈들 정리해보니",
+      "url": "https://www.hankyung.com/article/202606155674i",
+      "summary": "시장 배경 및 최근 흐름15일 현재 국내 주식시장은 역사적 고점 이후 단기 조정 국면에 진입한 상태다. 코스피는 지난 5월 22일 주간(W22) 8,476.15포인트라는 사상 최고치를 기록한 이후 6월 들어 두 차례의 급락을 경험했다.이달 8일(W24 시작)에...",
+      "datetime_raw": "2026.06.15 09:51",
+      "datetime": "2026-06-15T09:51:00+09:00",
+      "dt": "2026-06-15 09:51",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이번주 FOMC"
+      ],
+      "hash": "bffed84b3311"
+    },
+    {
+      "title": "트럼프, 김정은과 산책 사진 공유하자…남북경협주 '들썩'",
+      "url": "https://www.hankyung.com/article/2026061562716",
+      "summary": "남북 경제 협력 관련 종목들이 급등하고 있다. 도널드 트럼프 미국 대통령이 자신의 SNS에 김정은 북한 노동당 총비서 겸 국무위원장과 함께 산책하는 사진을 게재하면서다. 이란과의 종전이 임박한 가운데, 트럼프 대통령이 이제 북한 비핵화에 관심을 가질 것이란 기대가 부상...",
+      "datetime_raw": "2026.06.15 09:51",
+      "datetime": "2026-06-15T09:51:00+09:00",
+      "dt": "2026-06-15 09:51",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "트럼프"
+      ],
+      "hash": "05e7229b4c54"
+    },
+    {
+      "title": "호르무즈 열리자 '뭉칫돈' 몰렸다…'줄상한가' 친 종목",
+      "url": "https://www.hankyung.com/article/2026061561696",
+      "summary": "미국과 이란의 종전 합의 소식에 국제유가가 급락하면서 항공주가 줄상한가로 치솟았다.15일 오전 9시29분 현재 제주항공은 5640원에 거래되며 상한가를 기록 중이다. 티웨이홀딩스도 29.75% 급등한 362원으로 가격제한폭까지 치솟았다.같은 시각 트리니티항공 ...",
+      "datetime_raw": "2026.06.15 09:43",
+      "datetime": "2026-06-15T09:43:00+09:00",
+      "dt": "2026-06-15 09:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "뭉칫돈",
+        "줄상한가"
+      ],
+      "hash": "958fe8affebd"
+    },
+    {
+      "title": "미·이란 종전 합의 소식에 '삼전닉스' 급등",
+      "url": "https://www.hankyung.com/article/2026061560856",
+      "summary": "미국과 이란이 종전 합의에 도달했다는 소식이 전해진 가운데 '반도체 투톱' 삼성전자와 SK하이닉스가 15일 장중 급등하고 있다.이날 오전 9시30분 삼성전자는 전 거래일 대비 1만6000원(4.96%) 오른 33만8500원에 거래되고 있다. SK하이닉스는...",
+      "datetime_raw": "2026.06.15 09:38",
+      "datetime": "2026-06-15T09:38:00+09:00",
+      "dt": "2026-06-15 09:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스"
+      ],
+      "hash": "b5f2354ccfff"
+    },
+    {
+      "title": "\"미·이란 종전에 큰장 선다\"…삼성 E&A·DL이앤씨 등 건설주 급등",
+      "url": "https://www.hankyung.com/article/2026061561626",
+      "summary": "건설주가 15일 장 초반 급등세를 보이고 있다. 미국·이란 전쟁이 사실상 종료되면서 건설사들이 수혜를 볼 수 있다는 기대감이 반영된 것으로 해석된다.이날 오전 9시 삼성E&A는 전 거래일 대비 7.35% 상승한 5만1100원에 거래 중이다. 같은 ...",
+      "datetime_raw": "2026.06.15 09:37",
+      "datetime": "2026-06-15T09:37:00+09:00",
+      "dt": "2026-06-15 09:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미·이란 종전에 큰장 선다"
+      ],
+      "hash": "7c97b6c6ad3c"
+    },
+    {
+      "title": "증권주 다시 들썩…미·이란 종전 합의에 증시 급등 [종목+]",
+      "url": "https://www.hankyung.com/article/2026061556706",
+      "summary": "미·이란 종전 협상 타결 기대감에 위험자산 선호 심리가 살아나자 주요 증권주가 강세를 보이고 있다. 증권가에서는 종전으로 인한 증시 거래대금 증가와 자산관리(WM) 사업 확대를 바탕으로 하반기 증권업종의 실적 개선 흐름이 이어질 것으로 전망하고 있...",
+      "datetime_raw": "2026.06.15 09:35",
+      "datetime": "2026-06-15T09:35:00+09:00",
+      "dt": "2026-06-15 09:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "증권주 다시 들썩"
+      ],
+      "hash": "655d5a1b8451"
+    },
     {
       "title": "복지장관 \"하반기 탈모치료 건보 적용 추진\"…JW신약·TS트릴리온 '上'",
       "url": "https://www.hankyung.com/article/2026061561056",
@@ -184,6 +363,89 @@
         "스페이스X 투자할 것"
       ],
       "hash": "b70cb7d80930"
+    },
+    {
+      "title": "\"삼성전자 사자\" 외국인 돌변한 이유가…'파격 전망' 나왔다",
+      "url": "https://www.hankyung.com/article/2026061235086",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "파격 전망",
+        "삼성전자 사자"
+      ],
+      "hash": "6eec463b1f8a"
+    },
+    {
+      "title": "\"보이면 바로 사세요\"…6월 지나면 사라지는 '초여름 과일'",
+      "url": "https://www.hankyung.com/article/202606123536i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "초여름 과일",
+        "보이면 바로 사세요"
+      ],
+      "hash": "1439fee0e4c1"
+    },
+    {
+      "title": "\"中 횡포 더는 못 참아\"…분노한 일본, 결국 칼 빼들었다",
+      "url": "https://www.hankyung.com/article/202606144952i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "中 횡포 더는 못 참아"
+      ],
+      "hash": "4e6cee7d56c9"
+    },
+    {
+      "title": "\"중국인이 쓸어가더니…\" 마트서 고등어 집었다가 '화들짝'",
+      "url": "https://www.hankyung.com/article/202606121957i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "화들짝",
+        "중국인이 쓸어가더니"
+      ],
+      "hash": "cc464ad307e4"
+    },
+    {
+      "title": "\"회사와 안 맞아\" 상사 지적에…4000만원 청구한 직원 결국",
+      "url": "https://www.hankyung.com/article/202605117402i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "회사와 안 맞아"
+      ],
+      "hash": "6f8535672f11"
     },
     {
       "title": "벡트·AID·심플랫폼, 엣지데이터센터 시장 공략…\"AI 인프라 선도\"",
@@ -374,90 +636,6 @@
         "뜀박질"
       ],
       "hash": "ecb57dd1738c"
-    },
-    {
-      "title": "\"삼성전자 사자\" 외국인 돌변한 이유가…'파격 전망' 나왔다",
-      "url": "https://www.hankyung.com/article/2026061235086",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "파격 전망",
-        "삼성전자 사자"
-      ],
-      "hash": "6eec463b1f8a"
-    },
-    {
-      "title": "\"보이면 바로 사세요\"…6월 지나면 사라지는 '초여름 과일'",
-      "url": "https://www.hankyung.com/article/202606123536i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "초여름 과일",
-        "보이면 바로 사세요"
-      ],
-      "hash": "1439fee0e4c1"
-    },
-    {
-      "title": "\"中 횡포 더는 못 참아\"…분노한 일본, 결국 칼 빼들었다",
-      "url": "https://www.hankyung.com/article/202606144952i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "中 횡포 더는 못 참아"
-      ],
-      "hash": "4e6cee7d56c9"
-    },
-    {
-      "title": "\"6만원대 제품 5000원에 파는 줄\"…다이소, 또 '품절 대란'",
-      "url": "https://www.hankyung.com/article/202606111822i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "품절 대란",
-        "6만원대 제품 5000원에 파는 줄"
-      ],
-      "hash": "fc407ef4fbc9"
-    },
-    {
-      "title": "\"중국인이 쓸어가더니…\" 마트서 고등어 집었다가 '화들짝'",
-      "url": "https://www.hankyung.com/article/202606121957i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "화들짝",
-        "중국인이 쓸어가더니"
-      ],
-      "hash": "cc464ad307e4"
     },
     {
       "title": "에스에프에이·덕산네오룩스 실적 전망치 상향",
@@ -914,186 +1092,6 @@
         "한국투자증권"
       ],
       "hash": "91aeb26b9562"
-    },
-    {
-      "title": "한미반도체 \"500억 규모 스페이스X 주식 장내 매수 결정\"",
-      "url": "https://www.hankyung.com/article/2026061224336",
-      "summary": "한미반도체는 상장을 앞둔 미국 우주기업 스페이스X의 주식을 500억원 규모로 장내 매수하기로 결정했다고 12일 공시했다. 취득 예정 금액은 자기자본 대비 7.24%에 해당한다.취득 목적은 인공지능(AI), 위성통신, 우주항공, 첨단 반도체 수요 폭발에...",
-      "datetime_raw": "2026.06.12 09:59",
-      "datetime": "2026-06-12T09:59:00+09:00",
-      "dt": "2026-06-12 09:59",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "500억 규모 스페이스X 주식 장내 매수 결정"
-      ],
-      "hash": "cc813c1b2ebf"
-    },
-    {
-      "title": "한화오션, KDDX 수주 기대…7%대 강세",
-      "url": "https://www.hankyung.com/article/2026061224506",
-      "summary": "한화오션이 장 초반 강세를 보이고 있다. 한국형 차기 구축함(KDDX) 상세설계 및 선도함(1번함) 건조 사업자로 사실상 선정됐다는 소식이 주가에 영향을 미친 것으로 보인다.12일 오전 9시44분 현재 한화오션은 전 거래일 대비 7.46% 오른 11만2200원...",
-      "datetime_raw": "2026.06.12 09:52",
-      "datetime": "2026-06-12T09:52:00+09:00",
-      "dt": "2026-06-12 09:52",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "한화오션"
-      ],
-      "hash": "59101c3beba6"
-    },
-    {
-      "title": "\"삼전, 가장 싼 주식인데 안 샀다고?\"…4조 굴리는 큰손의 일침",
-      "url": "https://www.hankyung.com/article/202606122194i",
-      "summary": "강대권 라이프자산운용 대표 인터뷰 기사 전문은 한국경제신문이 만드는 온라인 투자전문 플랫폼 '한경 프리미엄9'에서 볼 수 있습니다.\"가치투자를 한다는 사람들은 요즘 수익률이 좋지 않습니다. 삼성전자를 사지 않았기 때문이죠. 왜 그럴까요?\"강대권 ...",
-      "datetime_raw": "2026.06.12 09:48",
-      "datetime": "2026-06-12T09:48:00+09:00",
-      "dt": "2026-06-12 09:48",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전"
-      ],
-      "hash": "cb0906119927"
-    },
-    {
-      "title": "트럼프 이란 공습 취소에 증시 환호…'팔천피' 단숨에 회복",
-      "url": "https://www.hankyung.com/article/2026061224376",
-      "summary": "코스피지수가 12일 장 초반 8% 가까이 급등하며 8300선을 돌파했고, 원·달러 환율은 1510원대로 내려왔다. 미국과 이란의 종전 협상 기대가 확산하면서 국제 유가와 달러 가치가 동반 하락하자 위험자산 선호 심리가 급격히 살아난 영향이다. 반도체를 중심...",
-      "datetime_raw": "2026.06.12 09:45",
-      "datetime": "2026-06-12T09:45:00+09:00",
-      "dt": "2026-06-12 09:45",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "팔천피",
-        "트럼프 이란 공습 취소에 증시 환호"
-      ],
-      "hash": "ae08a7105930"
-    },
-    {
-      "title": "트럼프 \"이란과 최종 조율 단계\"…건설株 동반 강세",
-      "url": "https://www.hankyung.com/article/2026061224386",
-      "summary": "건설주가 12일 장 초반 동반 강세다.이날 오전 9시30분 현재 GS건설은 전 거래일보다 2200원(8.4%) 오른 2만8400원을 기록하고 있다. 이밖에 삼성물산(9.02%) 현대건설(8.88%) 대우건설(6.85%) DL이앤씨(6.27%) 등 다른 건설주도 일제히 ...",
-      "datetime_raw": "2026.06.12 09:37",
-      "datetime": "2026-06-12T09:37:00+09:00",
-      "dt": "2026-06-12 09:37",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이란과 최종 조율 단계"
-      ],
-      "hash": "778daac94249"
-    },
-    {
-      "title": "돌아온 외국인, 코스피 8,123선 마감 [장 마감 시황]",
-      "url": "https://www.hankyung.com/article/202606122195i",
-      "summary": "🕘 미·이란 종전 기대감에 코스피 8,123선 마감… 외국인 25거래일 만에 순매수 전환[장 마감 시황]2026년 6월 12일 오후 3시 30분 마감 기준, 한국 증시는 트럼프 대통령의 미·이란 종전 합의 시사 발언과 미국 반도체주...",
-      "datetime_raw": "2026.06.12 09:21",
-      "datetime": "2026-06-12T09:21:00+09:00",
-      "dt": "2026-06-12 09:21",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "돌아온 외국인"
-      ],
-      "hash": "f2798a03db31"
-    },
-    {
-      "title": "코스피, 7%대 급등에 매수 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026061223116",
-      "summary": "코스피 급등에 매수 사이드카 발동강경주 한경닷컴 기자 qurasoha@hankyung.com",
-      "datetime_raw": "2026.06.12 09:10",
-      "datetime": "2026-06-12T09:10:00+09:00",
-      "dt": "2026-06-12 09:10",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "ae10bb597b2e"
-    },
-    {
-      "title": "코스피, 개장 직후 8300선 회복…7%대 급등",
-      "url": "https://www.hankyung.com/article/2026061222876",
-      "summary": "[속보] 코스피, 개장 직후 8300선 회복…7%대 급등강경주 한경닷컴 기자 qurasoha@hankyung.com",
-      "datetime_raw": "2026.06.12 09:04",
-      "datetime": "2026-06-12T09:04:00+09:00",
-      "dt": "2026-06-12 09:04",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "087f73ced21a"
-    },
-    {
-      "title": "\"KT&G, 안정적 해외 성장으로 주주환원 매력 부각\"-한국",
-      "url": "https://www.hankyung.com/article/2026061222336",
-      "summary": "한국투자증권은 12일 KT&G에 대해 \"안정적인 해외 성장 덕분에 주주환원 매력이 더욱 부각된다\"고 평가하며 목표주가를 기존 23만원으로 유지했다. 투자의견도 '매수'를 유지했다.이 증권사 최고운 연구원은 \"중동전쟁으로 대내외 불확실성이 지속되는 투자환경...",
-      "datetime_raw": "2026.06.12 09:03",
-      "datetime": "2026-06-12T09:03:00+09:00",
-      "dt": "2026-06-12 09:03",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "KT&G"
-      ],
-      "hash": "189eea0eb90e"
-    },
-    {
-      "title": "오늘밤 상장하는 스페이스X…국내 관련종목은?",
-      "url": "https://www.hankyung.com/article/202606122172i",
-      "summary": "1. 스페이스X IPO 개요 — 역사상 최대 규모의 기업공개스페이스X(Space Exploration Technologies Corp.)는 일론 머스크가 설립한 민간 우주항공·위성통신 기업이다.12일(미국 현지시간) 나스닥(...",
-      "datetime_raw": "2026.06.12 08:56",
-      "datetime": "2026-06-12T08:56:00+09:00",
-      "dt": "2026-06-12 08:56",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "오늘밤 상장하는 스페이스X"
-      ],
-      "hash": "452e63e121ae"
-    },
-    {
-      "title": "삼양식품, 최고가 대비 30% 밀렸는데…증권가 '러브콜' 이유 [종목+]",
-      "url": "https://www.hankyung.com/article/2026061220186",
-      "summary": "삼양식품 주가가 올해 들어 지지부진한 흐름을 이어가고 있지만 증권가에선 올해 매출 3조원 시대 개막을 기대하며 긍정적인 평가가 이어지고 있다. 대표 제품 불닭볶음면의 글로벌 수요가 예상보다 강한 데다 생산능력(CAPA) 확대와 중국 공장 가동에 따른 추가 성장 가능성이...",
-      "datetime_raw": "2026.06.12 08:37",
-      "datetime": "2026-06-12T08:37:00+09:00",
-      "dt": "2026-06-12 08:37",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "러브콜",
-        "삼양식품"
-      ],
-      "hash": "a7b27be481bd"
     }
   ],
   "consensus_signals": []
