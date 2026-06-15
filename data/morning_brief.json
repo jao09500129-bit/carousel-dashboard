@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-15 16:00 KST",
+  "as_of": "2026-06-15 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -14,9 +14,9 @@
       "url": "https://www.hankyung.com/article/2026061556267"
     },
     {
-      "title": "로켓처럼 튄 스페이스X…6개월 뒤? 하락 50%/상승 35% [김현석의 월스트리트나우]",
+      "title": "중동 전쟁 종전 소식에 유가 4% 하락, 달러도 약세",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606134041i"
+      "url": "https://www.hankyung.com/article/202606155953i"
     },
     {
       "title": "\"AI값 떨어진다\" 술렁인 월가...가격 전쟁의 진짜 의미 [빈난새의 빈틈없이월가]",
@@ -24,15 +24,15 @@
       "url": "https://www.hankyung.com/article/202606144622i"
     },
     {
-      "title": "중동 전쟁 종전 소식에 유가 4% 하락, 달러도 약세",
+      "title": "로켓처럼 튄 스페이스X…6개월 뒤? 하락 50%/상승 35% [김현석의 월스트리트나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606155953i"
+      "url": "https://www.hankyung.com/article/202606134041i"
     }
   ],
   "today_kr_focus": [
-    "코스피, 5.2% 급등 마감…8500선 회복 (2026-06-15 15:37)",
-    "'코스닥 노크' 져스텍 \"초정밀 모션제어로 반도체 시장 공략\" (2026-06-15 15:22)",
-    "\"지금 오른다고 덥석 샀다간 낭패\"…하반기 '진짜 주도주'는? (2026-06-15 14:51)"
+    "40만전자·300만닉스 가나…종전 훈풍에 실적으로 쏠리는 눈 [종목+] (2026-06-15 22:00)",
+    "\"삼전닉스 다음은 스페이스X\"…운용사 ETF 경쟁 불붙었다 (2026-06-15 20:00)",
+    "최대 악재 털어냈다…'9천피 랠리' 시동 (2026-06-15 18:07)"
   ],
   "carousel_implications": {
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
@@ -50,12 +50,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "+1.52%"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.30% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.30%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-15T16:00:46.949681+09:00",
+    "collected_at": "2026-06-15T23:11:11.590987+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -92,16 +99,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "66,020.04",
-            "chg": "1,802.77",
-            "chg_pct": "+2.81%"
+            "close": "69,317.50",
+            "chg": "3,297.46",
+            "chg_pct": "+4.99%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "44,169.04",
-            "chg": "1,019.58",
-            "chg_pct": "+2.36%"
+            "close": "45,396.99",
+            "chg": "1,227.95",
+            "chg_pct": "+2.78%"
           },
           {
             "name": "독일",
@@ -113,9 +120,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "24,718.10",
-            "chg": "468.81",
-            "chg_pct": "+1.93%"
+            "close": "24,842.67",
+            "chg": "124.57",
+            "chg_pct": "+0.50%"
           }
         ]
       },
@@ -125,30 +132,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,512.85",
-            "chg": "4.19",
-            "chg_pct": "-0.28%"
+            "close": "1,512.56",
+            "chg": "4.48",
+            "chg_pct": "-0.30%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,755.43",
-            "chg": "0.73",
-            "chg_pct": "-0.04%"
+            "close": "1,757.04",
+            "chg": "0.88",
+            "chg_pct": "+0.05%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "944.75",
-            "chg": "2.57",
-            "chg_pct": "-0.27%"
+            "close": "944.98",
+            "chg": "2.34",
+            "chg_pct": "-0.25%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "223.42",
-            "chg": "0.75",
-            "chg_pct": "-0.33%"
+            "close": "223.33",
+            "chg": "0.84",
+            "chg_pct": "-0.37%"
           }
         ]
       },
