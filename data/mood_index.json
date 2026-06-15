@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-15T16:00:46.949681+09:00",
+  "computed_at": "2026-06-15T23:11:11.590987+09:00",
   "score": 51,
   "label": "NEUTRAL",
   "label_kr": "보통",
@@ -12,12 +12,12 @@
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 27.25,
+    "vol_sum": 28.47,
     "n_divergence": 0,
     "n_signals": 0,
     "target_up": 2,
     "target_down": 0,
-    "total_items": 64,
+    "total_items": 63,
     "velocity": "빠름"
   },
   "note": "★ 추정 — Bloomberg Fear&Greed 영감, 5-factor 가중합. 백테스트 미검증."
