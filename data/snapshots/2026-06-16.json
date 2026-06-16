@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-16T13:00:56.974478+09:00",
+  "collected_at": "2026-06-16T15:01:02.837245+09:00",
   "date": "2026-06-16",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,26 +7,22 @@
     "p2",
     "p3"
   ],
-  "total_items": 65,
+  "total_items": 64,
   "stats": {
-    "with_broker_mention": 12,
-    "target_price_up": 5,
+    "with_broker_mention": 9,
+    "target_price_up": 3,
     "target_price_down": 0,
     "top_brokers": [
-      [
-        "대신",
-        3
-      ],
       [
         "한국투자",
         2
       ],
       [
-        "현대차",
+        "대신",
         2
       ],
       [
-        "KB",
+        "현대차",
         2
       ],
       [
@@ -38,12 +34,61 @@
         1
       ],
       [
-        "하나",
+        "KB",
         1
       ]
     ]
   },
   "items": [
+    {
+      "title": "골든스톤자산운용 등 3개사, 금투협 정회원 승인",
+      "url": "https://www.hankyung.com/article/2026061695196",
+      "summary": "금융투자협회는 16일 이사회를 열고 골든스톤자산운용, 릿지자산운용, 앤도버자산운용 등 3개 금융투자회사의 정회원 가입을 승인했다고 밝혔다.금투협 정회원은 총회 출석 권한과 의결권을 보유하며, 각종 회의체에 참여해 자본시장과 금융투자업계의 법령·제도 개선 및...",
+      "datetime_raw": "2026.06.16 14:55",
+      "datetime": "2026-06-16T14:55:00+09:00",
+      "dt": "2026-06-16 14:55",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "골든스톤자산운용 등 3개사"
+      ],
+      "hash": "292d480fb088"
+    },
+    {
+      "title": "신라에스지, 중장기 주주가치 제고 전략 '밸류업 플랜' 공시",
+      "url": "https://www.hankyung.com/article/2026061695066",
+      "summary": "신라에스지가 중장기 주주가치 제고 전략인 ‘밸류업 플랜(Value-Up Plan) 2026’을 16일 공시했다.신라에스지는 1977년 창립한 식품기업이다. 어육 소시지, 수산물 가공·유통, 축육 사업 등을 해왔다.이번 계획은 사업구조 ...",
+      "datetime_raw": "2026.06.16 14:32",
+      "datetime": "2026-06-16T14:32:00+09:00",
+      "dt": "2026-06-16 14:32",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신라에스지",
+        "밸류업 플랜"
+      ],
+      "hash": "6ab883f59caf"
+    },
+    {
+      "title": "K반도체 독주 끝?…다가오는 고금리의 역습",
+      "url": "https://www.hankyung.com/article/202606169385i",
+      "summary": "﻿주가의 핵심 결정요인은 기업이익(EPS)과 멀티플(PER)주가의 고평가 혹은 저평가를 논할때는 여러가지 판단 지표가 거론된다. 그 중에서 가장 대표적인 지표는 PER(주가수익비율)이라는 것과 EPS(주당순이익)라는 것을 들 수 있다. 여기서 PE...",
+      "datetime_raw": "2026.06.16 14:24",
+      "datetime": "2026-06-16T14:24:00+09:00",
+      "dt": "2026-06-16 14:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "K반도체 독주 끝?"
+      ],
+      "hash": "4cb07ad324be"
+    },
     {
       "title": "해시드오픈리서치 \"예측시장, 차세대 정보 인프라로 부상…제도적 논의 필요\"",
       "url": "https://www.hankyung.com/article/202606169072B",
@@ -331,6 +376,73 @@
       "hash": "4e91b843f9bf"
     },
     {
+      "title": "\"반도체 10배 뛸 때 전혀 안 올랐다…지금 사두면 돈 되는 주식\"",
+      "url": "https://www.hankyung.com/article/2026061448146",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 10배 뛸 때 전혀 안 올랐다"
+      ],
+      "hash": "f31654a21f64"
+    },
+    {
+      "title": "삼성 파운드리, 머스크의 꿈 '뉴럴링크' 차세대 칩 개발한다",
+      "url": "https://www.hankyung.com/article/202606156953i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "뉴럴링크",
+        "삼성 파운드리"
+      ],
+      "hash": "d90d8d902ccc"
+    },
+    {
+      "title": "삼성전기·네이버 팔아치우더니…초고수가 픽한 '의외의 종목'",
+      "url": "https://www.hankyung.com/article/202606156376i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전기",
+        "의외의 종목"
+      ],
+      "hash": "915fac76029f"
+    },
+    {
+      "title": "\"보이면 바로 사세요\"…6월 지나면 사라지는 '초여름 과일'",
+      "url": "https://www.hankyung.com/article/202606123536i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "초여름 과일",
+        "보이면 바로 사세요"
+      ],
+      "hash": "1439fee0e4c1"
+    },
+    {
       "title": "40만전자·300만닉스 가나…종전 훈풍에 실적으로 쏠리는 눈 [종목+]",
       "url": "https://www.hankyung.com/article/2026061574896",
       "summary": "반도체 대장주 삼성전자와 SK하이닉스 주가가 전고점을 향해 달려가고 있다. 중동발 지정학적 리스크가 완화되면서 시장의 관심이 기업 실적으로 이동하자 증시 이익 증가를 주도한 두 종목에 매수세가 유입되는 모습이다.15일 한국거래소에 따르면 삼성전자는 이날 4.5% 오른 ...",
@@ -381,90 +493,6 @@
       "hash": "b8220c04e14d"
     },
     {
-      "title": "\"반도체 10배 뛸 때 전혀 안 올랐다…지금 사두면 돈 되는 주식\"",
-      "url": "https://www.hankyung.com/article/2026061448146",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "반도체 10배 뛸 때 전혀 안 올랐다"
-      ],
-      "hash": "f31654a21f64"
-    },
-    {
-      "title": "삼성전기·네이버 팔아치우더니…초고수가 픽한 '의외의 종목'",
-      "url": "https://www.hankyung.com/article/202606156376i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기",
-        "의외의 종목"
-      ],
-      "hash": "915fac76029f"
-    },
-    {
-      "title": "삼성 파운드리, 머스크의 꿈 '뉴럴링크' 차세대 칩 개발한다",
-      "url": "https://www.hankyung.com/article/202606156953i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "뉴럴링크",
-        "삼성 파운드리"
-      ],
-      "hash": "d90d8d902ccc"
-    },
-    {
-      "title": "\"보이면 바로 사세요\"…6월 지나면 사라지는 '초여름 과일'",
-      "url": "https://www.hankyung.com/article/202606123536i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "초여름 과일",
-        "보이면 바로 사세요"
-      ],
-      "hash": "1439fee0e4c1"
-    },
-    {
-      "title": "\"삼성전자 사자\" 외국인 돌변한 이유가…'파격 전망' 나왔다",
-      "url": "https://www.hankyung.com/article/2026061235086",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "파격 전망",
-        "삼성전자 사자"
-      ],
-      "hash": "6eec463b1f8a"
-    },
-    {
       "title": "종전 합의에 亞 증시 환호…유가·환율·국채금리 하락",
       "url": "https://www.hankyung.com/article/2026061577401",
       "summary": "미국과 이란 간 종전 협상이 타결됐다는 소식에 국내 증시가 5% 넘게 급등했다. 국제 유가가 배럴당 80달러 수준으로 내리고, 원·달러 환율과 국채 금리가 동반 하락하는 등 위험자산 선호 심리가 뚜렷하게 나타났다. 일본과 중국, 대만 등 아시아 증시도 일제...",
@@ -481,7 +509,7 @@
       "hash": "72430757eff9"
     },
     {
-      "title": "1년 새 708% 오른 LG이노텍…지금 사도 될까",
+      "title": "1년 새 708% 오른 '이 종목'…지금 사도 될까",
       "url": "https://www.hankyung.com/article/202606157390i",
       "summary": "LG그룹의 전자부품 계열사인 LG이노텍의 목표주가가 가파르게 치솟고 있다. 인공지능(AI) 밸류체인에서 메모리 반도체와 함께 대표 병목 구간으로 꼽히는 'AI 기판' 사업을 중심으로 구조적인 성장 궤도에 진입했다는 분석이 나온다.15일 한국거래소에 따르면...",
       "datetime_raw": "2026.06.15 17:05",
@@ -492,7 +520,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "1년 새 708% 오른 LG이노텍"
+        "이 종목"
       ],
       "hash": "c549c6984ed3"
     },
@@ -1076,61 +1104,6 @@
         "방어주 KT&G 투자 적기"
       ],
       "hash": "1ae1573c0a45"
-    },
-    {
-      "title": "\"현대차, 아틀라스 '보편 지능' 확보…막대한 가치 창출할 것\"-KB",
-      "url": "https://www.hankyung.com/article/2026061557166",
-      "summary": "KB증권은 15일 현대차에 대해 \"최근 공개된 다수의 영상들을 통해 아틀라스가 하드웨어 제어 성능 및 '보편 지능' 확보에 속도를 내고 있음이 확인됐다\"며 \"이는 산업용 휴머노이드 시장 선점으로 이어져 막대한 가치를 창출할 것\"이라고 평가했다. 그러면서 ...",
-      "datetime_raw": "2026.06.15 07:48",
-      "datetime": "2026-06-15T07:48:00+09:00",
-      "dt": "2026-06-15 07:48",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "현대차",
-        "확보…막대한 가치 창출할 것"
-      ],
-      "hash": "d89ce49d00e5"
-    },
-    {
-      "title": "\"신세계, 방한 외국인 증가 수혜…목표가 100만원으로 상향\"-대신",
-      "url": "https://www.hankyung.com/article/2026061557156",
-      "summary": "대신증권은 15일 신세계에 대해 \"방한 외국인 관광객이 늘어난 데 따른 수혜를 볼 것\"이라며 목표주가를 기존 60만원에서 100만원으로 상향하고 투자의견 '매수'를 유지했다.유정현 대신증권 연구원은 \"국내 백화점 업계는 내수 소비 회복뿐 아니라 인바운드 ...",
-      "datetime_raw": "2026.06.15 07:46",
-      "datetime": "2026-06-15T07:46:00+09:00",
-      "dt": "2026-06-15 07:46",
-      "brokers": [
-        "대신"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 66.66666666666666,
-      "keywords": [
-        "신세계"
-      ],
-      "hash": "839cc1144892"
-    },
-    {
-      "title": "\"대덕전자, 가격 상승 따른 수익성 개선 가속화될 것…목표가↑\"-하나",
-      "url": "https://www.hankyung.com/article/2026061557016",
-      "summary": "하나증권은 15일 대덕전자에 대해 패키지 기판 산업계 내 공급자 우위 환경이 강화되고 있다며 목표주가를 기존 17만원에서 25만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.대덕전자는 2분기 매출 3726억원, 영업이익 624억원의 실적을 기록할 ...",
-      "datetime_raw": "2026.06.15 07:36",
-      "datetime": "2026-06-15T07:36:00+09:00",
-      "dt": "2026-06-15 07:36",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 47.05882352941176,
-      "keywords": [
-        "대덕전자"
-      ],
-      "hash": "3044e06bcd4d"
     }
   ],
   "consensus_signals": []
