@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-16T16:00:51.498405+09:00",
+  "computed_at": "2026-06-16T23:10:59.296623+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 3,
+      "count": 4,
       "top": []
     },
     {
@@ -40,7 +40,7 @@
     {
       "name": "필수소비재",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "기타",
       "intensity": 0.0,
-      "count": 56,
+      "count": 52,
       "top": []
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-16T16:00:51.498405+09:00",
+  "collected_at": "2026-06-16T23:10:59.296623+09:00",
   "date": "2026-06-16",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,10 +7,10 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 63,
   "stats": {
     "with_broker_mention": 9,
-    "target_price_up": 3,
+    "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -26,24 +26,190 @@
         2
       ],
       [
-        "유안타",
-        1
-      ],
-      [
         "키움",
         1
       ],
       [
-        "KB",
+        "메리츠",
+        1
+      ],
+      [
+        "유안타",
         1
       ]
     ]
   },
   "items": [
     {
-      "title": "올해 영업이익만 '259조'…SK하이닉스 실적·주가 '쾌속 질주'",
+      "title": "호르무즈 정상화까지 수개월…\"유가 단기 급락 없다\" [분석+]",
+      "url": "https://www.hankyung.com/article/2026061602776",
+      "summary": "미국과 이란의 종전 합의에도 유가가 단기간 가파르게 하락하기는 쉽지 않을 것이라는 전망이 나온다. 후속 협상이 기다리고 있는 데다 산유국들의 생산시설 정상화까지 수개월의 시간이 소요되기 때문이다.심수빈 키움증권 연구원은 16일 \"미-이란 종전 협상에 따라 향후 원유시장...",
+      "datetime_raw": "2026.06.16 22:00",
+      "datetime": "2026-06-16T22:00:00+09:00",
+      "dt": "2026-06-16 22:00",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유가 단기 급락 없다",
+        "호르무즈 정상화까지 수개월"
+      ],
+      "hash": "f09af6e3b7fe"
+    },
+    {
+      "title": "\"메모리 수요 2만배\" 하이닉스 목표가 줄상향",
+      "url": "https://www.hankyung.com/article/2026061601371",
+      "summary": "인공지능(AI) 반도체 슈퍼사이클이 이어지자 SK하이닉스 실적 전망치가 계속 상향되고 있다. 이에 따라 SK하이닉스 주가가 현재의 두 배 수준인 500만원까지 치솟을 것이라는 파격적인 관측도 나온다.16일 인공지능(AI) 기반 투자정보 서비스 에픽AI에 따르면 SK하이...",
+      "datetime_raw": "2026.06.16 18:04",
+      "datetime": "2026-06-16T18:04:00+09:00",
+      "dt": "2026-06-16 18:04",
+      "brokers": [],
+      "opinion": null,
+      "target_action": "up",
+      "target_change_pct": null,
+      "keywords": [
+        "메모리 수요 2만배"
+      ],
+      "hash": "0855d9c91320"
+    },
+    {
+      "title": "AI 시대 가장 주목할 반도체 부품은 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026061601061",
+      "summary": "AI 시대 가장 주목할 반도체 부품은한경 프리미엄9이 국내 스타 애널리스트에게 주요 업종의 하반기 시장 전망을 듣는 ‘프리미엄9 투자스쿨’을 연재한다. 그 일곱 번째 순서로 양승수 메리츠증권 연구원이 전기전자·정보기술(IT)...",
+      "datetime_raw": "2026.06.16 18:01",
+      "datetime": "2026-06-16T18:01:00+09:00",
+      "dt": "2026-06-16 18:01",
+      "brokers": [
+        "메리츠"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "19c25a57c363"
+    },
+    {
+      "title": "우리은행, 40억원 규모 금융사고 발생…\"허위 서류 분양 사기\"",
+      "url": "https://www.hankyung.com/article/2026061602066",
+      "summary": "우리은행은 16일 외부인의 허위 서류 제출에 따른 금융사고가 발생했다고 공시했다.사고 금액은 40억800만원이다. 사고 발생 기간은 지난 2024년 8월 19일부터 8월 30일이다.해당 사고는 수사기관의 자료제출 요구 과정에서 발견됐다. 현재는 우리은행 자체 조사와 수...",
+      "datetime_raw": "2026.06.16 17:58",
+      "datetime": "2026-06-16T17:58:00+09:00",
+      "dt": "2026-06-16 17:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "우리은행",
+        "허위 서류 분양 사기"
+      ],
+      "hash": "77cef25d2875"
+    },
+    {
+      "title": "88조 터진다…'6월19일 기다려라' 증권사 찍은 이 주식",
+      "url": "https://www.hankyung.com/article/2026061600621",
+      "summary": "미국과 이란이 종전을 선언하면서 국내 증시에서 건설주와 방위산업주가 동시에 주목받고 있다. 전쟁으로 파괴된 인프라를 복구하는 재건 수요와 전쟁 중 취약점이 드러난 국방력을 강화하려는 움직임이 맞물리면서 국내 기업이 수혜를 볼 것이라는 기대에서다. ◇중동 에너지...",
+      "datetime_raw": "2026.06.16 17:50",
+      "datetime": "2026-06-16T17:50:00+09:00",
+      "dt": "2026-06-16 17:50",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "88조 터진다",
+        "6월19일 기다려라"
+      ],
+      "hash": "e1abc8a2c4d0"
+    },
+    {
+      "title": "'K일론 머스크' 김승연 회장 해냈다…한화에어로, KAI 지분 9.04% 확보",
+      "url": "https://www.hankyung.com/article/2026061600936",
+      "summary": "한화그룹이 한국항공우주산업(KAI) 지분을 9.04%까지 확대하며 수출입은행(26.41%)에 이어 2대 주주 자리에 올랐다. 지금까지 KAI 지분 매입에 5000억 원을 투입한 한화그룹은 연말까지 추가로 5000억 원을 투입해 지분율을 12%까지 끌어올린다는 계획이다....",
+      "datetime_raw": "2026.06.16 17:35",
+      "datetime": "2026-06-16T17:35:00+09:00",
+      "dt": "2026-06-16 17:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "K일론 머스크"
+      ],
+      "hash": "f6ce2363d132"
+    },
+    {
+      "title": "백화점주 훈풍에 패션주 반등 성공할까…F&F·영원무역 강세",
+      "url": "https://www.hankyung.com/article/202606123532i",
+      "summary": "소비심리 개선과 방한 관광객 증가에 힘입어 패션주가 반등하고 있다. 최근 백화점 업종에 유입된 매수세가 의류 업종으로도 확산되는 모습이다.16일 유가증권시장에서 F&F는 전일보다 1.96% 하락한 8만100원에 거래를 마쳤다. 한섬은 0.45% 내린 2만2200원, 영...",
+      "datetime_raw": "2026.06.16 17:23",
+      "datetime": "2026-06-16T17:23:00+09:00",
+      "dt": "2026-06-16 17:23",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "백화점주 훈풍에 패션주 반등 성공할까"
+      ],
+      "hash": "8063b52c3871"
+    },
+    {
+      "title": "미국·이란 종전 선언…전후 재건 사업 수혜 볼 기업은 어디",
+      "url": "https://www.hankyung.com/article/202606169863i",
+      "summary": "미국과 이란이 종전을 선언하면서 국내 증시에서 건설과 방산주가 동시에 주목받고 있다. 전쟁으로 파괴된 인프라를 복구하는 재건 수요와 전쟁 중 취약점이 드러난 국방력을 강화하려는 움직임이 맞물리면서 국내 기업이 수혜를 볼 것이라는 기대에서다. ...",
+      "datetime_raw": "2026.06.16 17:20",
+      "datetime": "2026-06-16T17:20:00+09:00",
+      "dt": "2026-06-16 17:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미국"
+      ],
+      "hash": "05e4a985b9ce"
+    },
+    {
+      "title": "개미는 팔았는데…외국인이 5조원 넘게 쓸어담은 종목은",
+      "url": "https://www.hankyung.com/article/202606169793i",
+      "summary": "지난 12일 약 한 달만에 국내 증시에 복귀한 외국인이 16일까지 3거래일 연속 국내 주식을 순매수했다. 이 기간 외국인들의 순매수 규모는 총 5조8331억원이다. 외국인 매수세는 반도체와 로봇 밸류체인, 금융·증권주에 집중되고 있다.미...",
+      "datetime_raw": "2026.06.16 16:30",
+      "datetime": "2026-06-16T16:30:00+09:00",
+      "dt": "2026-06-16 16:30",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "개미는 팔았는데"
+      ],
+      "hash": "2442f8e2b667"
+    },
+    {
+      "title": "\"5일만에 주가 25%↑\"…움츠렸던 조선주, 다시 '뱃고동'",
+      "url": "https://www.hankyung.com/article/202606169532i",
+      "summary": "지난달 크게 약세였던 조선주(株)가 가스선 중심의 업황 호조와 선가 상승, 연이은 수주 소식에 힘입어 기지개를 켜고 있다. 증권가에선 다음달 말부터 예정된 2분기 업체별 실적발표와 맞물려 주가 상승세가 계속될 것이라는 전망이 나온다. 5월 급락했던 조선주,&n...",
+      "datetime_raw": "2026.06.16 16:11",
+      "datetime": "2026-06-16T16:11:00+09:00",
+      "dt": "2026-06-16 16:11",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "뱃고동",
+        "5일만에 주가 25%↑"
+      ],
+      "hash": "3c76deacb8de"
+    },
+    {
+      "title": "\"지금 사도 2배 번다\"…'259조 잭팟' SK하닉 개미들 '술렁'",
       "url": "https://www.hankyung.com/article/202606169588i",
-      "summary": "인공지능(AI) 반도체 슈퍼 사이클이 이어지면서 SK하이닉스의 실적 추정치가 계속해서 상향향되고 있다. 이에 따라 SK하이닉스 주가가 현재의 2배 수준인 500만원까지 치솟을 수 있다는 파격적인 관측도 나온다. 16일 인공지능(AI) 기반 투자정보 서...",
+      "summary": "인공지능(AI) 반도체 슈퍼 사이클이 이어지면서 SK하이닉스의 실적 추정치가 계속해서 상향향되고 있다. 이에 따라 SK하이닉스 주가가 현재의 2배 수준인 500만원까지 치솟을 수 있다는 파격적인 관측도 나온다. 16일 인공지능(AI) 기반 투자정보 서비스 에픽...",
       "datetime_raw": "2026.06.16 15:55",
       "datetime": "2026-06-16T15:55:00+09:00",
       "dt": "2026-06-16 15:55",
@@ -52,8 +218,9 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "259조",
-        "쾌속 질주"
+        "술렁",
+        "259조 잭팟",
+        "지금 사도 2배 번다"
       ],
       "hash": "2fe10f41d7c1"
     },
@@ -205,6 +372,71 @@
         "종전 합의했는데 왜 이래?"
       ],
       "hash": "dff8e8368116"
+    },
+    {
+      "title": "최태원의 '승부수'…SK하이닉스, 100조 초대형 주주환원 추진",
+      "url": "https://www.hankyung.com/article/202606169905i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "승부수"
+      ],
+      "hash": "b0531d96682e"
+    },
+    {
+      "title": "\"삼성전자 아니었네\"…돌아온 외국인, '이 종목' 쓸어 담았다",
+      "url": "https://www.hankyung.com/article/2026061681966",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목",
+        "삼성전자 아니었네"
+      ],
+      "hash": "3f74f5ed5698"
+    },
+    {
+      "title": "\"반도체 10배 뛸 때 전혀 안 올랐다…지금 사두면 돈 되는 주식\"",
+      "url": "https://www.hankyung.com/article/2026061448146",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 10배 뛸 때 전혀 안 올랐다"
+      ],
+      "hash": "f31654a21f64"
+    },
+    {
+      "title": "'월급 500만원' 직장인 10만명, 7월말 통장에 60만원 꽂힌다",
+      "url": "https://www.hankyung.com/article/2026061692177",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "월급 500만원"
+      ],
+      "hash": "8d729f038fc1"
     },
     {
       "title": "코스피, 종전 합의·유가 하락에 8700선 회복…금융주 '신고가'",
@@ -359,90 +591,6 @@
         "심텍"
       ],
       "hash": "bec0dec7df51"
-    },
-    {
-      "title": "\"삼성전자 아니었네\"…돌아온 외국인, '이 종목' 쓸어 담았다 [분석+]",
-      "url": "https://www.hankyung.com/article/2026061681966",
-      "summary": "외국인이 한국 주식 순매수세로 돌아설 조짐이다. 미 우주 기업 스페이스X의 기업공개(IPO)가 마무리된 데다, 미국·이란 전쟁 종전에 따른 거시경제(매크로) 불확실성이 완화돼 외국인이 한국 주식 매수에 나설 가능성이 크다는 분석이 증권가에서 제기된다. 특히...",
-      "datetime_raw": "2026.06.16 07:39",
-      "datetime": "2026-06-16T07:39:00+09:00",
-      "dt": "2026-06-16 07:39",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "삼성전자 아니었네"
-      ],
-      "hash": "3f74f5ed5698"
-    },
-    {
-      "title": "\"반도체 10배 뛸 때 전혀 안 올랐다…지금 사두면 돈 되는 주식\"",
-      "url": "https://www.hankyung.com/article/2026061448146",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "반도체 10배 뛸 때 전혀 안 올랐다"
-      ],
-      "hash": "f31654a21f64"
-    },
-    {
-      "title": "삼성 파운드리, 머스크의 꿈 '뉴럴링크' 차세대 칩 개발한다",
-      "url": "https://www.hankyung.com/article/202606156953i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "뉴럴링크",
-        "삼성 파운드리"
-      ],
-      "hash": "d90d8d902ccc"
-    },
-    {
-      "title": "삼성전기·네이버 팔아치우더니…초고수가 픽한 '의외의 종목'",
-      "url": "https://www.hankyung.com/article/202606156376i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전기",
-        "의외의 종목"
-      ],
-      "hash": "915fac76029f"
-    },
-    {
-      "title": "\"보이면 바로 사세요\"…6월 지나면 사라지는 '초여름 과일'",
-      "url": "https://www.hankyung.com/article/202606123536i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "초여름 과일",
-        "보이면 바로 사세요"
-      ],
-      "hash": "1439fee0e4c1"
     },
     {
       "title": "\"6월에만 95% 올랐다\"…반도체·2차전지 쌍끌이에 불기둥 세운 후성",
@@ -937,173 +1085,6 @@
         "하반기 탈모치료 건보 적용 추진"
       ],
       "hash": "760b53c948e4"
-    },
-    {
-      "title": "코스피, 美·이란 협상에 8500선 돌파…'34만전자·230만닉스' 회복",
-      "url": "https://www.hankyung.com/article/2026061560916",
-      "summary": "코스피지수가 15일 장 초반 5% 넘게 급등해 8500선 위로 올라섰다. 미국과 이란 간 종전 협상이 타결됐다는 소식에 시장 전반의 투자심리가 개선된 것으로 풀이된다. 이날 오전 9시12분 현재 코스피지수는 전장 대비 405.89포인트(5.0%) 오른 8529...",
-      "datetime_raw": "2026.06.15 09:22",
-      "datetime": "2026-06-15T09:22:00+09:00",
-      "dt": "2026-06-15 09:22",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피",
-        "34만전자·230만닉스"
-      ],
-      "hash": "b00dfb2599f9"
-    },
-    {
-      "title": "코스피 8545 마감…외인 1兆 사고 개미는 1.5兆 팔았다 [마켓 라이브]",
-      "url": "https://www.hankyung.com/article/202606156062i",
-      "summary": "코스피 8,545선 마감… 미·이란 종전 합의 효과 지속, 외국인·기관 동반 순매수, 항공·반도체·전자부품 강세(장 마감)🕘 종전 합의 효과 마감까지 지속… 코스피 5.2% 급등, 코스닥 소폭 ...",
-      "datetime_raw": "2026.06.15 09:18",
-      "datetime": "2026-06-15T09:18:00+09:00",
-      "dt": "2026-06-15 09:18",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 8545 마감"
-      ],
-      "hash": "8b462bab26b0"
-    },
-    {
-      "title": "콘텐트리중앙·메가박스 회생절차 개시…주권거래 정지",
-      "url": "https://www.hankyung.com/article/2026061560126",
-      "summary": "중앙그룹 계열의 콘텐트리중앙과 메가박스중앙이 지난 14일 회생절차를 개시했다.15일 금융감독원 전자공시시스템에 따르면 콘텐트리중앙은 이사회의 결정에 따라 서울회생법원에 회생절차 개시와 보전처분, 포괄적금지명령 신청서를 접수했다. 회사 측은 신청사유에 대해 경영정상화 및...",
-      "datetime_raw": "2026.06.15 09:13",
-      "datetime": "2026-06-15T09:13:00+09:00",
-      "dt": "2026-06-15 09:13",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "콘텐트리중앙"
-      ],
-      "hash": "eb0700791f58"
-    },
-    {
-      "title": "코스피 급등에 매수 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026061560446",
-      "summary": "[속보] 코스피 급등에 매수 사이드카 발동고정삼 한경닷컴 기자 jsk@hankyung.com",
-      "datetime_raw": "2026.06.15 09:07",
-      "datetime": "2026-06-15T09:07:00+09:00",
-      "dt": "2026-06-15 09:07",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 급등에 매수 사이드카 발동"
-      ],
-      "hash": "b1d9d5ad3790"
-    },
-    {
-      "title": "코스피 8500선 돌파…5%대 급등",
-      "url": "https://www.hankyung.com/article/2026061560166",
-      "summary": "[속보] 코스피 8500선 돌파…5%대 급등고정삼 한경닷컴 기자 jsk@hankyung.com",
-      "datetime_raw": "2026.06.15 09:01",
-      "datetime": "2026-06-15T09:01:00+09:00",
-      "dt": "2026-06-15 09:01",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 8500선 돌파"
-      ],
-      "hash": "59d5ff1d1243"
-    },
-    {
-      "title": "타임폴리오 'TIME액티브 ETF', 스페이스X 상장일 즉시 편입",
-      "url": "https://www.hankyung.com/article/2026061558656",
-      "summary": "타임폴리오자산운용이 스페이스X 상장 당일인 12일(현지시간) 주요 글로벌 액티브 상장지수펀드(ETF) 3종에 스페이스X를 즉시 편입했다. TIME 글로벌우주테크&방산액티브 ETF, TIME 미국나스닥100액티브 ETF, TIME 글로벌AI인공지능액티브 ETF 등이 대상...",
-      "datetime_raw": "2026.06.15 08:58",
-      "datetime": "2026-06-15T08:58:00+09:00",
-      "dt": "2026-06-15 08:58",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "TIME액티브 ETF"
-      ],
-      "hash": "355215f67992"
-    },
-    {
-      "title": "\"전쟁 끝난다\" 소식에 美 선물 상승…국제유가는 4% 급락",
-      "url": "https://www.hankyung.com/article/2026061558767",
-      "summary": "미국과 이란이 오는 19일 종전 양해각서(MOU)에 서명할 예정이라고 밝히면서 글로벌 금융시장이 즉각 반응했다. 미국 지수 선물은 일제히 상승했고, 국제유가는 3~4%대 하락했다. 안전자산 선호가 완화되면서 미국 달러화도 약세를 보였다.15일(한국시간) 오전 7시20분...",
-      "datetime_raw": "2026.06.15 08:32",
-      "datetime": "2026-06-15T08:32:00+09:00",
-      "dt": "2026-06-15 08:32",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "전쟁 끝난다"
-      ],
-      "hash": "811027205469"
-    },
-    {
-      "title": "\"스페이스X 투자할 것\" 상한가 찍자…고수들 '풀베팅'한 곳",
-      "url": "https://www.hankyung.com/article/202606155747i",
-      "summary": "투자 수익률 상위 1%의 초고수가 지난 12일 한미반도체와 이 회사가 최대 주주인 HPSP를 집중 매수했다. 한미반도체가 16일 스페이스X 주식 500억원어치 규모를 취득한다고 밝힌 데 따른 것이다.15일 키움증권에 따르면 투자원금 1000만원 이상이면서 전월 기준 수...",
-      "datetime_raw": "2026.06.15 08:30",
-      "datetime": "2026-06-15T08:30:00+09:00",
-      "dt": "2026-06-15 08:30",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "풀베팅",
-        "스페이스X 투자할 것"
-      ],
-      "hash": "b70cb7d80930"
-    },
-    {
-      "title": "벡트·AID·심플랫폼, 엣지데이터센터 시장 공략…\"AI 인프라 선도\"",
-      "url": "https://www.hankyung.com/article/2026061557786",
-      "summary": "코스닥 상장사 벡트가 인공지능(AI) 시대의 핵심 인프라로 부상 중인 '엣지(Edge) 데이터센터' 시장 공략에 나선다. 산업 AI 기업 한국축산데이터(AID), 산업용 AI전환(AX) 플랫폼 기업 심플랫폼과 협력해 급증하는 현장(엣지) 데이터 처리 수요...",
-      "datetime_raw": "2026.06.15 08:07",
-      "datetime": "2026-06-15T08:07:00+09:00",
-      "dt": "2026-06-15 08:07",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "벡트",
-        "AI 인프라 선도"
-      ],
-      "hash": "b3464046573c"
-    },
-    {
-      "title": "KB증권 금메달팀, 누적 수익률 41%로 1위 사수",
-      "url": "https://www.hankyung.com/article/2026061556686",
-      "summary": "'2026 한경스타워즈 실전투자대회(상반기)' 13주차에는 KB증권 금메달팀(둔촌역PB센터 범기원 과장·김진규 대리)이 12주차에 이어 1위 자리를 지켰다.15일 한경닷컴 스타워즈에 따르면 참가팀의 13차 누적 평균 수익률은 -4.13%로 집...",
-      "datetime_raw": "2026.06.15 08:04",
-      "datetime": "2026-06-15T08:04:00+09:00",
-      "dt": "2026-06-15 08:04",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "KB증권 금메달팀"
-      ],
-      "hash": "e3606028f250"
     }
   ],
   "consensus_signals": []
