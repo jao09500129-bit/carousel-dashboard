@@ -60,8 +60,8 @@
 
 <link rel="stylesheet" href="https://hkstatic.hankyung.com/plugin/jquery-ui/jquery-ui.min.css">
 <link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/common/library/slick/v1.8.1/slick.css">
-<link rel="stylesheet" href="https://hkstatic.hankyung.com/css/www/w/common.ui.all.css?v=202606151032">
-<link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/www/list/css/w/list.css?v=202606151032">
+<link rel="stylesheet" href="https://hkstatic.hankyung.com/css/www/w/common.ui.all.css?v=202606161559">
+<link rel="stylesheet" href="https://hkstatic.hankyung.com/resource/www/list/css/w/list.css?v=202606161559">
 
 <script type="application/ld+json">
 {
@@ -94,8 +94,8 @@
 <script type="text/javascript" src="https://hkstatic.hankyung.com/plugin/jquery.cookie.js"></script>
 <script type="text/javascript" src="https://hkstatic.hankyung.com/plugin/function.hk.js"></script>
 <script src="https://hkstatic.hankyung.com/resource/common/library/slick/v1.8.1/slick.min.js"></script>
-<script type="text/javascript" src="/resource/js/w/common.js?v=202606151032"></script>
-<script async src="https://hkstatic.hankyung.com/js/www/w/mark-pm.js?v=202606151032"></script>
+<script type="text/javascript" src="/resource/js/w/common.js?v=202606161559"></script>
+<script async src="https://hkstatic.hankyung.com/js/www/w/mark-pm.js?v=202606161559"></script>
 
 <!-- html5 태그 브라우저 호환성 -->
 <!--[if lt IE 9]>
@@ -103,7 +103,7 @@
 <![endif]-->
 
 <script>window.GATrackingData = {title: `한경코리아마켓>뉴스>전체뉴스`}</script>
-    <script src="https://hkstatic.hankyung.com/resource/www/common/js/gtm/tracking.js?v=202606151032" async></script>
+    <script src="https://hkstatic.hankyung.com/resource/www/common/js/gtm/tracking.js?v=202606161559" async></script>
 
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <script>
@@ -483,7 +483,7 @@ function setSingInfo(result){
 if(location.host.startsWith('stg-') == true){
     const script = document.createElement('script');
     script.type = 'module';
-    script.src = '/incfile/js/menu/w.js?v=20260505_1';
+    script.src = '/incfile/js/menu/w.js?v=20260615_1';
     // document.body.appendChild(script);
     document.querySelector('head').appendChild(script);
 }
@@ -491,14 +491,9 @@ if(location.host.startsWith('stg-') == true){
 else{
     const script = document.createElement('script');
     script.type = 'module';
-    script.src = 'https://hkstatic.hankyung.com/resource/menu/w.js?v=20260505_1';
+    script.src = 'https://hkstatic.hankyung.com/resource/menu/w.js?v=20260615_1';
     // document.body.appendChild(script);
     document.querySelector('head').appendChild(script);
-}
-
-// 한경프라이스 진입점은 stg에만 노출
-if(location.host.startsWith('stg-') == true){
-    $(".logo__price").parent().show();
 }
 </script>
 
@@ -771,6 +766,48 @@ $(function () {
                 </div>
 
                 <ul class="news-list">
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <div class="news-item__meta">
+                                    <a href="/premium9/0102001" class="news-item__series">
+                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">핫스톡
+                                    </a>
+                                </div>
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/202606157423i" data-pm="P9P">"6월에만 95% 올랐다"…반도체·2차전지 쌍끌이에 불기둥 세운 후성</a>
+                                </h2>
+                                <p class="lead">국내 불소화학 기업 후성이 반도체와 2차전지 업황 회복 기대를 업고 코스피 시장 최고 상승주로 떠올랐다. 반도체 특수가스와 2차전지 전해질 소재를 주력으로 생산하는 사업 구조상 두 산업의 업황 개선 수혜를 동시에 누릴 것이란 기대가 커져서다.16일 한국거래소에 따르면 ...</p>
+                                <p class="txt-date">2026.06.16 07:34</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/202606157423i">
+                                    <img src="https://img.hankyung.com/photo/202606/01.44661679.3.png" alt="&quot;6월에만 95% 올랐다&quot;…반도체·2차전지 쌍끌이에 불기둥 세운 후성">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <div class="news-item__meta">
+                                    <a href="/premium9/0102001" class="news-item__series">
+                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">핫스톡
+                                    </a>
+                                </div>
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/202606168059i" data-pm="P9P">"10만원대 박스권 뚫었다"…AI 업고 200만원 돌파한 기업은?</a>
+                                </h2>
+                                <p class="lead">글로벌 빅테크 기업들이 인공지능(AI) 데이터센터를 앞다투어 지으면서 삼성전기가 국내 주식 시장의 가장 뜨거운 종목으로 떠올랐다. 스마트폰이나 PC에 들어가는 부품을 만들던 회사에서, 이제는 거대한 AI 반도체가 돌아가기 위해 없어서는 안 될 부품을 공급하는 대장주로 ...</p>
+                                <p class="txt-date">2026.06.16 07:31</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/202606168059i">
+                                    <img src="https://img.hankyung.com/photo/202606/01.44179331.3.jpg" alt="&quot;10만원대 박스권 뚫었다&quot;…AI 업고 200만원 돌파한 기업은?">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
                     <li>
                         <div class="news-item">
                             <div class="text-cont">
@@ -1075,38 +1112,6 @@ $(function () {
                             <figure class="thumb">
                                 <a href="https://www.hankyung.com/article/2026061564356">
                                     <img src="https://img.hankyung.com/photo/202606/01.43666639.3.jpg" alt="거래소, 상장사 내부자거래 알림서비스 전면 개편해 편의성 개선">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026061563696" data-pm="N">예탁원, 증권박물관 부산관서 주말 교육프로그램운영</a>
-                                </h2>
-                                <p class="lead">한국예탁결제원은 증권박물관 부산관에서 다음달 4일부터 8월29일까지 매주 토요일에 유아부터 초등생을 둔 가족을 대상으로 한 교육프로그램 ‘반가워! 증권이 만든 세상’을 운영한다고 15일 밝혔다.이번 프로그램은 평일 방문이 어려운 가족 관람객을 위한...</p>
-                                <p class="txt-date">2026.06.15 10:13</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026061563696">
-                                    <img src="https://img.hankyung.com/photo/202606/01.44655169.3.jpg" alt="예탁원, 증권박물관 부산관서 주말 교육프로그램운영">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026061562536" data-pm="N">타임폴리오운용, 신임 대표이사에 차문현 부사장 선임</a>
-                                </h2>
-                                <p class="lead">타임폴리오자산운용은 15일 차문현 부사장을 신임 대표이사로 선임했다고 밝혔다.타임폴리오자산운용은 이날 이 같은 내용의 정기 임원인사를 단행했다.차 신임 대표는 황성환 대표이사 사장과 각자 대표이사를 맡을 예정이다. 신임 차 대표는 1972년생으로 타임폴리오자산운용의 창...</p>
-                                <p class="txt-date">2026.06.15 10:11</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026061562536">
-                                    <img src="https://img.hankyung.com/photo/202606/01.44654722.3.jpg" alt="타임폴리오운용, 신임 대표이사에 차문현 부사장 선임">
                                 </a>
                             </figure>
                         </div>
