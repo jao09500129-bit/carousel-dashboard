@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-17T13:00:58.210331+09:00",
+  "collected_at": "2026-06-17T15:00:57.076601+09:00",
   "date": "2026-06-17",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -40,6 +40,70 @@
     ]
   },
   "items": [
+    {
+      "title": "\"K팝 저작권에 투자\"…인젝티브·뮤직카우, RWA 토큰화 시동",
+      "url": "https://www.hankyung.com/article/2026061719125",
+      "summary": "글로벌 블록체인 기업 인젝티브와 음악 투자 플랫폼 뮤직카우가 본격적으로 K팝 음악 저작권에 대한 RWA 토큰화를 시작한다. 인젝티브는 17일 안효섭과 칼리드가 협업한 싱글, 'Something Special'을 인젝티브에서 팬들이 소유할 수 있는 최초의 음악 IP로 토...",
+      "datetime_raw": "2026.06.17 14:35",
+      "datetime": "2026-06-17T14:35:00+09:00",
+      "dt": "2026-06-17 14:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "K팝 저작권에 투자"
+      ],
+      "hash": "f7af01f409c1"
+    },
+    {
+      "title": "종전 훈풍에 채권시장 심리 개선…7월 BMSI 85.1",
+      "url": "https://www.hankyung.com/article/2026061717356",
+      "summary": "미국과 이란 간 종전 합의에 따른 지정학적 리스크 완화 기대에 7월 채권시장 심리는 전월 대비 호전된 것으로 나타났다.금융투자협회는 지난 8~11일 채권 보유 및 운용 관련 종사자 100명을 대상으로 설문한 결과를 담은 '2026년 7월 채권시장 지표(BMSI)...",
+      "datetime_raw": "2026.06.17 14:33",
+      "datetime": "2026-06-17T14:33:00+09:00",
+      "dt": "2026-06-17 14:33",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "종전 훈풍에 채권시장 심리 개선"
+      ],
+      "hash": "9fa2728279e2"
+    },
+    {
+      "title": "코스콤, GTN과 글로벌 주문 허브 구축사업 추진",
+      "url": "https://www.hankyung.com/article/2026061718586",
+      "summary": "코스콤이 지난 15일 서울 여의도 본사에서 글로벌 금융 네트워크 기업 GTN과 ‘글로벌 주문 허브 구축’ 사업 계약을 체결했다고 17일 밝혔다.이 사업은 국내 증권사의 해외 주문 서비스 인프라를 고도화하고 글로벌 시장 접근성을 높이는 사업이다.계약...",
+      "datetime_raw": "2026.06.17 14:21",
+      "datetime": "2026-06-17T14:21:00+09:00",
+      "dt": "2026-06-17 14:21",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스콤"
+      ],
+      "hash": "370e3c91fe54"
+    },
+    {
+      "title": "웰덱스 \"2030년까지 2600억 투자하고 배당성향 10%로\" 밸류업 공시",
+      "url": "https://www.hankyung.com/article/2026061718476",
+      "summary": "월덱스는 2030년까지 총 2600억원을 투자하고 3개년 평균 배당성향을 10%로 높이는 내용을 담은 기업가치 제고 계획을 17일 공시했다.우선 반도체 소재 사업 시설 투자 및 기술 경쟁력 강화에 1900억원, 차세대 소재 연구개발(R&D)에 200억원, 로봇&midd...",
+      "datetime_raw": "2026.06.17 14:15",
+      "datetime": "2026-06-17T14:15:00+09:00",
+      "dt": "2026-06-17 14:15",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2030년까지 2600억 투자하고 배당성향 10%로"
+      ],
+      "hash": "84f80baf9ddc"
+    },
     {
       "title": "작년 기관전용 사모펀드 약정액 167조 '역대 최대'…투자도 12% 증가",
       "url": "https://www.hankyung.com/article/2026061710766",
@@ -222,18 +286,18 @@
       "hash": "fee68f6ca35c"
     },
     {
-      "title": "코스피 0.96% 하락 중…FOMC 경계감 속 조선·철강 순환매 [오전 10시 시황]",
+      "title": "코스피 8800선 근접 상승 전환… 반도체·지주회사 강세 [오후 2시 시황]",
       "url": "https://www.hankyung.com/article/202606171014i",
-      "summary": "코스피 0.96% 하락 중… 반도체 차익실현·FOMC 경계감 속 조선·철강 순환매 [오전 10시 시황]🕘 장초반 하락 흐름… 반도체 매도 vs. 조선·철강 순환매오전 10시 기준, 한국 증시는 간밤 미국 필...",
+      "summary": "코스피 8800선 근접 상승 전환… 반도체·지주회사 강세, 코스닥 제약바이오 주도 상승 지속[오후 2시 시황]🕘 오후 들어 상승 탄력 강화… 반도체 낙폭 회복, 제약바이오 강세 지속오후 2시 기준, 한국 증시는 장 초반 반도체 차익...",
       "datetime_raw": "2026.06.17 09:28",
       "datetime": "2026-06-17T09:28:00+09:00",
       "dt": "2026-06-17 09:28",
       "brokers": [],
-      "opinion": "매도",
+      "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "코스피 0.96% 하락 중"
+        "코스피 8800선 근접 상승 전환"
       ],
       "hash": "66545440e2fc"
     },
@@ -254,7 +318,7 @@
       "hash": "5ab4d92da5c9"
     },
     {
-      "title": "\"300만원 간다\" 파격 전망…외국인 '이 종목' 쓸어 담는 이유 [종목+]",
+      "title": "\"200만원→300만원 간다\" 파격 전망…외국인 1.3조 쓸어 담았다 [종목+]",
       "url": "https://www.hankyung.com/article/2026061708416",
       "summary": "삼성전기를 두고 외국인과 기관 투자자의 매매 행보가 엇갈리고 있다. 외국인은 이달 들어 삼성전기를 가장 많이 순매수했다. 반면 기관은 가장 많이 판 종목이었다.17일 한국거래소에 따르면 외국인은 이달 들어 전날까지 삼성전기 주식을 1조3170억원 순매수하며 가장 많이 ...",
       "datetime_raw": "2026.06.17 09:03",
@@ -263,10 +327,9 @@
       "brokers": [],
       "opinion": "매수",
       "target_action": null,
-      "target_change_pct": null,
+      "target_change_pct": 50.0,
       "keywords": [
-        "이 종목",
-        "300만원 간다"
+        "200만원→300만원 간다"
       ],
       "hash": "39648bebff0f"
     },
@@ -301,73 +364,6 @@
         "삼성전자"
       ],
       "hash": "1d1ccea7d762"
-    },
-    {
-      "title": "\"주식은 결국 세상읽기\"…16년 기다려 83배 만든 투자 장인",
-      "url": "https://www.hankyung.com/article/202606106884i",
-      "summary": "16년. 강산이 한번 반 바뀔 세월 동안 단 한 번도 포트폴리오에서 빼지 않은 주식이 있다. 정무일 트러스톤자산운용 최고투자책임자(CIO)가 리노공업에 처음 투자한 건 글로벌 금융위기 직후인 2008년이다. 당시만 해도 시장이 주목하지 않던 반도체 후...",
-      "datetime_raw": "2026.06.17 08:12",
-      "datetime": "2026-06-17T08:12:00+09:00",
-      "dt": "2026-06-17 08:12",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "주식은 결국 세상읽기"
-      ],
-      "hash": "2cf4d4677a73"
-    },
-    {
-      "title": "거침없는 코스피…실적 컨센서스 대폭 상향된 ‘톱10’ 뽑아보니",
-      "url": "https://www.hankyung.com/article/202606169774i",
-      "summary": "시가총액 3,000억원 이상 영업이익 컨센서스 상향 조정 상위 10개 종목 개요16일 기준 에픽AI가 시가총액 3,000억원 이상 상장사 703개를 대상으로 NTM(Next Twelve Months) 영업이익 컨센서스 변동률을 산출한 결과, 상위 종목들이 도출됐다.다수...",
-      "datetime_raw": "2026.06.17 08:00",
-      "datetime": "2026-06-17T08:00:00+09:00",
-      "dt": "2026-06-17 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "톱10",
-        "거침없는 코스피"
-      ],
-      "hash": "729e18bd542e"
-    },
-    {
-      "title": "\"LIG D&A, 獨라인메탈과 협업 통한 유럽 수주 확대 기대…목표가↑\"-키움",
-      "url": "https://www.hankyung.com/article/2026061706606",
-      "summary": "키움증권은 17일 LIG디펜스앤에어로스페이스(LIG D&A)에 대해 라인메탈과의 협력을 통한 유럽에서의 수주 파이프라인 확장이 기대된다며 목표주가를 기존 125만원에서 135만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.LIG D&A는 독일 방산...",
-      "datetime_raw": "2026.06.17 07:58",
-      "datetime": "2026-06-17T07:58:00+09:00",
-      "dt": "2026-06-17 07:58",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 8.0,
-      "keywords": [
-        "LIG D&A"
-      ],
-      "hash": "7783d4b19b80"
-    },
-    {
-      "title": "\"종전합의에도 더 올랐네\"…한화그룹주, 고공행진 한 이유 [종목+]",
-      "url": "https://www.hankyung.com/article/2026061698766",
-      "summary": "한화그룹주가 미국과 이란 간 종전 협상 타결 이후에도 동반 강세를 이어가고 있다. 과거 주가를 끌어올린 지정학적 리스크 완화에도 주요 계열사 주가가 상승폭을 키우면서 방산·조선·태양광을 중심으로 한 그룹의 성장 기대가 재차 부각되고 있다는 분석...",
-      "datetime_raw": "2026.06.17 06:30",
-      "datetime": "2026-06-17T06:30:00+09:00",
-      "dt": "2026-06-17 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "종전합의에도 더 올랐네"
-      ],
-      "hash": "d96fb65929a3"
     },
     {
       "title": "최태원의 '승부수'…SK하이닉스, 100조 초대형 주주환원 추진",
@@ -449,6 +445,73 @@
         "빅픽처"
       ],
       "hash": "b07fb7bda31b"
+    },
+    {
+      "title": "\"주식은 결국 세상읽기\"…16년 기다려 83배 만든 투자 장인",
+      "url": "https://www.hankyung.com/article/202606106884i",
+      "summary": "16년. 강산이 한번 반 바뀔 세월 동안 단 한 번도 포트폴리오에서 빼지 않은 주식이 있다. 정무일 트러스톤자산운용 최고투자책임자(CIO)가 리노공업에 처음 투자한 건 글로벌 금융위기 직후인 2008년이다. 당시만 해도 시장이 주목하지 않던 반도체 후...",
+      "datetime_raw": "2026.06.17 08:12",
+      "datetime": "2026-06-17T08:12:00+09:00",
+      "dt": "2026-06-17 08:12",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "주식은 결국 세상읽기"
+      ],
+      "hash": "2cf4d4677a73"
+    },
+    {
+      "title": "거침없는 코스피…실적 컨센서스 대폭 상향된 ‘톱10’ 뽑아보니",
+      "url": "https://www.hankyung.com/article/202606169774i",
+      "summary": "시가총액 3,000억원 이상 영업이익 컨센서스 상향 조정 상위 10개 종목 개요16일 기준 에픽AI가 시가총액 3,000억원 이상 상장사 703개를 대상으로 NTM(Next Twelve Months) 영업이익 컨센서스 변동률을 산출한 결과, 상위 종목들이 도출됐다.다수...",
+      "datetime_raw": "2026.06.17 08:00",
+      "datetime": "2026-06-17T08:00:00+09:00",
+      "dt": "2026-06-17 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "톱10",
+        "거침없는 코스피"
+      ],
+      "hash": "729e18bd542e"
+    },
+    {
+      "title": "\"LIG D&A, 獨라인메탈과 협업 통한 유럽 수주 확대 기대…목표가↑\"-키움",
+      "url": "https://www.hankyung.com/article/2026061706606",
+      "summary": "키움증권은 17일 LIG디펜스앤에어로스페이스(LIG D&A)에 대해 라인메탈과의 협력을 통한 유럽에서의 수주 파이프라인 확장이 기대된다며 목표주가를 기존 125만원에서 135만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.LIG D&A는 독일 방산...",
+      "datetime_raw": "2026.06.17 07:58",
+      "datetime": "2026-06-17T07:58:00+09:00",
+      "dt": "2026-06-17 07:58",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 8.0,
+      "keywords": [
+        "LIG D&A"
+      ],
+      "hash": "7783d4b19b80"
+    },
+    {
+      "title": "\"종전합의에도 더 올랐네\"…한화그룹주, 고공행진 한 이유 [종목+]",
+      "url": "https://www.hankyung.com/article/2026061698766",
+      "summary": "한화그룹주가 미국과 이란 간 종전 협상 타결 이후에도 동반 강세를 이어가고 있다. 과거 주가를 끌어올린 지정학적 리스크 완화에도 주요 계열사 주가가 상승폭을 키우면서 방산·조선·태양광을 중심으로 한 그룹의 성장 기대가 재차 부각되고 있다는 분석...",
+      "datetime_raw": "2026.06.17 06:30",
+      "datetime": "2026-06-17T06:30:00+09:00",
+      "dt": "2026-06-17 06:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "종전합의에도 더 올랐네"
+      ],
+      "hash": "d96fb65929a3"
     },
     {
       "title": "호르무즈 정상화까지 수개월…\"유가 단기 급락 없다\" [분석+]",
@@ -1017,73 +1080,6 @@
         "9천피"
       ],
       "hash": "67a4548fd451"
-    },
-    {
-      "title": "전쟁 리스크 걷히자 돈 몰렸다…성수기 앞두고 개미 '들썩'",
-      "url": "https://www.hankyung.com/article/202606157237i",
-      "summary": "미국·이란 전쟁 이후 약세를 보이던 항공주가 일제히 급등했다. 양국이 오는 19일 종전 양해각서(MOU)에 서명할 예정이라는 소식이 전해지면서 투자심리가 개선된 영향이다.15일 유가증권시장에서 대한항공은 전 거래일보다 12.78% 오른 3만원에 거래를 마쳤...",
-      "datetime_raw": "2026.06.15 16:45",
-      "datetime": "2026-06-15T16:45:00+09:00",
-      "dt": "2026-06-15 16:45",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "전쟁 리스크 걷히자 돈 몰렸다"
-      ],
-      "hash": "5564edc5165e"
-    },
-    {
-      "title": "코스피, 종전 합의에 8500선 탈환…외인 이틀째 '사자'",
-      "url": "https://www.hankyung.com/article/2026061573566",
-      "summary": "15일 코스피지수가 5% 넘게 급등해 8500선을 탈환했다. 미국·이스라엘과 이란 간 전쟁이 106일 만에 사실상 종식되자 시장 전반의 투자심리가 개선됐다. 호르무즈해협의 정상화를 앞두고 국제 유가가 하락세로 돌아섰고 인플레이션 우려가 줄어들며 위험자산 선...",
-      "datetime_raw": "2026.06.15 16:04",
-      "datetime": "2026-06-15T16:04:00+09:00",
-      "dt": "2026-06-15 16:04",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사자",
-        "코스피"
-      ],
-      "hash": "56a434e7761d"
-    },
-    {
-      "title": "코스피, 5.2% 급등 마감…8500선 회복",
-      "url": "https://www.hankyung.com/article/2026061572677",
-      "summary": "박수림 한경닷컴 기자 paksr365@hankyung.com",
-      "datetime_raw": "2026.06.15 15:37",
-      "datetime": "2026-06-15T15:37:00+09:00",
-      "dt": "2026-06-15 15:37",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "1304e4630070"
-    },
-    {
-      "title": "'코스닥 노크' 져스텍 \"초정밀 모션제어로 반도체 시장 공략\"",
-      "url": "https://www.hankyung.com/article/2026061568446",
-      "summary": "\"초정밀 모션 시스템 기업 져스텍은 당초 디스플레이와 산업 자동화가 근간이었지만 인공지능(AI) 붐이 일어나면서 반도체 관련 고객사를 상당수 확보하게 됐습니다. 현재 져스텍의 초정밀 모션제어 기술은 고대역폭메모리(HBM) 및 첨단 패키징에 적용됩니다.\"최동수 져스텍 대...",
-      "datetime_raw": "2026.06.15 15:22",
-      "datetime": "2026-06-15T15:22:00+09:00",
-      "dt": "2026-06-15 15:22",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스닥 노크",
-        "초정밀 모션제어로 반도체 시장 공략"
-      ],
-      "hash": "0838abbffcba"
     }
   ],
   "consensus_signals": []
