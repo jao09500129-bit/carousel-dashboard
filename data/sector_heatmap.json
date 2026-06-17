@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-17T16:00:55.529866+09:00",
+  "computed_at": "2026-06-17T23:10:53.346617+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 2,
+      "count": 3,
       "top": []
     },
     {
@@ -16,13 +16,13 @@
     {
       "name": "에너지",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
       "name": "금융",
       "intensity": 0.0,
-      "count": 2,
+      "count": 4,
       "top": []
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "기타",
       "intensity": 0.0,
-      "count": 54,
+      "count": 50,
       "top": []
     }
   ],
