@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-17T11:00:56.641334+09:00",
+  "collected_at": "2026-06-17T13:00:58.210331+09:00",
   "date": "2026-06-17",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 63,
   "stats": {
-    "with_broker_mention": 10,
+    "with_broker_mention": 9,
     "target_price_up": 5,
     "target_price_down": 0,
     "top_brokers": [
@@ -26,20 +26,36 @@
         2
       ],
       [
-        "현대차",
-        2
-      ],
-      [
         "메리츠",
         1
       ],
       [
         "유안타",
         1
+      ],
+      [
+        "현대차",
+        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "작년 기관전용 사모펀드 약정액 167조 '역대 최대'…투자도 12% 증가",
+      "url": "https://www.hankyung.com/article/2026061710766",
+      "summary": "지난해 국내 기관전용 사모펀드 약정액이 170조원에 육박하며 역대 최대치를 기록한 가운데 투자 집행 규모도 전년보다 3조원 이상 늘어난 것으로 나타났다. 17일 금융감독원이 발표한 '2025년 기관전용 사모펀드 운용 현황 및 시사점' 자료에 따르...",
+      "datetime_raw": "2026.06.17 12:00",
+      "datetime": "2026-06-17T12:00:00+09:00",
+      "dt": "2026-06-17 12:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "역대 최대"
+      ],
+      "hash": "ed6ac16ca288"
+    },
     {
       "title": "아트큐브 2R2, 조수미 40주년 특별전 7월 개최",
       "url": "https://www.hankyung.com/article/2026061710346",
@@ -91,7 +107,7 @@
       "hash": "e191412bb4b9"
     },
     {
-      "title": "전쟁 끝나면 증시 변동성 잦아든다는 착각…\"극단적 공포 지속\" [분석+]",
+      "title": "종전에도 역대급 '공포'…증시 뒤흔드는 '괴물'의 정체 [분석+]",
       "url": "https://www.hankyung.com/article/2026061710726",
       "summary": "미국·이란 전쟁 종전 협상 타결에도 증권가에선 국내 증시의 변동성이 쉽게 잦아들지 않을 것이라는 전망이 나온다. 최근 상장된 단일종목 레버리지 상장지수펀드(ETF)가 시장 변동성을 키우는 데다 주요국 중앙은행의 통화정책 전환 가능성까지 변수로 남아있어서다....",
       "datetime_raw": "2026.06.17 10:29",
@@ -102,8 +118,8 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "극단적 공포 지속",
-        "전쟁 끝나면 증시 변동성 잦아든다는 착각"
+        "공포",
+        "괴물"
       ],
       "hash": "939193835500"
     },
@@ -238,7 +254,7 @@
       "hash": "5ab4d92da5c9"
     },
     {
-      "title": "3개월 만에 4배 뛰었는데…\"300만원 간다\" 1.3조 쓸어 담았다 [종목+]",
+      "title": "\"300만원 간다\" 파격 전망…외국인 '이 종목' 쓸어 담는 이유 [종목+]",
       "url": "https://www.hankyung.com/article/2026061708416",
       "summary": "삼성전기를 두고 외국인과 기관 투자자의 매매 행보가 엇갈리고 있다. 외국인은 이달 들어 삼성전기를 가장 많이 순매수했다. 반면 기관은 가장 많이 판 종목이었다.17일 한국거래소에 따르면 외국인은 이달 들어 전날까지 삼성전기 주식을 1조3170억원 순매수하며 가장 많이 ...",
       "datetime_raw": "2026.06.17 09:03",
@@ -249,8 +265,8 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "300만원 간다",
-        "3개월 만에 4배 뛰었는데"
+        "이 종목",
+        "300만원 간다"
       ],
       "hash": "39648bebff0f"
     },
@@ -354,25 +370,6 @@
       "hash": "d96fb65929a3"
     },
     {
-      "title": "호르무즈 정상화까지 수개월…\"유가 단기 급락 없다\" [분석+]",
-      "url": "https://www.hankyung.com/article/2026061602776",
-      "summary": "미국과 이란의 종전 합의에도 유가가 단기간 가파르게 하락하기는 쉽지 않을 것이라는 전망이 나온다. 후속 협상이 기다리고 있는 데다 산유국들의 생산시설 정상화까지 수개월의 시간이 소요되기 때문이다.심수빈 키움증권 연구원은 16일 \"미-이란 종전 협상에 따라 향후 원유시장...",
-      "datetime_raw": "2026.06.16 22:00",
-      "datetime": "2026-06-16T22:00:00+09:00",
-      "dt": "2026-06-16 22:00",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "유가 단기 급락 없다",
-        "호르무즈 정상화까지 수개월"
-      ],
-      "hash": "f09af6e3b7fe"
-    },
-    {
       "title": "최태원의 '승부수'…SK하이닉스, 100조 초대형 주주환원 추진",
       "url": "https://www.hankyung.com/article/202606169905i",
       "summary": "",
@@ -387,6 +384,22 @@
         "승부수"
       ],
       "hash": "b0531d96682e"
+    },
+    {
+      "title": "'월급 500만원' 직장인 10만명, 7월말 통장에 60만원 꽂힌다",
+      "url": "https://www.hankyung.com/article/2026061692177",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "월급 500만원"
+      ],
+      "hash": "8d729f038fc1"
     },
     {
       "title": "\"삼성전자 아니었네\"…돌아온 외국인, '이 종목' 쓸어 담았다",
@@ -404,22 +417,6 @@
         "삼성전자 아니었네"
       ],
       "hash": "3f74f5ed5698"
-    },
-    {
-      "title": "'월급 500만원' 직장인 10만명, 7월말 통장에 60만원 꽂힌다",
-      "url": "https://www.hankyung.com/article/2026061692177",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "월급 500만원"
-      ],
-      "hash": "8d729f038fc1"
     },
     {
       "title": "개미는 팔았는데…외국인이 5조원 넘게 쓸어담은 종목은",
@@ -452,6 +449,25 @@
         "빅픽처"
       ],
       "hash": "b07fb7bda31b"
+    },
+    {
+      "title": "호르무즈 정상화까지 수개월…\"유가 단기 급락 없다\" [분석+]",
+      "url": "https://www.hankyung.com/article/2026061602776",
+      "summary": "미국과 이란의 종전 합의에도 유가가 단기간 가파르게 하락하기는 쉽지 않을 것이라는 전망이 나온다. 후속 협상이 기다리고 있는 데다 산유국들의 생산시설 정상화까지 수개월의 시간이 소요되기 때문이다.심수빈 키움증권 연구원은 16일 \"미-이란 종전 협상에 따라 향후 원유시장...",
+      "datetime_raw": "2026.06.16 22:00",
+      "datetime": "2026-06-16T22:00:00+09:00",
+      "dt": "2026-06-16 22:00",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유가 단기 급락 없다",
+        "호르무즈 정상화까지 수개월"
+      ],
+      "hash": "f09af6e3b7fe"
     },
     {
       "title": "AI 시대 가장 주목할 반도체 부품은 [한경 프리미엄9 TODAY]",
@@ -1068,25 +1084,6 @@
         "초정밀 모션제어로 반도체 시장 공략"
       ],
       "hash": "0838abbffcba"
-    },
-    {
-      "title": "\"지금 오른다고 덥석 샀다간 낭패\"…하반기 '진짜 주도주'는?",
-      "url": "https://www.hankyung.com/article/202606157053i",
-      "summary": "올 하반기 국내 증시에서 이익 모멘텀이 뚜렷한 증권주와 저평가 매력이 큰 자동차주가 유망한 대안 투자처로 꼽혔다. 반면 지난 한 달간 순환매가 유입됐던 백화점·은행 등 내수·방어주들에 대해선 경고등이 켜졌다.현대차증권은 15일 최근 주가 상승세...",
-      "datetime_raw": "2026.06.15 14:51",
-      "datetime": "2026-06-15T14:51:00+09:00",
-      "dt": "2026-06-15 14:51",
-      "brokers": [
-        "현대차"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "진짜 주도주",
-        "지금 오른다고 덥석 샀다간 낭패"
-      ],
-      "hash": "2366c3aaa8e1"
     }
   ],
   "consensus_signals": []
