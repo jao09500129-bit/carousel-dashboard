@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-18T15:01:03.295821+09:00",
+  "collected_at": "2026-06-18T16:00:49.946905+09:00",
   "date": "2026-06-18",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 10,
+    "with_broker_mention": 8,
     "target_price_up": 3,
     "target_price_down": 1,
     "top_brokers": [
@@ -19,10 +19,6 @@
       ],
       [
         "미래에셋",
-        2
-      ],
-      [
-        "키움",
         2
       ],
       [
@@ -38,14 +34,79 @@
         1
       ],
       [
-        "메리츠",
+        "키움",
         1
       ]
     ]
   },
   "items": [
     {
-      "title": "K뷰티 열풍에도…수혜 못보는 화장품 원료업체들",
+      "title": "알투스 \"'금융 블록체인 서비스' 사업 시동…기관용 파운드리 되겠다\"",
+      "url": "https://www.hankyung.com/article/2026061843376",
+      "summary": "국내 블록체인 업체 알투스(옛 비하베스트)가 금융사의 블록체인 서비스 구축·운영을 지원하는 기관용 사업을 본격화한다고 18일 블루밍비트가 보도했다.알투스는 이날 국내 기관의 블록체인 도입 수요를 겨냥해 금융기관의 디지털자산 인프라 파트너로 발돋움하...",
+      "datetime_raw": "2026.06.18 15:46",
+      "datetime": "2026-06-18T15:46:00+09:00",
+      "dt": "2026-06-18 15:46",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "금융 블록체인 서비스"
+      ],
+      "hash": "5a575834405f"
+    },
+    {
+      "title": "미국에 3500억달러 통 큰 투자 본격화…진짜 수혜주는 어디",
+      "url": "https://www.hankyung.com/article/202606184578i",
+      "summary": "정부의 3500억달러(약 533조원) 규모 대미(對美) 투자가 본격적으로 추진되는 가운데 주요 후보군 사업인 액화천연가스(LNG)와 원전·소형모듈원전(SMR) 등 관련 수혜주에 대한 기대감이 커지고 있다.18일 정부에 따르면 이날 대미투자특별법 시행과 함께...",
+      "datetime_raw": "2026.06.18 15:38",
+      "datetime": "2026-06-18T15:38:00+09:00",
+      "dt": "2026-06-18 15:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미국에 3500억달러 통 큰 투자 본격화"
+      ],
+      "hash": "ca03b9e4f2c6"
+    },
+    {
+      "title": "'9천피' 시대 열었다…코스피 2.25% 뛴 9063.84 마감",
+      "url": "https://www.hankyung.com/article/2026061847226",
+      "summary": "[속보] '구천피' 시대 열었다…사상 최고치 마감이수 한경닷컴 기자 2su@hankyung.com",
+      "datetime_raw": "2026.06.18 15:33",
+      "datetime": "2026-06-18T15:33:00+09:00",
+      "dt": "2026-06-18 15:33",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "9천피"
+      ],
+      "hash": "30374234e4c7"
+    },
+    {
+      "title": "코스피, '9천피' 넘어 9100선 돌파…2%대 강세",
+      "url": "https://www.hankyung.com/article/2026061847167",
+      "summary": "김대영 한경닷컴 기자 kdy@hankyung.com",
+      "datetime_raw": "2026.06.18 15:26",
+      "datetime": "2026-06-18T15:26:00+09:00",
+      "dt": "2026-06-18 15:26",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "9천피",
+        "코스피"
+      ],
+      "hash": "a67358da50f6"
+    },
+    {
+      "title": "'메이드 인 코리아' K뷰티 대박 났지만…신음하는 원료업체들",
       "url": "https://www.hankyung.com/article/202606184446i",
       "summary": "히알루론산, 소듐히알루로네이트, 장미 추출물, 동백씨 오일 등 수분 공급 효과가 뛰어난 성분이 다수 첨가돼 만들어진 한 한국 ...",
       "datetime_raw": "2026.06.18 14:55",
@@ -56,7 +117,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "K뷰티 열풍에도"
+        "메이드 인 코리아"
       ],
       "hash": "0c93cf3744bc"
     },
@@ -306,6 +367,88 @@
       "hash": "564f5d99cee0"
     },
     {
+      "title": "\"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네",
+      "url": "https://www.hankyung.com/article/2026061708866",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "홈플러스 있던 자리였는데"
+      ],
+      "hash": "0b61901590b3"
+    },
+    {
+      "title": "'월급 500만원' 직장인 10만명, 7월말 통장에 60만원 꽂힌다",
+      "url": "https://www.hankyung.com/article/2026061692177",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "월급 500만원"
+      ],
+      "hash": "8d729f038fc1"
+    },
+    {
+      "title": "\"삼성전자 아니었네\"…돌아온 외국인, '이 종목' 쓸어 담았다",
+      "url": "https://www.hankyung.com/article/2026061681966",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목",
+        "삼성전자 아니었네"
+      ],
+      "hash": "3f74f5ed5698"
+    },
+    {
+      "title": "\"노인만 부유해진다\"…'예금 금리 400배 폭등'에 청년들 비명",
+      "url": "https://www.hankyung.com/article/202606171552i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "노인만 부유해진다",
+        "예금 금리 400배 폭등"
+      ],
+      "hash": "875b06726146"
+    },
+    {
+      "title": "\"300만원 간다\" 파격 전망…외국인 1.3조 쓸어 담았다",
+      "url": "https://www.hankyung.com/article/2026061708416",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "300만원 간다"
+      ],
+      "hash": "39648bebff0f"
+    },
+    {
       "title": "\"효성티앤씨, 스판덱스 가격 약세에 경쟁사도 회복 조짐…목표가↓\"-NH",
       "url": "https://www.hankyung.com/article/2026061833086",
       "summary": "NH투자증권은 18일 효성티앤씨에 대해 하반기 스판덱스 가격 하락이 예상된다며 목표주가를 기존 73만원에서 54만원으로 내렸다. 다만 중장기적인 영업이익 개선 흐름은 지속될 전망이라며 투자의견은 ‘매수’를 유지했다.최영광 NH투자증권 연구원은 &l...",
@@ -372,88 +515,6 @@
         "400만원 갈까"
       ],
       "hash": "39dc3ddd5a26"
-    },
-    {
-      "title": "\"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네",
-      "url": "https://www.hankyung.com/article/2026061708866",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "홈플러스 있던 자리였는데"
-      ],
-      "hash": "0b61901590b3"
-    },
-    {
-      "title": "'월급 500만원' 직장인 10만명, 7월말 통장에 60만원 꽂힌다",
-      "url": "https://www.hankyung.com/article/2026061692177",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "월급 500만원"
-      ],
-      "hash": "8d729f038fc1"
-    },
-    {
-      "title": "\"삼성전자 아니었네\"…돌아온 외국인, '이 종목' 쓸어 담았다",
-      "url": "https://www.hankyung.com/article/2026061681966",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "삼성전자 아니었네"
-      ],
-      "hash": "3f74f5ed5698"
-    },
-    {
-      "title": "\"300만원 간다\" 파격 전망…외국인 1.3조 쓸어 담았다",
-      "url": "https://www.hankyung.com/article/2026061708416",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "300만원 간다"
-      ],
-      "hash": "39648bebff0f"
-    },
-    {
-      "title": "\"노인만 부유해진다\"…'예금 금리 400배 폭등'에 청년들 비명",
-      "url": "https://www.hankyung.com/article/202606171552i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "노인만 부유해진다",
-        "예금 금리 400배 폭등"
-      ],
-      "hash": "875b06726146"
     },
     {
       "title": "\"3개월만에 260% 급등\"…코스닥 투자 지형도 바꾸는 '이것'",
@@ -1030,74 +1091,6 @@
         "종전합의에도 더 올랐네"
       ],
       "hash": "d96fb65929a3"
-    },
-    {
-      "title": "호르무즈 정상화까지 수개월…\"유가 단기 급락 없다\" [분석+]",
-      "url": "https://www.hankyung.com/article/2026061602776",
-      "summary": "미국과 이란의 종전 합의에도 유가가 단기간 가파르게 하락하기는 쉽지 않을 것이라는 전망이 나온다. 후속 협상이 기다리고 있는 데다 산유국들의 생산시설 정상화까지 수개월의 시간이 소요되기 때문이다.심수빈 키움증권 연구원은 16일 \"미-이란 종전 협상에 따라 향후 원유시장...",
-      "datetime_raw": "2026.06.16 22:00",
-      "datetime": "2026-06-16T22:00:00+09:00",
-      "dt": "2026-06-16 22:00",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "유가 단기 급락 없다",
-        "호르무즈 정상화까지 수개월"
-      ],
-      "hash": "f09af6e3b7fe"
-    },
-    {
-      "title": "AI 시대 가장 주목할 반도체 부품은 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026061601061",
-      "summary": "AI 시대 가장 주목할 반도체 부품은한경 프리미엄9이 국내 스타 애널리스트에게 주요 업종의 하반기 시장 전망을 듣는 ‘프리미엄9 투자스쿨’을 연재한다. 그 일곱 번째 순서로 양승수 메리츠증권 연구원이 전기전자·정보기술(IT)...",
-      "datetime_raw": "2026.06.16 18:01",
-      "datetime": "2026-06-16T18:01:00+09:00",
-      "dt": "2026-06-16 18:01",
-      "brokers": [
-        "메리츠"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "19c25a57c363"
-    },
-    {
-      "title": "우리은행, 40억원 규모 금융사고 발생…\"허위 서류 분양 사기\"",
-      "url": "https://www.hankyung.com/article/2026061602066",
-      "summary": "우리은행은 16일 외부인의 허위 서류 제출에 따른 금융사고가 발생했다고 공시했다.사고 금액은 40억800만원이다. 사고 발생 기간은 지난 2024년 8월 19일부터 8월 30일이다.해당 사고는 수사기관의 자료제출 요구 과정에서 발견됐다. 현재는 우리은행 자체 조사와 수...",
-      "datetime_raw": "2026.06.16 17:58",
-      "datetime": "2026-06-16T17:58:00+09:00",
-      "dt": "2026-06-16 17:58",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "우리은행",
-        "허위 서류 분양 사기"
-      ],
-      "hash": "77cef25d2875"
-    },
-    {
-      "title": "'K일론 머스크' 김승연 회장 해냈다…한화에어로, KAI 지분 9.04% 확보",
-      "url": "https://www.hankyung.com/article/2026061600936",
-      "summary": "한화그룹이 한국항공우주산업(KAI) 지분을 9.04%까지 확대하며 수출입은행(26.41%)에 이어 2대 주주 자리에 올랐다. 지금까지 KAI 지분 매입에 5000억 원을 투입한 한화그룹은 연말까지 추가로 5000억 원을 투입해 지분율을 12%까지 끌어올린다는 계획이다....",
-      "datetime_raw": "2026.06.16 17:35",
-      "datetime": "2026-06-16T17:35:00+09:00",
-      "dt": "2026-06-16 17:35",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "K일론 머스크"
-      ],
-      "hash": "f6ce2363d132"
     }
   ],
   "consensus_signals": []
