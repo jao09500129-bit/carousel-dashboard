@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-18T11:01:00.146469+09:00",
+  "collected_at": "2026-06-18T13:01:01.092979+09:00",
   "date": "2026-06-18",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -44,6 +44,70 @@
     ]
   },
   "items": [
+    {
+      "title": "코스닥, 장중 1000선 밑으로",
+      "url": "https://www.hankyung.com/article/2026061842526",
+      "summary": "[속보] 코스닥, 장중 1000선 밑으로이수 한경닷컴 기자 2su@hankyung.com",
+      "datetime_raw": "2026.06.18 12:58",
+      "datetime": "2026-06-18T12:58:00+09:00",
+      "dt": "2026-06-18 12:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥"
+      ],
+      "hash": "80580d9cb019"
+    },
+    {
+      "title": "코스피, 사상 첫 장중 9000선 돌파",
+      "url": "https://www.hankyung.com/article/2026061842456",
+      "summary": "[속보] 코스피, 사상 첫 장중 9000선 돌파이수 한경닷컴 기자 2su@hankyung.com",
+      "datetime_raw": "2026.06.18 12:55",
+      "datetime": "2026-06-18T12:55:00+09:00",
+      "dt": "2026-06-18 12:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "a3a04777c799"
+    },
+    {
+      "title": "'괴리율 폭등' 단일종목 레버리지…금감원, 소비자경보 발령",
+      "url": "https://www.hankyung.com/article/2026061835576",
+      "summary": "국내 증시 변동성이 확대돼 단기간 가격이 급등락한 단일 종목 레버리지·인버스 상품에 대해 금융감독원이 소비자 경보를 발령했다.금감원은 18일 \"인공지능(AI) 테마·반도체 업황 기대 등으로 기초자산인 삼성전자와 SK하이닉스의 가격 변동성이 확대...",
+      "datetime_raw": "2026.06.18 12:00",
+      "datetime": "2026-06-18T12:00:00+09:00",
+      "dt": "2026-06-18 12:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "괴리율 폭등"
+      ],
+      "hash": "a55e361bb227"
+    },
+    {
+      "title": "와이즈버즈, 미국 소비자 대상 의약품 광고 전담팀 신설",
+      "url": "https://www.hankyung.com/article/2026061840086",
+      "summary": "와이즈버즈는 미국 소비자를 대상으로 한 의약품 광고를 전담하는 DTC 광고 팀을 신설했다고 18일 밝혔다.이 팀은 국내 제약바이오·헬스케어 기업의 미국 광고 진출을 지원하기 위한 조직이다.DTC 광고는 제약바이오·헬스케어 기업이 일반 소비자에게...",
+      "datetime_raw": "2026.06.18 11:00",
+      "datetime": "2026-06-18T11:00:00+09:00",
+      "dt": "2026-06-18 11:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "와이즈버즈"
+      ],
+      "hash": "31a3c5a14e0c"
+    },
     {
       "title": "제이엘케이 \"28억원 규모 국가 R&D 사업 총괄로 선정돼\"",
       "url": "https://www.hankyung.com/article/2026061839766",
@@ -311,76 +375,6 @@
       "hash": "abad7312d210"
     },
     {
-      "title": "미래에셋증권, 역대 최대 3000억원 자사주 매입·소각한다",
-      "url": "https://www.hankyung.com/article/202606172715i",
-      "summary": "미래에셋증권이 역대 최대 규모인 3000억원대 자사주 매입·소각에 나선다.미래에셋증권은 17일 이사회를 열어 이같은 안건을 결의했다고 공시했다. 이번 매입 규모는 기존 최대치인 1030억원의 3배에 이른다. 구체적으로 취득 대상은 보통주 2000억원, 1우선주(미래에셋증권주) 100억원, 2우선주(미래에셋증권2우B) 900억원...",
-      "datetime_raw": "2026.06.17 18:43",
-      "datetime": "2026-06-17T18:43:00+09:00",
-      "dt": "2026-06-17 18:43",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "미래에셋증권"
-      ],
-      "hash": "114edffc36dc"
-    },
-    {
-      "title": "미래에셋증권, 3000억 규모 자사주 취득…역대 최대 규모",
-      "url": "https://www.hankyung.com/article/2026061727326",
-      "summary": "미래에셋증권은 17일 이사회를 열고 3000억원 규모의 자사주를 취득하기로 결의했다고 밝혔다. 이는 역대 최대 규모다.취득 대상은 보통주 2000억원, 1우선주 100억원, 2우선주 900억원 등이다. 특히 1우선주를 취득 대상에 포함한 것은 이번이 처음이다....",
-      "datetime_raw": "2026.06.17 18:10",
-      "datetime": "2026-06-17T18:10:00+09:00",
-      "dt": "2026-06-17 18:10",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "미래에셋증권"
-      ],
-      "hash": "86c8250fcd95"
-    },
-    {
-      "title": "2차전지 이젠 '에너지 안보 테마주' [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026061726741",
-      "summary": "2차전지 이젠 '에너지 안보 테마주'한경 프리미엄9이 국내 스타 애널리스트에게 주요 업종의 하반기 시장 전망을 듣는 ‘프리미엄9 투자스쿨’을 연재한다. 그 여덟 번째 순서로 김현수 하나증권 연구원이 2차전지의 하반기 전망을...",
-      "datetime_raw": "2026.06.17 18:06",
-      "datetime": "2026-06-17T18:06:00+09:00",
-      "dt": "2026-06-17 18:06",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "에너지 안보 테마주"
-      ],
-      "hash": "211c8c3ddc52"
-    },
-    {
-      "title": "홍석현 중앙홀딩스 회장, BGF 주식 42억 전량 매도",
-      "url": "https://www.hankyung.com/article/2026061725297",
-      "summary": "홍석현 중앙홀딩스 회장이 편의점 CU의 지주회사 BGF 지분을 약 42억원에 전량 매각했다.17일 금융감독원 전자공시시스템에 따르면 홍 회장은 지난 9~15일까지 다섯 차례에 걸쳐 기존에 가지고 있던 BGF 지분 102만1212주를 전량 매도했다.처분 가격은 3995~...",
-      "datetime_raw": "2026.06.17 17:38",
-      "datetime": "2026-06-17T17:38:00+09:00",
-      "dt": "2026-06-17 17:38",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "홍석현 중앙홀딩스 회장"
-      ],
-      "hash": "63e35d361632"
-    },
-    {
       "title": "\"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네",
       "url": "https://www.hankyung.com/article/2026061708866",
       "summary": "",
@@ -461,6 +455,76 @@
         "예금 금리 400배 폭등"
       ],
       "hash": "875b06726146"
+    },
+    {
+      "title": "미래에셋증권, 역대 최대 3000억원 자사주 매입·소각한다",
+      "url": "https://www.hankyung.com/article/202606172715i",
+      "summary": "미래에셋증권이 역대 최대 규모인 3000억원대 자사주 매입·소각에 나선다.미래에셋증권은 17일 이사회를 열어 이같은 안건을 결의했다고 공시했다. 이번 매입 규모는 기존 최대치인 1030억원의 3배에 이른다. 구체적으로 취득 대상은 보통주 2000억원, 1우선주(미래에셋증권주) 100억원, 2우선주(미래에셋증권2우B) 900억원...",
+      "datetime_raw": "2026.06.17 18:43",
+      "datetime": "2026-06-17T18:43:00+09:00",
+      "dt": "2026-06-17 18:43",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미래에셋증권"
+      ],
+      "hash": "114edffc36dc"
+    },
+    {
+      "title": "미래에셋증권, 3000억 규모 자사주 취득…역대 최대 규모",
+      "url": "https://www.hankyung.com/article/2026061727326",
+      "summary": "미래에셋증권은 17일 이사회를 열고 3000억원 규모의 자사주를 취득하기로 결의했다고 밝혔다. 이는 역대 최대 규모다.취득 대상은 보통주 2000억원, 1우선주 100억원, 2우선주 900억원 등이다. 특히 1우선주를 취득 대상에 포함한 것은 이번이 처음이다....",
+      "datetime_raw": "2026.06.17 18:10",
+      "datetime": "2026-06-17T18:10:00+09:00",
+      "dt": "2026-06-17 18:10",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미래에셋증권"
+      ],
+      "hash": "86c8250fcd95"
+    },
+    {
+      "title": "2차전지 이젠 '에너지 안보 테마주' [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026061726741",
+      "summary": "2차전지 이젠 '에너지 안보 테마주'한경 프리미엄9이 국내 스타 애널리스트에게 주요 업종의 하반기 시장 전망을 듣는 ‘프리미엄9 투자스쿨’을 연재한다. 그 여덟 번째 순서로 김현수 하나증권 연구원이 2차전지의 하반기 전망을...",
+      "datetime_raw": "2026.06.17 18:06",
+      "datetime": "2026-06-17T18:06:00+09:00",
+      "dt": "2026-06-17 18:06",
+      "brokers": [
+        "하나"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "에너지 안보 테마주"
+      ],
+      "hash": "211c8c3ddc52"
+    },
+    {
+      "title": "홍석현 중앙홀딩스 회장, BGF 주식 42억 전량 매도",
+      "url": "https://www.hankyung.com/article/2026061725297",
+      "summary": "홍석현 중앙홀딩스 회장이 편의점 CU의 지주회사 BGF 지분을 약 42억원에 전량 매각했다.17일 금융감독원 전자공시시스템에 따르면 홍 회장은 지난 9~15일까지 다섯 차례에 걸쳐 기존에 가지고 있던 BGF 지분 102만1212주를 전량 매도했다.처분 가격은 3995~...",
+      "datetime_raw": "2026.06.17 17:38",
+      "datetime": "2026-06-17T17:38:00+09:00",
+      "dt": "2026-06-17 17:38",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "홍석현 중앙홀딩스 회장"
+      ],
+      "hash": "63e35d361632"
     },
     {
       "title": "미-이란전 발발후 반토막난 한국전력, 종전 소식에 주가 반등",
@@ -1033,74 +1097,6 @@
         "개미는 팔았는데"
       ],
       "hash": "2442f8e2b667"
-    },
-    {
-      "title": "\"5일만에 주가 25%↑\"…움츠렸던 조선주, 다시 '뱃고동'",
-      "url": "https://www.hankyung.com/article/202606169532i",
-      "summary": "지난달 크게 약세였던 조선주(株)가 가스선 중심의 업황 호조와 선가 상승, 연이은 수주 소식에 힘입어 기지개를 켜고 있다. 증권가에선 다음달 말부터 예정된 2분기 업체별 실적발표와 맞물려 주가 상승세가 계속될 것이라는 전망이 나온다. 5월 급락했던 조선주,&n...",
-      "datetime_raw": "2026.06.16 16:11",
-      "datetime": "2026-06-16T16:11:00+09:00",
-      "dt": "2026-06-16 16:11",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "뱃고동",
-        "5일만에 주가 25%↑"
-      ],
-      "hash": "3c76deacb8de"
-    },
-    {
-      "title": "\"지금 사도 2배 번다\"…'259조 잭팟' SK하닉 개미들 '술렁'",
-      "url": "https://www.hankyung.com/article/202606169588i",
-      "summary": "인공지능(AI) 반도체 슈퍼 사이클이 이어지면서 SK하이닉스의 실적 추정치가 계속해서 상향향되고 있다. 이에 따라 SK하이닉스 주가가 현재의 2배 수준인 500만원까지 치솟을 수 있다는 파격적인 관측도 나온다. 16일 인공지능(AI) 기반 투자정보 서비스 에픽...",
-      "datetime_raw": "2026.06.16 15:55",
-      "datetime": "2026-06-16T15:55:00+09:00",
-      "dt": "2026-06-16 15:55",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "술렁",
-        "259조 잭팟",
-        "지금 사도 2배 번다"
-      ],
-      "hash": "2fe10f41d7c1"
-    },
-    {
-      "title": "코스피, 종전 합의·유가 하락에 8700선 회복…금융주 '신고가'",
-      "url": "https://www.hankyung.com/article/2026061697106",
-      "summary": "코스피지수가 미국-이란 종전 합의 소식과 국제유가 하락 영향에 16일 8700선을 회복했다.이날 코스피지수는 전 거래일 대비 180.62포인트(2.11%) 오른 8726..6에 장을 마쳤다. 이날 지수는 미-이란의 종전 합의에 투자심리가 자극을 받으며 상승 출발했으나 ...",
-      "datetime_raw": "2026.06.16 15:45",
-      "datetime": "2026-06-16T15:45:00+09:00",
-      "dt": "2026-06-16 15:45",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신고가",
-        "코스피"
-      ],
-      "hash": "82e3dbb92902"
-    },
-    {
-      "title": "골든스톤자산운용 등 3개사, 금투협 정회원 승인",
-      "url": "https://www.hankyung.com/article/2026061695196",
-      "summary": "금융투자협회는 16일 이사회를 열고 골든스톤자산운용, 릿지자산운용, 앤도버자산운용 등 3개 금융투자회사의 정회원 가입을 승인했다고 밝혔다.금투협 정회원은 총회 출석 권한과 의결권을 보유하며, 각종 회의체에 참여해 자본시장과 금융투자업계의 법령·제도 개선 및...",
-      "datetime_raw": "2026.06.16 14:55",
-      "datetime": "2026-06-16T14:55:00+09:00",
-      "dt": "2026-06-16 14:55",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "골든스톤자산운용 등 3개사"
-      ],
-      "hash": "292d480fb088"
     }
   ],
   "consensus_signals": []
