@@ -1,0 +1,1092 @@
+{
+  "collected_at": "2026-06-18T09:30:55.346699+09:00",
+  "date": "2026-06-18",
+  "source": "hankyung_koreamarket_news",
+  "pages": [
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "total_items": 63,
+  "stats": {
+    "with_broker_mention": 10,
+    "target_price_up": 3,
+    "target_price_down": 1,
+    "top_brokers": [
+      [
+        "하나",
+        2
+      ],
+      [
+        "미래에셋",
+        2
+      ],
+      [
+        "키움",
+        2
+      ],
+      [
+        "삼성",
+        1
+      ],
+      [
+        "NH",
+        1
+      ],
+      [
+        "한국투자",
+        1
+      ],
+      [
+        "메리츠",
+        1
+      ]
+    ]
+  },
+  "items": [
+    {
+      "title": "코스피, 장중 사상 최고치 경신…8960선",
+      "url": "https://www.hankyung.com/article/2026061834236",
+      "summary": "[속보] 코스피, 장중 사상 최고치 경신…8960선이수 한경닷컴 기자 2su@hankyung.com",
+      "datetime_raw": "2026.06.18 09:07",
+      "datetime": "2026-06-18T09:07:00+09:00",
+      "dt": "2026-06-18 09:07",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "9c070d6e5217"
+    },
+    {
+      "title": "전쟁 끝나자 3일 만에 급등…'이것' 담은 개미들 잭팟 [분석+]",
+      "url": "https://www.hankyung.com/article/2026061833326",
+      "summary": "미국과 이란 간 종전 협상이 타결된 후 원유 관련 상장지수증권(ETN) 투자자 간 희비가 엇갈렸다. 원유 공급이 늘어날 것으로 예상되며 국제 유가가 급락하자 가격 하락에 베팅하는 ETN이 사흘 만에 20% 넘게 뛰었다. 다만 증권가에서는 국제 유가가 전쟁 이전 수준으로...",
+      "datetime_raw": "2026.06.18 08:36",
+      "datetime": "2026-06-18T08:36:00+09:00",
+      "dt": "2026-06-18 08:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이것",
+        "전쟁 끝나자 3일 만에 급등"
+      ],
+      "hash": "7022d43f067a"
+    },
+    {
+      "title": "\"와이지엔터테인먼트, 하반기 아티스트 활동 기대…빅뱅 월드투어\"-삼성",
+      "url": "https://www.hankyung.com/article/2026061832546",
+      "summary": "삼성증권은 18일 와이지엔터테인먼트에 대해 \"상반기 숨 고르기를 거친 이후 하반기에는 아티스트 라인업 전반의 활동 재개와 확장이 본격화될 전망\"이라고 평가했다. 목표주가는 기존 7만1000원을, 투자의견은 '매수'를 유지했다.특히 빅뱅의 컴백으로 인한 대...",
+      "datetime_raw": "2026.06.18 08:12",
+      "datetime": "2026-06-18T08:12:00+09:00",
+      "dt": "2026-06-18 08:12",
+      "brokers": [
+        "삼성"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "와이지엔터테인먼트"
+      ],
+      "hash": "564f5d99cee0"
+    },
+    {
+      "title": "\"효성티앤씨, 스판덱스 가격 약세에 경쟁사도 회복 조짐…목표가↓\"-NH",
+      "url": "https://www.hankyung.com/article/2026061833086",
+      "summary": "NH투자증권은 18일 효성티앤씨에 대해 하반기 스판덱스 가격 하락이 예상된다며 목표주가를 기존 73만원에서 54만원으로 내렸다. 다만 중장기적인 영업이익 개선 흐름은 지속될 전망이라며 투자의견은 ‘매수’를 유지했다.최영광 NH투자증권 연구원은 &l...",
+      "datetime_raw": "2026.06.18 08:10",
+      "datetime": "2026-06-18T08:10:00+09:00",
+      "dt": "2026-06-18 08:10",
+      "brokers": [
+        "NH"
+      ],
+      "opinion": "매수",
+      "target_action": "down",
+      "target_change_pct": -26.027397260273972,
+      "keywords": [
+        "효성티앤씨"
+      ],
+      "hash": "45a9de8fb7d5"
+    },
+    {
+      "title": "\"삼성전자, 올해 2분기 영업익 92조원 예상…목표가↑\"-하나",
+      "url": "https://www.hankyung.com/article/2026061832906",
+      "summary": "하나증권은 18일 삼성전자에 대해 \"삼성전자의 올해 2분기 매출과 영업이익은 각각 전년 동기 대비 140%, 1850% 증가한 179조원, 92조원에 달할 것\"이라고 분석했다. 목표주가를 기존 43만원에서 48만원으로 상향 조정하고 투자의견 '매수'도 유...",
+      "datetime_raw": "2026.06.18 08:05",
+      "datetime": "2026-06-18T08:05:00+09:00",
+      "dt": "2026-06-18 08:05",
+      "brokers": [
+        "하나"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 11.627906976744185,
+      "keywords": [
+        "삼성전자"
+      ],
+      "hash": "4081ae8556c1"
+    },
+    {
+      "title": "고점 대비 37% 추락한 바이오…반드시 상승할 8가지 이유 [프리미엄9 투자스쿨]",
+      "url": "https://www.hankyung.com/article/202606172412i",
+      "summary": "\"바이오 기업들의 주가가 약 3년 전으로 돌아갔습니다. 코스닥 150 헬스케어 지수도 고점 대비 37.5% 하락했지만 기업들은 충분히 좋은 성과를 보이고 있습니다. 하반기 바이오주가 상승할 수 있는 8가지 트리거(방아쇠)가 대기 중인 만큼 지금이 가장 좋은 매수 기회가...",
+      "datetime_raw": "2026.06.18 07:43",
+      "datetime": "2026-06-18T07:43:00+09:00",
+      "dt": "2026-06-18 07:43",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "고점 대비 37% 추락한 바이오"
+      ],
+      "hash": "414d9ff16c67"
+    },
+    {
+      "title": "'400만원 갈까' SK하이닉스…구조적 상승기인 3가지 이유",
+      "url": "https://www.hankyung.com/article/202606172358i",
+      "summary": "SK하이닉스 ADR 상장 모멘텀과 실적·주가 종합 분석17일 SK하이닉스(000660) 주가는 2,521,000원(+5.84%)으로 마감했다. 시가총액은 1,796.7조원에 달했다.미국 증시 ADR(American Depository Receipt) 상장을...",
+      "datetime_raw": "2026.06.18 07:37",
+      "datetime": "2026-06-18T07:37:00+09:00",
+      "dt": "2026-06-18 07:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "400만원 갈까"
+      ],
+      "hash": "39dc3ddd5a26"
+    },
+    {
+      "title": "\"3개월만에 260% 급등\"…코스닥 투자 지형도 바꾸는 '이것'",
+      "url": "https://www.hankyung.com/article/202606172234i",
+      "summary": "코스닥 시장 투자 지형도가 2차전지와 바이오에서 반도체 소부장(소재·부품·장비)으로 바뀌고 있는 것으로 나타났다. 인공지능(AI) 투자 확대에 따른 삼성전자와 SK하이닉스 등 반도체 업계의 슈퍼 사이클 기대 속에 낙수 효과를 받고 있어서다.&n...",
+      "datetime_raw": "2026.06.18 07:36",
+      "datetime": "2026-06-18T07:36:00+09:00",
+      "dt": "2026-06-18 07:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이것",
+        "3개월만에 260% 급등"
+      ],
+      "hash": "d9b03e8e73cc"
+    },
+    {
+      "title": "'250만닉스' 신기록…외국인이 3.8조 쓸어 담은 이유는? [종목+]",
+      "url": "https://www.hankyung.com/article/2026061723376",
+      "summary": "SK하이닉스 주가가 250만원을 돌파하며 신기록을 썼다. 6월 초 거시경제(매크로) 이슈로 증시가 출렁인 뒤 회복하기 시작한 지난 11일부터 외국인 투자자가 SK하이닉스 주식을 쓸어 담은 결과다. 증권가에서는 미국 주식예탁증서(ADR) 상장에 대한 기대감 때문으로 풀이...",
+      "datetime_raw": "2026.06.18 06:30",
+      "datetime": "2026-06-18T06:30:00+09:00",
+      "dt": "2026-06-18 06:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "250만닉스"
+      ],
+      "hash": "e474d3e8d61e"
+    },
+    {
+      "title": "블랙록, '수익형 ETF' BITA 선보여…첫날 587만불 거래",
+      "url": "https://www.hankyung.com/article/2026061725136",
+      "summary": "세계 최대 규모 자산운용사 블랙록이 새로운 비트코인(BTC) 상장지수펀드(ETF) 'BITA(블랙록 비트코인 인컴 ETF)'를 선보였다고 블루밍비트가 보도했다.블랙록 BITA는 전날 나스닥 시장에 상장돼 11만1174주가 거래됐으며 거래대금은 약 587만...",
+      "datetime_raw": "2026.06.17 23:50",
+      "datetime": "2026-06-17T23:50:00+09:00",
+      "dt": "2026-06-17 23:50",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "블랙록",
+        "수익형 ETF"
+      ],
+      "hash": "abad7312d210"
+    },
+    {
+      "title": "미래에셋증권, 역대 최대 3000억원 자사주 매입·소각한다",
+      "url": "https://www.hankyung.com/article/202606172715i",
+      "summary": "미래에셋증권이 역대 최대 규모인 3000억원대 자사주 매입·소각에 나선다.미래에셋증권은 17일 이사회를 열어 이같은 안건을 결의했다고 공시했다. 이번 매입 규모는 기존 최대치인 1030억원의 3배에 이른다. 구체적으로 취득 대상은 보통주 2000억원, 1우선주(미래에셋증권주) 100억원, 2우선주(미래에셋증권2우B) 900억원...",
+      "datetime_raw": "2026.06.17 18:43",
+      "datetime": "2026-06-17T18:43:00+09:00",
+      "dt": "2026-06-17 18:43",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미래에셋증권"
+      ],
+      "hash": "114edffc36dc"
+    },
+    {
+      "title": "미래에셋증권, 3000억 규모 자사주 취득…역대 최대 규모",
+      "url": "https://www.hankyung.com/article/2026061727326",
+      "summary": "미래에셋증권은 17일 이사회를 열고 3000억원 규모의 자사주를 취득하기로 결의했다고 밝혔다. 이는 역대 최대 규모다.취득 대상은 보통주 2000억원, 1우선주 100억원, 2우선주 900억원 등이다. 특히 1우선주를 취득 대상에 포함한 것은 이번이 처음이다....",
+      "datetime_raw": "2026.06.17 18:10",
+      "datetime": "2026-06-17T18:10:00+09:00",
+      "dt": "2026-06-17 18:10",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미래에셋증권"
+      ],
+      "hash": "86c8250fcd95"
+    },
+    {
+      "title": "2차전지 이젠 '에너지 안보 테마주' [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026061726741",
+      "summary": "2차전지 이젠 '에너지 안보 테마주'한경 프리미엄9이 국내 스타 애널리스트에게 주요 업종의 하반기 시장 전망을 듣는 ‘프리미엄9 투자스쿨’을 연재한다. 그 여덟 번째 순서로 김현수 하나증권 연구원이 2차전지의 하반기 전망을...",
+      "datetime_raw": "2026.06.17 18:06",
+      "datetime": "2026-06-17T18:06:00+09:00",
+      "dt": "2026-06-17 18:06",
+      "brokers": [
+        "하나"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "에너지 안보 테마주"
+      ],
+      "hash": "211c8c3ddc52"
+    },
+    {
+      "title": "배달 앱·비만약에 밀린 피자헛…얌브랜드, 27억달러에 손 뗀다",
+      "url": "https://www.hankyung.com/article/2026061725791",
+      "summary": "글로벌 외식 기업 얌브랜드가 미국 대표 피자 브랜드 피자헛을 27억달러(약 4조원)에 매각한다. 배달 앱과 비만치료제 등장으로 사업 부진이 수년간 이어진 영향이다.16일(현지시간) CNBC에 따르면 얌브랜드는 피자헛을 사모펀드 롱레인지캐피털에 15억달러에 매각한다. 피자헛 중국 매장은 산하 중국 기업인 얌차이나에 12억달러를 받고 넘기기로 했다.1958년 ...",
+      "datetime_raw": "2026.06.17 17:40",
+      "datetime": "2026-06-17T17:40:00+09:00",
+      "dt": "2026-06-17 17:40",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배달 앱"
+      ],
+      "hash": "12bd1aff2260"
+    },
+    {
+      "title": "홍석현 중앙홀딩스 회장, BGF 주식 42억 전량 매도",
+      "url": "https://www.hankyung.com/article/2026061725297",
+      "summary": "홍석현 중앙홀딩스 회장이 편의점 CU의 지주회사 BGF 지분을 약 42억원에 전량 매각했다.17일 금융감독원 전자공시시스템에 따르면 홍 회장은 지난 9~15일까지 다섯 차례에 걸쳐 기존에 가지고 있던 BGF 지분 102만1212주를 전량 매도했다.처분 가격은 3995~...",
+      "datetime_raw": "2026.06.17 17:38",
+      "datetime": "2026-06-17T17:38:00+09:00",
+      "dt": "2026-06-17 17:38",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "홍석현 중앙홀딩스 회장"
+      ],
+      "hash": "63e35d361632"
+    },
+    {
+      "title": "반도체·배터리 '쌍끌이'…불기둥 뿜은 후성",
+      "url": "https://www.hankyung.com/article/2026061725501",
+      "summary": "국내 불소화학 기업 후성이 반도체와 2차전지 업황 회복 기대를 업고 유가증권시장 최고 상승주로 떠올랐다. 반도체 특수가스와 2차전지 전해질 소재를 주력으로 생산하는 사업 구조상 두 산업의 업황 개선 수혜를 동시에 누릴 것이란 기대가 커져서다.17일 한국거래소에 따르면 ...",
+      "datetime_raw": "2026.06.17 17:31",
+      "datetime": "2026-06-17T17:31:00+09:00",
+      "dt": "2026-06-17 17:31",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "쌍끌이",
+        "반도체"
+      ],
+      "hash": "0289c1c55a46"
+    },
+    {
+      "title": "미-이란전 발발후 반토막난 한국전력, 종전 소식에 주가 반등",
+      "url": "https://www.hankyung.com/article/202606171949i",
+      "summary": "중동 전쟁 종전 소식이 전해지면서 한국전력 주가가 반등하고 있다. 지정학적 리스크가 완화되면서 수익성 개선 기대가 커진 영향이다.17일 유가증권시장에서 한국전력은 전일보다 1.76% 오른 4만500원에 거래를 마쳤다. 한국전력은 미국·이란 전쟁 발발 이후 ...",
+      "datetime_raw": "2026.06.17 17:27",
+      "datetime": "2026-06-17T17:27:00+09:00",
+      "dt": "2026-06-17 17:27",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "ea50da574f74"
+    },
+    {
+      "title": "SK하이닉스·SK스퀘어 역대 최고가 질주…코스피 8800 뚫었다",
+      "url": "https://www.hankyung.com/article/202606171976i",
+      "summary": "SK하이닉스와 모회사 SK스퀘어가 17일 나란히 사상 최고가를 기록했다. 반도체 슈퍼 사이클에 힘입어 실적이 고공행진하자 최대 100조원에 달하는 주주환원에 나설 것이란 기대감이 커진 영향이다. 이날 SK하이닉스는 전일 대비 5.84% 상승한 252만1000원...",
+      "datetime_raw": "2026.06.17 16:33",
+      "datetime": "2026-06-17T16:33:00+09:00",
+      "dt": "2026-06-17 16:33",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "SK하이닉스"
+      ],
+      "hash": "b2ff3009114a"
+    },
+    {
+      "title": "코스피 '사상 최고치'…1.58% 상승한 8864.24 마감",
+      "url": "https://www.hankyung.com/article/2026061720886",
+      "summary": "코스피가 사상 최고가를 갈아치웠다. SK하이닉스가 250만원선을 돌파했다.코스닥은 외국인 매수세에 힘입어 1%대 상승세를 나타냈다.17일 코스피는 전일 대비 137.64포인트(1.58%) 오른 8864.24에 거래를 마쳤다.이날 지수는 약세로 출발했지만, 차츰 낙폭을 ...",
+      "datetime_raw": "2026.06.17 15:33",
+      "datetime": "2026-06-17T15:33:00+09:00",
+      "dt": "2026-06-17 15:33",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "사상 최고치"
+      ],
+      "hash": "dbbca5c36241"
+    },
+    {
+      "title": "\"뉴트럴, 시장중립 전략 활용 수익형 스테이블코인 모델\"",
+      "url": "https://www.hankyung.com/article/2026061716816",
+      "summary": "스테이블코인 프로토콜 뉴트럴이 시장중립 전략을 활용한 수익형 스테이블코인 모델을 구축했다고 블루밍비트가 17일 보도했다.뉴트럴은 합성 달러 스테이블코인 ...",
+      "datetime_raw": "2026.06.17 15:14",
+      "datetime": "2026-06-17T15:14:00+09:00",
+      "dt": "2026-06-17 15:14",
+      "brokers": [],
+      "opinion": "중립",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "뉴트럴"
+      ],
+      "hash": "47bf3fa46095"
+    },
+    {
+      "title": "\"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네",
+      "url": "https://www.hankyung.com/article/2026061708866",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "홈플러스 있던 자리였는데"
+      ],
+      "hash": "0b61901590b3"
+    },
+    {
+      "title": "'월급 500만원' 직장인 10만명, 7월말 통장에 60만원 꽂힌다",
+      "url": "https://www.hankyung.com/article/2026061692177",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "월급 500만원"
+      ],
+      "hash": "8d729f038fc1"
+    },
+    {
+      "title": "\"삼성전자 아니었네\"…돌아온 외국인, '이 종목' 쓸어 담았다",
+      "url": "https://www.hankyung.com/article/2026061681966",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목",
+        "삼성전자 아니었네"
+      ],
+      "hash": "3f74f5ed5698"
+    },
+    {
+      "title": "\"200만원→300만원 간다\" 파격 전망…외국인 1.3조 쓸어 담았다",
+      "url": "https://www.hankyung.com/article/2026061708416",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": 50.0,
+      "keywords": [
+        "200만원→300만원 간다"
+      ],
+      "hash": "39648bebff0f"
+    },
+    {
+      "title": "\"주식은 결국 세상읽기\"…16년 기다려 83배 만든 투자 장인",
+      "url": "https://www.hankyung.com/article/202606106884i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "주식은 결국 세상읽기"
+      ],
+      "hash": "2cf4d4677a73"
+    },
+    {
+      "title": "앱 경계 허문다…신한금융, 은행·증권·카드 통합 '슈퍼SOL' 출격",
+      "url": "https://www.hankyung.com/article/2026061720546",
+      "summary": "신한금융이 은행·증권·카드·보험 서비스를 하나의 앱에서 모두 이용할 수 있는 '슈퍼앱'을 내놨다.신한금융은 17일 서울 중구 본사에서 은행·증권·카드·라이프(보험) 고객과 그룹 C...",
+      "datetime_raw": "2026.06.17 15:14",
+      "datetime": "2026-06-17T15:14:00+09:00",
+      "dt": "2026-06-17 15:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "슈퍼SOL",
+        "앱 경계 허문다"
+      ],
+      "hash": "f2863487a7b1"
+    },
+    {
+      "title": "\"K팝 저작권에 투자\"…인젝티브·뮤직카우, RWA 토큰화 시동",
+      "url": "https://www.hankyung.com/article/2026061719125",
+      "summary": "글로벌 블록체인 기업 인젝티브와 음악 투자 플랫폼 뮤직카우가 본격적으로 K팝 음악 저작권에 대한 RWA 토큰화를 시작한다. 인젝티브는 17일 안효섭과 칼리드가 협업한 싱글, 'Something Special'을 인젝티브에서 팬들이 소유할 수 있는 최초의 음악 IP로 토...",
+      "datetime_raw": "2026.06.17 14:35",
+      "datetime": "2026-06-17T14:35:00+09:00",
+      "dt": "2026-06-17 14:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "K팝 저작권에 투자"
+      ],
+      "hash": "f7af01f409c1"
+    },
+    {
+      "title": "종전 훈풍에 채권시장 심리 개선…7월 BMSI 85.1",
+      "url": "https://www.hankyung.com/article/2026061717356",
+      "summary": "미국과 이란 간 종전 합의에 따른 지정학적 리스크 완화 기대에 7월 채권시장 심리는 전월 대비 호전된 것으로 나타났다.금융투자협회는 지난 8~11일 채권 보유 및 운용 관련 종사자 100명을 대상으로 설문한 결과를 담은 '2026년 7월 채권시장 지표(BMSI)...",
+      "datetime_raw": "2026.06.17 14:33",
+      "datetime": "2026-06-17T14:33:00+09:00",
+      "dt": "2026-06-17 14:33",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "종전 훈풍에 채권시장 심리 개선"
+      ],
+      "hash": "9fa2728279e2"
+    },
+    {
+      "title": "코스콤, GTN과 글로벌 주문 허브 구축사업 추진",
+      "url": "https://www.hankyung.com/article/2026061718586",
+      "summary": "코스콤이 지난 15일 서울 여의도 본사에서 글로벌 금융 네트워크 기업 GTN과 ‘글로벌 주문 허브 구축’ 사업 계약을 체결했다고 17일 밝혔다.이 사업은 국내 증권사의 해외 주문 서비스 인프라를 고도화하고 글로벌 시장 접근성을 높이는 사업이다.계약...",
+      "datetime_raw": "2026.06.17 14:21",
+      "datetime": "2026-06-17T14:21:00+09:00",
+      "dt": "2026-06-17 14:21",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스콤"
+      ],
+      "hash": "370e3c91fe54"
+    },
+    {
+      "title": "웰덱스 \"2030년까지 2600억 투자하고 배당성향 10%로\" 밸류업 공시",
+      "url": "https://www.hankyung.com/article/2026061718476",
+      "summary": "월덱스는 2030년까지 총 2600억원을 투자하고 3개년 평균 배당성향을 10%로 높이는 내용을 담은 기업가치 제고 계획을 17일 공시했다.우선 반도체 소재 사업 시설 투자 및 기술 경쟁력 강화에 1900억원, 차세대 소재 연구개발(R&D)에 200억원, 로봇&midd...",
+      "datetime_raw": "2026.06.17 14:15",
+      "datetime": "2026-06-17T14:15:00+09:00",
+      "dt": "2026-06-17 14:15",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2030년까지 2600억 투자하고 배당성향 10%로"
+      ],
+      "hash": "84f80baf9ddc"
+    },
+    {
+      "title": "작년 기관전용 사모펀드 약정액 167조 '역대 최대'…투자도 12% 증가",
+      "url": "https://www.hankyung.com/article/2026061710766",
+      "summary": "지난해 국내 기관전용 사모펀드 약정액이 170조원에 육박하며 역대 최대치를 기록한 가운데 투자 집행 규모도 전년보다 3조원 이상 늘어난 것으로 나타났다. 17일 금융감독원이 발표한 '2025년 기관전용 사모펀드 운용 현황 및 시사점' 자료에 따르...",
+      "datetime_raw": "2026.06.17 12:00",
+      "datetime": "2026-06-17T12:00:00+09:00",
+      "dt": "2026-06-17 12:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "역대 최대"
+      ],
+      "hash": "ed6ac16ca288"
+    },
+    {
+      "title": "아트큐브 2R2, 조수미 40주년 특별전 7월 개최",
+      "url": "https://www.hankyung.com/article/2026061710346",
+      "summary": "아트큐브 2R2가 오는 7월 소프라노 조수미의 데뷔 40주년을 기념하는 특별전 '美 조수미 40년, 四季의 노래 CONTINUUM'을 개최한다고 블루밍비트가 17일 보도했다.전시는 조수미의 지난 40년간 예술 활동을 봄, 여름, 가을, 겨울 4개 층으로 ...",
+      "datetime_raw": "2026.06.17 10:48",
+      "datetime": "2026-06-17T10:48:00+09:00",
+      "dt": "2026-06-17 10:48",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "아트큐브 2R2"
+      ],
+      "hash": "6f1c64a3189b"
+    },
+    {
+      "title": "한국투자증권, ELW 558종목 신규 상장",
+      "url": "https://www.hankyung.com/article/2026061713586",
+      "summary": "한국투자증권은 주식워런트증권(ELW) 558종목을 신규 상장한다고 17일 밝혔다.이번 상장 종목은 코스피200을 기초자산으로 하는 지수형 ELW 72종목과 삼성전자 SK하이닉스 현대오토에버 LG전자 등을 기초자산으로 하는 종목형 ELW 486종목이다.ELW는 개별 주식...",
+      "datetime_raw": "2026.06.17 10:40",
+      "datetime": "2026-06-17T10:40:00+09:00",
+      "dt": "2026-06-17 10:40",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국투자증권"
+      ],
+      "hash": "478f7c17cd0f"
+    },
+    {
+      "title": "코스피, 개인 매수에 8700선 회복…SK하닉 상승전환",
+      "url": "https://www.hankyung.com/article/2026061713536",
+      "summary": "코스피가 개인의 매수세에 힘입어 8700선을 회복했다. 장 초반 보합권에서 등락하던 SK하이닉스가 상승 쪽으로 방향을 잡은 영향이다.17일 오전 10시30분 현재 코스피는 전일 대비 15.65포인트(0.18%) 내린 8710.95에 거래되고 있다. 장 초반엔 8600대...",
+      "datetime_raw": "2026.06.17 10:38",
+      "datetime": "2026-06-17T10:38:00+09:00",
+      "dt": "2026-06-17 10:38",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "e191412bb4b9"
+    },
+    {
+      "title": "종전에도 역대급 '공포'…증시 뒤흔드는 '괴물'의 정체 [분석+]",
+      "url": "https://www.hankyung.com/article/2026061710726",
+      "summary": "미국·이란 전쟁 종전 협상 타결에도 증권가에선 국내 증시의 변동성이 쉽게 잦아들지 않을 것이라는 전망이 나온다. 최근 상장된 단일종목 레버리지 상장지수펀드(ETF)가 시장 변동성을 키우는 데다 주요국 중앙은행의 통화정책 전환 가능성까지 변수로 남아있어서다....",
+      "datetime_raw": "2026.06.17 10:29",
+      "datetime": "2026-06-17T10:29:00+09:00",
+      "dt": "2026-06-17 10:29",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "공포",
+        "괴물"
+      ],
+      "hash": "939193835500"
+    },
+    {
+      "title": "팬덤(FANDOM), 칼리드·안효섭 신곡 토큰화…팬도 로열티 수익 참여",
+      "url": "https://www.hankyung.com/article/202606171321B",
+      "summary": "글로벌 음악 프랜차이즈 팬덤(FANDOM)이 가수 칼리드(Khalid)와 배우 겸 아티스트 안효섭이 참여한 신곡 'Something Special'을 블록체인 기반으로 토큰화한다고 17일 밝혔다.이번 프로젝트는 레이어1 블록체인 인젝티브(Injective)에서 진행되며...",
+      "datetime_raw": "2026.06.17 10:29",
+      "datetime": "2026-06-17T10:29:00+09:00",
+      "dt": "2026-06-17 10:29",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팬덤(FANDOM)"
+      ],
+      "hash": "b99b20bfb438"
+    },
+    {
+      "title": "VIP자산운용, 월덱스 임시주총 이사 보수안 '반대'…의결권 위임 권유",
+      "url": "https://www.hankyung.com/article/2026061709506",
+      "summary": "VIP자산운용은 오는 29일 열리는 월덱스 임시주주총회에 상정된 이사 보수 안건에 반대하며 일반주주를 대상으로 의결권 대리행사 권유에 나선다고 17일 밝혔다.지난 3월 정기주주총회에서 일반주주들의 반대로 부결된 이사 보수한도 안건이 실질적인 수정 없이 두 달 만에 다시...",
+      "datetime_raw": "2026.06.17 10:19",
+      "datetime": "2026-06-17T10:19:00+09:00",
+      "dt": "2026-06-17 10:19",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반대",
+        "VIP자산운용"
+      ],
+      "hash": "8408af1bc594"
+    },
+    {
+      "title": "하이브랩 \"포토샵 파일로 여러 콘텐츠 자동 생성하는 AI 기술 특허 출원\"",
+      "url": "https://www.hankyung.com/article/2026061712176",
+      "summary": "하이브랩이 어도비사의 포토샵으로 생성한 이미지(PSD) 원본 파일을 기반으로 플랫폼별 콘텐츠를 자동 생성하는 인공지능(AI) 기술 특허를 출원했다고 17일 밝혔다.이 기술은 PSD 파일의 레이어 구조를 분석해 텍스트와 이미지 요소를 분리한다. 이후 각 요소의 위치, 크...",
+      "datetime_raw": "2026.06.17 10:06",
+      "datetime": "2026-06-17T10:06:00+09:00",
+      "dt": "2026-06-17 10:06",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "fa1c37677c16"
+    },
+    {
+      "title": "지니언스, 글로벌 보안평기기관 'AV-Comparatives' 인증 획득",
+      "url": "https://www.hankyung.com/article/2026061711416",
+      "summary": "지니언스가 글로벌 보안 평가기관 AV-Comparatives의 ‘2026 EDR 탐지 검증 테스트’ 최종 인증을 획득했다. 최종 인증을 받은 전 세계 9개 솔루션 가운데 국내 기업은 지니언스가 유일하다.이번 테스트는 최신 공격 기법을 반영한 14단...",
+      "datetime_raw": "2026.06.17 09:56",
+      "datetime": "2026-06-17T09:56:00+09:00",
+      "dt": "2026-06-17 09:56",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "지니언스",
+        "AV-Comparatives"
+      ],
+      "hash": "3f9c534414c1"
+    },
+    {
+      "title": "'회생신청' 중앙그룹 익스포저 840억…한양증권 주가 '급락'",
+      "url": "https://www.hankyung.com/article/2026061710356",
+      "summary": "한양증권 주가가 17일 장 초반 급락세다. 기업회생 절차를 신청한 중앙그룹 계열사 관련 익스포저(위험 노출액)가 자기자본 대비 높은 수준이란 신용평가사 분석에 영향을 받는 것으로 풀이된다.이날 오전 9시16분 현재 한양증권은 전 거래일보다 2850원(12.56%) 내린...",
+      "datetime_raw": "2026.06.17 09:33",
+      "datetime": "2026-06-17T09:33:00+09:00",
+      "dt": "2026-06-17 09:33",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급락",
+        "회생신청"
+      ],
+      "hash": "3757b5014c17"
+    },
+    {
+      "title": "강관株, UAE와 호르무즈 우회 송유관 건설 협력 추진에 '급등'",
+      "url": "https://www.hankyung.com/article/2026061710296",
+      "summary": "강관 관련 종목들이 급등하고 있다. 산업통상부가 아랍에미리트연합(UAE)과 호르무즈 해협을 우회하는 송유관 건설 협력을 논의 중이라는 소식이 전해진 영향이다.17일 오전 9시23분 현재 문배철강은 전일 대비 345원(15.54%) 오른 2565원에, 포스코스틸리온은 5...",
+      "datetime_raw": "2026.06.17 09:30",
+      "datetime": "2026-06-17T09:30:00+09:00",
+      "dt": "2026-06-17 09:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "강관株"
+      ],
+      "hash": "fee68f6ca35c"
+    },
+    {
+      "title": "코스피 종가 기준 사상 최고치 경신…'8864포인트 마감'[장 마감 시황]",
+      "url": "https://www.hankyung.com/article/202606171014i",
+      "summary": "코스피 종가 기준 사상 최고치 경신… 반도체 대형주 주도, 8864선 마감 [장 마감 시황]🕘 반도체 강세로 종가 최고치 달성… 코스피·코스닥 동반 상승 마감6월 17일 오후 3시 30분 마감 기준, 한국 증시는 장 초반의 약세를 ...",
+      "datetime_raw": "2026.06.17 09:28",
+      "datetime": "2026-06-17T09:28:00+09:00",
+      "dt": "2026-06-17 09:28",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "8864포인트 마감",
+        "코스피 종가 기준 사상 최고치 경신"
+      ],
+      "hash": "66545440e2fc"
+    },
+    {
+      "title": "외국인·기관 차익실현 매물에…코스피 8600대 중반으로 밀려",
+      "url": "https://www.hankyung.com/article/2026061709756",
+      "summary": "코스피가 약세로 출발했다. 미국·이란 종전으로 지난 3거래일동안 지수가 급등한 데 따른 차익실현 매물이 나오는 것으로 보인다.17일 오전 9시5분 현재 코스피는 전일 대비 66.44포인트(0.76%) 내린 8660.16에 거래되고 있다.외국인과 기관이 각각...",
+      "datetime_raw": "2026.06.17 09:16",
+      "datetime": "2026-06-17T09:16:00+09:00",
+      "dt": "2026-06-17 09:16",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "외국인"
+      ],
+      "hash": "5ab4d92da5c9"
+    },
+    {
+      "title": "\"87조 잭팟 터진다\"…美·이란 종전에 주가 24% 폭등 [종목+]",
+      "url": "https://www.hankyung.com/article/2026061707296",
+      "summary": "건설주 주가가 다시 반등 흐름을 보이고 있다. 미국과 이란 간 종전 협상이 타결되면서 원자재 가격 하락과 중동 재건 수혜 기대감이 매수세를 자극한 것으로 분석된다. 17일 한국거래소에 따르면 KRX 건설지수는 최근 일주일(전날 기준)간 23.92% 상승했다. ...",
+      "datetime_raw": "2026.06.17 08:32",
+      "datetime": "2026-06-17T08:32:00+09:00",
+      "dt": "2026-06-17 08:32",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "87조 잭팟 터진다"
+      ],
+      "hash": "08cc0c83d356"
+    },
+    {
+      "title": "\"삼성전자, 내년 영업익 524조원…테일러 팹 돈 벌어다 줄 것\"-DS",
+      "url": "https://www.hankyung.com/article/2026061707916",
+      "summary": "DS투자증권은 17일 삼성전자에 대해 \"2분기 매출과 영업이익이 각각 전 분기 대비 30%, 59% 증가한 174조원, 91조원에 이를 것\"이라고 내다봤다. 목표주가를 기존 30만원에서 53만원으로 상향 조정하고, 투자의견 '매수'도 유지했다.이 증권사 ...",
+      "datetime_raw": "2026.06.17 08:26",
+      "datetime": "2026-06-17T08:26:00+09:00",
+      "dt": "2026-06-17 08:26",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 76.66666666666667,
+      "keywords": [
+        "삼성전자"
+      ],
+      "hash": "1d1ccea7d762"
+    },
+    {
+      "title": "거침없는 코스피…실적 컨센서스 대폭 상향된 ‘톱10’ 뽑아보니",
+      "url": "https://www.hankyung.com/article/202606169774i",
+      "summary": "시가총액 3,000억원 이상 영업이익 컨센서스 상향 조정 상위 10개 종목 개요16일 기준 에픽AI가 시가총액 3,000억원 이상 상장사 703개를 대상으로 NTM(Next Twelve Months) 영업이익 컨센서스 변동률을 산출한 결과, 상위 종목들이 도출됐다.다수...",
+      "datetime_raw": "2026.06.17 08:00",
+      "datetime": "2026-06-17T08:00:00+09:00",
+      "dt": "2026-06-17 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "톱10",
+        "거침없는 코스피"
+      ],
+      "hash": "729e18bd542e"
+    },
+    {
+      "title": "\"LIG D&A, 獨라인메탈과 협업 통한 유럽 수주 확대 기대…목표가↑\"-키움",
+      "url": "https://www.hankyung.com/article/2026061706606",
+      "summary": "키움증권은 17일 LIG디펜스앤에어로스페이스(LIG D&A)에 대해 라인메탈과의 협력을 통한 유럽에서의 수주 파이프라인 확장이 기대된다며 목표주가를 기존 125만원에서 135만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.LIG D&A는 독일 방산...",
+      "datetime_raw": "2026.06.17 07:58",
+      "datetime": "2026-06-17T07:58:00+09:00",
+      "dt": "2026-06-17 07:58",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 8.0,
+      "keywords": [
+        "LIG D&A"
+      ],
+      "hash": "7783d4b19b80"
+    },
+    {
+      "title": "\"종전합의에도 더 올랐네\"…한화그룹주, 고공행진 한 이유 [종목+]",
+      "url": "https://www.hankyung.com/article/2026061698766",
+      "summary": "한화그룹주가 미국과 이란 간 종전 협상 타결 이후에도 동반 강세를 이어가고 있다. 과거 주가를 끌어올린 지정학적 리스크 완화에도 주요 계열사 주가가 상승폭을 키우면서 방산·조선·태양광을 중심으로 한 그룹의 성장 기대가 재차 부각되고 있다는 분석...",
+      "datetime_raw": "2026.06.17 06:30",
+      "datetime": "2026-06-17T06:30:00+09:00",
+      "dt": "2026-06-17 06:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "종전합의에도 더 올랐네"
+      ],
+      "hash": "d96fb65929a3"
+    },
+    {
+      "title": "호르무즈 정상화까지 수개월…\"유가 단기 급락 없다\" [분석+]",
+      "url": "https://www.hankyung.com/article/2026061602776",
+      "summary": "미국과 이란의 종전 합의에도 유가가 단기간 가파르게 하락하기는 쉽지 않을 것이라는 전망이 나온다. 후속 협상이 기다리고 있는 데다 산유국들의 생산시설 정상화까지 수개월의 시간이 소요되기 때문이다.심수빈 키움증권 연구원은 16일 \"미-이란 종전 협상에 따라 향후 원유시장...",
+      "datetime_raw": "2026.06.16 22:00",
+      "datetime": "2026-06-16T22:00:00+09:00",
+      "dt": "2026-06-16 22:00",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유가 단기 급락 없다",
+        "호르무즈 정상화까지 수개월"
+      ],
+      "hash": "f09af6e3b7fe"
+    },
+    {
+      "title": "AI 시대 가장 주목할 반도체 부품은 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026061601061",
+      "summary": "AI 시대 가장 주목할 반도체 부품은한경 프리미엄9이 국내 스타 애널리스트에게 주요 업종의 하반기 시장 전망을 듣는 ‘프리미엄9 투자스쿨’을 연재한다. 그 일곱 번째 순서로 양승수 메리츠증권 연구원이 전기전자·정보기술(IT)...",
+      "datetime_raw": "2026.06.16 18:01",
+      "datetime": "2026-06-16T18:01:00+09:00",
+      "dt": "2026-06-16 18:01",
+      "brokers": [
+        "메리츠"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "19c25a57c363"
+    },
+    {
+      "title": "우리은행, 40억원 규모 금융사고 발생…\"허위 서류 분양 사기\"",
+      "url": "https://www.hankyung.com/article/2026061602066",
+      "summary": "우리은행은 16일 외부인의 허위 서류 제출에 따른 금융사고가 발생했다고 공시했다.사고 금액은 40억800만원이다. 사고 발생 기간은 지난 2024년 8월 19일부터 8월 30일이다.해당 사고는 수사기관의 자료제출 요구 과정에서 발견됐다. 현재는 우리은행 자체 조사와 수...",
+      "datetime_raw": "2026.06.16 17:58",
+      "datetime": "2026-06-16T17:58:00+09:00",
+      "dt": "2026-06-16 17:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "우리은행",
+        "허위 서류 분양 사기"
+      ],
+      "hash": "77cef25d2875"
+    },
+    {
+      "title": "'K일론 머스크' 김승연 회장 해냈다…한화에어로, KAI 지분 9.04% 확보",
+      "url": "https://www.hankyung.com/article/2026061600936",
+      "summary": "한화그룹이 한국항공우주산업(KAI) 지분을 9.04%까지 확대하며 수출입은행(26.41%)에 이어 2대 주주 자리에 올랐다. 지금까지 KAI 지분 매입에 5000억 원을 투입한 한화그룹은 연말까지 추가로 5000억 원을 투입해 지분율을 12%까지 끌어올린다는 계획이다....",
+      "datetime_raw": "2026.06.16 17:35",
+      "datetime": "2026-06-16T17:35:00+09:00",
+      "dt": "2026-06-16 17:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "K일론 머스크"
+      ],
+      "hash": "f6ce2363d132"
+    },
+    {
+      "title": "백화점주 훈풍에 패션주 반등 성공할까…F&F·영원무역 강세",
+      "url": "https://www.hankyung.com/article/202606123532i",
+      "summary": "소비심리 개선과 방한 관광객 증가에 힘입어 패션주가 반등하고 있다. 최근 백화점 업종에 유입된 매수세가 의류 업종으로도 확산되는 모습이다.16일 유가증권시장에서 F&F는 전일보다 1.96% 하락한 8만100원에 거래를 마쳤다. 한섬은 0.45% 내린 2만2200원, 영...",
+      "datetime_raw": "2026.06.16 17:23",
+      "datetime": "2026-06-16T17:23:00+09:00",
+      "dt": "2026-06-16 17:23",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "백화점주 훈풍에 패션주 반등 성공할까"
+      ],
+      "hash": "8063b52c3871"
+    },
+    {
+      "title": "미국·이란 종전 선언…전후 재건 사업 수혜 볼 기업은 어디",
+      "url": "https://www.hankyung.com/article/202606169863i",
+      "summary": "미국과 이란이 종전을 선언하면서 국내 증시에서 건설과 방산주가 동시에 주목받고 있다. 전쟁으로 파괴된 인프라를 복구하는 재건 수요와 전쟁 중 취약점이 드러난 국방력을 강화하려는 움직임이 맞물리면서 국내 기업이 수혜를 볼 것이라는 기대에서다. ...",
+      "datetime_raw": "2026.06.16 17:20",
+      "datetime": "2026-06-16T17:20:00+09:00",
+      "dt": "2026-06-16 17:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미국"
+      ],
+      "hash": "05e4a985b9ce"
+    },
+    {
+      "title": "개미는 팔았는데…외국인이 5조원 넘게 쓸어담은 종목은",
+      "url": "https://www.hankyung.com/article/202606169793i",
+      "summary": "지난 12일 약 한 달만에 국내 증시에 복귀한 외국인이 16일까지 3거래일 연속 국내 주식을 순매수했다. 이 기간 외국인들의 순매수 규모는 총 5조8331억원이다. 외국인 매수세는 반도체와 로봇 밸류체인, 금융·증권주에 집중되고 있다.미...",
+      "datetime_raw": "2026.06.16 16:30",
+      "datetime": "2026-06-16T16:30:00+09:00",
+      "dt": "2026-06-16 16:30",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "개미는 팔았는데"
+      ],
+      "hash": "2442f8e2b667"
+    },
+    {
+      "title": "\"5일만에 주가 25%↑\"…움츠렸던 조선주, 다시 '뱃고동'",
+      "url": "https://www.hankyung.com/article/202606169532i",
+      "summary": "지난달 크게 약세였던 조선주(株)가 가스선 중심의 업황 호조와 선가 상승, 연이은 수주 소식에 힘입어 기지개를 켜고 있다. 증권가에선 다음달 말부터 예정된 2분기 업체별 실적발표와 맞물려 주가 상승세가 계속될 것이라는 전망이 나온다. 5월 급락했던 조선주,&n...",
+      "datetime_raw": "2026.06.16 16:11",
+      "datetime": "2026-06-16T16:11:00+09:00",
+      "dt": "2026-06-16 16:11",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "뱃고동",
+        "5일만에 주가 25%↑"
+      ],
+      "hash": "3c76deacb8de"
+    },
+    {
+      "title": "\"지금 사도 2배 번다\"…'259조 잭팟' SK하닉 개미들 '술렁'",
+      "url": "https://www.hankyung.com/article/202606169588i",
+      "summary": "인공지능(AI) 반도체 슈퍼 사이클이 이어지면서 SK하이닉스의 실적 추정치가 계속해서 상향향되고 있다. 이에 따라 SK하이닉스 주가가 현재의 2배 수준인 500만원까지 치솟을 수 있다는 파격적인 관측도 나온다. 16일 인공지능(AI) 기반 투자정보 서비스 에픽...",
+      "datetime_raw": "2026.06.16 15:55",
+      "datetime": "2026-06-16T15:55:00+09:00",
+      "dt": "2026-06-16 15:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "술렁",
+        "259조 잭팟",
+        "지금 사도 2배 번다"
+      ],
+      "hash": "2fe10f41d7c1"
+    },
+    {
+      "title": "코스피, 종전 합의·유가 하락에 8700선 회복…금융주 '신고가'",
+      "url": "https://www.hankyung.com/article/2026061697106",
+      "summary": "코스피지수가 미국-이란 종전 합의 소식과 국제유가 하락 영향에 16일 8700선을 회복했다.이날 코스피지수는 전 거래일 대비 180.62포인트(2.11%) 오른 8726..6에 장을 마쳤다. 이날 지수는 미-이란의 종전 합의에 투자심리가 자극을 받으며 상승 출발했으나 ...",
+      "datetime_raw": "2026.06.16 15:45",
+      "datetime": "2026-06-16T15:45:00+09:00",
+      "dt": "2026-06-16 15:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신고가",
+        "코스피"
+      ],
+      "hash": "82e3dbb92902"
+    },
+    {
+      "title": "골든스톤자산운용 등 3개사, 금투협 정회원 승인",
+      "url": "https://www.hankyung.com/article/2026061695196",
+      "summary": "금융투자협회는 16일 이사회를 열고 골든스톤자산운용, 릿지자산운용, 앤도버자산운용 등 3개 금융투자회사의 정회원 가입을 승인했다고 밝혔다.금투협 정회원은 총회 출석 권한과 의결권을 보유하며, 각종 회의체에 참여해 자본시장과 금융투자업계의 법령·제도 개선 및...",
+      "datetime_raw": "2026.06.16 14:55",
+      "datetime": "2026-06-16T14:55:00+09:00",
+      "dt": "2026-06-16 14:55",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "골든스톤자산운용 등 3개사"
+      ],
+      "hash": "292d480fb088"
+    },
+    {
+      "title": "신라에스지, 중장기 주주가치 제고 전략 '밸류업 플랜' 공시",
+      "url": "https://www.hankyung.com/article/2026061695066",
+      "summary": "신라에스지가 중장기 주주가치 제고 전략인 ‘밸류업 플랜(Value-Up Plan) 2026’을 16일 공시했다.신라에스지는 1977년 창립한 식품기업이다. 어육 소시지, 수산물 가공·유통, 축육 사업 등을 해왔다.이번 계획은 사업구조 ...",
+      "datetime_raw": "2026.06.16 14:32",
+      "datetime": "2026-06-16T14:32:00+09:00",
+      "dt": "2026-06-16 14:32",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신라에스지",
+        "밸류업 플랜"
+      ],
+      "hash": "6ab883f59caf"
+    },
+    {
+      "title": "K반도체 독주 끝?…다가오는 고금리의 역습",
+      "url": "https://www.hankyung.com/article/202606169385i",
+      "summary": "﻿주가의 핵심 결정요인은 기업이익(EPS)과 멀티플(PER)주가의 고평가 혹은 저평가를 논할때는 여러가지 판단 지표가 거론된다. 그 중에서 가장 대표적인 지표는 PER(주가수익비율)이라는 것과 EPS(주당순이익)라는 것을 들 수 있다. 여기서 PE...",
+      "datetime_raw": "2026.06.16 14:24",
+      "datetime": "2026-06-16T14:24:00+09:00",
+      "dt": "2026-06-16 14:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "K반도체 독주 끝?"
+      ],
+      "hash": "4cb07ad324be"
+    },
+    {
+      "title": "해시드오픈리서치 \"예측시장, 차세대 정보 인프라로 부상…제도적 논의 필요\"",
+      "url": "https://www.hankyung.com/article/202606169072B",
+      "summary": "블록체인·인공지능(AI)·콘텐츠 전문 벤처캐피털 해시드의 싱크탱크 해시드오픈리서치(HOR)는 예측시장의 현황과 과제를 분석한 보고서 '블록체인 기반 예측시장의 등장과 당면 과제'를 발간했다고 16일 밝혔다.보고서는 정치·경제·스포츠 등 다양한 미래 사건을 대상으로 하는...",
+      "datetime_raw": "2026.06.16 11:18",
+      "datetime": "2026-06-16T11:18:00+09:00",
+      "dt": "2026-06-16 11:18",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "해시드오픈리서치 \"예측시장",
+        "예측시장, 차세대 정보 인프라로 부상…제도적 논의 필요"
+      ],
+      "hash": "d67752dd85df"
+    },
+    {
+      "title": "상폐 앞둔 현대홈쇼핑 주식 사들인 '가치투자 명가'…이유는?",
+      "url": "https://www.hankyung.com/article/2026061682616",
+      "summary": "'가치투자 명가'로 꼽히는 VIP자산운용이 상장 폐지를 앞둔 현대홈쇼핑 지분을 5% 이상 신규 취득했다. 현대백화점그룹 지주사 현대지에프홀딩스를 할인된 가격에 사들이는 효과를 누리려는 것으로 증권가에서는 해석한다.16일 금융감독원 전자공시시스템에 따르면 ...",
+      "datetime_raw": "2026.06.16 10:38",
+      "datetime": "2026-06-16T10:38:00+09:00",
+      "dt": "2026-06-16 10:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "가치투자 명가"
+      ],
+      "hash": "a1c1e73cc021"
+    }
+  ],
+  "consensus_signals": []
+}
