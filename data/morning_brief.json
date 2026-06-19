@@ -1,27 +1,27 @@
 {
-  "as_of": "2026-06-19 16:00 KST",
+  "as_of": "2026-06-19 23:10 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "반도체 랠리에 강세 마감…나스닥 1.9%↑ [뉴욕증시 브리핑]",
+  "headline": "트럼프 \"인텔 지원\"…美 반도체주 '불기둥' 기세 주목",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "반도체 랠리에 강세 마감…나스닥 1.9%↑ [뉴욕증시 브리핑]",
+      "title": "트럼프 \"인텔 지원\"…美 반도체주 '불기둥' 기세 주목",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026061956196"
+      "url": "https://www.hankyung.com/article/202606195623i"
     },
     {
-      "title": "팀 쿡 \"가격 올린다\", 마이크론 폭등…우주에서 하강하는 스페이스X? [김현석의 월스트리트나우]",
+      "title": "스페이스X, 상장 후 첫 투자등급 회사채 발행 추진",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606195630i"
+      "url": "https://www.hankyung.com/article/202606197142i"
     },
     {
-      "title": "美·이란, 종전 MOU 이행 착수…60일 협상에 쏠린 눈",
+      "title": "\"반도체주 사려면 1억 가져오라고?\"…日 개미들 불만 폭발 [도쿄나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026061956127"
+      "url": "https://www.hankyung.com/article/202606195652i"
     },
     {
       "title": "조정장에도 코카콜라는 오른다",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "CXMT 상장이 던지는 진짜 질문 (2026-06-19 15:55)",
-    "코스피, 사상 최고치 찍고 하락 마감…9000선은 사수 (2026-06-19 15:42)",
-    "\"괜히 샀네\"…스페이스X 담은 ETF 줄줄이 '파란불' (2026-06-19 15:42)"
+    "\"두나무, 행정정보 공동이용 대상기관 된다\" (2026-06-19 18:29)",
+    "타이거리서치 \"솔라나, 인터넷 자본시장 인프라 부상\" (2026-06-19 18:21)",
+    "업비트, 주민등록등본 직접 본다…가상자산 거래소 '제도권 편입' 속도 (2026-06-19 17:56)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
@@ -43,19 +43,12 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "+6.42%"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.48% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.48%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-19T16:00:47.394268+09:00",
+    "collected_at": "2026-06-19T23:10:47.022528+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -92,9 +85,9 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "71,053.49",
-            "chg": "1,151.24",
-            "chg_pct": "+1.65%"
+            "close": "71,250.06",
+            "chg": "196.57",
+            "chg_pct": "+0.28%"
           },
           {
             "name": "대만",
@@ -125,30 +118,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,526.74",
-            "chg": "7.31",
-            "chg_pct": "-0.48%"
+            "close": "1,530.20",
+            "chg": "3.85",
+            "chg_pct": "-0.25%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,745.71",
-            "chg": "16.10",
-            "chg_pct": "-0.91%"
+            "close": "1,753.90",
+            "chg": "7.91",
+            "chg_pct": "-0.45%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "946.48",
-            "chg": "7.17",
-            "chg_pct": "-0.75%"
+            "close": "948.61",
+            "chg": "5.04",
+            "chg_pct": "-0.53%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "225.53",
-            "chg": "1.46",
-            "chg_pct": "-0.64%"
+            "close": "226.03",
+            "chg": "0.96",
+            "chg_pct": "-0.42%"
           }
         ]
       },
