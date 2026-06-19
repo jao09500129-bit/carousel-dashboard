@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-19T15:00:56.842649+09:00",
+  "collected_at": "2026-06-19T16:00:47.394268+09:00",
   "date": "2026-06-19",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,16 +9,12 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 8,
+    "with_broker_mention": 6,
     "target_price_up": 6,
     "target_price_down": 2,
     "top_brokers": [
       [
         "KB",
-        2
-      ],
-      [
-        "미래에셋",
         2
       ],
       [
@@ -40,6 +36,88 @@
     ]
   },
   "items": [
+    {
+      "title": "CXMT 상장이 던지는 진짜 질문",
+      "url": "https://www.hankyung.com/article/202606184383i",
+      "summary": "﻿올여름 중국 자본시장의 가장 큰 이벤트는 7월로 예정된 CXMT(창신메모리)의 기업공개다. 시장에서 거론되는 예상 시가총액은 2조~3조 위안, 우리 돈으로 환산하면 400조 원이 훌쩍 넘는다. 중국 1위, 글로벌 4위 D램 제조사가 자본시장에 데뷔하는 것이니 그 자체...",
+      "datetime_raw": "2026.06.19 15:55",
+      "datetime": "2026-06-19T15:55:00+09:00",
+      "dt": "2026-06-19 15:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "CXMT 상장이 던지는 진짜 질문"
+      ],
+      "hash": "44f8c6ee8799"
+    },
+    {
+      "title": "코스피, 사상 최고치 찍고 하락 마감…9000선은 사수",
+      "url": "https://www.hankyung.com/article/2026061970716",
+      "summary": "코스피지수가 19일 장중 사상 처음으로 9300선을 넘어선 이후 외국인과 기관투자가의 매도세에 상승분을 모두 반납하고 약보합으로 마감했다. 최근 단기 급등에 따른 부담감에 차익 실현 매물이 출회된 영향으로 풀이된다. 이날 코스피지수는 전장보다 11.42포인트(...",
+      "datetime_raw": "2026.06.19 15:42",
+      "datetime": "2026-06-19T15:42:00+09:00",
+      "dt": "2026-06-19 15:42",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "aaab329e7ba3"
+    },
+    {
+      "title": "\"괜히 샀네\"…스페이스X 담은 ETF 줄줄이 '파란불'",
+      "url": "https://www.hankyung.com/article/202606197000i",
+      "summary": "스페이스X 주가가 상장 직후 급등세를 뒤로하고 이틀 연속 하락했다. 상장 초기 기대가 주가에 빠르게 반영된 데다 밸류에이션 부담이 부각되면서 차익실현 매물이 쏟아진 영향으로 풀이된다. 이에 스페이스X를 편입한 국내 우주항공 상장지수펀드(ETF) 수익률도 일제히 뒷걸음질...",
+      "datetime_raw": "2026.06.19 15:42",
+      "datetime": "2026-06-19T15:42:00+09:00",
+      "dt": "2026-06-19 15:42",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "파란불",
+        "괜히 샀네"
+      ],
+      "hash": "1263445fdb6e"
+    },
+    {
+      "title": "예탁원, '퇴직연금 플랫폼 10주년 기념행사' 개최",
+      "url": "https://www.hankyung.com/article/2026061970646",
+      "summary": "한국예탁결제원은 19일 서울 여의도 콘래드 호텔에서 ‘퇴직연금 플랫폼 10주년 기념행사’를 열었다고 밝혔다.2016년 6월 개통한 퇴직연금 플랫폼은 현재 44개 퇴직연금사업자가 이용 중이다.퇴직연금 플랫폼은 적립금 운용 이후 후선 업무를 표준화&m...",
+      "datetime_raw": "2026.06.19 15:36",
+      "datetime": "2026-06-19T15:36:00+09:00",
+      "dt": "2026-06-19 15:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "예탁원",
+        "퇴직연금 플랫폼 10주년 기념행사"
+      ],
+      "hash": "8e6887ca4216"
+    },
+    {
+      "title": "거래소, 프리·애프터마켓 개설 일정 재차 연기",
+      "url": "https://www.hankyung.com/article/2026061970476",
+      "summary": "한국거래소는 19일 증권사 사장단과의 간담회를 통해 증권시장 프리마켓 개설 일정을 내년 말로, 애프터마켓 개설 일정을 오는 9월14일로 각각 조정하기로 결정했다고 밝혔다.앞서서도 거래소는 프리·애프터 마켓 개설 일정을 올해 6월에서 9월로 한 차례 연기한 ...",
+      "datetime_raw": "2026.06.19 15:32",
+      "datetime": "2026-06-19T15:32:00+09:00",
+      "dt": "2026-06-19 15:32",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "거래소"
+      ],
+      "hash": "d9374d64bc1f"
+    },
     {
       "title": "'텍스트힙'보다 배당?… 밀리·예스24 반등 실마리 찾나",
       "url": "https://www.hankyung.com/article/202606184227i",
@@ -286,6 +364,86 @@
       "hash": "26bb80263723"
     },
     {
+      "title": "\"3배 번다, 빚내서라도 사자\"…美 개미들 우르르 몰렸다",
+      "url": "https://www.hankyung.com/article/202606171683i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "3배 번다"
+      ],
+      "hash": "aaf04b67aad1"
+    },
+    {
+      "title": "\"주가조작 아닌가\" 李대통령 한마디에…오너 2세 물러난 회사",
+      "url": "https://www.hankyung.com/article/202606184544i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "주가조작 아닌가"
+      ],
+      "hash": "97b81bd836b2"
+    },
+    {
+      "title": "\"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네",
+      "url": "https://www.hankyung.com/article/2026061708866",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "홈플러스 있던 자리였는데"
+      ],
+      "hash": "0b61901590b3"
+    },
+    {
+      "title": "'월급 500만원' 직장인 10만명, 7월말 통장에 60만원 꽂힌다",
+      "url": "https://www.hankyung.com/article/2026061692177",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "월급 500만원"
+      ],
+      "hash": "8d729f038fc1"
+    },
+    {
+      "title": "\"月 50만원씩 3년 부으면 손에 쥐는 돈이…\" 2030 오픈런 예고",
+      "url": "https://www.hankyung.com/article/202606184482v",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "月 50만원씩 3년 부으면 손에 쥐는 돈이"
+      ],
+      "hash": "e20aef53e8c4"
+    },
+    {
       "title": "\"삼성화재, 보험 영업·투자 부문 모두 안정적 흐름…목표가↑\"-상상인",
       "url": "https://www.hankyung.com/article/2026061956566",
       "summary": "상상인증권은 19일 삼성화재에 대해 \"보험 영업과 투자 부문이 모두 안정적인 흐름을 보이면서 실적 개선세가 이어질 것\"이라고 분석했다. 그러면서 목표주가를 기존 60만원에서 80만원으로 상향 조정하고, 투자의견 '매수'를 유지했다.이 증권사 김현수 연구원...",
@@ -365,86 +523,6 @@
         "AI 클라우드"
       ],
       "hash": "4a41f771e2f4"
-    },
-    {
-      "title": "\"3배 번다, 빚내서라도 사자\"…美 개미들 우르르 몰렸다",
-      "url": "https://www.hankyung.com/article/202606171683i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "3배 번다"
-      ],
-      "hash": "aaf04b67aad1"
-    },
-    {
-      "title": "\"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네",
-      "url": "https://www.hankyung.com/article/2026061708866",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "홈플러스 있던 자리였는데"
-      ],
-      "hash": "0b61901590b3"
-    },
-    {
-      "title": "\"주가조작 아닌가\" 李대통령 한마디에…오너 2세 물러난 회사",
-      "url": "https://www.hankyung.com/article/202606184544i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "주가조작 아닌가"
-      ],
-      "hash": "97b81bd836b2"
-    },
-    {
-      "title": "'월급 500만원' 직장인 10만명, 7월말 통장에 60만원 꽂힌다",
-      "url": "https://www.hankyung.com/article/2026061692177",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "월급 500만원"
-      ],
-      "hash": "8d729f038fc1"
-    },
-    {
-      "title": "\"하루에 30% 오를지도\"…고수들 집중 매수한 종목",
-      "url": "https://www.hankyung.com/article/202606183338i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하루에 30% 오를지도"
-      ],
-      "hash": "232ee115c423"
     },
     {
       "title": "\"삼성전기, MLCC·패키징 기판 여전히 과소평가…목표가 300만원\"-KB",
@@ -1024,92 +1102,6 @@
         "400만원 갈까"
       ],
       "hash": "39dc3ddd5a26"
-    },
-    {
-      "title": "\"3개월만에 260% 급등\"…코스닥 투자 지형도 바꾸는 '이것'",
-      "url": "https://www.hankyung.com/article/202606172234i",
-      "summary": "코스닥 시장 투자 지형도가 2차전지와 바이오에서 반도체 소부장(소재·부품·장비)으로 바뀌고 있는 것으로 나타났다. 인공지능(AI) 투자 확대에 따른 삼성전자와 SK하이닉스 등 반도체 업계의 슈퍼 사이클 기대 속에 낙수 효과를 받고 있어서다.&n...",
-      "datetime_raw": "2026.06.18 07:36",
-      "datetime": "2026-06-18T07:36:00+09:00",
-      "dt": "2026-06-18 07:36",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이것",
-        "3개월만에 260% 급등"
-      ],
-      "hash": "d9b03e8e73cc"
-    },
-    {
-      "title": "'250만닉스' 신기록…외국인이 3.8조 쓸어 담은 이유는? [종목+]",
-      "url": "https://www.hankyung.com/article/2026061723376",
-      "summary": "SK하이닉스 주가가 250만원을 돌파하며 신기록을 썼다. 6월 초 거시경제(매크로) 이슈로 증시가 출렁인 뒤 회복하기 시작한 지난 11일부터 외국인 투자자가 SK하이닉스 주식을 쓸어 담은 결과다. 증권가에서는 미국 주식예탁증서(ADR) 상장에 대한 기대감 때문으로 풀이...",
-      "datetime_raw": "2026.06.18 06:30",
-      "datetime": "2026-06-18T06:30:00+09:00",
-      "dt": "2026-06-18 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "250만닉스"
-      ],
-      "hash": "e474d3e8d61e"
-    },
-    {
-      "title": "블랙록, '수익형 ETF' BITA 선보여…첫날 587만불 거래",
-      "url": "https://www.hankyung.com/article/2026061725136",
-      "summary": "세계 최대 규모 자산운용사 블랙록이 새로운 비트코인(BTC) 상장지수펀드(ETF) 'BITA(블랙록 비트코인 인컴 ETF)'를 선보였다고 블루밍비트가 보도했다.블랙록 BITA는 전날 나스닥 시장에 상장돼 11만1174주가 거래됐으며 거래대금은 약 587만...",
-      "datetime_raw": "2026.06.17 23:50",
-      "datetime": "2026-06-17T23:50:00+09:00",
-      "dt": "2026-06-17 23:50",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "블랙록",
-        "수익형 ETF"
-      ],
-      "hash": "abad7312d210"
-    },
-    {
-      "title": "미래에셋증권, 역대 최대 3000억원 자사주 매입·소각한다",
-      "url": "https://www.hankyung.com/article/202606172715i",
-      "summary": "미래에셋증권이 역대 최대 규모인 3000억원대 자사주 매입·소각에 나선다.미래에셋증권은 17일 이사회를 열어 이같은 안건을 결의했다고 공시했다. 이번 매입 규모는 기존 최대치인 1030억원의 3배에 이른다. 구체적으로 취득 대상은 보통주 2000억원, 1우선주(미래에셋증권주) 100억원, 2우선주(미래에셋증권2우B) 900억원...",
-      "datetime_raw": "2026.06.17 18:43",
-      "datetime": "2026-06-17T18:43:00+09:00",
-      "dt": "2026-06-17 18:43",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "미래에셋증권"
-      ],
-      "hash": "114edffc36dc"
-    },
-    {
-      "title": "미래에셋증권, 3000억 규모 자사주 취득…역대 최대 규모",
-      "url": "https://www.hankyung.com/article/2026061727326",
-      "summary": "미래에셋증권은 17일 이사회를 열고 3000억원 규모의 자사주를 취득하기로 결의했다고 밝혔다. 이는 역대 최대 규모다.취득 대상은 보통주 2000억원, 1우선주 100억원, 2우선주 900억원 등이다. 특히 1우선주를 취득 대상에 포함한 것은 이번이 처음이다....",
-      "datetime_raw": "2026.06.17 18:10",
-      "datetime": "2026-06-17T18:10:00+09:00",
-      "dt": "2026-06-17 18:10",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "미래에셋증권"
-      ],
-      "hash": "86c8250fcd95"
     }
   ],
   "consensus_signals": []
