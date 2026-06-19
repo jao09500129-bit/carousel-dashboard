@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-19T09:30:59.900863+09:00",
+  "collected_at": "2026-06-19T11:00:54.566716+09:00",
   "date": "2026-06-19",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -10,7 +10,7 @@
   "total_items": 65,
   "stats": {
     "with_broker_mention": 9,
-    "target_price_up": 5,
+    "target_price_up": 6,
     "target_price_down": 2,
     "top_brokers": [
       [
@@ -41,9 +41,57 @@
   },
   "items": [
     {
-      "title": "코스피, 9천피 넘어 9300 직행…'삼전닉스' 쌍끌이",
+      "title": "주주환원 확대·삼전 지분 가치 상승…삼성물산, 12% 급등 [종목+]",
+      "url": "https://www.hankyung.com/article/2026061960856",
+      "summary": "삼성물산이 19일 장 초반 급등세다. 증권가의 목표주가 상향 조정과 대규모 주주환원 확대 전망, 삼성전자 지분 가치 상승 영향으로 풀이된다.이날 오전 9시24분 삼성물산은 전 거래일 대비 12.26% 오른 54만5000원에 거래 중이다. 이같은 흐름은 증권가에서 삼성물...",
+      "datetime_raw": "2026.06.19 09:42",
+      "datetime": "2026-06-19T09:42:00+09:00",
+      "dt": "2026-06-19 09:42",
+      "brokers": [],
+      "opinion": null,
+      "target_action": "up",
+      "target_change_pct": null,
+      "keywords": [
+        "주주환원 확대"
+      ],
+      "hash": "5765e6c9f588"
+    },
+    {
+      "title": "AI 훈풍 탄 키옥시아…베인캐피털, 150억달러 잭팟",
+      "url": "https://www.hankyung.com/article/202606195708i",
+      "summary": "미국 사모펀드(PEF) 베인캐피털이 8년 전 인수한 메모리 반도체 업체 키옥시아를 통해 막대한 투자 성과를 거둘 전망이다. 키옥시아가 상장 이후 주가가 5000% 넘게 급등하면서 일본 증시를 대표하는 기업으로 떠오른 덕분이다.18일(현지시간) 파이낸셜타임스(FT)는 소...",
+      "datetime_raw": "2026.06.19 09:41",
+      "datetime": "2026-06-19T09:41:00+09:00",
+      "dt": "2026-06-19 09:41",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 훈풍 탄 키옥시아"
+      ],
+      "hash": "04ded543f923"
+    },
+    {
+      "title": "씨피시스템, 인텔 장비 밸류체인 진입 소식에 상한가",
+      "url": "https://www.hankyung.com/article/2026061960726",
+      "summary": "씨피시스템이 미국 인텔 현지 공장에 적용되는 국내 반도체 엣지그라인더 장비에 자사 고청정 케이블 보호솔루션 'G-클린체인'을 공급했다는 소식 이후 주가가 19일 장 초반 천장을 쳤다.이날 오전 9시29분 현재 씨피시스템은 가격제한폭(735원·...",
+      "datetime_raw": "2026.06.19 09:36",
+      "datetime": "2026-06-19T09:36:00+09:00",
+      "dt": "2026-06-19 09:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "씨피시스템"
+      ],
+      "hash": "0e59c311d6e1"
+    },
+    {
+      "title": "반도체 대형주가 이끄는 코스피…3%대 상승해 사상 최고치 행진",
       "url": "https://www.hankyung.com/article/202606195993i",
-      "summary": "🕘 코스피 강세 출발, 코스닥 약세… 반도체 주도 속 혼조 장세오늘 한국 증시는 전날 밤 미국 나스닥이 1.91% 급등하고 필라델피아 반도체 지수가 6.42% 폭등한 훈풍을 이어받아 코스피는 강세 출발한 반면, 코스닥은 하락 흐름을 보이며 혼조세를 나타내고...",
+      "summary": "🕘 코스피 사상 최고치 행진… 반도체 대형주 주도, 코스닥 소외 지속오전 10시 기준, 코스피는 전일 대비 283.93포인트(3.13%) 상승한 9,347.77을 기록하며 장중 사상 최고치를 재차 경신하는 흐름입니다.미국 나스닥이 전날 밤 1.91% 급등하...",
       "datetime_raw": "2026.06.19 09:17",
       "datetime": "2026-06-19T09:17:00+09:00",
       "dt": "2026-06-19 09:17",
@@ -52,8 +100,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "코스피",
-        "삼전닉스"
+        "반도체 대형주가 이끄는 코스피"
       ],
       "hash": "eba5f23aa84a"
     },
@@ -321,55 +368,6 @@
       "hash": "e32a6fa7ef06"
     },
     {
-      "title": "\"LS·KT로 수익률 대박 낸 비결\" [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026061851891",
-      "summary": "\"LS·KT로 수익률 대박 낸 비결\"강대권 라이프자산운용 대표는 국내 주식시장에서 2세대 가치투자자로 통한다. 그는 주식 투자에서 중요한 것은 불확실한 미래를 정확하게 예측하기보다 손실을 제한하고 수익 가능성은 크게 열어두는 것이라고 강조했다. ...",
-      "datetime_raw": "2026.06.18 17:54",
-      "datetime": "2026-06-18T17:54:00+09:00",
-      "dt": "2026-06-18 17:54",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "LS"
-      ],
-      "hash": "c3c3f59c21f5"
-    },
-    {
-      "title": "메리츠금융 \"MBK, 최대주주로서 홈플러스 정상화 책임져야\"",
-      "url": "https://www.hankyung.com/article/2026061849796",
-      "summary": "기업회생 절차를 밟고 있는 홈플러스에 긴급운영자금(DIP 금융) 1000억원을 제공하기로 한 메리츠금융그룹이 MBK파트너스에 \"최대주주로서 책임을 지고 자금 투입과 손실 부담에 나서야 한다\"고 촉구했다.메리츠금융은 18일 입장문을 내고 \"메리츠금융은 홈플러스에 대한 금...",
-      "datetime_raw": "2026.06.18 17:31",
-      "datetime": "2026-06-18T17:31:00+09:00",
-      "dt": "2026-06-18 17:31",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "메리츠금융 \"MBK",
-        "MBK, 최대주주로서 홈플러스 정상화 책임져야"
-      ],
-      "hash": "9214477f4b3b"
-    },
-    {
-      "title": "백화점 말고 더 있었네...‘K웨이브’ 등에 업고 달리는 호텔신라",
-      "url": "https://www.hankyung.com/article/202606184600i",
-      "summary": "방한 외국인 관광객 2000만 명 시대를 앞두고 호텔업계 대장주인 호텔신라가 들썩이고 있다. 경쟁사들의 주가가 고전을 면치 못하는 상황에서 최근 3개월 새 홀로 30% 가까이 올랐다. 호텔 사업 호조와 그간 '아픈 손가락'이었던 면세점 사업의 수익성이 크...",
-      "datetime_raw": "2026.06.18 16:58",
-      "datetime": "2026-06-18T16:58:00+09:00",
-      "dt": "2026-06-18 16:58",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "K웨이브"
-      ],
-      "hash": "26222ac13f68"
-    },
-    {
       "title": "\"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네",
       "url": "https://www.hankyung.com/article/2026061708866",
       "summary": "",
@@ -448,6 +446,55 @@
         "하루에 30% 오를지도"
       ],
       "hash": "232ee115c423"
+    },
+    {
+      "title": "\"LS·KT로 수익률 대박 낸 비결\" [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026061851891",
+      "summary": "\"LS·KT로 수익률 대박 낸 비결\"강대권 라이프자산운용 대표는 국내 주식시장에서 2세대 가치투자자로 통한다. 그는 주식 투자에서 중요한 것은 불확실한 미래를 정확하게 예측하기보다 손실을 제한하고 수익 가능성은 크게 열어두는 것이라고 강조했다. ...",
+      "datetime_raw": "2026.06.18 17:54",
+      "datetime": "2026-06-18T17:54:00+09:00",
+      "dt": "2026-06-18 17:54",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "LS"
+      ],
+      "hash": "c3c3f59c21f5"
+    },
+    {
+      "title": "메리츠금융 \"MBK, 최대주주로서 홈플러스 정상화 책임져야\"",
+      "url": "https://www.hankyung.com/article/2026061849796",
+      "summary": "기업회생 절차를 밟고 있는 홈플러스에 긴급운영자금(DIP 금융) 1000억원을 제공하기로 한 메리츠금융그룹이 MBK파트너스에 \"최대주주로서 책임을 지고 자금 투입과 손실 부담에 나서야 한다\"고 촉구했다.메리츠금융은 18일 입장문을 내고 \"메리츠금융은 홈플러스에 대한 금...",
+      "datetime_raw": "2026.06.18 17:31",
+      "datetime": "2026-06-18T17:31:00+09:00",
+      "dt": "2026-06-18 17:31",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "메리츠금융 \"MBK",
+        "MBK, 최대주주로서 홈플러스 정상화 책임져야"
+      ],
+      "hash": "9214477f4b3b"
+    },
+    {
+      "title": "백화점 말고 더 있었네...‘K웨이브’ 등에 업고 달리는 호텔신라",
+      "url": "https://www.hankyung.com/article/202606184600i",
+      "summary": "방한 외국인 관광객 2000만 명 시대를 앞두고 호텔업계 대장주인 호텔신라가 들썩이고 있다. 경쟁사들의 주가가 고전을 면치 못하는 상황에서 최근 3개월 새 홀로 30% 가까이 올랐다. 호텔 사업 호조와 그간 '아픈 손가락'이었던 면세점 사업의 수익성이 크...",
+      "datetime_raw": "2026.06.18 16:58",
+      "datetime": "2026-06-18T16:58:00+09:00",
+      "dt": "2026-06-18 16:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "K웨이브"
+      ],
+      "hash": "26222ac13f68"
     },
     {
       "title": "\"놀라운 반도체 힘\"…'9천피' 돌파하더니 깜짝 전망 나왔다",
@@ -1062,54 +1109,6 @@
       "target_change_pct": null,
       "keywords": [],
       "hash": "ea50da574f74"
-    },
-    {
-      "title": "SK하이닉스·SK스퀘어 역대 최고가 질주…코스피 8800 뚫었다",
-      "url": "https://www.hankyung.com/article/202606171976i",
-      "summary": "SK하이닉스와 모회사 SK스퀘어가 17일 나란히 사상 최고가를 기록했다. 반도체 슈퍼 사이클에 힘입어 실적이 고공행진하자 최대 100조원에 달하는 주주환원에 나설 것이란 기대감이 커진 영향이다. 이날 SK하이닉스는 전일 대비 5.84% 상승한 252만1000원...",
-      "datetime_raw": "2026.06.17 16:33",
-      "datetime": "2026-06-17T16:33:00+09:00",
-      "dt": "2026-06-17 16:33",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "b2ff3009114a"
-    },
-    {
-      "title": "코스피 '사상 최고치'…1.58% 상승한 8864.24 마감",
-      "url": "https://www.hankyung.com/article/2026061720886",
-      "summary": "코스피가 사상 최고가를 갈아치웠다. SK하이닉스가 250만원선을 돌파했다.코스닥은 외국인 매수세에 힘입어 1%대 상승세를 나타냈다.17일 코스피는 전일 대비 137.64포인트(1.58%) 오른 8864.24에 거래를 마쳤다.이날 지수는 약세로 출발했지만, 차츰 낙폭을 ...",
-      "datetime_raw": "2026.06.17 15:33",
-      "datetime": "2026-06-17T15:33:00+09:00",
-      "dt": "2026-06-17 15:33",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사상 최고치"
-      ],
-      "hash": "dbbca5c36241"
-    },
-    {
-      "title": "\"뉴트럴, 시장중립 전략 활용 수익형 스테이블코인 모델\"",
-      "url": "https://www.hankyung.com/article/2026061716816",
-      "summary": "스테이블코인 프로토콜 뉴트럴이 시장중립 전략을 활용한 수익형 스테이블코인 모델을 구축했다고 블루밍비트가 17일 보도했다.뉴트럴은 합성 달러 스테이블코인 ...",
-      "datetime_raw": "2026.06.17 15:14",
-      "datetime": "2026-06-17T15:14:00+09:00",
-      "dt": "2026-06-17 15:14",
-      "brokers": [],
-      "opinion": "중립",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "뉴트럴"
-      ],
-      "hash": "47bf3fa46095"
     }
   ],
   "consensus_signals": []
