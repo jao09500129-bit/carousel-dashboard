@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-19T11:14:56.278717+09:00",
+  "collected_at": "2026-06-19T13:00:57.034756+09:00",
   "date": "2026-06-19",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -40,6 +40,22 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피, 장중 9300선 돌파 후 하락전환…9000선 붕괴",
+      "url": "https://www.hankyung.com/article/2026061965846",
+      "summary": "[속보] 코스피, 장중 9300선 돌파 후 하락전환…9000선 붕괴고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.06.19 12:36",
+      "datetime": "2026-06-19T12:36:00+09:00",
+      "dt": "2026-06-19 12:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "6f5604e2928d"
+    },
     {
       "title": "주주환원 확대·삼전 지분 가치 상승…삼성물산, 12% 급등 [종목+]",
       "url": "https://www.hankyung.com/article/2026061960856",
@@ -352,20 +368,20 @@
       "hash": "32a8e4ad3739"
     },
     {
-      "title": "SK하닉, 시총 1위 넘보는데…삼전 바짝 추격하자 깜짝 전망 [종목+]",
-      "url": "https://www.hankyung.com/article/2026061853056",
-      "summary": "SK하이닉스가 또 한 번 급등하며 코스피 시가총액 1위 삼성전자를 바짝 추격했다. 증권가에서는 글로벌 빅테크와의 추가 협력과 미국주식예탁증서(ADR) 상장으로 기업 가치 재평가 모멘텀이 남았다는 분석이 나온다.19일 한국거래소에 따르면 전날 SK하이닉스는 정규장에서 전...",
-      "datetime_raw": "2026.06.19 06:30",
-      "datetime": "2026-06-19T06:30:00+09:00",
-      "dt": "2026-06-19 06:30",
+      "title": "\"3배 번다, 빚내서라도 사자\"…美 개미들 우르르 몰렸다",
+      "url": "https://www.hankyung.com/article/202606171683i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "SK하닉"
+        "3배 번다"
       ],
-      "hash": "e32a6fa7ef06"
+      "hash": "aaf04b67aad1"
     },
     {
       "title": "\"홈플러스 있던 자리였는데\"…마트 사라지고 확 바뀌는 동네",
@@ -382,22 +398,6 @@
         "홈플러스 있던 자리였는데"
       ],
       "hash": "0b61901590b3"
-    },
-    {
-      "title": "\"3배 번다, 빚내서라도 사자\"…美 개미들 우르르 몰렸다",
-      "url": "https://www.hankyung.com/article/202606171683i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "3배 번다"
-      ],
-      "hash": "aaf04b67aad1"
     },
     {
       "title": "\"주가조작 아닌가\" 李대통령 한마디에…오너 2세 물러난 회사",
@@ -446,6 +446,22 @@
         "하루에 30% 오를지도"
       ],
       "hash": "232ee115c423"
+    },
+    {
+      "title": "SK하닉, 시총 1위 넘보는데…삼전 바짝 추격하자 깜짝 전망 [종목+]",
+      "url": "https://www.hankyung.com/article/2026061853056",
+      "summary": "SK하이닉스가 또 한 번 급등하며 코스피 시가총액 1위 삼성전자를 바짝 추격했다. 증권가에서는 글로벌 빅테크와의 추가 협력과 미국주식예탁증서(ADR) 상장으로 기업 가치 재평가 모멘텀이 남았다는 분석이 나온다.19일 한국거래소에 따르면 전날 SK하이닉스는 정규장에서 전...",
+      "datetime_raw": "2026.06.19 06:30",
+      "datetime": "2026-06-19T06:30:00+09:00",
+      "dt": "2026-06-19 06:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "SK하닉"
+      ],
+      "hash": "e32a6fa7ef06"
     },
     {
       "title": "\"LS·KT로 수익률 대박 낸 비결\" [한경 프리미엄9 TODAY]",
@@ -1095,20 +1111,6 @@
         "홍석현 중앙홀딩스 회장"
       ],
       "hash": "63e35d361632"
-    },
-    {
-      "title": "미-이란전 발발후 반토막난 한국전력, 종전 소식에 주가 반등",
-      "url": "https://www.hankyung.com/article/202606171949i",
-      "summary": "중동 전쟁 종전 소식이 전해지면서 한국전력 주가가 반등하고 있다. 지정학적 리스크가 완화되면서 수익성 개선 기대가 커진 영향이다.17일 유가증권시장에서 한국전력은 전일보다 1.76% 오른 4만500원에 거래를 마쳤다. 한국전력은 미국·이란 전쟁 발발 이후 ...",
-      "datetime_raw": "2026.06.17 17:27",
-      "datetime": "2026-06-17T17:27:00+09:00",
-      "dt": "2026-06-17 17:27",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "ea50da574f74"
     }
   ],
   "consensus_signals": []
