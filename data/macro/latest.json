@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-19T23:10:47.022528+09:00",
+  "collected_at": "2026-06-20T23:10:47.235534+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -50,9 +50,9 @@
         {
           "name": "독일",
           "symbol": "DAX",
-          "close": "25,026.80",
-          "chg": "92.13",
-          "chg_pct": "+0.37%"
+          "close": "24,985.82",
+          "chg": "40.98",
+          "chg_pct": "-0.16%"
         },
         {
           "name": "홍콩",
@@ -69,30 +69,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,530.20",
-          "chg": "3.85",
-          "chg_pct": "-0.25%"
+          "close": "1,527.65",
+          "chg": "2.23",
+          "chg_pct": "-0.15%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,753.90",
-          "chg": "7.91",
-          "chg_pct": "-0.45%"
+          "close": "1,754.92",
+          "chg": "0.50",
+          "chg_pct": "+0.03%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "948.61",
-          "chg": "5.04",
-          "chg_pct": "-0.53%"
+          "close": "948.51",
+          "chg": "0.78",
+          "chg_pct": "-0.08%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "226.03",
-          "chg": "0.96",
-          "chg_pct": "-0.42%"
+          "close": "226.00",
+          "chg": "0.03",
+          "chg_pct": "-0.01%"
         }
       ]
     },
@@ -102,44 +102,44 @@
         {
           "name": "브렌트",
           "symbol": "BRENTF",
-          "close": "79.51",
-          "chg": "0.28",
-          "chg_pct": "+0.35%"
+          "close": "80.57",
+          "chg": "0.72",
+          "chg_pct": "+0.90%"
         },
         {
           "name": "두바이유 현물",
           "symbol": "DUBAIF",
-          "close": "73.09",
-          "chg": "0.82",
-          "chg_pct": "-1.11%"
+          "close": "73.61",
+          "chg": "0.52",
+          "chg_pct": "+0.71%"
         },
         {
           "name": "니켈",
           "symbol": "LMENIC",
-          "close": "17,770.00",
-          "chg": "50.00",
-          "chg_pct": "-0.28%"
+          "close": "17,590.00",
+          "chg": "180.00",
+          "chg_pct": "-1.01%"
         },
         {
           "name": "알루미늄 H/G 캐시",
           "symbol": "LMEALC",
-          "close": "3,402.00",
-          "chg": "3.50",
-          "chg_pct": "-0.10%"
+          "close": "3,400.00",
+          "chg": "2.00",
+          "chg_pct": "-0.06%"
         },
         {
           "name": "전기동",
           "symbol": "LMECOC",
-          "close": "13,612.00",
-          "chg": "124.00",
-          "chg_pct": "-0.90%"
+          "close": "13,530.50",
+          "chg": "81.50",
+          "chg_pct": "-0.60%"
         },
         {
           "name": "전기동 3M",
           "symbol": "LMECOF",
-          "close": "13,685.00",
-          "chg": "121.00",
-          "chg_pct": "-0.88%"
+          "close": "13,600.00",
+          "chg": "85.00",
+          "chg_pct": "-0.62%"
         }
       ]
     },
