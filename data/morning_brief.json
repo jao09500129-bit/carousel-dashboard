@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-06-20 23:10 KST",
+  "as_of": "2026-06-21 23:10 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "트럼프 \"인텔 지원\"…美 반도체주 '불기둥' 기세 주목",
+  "headline": "\"친절한 연준씨 이제 없다\"…워시 Fed의 진짜 뜻 [빈난새의 빈틈없이월가]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "트럼프 \"인텔 지원\"…美 반도체주 '불기둥' 기세 주목",
+      "title": "\"친절한 연준씨 이제 없다\"…워시 Fed의 진짜 뜻 [빈난새의 빈틈없이월가]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606195623i"
+      "url": "https://www.hankyung.com/article/202606207724i"
     },
     {
       "title": "스페이스X, 상장 후 첫 투자등급 회사채 발행 추진",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "﻿ETF 500조 시대, 우리는 어떻게 투자하고 있는가 (2026-06-20 10:00)",
-    "“증시 호황은 남의 잔치”…코스닥 투자자 대응전략 물어보니 (2026-06-20 08:00)",
-    "\"SK하이닉스 대신 담았는데\"…한 달 새 40% 넘게 오른 기업 [종목+] (2026-06-20 07:43)"
+    "수익률 78% 낸 1위의 투자 전략 [한경 프리미엄9 TODAY] (2026-06-21 18:37)",
+    "환율·채권, 원·달러 환율 1500원대 박스권 장세 (2026-06-21 17:35)",
+    "한 달 사이 174% 뛴 삼화콘덴서...MLCC로 피지컬AI 수혜주로 부상 (2026-06-21 16:09)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
@@ -48,7 +48,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-20T23:10:47.235534+09:00",
+    "collected_at": "2026-06-21T23:10:46.433170+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
