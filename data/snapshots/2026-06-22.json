@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-22T09:30:52.613147+09:00",
+  "collected_at": "2026-06-22T11:00:10.682770+09:00",
   "date": "2026-06-22",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -10,7 +10,7 @@
   "total_items": 64,
   "stats": {
     "with_broker_mention": 9,
-    "target_price_up": 10,
+    "target_price_up": 9,
     "target_price_down": 1,
     "top_brokers": [
       [
@@ -48,6 +48,56 @@
     ]
   },
   "items": [
+    {
+      "title": "KB자산운용, 제이엘케이 지분 5.09% 취득…\"단순 투자 목적\"",
+      "url": "https://www.hankyung.com/article/2026062200866",
+      "summary": "KB자산운용은 지난 18일 기준 제이엘케이 주식 130만9845주를 보유하고 있다고 최근 공시했다.지분율은 5.09%이며, 단순투자 목적으로 제이엘케이 지분을 취득했다고 KB자산운용은 설명했다. 이번 지분 취득에 따라 KB자산운용이 제이엘케이의 2대 주주가 됐다.제이엘...",
+      "datetime_raw": "2026.06.22 10:58",
+      "datetime": "2026-06-22T10:58:00+09:00",
+      "dt": "2026-06-22 10:58",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "KB자산운용",
+        "단순 투자 목적"
+      ],
+      "hash": "afeb99e536d9"
+    },
+    {
+      "title": "코스피 9200 회복…하이닉스, '290만' 찍고 시총 2000조 재돌파",
+      "url": "https://www.hankyung.com/article/2026062200156",
+      "summary": "1% 하락 출발하며 9000선을 내줬던 코스피가 9200선을 다시 회복했다. SK하이닉스와 SK스퀘어 등이 강세를 보이면서 삼성그룹과 SK그룹의 시가총액 격차도 줄어드는 모습이다.22일 오전 10시32분 현재 코스피는 전 거래일 대비 1.97% 오른 9230.62를 기...",
+      "datetime_raw": "2026.06.22 10:39",
+      "datetime": "2026-06-22T10:39:00+09:00",
+      "dt": "2026-06-22 10:39",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "290만",
+        "코스피 9200 회복"
+      ],
+      "hash": "b11c6dbbf00b"
+    },
+    {
+      "title": "코스피, 외국인 매도에 9000선 내줘…미·이란 협상 난항 영향",
+      "url": "https://www.hankyung.com/article/2026062296686",
+      "summary": "코스피가 미국과 이란의 종전 협상 난항 영향과 외국인 매도세에 9000선을 내주며 하락 출발했다. 미국 물가 지표와 마이크론 실적 발표를 앞두고 반도체주 내에서도 종목별 흐름이 엇갈리는 상황에서 반도체 쏠림 장세가 이번주 분기점을 맞을 것이란 분석이 나온다.22일 오전...",
+      "datetime_raw": "2026.06.22 09:30",
+      "datetime": "2026-06-22T09:30:00+09:00",
+      "dt": "2026-06-22 09:30",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "876fc88eeb67"
+    },
     {
       "title": "LG씨엔에스·LG전자, 엔비디아 협력 기대에 6%대 급등",
       "url": "https://www.hankyung.com/article/2026062295076",
@@ -100,7 +150,7 @@
       "hash": "4e093013ee8c"
     },
     {
-      "title": "코스피 하락·코스닥 상승 엇갈린 출발[오전 9시10분 시황]",
+      "title": "코스피 하락·코스닥 상승 엇갈린 출발 [오전 9시10분 시황]",
       "url": "https://www.hankyung.com/article/202606229371i",
       "summary": "🕘 장초반 혼조 흐름… 코스피 약세·코스닥 강세 대조오늘 한국 증시는 코스피와 코스닥이 엇갈린 흐름으로 출발했습니다.오전 9시 10분 기준, 코스피는 전일 대비 82.85포인트(-0.92%) 하락한 8,969.57에 거래되고 있는 반면, 코스닥...",
       "datetime_raw": "2026.06.22 09:21",
@@ -342,6 +392,88 @@
       "hash": "3dc23b9c41a8"
     },
     {
+      "title": "\"65세 되도록 입원 한 번 안 해\"…함익병 꼽은 건강 비결은",
+      "url": "https://www.hankyung.com/article/2026062183957",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "65세 되도록 입원 한 번 안 해"
+      ],
+      "hash": "caf55ef5f20f"
+    },
+    {
+      "title": "\"8조 주식 휴지조각 될 판\"…벼랑 끝 몰린 개미들 '공포'",
+      "url": "https://www.hankyung.com/article/2026062184827",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "공포",
+        "8조 주식 휴지조각 될 판"
+      ],
+      "hash": "51276e5f1980"
+    },
+    {
+      "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
+      "url": "https://www.hankyung.com/article/2026062190307",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "경악",
+        "호텔 통째로 빌린 중국인들"
+      ],
+      "hash": "4471278f4a63"
+    },
+    {
+      "title": "손풍기가 '15만원'인데 품절 대란?…직접 써보니 달랐다",
+      "url": "https://www.hankyung.com/article/202606196089g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "15만원"
+      ],
+      "hash": "8ae72d2962f2"
+    },
+    {
+      "title": "\"2만원 넘게 쌓였어요\" 우르르…네이버, 웃는 진짜 이유는",
+      "url": "https://www.hankyung.com/article/2026061973891",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2만원 넘게 쌓였어요"
+      ],
+      "hash": "7378b860a2e5"
+    },
+    {
       "title": "한·미 금리 인상 시사…3년째 이자 부담 큰 기업은? [한경우의 케이스스터디]",
       "url": "https://www.hankyung.com/article/2026062184796",
       "summary": "한국은행과 미국 중앙은행(Fed)이 나란히 통화 긴축 신호를 시장에 내놨다. 유럽중앙은행(ECB)과 일본은행(BOJ)의 기준금리 인상에 이어 미국과 한국도 기준금리 인상 시계가 '카운트다운'에 들어간 모습이다. 이런 상황에서 전문가들은 금리 인상...",
@@ -384,88 +516,6 @@
         "환율"
       ],
       "hash": "df14a6ef2965"
-    },
-    {
-      "title": "\"65세 되도록 입원 한 번 안 해\"…함익병 꼽은 건강 비결은",
-      "url": "https://www.hankyung.com/article/2026062183957",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "65세 되도록 입원 한 번 안 해"
-      ],
-      "hash": "caf55ef5f20f"
-    },
-    {
-      "title": "\"8조 주식 휴지조각 될 판\"…벼랑 끝 몰린 개미들 '공포'",
-      "url": "https://www.hankyung.com/article/2026062184827",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "공포",
-        "8조 주식 휴지조각 될 판"
-      ],
-      "hash": "51276e5f1980"
-    },
-    {
-      "title": "손풍기가 '15만원'인데 품절 대란?…직접 써보니 달랐다",
-      "url": "https://www.hankyung.com/article/202606196089g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "15만원"
-      ],
-      "hash": "8ae72d2962f2"
-    },
-    {
-      "title": "\"2만원 넘게 쌓였어요\" 우르르…네이버, 웃는 진짜 이유는",
-      "url": "https://www.hankyung.com/article/2026061973891",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "2만원 넘게 쌓였어요"
-      ],
-      "hash": "7378b860a2e5"
-    },
-    {
-      "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
-      "url": "https://www.hankyung.com/article/2026062190307",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "경악",
-        "호텔 통째로 빌린 중국인들"
-      ],
-      "hash": "4471278f4a63"
     },
     {
       "title": "한 달 사이 174% 뛴 삼화콘덴서...MLCC로 피지컬AI 수혜주로 부상",
@@ -724,22 +774,6 @@
         "올해 탑재 2배 급증"
       ],
       "hash": "78dd91ad6ae2"
-    },
-    {
-      "title": "227만원인데 \"아직도 싸다\"…3개월 만에 389% 폭등 [종목+]",
-      "url": "https://www.hankyung.com/article/202606196538i",
-      "summary": "삼성전기 주가가 적층세라믹콘덴서(MLCC)와 반도체 기판 사업 호황에 힘입어 고공행진하고 있다. 중국의 대일 희토류 수출 통제에 따른 반사이익 기대까지 겹치면서 증권가에서는 목표주가를 300만원까지 제시했다.19일 유가증권시장에서 삼성전기는 전일보다 3.18% 오른 2...",
-      "datetime_raw": "2026.06.19 16:10",
-      "datetime": "2026-06-19T16:10:00+09:00",
-      "dt": "2026-06-19 16:10",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "아직도 싸다"
-      ],
-      "hash": "2d7beefad8af"
     },
     {
       "title": "CXMT 상장이 던지는 진짜 질문…\"﻿중국은 왜 지금?\"",
@@ -1069,38 +1103,6 @@
         "HD현대중공업"
       ],
       "hash": "26bb80263723"
-    },
-    {
-      "title": "\"삼성화재, 보험 영업·투자 부문 모두 안정적 흐름…목표가↑\"-상상인",
-      "url": "https://www.hankyung.com/article/2026061956566",
-      "summary": "상상인증권은 19일 삼성화재에 대해 \"보험 영업과 투자 부문이 모두 안정적인 흐름을 보이면서 실적 개선세가 이어질 것\"이라고 분석했다. 그러면서 목표주가를 기존 60만원에서 80만원으로 상향 조정하고, 투자의견 '매수'를 유지했다.이 증권사 김현수 연구원...",
-      "datetime_raw": "2026.06.19 07:49",
-      "datetime": "2026-06-19T07:49:00+09:00",
-      "dt": "2026-06-19 07:49",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 33.33333333333333,
-      "keywords": [
-        "삼성화재"
-      ],
-      "hash": "91452d17a386"
-    },
-    {
-      "title": "'그 돈으로 삼전 주식 살걸'…삼성전자, 비트코인 시총 추월",
-      "url": "https://www.hankyung.com/article/2026061956267",
-      "summary": "글로벌 자산 시가총액 순위에서 삼성전자와 비트코인의 격차가 다시 벌어졌다. 코스피가 장중 처음으로 9000선을 돌파하며 반도체주가 강세를 보인 반면, 비트코인은 약세를 이어가면서다.19일 시가총액 집계 사이트 컴퍼니즈마켓캡에 따르면 이날 기준 삼성전자 시가총액은 약 1...",
-      "datetime_raw": "2026.06.19 07:46",
-      "datetime": "2026-06-19T07:46:00+09:00",
-      "dt": "2026-06-19 07:46",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "그 돈으로 삼전 주식 살걸"
-      ],
-      "hash": "88281045b132"
     }
   ],
   "consensus_signals": []

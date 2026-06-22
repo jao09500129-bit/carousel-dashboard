@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-22 09:31 KST",
+  "as_of": "2026-06-22 11:00 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -14,14 +14,14 @@
       "url": "https://www.hankyung.com/article/202606207724i"
     },
     {
+      "title": "연봉 2억 넘는데 '이럴 줄은'…美 부자들까지 덮친 '공포'",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202606229481i"
+    },
+    {
       "title": "스페이스X, 상장 후 첫 투자등급 회사채 발행 추진",
       "summary": "",
       "url": "https://www.hankyung.com/article/202606197142i"
-    },
-    {
-      "title": "\"반도체주 사려면 1억 가져오라고?\"…日 개미들 불만 폭발 [도쿄나우]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202606195652i"
     },
     {
       "title": "조정장에도 코카콜라는 오른다",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "LG씨엔에스·LG전자, 엔비디아 협력 기대에 6%대 급등 (2026-06-22 09:24)",
-    "유안타증권, 고객 맞춤형 투자 서비스 'AI PB' 출시 (2026-06-22 09:24)",
-    "카카오게임즈, 최대주주 변경 완료에 장 초반 18% 급등 (2026-06-22 09:23)"
+    "KB자산운용, 제이엘케이 지분 5.09% 취득…\"단순 투자 목적\" (2026-06-22 10:58)",
+    "코스피 9200 회복…하이닉스, '290만' 찍고 시총 2000조 재돌파 (2026-06-22 10:39)",
+    "코스피, 외국인 매도에 9000선 내줘…미·이란 협상 난항 영향 (2026-06-22 09:30)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
@@ -43,12 +43,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "+6.42%"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW +0.65% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "+0.65%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-22T09:30:52.613147+09:00",
+    "collected_at": "2026-06-22T11:00:10.682770+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -118,9 +125,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,530.56",
-            "chg": "2.91",
-            "chg_pct": "+0.19%"
+            "close": "1,537.56",
+            "chg": "9.91",
+            "chg_pct": "+0.65%"
           },
           {
             "name": "유로",
@@ -132,16 +139,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "947.97",
-            "chg": "0.54",
-            "chg_pct": "-0.06%"
+            "close": "951.83",
+            "chg": "3.32",
+            "chg_pct": "+0.35%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "226.10",
-            "chg": "0.10",
-            "chg_pct": "+0.04%"
+            "close": "227.13",
+            "chg": "1.13",
+            "chg_pct": "+0.50%"
           }
         ]
       },
@@ -233,9 +240,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.63",
-            "chg": "0.02",
-            "chg_pct": "+0.57%"
+            "close": "2.66",
+            "chg": "0.03",
+            "chg_pct": "+1.07%"
           }
         ]
       }
