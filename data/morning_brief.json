@@ -55,7 +55,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-22T11:00:10.682770+09:00",
+    "collected_at": "2026-06-22T11:00:52.202331+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,8 +125,8 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,537.56",
-            "chg": "9.91",
+            "close": "1,537.62",
+            "chg": "9.97",
             "chg_pct": "+0.65%"
           },
           {
@@ -139,16 +139,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "951.83",
-            "chg": "3.32",
-            "chg_pct": "+0.35%"
+            "close": "951.77",
+            "chg": "3.26",
+            "chg_pct": "+0.34%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "227.13",
-            "chg": "1.13",
-            "chg_pct": "+0.50%"
+            "close": "227.11",
+            "chg": "1.11",
+            "chg_pct": "+0.49%"
           }
         ]
       },

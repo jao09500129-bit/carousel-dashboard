@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-22T11:00:10.682770+09:00",
+  "collected_at": "2026-06-22T11:00:52.202331+09:00",
   "date": "2026-06-22",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,14 +9,10 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 9,
-    "target_price_up": 9,
+    "with_broker_mention": 8,
+    "target_price_up": 8,
     "target_price_down": 1,
     "top_brokers": [
-      [
-        "KB",
-        2
-      ],
       [
         "유안타",
         1
@@ -35,6 +31,10 @@
       ],
       [
         "다올",
+        1
+      ],
+      [
+        "KB",
         1
       ],
       [
@@ -776,6 +776,22 @@
       "hash": "78dd91ad6ae2"
     },
     {
+      "title": "227만원인데 \"아직도 싸다\"…3개월 만에 389% 폭등 [종목+]",
+      "url": "https://www.hankyung.com/article/202606196538i",
+      "summary": "삼성전기 주가가 적층세라믹콘덴서(MLCC)와 반도체 기판 사업 호황에 힘입어 고공행진하고 있다. 중국의 대일 희토류 수출 통제에 따른 반사이익 기대까지 겹치면서 증권가에서는 목표주가를 300만원까지 제시했다.19일 유가증권시장에서 삼성전기는 전일보다 3.18% 오른 2...",
+      "datetime_raw": "2026.06.19 16:10",
+      "datetime": "2026-06-19T16:10:00+09:00",
+      "dt": "2026-06-19 16:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "아직도 싸다"
+      ],
+      "hash": "2d7beefad8af"
+    },
+    {
       "title": "CXMT 상장이 던지는 진짜 질문…\"﻿중국은 왜 지금?\"",
       "url": "https://www.hankyung.com/article/202606184383i",
       "summary": "﻿올여름 중국 자본시장의 가장 큰 이벤트는 7월로 예정된 CXMT(창신메모리)의 기업공개다. 시장에서 거론되는 예상 시가총액은 2조~3조 위안, 우리 돈으로 환산하면 400조 원이 훌쩍 넘는다. 중국 1위, 글로벌 4위 D램 제조사가 자본시장에 데뷔하는 것이니 그 자체...",
@@ -1085,24 +1101,6 @@
         "성공 보다 손실 가능성 먼저 계산"
       ],
       "hash": "1e8d249ca1d2"
-    },
-    {
-      "title": "\"HD현대중공업, 엔진사업부의 새로운 먹거리 등장…목표가↑\"-KB",
-      "url": "https://www.hankyung.com/article/2026061956806",
-      "summary": "KB증권은 19일 HD현대중공업에 대해 데이터센터 전력 공급용 엔진발전기가 엔진사업부의 새로운 먹거리로 등장했다며 목표주가를 기존 80만원에서 90만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.HD현대중공업은 6271억원의 엔진발전기를 미국에 공...",
-      "datetime_raw": "2026.06.19 07:58",
-      "datetime": "2026-06-19T07:58:00+09:00",
-      "dt": "2026-06-19 07:58",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 12.5,
-      "keywords": [
-        "HD현대중공업"
-      ],
-      "hash": "26bb80263723"
     }
   ],
   "consensus_signals": []
