@@ -1,21 +1,21 @@
 {
-  "computed_at": "2026-06-22T13:00:57.338599+09:00",
+  "computed_at": "2026-06-22T15:01:01.509498+09:00",
   "score": 53,
   "label": "NEUTRAL",
   "label_kr": "보통",
   "label_emoji": "😐",
   "components": {
-    "volatility": 7.1,
+    "volatility": 9.1,
     "divergence": 50,
     "target_up_ratio": 100.0,
     "publish_freq": 100,
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 18.57,
+    "vol_sum": 18.17,
     "n_divergence": 0,
     "n_signals": 0,
-    "target_up": 8,
+    "target_up": 7,
     "target_down": 0,
     "total_items": 64,
     "velocity": "빠름"
