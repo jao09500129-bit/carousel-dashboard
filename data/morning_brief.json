@@ -1,17 +1,22 @@
 {
-  "as_of": "2026-06-22 16:01 KST",
+  "as_of": "2026-06-22 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "\"친절한 연준씨 이제 없다\"…워시 Fed의 진짜 뜻 [빈난새의 빈틈없이월가]",
+  "headline": "구글, 엔비디아 전략 베끼기…AI 데이터센터에 금융 보증",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "\"친절한 연준씨 이제 없다\"…워시 Fed의 진짜 뜻 [빈난새의 빈틈없이월가]",
+      "title": "구글, 엔비디아 전략 베끼기…AI 데이터센터에 금융 보증",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606207724i"
+      "url": "https://www.hankyung.com/article/2026062211641"
+    },
+    {
+      "title": "이란 \"미국 봉쇄 해제로 원유 2500만배럴 통과…수출 재개\"",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026062211567"
     },
     {
       "title": "연봉 2억 넘는데 '이럴 줄은'…美 부자들까지 덮친 '공포'",
@@ -22,17 +27,12 @@
       "title": "스페이스X, 상장 후 첫 투자등급 회사채 발행 추진",
       "summary": "",
       "url": "https://www.hankyung.com/article/202606197142i"
-    },
-    {
-      "title": "조정장에도 코카콜라는 오른다",
-      "summary": "",
-      "url": "https://magazine.hankyung.com/money/article/202605159023c"
     }
   ],
   "today_kr_focus": [
-    "미래에셋증권 \"금가분리 철폐돼야…토큰증권 규제도 완화 필요\" (2026-06-22 15:58)",
-    "\"대체 카카오게임즈 주가 언제 올라\"…日라인야후 품에 안겨 '반전' (2026-06-22 15:57)",
-    "코스피, 또 사상 최고치…9114.55 마감 (2026-06-22 15:35)"
+    "\"망해가던 하이닉스 138배 키워\"…'경영인 최태원' 재평가 [강경주의 테크X] (2026-06-22 22:00)",
+    "엔비디아 협업 기대감…LG CNS '들썩' (2026-06-22 18:06)",
+    "멜트업 장세엔 이 포지션 구축해야 [한경 프리미엄9 TODAY] (2026-06-22 17:50)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
@@ -46,16 +46,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.69% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.57% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.69%"
+        "trigger_value": "+0.57%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-22T16:00:48.500711+09:00",
+    "collected_at": "2026-06-22T23:10:50.382841+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -92,16 +92,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "71,250.06",
-            "chg": "196.57",
-            "chg_pct": "+0.28%"
+            "close": "72,353.96",
+            "chg": "1,103.90",
+            "chg_pct": "+1.55%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "46,465.20",
-            "chg": "587.81",
-            "chg_pct": "+1.28%"
+            "close": "47,741.51",
+            "chg": "1,276.31",
+            "chg_pct": "+2.75%"
           },
           {
             "name": "독일",
@@ -113,9 +113,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "23,924.81",
-            "chg": "387.35",
-            "chg_pct": "-1.59%"
+            "close": "23,768.52",
+            "chg": "156.29",
+            "chg_pct": "-0.65%"
           }
         ]
       },
@@ -125,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,538.17",
-            "chg": "10.52",
-            "chg_pct": "+0.69%"
+            "close": "1,536.41",
+            "chg": "8.76",
+            "chg_pct": "+0.57%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,763.16",
-            "chg": "8.24",
-            "chg_pct": "+0.47%"
+            "close": "1,756.63",
+            "chg": "1.71",
+            "chg_pct": "+0.10%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "951.54",
-            "chg": "3.03",
-            "chg_pct": "+0.32%"
+            "close": "951.21",
+            "chg": "2.70",
+            "chg_pct": "+0.28%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "227.26",
-            "chg": "1.26",
-            "chg_pct": "+0.56%"
+            "close": "226.95",
+            "chg": "0.95",
+            "chg_pct": "+0.42%"
           }
         ]
       },

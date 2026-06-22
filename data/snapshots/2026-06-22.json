@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-22T16:00:48.500711+09:00",
+  "collected_at": "2026-06-22T23:10:50.382841+09:00",
   "date": "2026-06-22",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -10,7 +10,7 @@
   "total_items": 64,
   "stats": {
     "with_broker_mention": 9,
-    "target_price_up": 7,
+    "target_price_up": 6,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -52,6 +52,122 @@
     ]
   },
   "items": [
+    {
+      "title": "\"망해가던 하이닉스 138배 키워\"…'경영인 최태원' 재평가 [강경주의 테크X]",
+      "url": "https://www.hankyung.com/article/2026062209446",
+      "summary": "SK하이닉스가 25년7개월 만에 한국 증시의 역사를 다시 썼다. 최태원 SK그룹 회장이 내부 반대에도 인수를 밀어붙여 2012년 출범한 SK하이닉스가 삼성전자를 제치고 유가증권(코스피)시장 시가총액 1위에 오르면서 그의 경영 안목이 새롭게 조명받고 있...",
+      "datetime_raw": "2026.06.22 22:00",
+      "datetime": "2026-06-22T22:00:00+09:00",
+      "dt": "2026-06-22 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "경영인 최태원",
+        "망해가던 하이닉스 138배 키워"
+      ],
+      "hash": "af8b8e5822e3"
+    },
+    {
+      "title": "엔비디아 협업 기대감…LG CNS '들썩'",
+      "url": "https://www.hankyung.com/article/2026062212371",
+      "summary": "LG그룹이 엔비디아와 인공지능(AI)과 로보틱스 분야 협력을 구체화한다는 소식에 LG그룹주가 대부분 동반 상승했다. 젠슨 황 엔비디아 대표와 협력 논의를 시작한지 2주만에 두 회사가 후속 협의를 진행하면서 LG의 AI 사업에 대한 기대감이 높아지면서다. 특히 이번 엔비...",
+      "datetime_raw": "2026.06.22 18:06",
+      "datetime": "2026-06-22T18:06:00+09:00",
+      "dt": "2026-06-22 18:06",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "엔비디아 협업 기대감"
+      ],
+      "hash": "9fec4062a12c"
+    },
+    {
+      "title": "멜트업 장세엔 이 포지션 구축해야 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026062211381",
+      "summary": "멜트업 장세엔 이 포지션 구축해야 최홍석 우리자산운용 ETF솔루션 본부장(사진)은 현재 증시를 과열된 ‘멜트업’ 장세로 진단했다. 그러면서 미국 ‘제네시스 미션’ 관련 인공지능(AI) 인프라 수혜주를 주목해야 한다고...",
+      "datetime_raw": "2026.06.22 17:50",
+      "datetime": "2026-06-22T17:50:00+09:00",
+      "dt": "2026-06-22 17:50",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "acaff9dd5847"
+    },
+    {
+      "title": "SK하이닉스, 증시 새 황제의 '대관식'",
+      "url": "https://www.hankyung.com/article/2026062212081",
+      "summary": "한국 주식시장의 ‘대장주’가 26년 만에 교체됐다. 2000년대 초반 부도 위기에 몰려 껌값도 안 되는 ‘100원대 동전주’로 전락했던 SK하이닉스가 삼성전자를 제치고 한국 증시 대장주 자리(단일 종목 기준)에 올랐다. 코스피...",
+      "datetime_raw": "2026.06.22 17:47",
+      "datetime": "2026-06-22T17:47:00+09:00",
+      "dt": "2026-06-22 17:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "대관식",
+        "SK하이닉스"
+      ],
+      "hash": "169026456dba"
+    },
+    {
+      "title": "파산 위기 '100원대 동전주'의 대반전…한국 '대장주' 됐다",
+      "url": "https://www.hankyung.com/article/2026062212201",
+      "summary": "한국 주식시장의 ‘대장주’가 26년 만에 교체됐다. 2000년대 초반 부도 위기에 몰려 껌값도 안 되는 ‘100원대 동전주’로 전락했던 SK하이닉스가 삼성전자를 제치고 한국 증시 대장주 자리(단일 종목 기준)에 올랐다. 코스피...",
+      "datetime_raw": "2026.06.22 17:47",
+      "datetime": "2026-06-22T17:47:00+09:00",
+      "dt": "2026-06-22 17:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "대장주",
+        "100원대 동전주"
+      ],
+      "hash": "c393bb492477"
+    },
+    {
+      "title": "LG·LG CNS 엔비디아 동맹 구체화에 '방긋'…삼성·현대 SI 기업은 '울상'",
+      "url": "https://www.hankyung.com/article/202606220939i",
+      "summary": "LG그룹이 엔비디아와 인공지능(AI)과 로보틱스 분야 협력을 구체화한다는 소식에 LG그룹주가 대부분 동반 상승했다. 젠슨 황 엔비디아 대표와 협력 논의를 시작한지 2주만에 두 회사가 후속 협의를 진행하면서 LG의 AI 사업에 대한 기대감이 높아지면서다. 특히&...",
+      "datetime_raw": "2026.06.22 17:31",
+      "datetime": "2026-06-22T17:31:00+09:00",
+      "dt": "2026-06-22 17:31",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "방긋",
+        "울상",
+        "LG"
+      ],
+      "hash": "40fc2439663e"
+    },
+    {
+      "title": "HBM으로 삼전 꺾고 시총 1위 SK하이닉스…코스피 9100 방어 [종합]",
+      "url": "https://www.hankyung.com/article/2026062207976",
+      "summary": "SK하이닉스가 삼성전자를 제치고 국내 증시 시가총액 1위에 오르며 25년 7개월 만에 코스피 대장주가 바뀌었다. 인공지능(AI) 투자 확대와 고대역폭메모리(HBM) 선점 효과로 주가가 꾸준히 우상향한 결과다. 이번 역전은 AI 시대를 맞아 국내 증시의 주도주가 전자기업...",
+      "datetime_raw": "2026.06.22 16:07",
+      "datetime": "2026-06-22T16:07:00+09:00",
+      "dt": "2026-06-22 16:07",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "HBM으로 삼전 꺾고 시총 1위 SK하이닉스"
+      ],
+      "hash": "3eb41e78d598"
+    },
     {
       "title": "미래에셋증권 \"금가분리 철폐돼야…토큰증권 규제도 완화 필요\"",
       "url": "https://www.hankyung.com/article/202606220850B",
@@ -272,6 +388,90 @@
       "hash": "876fc88eeb67"
     },
     {
+      "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
+      "url": "https://www.hankyung.com/article/2026062190307",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "경악",
+        "호텔 통째로 빌린 중국인들"
+      ],
+      "hash": "4471278f4a63"
+    },
+    {
+      "title": "\"8조 주식 휴지조각 될 판\"…벼랑 끝 몰린 개미들 '공포'",
+      "url": "https://www.hankyung.com/article/2026062184827",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "공포",
+        "8조 주식 휴지조각 될 판"
+      ],
+      "hash": "51276e5f1980"
+    },
+    {
+      "title": "\"스마트폰 때문에 더 불편\"…삼성전자가 꺼낸 '비장의 무기'",
+      "url": "https://www.hankyung.com/article/2026062190947",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비장의 무기",
+        "스마트폰 때문에 더 불편"
+      ],
+      "hash": "adad8b33dacb"
+    },
+    {
+      "title": "팔고, 팔고, 또 팔고…국민연금, '9천피'에 1.2조 던진 이유",
+      "url": "https://www.hankyung.com/article/2026062189181",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔고",
+        "9천피"
+      ],
+      "hash": "d261892b9601"
+    },
+    {
+      "title": "손풍기가 '15만원'인데 품절 대란?…직접 써보니 달랐다",
+      "url": "https://www.hankyung.com/article/202606196089g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "15만원"
+      ],
+      "hash": "8ae72d2962f2"
+    },
+    {
       "title": "LG씨엔에스·LG전자, 엔비디아 협력 기대에 6%대 급등",
       "url": "https://www.hankyung.com/article/2026062295076",
       "summary": "엔비디아의 협력 기대에 LG씨엔에스와 LG전자가 22일 장 초반 강세를 보이고 있다.이날 오전 9시16분 LG씨엔에스는 전 거래일 대비 5800원(6.76%) 뛴 9만1600원에, LG전자는 1만3000원(6.15%) 오른 22만4500원에 각각 거래되고 있다.업계에 ...",
@@ -323,9 +523,9 @@
       "hash": "4e093013ee8c"
     },
     {
-      "title": "코스피 9,040선 등락 중… SK하이닉스 시총 1위 등극 [오후 2시10분 시황]",
+      "title": "코스피 9,114선 마감… SK하이닉스 시총 1위 등극 [장 마감 시황]",
       "url": "https://www.hankyung.com/article/202606229371i",
-      "summary": "🕘 SK하이닉스 26년 만에 시총 1위… 코스피 상승폭 축소, 코스닥 약세 지속오후 2시 기준, 코스피는 전일 대비 8.85포인트(-0.10%) 하락한 9,043.57에 거래되고 있으며, 코스닥은 전일 대비 14.32포인트(-1.48%) 하락한 952.27...",
+      "summary": "🕘 반도체 쏠림 속 코스피 0.69% 상승 마감… 코스닥도 소폭 강보합[장 마감 시황]6월 22일 오후 3시 30분 마감 기준, 코스피는 전일 대비 62.13포인트(+0.69%) 상승한 9,114.55에 장을 마쳤으며, 코스닥은 1.81포인트(+0.19%)...",
       "datetime_raw": "2026.06.22 09:21",
       "datetime": "2026-06-22T09:21:00+09:00",
       "dt": "2026-06-22 09:21",
@@ -387,89 +587,6 @@
         "고점 대비 35% 빠진 현대건설"
       ],
       "hash": "1ceb88e9caf3"
-    },
-    {
-      "title": "\"65세 되도록 입원 한 번 안 해\"…함익병 꼽은 건강 비결은",
-      "url": "https://www.hankyung.com/article/2026062183957",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "65세 되도록 입원 한 번 안 해"
-      ],
-      "hash": "caf55ef5f20f"
-    },
-    {
-      "title": "\"8조 주식 휴지조각 될 판\"…벼랑 끝 몰린 개미들 '공포'",
-      "url": "https://www.hankyung.com/article/2026062184827",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "공포",
-        "8조 주식 휴지조각 될 판"
-      ],
-      "hash": "51276e5f1980"
-    },
-    {
-      "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
-      "url": "https://www.hankyung.com/article/2026062190307",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "경악",
-        "호텔 통째로 빌린 중국인들"
-      ],
-      "hash": "4471278f4a63"
-    },
-    {
-      "title": "손풍기가 '15만원'인데 품절 대란?…직접 써보니 달랐다",
-      "url": "https://www.hankyung.com/article/202606196089g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "15만원"
-      ],
-      "hash": "8ae72d2962f2"
-    },
-    {
-      "title": "팔고, 팔고, 또 팔고…국민연금, '9천피'에 1.2조 던진 이유",
-      "url": "https://www.hankyung.com/article/2026062189181",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "팔고",
-        "9천피"
-      ],
-      "hash": "d261892b9601"
     },
     {
       "title": "\"SK스퀘어, 하이닉스 배당금으로 M&A 나설 전망…목표가↑\"-NH",
@@ -996,121 +1113,6 @@
         "코스피"
       ],
       "hash": "aaab329e7ba3"
-    },
-    {
-      "title": "\"괜히 샀네\"…스페이스X 담은 ETF 줄줄이 '파란불'",
-      "url": "https://www.hankyung.com/article/202606197000i",
-      "summary": "스페이스X 주가가 상장 직후 급등세를 뒤로하고 이틀 연속 하락했다. 상장 초기 기대가 주가에 빠르게 반영된 데다 밸류에이션 부담이 부각되면서 차익실현 매물이 쏟아진 영향으로 풀이된다. 이에 스페이스X를 편입한 국내 우주항공 상장지수펀드(ETF) 수익률도 일제히 뒷걸음질...",
-      "datetime_raw": "2026.06.19 15:42",
-      "datetime": "2026-06-19T15:42:00+09:00",
-      "dt": "2026-06-19 15:42",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "파란불",
-        "괜히 샀네"
-      ],
-      "hash": "1263445fdb6e"
-    },
-    {
-      "title": "예탁원, '퇴직연금 플랫폼 10주년 기념행사' 개최",
-      "url": "https://www.hankyung.com/article/2026061970646",
-      "summary": "한국예탁결제원은 19일 서울 여의도 콘래드 호텔에서 ‘퇴직연금 플랫폼 10주년 기념행사’를 열었다고 밝혔다.2016년 6월 개통한 퇴직연금 플랫폼은 현재 44개 퇴직연금사업자가 이용 중이다.퇴직연금 플랫폼은 적립금 운용 이후 후선 업무를 표준화&m...",
-      "datetime_raw": "2026.06.19 15:36",
-      "datetime": "2026-06-19T15:36:00+09:00",
-      "dt": "2026-06-19 15:36",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "예탁원",
-        "퇴직연금 플랫폼 10주년 기념행사"
-      ],
-      "hash": "8e6887ca4216"
-    },
-    {
-      "title": "거래소, 프리·애프터마켓 개설 일정 재차 연기",
-      "url": "https://www.hankyung.com/article/2026061970476",
-      "summary": "한국거래소는 19일 증권사 사장단과의 간담회를 통해 증권시장 프리마켓 개설 일정을 내년 말로, 애프터마켓 개설 일정을 오는 9월14일로 각각 조정하기로 결정했다고 밝혔다.앞서서도 거래소는 프리·애프터 마켓 개설 일정을 올해 6월에서 9월로 한 차례 연기한 ...",
-      "datetime_raw": "2026.06.19 15:32",
-      "datetime": "2026-06-19T15:32:00+09:00",
-      "dt": "2026-06-19 15:32",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "거래소"
-      ],
-      "hash": "d9374d64bc1f"
-    },
-    {
-      "title": "'텍스트힙'보다 배당?… 밀리·예스24 반등 실마리 찾나",
-      "url": "https://www.hankyung.com/article/202606184227i",
-      "summary": "코스닥시장 상장사 KT밀리의서재와 예스24가 배당 매력을 앞세워 저평가 해소에 나서고 있다. 출판 관련주의 주가가 전반적으로 힘을 쓰지 못하고 있는 상황에서 꺼내든 카드다. KT밀리의서재는 실적 성장과 첫 배당이, 예스24는 고배당 매력이 부각되면서 주가 반등의 실마리...",
-      "datetime_raw": "2026.06.19 13:50",
-      "datetime": "2026-06-19T13:50:00+09:00",
-      "dt": "2026-06-19 13:50",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "텍스트힙"
-      ],
-      "hash": "ed7853cdf082"
-    },
-    {
-      "title": "현대차 질주에 가려진 기아…증권가 \"재평가 가능성 주목\"",
-      "url": "https://www.hankyung.com/article/202606184856i",
-      "summary": "올해 들어 현대차와 기아의 시가총액 격차가 4배로 벌어졌지만 증권가는 기아의 재평가 가능성에 주목하고 있다. 실적 개선 기대가 높아지고 있는 데다 현대차그룹의 로봇 사업 가치가 충분히 반영되지 않았다는 분석에서다.올해 들어 양사 주가의 상승 폭은 차이를 보였...",
-      "datetime_raw": "2026.06.19 13:30",
-      "datetime": "2026-06-19T13:30:00+09:00",
-      "dt": "2026-06-19 13:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "재평가 가능성 주목",
-        "현대차 질주에 가려진 기아"
-      ],
-      "hash": "8167bf07431f"
-    },
-    {
-      "title": "코스피, 장중 9300선 돌파 후 하락전환…9000선 붕괴",
-      "url": "https://www.hankyung.com/article/2026061965846",
-      "summary": "[속보] 코스피, 장중 9300선 돌파 후 하락전환…9000선 붕괴고정삼 한경닷컴 기자 jsk@hankyung.com",
-      "datetime_raw": "2026.06.19 12:36",
-      "datetime": "2026-06-19T12:36:00+09:00",
-      "dt": "2026-06-19 12:36",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "6f5604e2928d"
-    },
-    {
-      "title": "주주환원 확대·삼전 지분 가치 상승…삼성물산, 12% 급등 [종목+]",
-      "url": "https://www.hankyung.com/article/2026061960856",
-      "summary": "삼성물산이 19일 장 초반 급등세다. 증권가의 목표주가 상향 조정과 대규모 주주환원 확대 전망, 삼성전자 지분 가치 상승 영향으로 풀이된다.이날 오전 9시24분 삼성물산은 전 거래일 대비 12.26% 오른 54만5000원에 거래 중이다. 이같은 흐름은 증권가에서 삼성물...",
-      "datetime_raw": "2026.06.19 09:42",
-      "datetime": "2026-06-19T09:42:00+09:00",
-      "dt": "2026-06-19 09:42",
-      "brokers": [],
-      "opinion": null,
-      "target_action": "up",
-      "target_change_pct": null,
-      "keywords": [
-        "주주환원 확대"
-      ],
-      "hash": "5765e6c9f588"
     }
   ],
   "consensus_signals": []
