@@ -1,0 +1,17 @@
+{
+  "computed_at": "2026-06-22T09:30:52.613147+09:00",
+  "date": "2026-06-22",
+  "summary": {
+    "broker_consensus": 0,
+    "target_price_cluster_up": 0,
+    "target_price_cluster_down": 0,
+    "divergence": 0
+  },
+  "signals": {
+    "broker_consensus": [],
+    "target_price_cluster_up": [],
+    "target_price_cluster_down": [],
+    "divergence": []
+  },
+  "note": "★ 미검증 가설. 백테스트로 alpha 확인 전 매매 직접 사용 금지."
+}
