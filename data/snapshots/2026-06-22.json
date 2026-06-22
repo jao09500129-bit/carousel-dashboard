@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-22T15:01:01.509498+09:00",
+  "collected_at": "2026-06-22T16:00:48.500711+09:00",
   "date": "2026-06-22",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,10 +9,14 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 8,
+    "with_broker_mention": 9,
     "target_price_up": 7,
     "target_price_down": 0,
     "top_brokers": [
+      [
+        "미래에셋",
+        1
+      ],
       [
         "신한",
         1
@@ -48,6 +52,91 @@
     ]
   },
   "items": [
+    {
+      "title": "미래에셋증권 \"금가분리 철폐돼야…토큰증권 규제도 완화 필요\"",
+      "url": "https://www.hankyung.com/article/202606220850B",
+      "summary": "미래에셋증권이 블록체인 기술로 금융 산업을 혁신하려면 '금융·가상자산 분리(금가분리)' 규제를 완화해야 한다는 제언을 내놨다.이용재 미래에셋증권 디지털자산산업본부 본부장은 22일 서울 여의도 국회의원회관에서 열린 '글로벌 디지털자산 제도화 동향과 대한민국의 입법 방향'...",
+      "datetime_raw": "2026.06.22 15:58",
+      "datetime": "2026-06-22T15:58:00+09:00",
+      "dt": "2026-06-22 15:58",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미래에셋증권 \"금가분리 철폐돼야",
+        "금가분리 철폐돼야…토큰증권 규제도 완화 필요"
+      ],
+      "hash": "e5ac77e57fea"
+    },
+    {
+      "title": "\"대체 카카오게임즈 주가 언제 올라\"…日라인야후 품에 안겨 '반전'",
+      "url": "https://www.hankyung.com/article/202606220690i",
+      "summary": "일본 라인야후가 최대주주인 카카오게임즈가 신임 경영진 선임과 대규모 자금 조달 소식에 힘입어 모처럼 주가가 급등했다.22일 한국거래소에 따르면 카카오게임즈 주가는 전 거래일 대비 13.96% 상승한 1만40원에 장을 마쳤다. 이 회사는 이날 개장 직후 매수세가 몰려 장...",
+      "datetime_raw": "2026.06.22 15:57",
+      "datetime": "2026-06-22T15:57:00+09:00",
+      "dt": "2026-06-22 15:57",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반전",
+        "대체 카카오게임즈 주가 언제 올라"
+      ],
+      "hash": "1a8ba54b8c4b"
+    },
+    {
+      "title": "코스피, 또 사상 최고치…9114.55 마감",
+      "url": "https://www.hankyung.com/article/2026062207897",
+      "summary": "코스피가 22일 소폭 상승해 9100대에서 마감하면서 종가 기준 최고치를 기록했다.이날 한국거래소에 따르면 코스피는 전 거래일 대비 62.13포인트(0.69%) 오른 9114.55로 장을 마쳤다.지수는 전장보다 97.99포인트(1.08%) 내린 8,954.43으로 출발...",
+      "datetime_raw": "2026.06.22 15:35",
+      "datetime": "2026-06-22T15:35:00+09:00",
+      "dt": "2026-06-22 15:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "f10f1ea48ff1"
+    },
+    {
+      "title": "솔라나정책연구소 \"美 상원, 내달 말께 클래리티법 논의 본격화 예상\"",
+      "url": "https://www.hankyung.com/article/202606220741B",
+      "summary": "솔라나(SOL) 기반 싱크탱크 솔라나정책연구소(SPI)가 다음달 가상자산 시장구조법(클래리티법) 제정 논의가 본격화할 수 있다는 관측을 내놨다.밀러 화이트하우스-레빈 솔라나정책연구소 최고경영자(CEO)는 22일 서울 여의도 국회의원회관에서 열린 '글로벌 디지털자산 제도...",
+      "datetime_raw": "2026.06.22 15:17",
+      "datetime": "2026-06-22T15:17:00+09:00",
+      "dt": "2026-06-22 15:17",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "솔라나정책연구소 \"美 상원",
+        "美 상원, 내달 말께 클래리티법 논의 본격화 예상"
+      ],
+      "hash": "2afc3139ff99"
+    },
+    {
+      "title": "일주일 만에 이익 전망 18% '껑충'…이 폐배터리 종목 보니",
+      "url": "https://www.hankyung.com/article/202606218698i",
+      "summary": "폐배터리 재활용기업 성일하이텍의 올해 영업이익 컨센서스가 한 주 새 큰 폭으로 상향됐다. 건설기업 아이에스동서에 대한 기대치도 높아졌다.21일 인공지능(AI) 기반 투자정...",
+      "datetime_raw": "2026.06.22 15:02",
+      "datetime": "2026-06-22T15:02:00+09:00",
+      "dt": "2026-06-22 15:02",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "껑충"
+      ],
+      "hash": "3b9622a14414"
+    },
     {
       "title": "안도걸 \"디지털자산, 차세대 금융 인프라로 발전…제도화 시급해\"",
       "url": "https://www.hankyung.com/article/202606220513B",
@@ -300,6 +389,89 @@
       "hash": "1ceb88e9caf3"
     },
     {
+      "title": "\"65세 되도록 입원 한 번 안 해\"…함익병 꼽은 건강 비결은",
+      "url": "https://www.hankyung.com/article/2026062183957",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "65세 되도록 입원 한 번 안 해"
+      ],
+      "hash": "caf55ef5f20f"
+    },
+    {
+      "title": "\"8조 주식 휴지조각 될 판\"…벼랑 끝 몰린 개미들 '공포'",
+      "url": "https://www.hankyung.com/article/2026062184827",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "공포",
+        "8조 주식 휴지조각 될 판"
+      ],
+      "hash": "51276e5f1980"
+    },
+    {
+      "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
+      "url": "https://www.hankyung.com/article/2026062190307",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "경악",
+        "호텔 통째로 빌린 중국인들"
+      ],
+      "hash": "4471278f4a63"
+    },
+    {
+      "title": "손풍기가 '15만원'인데 품절 대란?…직접 써보니 달랐다",
+      "url": "https://www.hankyung.com/article/202606196089g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "15만원"
+      ],
+      "hash": "8ae72d2962f2"
+    },
+    {
+      "title": "팔고, 팔고, 또 팔고…국민연금, '9천피'에 1.2조 던진 이유",
+      "url": "https://www.hankyung.com/article/2026062189181",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔고",
+        "9천피"
+      ],
+      "hash": "d261892b9601"
+    },
+    {
       "title": "\"SK스퀘어, 하이닉스 배당금으로 M&A 나설 전망…목표가↑\"-NH",
       "url": "https://www.hankyung.com/article/2026062293956",
       "summary": "NH투자증권은 22일 SK스퀘어에 대해 \"긍정적인 반도체 업황에 따른 SK하이닉스의 주가 상승이 SK스퀘어의 기업가치 상승으로 이어지고 있다\"고 분석했다. 목표주가는 기존 110만원에서 270만원으로 상향조정하고, 투자의견 '매수'를 유지했다.이 증권사 ...",
@@ -387,89 +559,6 @@
         "KB證 금메달팀"
       ],
       "hash": "cbc980adcaef"
-    },
-    {
-      "title": "\"65세 되도록 입원 한 번 안 해\"…함익병 꼽은 건강 비결은",
-      "url": "https://www.hankyung.com/article/2026062183957",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "65세 되도록 입원 한 번 안 해"
-      ],
-      "hash": "caf55ef5f20f"
-    },
-    {
-      "title": "\"8조 주식 휴지조각 될 판\"…벼랑 끝 몰린 개미들 '공포'",
-      "url": "https://www.hankyung.com/article/2026062184827",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "공포",
-        "8조 주식 휴지조각 될 판"
-      ],
-      "hash": "51276e5f1980"
-    },
-    {
-      "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
-      "url": "https://www.hankyung.com/article/2026062190307",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "경악",
-        "호텔 통째로 빌린 중국인들"
-      ],
-      "hash": "4471278f4a63"
-    },
-    {
-      "title": "손풍기가 '15만원'인데 품절 대란?…직접 써보니 달랐다",
-      "url": "https://www.hankyung.com/article/202606196089g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "15만원"
-      ],
-      "hash": "8ae72d2962f2"
-    },
-    {
-      "title": "팔고, 팔고, 또 팔고…국민연금, '9천피'에 1.2조 던진 이유",
-      "url": "https://www.hankyung.com/article/2026062189181",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "팔고",
-        "9천피"
-      ],
-      "hash": "d261892b9601"
     },
     {
       "title": "자사주 1000만주 태우자 뭉칫돈 쐈다…외국인 홀린 '이 기업' 정체는",
@@ -1022,87 +1111,6 @@
         "주주환원 확대"
       ],
       "hash": "5765e6c9f588"
-    },
-    {
-      "title": "AI 훈풍 탄 키옥시아…베인캐피털, 150억달러 잭팟",
-      "url": "https://www.hankyung.com/article/202606195708i",
-      "summary": "미국 사모펀드(PEF) 베인캐피털이 8년 전 인수한 메모리 반도체 업체 키옥시아를 통해 막대한 투자 성과를 거둘 전망이다. 키옥시아가 상장 이후 주가가 5000% 넘게 급등하면서 일본 증시를 대표하는 기업으로 떠오른 덕분이다.18일(현지시간) 파이낸셜타임스(FT)는 소...",
-      "datetime_raw": "2026.06.19 09:41",
-      "datetime": "2026-06-19T09:41:00+09:00",
-      "dt": "2026-06-19 09:41",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "AI 훈풍 탄 키옥시아"
-      ],
-      "hash": "04ded543f923"
-    },
-    {
-      "title": "씨피시스템, 인텔 장비 밸류체인 진입 소식에 상한가",
-      "url": "https://www.hankyung.com/article/2026061960726",
-      "summary": "씨피시스템이 미국 인텔 현지 공장에 적용되는 국내 반도체 엣지그라인더 장비에 자사 고청정 케이블 보호솔루션 'G-클린체인'을 공급했다는 소식 이후 주가가 19일 장 초반 천장을 쳤다.이날 오전 9시29분 현재 씨피시스템은 가격제한폭(735원·...",
-      "datetime_raw": "2026.06.19 09:36",
-      "datetime": "2026-06-19T09:36:00+09:00",
-      "dt": "2026-06-19 09:36",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "씨피시스템"
-      ],
-      "hash": "0e59c311d6e1"
-    },
-    {
-      "title": "개인, 1조원 넘게 순매수…'9천피'는 지켰다 [마감 시황]",
-      "url": "https://www.hankyung.com/article/202606195993i",
-      "summary": "🕘 오전 사상 최고치 경신 후 극적 반전… 기관·외국인 동반 매도에 양대 지수 약세 마감6월 19일 오후 3시 30분 마감 기준, 코스피는 전일 대비 11.42포인트(0.13%) 하락한 9,052.42로 거래를 마쳤으며, 코스닥은 34.34포인...",
-      "datetime_raw": "2026.06.19 09:17",
-      "datetime": "2026-06-19T09:17:00+09:00",
-      "dt": "2026-06-19 09:17",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "개인",
-        "9천피"
-      ],
-      "hash": "eba5f23aa84a"
-    },
-    {
-      "title": "SK하이닉스, 장중 시총 2000조 돌파…삼성전자 이어 두번째",
-      "url": "https://www.hankyung.com/article/2026061959476",
-      "summary": "SK하이닉스가 19일 장중 시가총액 2000조원을 돌파했다.이날 오전 9시5분 현재 SK하이닉스는 전일 대비 15만3000원(5.7%) 오른 283만8000원에 거래되고 있다. 이날 상승으로 SK하이닉스 시총은 약 2022조원까지 증가하면서 삼성전자에 이어 국내 증시에...",
-      "datetime_raw": "2026.06.19 09:12",
-      "datetime": "2026-06-19T09:12:00+09:00",
-      "dt": "2026-06-19 09:12",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "728b580c0f42"
-    },
-    {
-      "title": "코스피, 장중 사상 첫 9300선 돌파…2%대 급등",
-      "url": "https://www.hankyung.com/article/2026061959166",
-      "summary": "코스피지수가 19일 장 초반 3% 가까이 급등해 장중 기준 사상 처음으로 9300선을 돌파했다. 이날 오전 9시3분 현재 코스피지수는 전장 대비 261.96포인트(2.89%) 오른 9325.8을 기록하고 있다. 지수가 9300선을 넘어선 건 장중 기준으로 이번...",
-      "datetime_raw": "2026.06.19 09:01",
-      "datetime": "2026-06-19T09:01:00+09:00",
-      "dt": "2026-06-19 09:01",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "66f56fd85c30"
     }
   ],
   "consensus_signals": []
