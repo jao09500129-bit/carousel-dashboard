@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-21 23:10 KST",
+  "as_of": "2026-06-22 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "수익률 78% 낸 1위의 투자 전략 [한경 프리미엄9 TODAY] (2026-06-21 18:37)",
-    "환율·채권, 원·달러 환율 1500원대 박스권 장세 (2026-06-21 17:35)",
-    "한 달 사이 174% 뛴 삼화콘덴서...MLCC로 피지컬AI 수혜주로 부상 (2026-06-21 16:09)"
+    "LG씨엔에스·LG전자, 엔비디아 협력 기대에 6%대 급등 (2026-06-22 09:24)",
+    "유안타증권, 고객 맞춤형 투자 서비스 'AI PB' 출시 (2026-06-22 09:24)",
+    "카카오게임즈, 최대주주 변경 완료에 장 초반 18% 급등 (2026-06-22 09:23)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
@@ -48,7 +48,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-21T23:10:46.433170+09:00",
+    "collected_at": "2026-06-22T09:30:52.613147+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -118,30 +118,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,527.65",
-            "chg": "2.23",
-            "chg_pct": "-0.15%"
+            "close": "1,530.56",
+            "chg": "2.91",
+            "chg_pct": "+0.19%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,754.92",
-            "chg": "0.50",
-            "chg_pct": "+0.03%"
+            "close": "1,753.82",
+            "chg": "1.10",
+            "chg_pct": "-0.06%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "948.51",
-            "chg": "0.78",
-            "chg_pct": "-0.08%"
+            "close": "947.97",
+            "chg": "0.54",
+            "chg_pct": "-0.06%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "226.00",
-            "chg": "0.03",
-            "chg_pct": "-0.01%"
+            "close": "226.10",
+            "chg": "0.10",
+            "chg_pct": "+0.04%"
           }
         ]
       },
