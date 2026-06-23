@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-23T09:30:48.590166+09:00",
+  "collected_at": "2026-06-23T10:28:50.956975+09:00",
   "date": "2026-06-23",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -10,7 +10,7 @@
   "total_items": 65,
   "stats": {
     "with_broker_mention": 14,
-    "target_price_up": 6,
+    "target_price_up": 5,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -56,6 +56,38 @@
     ]
   },
   "items": [
+    {
+      "title": "OKX·ICE, 美 합작법인 설립 추진…토큰화 주식 시장 연결 나선다",
+      "url": "https://www.hankyung.com/article/202606232312B",
+      "summary": "글로벌 가상자산 거래소 OKX와 뉴욕증권거래소(NYSE) 운영사 인터컨티넨털 익스체인지(ICE)가 토큰화 금융상품과 디지털자산 시장을 위한 합작법인(JV) 설립에 나선다.22일 OKX에 따르면 양사는 각각 50%씩 지분을 보유하는 합작법인을 설립하고 미국 등록 브로커-...",
+      "datetime_raw": "2026.06.23 10:22",
+      "datetime": "2026-06-23T10:22:00+09:00",
+      "dt": "2026-06-23 10:22",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "OKX"
+      ],
+      "hash": "6af00a70f6f9"
+    },
+    {
+      "title": "삼성운용, KODEX 전고체배터리ESS TOP2플러스 ETF 상장",
+      "url": "https://www.hankyung.com/article/2026062320146",
+      "summary": "삼성자산운용은 배터리 산업의 차세대 성장 동력으로 주목받는 전고체 배터리와 에너지저장장치(ESS)에 집중적으로 투자하는 'KODEX 전고체배터리ESS TOP2플러스 상장지수펀드(ETF)'를 신규 상장했다고 23일 밝혔다.이 ETF는 기존 전기차 배터리 중...",
+      "datetime_raw": "2026.06.23 09:38",
+      "datetime": "2026-06-23T09:38:00+09:00",
+      "dt": "2026-06-23 09:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성운용"
+      ],
+      "hash": "3ef90603023a"
+    },
     {
       "title": "동원수산 최대주주·공동대표, 지분율 2% 규모 회사주식 매입키로",
       "url": "https://www.hankyung.com/article/2026062320216",
@@ -139,7 +171,7 @@
       "hash": "856d47f6d417"
     },
     {
-      "title": "주가 117% 뛰었는데도 \"더 간다\"…대규모 배당 예고한 회사 [종목+]",
+      "title": "SK스퀘어 놓쳤으면 '이 종목'…주가 2배 폭등에도 \"더 간다\" [종목+]",
       "url": "https://www.hankyung.com/article/2026062316116",
       "summary": "삼성물산이 반도체 업황 개선에 따른 계열사 지분가치 상승 수혜로 강세를 보이고 있다. 증권가에서는 자체 사업 경쟁력과 예측 가능한 대규모 배당을 갖춘 삼성물산의 저평가 매력이 부각될 것이란 분석이 나온다.23일 한국거래소에 따르면 전날 삼성물산은 전 ...",
       "datetime_raw": "2026.06.23 08:15",
@@ -150,6 +182,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
+        "이 종목",
         "더 간다"
       ],
       "hash": "74e5bc6c40c4"
@@ -344,23 +377,6 @@
       "hash": "af8b8e5822e3"
     },
     {
-      "title": "엔비디아 협업 기대감…LG CNS '들썩'",
-      "url": "https://www.hankyung.com/article/2026062212371",
-      "summary": "LG그룹이 엔비디아와 인공지능(AI) 및 로보틱스 분야 협력을 구체화한다는 소식에 LG그룹주가 대부분 동반 상승했다. 젠슨 황 엔비디아 최고경영자(CEO)와 협력 논의를 시작한 지 2주 만에 두 회사가 후속 협의를 진행해 LG의 AI 사업에 대한 기대가 높아지면서다. ...",
-      "datetime_raw": "2026.06.22 18:06",
-      "datetime": "2026-06-22T18:06:00+09:00",
-      "dt": "2026-06-22 18:06",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "엔비디아 협업 기대감"
-      ],
-      "hash": "9fec4062a12c"
-    },
-    {
       "title": "멜트업 장세엔 이 포지션 구축해야 [한경 프리미엄9 TODAY]",
       "url": "https://www.hankyung.com/article/2026062211381",
       "summary": "멜트업 장세엔 이 포지션 구축해야최홍석 우리자산운용 ETF솔루션 본부장(사진)은 현재 증시를 과열된 ‘멜트업’ 장세로 진단했다. 그러면서 미국 ‘제네시스 미션’ 관련 인공지능(AI) 인프라 수혜주를 주목해야 한다고 ...",
@@ -373,24 +389,6 @@
       "target_change_pct": null,
       "keywords": [],
       "hash": "acaff9dd5847"
-    },
-    {
-      "title": "LG·LG CNS 엔비디아 동맹 구체화에 '방긋'…삼성·현대 SI 기업은 '울상'",
-      "url": "https://www.hankyung.com/article/202606220939i",
-      "summary": "LG그룹이 엔비디아와 인공지능(AI)과 로보틱스 분야 협력을 구체화한다는 소식에 LG그룹주가 대부분 동반 상승했다. 젠슨 황 엔비디아 대표와 협력 논의를 시작한지 2주만에 두 회사가 후속 협의를 진행하면서 LG의 AI 사업에 대한 기대감이 높아지면서다. 특히&...",
-      "datetime_raw": "2026.06.22 17:31",
-      "datetime": "2026-06-22T17:31:00+09:00",
-      "dt": "2026-06-22 17:31",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "방긋",
-        "울상",
-        "LG"
-      ],
-      "hash": "40fc2439663e"
     },
     {
       "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
@@ -443,23 +441,6 @@
       "hash": "fa5dc51625ae"
     },
     {
-      "title": "'매달 50만원씩 3년 꼬박 부으면'…청년들 놀랄 '대박 적금'",
-      "url": "https://www.hankyung.com/article/2026062292177",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "대박 적금",
-        "매달 50만원씩 3년 꼬박 부으면"
-      ],
-      "hash": "daff2d259cd3"
-    },
-    {
       "title": "\"담배로 걷는 세금만 매년 10조 넘는데\"…초비상 걸린 이유",
       "url": "https://www.hankyung.com/article/202606218804i",
       "summary": "",
@@ -474,6 +455,41 @@
         "담배로 걷는 세금만 매년 10조 넘는데"
       ],
       "hash": "c1bd1a5ab6ca"
+    },
+    {
+      "title": "나이키 '버린 자식'이었는데…'국민 운동화 됐다' 대반전",
+      "url": "https://www.hankyung.com/article/202606122990i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "버린 자식",
+        "국민 운동화 됐다"
+      ],
+      "hash": "c150a6cb7976"
+    },
+    {
+      "title": "LG·LG CNS 엔비디아 동맹 구체화에 '방긋'…삼성·현대 SI 기업은 '울상'",
+      "url": "https://www.hankyung.com/article/202606220939i",
+      "summary": "LG그룹이 엔비디아와 인공지능(AI)과 로보틱스 분야 협력을 구체화한다는 소식에 LG그룹주가 대부분 동반 상승했다. 젠슨 황 엔비디아 대표와 협력 논의를 시작한지 2주만에 두 회사가 후속 협의를 진행하면서 LG의 AI 사업에 대한 기대감이 높아지면서다. 특히&...",
+      "datetime_raw": "2026.06.22 17:31",
+      "datetime": "2026-06-22T17:31:00+09:00",
+      "dt": "2026-06-22 17:31",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "방긋",
+        "울상",
+        "LG"
+      ],
+      "hash": "40fc2439663e"
     },
     {
       "title": "HBM으로 삼전 꺾고 시총 1위 SK하이닉스…코스피 9100 방어 [종합]",
@@ -1125,23 +1141,6 @@
         "로봇테마"
       ],
       "hash": "873e92514d61"
-    },
-    {
-      "title": "증권사 콕 찍은 종목만 샀는데…최근 1년 급등장선 '대반전' [투자톡]",
-      "url": "https://www.hankyung.com/article/2026061966856",
-      "summary": "증권사 목표주가 컨센서스(증권사 추정치 평균)가 대폭 상향 조정된 종목으로만 구성한 포트폴리오의 수익률이 최근 1년간 코스피지수 상승률에 크게 밀린 것으로 나타났다. 반도체 대형주 쏠림 현상에 따른 결과다. 다만 강세장으로 접어들기 전인 작년 3월까지는 목표가 컨센서스...",
-      "datetime_raw": "2026.06.21 07:11",
-      "datetime": "2026-06-21T07:11:00+09:00",
-      "dt": "2026-06-21 07:11",
-      "brokers": [],
-      "opinion": null,
-      "target_action": "up",
-      "target_change_pct": null,
-      "keywords": [
-        "대반전",
-        "증권사 콕 찍은 종목만 샀는데"
-      ],
-      "hash": "c8dc40ec0153"
     }
   ],
   "consensus_signals": []
