@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-23T10:28:50.956975+09:00",
+  "collected_at": "2026-06-23T11:00:57.463150+09:00",
   "date": "2026-06-23",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 14,
+    "with_broker_mention": 15,
     "target_price_up": 5,
     "target_price_down": 0,
     "top_brokers": [
@@ -28,6 +28,10 @@
       [
         "한화",
         2
+      ],
+      [
+        "DB",
+        1
       ],
       [
         "미래에셋",
@@ -56,6 +60,56 @@
     ]
   },
   "items": [
+    {
+      "title": "국민연금發 매도폭탄 초읽기…삼성전기·SK스퀘어 판 이유 [분석+]",
+      "url": "https://www.hankyung.com/article/2026062323266",
+      "summary": "국민연금이 유가증권(코스피)시장에서 나흘 연속 1조3000억원에 육박하는 대규모 매도에 나섰다. 코스피가 9100까지 치솟으며 국내 주식 비중이 마지노선을 넘어서자 국민연금이 이달 말 리밸런싱(자산 배분 재조정) 유예 종료를 앞두고 선제적으로 국내 주식을 매도하고 있다...",
+      "datetime_raw": "2026.06.23 10:57",
+      "datetime": "2026-06-23T10:57:00+09:00",
+      "dt": "2026-06-23 10:57",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "국민연금發 매도폭탄 초읽기"
+      ],
+      "hash": "ab84a0cc49eb"
+    },
+    {
+      "title": "IR큐더스, 코스닥 상장 예비심사신청서 제출",
+      "url": "https://www.hankyung.com/article/2026062320776",
+      "summary": "IR큐더스가 한국거래소에 코스닥 상장 예비심사신청서를 제출했다고 23일 밝혔다.사업모델 특례상장 방식으로 추진되며, 최근 전문평가기관 두 곳에서 모두 'A등급'을 획득해 기술성과 시장성을 대외적으로 검증받았다. 상장 주관사는 DB증권이다.2000년 설립된...",
+      "datetime_raw": "2026.06.23 10:37",
+      "datetime": "2026-06-23T10:37:00+09:00",
+      "dt": "2026-06-23 10:37",
+      "brokers": [
+        "DB"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "IR큐더스"
+      ],
+      "hash": "dd8a9d6f465b"
+    },
+    {
+      "title": "코스피, 반도체 약세에 장중 낙폭 확대…9000선 아래로",
+      "url": "https://www.hankyung.com/article/2026062323526",
+      "summary": "코스피지수가 외국인의 대규모 매도세에 밀리며 장중 8900선까지 후퇴했다. 미국 대형 기술주 약세와 차익실현 매물이 겹치면서 시가총액 상위 반도체주를 중심으로 낙폭이 확대되는 모습이다.23일 오전 10시26분 현재 코스피지수는 전 거래일 대비 185.79포인트(2.04...",
+      "datetime_raw": "2026.06.23 10:36",
+      "datetime": "2026-06-23T10:36:00+09:00",
+      "dt": "2026-06-23 10:36",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "3597e1dc4521"
+    },
     {
       "title": "OKX·ICE, 美 합작법인 설립 추진…토큰화 주식 시장 연결 나선다",
       "url": "https://www.hankyung.com/article/202606232312B",
@@ -343,54 +397,6 @@
       "hash": "03893cba3d08"
     },
     {
-      "title": "'AI 인재 확보전' 밀리는 구글…럽너 \"6월말 변동성 후 강세\" [빈난새의 개장전요것만]",
-      "url": "https://www.hankyung.com/article/202606221480i",
-      "summary": "① 밴스 \"이란, 자산 동결 풀리면 미국 농산물 살것\" 밴스 부통령은 스위스에서 열린 후속 협상을 통해 \"이란과 최종 합의를 위한 매우 좋은 기반을 마련했다\"고 발표했습니다. 주말 동안 이란이 이스라엘의 레바논 공습을 문제삼아 호르무즈 해협 폐쇄와 협상 거부를 위협하기...",
-      "datetime_raw": "2026.06.23 00:09",
-      "datetime": "2026-06-23T00:09:00+09:00",
-      "dt": "2026-06-23 00:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "AI 인재 확보전",
-        "6월말 변동성 후 강세"
-      ],
-      "hash": "6ec84f646dc3"
-    },
-    {
-      "title": "\"망해가던 하이닉스 138배 키워\"…'경영인 최태원' 재평가 [강경주의 테크X]",
-      "url": "https://www.hankyung.com/article/2026062209446",
-      "summary": "SK하이닉스가 25년7개월 만에 한국 증시의 역사를 다시 썼다. 최태원 SK그룹 회장이 내부 반대에도 인수를 밀어붙여 2012년 출범한 SK하이닉스가 삼성전자를 제치고 유가증권(코스피)시장 시가총액 1위에 오르면서 그의 경영 안목이 새롭게 조명받고 있...",
-      "datetime_raw": "2026.06.22 22:00",
-      "datetime": "2026-06-22T22:00:00+09:00",
-      "dt": "2026-06-22 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "경영인 최태원",
-        "망해가던 하이닉스 138배 키워"
-      ],
-      "hash": "af8b8e5822e3"
-    },
-    {
-      "title": "멜트업 장세엔 이 포지션 구축해야 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026062211381",
-      "summary": "멜트업 장세엔 이 포지션 구축해야최홍석 우리자산운용 ETF솔루션 본부장(사진)은 현재 증시를 과열된 ‘멜트업’ 장세로 진단했다. 그러면서 미국 ‘제네시스 미션’ 관련 인공지능(AI) 인프라 수혜주를 주목해야 한다고 ...",
-      "datetime_raw": "2026.06.22 17:50",
-      "datetime": "2026-06-22T17:50:00+09:00",
-      "dt": "2026-06-22 17:50",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "acaff9dd5847"
-    },
-    {
       "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
       "url": "https://www.hankyung.com/article/2026062190307",
       "summary": "",
@@ -472,6 +478,54 @@
         "국민 운동화 됐다"
       ],
       "hash": "c150a6cb7976"
+    },
+    {
+      "title": "'AI 인재 확보전' 밀리는 구글…럽너 \"6월말 변동성 후 강세\" [빈난새의 개장전요것만]",
+      "url": "https://www.hankyung.com/article/202606221480i",
+      "summary": "① 밴스 \"이란, 자산 동결 풀리면 미국 농산물 살것\" 밴스 부통령은 스위스에서 열린 후속 협상을 통해 \"이란과 최종 합의를 위한 매우 좋은 기반을 마련했다\"고 발표했습니다. 주말 동안 이란이 이스라엘의 레바논 공습을 문제삼아 호르무즈 해협 폐쇄와 협상 거부를 위협하기...",
+      "datetime_raw": "2026.06.23 00:09",
+      "datetime": "2026-06-23T00:09:00+09:00",
+      "dt": "2026-06-23 00:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 인재 확보전",
+        "6월말 변동성 후 강세"
+      ],
+      "hash": "6ec84f646dc3"
+    },
+    {
+      "title": "\"망해가던 하이닉스 138배 키워\"…'경영인 최태원' 재평가 [강경주의 테크X]",
+      "url": "https://www.hankyung.com/article/2026062209446",
+      "summary": "SK하이닉스가 25년7개월 만에 한국 증시의 역사를 다시 썼다. 최태원 SK그룹 회장이 내부 반대에도 인수를 밀어붙여 2012년 출범한 SK하이닉스가 삼성전자를 제치고 유가증권(코스피)시장 시가총액 1위에 오르면서 그의 경영 안목이 새롭게 조명받고 있...",
+      "datetime_raw": "2026.06.22 22:00",
+      "datetime": "2026-06-22T22:00:00+09:00",
+      "dt": "2026-06-22 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "경영인 최태원",
+        "망해가던 하이닉스 138배 키워"
+      ],
+      "hash": "af8b8e5822e3"
+    },
+    {
+      "title": "멜트업 장세엔 이 포지션 구축해야 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026062211381",
+      "summary": "멜트업 장세엔 이 포지션 구축해야최홍석 우리자산운용 ETF솔루션 본부장(사진)은 현재 증시를 과열된 ‘멜트업’ 장세로 진단했다. 그러면서 미국 ‘제네시스 미션’ 관련 인공지능(AI) 인프라 수혜주를 주목해야 한다고 ...",
+      "datetime_raw": "2026.06.22 17:50",
+      "datetime": "2026-06-22T17:50:00+09:00",
+      "dt": "2026-06-22 17:50",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "acaff9dd5847"
     },
     {
       "title": "LG·LG CNS 엔비디아 동맹 구체화에 '방긋'…삼성·현대 SI 기업은 '울상'",
@@ -1092,55 +1146,6 @@
         "8조 주식 휴지조각 될 판"
       ],
       "hash": "51276e5f1980"
-    },
-    {
-      "title": "6월 환율 1520원 넘었다…\"외환위기 후 최고\"",
-      "url": "https://www.hankyung.com/article/2026062184627",
-      "summary": "이달 들어 평균 원/달러 환율이 1520원을 웃돌아 외환위기 이후 최고 수준을 기록했다.21일 한국은행 경제통계시스템에 따르면 이달 들어 19일까지 주간 거래 종가(오후 3시30분) 기준 원/달러 환율은 평균 1521.4원으로 집계됐다.역대 월별 평균 환율과 비교하면 ...",
-      "datetime_raw": "2026.06.21 09:32",
-      "datetime": "2026-06-21T09:32:00+09:00",
-      "dt": "2026-06-21 09:32",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "외환위기 후 최고",
-        "6월 환율 1520원 넘었다"
-      ],
-      "hash": "a59713e5dfa5"
-    },
-    {
-      "title": "코스피 최고치 랠리 이어갈까…美지표·마이크론 실적 주목 [주간전망]",
-      "url": "https://www.hankyung.com/article/2026061956506",
-      "summary": "증권가는 이번주 코스피지수가 지난주 상승 흐름을 이어갈 것으로 전망했다. 이란이 20일(이하 현지시간) 호르무즈 해협 재봉쇄를 발표했지만 이란과 미국 간 대화 국면이 이어질 전망이고, 메모리 반도체 실적의 풍향계 역할을 하는 마이크론이 실적을 내놓는 등 모멘텀(상승동력...",
-      "datetime_raw": "2026.06.21 09:27",
-      "datetime": "2026-06-21T09:27:00+09:00",
-      "dt": "2026-06-21 09:27",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 최고치 랠리 이어갈까"
-      ],
-      "hash": "2500a0dc11e9"
-    },
-    {
-      "title": "6월에만 20% 밀린 '로봇테마' 현대차…지금 사도 되는지 물어보니",
-      "url": "https://www.hankyung.com/article/202606196923i",
-      "summary": "2026년 주가 흐름 개관2026년 현대차(005380)의 주가는 연초 이후 극적인 상승과 조정을 반복하며 매우 역동적인 흐름을 보이고 있다.2025년 말 284,500원 수준에서 출발한 주가는 2026년 1월 첫째 주(W01)에만 22.6% 급등하며 366,000원을...",
-      "datetime_raw": "2026.06.21 08:00",
-      "datetime": "2026-06-21T08:00:00+09:00",
-      "dt": "2026-06-21 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "로봇테마"
-      ],
-      "hash": "873e92514d61"
     }
   ],
   "consensus_signals": []

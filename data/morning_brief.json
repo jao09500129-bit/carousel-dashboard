@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-23 10:29 KST",
+  "as_of": "2026-06-23 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "OKX·ICE, 美 합작법인 설립 추진…토큰화 주식 시장 연결 나선다 (2026-06-23 10:22)",
-    "삼성운용, KODEX 전고체배터리ESS TOP2플러스 ETF 상장 (2026-06-23 09:38)",
-    "동원수산 최대주주·공동대표, 지분율 2% 규모 회사주식 매입키로 (2026-06-23 09:21)"
+    "국민연금發 매도폭탄 초읽기…삼성전기·SK스퀘어 판 이유 [분석+] (2026-06-23 10:57)",
+    "IR큐더스, 코스닥 상장 예비심사신청서 제출 (2026-06-23 10:37)",
+    "코스피, 반도체 약세에 장중 낙폭 확대…9000선 아래로 (2026-06-23 10:36)"
   ],
   "carousel_implications": {
     "regime": "금리 변동 주도 (+5.0bp) (가설)",
@@ -62,7 +62,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-23T10:28:50.956975+09:00",
+    "collected_at": "2026-06-23T11:00:57.463150+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -132,30 +132,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,537.41",
-            "chg": "0.66",
-            "chg_pct": "+0.04%"
+            "close": "1,535.95",
+            "chg": "0.80",
+            "chg_pct": "-0.05%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,755.72",
-            "chg": "3.34",
-            "chg_pct": "-0.19%"
+            "close": "1,754.37",
+            "chg": "4.69",
+            "chg_pct": "-0.27%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "951.45",
-            "chg": "1.48",
-            "chg_pct": "-0.16%"
+            "close": "950.29",
+            "chg": "2.64",
+            "chg_pct": "-0.28%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "226.93",
-            "chg": "0.06",
-            "chg_pct": "-0.03%"
+            "close": "226.66",
+            "chg": "0.33",
+            "chg_pct": "-0.15%"
           }
         ]
       },
