@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-23T13:00:52.947493+09:00",
+  "collected_at": "2026-06-23T15:01:05.066146+09:00",
   "date": "2026-06-23",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,10 +7,10 @@
     "p2",
     "p3"
   ],
-  "total_items": 65,
+  "total_items": 64,
   "stats": {
-    "with_broker_mention": 15,
-    "target_price_up": 5,
+    "with_broker_mention": 14,
+    "target_price_up": 4,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -52,14 +52,75 @@
       [
         "KB",
         1
-      ],
-      [
-        "대신",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "코스피 '서킷브레이커' 해제…20분 만에 거래 재개",
+      "url": "https://www.hankyung.com/article/2026062330326",
+      "summary": "코스피 '서킷브레이커' 해제로 20분만 매매거래 재개김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.23 14:58",
+      "datetime": "2026-06-23T14:58:00+09:00",
+      "dt": "2026-06-23 14:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "서킷브레이커"
+      ],
+      "hash": "86286b8cb555"
+    },
+    {
+      "title": "큐픽스 \"민간 AI 연합체 'K-AI 얼라이언스' 참여\"",
+      "url": "https://www.hankyung.com/article/2026062329976",
+      "summary": "큐픽스는 인공지능(AI) 기업들이 모인 ‘K-AI 얼라이언스’에 참여한다고 23일 밝혔다.K-AI 얼라이언스는 2023년 출범한 민간 AI 연합체로 현재 50개 기업이 참여하고 있다.큐픽스는 이 단체에서 공간지능 기술을 기반으로 피지컬 AI와 AI...",
+      "datetime_raw": "2026.06.23 14:47",
+      "datetime": "2026-06-23T14:47:00+09:00",
+      "dt": "2026-06-23 14:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "참여",
+        "민간 AI 연합체"
+      ],
+      "hash": "50245ab83bef"
+    },
+    {
+      "title": "삼성전자 팔아치우는 외국인…보유율, 13년 만에 최저",
+      "url": "https://www.hankyung.com/article/2026062329347",
+      "summary": "최근 유가증권시장에서 외국인 매도세가 이어지면서 외국인 투자자의 삼성전자 지분율이 약 13년 만에 최저 수준으로 내려갔다. 23일 한국거래소에 따르면 지난 22일 기준 외국인의 삼성전자 주식 보유율은 47.52%로 집계됐다. 이는 2013년 8월 22일 47....",
+      "datetime_raw": "2026.06.23 14:40",
+      "datetime": "2026-06-23T14:40:00+09:00",
+      "dt": "2026-06-23 14:40",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 팔아치우는 외국인"
+      ],
+      "hash": "138f72aea8c7"
+    },
+    {
+      "title": "코스피, 역대급 급락에 서킷브레이커 발동",
+      "url": "https://www.hankyung.com/article/2026062329586",
+      "summary": "역대급 급락에 코스피 서킷브레이커 발동김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.23 14:35",
+      "datetime": "2026-06-23T14:35:00+09:00",
+      "dt": "2026-06-23 14:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "7c2d42212afc"
+    },
     {
       "title": "비상장주식·공모주 투자 사기 기승…금감원, 소비자경보 발령",
       "url": "https://www.hankyung.com/article/2026062322566",
@@ -326,6 +387,88 @@
       "hash": "ed066519a4bf"
     },
     {
+      "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
+      "url": "https://www.hankyung.com/article/2026062190307",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "경악",
+        "호텔 통째로 빌린 중국인들"
+      ],
+      "hash": "4471278f4a63"
+    },
+    {
+      "title": "\"안보 우려 커져\"…안규백 탄핵 청원 5일 만에 9만명 돌파",
+      "url": "https://www.hankyung.com/article/2026062295057",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "안보 우려 커져"
+      ],
+      "hash": "6fb17c781977"
+    },
+    {
+      "title": "\"담배로 걷는 세금만 매년 10조 넘는데\"…초비상 걸린 이유",
+      "url": "https://www.hankyung.com/article/202606218804i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "담배로 걷는 세금만 매년 10조 넘는데"
+      ],
+      "hash": "c1bd1a5ab6ca"
+    },
+    {
+      "title": "연봉 2억 넘는데 '이럴 줄은'…美 부자들까지 덮친 '공포'",
+      "url": "https://www.hankyung.com/article/202606229481i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "공포",
+        "이럴 줄은"
+      ],
+      "hash": "fa5dc51625ae"
+    },
+    {
+      "title": "삼성전자 사장, 자사주 3000주 팔았다…10억원 규모 매도",
+      "url": "https://www.hankyung.com/article/2026062212677",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 사장"
+      ],
+      "hash": "7ea44b4b86c0"
+    },
+    {
       "title": "\"한화오션, 캐나다 수주시 사우디·그리스 잠수함 건조 유력 후보\"-NH",
       "url": "https://www.hankyung.com/article/2026062317256",
       "summary": "NH투자증권은 23일 한화오션에 대해 \"60조원 규모의 캐나다 차세대 잠수함 도입 사업(CPSP)과 나미비아 베누스 부유식 원유생산저장하역설비(FPSO) 프로젝트 수주 결과 발표가 임박했다\"며 \"수주 성공 시 글로벌 시장 내 입지 강화와 후속 수주 기대감 확대가 가능하...",
@@ -393,89 +536,6 @@
         "경기 방어"
       ],
       "hash": "4779d956a6b7"
-    },
-    {
-      "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
-      "url": "https://www.hankyung.com/article/2026062190307",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "경악",
-        "호텔 통째로 빌린 중국인들"
-      ],
-      "hash": "4471278f4a63"
-    },
-    {
-      "title": "\"안보 우려 커져\"…안규백 탄핵 청원 5일 만에 9만명 돌파",
-      "url": "https://www.hankyung.com/article/2026062295057",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "안보 우려 커져"
-      ],
-      "hash": "6fb17c781977"
-    },
-    {
-      "title": "연봉 2억 넘는데 '이럴 줄은'…美 부자들까지 덮친 '공포'",
-      "url": "https://www.hankyung.com/article/202606229481i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "공포",
-        "이럴 줄은"
-      ],
-      "hash": "fa5dc51625ae"
-    },
-    {
-      "title": "\"담배로 걷는 세금만 매년 10조 넘는데\"…초비상 걸린 이유",
-      "url": "https://www.hankyung.com/article/202606218804i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "담배로 걷는 세금만 매년 10조 넘는데"
-      ],
-      "hash": "c1bd1a5ab6ca"
-    },
-    {
-      "title": "나이키 '버린 자식'이었는데…'국민 운동화 됐다' 대반전",
-      "url": "https://www.hankyung.com/article/202606122990i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "버린 자식",
-        "국민 운동화 됐다"
-      ],
-      "hash": "c150a6cb7976"
     },
     {
       "title": "나란히 급등한 글로벌 반도체 4사…선행 PER로 비교해보니",
@@ -1068,89 +1128,6 @@
         "자사주 1000만주 태우자 뭉칫돈 쐈다"
       ],
       "hash": "a1af93e54d7b"
-    },
-    {
-      "title": "4년째 박스권 '대한항공'…'화물 특수'와 '합병'으로 날아오를까",
-      "url": "https://www.hankyung.com/article/202606218852i",
-      "summary": "국내 대표 항공사 대한항공의 주가는 4년째 2만원대 박스권에 갇혀있다. 코로나19의 엔데믹 전환 이후 여객 수요가 폭발적으로 늘어났음에도 밸류에이션 정체 기조가 이어졌기 때문이다. 다만 증권가에서는 화물 특수와 합병 효과를 기반으로 주가가 반등할 수 있다는 예측을 내놓...",
-      "datetime_raw": "2026.06.22 08:00",
-      "datetime": "2026-06-22T08:00:00+09:00",
-      "dt": "2026-06-22 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "합병",
-        "대한항공",
-        "화물 특수"
-      ],
-      "hash": "6a711c9f9f06"
-    },
-    {
-      "title": "美고령화 수혜주 부상…브라이트스프링, 홈케어·전문약국 성장에 200%급등",
-      "url": "https://www.hankyung.com/article/202606195491i",
-      "summary": "미국 의료 서비스 기업 브라이트스프링헬스서비스가 실적이 개선되며 월가의 주목을 받고 있다. 전문 약국(스페셜티 파마) 사업 성장과 고령화에 따른 재택의료 수요 확대에 힘입어 안정적인 수익이 창출되고 있는 영향 때문으로 분석된다. 투자은행(IB)들도 잇달아 목표...",
-      "datetime_raw": "2026.06.22 08:00",
-      "datetime": "2026-06-22T08:00:00+09:00",
-      "dt": "2026-06-22 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "美고령화 수혜주 부상"
-      ],
-      "hash": "85100b8bf179"
-    },
-    {
-      "title": "\"삼성생명, 삼성전자 지분가치 재평가 필요…목표가↑\"",
-      "url": "https://www.hankyung.com/article/2026062292906",
-      "summary": "대신증권은 22일 삼성생명에 대해 \"새로운 기업가치 평가 방식이 필요하다\"며 목표주가를 기존 27만8000원에서 59만원으로 높이고 투자의견 '매수'를 제시했다.박혜진 대신증권 연구원은 \"삼성전자의 대리 투자수단(Proxy)으로 연일 상승하는 주가에 대해...",
-      "datetime_raw": "2026.06.22 07:51",
-      "datetime": "2026-06-22T07:51:00+09:00",
-      "dt": "2026-06-22 07:51",
-      "brokers": [
-        "대신"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": -99.2625,
-      "keywords": [
-        "삼성생명"
-      ],
-      "hash": "f23d222c78a5"
-    },
-    {
-      "title": "반도체 랠리 쭉 갈까…이번주 '마이크론' 실적에 쏠린 눈",
-      "url": "https://www.hankyung.com/article/202606218652i",
-      "summary": "이번 주(6월 22~26일) 글로벌 증시 주요 이벤트 개요코스피는 지난주(6월 15~19일) 기준 9,052.42포인트를 기록하며 사상 처음으로 9,000선을 돌파하는 역사적인 상승 랠리를 이어가고 있다. 이는 전주 대비 11.43% 급등한 수치로, 미국·...",
-      "datetime_raw": "2026.06.22 07:42",
-      "datetime": "2026-06-22T07:42:00+09:00",
-      "dt": "2026-06-22 07:42",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "마이크론",
-        "반도체 랠리 쭉 갈까"
-      ],
-      "hash": "3dc23b9c41a8"
-    },
-    {
-      "title": "한·미 금리 인상 시사…3년째 이자 부담 큰 기업은? [한경우의 케이스스터디]",
-      "url": "https://www.hankyung.com/article/2026062184796",
-      "summary": "한국은행과 미국 중앙은행(Fed)이 나란히 통화 긴축 신호를 시장에 내놨다. 유럽중앙은행(ECB)과 일본은행(BOJ)의 기준금리 인상에 이어 미국과 한국도 기준금리 인상 시계가 '카운트다운'에 들어간 모습이다. 이런 상황에서 전문가들은 금리 인상...",
-      "datetime_raw": "2026.06.22 06:30",
-      "datetime": "2026-06-22T06:30:00+09:00",
-      "dt": "2026-06-22 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "20692db0966c"
     }
   ],
   "consensus_signals": []
