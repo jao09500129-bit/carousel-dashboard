@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-06-23T16:00:49.813670+09:00",
+  "computed_at": "2026-06-23T23:10:50.583816+09:00",
   "current_pivot": "금리 민감",
   "current_view": "미국 10년 yield +5.0bp 상승. 리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
   "current_confidence": "중 — 백테스트 미검증",
   "current_days": 1,
   "rotation_velocity": "빠름",
-  "volatility_index": 17.2,
+  "volatility_index": 19.5,
   "candidates": [
     {
       "name": "에너지",
