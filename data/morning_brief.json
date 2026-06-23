@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-06-23 09:30 KST",
+  "as_of": "2026-06-23 10:29 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "알파벳 5% 급락에 나스닥 1.3% 하락…이란과 협상 주시",
+  "headline": "하루 새 '615조' 증발했다…스페이스X 주가 급락에 '발칵'",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "알파벳 5% 급락에 나스닥 1.3% 하락…이란과 협상 주시",
+      "title": "하루 새 '615조' 증발했다…스페이스X 주가 급락에 '발칵'",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606231664i"
+      "url": "https://www.hankyung.com/article/2026062319547"
     },
     {
       "title": "스페이스X 대탈출? 16%↓…유가 하락해도 금리 상승 [김현석의 월스트리트나우]",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "동원수산 최대주주·공동대표, 지분율 2% 규모 회사주식 매입키로 (2026-06-23 09:21)",
-    "코스피, 美 기술주 약세에 장 초반 보합권 등락…삼전닉스↓ (2026-06-23 09:17)",
-    "SK하이닉스, 프리마켓에서 300만원 터치 (2026-06-23 08:33)"
+    "OKX·ICE, 美 합작법인 설립 추진…토큰화 주식 시장 연결 나선다 (2026-06-23 10:22)",
+    "삼성운용, KODEX 전고체배터리ESS TOP2플러스 ETF 상장 (2026-06-23 09:38)",
+    "동원수산 최대주주·공동대표, 지분율 2% 규모 회사주식 매입키로 (2026-06-23 09:21)"
   ],
   "carousel_implications": {
     "regime": "금리 변동 주도 (+5.0bp) (가설)",
@@ -62,7 +62,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-23T09:30:48.590166+09:00",
+    "collected_at": "2026-06-23T10:28:50.956975+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -132,30 +132,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,539.58",
-            "chg": "2.83",
-            "chg_pct": "+0.18%"
+            "close": "1,537.41",
+            "chg": "0.66",
+            "chg_pct": "+0.04%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,759.39",
-            "chg": "0.33",
-            "chg_pct": "+0.02%"
+            "close": "1,755.72",
+            "chg": "3.34",
+            "chg_pct": "-0.19%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "952.93",
-            "chg": "0.00",
-            "chg_pct": "0.00%"
+            "close": "951.45",
+            "chg": "1.48",
+            "chg_pct": "-0.16%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "227.25",
-            "chg": "0.26",
-            "chg_pct": "+0.11%"
+            "close": "226.93",
+            "chg": "0.06",
+            "chg_pct": "-0.03%"
           }
         ]
       },
@@ -247,9 +247,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.66",
-            "chg": "0.03",
-            "chg_pct": "+1.07%"
+            "close": "2.68",
+            "chg": "0.02",
+            "chg_pct": "+0.79%"
           }
         ]
       }
