@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-23T15:01:05.066146+09:00",
+  "collected_at": "2026-06-23T16:00:49.813670+09:00",
   "date": "2026-06-23",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,10 +7,10 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 65,
   "stats": {
     "with_broker_mention": 14,
-    "target_price_up": 4,
+    "target_price_up": 3,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -57,6 +57,39 @@
   },
   "items": [
     {
+      "title": "코스피 '검은 화요일' 9.99% 역대급 폭락…8200선까지 빠졌다",
+      "url": "https://www.hankyung.com/article/2026062331746",
+      "summary": "국내 증시가 글로벌 기술주 약세와 반도체주 급락 여파에 무너졌다. 코스피지수는 10% 가까이 폭락하며 단숨에 8200선으로 후퇴했고, 코스닥지수도 8% 가까이 하락했다. 장중 유가증권시장에서는 올해 네 번째 서킷브레이커가 발동되는 등 투자심리가 급격히 얼어붙었다.23일...",
+      "datetime_raw": "2026.06.23 15:39",
+      "datetime": "2026-06-23T15:39:00+09:00",
+      "dt": "2026-06-23 15:39",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "검은 화요일"
+      ],
+      "hash": "5a824536a98b"
+    },
+    {
+      "title": "\"나 없으면 HBM 못 만든다\"…한미반도체, 내년 '1조 클럽' 달성 전망",
+      "url": "https://www.hankyung.com/article/202606232712i",
+      "summary": "한미반도체가 인공지능(AI) 반도체 시장을 이끄는 '엔비디아-SK하이닉스' 동맹 사이에서 두각을 나타내고 있다. 한미반도체가 생산하는 TC(열압착) 본더 없이는 고대역폭메모리(HBM) 제조가 불가능해서다. 주가 역시 지난 1년간 160% 이상 올랐다.23...",
+      "datetime_raw": "2026.06.23 15:00",
+      "datetime": "2026-06-23T15:00:00+09:00",
+      "dt": "2026-06-23 15:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1조 클럽",
+        "나 없으면 HBM 못 만든다"
+      ],
+      "hash": "99324c0e9b5e"
+    },
+    {
       "title": "코스피 '서킷브레이커' 해제…20분 만에 거래 재개",
       "url": "https://www.hankyung.com/article/2026062330326",
       "summary": "코스피 '서킷브레이커' 해제로 20분만 매매거래 재개김연지 한경닷컴 기자 kongzi@hankyung.com",
@@ -90,18 +123,18 @@
       "hash": "50245ab83bef"
     },
     {
-      "title": "삼성전자 팔아치우는 외국인…보유율, 13년 만에 최저",
+      "title": "\"잘 먹고 갑니다\" 삼전 던진 외국인…스페이스X로 갈아타더니",
       "url": "https://www.hankyung.com/article/2026062329347",
       "summary": "최근 유가증권시장에서 외국인 매도세가 이어지면서 외국인 투자자의 삼성전자 지분율이 약 13년 만에 최저 수준으로 내려갔다. 23일 한국거래소에 따르면 지난 22일 기준 외국인의 삼성전자 주식 보유율은 47.52%로 집계됐다. 이는 2013년 8월 22일 47....",
       "datetime_raw": "2026.06.23 14:40",
       "datetime": "2026-06-23T14:40:00+09:00",
       "dt": "2026-06-23 14:40",
       "brokers": [],
-      "opinion": "보유",
+      "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "삼성전자 팔아치우는 외국인"
+        "잘 먹고 갑니다"
       ],
       "hash": "138f72aea8c7"
     },
@@ -352,41 +385,6 @@
       "hash": "856d47f6d417"
     },
     {
-      "title": "SK스퀘어 놓쳤으면 '이 종목'…주가 2배 폭등에도 \"더 간다\" [종목+]",
-      "url": "https://www.hankyung.com/article/2026062316116",
-      "summary": "삼성물산이 반도체 업황 개선에 따른 계열사 지분가치 상승 수혜로 강세를 보이고 있다. 증권가에서는 자체 사업 경쟁력과 예측 가능한 대규모 배당을 갖춘 삼성물산의 저평가 매력이 부각될 것이란 분석이 나온다.23일 한국거래소에 따르면 전날 삼성물산은 전 ...",
-      "datetime_raw": "2026.06.23 08:15",
-      "datetime": "2026-06-23T08:15:00+09:00",
-      "dt": "2026-06-23 08:15",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "더 간다"
-      ],
-      "hash": "74e5bc6c40c4"
-    },
-    {
-      "title": "\"대한항공, 아시아나 합병 이후 영업이익 4000억 기여할 것…목표가↑\"-하나",
-      "url": "https://www.hankyung.com/article/2026062317516",
-      "summary": "하나증권은 23일 대한항공에 대해 아시아나항공과의 합병이 마무리된 이후인 내년엔 4160억원의 영업이익 기여 효과가 나타날 것이라고 추정했다. 이에 따라 목표주가를 기존 3만2000원에서 3만8000원으로 올렸고, 투자의견은 ‘매수’를 유지했다.안...",
-      "datetime_raw": "2026.06.23 08:09",
-      "datetime": "2026-06-23T08:09:00+09:00",
-      "dt": "2026-06-23 08:09",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": -99.85000000000001,
-      "keywords": [
-        "대한항공"
-      ],
-      "hash": "ed066519a4bf"
-    },
-    {
       "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
       "url": "https://www.hankyung.com/article/2026062190307",
       "summary": "",
@@ -420,20 +418,20 @@
       "hash": "6fb17c781977"
     },
     {
-      "title": "\"담배로 걷는 세금만 매년 10조 넘는데\"…초비상 걸린 이유",
-      "url": "https://www.hankyung.com/article/202606218804i",
+      "title": "삼성전자 사장, 자사주 3000주 팔았다…10억원 규모 매도",
+      "url": "https://www.hankyung.com/article/2026062212677",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
       "dt": "",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "담배로 걷는 세금만 매년 10조 넘는데"
+        "삼성전자 사장"
       ],
-      "hash": "c1bd1a5ab6ca"
+      "hash": "7ea44b4b86c0"
     },
     {
       "title": "연봉 2억 넘는데 '이럴 줄은'…美 부자들까지 덮친 '공포'",
@@ -453,20 +451,55 @@
       "hash": "fa5dc51625ae"
     },
     {
-      "title": "삼성전자 사장, 자사주 3000주 팔았다…10억원 규모 매도",
-      "url": "https://www.hankyung.com/article/2026062212677",
+      "title": "\"담배로 걷는 세금만 매년 10조 넘는데\"…초비상 걸린 이유",
+      "url": "https://www.hankyung.com/article/202606218804i",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
       "dt": "",
       "brokers": [],
-      "opinion": "매도",
+      "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "삼성전자 사장"
+        "담배로 걷는 세금만 매년 10조 넘는데"
       ],
-      "hash": "7ea44b4b86c0"
+      "hash": "c1bd1a5ab6ca"
+    },
+    {
+      "title": "SK스퀘어 놓쳤으면 '이 종목'…주가 2배 폭등에도 \"더 간다\" [종목+]",
+      "url": "https://www.hankyung.com/article/2026062316116",
+      "summary": "삼성물산이 반도체 업황 개선에 따른 계열사 지분가치 상승 수혜로 강세를 보이고 있다. 증권가에서는 자체 사업 경쟁력과 예측 가능한 대규모 배당을 갖춘 삼성물산의 저평가 매력이 부각될 것이란 분석이 나온다.23일 한국거래소에 따르면 전날 삼성물산은 전 ...",
+      "datetime_raw": "2026.06.23 08:15",
+      "datetime": "2026-06-23T08:15:00+09:00",
+      "dt": "2026-06-23 08:15",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목",
+        "더 간다"
+      ],
+      "hash": "74e5bc6c40c4"
+    },
+    {
+      "title": "\"대한항공, 아시아나 합병 이후 영업이익 4000억 기여할 것…목표가↑\"-하나",
+      "url": "https://www.hankyung.com/article/2026062317516",
+      "summary": "하나증권은 23일 대한항공에 대해 아시아나항공과의 합병이 마무리된 이후인 내년엔 4160억원의 영업이익 기여 효과가 나타날 것이라고 추정했다. 이에 따라 목표주가를 기존 3만2000원에서 3만8000원으로 올렸고, 투자의견은 ‘매수’를 유지했다.안...",
+      "datetime_raw": "2026.06.23 08:09",
+      "datetime": "2026-06-23T08:09:00+09:00",
+      "dt": "2026-06-23 08:09",
+      "brokers": [
+        "하나"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": -99.85000000000001,
+      "keywords": [
+        "대한항공"
+      ],
+      "hash": "ed066519a4bf"
     },
     {
       "title": "\"한화오션, 캐나다 수주시 사우디·그리스 잠수함 건조 유력 후보\"-NH",
@@ -1111,23 +1144,6 @@
         "KB證 금메달팀"
       ],
       "hash": "cbc980adcaef"
-    },
-    {
-      "title": "자사주 1000만주 태우자 뭉칫돈 쐈다…외국인 홀린 '이 기업' 정체는",
-      "url": "https://www.hankyung.com/article/202606197485i",
-      "summary": "과감한 주주환원 정책과 든든한 해외 실적을 앞세운 KT&G가 글로벌 대형 자산운용사들의 투자 자금을 강하게 빨아들이고 있다. 체질 개선에 성공하면서 글로벌 경쟁사 대비 저평가될 이유가 사라졌다는 분석에 증권가 역시 목표주가를 대폭 올려 잡는 추세다.21일 한국거래소에 ...",
-      "datetime_raw": "2026.06.22 08:00",
-      "datetime": "2026-06-22T08:00:00+09:00",
-      "dt": "2026-06-22 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": "up",
-      "target_change_pct": null,
-      "keywords": [
-        "이 기업",
-        "자사주 1000만주 태우자 뭉칫돈 쐈다"
-      ],
-      "hash": "a1af93e54d7b"
     }
   ],
   "consensus_signals": []
