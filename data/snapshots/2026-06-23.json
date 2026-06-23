@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-23T11:00:57.463150+09:00",
+  "collected_at": "2026-06-23T13:00:52.947493+09:00",
   "date": "2026-06-23",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -61,7 +61,72 @@
   },
   "items": [
     {
-      "title": "국민연금發 매도폭탄 초읽기…삼성전기·SK스퀘어 판 이유 [분석+]",
+      "title": "비상장주식·공모주 투자 사기 기승…금감원, 소비자경보 발령",
+      "url": "https://www.hankyung.com/article/2026062322566",
+      "summary": "일부 금융사의 해외 비상장주식·공모주 투자 명목의 자금 편취 사기 범죄에 대해 금융감독원이 소비자 경보를 울렸다.금감원은 23일 \"최근 투자자문사 또는 자산운용사 등이 해외 비상장주식 투자나, 국내 공모주 청약 대행 목적으로 투자금을 유치한 뒤 편취하는 사...",
+      "datetime_raw": "2026.06.23 12:00",
+      "datetime": "2026-06-23T12:00:00+09:00",
+      "dt": "2026-06-23 12:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비상장주식"
+      ],
+      "hash": "7429bfd0aa64"
+    },
+    {
+      "title": "코스닥 이어 코스피도 매도 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026062326156",
+      "summary": "급락에 코스닥 이어 코스피도 매도 사이드카 발동김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.23 11:42",
+      "datetime": "2026-06-23T11:42:00+09:00",
+      "dt": "2026-06-23 11:42",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥 이어 코스피도 매도 사이드카 발동"
+      ],
+      "hash": "72890655d024"
+    },
+    {
+      "title": "급락장에 코스닥 매도 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026062326076",
+      "summary": "급락장에 코스닥 매도 사이드카 발동김연지 한경닷컴 기자 kongzi@hankyung.com",
+      "datetime_raw": "2026.06.23 11:41",
+      "datetime": "2026-06-23T11:41:00+09:00",
+      "dt": "2026-06-23 11:41",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급락장에 코스닥 매도 사이드카 발동"
+      ],
+      "hash": "4a1ac5c651e8"
+    },
+    {
+      "title": "터보플로우, 판테라 주도 600만달러 시드 투자 유치…\"기관급 트레이딩 인프라 대중화\"",
+      "url": "https://www.hankyung.com/article/202606232575B",
+      "summary": "온체인 트레이딩 플랫폼 터보플로우(TurboFlow)는 600만달러 규모의 시드 투자 유치를 완료했다고 23일 밝혔다이번 투자 라운드는 판테라캐피털(Pantera Capital)이 주도했으며, 서스퀘하나 크립토(Susquehanna Crypto)와 디지털커런시그룹(DC...",
+      "datetime_raw": "2026.06.23 11:28",
+      "datetime": "2026-06-23T11:28:00+09:00",
+      "dt": "2026-06-23 11:28",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "터보플로우",
+        "기관급 트레이딩 인프라 대중화"
+      ],
+      "hash": "e14424f05b4e"
+    },
+    {
+      "title": "국민연금, 1.3조 매도 폭탄…삼성전기 던지고 '이 종목' 담았다 [분석+]",
       "url": "https://www.hankyung.com/article/2026062323266",
       "summary": "국민연금이 유가증권(코스피)시장에서 나흘 연속 1조3000억원에 육박하는 대규모 매도에 나섰다. 코스피가 9100까지 치솟으며 국내 주식 비중이 마지노선을 넘어서자 국민연금이 이달 말 리밸런싱(자산 배분 재조정) 유예 종료를 앞두고 선제적으로 국내 주식을 매도하고 있다...",
       "datetime_raw": "2026.06.23 10:57",
@@ -72,7 +137,8 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "국민연금發 매도폭탄 초읽기"
+        "이 종목",
+        "국민연금"
       ],
       "hash": "ab84a0cc49eb"
     },
@@ -329,74 +395,6 @@
       "hash": "4779d956a6b7"
     },
     {
-      "title": "나란히 급등한 글로벌 반도체 4사…선행 PER로 비교해보니",
-      "url": "https://www.hankyung.com/article/202606220540i",
-      "summary": "글로벌 반도체 4사 실적 및 밸류에이션 비교 분석글로벌 반도체 업황이 AI 수요 폭증과 메모리 공급 부족을 배경으로 사상 유례없는 호황 국면에 진입한 가운데, SK하이닉스·삼성전자·마이크론·TSMC 등 4개 주요 반도체 기업의 최근...",
-      "datetime_raw": "2026.06.23 07:41",
-      "datetime": "2026-06-23T07:41:00+09:00",
-      "dt": "2026-06-23 07:41",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "나란히 급등한 글로벌 반도체 4사"
-      ],
-      "hash": "032a75875a59"
-    },
-    {
-      "title": "\"KT, 단기 박스권 등락 전망\"-하나",
-      "url": "https://www.hankyung.com/article/2026062316536",
-      "summary": "하나증권은 23일 KT에 대해 \"단기 주가 상승을 일으킬만한 재료가 부족한 상황\"이라고 분석했다. 투자의견 '매수'와 목표주가 7만6000원은 유지했다.김홍식 하나증권 연구원은 \"가격적인 이점을 제외하면 특별한 주가 상승 트리거(방아쇠)가 없는 상황\"이라...",
-      "datetime_raw": "2026.06.23 07:35",
-      "datetime": "2026-06-23T07:35:00+09:00",
-      "dt": "2026-06-23 07:35",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "KT"
-      ],
-      "hash": "c6997280a80f"
-    },
-    {
-      "title": "\"400만닉스 가능한가요?\"…'PER'로 보면 그렇습니다",
-      "url": "https://www.hankyung.com/article/202606221479i",
-      "summary": "SK하이닉스가 22일 전장보다 5.61% 오른 291만9000원에 거래를 마치며 한국 증시 시가총액 1위 기업으로 등극했다. 올해 들어 341.9%나 오르며 삼성전자(197.7%)를 앞지른 결과다.증권가 일각에서는 SK하이닉스가 300만원선을 넘어 400만원대까지 상승...",
-      "datetime_raw": "2026.06.23 07:00",
-      "datetime": "2026-06-23T07:00:00+09:00",
-      "dt": "2026-06-23 07:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "PER",
-        "400만닉스 가능한가요?"
-      ],
-      "hash": "d6d6d1968d65"
-    },
-    {
-      "title": "20% 밀려 천스닥 깨졌는데…'이 종목' 담은 ETF는 달랐다 [분석+]",
-      "url": "https://www.hankyung.com/article/2026062208646",
-      "summary": "코스닥시장이 약세를 보이며 전고점 대비 20% 넘게 하락한 와중에 코스닥지수 대비 초과 성과를 노리는 주요 액티브 상장지수펀드(ETF)의 낙폭은 비교지수 대비 절반 수준에 그친 것으로 집계됐다. 반도체 소부장(소재·부품·장비)...",
-      "datetime_raw": "2026.06.23 06:30",
-      "datetime": "2026-06-23T06:30:00+09:00",
-      "dt": "2026-06-23 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "20% 밀려 천스닥 깨졌는데"
-      ],
-      "hash": "03893cba3d08"
-    },
-    {
       "title": "호텔 통째로 빌린 중국인들…뭐하나 봤더니 '경악'",
       "url": "https://www.hankyung.com/article/2026062190307",
       "summary": "",
@@ -478,6 +476,74 @@
         "국민 운동화 됐다"
       ],
       "hash": "c150a6cb7976"
+    },
+    {
+      "title": "나란히 급등한 글로벌 반도체 4사…선행 PER로 비교해보니",
+      "url": "https://www.hankyung.com/article/202606220540i",
+      "summary": "글로벌 반도체 4사 실적 및 밸류에이션 비교 분석글로벌 반도체 업황이 AI 수요 폭증과 메모리 공급 부족을 배경으로 사상 유례없는 호황 국면에 진입한 가운데, SK하이닉스·삼성전자·마이크론·TSMC 등 4개 주요 반도체 기업의 최근...",
+      "datetime_raw": "2026.06.23 07:41",
+      "datetime": "2026-06-23T07:41:00+09:00",
+      "dt": "2026-06-23 07:41",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "나란히 급등한 글로벌 반도체 4사"
+      ],
+      "hash": "032a75875a59"
+    },
+    {
+      "title": "\"KT, 단기 박스권 등락 전망\"-하나",
+      "url": "https://www.hankyung.com/article/2026062316536",
+      "summary": "하나증권은 23일 KT에 대해 \"단기 주가 상승을 일으킬만한 재료가 부족한 상황\"이라고 분석했다. 투자의견 '매수'와 목표주가 7만6000원은 유지했다.김홍식 하나증권 연구원은 \"가격적인 이점을 제외하면 특별한 주가 상승 트리거(방아쇠)가 없는 상황\"이라...",
+      "datetime_raw": "2026.06.23 07:35",
+      "datetime": "2026-06-23T07:35:00+09:00",
+      "dt": "2026-06-23 07:35",
+      "brokers": [
+        "하나"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "KT"
+      ],
+      "hash": "c6997280a80f"
+    },
+    {
+      "title": "\"400만닉스 가능한가요?\"…'PER'로 보면 그렇습니다",
+      "url": "https://www.hankyung.com/article/202606221479i",
+      "summary": "SK하이닉스가 22일 전장보다 5.61% 오른 291만9000원에 거래를 마치며 한국 증시 시가총액 1위 기업으로 등극했다. 올해 들어 341.9%나 오르며 삼성전자(197.7%)를 앞지른 결과다.증권가 일각에서는 SK하이닉스가 300만원선을 넘어 400만원대까지 상승...",
+      "datetime_raw": "2026.06.23 07:00",
+      "datetime": "2026-06-23T07:00:00+09:00",
+      "dt": "2026-06-23 07:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "PER",
+        "400만닉스 가능한가요?"
+      ],
+      "hash": "d6d6d1968d65"
+    },
+    {
+      "title": "20% 밀려 천스닥 깨졌는데…'이 종목' 담은 ETF는 달랐다 [분석+]",
+      "url": "https://www.hankyung.com/article/2026062208646",
+      "summary": "코스닥시장이 약세를 보이며 전고점 대비 20% 넘게 하락한 와중에 코스닥지수 대비 초과 성과를 노리는 주요 액티브 상장지수펀드(ETF)의 낙폭은 비교지수 대비 절반 수준에 그친 것으로 집계됐다. 반도체 소부장(소재·부품·장비)...",
+      "datetime_raw": "2026.06.23 06:30",
+      "datetime": "2026-06-23T06:30:00+09:00",
+      "dt": "2026-06-23 06:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목",
+        "20% 밀려 천스닥 깨졌는데"
+      ],
+      "hash": "03893cba3d08"
     },
     {
       "title": "'AI 인재 확보전' 밀리는 구글…럽너 \"6월말 변동성 후 강세\" [빈난새의 개장전요것만]",
@@ -1085,67 +1151,6 @@
       "target_change_pct": null,
       "keywords": [],
       "hash": "20692db0966c"
-    },
-    {
-      "title": "수익률 78% 낸 1위의 투자 전략 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026062189201",
-      "summary": "수익률 78% 낸 1위의 투자 전략한경 프리미엄9이 제3회 한경-타임폴리오 주식투자대회에서 압도적 수익률로 1위를 차지한 장재웅 엠플러스자산운용 운용역을 만나 그의 투자 전략을 들어봤다. 장 운용역은 인공지능(AI) 생태계의 구조적 성장 속에서 삼성전자, S...",
-      "datetime_raw": "2026.06.21 18:37",
-      "datetime": "2026-06-21T18:37:00+09:00",
-      "dt": "2026-06-21 18:37",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "f335a03dbd52"
-    },
-    {
-      "title": "환율·채권, 원·달러 환율 1500원대 박스권 장세",
-      "url": "https://www.hankyung.com/article/2026062188681",
-      "summary": "6월 원·달러 평균 환율이 1520원을 웃돌며 외환위기 이후 최고 수준을 기록했다. 미국과 이란의 종전 양해각서(MOU) 체결 이후에도 호르무즈해협을 둘러싼 긴장이 이어진 데다 미국 중앙은행(Fed)의 금리 인상 가능성이 부각되면서 당분간 1500원을 웃도는 달러 강세가 이어질 것이란 전망이 힘을 얻고 있다.서울외환시장에서 지난 19일 원&mi...",
-      "datetime_raw": "2026.06.21 17:35",
-      "datetime": "2026-06-21T17:35:00+09:00",
-      "dt": "2026-06-21 17:35",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "환율"
-      ],
-      "hash": "df14a6ef2965"
-    },
-    {
-      "title": "한 달 사이 174% 뛴 삼화콘덴서...MLCC로 피지컬AI 수혜주로 부상",
-      "url": "https://www.hankyung.com/article/202606218753i",
-      "summary": "삼화콘덴서가 최근 한 달간 유가증권시장 상장 종목 중 주가 상승률 1위를 차지했다. 로봇 등 피지컬 인공지능(AI) 확산으로 적층세라믹콘덴서(MLCC)와 커패시터 수요가 늘어날 것이란 기대가 반영된 영향이다.한국거래소에 따르면 삼화콘덴서 주가는 지난달 19일 6만250...",
-      "datetime_raw": "2026.06.21 16:09",
-      "datetime": "2026-06-21T16:09:00+09:00",
-      "dt": "2026-06-21 16:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "8d0686f69bf8"
-    },
-    {
-      "title": "\"8조 주식 휴지조각 될 판\"…벼랑 끝 몰린 개미들 '공포'",
-      "url": "https://www.hankyung.com/article/2026062184827",
-      "summary": "다음달 주가 1000원 미만 주식인 이른바 '동전주' 상장폐지 요건 시행을 앞두고 퇴출 대상에 놓일 수 있는 국내 증시 상장사가 200곳이 넘는 것으로 집계됐다. 다음달부터는 국내 상장사 주가가 30일 연속 1000원을 밑돌면 관리종목으로 지정된다. 이후...",
-      "datetime_raw": "2026.06.21 11:03",
-      "datetime": "2026-06-21T11:03:00+09:00",
-      "dt": "2026-06-21 11:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "공포",
-        "8조 주식 휴지조각 될 판"
-      ],
-      "hash": "51276e5f1980"
     }
   ],
   "consensus_signals": []
