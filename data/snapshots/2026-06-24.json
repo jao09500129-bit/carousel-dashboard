@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-24T13:00:53.129846+09:00",
+  "collected_at": "2026-06-24T15:00:54.907150+09:00",
   "date": "2026-06-24",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,14 +9,10 @@
   ],
   "total_items": 63,
   "stats": {
-    "with_broker_mention": 11,
+    "with_broker_mention": 10,
     "target_price_up": 2,
     "target_price_down": 0,
     "top_brokers": [
-      [
-        "미래에셋",
-        2
-      ],
       [
         "한화",
         2
@@ -24,6 +20,10 @@
       [
         "하나",
         2
+      ],
+      [
+        "미래에셋",
+        1
       ],
       [
         "키움",
@@ -48,6 +48,38 @@
     ]
   },
   "items": [
+    {
+      "title": "9000피 돌파, 그 빛과 그림자",
+      "url": "https://www.hankyung.com/article/202606233369i",
+      "summary": "2026년 6월 18일, 한국 자본시장은 코스피(KOSPI)가 사상 최초로 9,000포인트를 돌파(종가 9,063.84pt)하는 역사적 이정표를 세웠다. 이튿날인 19일에는 장중 9,385.59pt까지 치솟으며 사상 최고치를 다시 경신했다. 불과 한 달 전 8,000선...",
+      "datetime_raw": "2026.06.24 14:00",
+      "datetime": "2026-06-24T14:00:00+09:00",
+      "dt": "2026-06-24 14:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "9000피 돌파"
+      ],
+      "hash": "2e1fd83875f9"
+    },
+    {
+      "title": "업비트, 폴리곤 스테이킹 참여 규모 글로벌 1위 달성",
+      "url": "https://www.hankyung.com/article/202606245258B",
+      "summary": "두나무가 자사 디지털자산 서비스 '업비트 스테이킹'이 폴리곤(POL) 네트워크 내 스테이킹 참여 규모 기준 글로벌 1위에 올랐다고 24일 밝혔다.디지털자산 스테이킹 데이터 플랫폼 밸리데이터 인포(Validator Info)에 따르면 업비트 스테이킹은 현재 폴리곤 네트워...",
+      "datetime_raw": "2026.06.24 13:44",
+      "datetime": "2026-06-24T13:44:00+09:00",
+      "dt": "2026-06-24 13:44",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "업비트"
+      ],
+      "hash": "72b23f998457"
+    },
     {
       "title": "코스피, 하락 전환…8000선도 위협",
       "url": "https://www.hankyung.com/article/2026062451556",
@@ -181,18 +213,18 @@
       "hash": "cae313ba3ee4"
     },
     {
-      "title": "코스피 8500선 회복…개인 저가매수 주도 [오전 시황]",
+      "title": "어질어질 코스피...개인·외인 매물 공방 [오후 시황]",
       "url": "https://www.hankyung.com/article/202606244430i",
-      "summary": "🕘 전일 폭락 딛고 강한 반등… 반도체 급반등·개인 매수세 유입오전 10시 기준, 한국 증시는 전일 코스피 약 10% 급락이라는 역대급 하락 이후 강한 기술적 반등 흐름을 이어가고 있습니다. 코스피는 전일 대비 311.93포인트(3.80%) 상...",
+      "summary": "🕘 극단적 변동성 속 낙폭 회복… 제약바이오 주도, 외국인 매도 압력 여전오후 2시 기준, 한국 증시는 장중 극심한 변동성을 소화하며 점진적인 회복 흐름을 이어가고 있습니다. 코스피는 전일 대비 155.96포인트(1.90%) 상승한 8,359.8...",
       "datetime_raw": "2026.06.24 09:20",
       "datetime": "2026-06-24T09:20:00+09:00",
       "dt": "2026-06-24 09:20",
       "brokers": [],
-      "opinion": "매수",
+      "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "코스피 8500선 회복"
+        "어질어질 코스피...개인"
       ],
       "hash": "d9c519d8b681"
     },
@@ -349,39 +381,6 @@
       "hash": "fff1d7b38827"
     },
     {
-      "title": "'빚투' 38조 역대 최대인데…계좌 열어본 개미들 '패닉' [분석+]",
-      "url": "https://www.hankyung.com/article/2026062335286",
-      "summary": "코스피지수가 23일 증시 역사상 최대 낙폭(910.71포인트)을 기록하며 8200선으로 추락했다. '반도체 투톱' 쏠림 현상이 심화한 상황에서 외국인 매도세가 거세지면서 대장주 SK하이닉스와 삼성전자가 12% 넘게 급락하자 '패닉셀(공포 ...",
-      "datetime_raw": "2026.06.23 22:00",
-      "datetime": "2026-06-23T22:00:00+09:00",
-      "dt": "2026-06-23 22:00",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "빚투",
-        "패닉"
-      ],
-      "hash": "11ec41c8ac01"
-    },
-    {
-      "title": "\"터보플로우, 600만달러 규모 시드 투자 유치\"",
-      "url": "https://www.hankyung.com/article/2026062316796",
-      "summary": "온체인 트레이딩 플랫폼 터보플로우가 판테라캐피털이 주도한 투자 라운드에서 600만달러(약 92억원) 규모의 시드 투자를 유치했다고 블루밍비트가 23일 보도했다.투자 라운드에는 서스퀘하나 크립토와 디지털커런시그룹(DCG)이 참여한 것으로 전해졌다.터보플로우는 무...",
-      "datetime_raw": "2026.06.23 19:38",
-      "datetime": "2026-06-23T19:38:00+09:00",
-      "dt": "2026-06-23 19:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "터보플로우"
-      ],
-      "hash": "f666f7b2542b"
-    },
-    {
       "title": "\"잘 먹고 갑니다\" 삼전 던진 외국인…스페이스X로 갈아타더니",
       "url": "https://www.hankyung.com/article/2026062329347",
       "summary": "",
@@ -449,20 +448,53 @@
       "hash": "0f7e6c5a6261"
     },
     {
-      "title": "삼성전자 사장, 자사주 3000주 팔았다…10억원 규모 매도",
-      "url": "https://www.hankyung.com/article/2026062212677",
+      "title": "신동, 위고비 없이 37kg 다이어트 성공",
+      "url": "https://www.hankyung.com/article/202606232989H",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
       "dt": "",
       "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신동"
+      ],
+      "hash": "4569b70a0e2a"
+    },
+    {
+      "title": "'빚투' 38조 역대 최대인데…계좌 열어본 개미들 '패닉' [분석+]",
+      "url": "https://www.hankyung.com/article/2026062335286",
+      "summary": "코스피지수가 23일 증시 역사상 최대 낙폭(910.71포인트)을 기록하며 8200선으로 추락했다. '반도체 투톱' 쏠림 현상이 심화한 상황에서 외국인 매도세가 거세지면서 대장주 SK하이닉스와 삼성전자가 12% 넘게 급락하자 '패닉셀(공포 ...",
+      "datetime_raw": "2026.06.23 22:00",
+      "datetime": "2026-06-23T22:00:00+09:00",
+      "dt": "2026-06-23 22:00",
+      "brokers": [],
       "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "삼성전자 사장"
+        "빚투",
+        "패닉"
       ],
-      "hash": "7ea44b4b86c0"
+      "hash": "11ec41c8ac01"
+    },
+    {
+      "title": "\"터보플로우, 600만달러 규모 시드 투자 유치\"",
+      "url": "https://www.hankyung.com/article/2026062316796",
+      "summary": "온체인 트레이딩 플랫폼 터보플로우가 판테라캐피털이 주도한 투자 라운드에서 600만달러(약 92억원) 규모의 시드 투자를 유치했다고 블루밍비트가 23일 보도했다.투자 라운드에는 서스퀘하나 크립토와 디지털커런시그룹(DCG)이 참여한 것으로 전해졌다.터보플로우는 무...",
+      "datetime_raw": "2026.06.23 19:38",
+      "datetime": "2026-06-23T19:38:00+09:00",
+      "dt": "2026-06-23 19:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "터보플로우"
+      ],
+      "hash": "f666f7b2542b"
     },
     {
       "title": "AI·방산 핵심 공급사로 떠오른 이곳 [한경 프리미엄9 TODAY]",
@@ -1063,41 +1095,6 @@
         "LG"
       ],
       "hash": "40fc2439663e"
-    },
-    {
-      "title": "HBM으로 삼전 꺾고 시총 1위 SK하이닉스…코스피 9100 방어 [종합]",
-      "url": "https://www.hankyung.com/article/2026062207976",
-      "summary": "SK하이닉스가 삼성전자를 제치고 국내 증시 시가총액 1위에 오르며 25년 7개월 만에 코스피 대장주가 바뀌었다. 인공지능(AI) 투자 확대와 고대역폭메모리(HBM) 선점 효과로 주가가 꾸준히 우상향한 결과다. 이번 역전은 AI 시대를 맞아 국내 증시의 주도주가 전자기업...",
-      "datetime_raw": "2026.06.22 16:07",
-      "datetime": "2026-06-22T16:07:00+09:00",
-      "dt": "2026-06-22 16:07",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "HBM으로 삼전 꺾고 시총 1위 SK하이닉스"
-      ],
-      "hash": "3eb41e78d598"
-    },
-    {
-      "title": "미래에셋증권 \"금가분리 철폐돼야…토큰증권 규제도 완화 필요\"",
-      "url": "https://www.hankyung.com/article/202606220850B",
-      "summary": "미래에셋증권이 블록체인 기술로 금융 산업을 혁신하려면 '금융·가상자산 분리(금가분리)' 규제를 완화해야 한다는 제언을 내놨다.이용재 미래에셋증권 디지털자산산업본부 본부장은 22일 서울 여의도 국회의원회관에서 열린 '글로벌 디지털자산 제도화 동향과 대한민국의 입법 방향'...",
-      "datetime_raw": "2026.06.22 15:58",
-      "datetime": "2026-06-22T15:58:00+09:00",
-      "dt": "2026-06-22 15:58",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "미래에셋증권 \"금가분리 철폐돼야",
-        "금가분리 철폐돼야…토큰증권 규제도 완화 필요"
-      ],
-      "hash": "e5ac77e57fea"
     }
   ],
   "consensus_signals": [

@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-24T13:00:53.129846+09:00",
+  "computed_at": "2026-06-24T15:00:54.907150+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 5,
+      "count": 3,
       "top": []
     },
     {
@@ -22,7 +22,7 @@
     {
       "name": "금융",
       "intensity": 0.0,
-      "count": 1,
+      "count": 0,
       "top": []
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "기타",
       "intensity": -1.0,
-      "count": 51,
+      "count": 54,
       "top": [
         {
           "kw": "이 종목",
