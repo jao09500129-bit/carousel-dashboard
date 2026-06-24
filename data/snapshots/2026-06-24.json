@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-24T15:00:54.907150+09:00",
+  "collected_at": "2026-06-24T16:00:54.798388+09:00",
   "date": "2026-06-24",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -48,6 +48,73 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피, 역대급 폭락 딛고 하루 만에 반등…8400선 회복",
+      "url": "https://www.hankyung.com/article/2026062455646",
+      "summary": "코스피지수가 역대급 낙폭을 보인 뒤 하루 만에 반등에 성공하면서 8400선을 회복했다.24일 코스피지수는 전일 대비 267.18포인트(3.26%) 오른 8471.02에 장을 마감했다. 전날 반도체 투매에 일간 기준 최대 낙폭을 보인 코스피지수는 이날 1.86% 상승 출...",
+      "datetime_raw": "2026.06.24 15:45",
+      "datetime": "2026-06-24T15:45:00+09:00",
+      "dt": "2026-06-24 15:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "fb76b4a9ac75"
+    },
+    {
+      "title": "코스피·코스닥 이익 격차 73배…\"현재 주가 격차 당연\"",
+      "url": "https://www.hankyung.com/article/202606245261i",
+      "summary": "유가증권시장과 코스닥시장의 올해 당기순이익 전망치 격차가 크게 벌어지고 있다. 유가증권시장의 이익 전망치는 계속해서 상향되고 있지만, 코스닥 시장의 이익 전망치는 변화를 보이지 못하면서다. 24일 증권업계에 따르면 유가증권...",
+      "datetime_raw": "2026.06.24 15:33",
+      "datetime": "2026-06-24T15:33:00+09:00",
+      "dt": "2026-06-24 15:33",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피",
+        "현재 주가 격차 당연"
+      ],
+      "hash": "6aeb63711584"
+    },
+    {
+      "title": "코스피 역대급 폭락에도…\"1만500까지 간다\" 반전 전망 나왔다",
+      "url": "https://www.hankyung.com/article/2026062454817",
+      "summary": "모건스탠리는 지난 23일 한국 증시의 급락과 관련해 \"추세적 하락(breakdown)보다는 일시적 숨 고르기(breather)\"라고 평가하며 코스피가 강세장에서 1만500까지 오를 것으로 전망했다.24일 금융투자업계에 따르면 모건스탠리는 전날 내놓은 보고서에서 \"23일...",
+      "datetime_raw": "2026.06.24 15:11",
+      "datetime": "2026-06-24T15:11:00+09:00",
+      "dt": "2026-06-24 15:11",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1만500까지 간다",
+        "코스피 역대급 폭락에도"
+      ],
+      "hash": "75494c92865d"
+    },
+    {
+      "title": "\"꼬리가 몸통 흔들었다\"…전세계 덮친 '삼전닉스 레버리지' 쇼크 [분석+]",
+      "url": "https://www.hankyung.com/article/2026062452436",
+      "summary": "국내 시장에서 삼성전자와 SK하이닉스를 담고 있는 상장지수펀드(ETF) 매도세가 글로벌 증시를 뒤흔들고 있다. 특히 이들 종목을 담은 고배율 레버리지 상품은 시장 변동성을 극단적으로 증폭시켰다는 지적이 나오고 있다.23일(현지시간) 미국 블룸버그통신은 \"전 세계적으로 ...",
+      "datetime_raw": "2026.06.24 15:00",
+      "datetime": "2026-06-24T15:00:00+09:00",
+      "dt": "2026-06-24 15:00",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스 레버리지",
+        "꼬리가 몸통 흔들었다"
+      ],
+      "hash": "b917bcae09e9"
+    },
     {
       "title": "9000피 돌파, 그 빛과 그림자",
       "url": "https://www.hankyung.com/article/202606233369i",
@@ -315,6 +382,89 @@
       "hash": "f529c503273d"
     },
     {
+      "title": "\"잘 먹고 갑니다\" 삼전 던진 외국인…스페이스X로 갈아타더니",
+      "url": "https://www.hankyung.com/article/2026062329347",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "잘 먹고 갑니다"
+      ],
+      "hash": "138f72aea8c7"
+    },
+    {
+      "title": "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'",
+      "url": "https://www.hankyung.com/article/202606232832g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "활짝",
+        "삼전닉스 난리 났다"
+      ],
+      "hash": "545ff075cf34"
+    },
+    {
+      "title": "신동, 위고비 없이 37kg 다이어트 성공",
+      "url": "https://www.hankyung.com/article/202606232989H",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신동"
+      ],
+      "hash": "4569b70a0e2a"
+    },
+    {
+      "title": "국민연금, 1.3조 매도 폭탄…삼성전기 던지고 '이 종목' 담았다",
+      "url": "https://www.hankyung.com/article/2026062323266",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목",
+        "국민연금"
+      ],
+      "hash": "ab84a0cc49eb"
+    },
+    {
+      "title": "\"국민 아이크림 아니었나\"…'몸값 3조' 잘 나가던 회사 결국",
+      "url": "https://www.hankyung.com/article/2026062336511",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "몸값 3조",
+        "국민 아이크림 아니었나"
+      ],
+      "hash": "100888d1dff5"
+    },
+    {
       "title": "'시총 1위의 저주' 진짜일까…SK하이닉스가 깨운 징크스",
       "url": "https://www.hankyung.com/article/202606233394i",
       "summary": "'시총 1위의 저주'가 현실이 되는 것일까.지난 22일 SK하이닉스가 삼성전자를 제치고 25년 7개월만에 새로운 국내 시총 1위에 오른 직후 시장에서는 오래된 징크스가 다시 회자되고 있다. 공교롭게도 왕좌가 바뀐 다음날인 23일 코스피가 9.99% 급락하...",
@@ -379,89 +529,6 @@
         "M자형 탈모도 건보?"
       ],
       "hash": "fff1d7b38827"
-    },
-    {
-      "title": "\"잘 먹고 갑니다\" 삼전 던진 외국인…스페이스X로 갈아타더니",
-      "url": "https://www.hankyung.com/article/2026062329347",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "잘 먹고 갑니다"
-      ],
-      "hash": "138f72aea8c7"
-    },
-    {
-      "title": "삼전닉스 난리 났다…젠슨 황 주문에 2100조 시장 '활짝'",
-      "url": "https://www.hankyung.com/article/202606232832g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "활짝",
-        "삼전닉스 난리 났다"
-      ],
-      "hash": "545ff075cf34"
-    },
-    {
-      "title": "국민연금, 1.3조 매도 폭탄…삼성전기 던지고 '이 종목' 담았다",
-      "url": "https://www.hankyung.com/article/2026062323266",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "국민연금"
-      ],
-      "hash": "ab84a0cc49eb"
-    },
-    {
-      "title": "삼전닉스 '잭팟' 터진다는데…'반도체 운명 달렸다' 초긴장",
-      "url": "https://www.hankyung.com/article/2026062327426",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "잭팟",
-        "반도체 운명 달렸다"
-      ],
-      "hash": "0f7e6c5a6261"
-    },
-    {
-      "title": "신동, 위고비 없이 37kg 다이어트 성공",
-      "url": "https://www.hankyung.com/article/202606232989H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신동"
-      ],
-      "hash": "4569b70a0e2a"
     },
     {
       "title": "'빚투' 38조 역대 최대인데…계좌 열어본 개미들 '패닉' [분석+]",
@@ -1029,72 +1096,6 @@
         "20% 밀려 천스닥 깨졌는데"
       ],
       "hash": "03893cba3d08"
-    },
-    {
-      "title": "'AI 인재 확보전' 밀리는 구글…럽너 \"6월말 변동성 후 강세\" [빈난새의 개장전요것만]",
-      "url": "https://www.hankyung.com/article/202606221480i",
-      "summary": "① 밴스 \"이란, 자산 동결 풀리면 미국 농산물 살것\" 밴스 부통령은 스위스에서 열린 후속 협상을 통해 \"이란과 최종 합의를 위한 매우 좋은 기반을 마련했다\"고 발표했습니다. 주말 동안 이란이 이스라엘의 레바논 공습을 문제삼아 호르무즈 해협 폐쇄와 협상 거부를 위협하기...",
-      "datetime_raw": "2026.06.23 00:09",
-      "datetime": "2026-06-23T00:09:00+09:00",
-      "dt": "2026-06-23 00:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "AI 인재 확보전",
-        "6월말 변동성 후 강세"
-      ],
-      "hash": "6ec84f646dc3"
-    },
-    {
-      "title": "\"망해가던 하이닉스 138배 키워\"…'경영인 최태원' 재평가 [강경주의 테크X]",
-      "url": "https://www.hankyung.com/article/2026062209446",
-      "summary": "SK하이닉스가 25년7개월 만에 한국 증시의 역사를 다시 썼다. 최태원 SK그룹 회장이 내부 반대에도 인수를 밀어붙여 2012년 출범한 SK하이닉스가 삼성전자를 제치고 유가증권(코스피)시장 시가총액 1위에 오르면서 그의 경영 안목이 새롭게 조명받고 있...",
-      "datetime_raw": "2026.06.22 22:00",
-      "datetime": "2026-06-22T22:00:00+09:00",
-      "dt": "2026-06-22 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "경영인 최태원",
-        "망해가던 하이닉스 138배 키워"
-      ],
-      "hash": "af8b8e5822e3"
-    },
-    {
-      "title": "멜트업 장세엔 이 포지션 구축해야 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026062211381",
-      "summary": "멜트업 장세엔 이 포지션 구축해야최홍석 우리자산운용 ETF솔루션 본부장(사진)은 현재 증시를 과열된 ‘멜트업’ 장세로 진단했다. 그러면서 미국 ‘제네시스 미션’ 관련 인공지능(AI) 인프라 수혜주를 주목해야 한다고 ...",
-      "datetime_raw": "2026.06.22 17:50",
-      "datetime": "2026-06-22T17:50:00+09:00",
-      "dt": "2026-06-22 17:50",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [],
-      "hash": "acaff9dd5847"
-    },
-    {
-      "title": "LG·LG CNS 엔비디아 동맹 구체화에 '방긋'…삼성·현대 SI 기업은 '울상'",
-      "url": "https://www.hankyung.com/article/202606220939i",
-      "summary": "LG그룹이 엔비디아와 인공지능(AI)과 로보틱스 분야 협력을 구체화한다는 소식에 LG그룹주가 대부분 동반 상승했다. 젠슨 황 엔비디아 대표와 협력 논의를 시작한지 2주만에 두 회사가 후속 협의를 진행하면서 LG의 AI 사업에 대한 기대감이 높아지면서다. 특히&...",
-      "datetime_raw": "2026.06.22 17:31",
-      "datetime": "2026-06-22T17:31:00+09:00",
-      "dt": "2026-06-22 17:31",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "방긋",
-        "울상",
-        "LG"
-      ],
-      "hash": "40fc2439663e"
     }
   ],
   "consensus_signals": [
