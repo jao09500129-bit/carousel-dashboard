@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-24T09:30:55.765851+09:00",
+  "computed_at": "2026-06-24T10:23:33.325212+09:00",
   "action_headline": "반도체 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
-    "브렌트 -3.16% — 에너지 회전축",
+    "美 반도체 지수 -7.87% — 반도체 회전축",
     "Market Mood 51/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",

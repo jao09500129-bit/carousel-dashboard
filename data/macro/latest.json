@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-24T09:30:55.765851+09:00",
+  "collected_at": "2026-06-24T10:23:33.325212+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -69,30 +69,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,535.44",
-          "chg": "2.18",
-          "chg_pct": "+0.14%"
+          "close": "1,535.89",
+          "chg": "2.63",
+          "chg_pct": "+0.17%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,745.45",
-          "chg": "0.18",
-          "chg_pct": "-0.01%"
+          "close": "1,746.78",
+          "chg": "1.15",
+          "chg_pct": "+0.07%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "949.98",
-          "chg": "0.90",
-          "chg_pct": "+0.09%"
+          "close": "950.39",
+          "chg": "1.31",
+          "chg_pct": "+0.14%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "226.08",
-          "chg": "0.25",
-          "chg_pct": "-0.11%"
+          "close": "226.18",
+          "chg": "0.15",
+          "chg_pct": "-0.07%"
         }
       ]
     },
@@ -102,9 +102,9 @@
         {
           "name": "브렌트",
           "symbol": "BRENTF",
-          "close": "77.52",
-          "chg": "2.53",
-          "chg_pct": "-3.16%"
+          "close": "76.80",
+          "chg": "0.72",
+          "chg_pct": "-0.93%"
         },
         {
           "name": "두바이유 현물",
@@ -185,8 +185,8 @@
           "name": "일본 국채 10년",
           "symbol": "JP10YY",
           "close": "2.68",
-          "chg": "0.02",
-          "chg_pct": "+0.79%"
+          "chg": "0.01",
+          "chg_pct": "+0.22%"
         }
       ]
     }
