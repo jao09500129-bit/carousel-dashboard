@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-24T10:23:33.325212+09:00",
+  "collected_at": "2026-06-24T11:00:55.841000+09:00",
   "date": "2026-06-24",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -48,6 +48,22 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피 하반기 리스크 점검",
+      "url": "https://www.hankyung.com/article/202606220356i",
+      "summary": "﻿크게 다섯 가지 정도의 점검해 봐야 할 리스크로 볼 수 있다. 전세계 주식 시장이 이미 많이 상승했다는 점, 미국 정부 부채 증가와 국채수익률 상승, AI 자본 지출 우려, 인플레이션과 연관된 금리 인상 기조와 환율이다. 전세계 주요 시장은 2023년 이후 ...",
+      "datetime_raw": "2026.06.24 10:41",
+      "datetime": "2026-06-24T10:41:00+09:00",
+      "dt": "2026-06-24 10:41",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 하반기 리스크 점검"
+      ],
+      "hash": "fe39150e301d"
+    },
     {
       "title": "한국투자액셀러레이터, 스타트업 투자 프로그램 '바른동행' 참가사 모집",
       "url": "https://www.hankyung.com/article/2026062447646",
@@ -114,7 +130,7 @@
       "hash": "cae313ba3ee4"
     },
     {
-      "title": "코스피 8500선 회복...개인 저가매수 주도 [오전 시황]",
+      "title": "코스피 8500선 회복…개인 저가매수 주도 [오전 시황]",
       "url": "https://www.hankyung.com/article/202606244430i",
       "summary": "🕘 전일 폭락 딛고 강한 반등… 반도체 급반등·개인 매수세 유입오전 10시 기준, 한국 증시는 전일 코스피 약 10% 급락이라는 역대급 하락 이후 강한 기술적 반등 흐름을 이어가고 있습니다. 코스피는 전일 대비 311.93포인트(3.80%) 상...",
       "datetime_raw": "2026.06.24 09:20",
@@ -124,7 +140,9 @@
       "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
-      "keywords": [],
+      "keywords": [
+        "코스피 8500선 회복"
+      ],
       "hash": "d9c519d8b681"
     },
     {
@@ -363,23 +381,6 @@
       "hash": "31cbbe305447"
     },
     {
-      "title": "검은 화요일 현실로…코스피 10% '털썩'",
-      "url": "https://www.hankyung.com/article/202606233225i",
-      "summary": "코스피지수가 10%가까이 급락해 '8천피'로 내려앉았다. SK하이닉스와 삼성전자 등 반도체 대형주에 대한 차익실현 움직임이 나타나면서 '검은 화요일'이 현실화했다. '주식 미실현 이익 과세'와 '국민연금 수급 우려\u0003...",
-      "datetime_raw": "2026.06.23 16:38",
-      "datetime": "2026-06-23T16:38:00+09:00",
-      "dt": "2026-06-23 16:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "털썩",
-        "검은 화요일 현실로"
-      ],
-      "hash": "d3425ee97136"
-    },
-    {
       "title": "\"잘 먹고 갑니다\" 삼전 던진 외국인…스페이스X로 갈아타더니",
       "url": "https://www.hankyung.com/article/2026062329347",
       "summary": "",
@@ -461,6 +462,23 @@
         "반도체 운명 달렸다"
       ],
       "hash": "0f7e6c5a6261"
+    },
+    {
+      "title": "검은 화요일 현실로…코스피 10% '털썩'",
+      "url": "https://www.hankyung.com/article/202606233225i",
+      "summary": "코스피지수가 10%가까이 급락해 '8천피'로 내려앉았다. SK하이닉스와 삼성전자 등 반도체 대형주에 대한 차익실현 움직임이 나타나면서 '검은 화요일'이 현실화했다. '주식 미실현 이익 과세'와 '국민연금 수급 우려\u0003...",
+      "datetime_raw": "2026.06.23 16:38",
+      "datetime": "2026-06-23T16:38:00+09:00",
+      "dt": "2026-06-23 16:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "털썩",
+        "검은 화요일 현실로"
+      ],
+      "hash": "d3425ee97136"
     },
     {
       "title": "코스피 '검은 화요일' 9.99% 역대급 폭락…8200선까지 빠졌다",
@@ -1079,22 +1097,6 @@
         "美 상원, 내달 말께 클래리티법 논의 본격화 예상"
       ],
       "hash": "2afc3139ff99"
-    },
-    {
-      "title": "일주일 만에 이익 전망 18% '껑충'…이 폐배터리 종목 보니",
-      "url": "https://www.hankyung.com/article/202606218698i",
-      "summary": "폐배터리 재활용기업 성일하이텍의 올해 영업이익 컨센서스가 한 주 새 큰 폭으로 상향됐다. 건설기업 아이에스동서에 대한 기대치도 높아졌다.21일 인공지능(AI) 기반 투자정...",
-      "datetime_raw": "2026.06.22 15:02",
-      "datetime": "2026-06-22T15:02:00+09:00",
-      "dt": "2026-06-22 15:02",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "껑충"
-      ],
-      "hash": "3b9622a14414"
     }
   ],
   "consensus_signals": []
