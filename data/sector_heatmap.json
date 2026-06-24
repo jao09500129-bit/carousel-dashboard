@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-06-24T11:00:55.841000+09:00",
+  "computed_at": "2026-06-24T13:00:53.129846+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 4,
+      "count": 5,
       "top": []
     },
     {
@@ -69,9 +69,15 @@
     },
     {
       "name": "기타",
-      "intensity": 0.0,
-      "count": 52,
-      "top": []
+      "intensity": -1.0,
+      "count": 51,
+      "top": [
+        {
+          "kw": "이 종목",
+          "n": 2,
+          "score": 26.1
+        }
+      ]
     }
   ],
   "note": "★ 추정 — GICS 섹터 매핑 휴리스틱. 합의 강도는 ups-downs + conviction 합성."

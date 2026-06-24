@@ -1,14 +1,48 @@
 {
-  "computed_at": "2026-06-24T11:00:55.841000+09:00",
+  "computed_at": "2026-06-24T13:00:53.129846+09:00",
   "date": "2026-06-24",
   "summary": {
-    "broker_consensus": 0,
+    "broker_consensus": 1,
     "target_price_cluster_up": 0,
     "target_price_cluster_down": 0,
     "divergence": 0
   },
   "signals": {
-    "broker_consensus": [],
+    "broker_consensus": [
+      {
+        "keyword": "이 종목",
+        "n_brokers": 2,
+        "brokers": [
+          "미래에셋",
+          "키움"
+        ],
+        "ups": 0,
+        "downs": 0,
+        "items": [
+          {
+            "title": "오락가락 코스피…1% 초고수는 삼전닉스 팔고 '이 종목' 담았다",
+            "url": "https://www.hankyung.com/article/202606244978i",
+            "brokers": [
+              "미래에셋"
+            ],
+            "target_action": null,
+            "opinion": "매수",
+            "datetime": "2026-06-24T12:05:00+09:00"
+          },
+          {
+            "title": "시장 급락에 '삼전닉스' 던진 1% 초고수…'이 종목'에 베팅",
+            "url": "https://www.hankyung.com/article/202606244287i",
+            "brokers": [
+              "키움"
+            ],
+            "target_action": null,
+            "opinion": "매도",
+            "datetime": "2026-06-24T08:52:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 0.0
+      }
+    ],
     "target_price_cluster_up": [],
     "target_price_cluster_down": [],
     "divergence": []
