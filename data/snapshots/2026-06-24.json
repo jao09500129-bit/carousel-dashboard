@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-24T11:00:55.841000+09:00",
+  "collected_at": "2026-06-24T13:00:53.129846+09:00",
   "date": "2026-06-24",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,10 +9,14 @@
   ],
   "total_items": 63,
   "stats": {
-    "with_broker_mention": 10,
+    "with_broker_mention": 11,
     "target_price_up": 2,
     "target_price_down": 0,
     "top_brokers": [
+      [
+        "미래에셋",
+        2
+      ],
       [
         "한화",
         2
@@ -40,18 +44,65 @@
       [
         "NH",
         1
-      ],
-      [
-        "미래에셋",
-        1
       ]
     ]
   },
   "items": [
     {
-      "title": "코스피 하반기 리스크 점검",
+      "title": "코스피, 하락 전환…8000선도 위협",
+      "url": "https://www.hankyung.com/article/2026062451556",
+      "summary": "[속보] 코스피, 장중 하락 전환…8,000선도 위협강경주 한경닷컴 기자 qurasoha@hankyung.com",
+      "datetime_raw": "2026.06.24 12:09",
+      "datetime": "2026-06-24T12:09:00+09:00",
+      "dt": "2026-06-24 12:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "b1b02db71880"
+    },
+    {
+      "title": "오락가락 코스피…1% 초고수는 삼전닉스 팔고 '이 종목' 담았다",
+      "url": "https://www.hankyung.com/article/202606244978i",
+      "summary": "수익률 1%의 초고수들은 24일 유가증권시장에서 하이브와 LS일렉트릭, 삼성전자 우선주를 대거 순매수한 것으로 나타났다.미래에셋증권 엠클럽에 따르면 이 회사 고객 중 수익률 상위 1% 계좌는 이날 오전 10시까지 하이브와 LS일렉트릭, 삼성전자 우선주를 집중 매수했다....",
+      "datetime_raw": "2026.06.24 12:05",
+      "datetime": "2026-06-24T12:05:00+09:00",
+      "dt": "2026-06-24 12:05",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 종목",
+        "오락가락 코스피"
+      ],
+      "hash": "a40e8ba7575c"
+    },
+    {
+      "title": "거래소, 미국 바이오기업 대상 코스닥 상장 유치 나서",
+      "url": "https://www.hankyung.com/article/2026062451076",
+      "summary": "한국거래소는 미국 샌디에고에서 열린 2026 바이오 인터내셔널 컨벤션(BIO USA 2026)에서 글로벌 바이오 기업을 대상으로 한국 자본시장 홍보 활동을 진행했다고 24일 밝혔다.거래소는 서울투자진흥재단과 함께 약 150명을 대상으로 외국기업의 코스닥 상장 절차와 I...",
+      "datetime_raw": "2026.06.24 11:53",
+      "datetime": "2026-06-24T11:53:00+09:00",
+      "dt": "2026-06-24 11:53",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "거래소"
+      ],
+      "hash": "105cd91c8564"
+    },
+    {
+      "title": "하반기 시장, 금리 인상 분위기에서 답을 찾아라",
       "url": "https://www.hankyung.com/article/202606220356i",
-      "summary": "﻿크게 다섯 가지 정도의 점검해 봐야 할 리스크로 볼 수 있다. 전세계 주식 시장이 이미 많이 상승했다는 점, 미국 정부 부채 증가와 국채수익률 상승, AI 자본 지출 우려, 인플레이션과 연관된 금리 인상 기조와 환율이다. 전세계 주요 시장은 2023년 이후 ...",
+      "summary": "﻿하반기 시장을 앞두고 크게 다섯 가지 정도의 점검해 봐야 할 리스크를 꼽을 수 있다. 전세계 주식 시장이 이미 많이 상승했다는 점, 미국 정부 부채 증가와 국채수익률 상승, AI 자본 지출 우려, 인플레이션과 연관된 금리 인상 기조와 환율이다. 전세계 주요 ...",
       "datetime_raw": "2026.06.24 10:41",
       "datetime": "2026-06-24T10:41:00+09:00",
       "dt": "2026-06-24 10:41",
@@ -60,7 +111,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "코스피 하반기 리스크 점검"
+        "하반기 시장"
       ],
       "hash": "fe39150e301d"
     },
@@ -331,56 +382,6 @@
       "hash": "f666f7b2542b"
     },
     {
-      "title": "AI·방산 핵심 공급사로 떠오른 이곳 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026062336521",
-      "summary": "AI·방산 핵심 공급사로 떠오른 이곳한경 프리미엄9이 1차전지 분야의 글로벌 강소기업에서 인공지능(AI) 데이터센터와 첨단 방위산업 인프라시장의 핵심 공급사로 변신을 꾀하는 비츠로셀을 집중 조명했다. 비츠로셀은 대만 델타와 AI 데이터센터용 리튬...",
-      "datetime_raw": "2026.06.23 17:54",
-      "datetime": "2026-06-23T17:54:00+09:00",
-      "dt": "2026-06-23 17:54",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "AI"
-      ],
-      "hash": "134e096862ea"
-    },
-    {
-      "title": "'다윗' 타임폴리오 승부수…액티브 ETF 10조 넘었다",
-      "url": "https://www.hankyung.com/article/2026062335871",
-      "summary": "국내 액티브 상장지수펀드(ETF) 시장 1위 운용사인 타임폴리오자산운용의 ETF 순자산총액(AUM)이 10조원을 넘어섰다. 대형 금융그룹 계열 운용사가 아니라 독립계 자산운용사가 ETF 사업만으로 순자산 10조원을 달성한 것은 타임폴리오가 처음이다.23일 한국거래소에 ...",
-      "datetime_raw": "2026.06.23 17:41",
-      "datetime": "2026-06-23T17:41:00+09:00",
-      "dt": "2026-06-23 17:41",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "다윗"
-      ],
-      "hash": "db3a424d6052"
-    },
-    {
-      "title": "하루 새 25% 폭락…'닉스전자' 레버리지 베팅한 투자자 '비상'",
-      "url": "https://www.hankyung.com/article/202606233228i",
-      "summary": "25년 만에 '한국 시가총액 1위' 타이틀을 거머쥔 SK하이닉스가 23일 급락장 속에서 삼성전자와의 치열한 공방 끝에 가까스로 왕좌를 지켜냈다. 하지만 반도체 투톱의 주가가 모두 하루 새 12%씩 빠진 탓에 이들 종목을 2배 추종하는 단일종목 레버리지 상...",
-      "datetime_raw": "2026.06.23 16:49",
-      "datetime": "2026-06-23T16:49:00+09:00",
-      "dt": "2026-06-23 16:49",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비상",
-        "닉스전자",
-        "하루 새 25% 폭락"
-      ],
-      "hash": "31cbbe305447"
-    },
-    {
       "title": "\"잘 먹고 갑니다\" 삼전 던진 외국인…스페이스X로 갈아타더니",
       "url": "https://www.hankyung.com/article/2026062329347",
       "summary": "",
@@ -431,22 +432,6 @@
       "hash": "ab84a0cc49eb"
     },
     {
-      "title": "\"안보 우려 커져\"…안규백 탄핵 청원 5일 만에 9만명 돌파",
-      "url": "https://www.hankyung.com/article/2026062295057",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "안보 우려 커져"
-      ],
-      "hash": "6fb17c781977"
-    },
-    {
       "title": "삼전닉스 '잭팟' 터진다는데…'반도체 운명 달렸다' 초긴장",
       "url": "https://www.hankyung.com/article/2026062327426",
       "summary": "",
@@ -462,6 +447,72 @@
         "반도체 운명 달렸다"
       ],
       "hash": "0f7e6c5a6261"
+    },
+    {
+      "title": "삼성전자 사장, 자사주 3000주 팔았다…10억원 규모 매도",
+      "url": "https://www.hankyung.com/article/2026062212677",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 사장"
+      ],
+      "hash": "7ea44b4b86c0"
+    },
+    {
+      "title": "AI·방산 핵심 공급사로 떠오른 이곳 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026062336521",
+      "summary": "AI·방산 핵심 공급사로 떠오른 이곳한경 프리미엄9이 1차전지 분야의 글로벌 강소기업에서 인공지능(AI) 데이터센터와 첨단 방위산업 인프라시장의 핵심 공급사로 변신을 꾀하는 비츠로셀을 집중 조명했다. 비츠로셀은 대만 델타와 AI 데이터센터용 리튬...",
+      "datetime_raw": "2026.06.23 17:54",
+      "datetime": "2026-06-23T17:54:00+09:00",
+      "dt": "2026-06-23 17:54",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI"
+      ],
+      "hash": "134e096862ea"
+    },
+    {
+      "title": "'다윗' 타임폴리오 승부수…액티브 ETF 10조 넘었다",
+      "url": "https://www.hankyung.com/article/2026062335871",
+      "summary": "국내 액티브 상장지수펀드(ETF) 시장 1위 운용사인 타임폴리오자산운용의 ETF 순자산총액(AUM)이 10조원을 넘어섰다. 대형 금융그룹 계열 운용사가 아니라 독립계 자산운용사가 ETF 사업만으로 순자산 10조원을 달성한 것은 타임폴리오가 처음이다.23일 한국거래소에 ...",
+      "datetime_raw": "2026.06.23 17:41",
+      "datetime": "2026-06-23T17:41:00+09:00",
+      "dt": "2026-06-23 17:41",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "다윗"
+      ],
+      "hash": "db3a424d6052"
+    },
+    {
+      "title": "하루 새 25% 폭락…'닉스전자' 레버리지 베팅한 투자자 '비상'",
+      "url": "https://www.hankyung.com/article/202606233228i",
+      "summary": "25년 만에 '한국 시가총액 1위' 타이틀을 거머쥔 SK하이닉스가 23일 급락장 속에서 삼성전자와의 치열한 공방 끝에 가까스로 왕좌를 지켜냈다. 하지만 반도체 투톱의 주가가 모두 하루 새 12%씩 빠진 탓에 이들 종목을 2배 추종하는 단일종목 레버리지 상...",
+      "datetime_raw": "2026.06.23 16:49",
+      "datetime": "2026-06-23T16:49:00+09:00",
+      "dt": "2026-06-23 16:49",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비상",
+        "닉스전자",
+        "하루 새 25% 폭락"
+      ],
+      "hash": "31cbbe305447"
     },
     {
       "title": "검은 화요일 현실로…코스피 10% '털썩'",
@@ -1047,57 +1098,41 @@
         "금가분리 철폐돼야…토큰증권 규제도 완화 필요"
       ],
       "hash": "e5ac77e57fea"
-    },
-    {
-      "title": "\"대체 카카오게임즈 주가 언제 올라\"…日라인야후 품에 안겨 '반전'",
-      "url": "https://www.hankyung.com/article/202606220690i",
-      "summary": "일본 라인야후가 최대주주인 카카오게임즈가 신임 경영진 선임과 대규모 자금 조달 소식에 힘입어 모처럼 주가가 급등했다.22일 한국거래소에 따르면 카카오게임즈 주가는 전 거래일 대비 13.96% 상승한 1만40원에 장을 마쳤다. 이 회사는 이날 개장 직후 매수세가 몰려 장...",
-      "datetime_raw": "2026.06.22 15:57",
-      "datetime": "2026-06-22T15:57:00+09:00",
-      "dt": "2026-06-22 15:57",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "반전",
-        "대체 카카오게임즈 주가 언제 올라"
-      ],
-      "hash": "1a8ba54b8c4b"
-    },
-    {
-      "title": "코스피, 또 사상 최고치…9114.55 마감",
-      "url": "https://www.hankyung.com/article/2026062207897",
-      "summary": "코스피가 22일 소폭 상승해 9100대에서 마감하면서 종가 기준 최고치를 기록했다.이날 한국거래소에 따르면 코스피는 전 거래일 대비 62.13포인트(0.69%) 오른 9114.55로 장을 마쳤다.지수는 전장보다 97.99포인트(1.08%) 내린 8,954.43으로 출발...",
-      "datetime_raw": "2026.06.22 15:35",
-      "datetime": "2026-06-22T15:35:00+09:00",
-      "dt": "2026-06-22 15:35",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "f10f1ea48ff1"
-    },
-    {
-      "title": "솔라나정책연구소 \"美 상원, 내달 말께 클래리티법 논의 본격화 예상\"",
-      "url": "https://www.hankyung.com/article/202606220741B",
-      "summary": "솔라나(SOL) 기반 싱크탱크 솔라나정책연구소(SPI)가 다음달 가상자산 시장구조법(클래리티법) 제정 논의가 본격화할 수 있다는 관측을 내놨다.밀러 화이트하우스-레빈 솔라나정책연구소 최고경영자(CEO)는 22일 서울 여의도 국회의원회관에서 열린 '글로벌 디지털자산 제도...",
-      "datetime_raw": "2026.06.22 15:17",
-      "datetime": "2026-06-22T15:17:00+09:00",
-      "dt": "2026-06-22 15:17",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "솔라나정책연구소 \"美 상원",
-        "美 상원, 내달 말께 클래리티법 논의 본격화 예상"
-      ],
-      "hash": "2afc3139ff99"
     }
   ],
-  "consensus_signals": []
+  "consensus_signals": [
+    {
+      "keyword": "이 종목",
+      "n_brokers": 2,
+      "brokers": [
+        "미래에셋",
+        "키움"
+      ],
+      "ups": 0,
+      "downs": 0,
+      "items": [
+        {
+          "title": "오락가락 코스피…1% 초고수는 삼전닉스 팔고 '이 종목' 담았다",
+          "url": "https://www.hankyung.com/article/202606244978i",
+          "brokers": [
+            "미래에셋"
+          ],
+          "target_action": null,
+          "opinion": "매수",
+          "datetime": "2026-06-24T12:05:00+09:00"
+        },
+        {
+          "title": "시장 급락에 '삼전닉스' 던진 1% 초고수…'이 종목'에 베팅",
+          "url": "https://www.hankyung.com/article/202606244287i",
+          "brokers": [
+            "키움"
+          ],
+          "target_action": null,
+          "opinion": "매도",
+          "datetime": "2026-06-24T08:52:00+09:00"
+        }
+      ],
+      "avg_target_change_pct": 0.0
+    }
+  ]
 }
