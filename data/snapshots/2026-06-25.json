@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-25T16:00:50.579808+09:00",
+  "collected_at": "2026-06-25T23:10:51.179361+09:00",
   "date": "2026-06-25",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,19 +7,19 @@
     "p2",
     "p3"
   ],
-  "total_items": 65,
+  "total_items": 64,
   "stats": {
     "with_broker_mention": 7,
     "target_price_up": 1,
     "target_price_down": 1,
     "top_brokers": [
       [
-        "NH",
+        "KB",
         3
       ],
       [
-        "KB",
-        2
+        "NH",
+        3
       ],
       [
         "신한",
@@ -28,14 +28,192 @@
       [
         "삼성",
         1
-      ],
-      [
-        "미래에셋",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "\"조정 오면 더 담아라\"…코스피 '1만5000' 파격 전망 [분석+]",
+      "url": "https://www.hankyung.com/article/2026062580656",
+      "summary": "글로벌 투자은행(IB) JP모간이 한국 증시에 대한 강세 의견을 유지하며 유가증권시장(코스피) 목표치를 최대 1만5000으로 제시했다. 이는 KB증권과 골드만삭스가 제시한 직전 최고 전망치(1만2000)를 훌쩍 뛰어넘는 수치로, 현재 국내외 증권사 가운데 가장 높은 목...",
+      "datetime_raw": "2026.06.25 20:00",
+      "datetime": "2026-06-25T20:00:00+09:00",
+      "dt": "2026-06-25 20:00",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1만5000",
+        "조정 오면 더 담아라"
+      ],
+      "hash": "bc75270007ae"
+    },
+    {
+      "title": "세계 경제 뒤흔드는 '칩플레이션' [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026062585621",
+      "summary": "외국인이 조용히 사모으는 이 종목탄탄한 해외 실적 증가세와 적극적인 주주환원책, 외국인 투자자 지분 확대에 힘입어 최근 방어주로 떠오르는 소비재 종목이 있다. 어떤 종목일까. 한경 프리미엄9에서 확인할 수 있다.세계 경제 뒤흔드는 '칩플레이션'한국을 비롯...",
+      "datetime_raw": "2026.06.25 18:16",
+      "datetime": "2026-06-25T18:16:00+09:00",
+      "dt": "2026-06-25 18:16",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "칩플레이션"
+      ],
+      "hash": "f952dab64d70"
+    },
+    {
+      "title": "이형연 알투스 대표 \"블록체인 가치는 '연결성'…장기 로드맵으로 역량 내재화해야\"",
+      "url": "https://www.hankyung.com/article/202606258666B",
+      "summary": "국내 블록체인 업체 알투스(Altus, 구 비하베스트)의 이형연 대표가 \"국내 금융기관이 장기 로드맵을 통해 블록체인 역량을 내재화해야 한다\"고 25일 밝혔다.이 대표는 이날 서울 여의도 콘래드호텔에서 열린 '금융기관을 위한 토큰화 2026' 세미나에 참석해 \"블록체인...",
+      "datetime_raw": "2026.06.25 18:14",
+      "datetime": "2026-06-25T18:14:00+09:00",
+      "dt": "2026-06-25 18:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "블록체인 가치는",
+        "…장기 로드맵으로 역량 내재화해야"
+      ],
+      "hash": "44b3f0199770"
+    },
+    {
+      "title": "ETF 자금 쏠림에…우선주 '역대급 저평가'",
+      "url": "https://www.hankyung.com/article/2026062585451",
+      "summary": "인공지능(AI)과 반도체를 중심으로 증시 랠리가 이어지면서 우선주가 상대적 저평가 구간에 진입했다는 분석이 나온다. 보통주 대비 우선주가 얼마나 할인된 상태로 거래되는지를 보여주는 괴리율이 최근 종목별로 역대 최고 수준으로 높아졌다. 특히 상장지수펀드(ETF)에 유입된...",
+      "datetime_raw": "2026.06.25 17:43",
+      "datetime": "2026-06-25T17:43:00+09:00",
+      "dt": "2026-06-25 17:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "역대급 저평가",
+        "ETF 자금 쏠림에"
+      ],
+      "hash": "27308d543b09"
+    },
+    {
+      "title": "강세장 소외된 은행株 \"하반기엔 반등할 것\"",
+      "url": "https://www.hankyung.com/article/2026062585441",
+      "summary": "지난해 증시의 주역 중 하나이던 은행주가 올해 강세장에선 철저히 소외되고 있다. 금리 인상 전망 등 우호적 환경에도 반도체 중심의 수급 쏠림과 포용적 금융, JTBC 디폴트 관련 익스포저(위험노출액) 등 리스크가 발목을 잡은 결과다. 다만 증권가에선 은행주의 실적 개선 전망이 명확한 만큼 2분기 실적 시즌을 전후해 은행주가 다시 힘을 받을 것이란 예상이 나...",
+      "datetime_raw": "2026.06.25 17:42",
+      "datetime": "2026-06-25T17:42:00+09:00",
+      "dt": "2026-06-25 17:42",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하반기엔 반등할 것"
+      ],
+      "hash": "5c0697888d69"
+    },
+    {
+      "title": "역대급 변동성에...커버드콜 ETF에 2조 몰려",
+      "url": "https://www.hankyung.com/article/2026062586015",
+      "summary": "최근 코스피가 사상 최대의 '변동성' 지수를 보이며 옵션 판매 자금으로 배당금을 지급하는 커버드콜 ETF로 자금이 몰리고 있습니다. 장이 큰폭으로 오르내릴 수록 옵션 기대 수익이 높아 옵션이 비싸게 팔리기 때문입니다. 특히 '위클리 커버드콜'의 수익률이 좋은 것으로 나...",
+      "datetime_raw": "2026.06.25 17:40",
+      "datetime": "2026-06-25T17:40:00+09:00",
+      "dt": "2026-06-25 17:40",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "5aae122afbb9"
+    },
+    {
+      "title": "\"1550원도 위태\"...외인 리밸런싱에 한은마저 \"예단 불가\"",
+      "url": "https://www.hankyung.com/article/2026062585595",
+      "summary": "외국인들이 연일 조 단위로 국내 주식을 매도하고, 미국 연준의 금리 인상 전망에 따른 달러 강세가 이어지면서, 외환시장의 긴장감이 좀처럼 가라앉지 않고 있습니다. 오늘도 원·달러 환율은 장중 한때 1,550원을 위협하기도 했는데요. 외환시장 상황, 정치경제부 김예원 기...",
+      "datetime_raw": "2026.06.25 17:33",
+      "datetime": "2026-06-25T17:33:00+09:00",
+      "dt": "2026-06-25 17:33",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "예단 불가",
+        "1550원도 위태"
+      ],
+      "hash": "1b716afdafc6"
+    },
+    {
+      "title": "한양증권, 500억 자본 확충…\"중장기 성장동력 확보\"",
+      "url": "https://www.hankyung.com/article/2026062582746",
+      "summary": "한양증권은 장외파생상품업 등 신사업 추진을 위해 최대주주인 KCGI제2호사모투자합자회사(KCGI PEF)를 대상으로 500억원 규모의 제3자배정 유상증자를 결정했다고 25일 밝혔다.이번 증자는 신사업 추진과 중장기 성장 기반 강화를 위한 전략적 자본 확충의 일환이다. ...",
+      "datetime_raw": "2026.06.25 17:14",
+      "datetime": "2026-06-25T17:14:00+09:00",
+      "dt": "2026-06-25 17:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한양증권",
+        "중장기 성장동력 확보"
+      ],
+      "hash": "75c8477b1021"
+    },
+    {
+      "title": "토큰화 금융자산 2조달러 시대 온다…온체인 '머니 무브' 시작",
+      "url": "https://www.hankyung.com/article/2026062583516",
+      "summary": "자본시장의 변화는 대개 조용히 시작된다. 투자자가 체감하기 전, 먼저 움직이는 곳은 결제, 정산, 담보, 수탁 같은 보이지 않는 영역이다.지금 온체인 자본시장에서 벌어지는 일도 그렇다. 시장의 관심은 여전히 '가격'에 쏠려 있다. 하지만 더 주목할 것은 ...",
+      "datetime_raw": "2026.06.25 17:06",
+      "datetime": "2026-06-25T17:06:00+09:00",
+      "dt": "2026-06-25 17:06",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "머니 무브",
+        "토큰화 금융자산 2조달러 시대 온다"
+      ],
+      "hash": "3cb362395cf6"
+    },
+    {
+      "title": "강세장에도 나홀로 뚝…금리인상 신호에 은행주 날아오를까",
+      "url": "https://www.hankyung.com/article/202606258161i",
+      "summary": "지난해 증시의 주역 중 하나였던 은행주가 올해 강세장에선 철저히 소외되고 있다. 금리 인상 전망 등 우호적 환경에도 반도체 중심의 수급 쏠림과 포용적 금융, JTBC 디폴트 관련 익스포저(위험노출액) 등의 리스크가 발목을 잡은 결과다. 다만 증권가에선 은행주의 실적개선...",
+      "datetime_raw": "2026.06.25 16:27",
+      "datetime": "2026-06-25T16:27:00+09:00",
+      "dt": "2026-06-25 16:27",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "강세장에도 나홀로 뚝"
+      ],
+      "hash": "fdbc8ebdcb18"
+    },
+    {
+      "title": "\"지금이 역대급 매수 기회\"…주식 80% 할인가에 쓸어 담는다",
+      "url": "https://www.hankyung.com/article/202606258030i",
+      "summary": "인공지능(AI)과 반도체를 중심으로 증시 랠리가 이어지면서 우선주가 상대적 저평가 구간에 진입했다는 분석이 나온다. 보통주 대비 우선주가 얼마나 할인된 상태로 거래되는지를 보여주는 괴리율이 최근 종목별로 역대 최대 수준으로 벌어졌다. 특히 상장지수펀드(ETF)에 유입된...",
+      "datetime_raw": "2026.06.25 16:19",
+      "datetime": "2026-06-25T16:19:00+09:00",
+      "dt": "2026-06-25 16:19",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "지금이 역대급 매수 기회"
+      ],
+      "hash": "668327894a89"
+    },
     {
       "title": "기관 매수에 '구천피' 턱밑까지…코스닥은 900선 무너져",
       "url": "https://www.hankyung.com/article/2026062581126",
@@ -186,6 +364,88 @@
       "hash": "3550452eafe2"
     },
     {
+      "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
+      "url": "https://www.hankyung.com/article/2026062453917",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "바글바글",
+        "오픈 1시간 만에 품절 또 품절"
+      ],
+      "hash": "317a47e415ac"
+    },
+    {
+      "title": "'153만원→96만원' 폭락…외국인 바닥서 1300억 쓸어 담았다",
+      "url": "https://www.hankyung.com/article/202606245499i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": -37.254901960784316,
+      "keywords": [
+        "153만원→96만원"
+      ],
+      "hash": "0698c487d765"
+    },
+    {
+      "title": "신동, 위고비 없이 37kg 다이어트 성공",
+      "url": "https://www.hankyung.com/article/202606232989H",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신동"
+      ],
+      "hash": "4569b70a0e2a"
+    },
+    {
+      "title": "\"싸게 살 기회\"…호재 쌓였는데 3년 전 주가로 돌아간 종목",
+      "url": "https://www.hankyung.com/article/202606233069i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "싸게 살 기회"
+      ],
+      "hash": "a1edf9ebbc45"
+    },
+    {
+      "title": "11억이던 옥수동 아파트, 3개월 만에 갔더니…서민들 '비명'",
+      "url": "https://www.hankyung.com/article/2026062572406",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비명",
+        "11억이던 옥수동 아파트"
+      ],
+      "hash": "48c292397b96"
+    },
+    {
       "title": "타임폴리오, TIME Korea플러스배당액티브 ETF 특별배당 지급",
       "url": "https://www.hankyung.com/article/2026062573356",
       "summary": "타임폴리오자산운용은 'TIME Korea플러스배당액티브 상장지수펀드(ETF)'가 6월 배당금으로 정기 월배당 0.5%에 특별배당 0.5%를 더해 총 1.0% 수준의 월배당을 지급한다고 25일 밝혔다.이번 특별배당은 TIME Korea플러스배당액티브 ETF...",
@@ -254,7 +514,7 @@
       "hash": "42defb422b86"
     },
     {
-      "title": "외국인이 조용히 사모으는 중…목표주가 50% '껑충'",
+      "title": "큰손 외국인 몰리는 KT&G… 변동성 버틸 방어주로 부상",
       "url": "https://www.hankyung.com/article/202606245811i",
       "summary": "KT&G가 변동성 장세의 방어주로 떠올랐다. 내수와 수출을 기반으로 한 탄탄한 실적과 적극적인 주주환원 정책 등이 방어주로서 투자 매력을 높이는 요인이다. 주식시장 큰손으로 불리는 주요 외국계 투자사가 KT&G 지분을 늘리고 있는 것도 투자 포인트 중 하나다. 하반기로...",
       "datetime_raw": "2026.06.25 10:00",
@@ -265,8 +525,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "껑충",
-        "외국인이 조용히 사모으는 중"
+        "큰손 외국인 몰리는 KT&G"
       ],
       "hash": "c6aa35cb2160"
     },
@@ -368,88 +627,6 @@
         "마이크론 호실적에 삼전"
       ],
       "hash": "8005a47d42ae"
-    },
-    {
-      "title": "'153만원→96만원' 폭락…외국인 바닥서 1300억 쓸어 담았다",
-      "url": "https://www.hankyung.com/article/202606245499i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": -37.254901960784316,
-      "keywords": [
-        "153만원→96만원"
-      ],
-      "hash": "0698c487d765"
-    },
-    {
-      "title": "신동, 위고비 없이 37kg 다이어트 성공",
-      "url": "https://www.hankyung.com/article/202606232989H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신동"
-      ],
-      "hash": "4569b70a0e2a"
-    },
-    {
-      "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
-      "url": "https://www.hankyung.com/article/2026062453917",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "바글바글",
-        "오픈 1시간 만에 품절 또 품절"
-      ],
-      "hash": "317a47e415ac"
-    },
-    {
-      "title": "\"자리 있나요?\" 전화 1000통 폭주…인기 폭발한 '여행 상품'",
-      "url": "https://www.hankyung.com/article/2026062335821",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "여행 상품",
-        "자리 있나요?"
-      ],
-      "hash": "27ccbc432397"
-    },
-    {
-      "title": "모래밭·수로 거침없다…도로에선 세단급 승차감",
-      "url": "https://www.hankyung.com/article/2026062322641",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "모래밭"
-      ],
-      "hash": "40b976f37431"
     },
     {
       "title": "한화그룹이 지분 10% 확보했는데…KAI 주가 다시 날까 [종목+]",
@@ -716,22 +893,6 @@
       "hash": "b1f31dda27dd"
     },
     {
-      "title": "\"싸게 살 기회\"…호재 쌓였는데 3년 전 주가로 돌아간 종목 [프리미엄9 투자스쿨]",
-      "url": "https://www.hankyung.com/article/202606233069i",
-      "summary": "한경 프리미엄9이 하반기 주요 업종의 업황을 전망하는 '프리미엄9 투자스쿨'을 연재합니다. 국내 주요 스타 애널리스트들이 총출동해 각 업종별로 어떤 투자기회가 있는지, 어느 기업들이 유망한 지를 짚어줍니다.한경프리미엄9을 구독하시면 '프리미엄9 투...",
-      "datetime_raw": "2026.06.25 06:00",
-      "datetime": "2026-06-25T06:00:00+09:00",
-      "dt": "2026-06-25 06:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "싸게 살 기회"
-      ],
-      "hash": "a1edf9ebbc45"
-    },
-    {
       "title": "'수익률 500%' 20대 투자 고수의 비결 [한경 프리미엄9 TODAY]",
       "url": "https://www.hankyung.com/article/2026062461271",
       "summary": "'수익률 500%' 20대 투자 고수의 비결올해 초 ‘한경-타임폴리오 KIW 주식투자대회’에서 2등을 차지한 김동규 씨(28)는 삼성전자와 SK하이닉스가 시중 투자금을 빨아들이다 보니 중소형 우량주가 조정받고 있다고 진단했다. 수급이 개선되면 오를 만한 우량주는 무엇일까. 20대 투자 고수가 추천한다. ...",
@@ -928,187 +1089,6 @@
         "코스피 1만500까지 간다"
       ],
       "hash": "75494c92865d"
-    },
-    {
-      "title": "\"꼬리가 몸통 흔들었다\"…전세계 덮친 '삼전닉스 레버리지' 쇼크 [분석+]",
-      "url": "https://www.hankyung.com/article/2026062452436",
-      "summary": "국내 시장에서 삼성전자와 SK하이닉스를 담고 있는 상장지수펀드(ETF) 매도세가 글로벌 증시를 뒤흔들고 있다. 특히 이들 종목을 담은 고배율 레버리지 상품은 시장 변동성을 극단적으로 증폭시켰다는 지적이 나오고 있다.23일(현지시간) 미국 블룸버그통신은 \"전 세계적으로 ...",
-      "datetime_raw": "2026.06.24 15:00",
-      "datetime": "2026-06-24T15:00:00+09:00",
-      "dt": "2026-06-24 15:00",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 레버리지",
-        "꼬리가 몸통 흔들었다"
-      ],
-      "hash": "b917bcae09e9"
-    },
-    {
-      "title": "9000피 돌파, 그 빛과 그림자",
-      "url": "https://www.hankyung.com/article/202606233369i",
-      "summary": "2026년 6월 18일, 한국 자본시장은 코스피(KOSPI)가 사상 최초로 9,000포인트를 돌파(종가 9,063.84pt)하는 역사적 이정표를 세웠다. 이튿날인 19일에는 장중 9,385.59pt까지 치솟으며 사상 최고치를 다시 경신했다. 불과 한 달 전 8,000선...",
-      "datetime_raw": "2026.06.24 14:00",
-      "datetime": "2026-06-24T14:00:00+09:00",
-      "dt": "2026-06-24 14:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "9000피 돌파"
-      ],
-      "hash": "2e1fd83875f9"
-    },
-    {
-      "title": "업비트, 폴리곤 스테이킹 참여 규모 글로벌 1위 달성",
-      "url": "https://www.hankyung.com/article/202606245258B",
-      "summary": "두나무가 자사 디지털자산 서비스 '업비트 스테이킹'이 폴리곤(POL) 네트워크 내 스테이킹 참여 규모 기준 글로벌 1위에 올랐다고 24일 밝혔다.디지털자산 스테이킹 데이터 플랫폼 밸리데이터 인포(Validator Info)에 따르면 업비트 스테이킹은 현재 폴리곤 네트워...",
-      "datetime_raw": "2026.06.24 13:44",
-      "datetime": "2026-06-24T13:44:00+09:00",
-      "dt": "2026-06-24 13:44",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "업비트"
-      ],
-      "hash": "72b23f998457"
-    },
-    {
-      "title": "코스피, 하락 전환…8000선도 위협",
-      "url": "https://www.hankyung.com/article/2026062451556",
-      "summary": "[속보] 코스피, 장중 하락 전환…8,000선도 위협강경주 한경닷컴 기자 qurasoha@hankyung.com",
-      "datetime_raw": "2026.06.24 12:09",
-      "datetime": "2026-06-24T12:09:00+09:00",
-      "dt": "2026-06-24 12:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "b1b02db71880"
-    },
-    {
-      "title": "오락가락 코스피…1% 초고수는 삼전닉스 팔고 '이 종목' 담았다",
-      "url": "https://www.hankyung.com/article/202606244978i",
-      "summary": "수익률 1%의 초고수들은 24일 유가증권시장에서 하이브와 LS일렉트릭, 삼성전자 우선주를 대거 순매수한 것으로 나타났다.미래에셋증권 엠클럽에 따르면 이 회사 고객 중 수익률 상위 1% 계좌는 이날 오전 10시까지 하이브와 LS일렉트릭, 삼성전자 우선주를 집중 매수했다....",
-      "datetime_raw": "2026.06.24 12:05",
-      "datetime": "2026-06-24T12:05:00+09:00",
-      "dt": "2026-06-24 12:05",
-      "brokers": [
-        "미래에셋"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "오락가락 코스피"
-      ],
-      "hash": "a40e8ba7575c"
-    },
-    {
-      "title": "거래소, 미국 바이오기업 대상 코스닥 상장 유치 나서",
-      "url": "https://www.hankyung.com/article/2026062451076",
-      "summary": "한국거래소는 미국 샌디에고에서 열린 2026 바이오 인터내셔널 컨벤션(BIO USA 2026)에서 글로벌 바이오 기업을 대상으로 한국 자본시장 홍보 활동을 진행했다고 24일 밝혔다.거래소는 서울투자진흥재단과 함께 약 150명을 대상으로 외국기업의 코스닥 상장 절차와 I...",
-      "datetime_raw": "2026.06.24 11:53",
-      "datetime": "2026-06-24T11:53:00+09:00",
-      "dt": "2026-06-24 11:53",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "거래소"
-      ],
-      "hash": "105cd91c8564"
-    },
-    {
-      "title": "하반기 시장, 금리 인상 분위기에서 답을 찾아라",
-      "url": "https://www.hankyung.com/article/202606220356i",
-      "summary": "﻿하반기 시장을 앞두고 크게 다섯 가지 정도의 점검해 봐야 할 리스크를 꼽을 수 있다. 전세계 주식 시장이 이미 많이 상승했다는 점, 미국 정부 부채 증가와 국채수익률 상승, AI 자본 지출 우려, 인플레이션과 연관된 금리 인상 기조와 환율이다. 전세계 주요 ...",
-      "datetime_raw": "2026.06.24 10:41",
-      "datetime": "2026-06-24T10:41:00+09:00",
-      "dt": "2026-06-24 10:41",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하반기 시장"
-      ],
-      "hash": "fe39150e301d"
-    },
-    {
-      "title": "한국투자액셀러레이터, 스타트업 투자 프로그램 '바른동행' 참가사 모집",
-      "url": "https://www.hankyung.com/article/2026062447646",
-      "summary": "한국투자액셀러레이터가 다음달 2일까지 초기 스타트업을 위한 시드 투자 프로그램 '바른동행' 참가사를 모집한다고 24일 밝혔다.'바른동행'은 창업 3년 미만 유망 스타트업을 발굴해 마중물 투자와 성장을 지원하는 한투AC의 간판 액셀러레이팅 프...",
-      "datetime_raw": "2026.06.24 10:18",
-      "datetime": "2026-06-24T10:18:00+09:00",
-      "dt": "2026-06-24 10:18",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "바른동행",
-        "한국투자액셀러레이터"
-      ],
-      "hash": "c1cf9b3e69de"
-    },
-    {
-      "title": "투자경고 지정에도…삼전·닉스 공장부지 기대감에 '上' 찍은 종목",
-      "url": "https://www.hankyung.com/article/2026062444966",
-      "summary": "보해양조가 연일 급등세다. 삼성전자와 SK하이닉스가 호남 지역 반도체 공장 구축 방안을 검토하는 가운데, 보해양조가 보유한 땅이 부지로 선정될 가능성이 부각되면서다.24일 오전 9시20분 현재 보해양조는 전일 대비 910원(29.93%) 오른 3950원을 기록 중이다....",
-      "datetime_raw": "2026.06.24 09:33",
-      "datetime": "2026-06-24T09:33:00+09:00",
-      "dt": "2026-06-24 09:33",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "투자경고 지정에도"
-      ],
-      "hash": "fc90f1d3e76d"
-    },
-    {
-      "title": "클로봇, 두산로지스틱스솔루션 인수 소식에 12% 급등",
-      "url": "https://www.hankyung.com/article/2026062444286",
-      "summary": "클로봇이 장 초반 강세를 보이고 있다.24일 오전 9시10분 현재 클로봇은 전 거래일 대비 12.17% 오른 3만4100원에 거래되고 있다.시장에서는 두산그룹 물류자동화 계열사 인수 소식이 투자심리를 자극한 것으로 보고 있다.클로봇은 전날 공시를 통해 두산로지스틱스솔루...",
-      "datetime_raw": "2026.06.24 09:27",
-      "datetime": "2026-06-24T09:27:00+09:00",
-      "dt": "2026-06-24 09:27",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "클로봇"
-      ],
-      "hash": "d951f394d899"
-    },
-    {
-      "title": "삼기, 글로벌 기업 휴머노이드 프레임 개발업체 선정 소식에 '上'",
-      "url": "https://www.hankyung.com/article/2026062444776",
-      "summary": "삼기가 글로벌 로봇 기업의 휴머노이드 프레임 개발 업체로 선정됐다는 소식을 전한 이후 주가가 24일 장 초반 천장을 쳤다.이날 오전 9시20분 현재 삼기는 가격제한폭(250원·29.9%)까지 오른 1086원을 기록하고 있다.삼기는 기존 보유 설비를 활용해 ...",
-      "datetime_raw": "2026.06.24 09:23",
-      "datetime": "2026-06-24T09:23:00+09:00",
-      "dt": "2026-06-24 09:23",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼기"
-      ],
-      "hash": "cae313ba3ee4"
     }
   ],
   "consensus_signals": [
