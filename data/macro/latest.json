@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-25T09:30:54.446299+09:00",
+  "collected_at": "2026-06-25T10:30:57.530906+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -69,16 +69,16 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,548.02",
-          "chg": "5.23",
-          "chg_pct": "+0.34%"
+          "close": "1,546.85",
+          "chg": "4.06",
+          "chg_pct": "+0.26%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,756.71",
-          "chg": "6.97",
-          "chg_pct": "+0.40%"
+          "close": "1,757.07",
+          "chg": "7.33",
+          "chg_pct": "+0.42%"
         },
         {
           "name": "일본",
@@ -90,9 +90,9 @@
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "227.94",
-          "chg": "0.77",
-          "chg_pct": "+0.34%"
+          "close": "227.80",
+          "chg": "0.63",
+          "chg_pct": "+0.28%"
         }
       ]
     },
@@ -184,9 +184,9 @@
         {
           "name": "일본 국채 10년",
           "symbol": "JP10YY",
-          "close": "2.68",
+          "close": "2.67",
           "chg": "0.01",
-          "chg_pct": "+0.22%"
+          "chg_pct": "-0.34%"
         }
       ]
     }

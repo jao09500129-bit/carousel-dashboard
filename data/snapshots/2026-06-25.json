@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-25T09:30:54.446299+09:00",
+  "collected_at": "2026-06-25T10:30:57.530906+09:00",
   "date": "2026-06-25",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -44,6 +44,103 @@
     ]
   },
   "items": [
+    {
+      "title": "리플·SBI, 일본서 달러 스테이블코인 RLUSD 출시",
+      "url": "https://www.hankyung.com/article/202606257180B",
+      "summary": "리플(Ripple)은 일본 금융서비스 기업 SBI홀딩스와 자회사 SBI VC 트레이드가 달러 기반 스테이블코인 리플USD(RLUSD)를 일본 시장에 출시했다고 25일 밝혔다.이번 출시는 일본 금융청(JFSA)의 승인을 거쳐 이뤄졌다. RLUSD는 일본 결제서비스법상 외...",
+      "datetime_raw": "2026.06.25 10:13",
+      "datetime": "2026-06-25T10:13:00+09:00",
+      "dt": "2026-06-25 10:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "리플"
+      ],
+      "hash": "12b97f5c4716"
+    },
+    {
+      "title": "두나무, 업비트 데이터랩에 '미국 현물 ETF 동향' 서비스 출시",
+      "url": "https://www.hankyung.com/article/202606257090B",
+      "summary": "두나무는 미국 비트코인(BTC)과 이더리움(ETH) 현물 상장지수펀드(ETF)의 자금 흐름을 확인할 수 있는 '현물 ETF 동향' 서비스를 업비트 데이터랩에 새롭게 선보였다고 25일 밝혔다.이번 서비스는 국내에서 처음으로 미국 디지털자산 현물 ETF 관련 주요 수급 지...",
+      "datetime_raw": "2026.06.25 10:03",
+      "datetime": "2026-06-25T10:03:00+09:00",
+      "dt": "2026-06-25 10:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "두나무",
+        "미국 현물 ETF 동향"
+      ],
+      "hash": "42defb422b86"
+    },
+    {
+      "title": "큰손 외국인 몰리는 KT&G… 변동성 버틸 방어주로 부상",
+      "url": "https://www.hankyung.com/article/202606245811i",
+      "summary": "KT&G가 변동성 장세의 방어주로 떠올랐다. 내수와 수출을 기반으로 한 탄탄한 실적과 적극적인 주주환원 정책 등이 방어주로서 투자 매력을 높이는 요인이다. 주식시장 큰손으로 불리는 주요 외국계 투자사가 KT&G 지분을 늘리고 있는 것도 투자 포인트 중 하나다. 하반기로...",
+      "datetime_raw": "2026.06.25 10:00",
+      "datetime": "2026-06-25T10:00:00+09:00",
+      "dt": "2026-06-25 10:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "큰손 외국인 몰리는 KT&G"
+      ],
+      "hash": "c6aa35cb2160"
+    },
+    {
+      "title": "테슬라·선런 등의 가상발전소 협약에…SK그룹 신재생株 강세",
+      "url": "https://www.hankyung.com/article/2026062570696",
+      "summary": "SK그룹 계열사를 중심으로 신재생에너지 관련 종목들이 급등하고 있다. SK그룹과 각별한 사이인 선런이 테슬라 등과 초대형 가상발전소 협약을 맺었다는 소식이 간밤 뉴욕증시에서 큰 폭으로 상승한 영향으로 보인다.25일 오전 9시43분 현재 SK는 전일 대비 11만1000원...",
+      "datetime_raw": "2026.06.25 09:57",
+      "datetime": "2026-06-25T09:57:00+09:00",
+      "dt": "2026-06-25 09:57",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "테슬라"
+      ],
+      "hash": "c47c243855e5"
+    },
+    {
+      "title": "환율, 달러 강세·외국인 순매도에 다시 1550원 접근",
+      "url": "https://www.hankyung.com/article/202606257035Y",
+      "summary": "원/달러 환율은 25일 달러 강세와 외국인의 국내 주식 순매도가 이어지는 가운데 나흘 연속 오르며 다시 1,550원에 다가섰다.이날 서울외환시장에서 미국 달러화 대비 원화 환율은 오전 9시 20분 현재 전날 주간 거래 종가(오후 3시 30분 기준)보다 5.5원 오른 1...",
+      "datetime_raw": "2026.06.25 09:48",
+      "datetime": "2026-06-25T09:48:00+09:00",
+      "dt": "2026-06-25 09:48",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "환율"
+      ],
+      "hash": "51f37add9b10"
+    },
+    {
+      "title": "\"삼성전자 주식 없어도\"…마이크론 낭보에 개미들 웃는 이유 [종목+]",
+      "url": "https://www.hankyung.com/article/2026062570066",
+      "summary": "삼성물산과 삼성생명이 25일 장 초반 급등세다. 마이크론이 시장 예상을 크게 웃도는 실적을 내놓으며 삼성전자의 호실적 기대가 커진 영향이다. 삼성물산과 삼성생명은 삼성전자 지분을 보유하고 있다.이날 오전 9시32분 삼성물산은 전 거래일 대비 14.23% 오른 55만원에...",
+      "datetime_raw": "2026.06.25 09:48",
+      "datetime": "2026-06-25T09:48:00+09:00",
+      "dt": "2026-06-25 09:48",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 주식 없어도"
+      ],
+      "hash": "e3f6ca73aa27"
+    },
     {
       "title": "샤페론, 아토피 신약 후보 임상 2상 실패에 '下'",
       "url": "https://www.hankyung.com/article/2026062569516",
@@ -111,19 +208,18 @@
       "hash": "24c6c0f2b4d9"
     },
     {
-      "title": "마이크론 훈풍 이어가는 코스피…'9천피' 재진입 시도",
+      "title": "외국인 1.2조원 순매도…코스피 8800 공방전",
       "url": "https://www.hankyung.com/article/202606256874i",
-      "summary": "🕘 장초반 급등 출발… 반도체·지주회사 주도, 개인·기관 순매수오늘 한국 증시는 마이크론의 사상 최대 실적 발표와 국제유가 급락이라는 두 가지 강력한 호재를 등에 업고 강한 상승세로 출발했습니다.오전 9시 10분 기준, 코스피는 전...",
+      "summary": "🕘 장초반 급등 후 상승폭 축소… 반도체 강세, 코스닥 약세 전환오전 10시 기준, 한국 증시는 마이크론의 어닝 서프라이즈와 국제유가 급락이라는 두 가지 강력한 호재를 바탕으로 강한 상승 흐름을 이어가고 있습니다.코스피는 전일 대비 355.98포인트(4.2...",
       "datetime_raw": "2026.06.25 09:16",
       "datetime": "2026-06-25T09:16:00+09:00",
       "dt": "2026-06-25 09:16",
       "brokers": [],
-      "opinion": "매수",
+      "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "9천피",
-        "마이크론 훈풍 이어가는 코스피"
+        "외국인 1.2조원 순매도"
       ],
       "hash": "8530db66a596"
     },
@@ -278,6 +374,88 @@
       "hash": "fe7c1ef2e2fc"
     },
     {
+      "title": "신동, 위고비 없이 37kg 다이어트 성공",
+      "url": "https://www.hankyung.com/article/202606232989H",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신동"
+      ],
+      "hash": "4569b70a0e2a"
+    },
+    {
+      "title": "'153만원→96만원' 폭락…외국인 바닥서 1300억 쓸어 담았다",
+      "url": "https://www.hankyung.com/article/202606245499i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": -37.254901960784316,
+      "keywords": [
+        "153만원→96만원"
+      ],
+      "hash": "0698c487d765"
+    },
+    {
+      "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
+      "url": "https://www.hankyung.com/article/2026062453917",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "바글바글",
+        "오픈 1시간 만에 품절 또 품절"
+      ],
+      "hash": "317a47e415ac"
+    },
+    {
+      "title": "\"자리 있나요?\" 전화 1000통 폭주…인기 폭발한 '여행 상품'",
+      "url": "https://www.hankyung.com/article/2026062335821",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "여행 상품",
+        "자리 있나요?"
+      ],
+      "hash": "27ccbc432397"
+    },
+    {
+      "title": "'78만원' 역대 최고가 찍더니 30% 폭락…개미들 비명",
+      "url": "https://www.hankyung.com/article/2026062441716",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "78만원"
+      ],
+      "hash": "d21bbffcb4bf"
+    },
+    {
       "title": "\"이수페타시스, 구글 TPU 기판 점유율 하락 우려 과도\"-NH",
       "url": "https://www.hankyung.com/article/2026062565566",
       "summary": "NH투자증권은 25일 이수페타시스에 대해 최근 구글의 텐서처리장치(TPU) 기판 공급 점유율이 하락할 수 있다는 우려로 인한 주가 하락으로 밸류에이션 매력이 높아졌다고 평가했다. 그러면서 투자의견은 ‘매수’로, 목표주가는 20만원으로 각각 유지했다...",
@@ -376,104 +554,6 @@
         "싸게 살 기회"
       ],
       "hash": "a1edf9ebbc45"
-    },
-    {
-      "title": "신동, 위고비 없이 37kg 다이어트 성공",
-      "url": "https://www.hankyung.com/article/202606232989H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신동"
-      ],
-      "hash": "4569b70a0e2a"
-    },
-    {
-      "title": "'153만원→96만원' 폭락…외국인 바닥서 1300억 쓸어 담았다",
-      "url": "https://www.hankyung.com/article/202606245499i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": -37.254901960784316,
-      "keywords": [
-        "153만원→96만원"
-      ],
-      "hash": "0698c487d765"
-    },
-    {
-      "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
-      "url": "https://www.hankyung.com/article/2026062453917",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "바글바글",
-        "오픈 1시간 만에 품절 또 품절"
-      ],
-      "hash": "317a47e415ac"
-    },
-    {
-      "title": "\"자리 있나요?\" 전화 1000통 폭주…인기 폭발한 '여행 상품'",
-      "url": "https://www.hankyung.com/article/2026062335821",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "여행 상품",
-        "자리 있나요?"
-      ],
-      "hash": "27ccbc432397"
-    },
-    {
-      "title": "'78만원' 역대 최고가 찍더니 30% 폭락…개미들 비명",
-      "url": "https://www.hankyung.com/article/2026062441716",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "78만원"
-      ],
-      "hash": "d21bbffcb4bf"
-    },
-    {
-      "title": "어제 12% 급락, 오늘 9.8% 급등…삼성전자에 무슨 일이",
-      "url": "https://www.hankyung.com/article/2026062460231",
-      "summary": "삼성전자가 SK하이닉스에 시가총액 1위 타이틀을 내준 지 이틀 만에 왕좌를 탈환했다. 90조원에 달하는 대규모 자사주 매입 계획에 기대가 커진 영향이다. 삼성물산, 삼성바이오로직스 등 삼성그룹주도 일제히 강세를 보이며 코스피지수 반등을 이끌었다.24일 삼성전자는 9.8...",
-      "datetime_raw": "2026.06.24 18:02",
-      "datetime": "2026-06-24T18:02:00+09:00",
-      "dt": "2026-06-24 18:02",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "어제 12% 급락"
-      ],
-      "hash": "bcd8b8a815b0"
     },
     {
       "title": "'수익률 500%' 20대 투자 고수의 비결 [한경 프리미엄9 TODAY]",
@@ -1023,89 +1103,6 @@
         "패닉"
       ],
       "hash": "11ec41c8ac01"
-    },
-    {
-      "title": "\"터보플로우, 600만달러 규모 시드 투자 유치\"",
-      "url": "https://www.hankyung.com/article/2026062316796",
-      "summary": "온체인 트레이딩 플랫폼 터보플로우가 판테라캐피털이 주도한 투자 라운드에서 600만달러(약 92억원) 규모의 시드 투자를 유치했다고 블루밍비트가 23일 보도했다.투자 라운드에는 서스퀘하나 크립토와 디지털커런시그룹(DCG)이 참여한 것으로 전해졌다.터보플로우는 무...",
-      "datetime_raw": "2026.06.23 19:38",
-      "datetime": "2026-06-23T19:38:00+09:00",
-      "dt": "2026-06-23 19:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "터보플로우"
-      ],
-      "hash": "f666f7b2542b"
-    },
-    {
-      "title": "AI·방산 핵심 공급사로 떠오른 이곳 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026062336521",
-      "summary": "AI·방산 핵심 공급사로 떠오른 이곳한경 프리미엄9이 1차전지 분야의 글로벌 강소기업에서 인공지능(AI) 데이터센터와 첨단 방위산업 인프라시장의 핵심 공급사로 변신을 꾀하는 비츠로셀을 집중 조명했다. 비츠로셀은 대만 델타와 AI 데이터센터용 리튬...",
-      "datetime_raw": "2026.06.23 17:54",
-      "datetime": "2026-06-23T17:54:00+09:00",
-      "dt": "2026-06-23 17:54",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "AI"
-      ],
-      "hash": "134e096862ea"
-    },
-    {
-      "title": "'다윗' 타임폴리오 승부수…액티브 ETF 10조 넘었다",
-      "url": "https://www.hankyung.com/article/2026062335871",
-      "summary": "국내 액티브 상장지수펀드(ETF) 시장 1위 운용사인 타임폴리오자산운용의 ETF 순자산총액(AUM)이 10조원을 넘어섰다. 대형 금융그룹 계열 운용사가 아니라 독립계 자산운용사가 ETF 사업만으로 순자산 10조원을 달성한 것은 타임폴리오가 처음이다.23일 한국거래소에 ...",
-      "datetime_raw": "2026.06.23 17:41",
-      "datetime": "2026-06-23T17:41:00+09:00",
-      "dt": "2026-06-23 17:41",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "다윗"
-      ],
-      "hash": "db3a424d6052"
-    },
-    {
-      "title": "하루 새 25% 폭락…'닉스전자' 레버리지 베팅한 투자자 '비상'",
-      "url": "https://www.hankyung.com/article/202606233228i",
-      "summary": "25년 만에 '한국 시가총액 1위' 타이틀을 거머쥔 SK하이닉스가 23일 급락장 속에서 삼성전자와의 치열한 공방 끝에 가까스로 왕좌를 지켜냈다. 하지만 반도체 투톱의 주가가 모두 하루 새 12%씩 빠진 탓에 이들 종목을 2배 추종하는 단일종목 레버리지 상...",
-      "datetime_raw": "2026.06.23 16:49",
-      "datetime": "2026-06-23T16:49:00+09:00",
-      "dt": "2026-06-23 16:49",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비상",
-        "닉스전자",
-        "하루 새 25% 폭락"
-      ],
-      "hash": "31cbbe305447"
-    },
-    {
-      "title": "검은 화요일 현실로…코스피 10% '털썩'",
-      "url": "https://www.hankyung.com/article/202606233225i",
-      "summary": "코스피지수가 10%가까이 급락해 '8천피'로 내려앉았다. SK하이닉스와 삼성전자 등 반도체 대형주에 대한 차익실현 움직임이 나타나면서 '검은 화요일'이 현실화했다. '주식 미실현 이익 과세'와 '국민연금 수급 우려\u0003...",
-      "datetime_raw": "2026.06.23 16:38",
-      "datetime": "2026-06-23T16:38:00+09:00",
-      "dt": "2026-06-23 16:38",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "털썩",
-        "검은 화요일 현실로"
-      ],
-      "hash": "d3425ee97136"
     }
   ],
   "consensus_signals": [
