@@ -1,22 +1,22 @@
 {
-  "as_of": "2026-06-25 15:00 KST",
+  "as_of": "2026-06-25 16:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "JP모간, S&P500 지수 목표 7800으로 높여",
+  "headline": "테슬라와 계약 소식에 12% 급등한 美 태양광주",
   "us_market_snapshot": [],
   "themes": [
+    {
+      "title": "테슬라와 계약 소식에 12% 급등한 美 태양광주",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202606257655i"
+    },
     {
       "title": "JP모간, S&P500 지수 목표 7800으로 높여",
       "summary": "",
       "url": "https://www.hankyung.com/article/202606257575i"
-    },
-    {
-      "title": "마이크론의 미친 실적→반도체 조정 끝?…'구글 다우 입성' 의미는 [김현석의 월스트리트나우]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202606256523i"
     },
     {
       "title": "마이크론·퀄컴 ‘시간외 불기둥’...美 주택건설 종목들 관심",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
+    "기관 매수에 '구천피' 턱밑까지…코스닥은 900선 무너져 (2026-06-25 15:39)",
+    "커지는 재활로봇의 중요성, ‘피엔에스로보틱스’에 주목 (2026-06-25 15:00)",
     "SK하이닉스 15% 급등…'시총 1위' 탈환 (2026-06-25 14:54)",
-    "월드클래스기업협회, 회원사 임직원 대상 '중국 진출 전략 실무교육' 진행 (2026-06-25 14:14)",
-    "제타체인, 토큰 스테이킹 이용자에 AI 서비스 무료 제공 (2026-06-25 14:13)",
     "★ 합의 시그널 — 트래블월렛: 2사 동조 (KB, NH)"
   ],
   "carousel_implications": {
@@ -56,7 +56,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-25T15:00:51.157967+09:00",
+    "collected_at": "2026-06-25T16:00:50.579808+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -126,30 +126,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,542.06",
-            "chg": "0.73",
-            "chg_pct": "-0.05%"
+            "close": "1,541.55",
+            "chg": "1.24",
+            "chg_pct": "-0.08%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,752.52",
-            "chg": "2.78",
-            "chg_pct": "+0.16%"
+            "close": "1,749.42",
+            "chg": "0.32",
+            "chg_pct": "-0.02%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "953.14",
-            "chg": "0.36",
-            "chg_pct": "-0.04%"
+            "close": "952.38",
+            "chg": "1.12",
+            "chg_pct": "-0.12%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "227.11",
-            "chg": "0.06",
-            "chg_pct": "-0.03%"
+            "close": "227.03",
+            "chg": "0.14",
+            "chg_pct": "-0.06%"
           }
         ]
       },
