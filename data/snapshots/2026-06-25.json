@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-25T13:00:57.553477+09:00",
+  "collected_at": "2026-06-25T15:00:51.157967+09:00",
   "date": "2026-06-25",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,18 +7,18 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 65,
   "stats": {
-    "with_broker_mention": 8,
+    "with_broker_mention": 7,
     "target_price_up": 1,
     "target_price_down": 1,
     "top_brokers": [
       [
-        "KB",
+        "NH",
         3
       ],
       [
-        "NH",
+        "KB",
         2
       ],
       [
@@ -32,14 +32,94 @@
       [
         "미래에셋",
         1
-      ],
-      [
-        "키움",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "SK하이닉스 15% 급등…'시총 1위' 탈환",
+      "url": "https://www.hankyung.com/article/2026062579387",
+      "summary": "[속보] SK하이닉스 15% 급등…'시총 1위' 탈환김수영 한경닷컴 기자 swimmingk@hankyung.com",
+      "datetime_raw": "2026.06.25 14:54",
+      "datetime": "2026-06-25T14:54:00+09:00",
+      "dt": "2026-06-25 14:54",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "시총 1위",
+        "SK하이닉스 15% 급등"
+      ],
+      "hash": "ab389231b2d5"
+    },
+    {
+      "title": "월드클래스기업협회, 회원사 임직원 대상 '중국 진출 전략 실무교육' 진행",
+      "url": "https://www.hankyung.com/article/2026062578096",
+      "summary": "월드클래스기업협회가 25일 회원사 임직원 약 30명을 대상으로 ‘중국 진출기업 주요 전략 실무교육’을 진행했다고 밝혔다.이번 교육은 중국 진출 기업과 진출 준비 기업의 실무 대응 역량을 높이기 위해 마련됐다. 주요 대상은 전략기획, 수출&middo...",
+      "datetime_raw": "2026.06.25 14:14",
+      "datetime": "2026-06-25T14:14:00+09:00",
+      "dt": "2026-06-25 14:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "월드클래스기업협회",
+        "중국 진출 전략 실무교육"
+      ],
+      "hash": "505ad1e96797"
+    },
+    {
+      "title": "제타체인, 토큰 스테이킹 이용자에 AI 서비스 무료 제공",
+      "url": "https://www.hankyung.com/article/202606257808B",
+      "summary": "제타체인(ZetaChain)이 자사 토큰 '제타(ZETA)'를 스테이킹한 이용자에게 인공지능(AI) 서비스를 무료로 제공한다고 25일 밝혔다.제타체인은 토큰 스테이킹 이용자를 대상으로 '아누마(Anuma) AI' 사용권에 해당하는 크레딧을 지급하는 기능을 도입했다. 최...",
+      "datetime_raw": "2026.06.25 14:13",
+      "datetime": "2026-06-25T14:13:00+09:00",
+      "dt": "2026-06-25 14:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "제타체인"
+      ],
+      "hash": "21e9a36bf14c"
+    },
+    {
+      "title": "남성, 비상장사 주식 팔아 서울 구로구 소재 부동산 취득키로",
+      "url": "https://www.hankyung.com/article/2026062577966",
+      "summary": "남성이 비상장회사 남성인프라넷 지분 49.9%을 188억6510만원에 처분하고, 처분 대금으로 서울 구로구 디지털로31길 소재 부동산을 164억원에 취득하기로 각각 결정했다고 25일 공시했다.이를 통해 유동성을 확보하고 자산관리 사업부문의 임대수익 기반을 강화하게 될 ...",
+      "datetime_raw": "2026.06.25 14:11",
+      "datetime": "2026-06-25T14:11:00+09:00",
+      "dt": "2026-06-25 14:11",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "남성"
+      ],
+      "hash": "0b956f3d27e0"
+    },
+    {
+      "title": "카카오뱅크, 마스턴캐피탈 지분 100% 인수 추진",
+      "url": "https://www.hankyung.com/article/2026062575876",
+      "summary": "카카오뱅크는 마스턴캐피탈 지분 100% 인수를 추진한다고 25일 공시했다. 카카오뱅크는 마스턴캐피탈 주식 500만주를 241억원에 취득한다.마스턴캐피탈은 마스턴투자운용과 NH투자증권이 공동 출자해 설립한 여신전문금융사로 리스금융 및 기업금융 서비스를 ...",
+      "datetime_raw": "2026.06.25 13:19",
+      "datetime": "2026-06-25T13:19:00+09:00",
+      "dt": "2026-06-25 13:19",
+      "brokers": [
+        "NH"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "카카오뱅크"
+      ],
+      "hash": "2283ab9cca68"
+    },
     {
       "title": "거래소, 개별주식 위클리옵션 상장 연기하기로",
       "url": "https://www.hankyung.com/article/2026062574726",
@@ -273,20 +353,102 @@
       "hash": "24c6c0f2b4d9"
     },
     {
-      "title": "외국인 1.2조원 순매도…코스피 8800 공방전",
+      "title": "SK하이닉스 13%·삼성전자 5% 불기둥…9천피 넘보는 코스피",
       "url": "https://www.hankyung.com/article/202606256874i",
-      "summary": "🕘 장초반 급등 후 상승폭 축소… 반도체 강세, 코스닥 약세 전환오전 10시 기준, 한국 증시는 마이크론의 어닝 서프라이즈와 국제유가 급락이라는 두 가지 강력한 호재를 바탕으로 강한 상승 흐름을 이어가고 있습니다.코스피는 전일 대비 355.98포인트(4.2...",
+      "summary": "🕘 반도체 불기둥에 코스피 8,980선 근접… 코스닥은 888선으로 밀려오후 2시 기준, 한국 증시는 마이크론의 사상 최대 실적 발표 효과가 오후 장에도 강하게 이어지며 코스피가 장중 최고치를 경신하는 흐름을 보이고 있습니다.코스피는 전일 대비 508.91...",
       "datetime_raw": "2026.06.25 09:16",
       "datetime": "2026-06-25T09:16:00+09:00",
       "dt": "2026-06-25 09:16",
       "brokers": [],
-      "opinion": "매도",
+      "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "외국인 1.2조원 순매도"
+        "SK하이닉스 13%"
       ],
       "hash": "8530db66a596"
+    },
+    {
+      "title": "'153만원→96만원' 폭락…외국인 바닥서 1300억 쓸어 담았다",
+      "url": "https://www.hankyung.com/article/202606245499i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": -37.254901960784316,
+      "keywords": [
+        "153만원→96만원"
+      ],
+      "hash": "0698c487d765"
+    },
+    {
+      "title": "신동, 위고비 없이 37kg 다이어트 성공",
+      "url": "https://www.hankyung.com/article/202606232989H",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신동"
+      ],
+      "hash": "4569b70a0e2a"
+    },
+    {
+      "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
+      "url": "https://www.hankyung.com/article/2026062453917",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "바글바글",
+        "오픈 1시간 만에 품절 또 품절"
+      ],
+      "hash": "317a47e415ac"
+    },
+    {
+      "title": "\"자리 있나요?\" 전화 1000통 폭주…인기 폭발한 '여행 상품'",
+      "url": "https://www.hankyung.com/article/2026062335821",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "여행 상품",
+        "자리 있나요?"
+      ],
+      "hash": "27ccbc432397"
+    },
+    {
+      "title": "'78만원' 역대 최고가 찍더니 30% 폭락…개미들 비명",
+      "url": "https://www.hankyung.com/article/2026062441716",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "78만원"
+      ],
+      "hash": "d21bbffcb4bf"
     },
     {
       "title": "국제유가, 전쟁 전 수준 회복…항공株 동반 강세",
@@ -369,88 +531,6 @@
         "KCC"
       ],
       "hash": "d9ad113ca796"
-    },
-    {
-      "title": "신동, 위고비 없이 37kg 다이어트 성공",
-      "url": "https://www.hankyung.com/article/202606232989H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신동"
-      ],
-      "hash": "4569b70a0e2a"
-    },
-    {
-      "title": "'153만원→96만원' 폭락…외국인 바닥서 1300억 쓸어 담았다",
-      "url": "https://www.hankyung.com/article/202606245499i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": -37.254901960784316,
-      "keywords": [
-        "153만원→96만원"
-      ],
-      "hash": "0698c487d765"
-    },
-    {
-      "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
-      "url": "https://www.hankyung.com/article/2026062453917",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "바글바글",
-        "오픈 1시간 만에 품절 또 품절"
-      ],
-      "hash": "317a47e415ac"
-    },
-    {
-      "title": "\"자리 있나요?\" 전화 1000통 폭주…인기 폭발한 '여행 상품'",
-      "url": "https://www.hankyung.com/article/2026062335821",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "여행 상품",
-        "자리 있나요?"
-      ],
-      "hash": "27ccbc432397"
-    },
-    {
-      "title": "'78만원' 역대 최고가 찍더니 30% 폭락…개미들 비명",
-      "url": "https://www.hankyung.com/article/2026062441716",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "78만원"
-      ],
-      "hash": "d21bbffcb4bf"
     },
     {
       "title": "\"9천피 못 따라가네\"…증권주 추락 어디까지 [종목+]",
@@ -555,7 +635,7 @@
       "hash": "8ccb6e83978e"
     },
     {
-      "title": "실적 이렇게 좋은데…'고점보다 40% 빠졌다' 개미들 '멘붕' [분석+]",
+      "title": "\"편의점 실적 좋은데 주가는 왜\"…코로나 고점보다 40% 빠졌다 [분석+]",
       "url": "https://www.hankyung.com/article/2026062564296",
       "summary": "국내 편의점 업계 양강인 BGF리테일과 GS리테일이 실적 개선 기대에도 장기간 부진한 주가 흐름을 이어가고 있다. 증권가는 외국인 관광객 증가와 점포 효율화, 사업 구조조정 효과가 본격화되면서 수익성 개선이 나타날 것으로 전망하고 있다. 다만 투자자들의 시선은 여전히 ...",
       "datetime_raw": "2026.06.25 07:33",
@@ -566,9 +646,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "멘붕",
-        "실적 이렇게 좋은데",
-        "고점보다 40% 빠졌다"
+        "편의점 실적 좋은데 주가는 왜"
       ],
       "hash": "e81239462c90"
     },
@@ -1031,76 +1109,6 @@
         "코스피"
       ],
       "hash": "2ede2509e327"
-    },
-    {
-      "title": "시장 급락에 '삼전닉스' 던진 1% 초고수…'이 종목'에 베팅",
-      "url": "https://www.hankyung.com/article/202606244287i",
-      "summary": "지난 23일 거래에서 투자 수익률 상위 1%의 초고수는 SK하이닉스와 삼성전자, 삼성전기 등 상승장의 주도주를 대거 순매도하고 인버스 ETF를 집중 매수한 것으로 나타났다.24일 키움증권이 투자원금 1000만원 이상인 계좌 중 수익률 상위 1%의 매매 내역을 분석한 결...",
-      "datetime_raw": "2026.06.24 08:52",
-      "datetime": "2026-06-24T08:52:00+09:00",
-      "dt": "2026-06-24 08:52",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스",
-        "이 종목"
-      ],
-      "hash": "59a5570b4015"
-    },
-    {
-      "title": "\"불장 소외되더니 신저가 '속출'\"…식품주, 고환율에 '눈물' [분석+]",
-      "url": "https://www.hankyung.com/article/2026062440736",
-      "summary": "식품주(株)가 줄줄이 신저가로 추락했다. 고환율 장기화에 따른 원가 부담으로 식품업계 전반의 성장세가 둔화하고 있는 영향이다. 다만 해외 매출 비중이 높은 일부 기업은 고환율 수혜를 누리며 차별화된 흐름을 보이고 있다.24일 한국거래소에 따르면 전날 유가증권시...",
-      "datetime_raw": "2026.06.24 08:31",
-      "datetime": "2026-06-24T08:31:00+09:00",
-      "dt": "2026-06-24 08:31",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "…식품주, 고환율에",
-        "불장 소외되더니 신저가"
-      ],
-      "hash": "8b9b9b6bdd6c"
-    },
-    {
-      "title": "\"SK하이닉스, 변한 건 심리 뿐…조정은 비중 확대 기회\"-KB",
-      "url": "https://www.hankyung.com/article/2026062441806",
-      "summary": "KB증권은 지난 23일 SK하이닉스가 급락한 데 대해 메모리반도체 호황에 따른 실적 기대감이 여전한 상황에서 심리만 악화됐을 뿐이라며 주가 조정을 비중 확대의 기회로 삼으라고 조언했다. 그러면서 투자의견은 ‘매수’를, 목표주가는 380만원을 각각 ...",
-      "datetime_raw": "2026.06.24 08:07",
-      "datetime": "2026-06-24T08:07:00+09:00",
-      "dt": "2026-06-24 08:07",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "f529c503273d"
-    },
-    {
-      "title": "'시총 1위의 저주' 진짜일까…SK하이닉스가 깨운 징크스",
-      "url": "https://www.hankyung.com/article/202606233394i",
-      "summary": "'시총 1위의 저주'가 현실이 되는 것일까.지난 22일 SK하이닉스가 삼성전자를 제치고 25년 7개월만에 새로운 국내 시총 1위에 오른 직후 시장에서는 오래된 징크스가 다시 회자되고 있다. 공교롭게도 왕좌가 바뀐 다음날인 23일 코스피가 9.99% 급락하...",
-      "datetime_raw": "2026.06.24 08:00",
-      "datetime": "2026-06-24T08:00:00+09:00",
-      "dt": "2026-06-24 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "시총 1위의 저주"
-      ],
-      "hash": "f25e22eb4802"
     }
   ],
   "consensus_signals": [
@@ -1124,72 +1132,6 @@
           "target_action": null,
           "opinion": null,
           "datetime": "2026-06-25T11:03:00+09:00"
-        }
-      ],
-      "avg_target_change_pct": 0.0
-    },
-    {
-      "keyword": "SK하이닉스",
-      "n_brokers": 2,
-      "brokers": [
-        "KB",
-        "삼성"
-      ],
-      "ups": 0,
-      "downs": 0,
-      "items": [
-        {
-          "title": "\"SK하이닉스, ADR 나스닥 입성 따른 주가 재평가 기대\"-삼성",
-          "url": "https://www.hankyung.com/article/2026062566466",
-          "brokers": [
-            "삼성"
-          ],
-          "target_action": null,
-          "opinion": "매수",
-          "datetime": "2026-06-25T08:14:00+09:00"
-        },
-        {
-          "title": "\"SK하이닉스, 변한 건 심리 뿐…조정은 비중 확대 기회\"-KB",
-          "url": "https://www.hankyung.com/article/2026062441806",
-          "brokers": [
-            "KB"
-          ],
-          "target_action": null,
-          "opinion": "매수",
-          "datetime": "2026-06-24T08:07:00+09:00"
-        }
-      ],
-      "avg_target_change_pct": 0.0
-    },
-    {
-      "keyword": "이 종목",
-      "n_brokers": 2,
-      "brokers": [
-        "미래에셋",
-        "키움"
-      ],
-      "ups": 0,
-      "downs": 0,
-      "items": [
-        {
-          "title": "오락가락 코스피…1% 초고수는 삼전닉스 팔고 '이 종목' 담았다",
-          "url": "https://www.hankyung.com/article/202606244978i",
-          "brokers": [
-            "미래에셋"
-          ],
-          "target_action": null,
-          "opinion": "매수",
-          "datetime": "2026-06-24T12:05:00+09:00"
-        },
-        {
-          "title": "시장 급락에 '삼전닉스' 던진 1% 초고수…'이 종목'에 베팅",
-          "url": "https://www.hankyung.com/article/202606244287i",
-          "brokers": [
-            "키움"
-          ],
-          "target_action": null,
-          "opinion": "매도",
-          "datetime": "2026-06-24T08:52:00+09:00"
         }
       ],
       "avg_target_change_pct": 0.0

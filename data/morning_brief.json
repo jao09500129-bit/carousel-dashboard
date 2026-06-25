@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-06-25 13:01 KST",
+  "as_of": "2026-06-25 15:00 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "유가·금리 하락에도 혼조…'깜짝 실적' 마이크론 시간외 '급등' [뉴욕증시 브리핑]",
+  "headline": "JP모간, S&P500 지수 목표 7800으로 높여",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "유가·금리 하락에도 혼조…'깜짝 실적' 마이크론 시간외 '급등' [뉴욕증시 브리핑]",
+      "title": "JP모간, S&P500 지수 목표 7800으로 높여",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026062565276"
+      "url": "https://www.hankyung.com/article/202606257575i"
     },
     {
       "title": "마이크론의 미친 실적→반도체 조정 끝?…'구글 다우 입성' 의미는 [김현석의 월스트리트나우]",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "거래소, 개별주식 위클리옵션 상장 연기하기로 (2026-06-25 11:36)",
-    "코스피, 기관 매수에 4%대 후반 강세…코스닥은 하락 전환 (2026-06-25 11:30)",
-    "타임폴리오, TIME Korea플러스배당액티브 ETF 특별배당 지급 (2026-06-25 11:21)",
+    "SK하이닉스 15% 급등…'시총 1위' 탈환 (2026-06-25 14:54)",
+    "월드클래스기업협회, 회원사 임직원 대상 '중국 진출 전략 실무교육' 진행 (2026-06-25 14:14)",
+    "제타체인, 토큰 스테이킹 이용자에 AI 서비스 무료 제공 (2026-06-25 14:13)",
     "★ 합의 시그널 — 트래블월렛: 2사 동조 (KB, NH)"
   ],
   "carousel_implications": {
@@ -56,7 +56,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-25T13:00:57.553477+09:00",
+    "collected_at": "2026-06-25T15:00:51.157967+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -126,30 +126,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,546.04",
-            "chg": "3.25",
-            "chg_pct": "+0.21%"
+            "close": "1,542.06",
+            "chg": "0.73",
+            "chg_pct": "-0.05%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,757.95",
-            "chg": "8.21",
-            "chg_pct": "+0.47%"
+            "close": "1,752.52",
+            "chg": "2.78",
+            "chg_pct": "+0.16%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "955.84",
-            "chg": "2.34",
-            "chg_pct": "+0.25%"
+            "close": "953.14",
+            "chg": "0.36",
+            "chg_pct": "-0.04%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "227.64",
-            "chg": "0.47",
-            "chg_pct": "+0.21%"
+            "close": "227.11",
+            "chg": "0.06",
+            "chg_pct": "-0.03%"
           }
         ]
       },
@@ -206,16 +206,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.17",
-            "chg": "0.00",
-            "chg_pct": "0.00%"
+            "close": "4.13",
+            "chg": "0.04",
+            "chg_pct": "-0.96%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.77",
-            "chg": "0.00",
-            "chg_pct": "+0.05%"
+            "close": "3.74",
+            "chg": "0.03",
+            "chg_pct": "-0.87%"
           },
           {
             "name": "미국 국채 10년",

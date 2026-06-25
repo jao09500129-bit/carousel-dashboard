@@ -1,8 +1,8 @@
 {
-  "computed_at": "2026-06-25T13:00:57.553477+09:00",
+  "computed_at": "2026-06-25T15:00:51.157967+09:00",
   "date": "2026-06-25",
   "summary": {
-    "broker_consensus": 3,
+    "broker_consensus": 1,
     "target_price_cluster_up": 0,
     "target_price_cluster_down": 0,
     "divergence": 0
@@ -29,72 +29,6 @@
             "target_action": null,
             "opinion": null,
             "datetime": "2026-06-25T11:03:00+09:00"
-          }
-        ],
-        "avg_target_change_pct": 0.0
-      },
-      {
-        "keyword": "SK하이닉스",
-        "n_brokers": 2,
-        "brokers": [
-          "KB",
-          "삼성"
-        ],
-        "ups": 0,
-        "downs": 0,
-        "items": [
-          {
-            "title": "\"SK하이닉스, ADR 나스닥 입성 따른 주가 재평가 기대\"-삼성",
-            "url": "https://www.hankyung.com/article/2026062566466",
-            "brokers": [
-              "삼성"
-            ],
-            "target_action": null,
-            "opinion": "매수",
-            "datetime": "2026-06-25T08:14:00+09:00"
-          },
-          {
-            "title": "\"SK하이닉스, 변한 건 심리 뿐…조정은 비중 확대 기회\"-KB",
-            "url": "https://www.hankyung.com/article/2026062441806",
-            "brokers": [
-              "KB"
-            ],
-            "target_action": null,
-            "opinion": "매수",
-            "datetime": "2026-06-24T08:07:00+09:00"
-          }
-        ],
-        "avg_target_change_pct": 0.0
-      },
-      {
-        "keyword": "이 종목",
-        "n_brokers": 2,
-        "brokers": [
-          "미래에셋",
-          "키움"
-        ],
-        "ups": 0,
-        "downs": 0,
-        "items": [
-          {
-            "title": "오락가락 코스피…1% 초고수는 삼전닉스 팔고 '이 종목' 담았다",
-            "url": "https://www.hankyung.com/article/202606244978i",
-            "brokers": [
-              "미래에셋"
-            ],
-            "target_action": null,
-            "opinion": "매수",
-            "datetime": "2026-06-24T12:05:00+09:00"
-          },
-          {
-            "title": "시장 급락에 '삼전닉스' 던진 1% 초고수…'이 종목'에 베팅",
-            "url": "https://www.hankyung.com/article/202606244287i",
-            "brokers": [
-              "키움"
-            ],
-            "target_action": null,
-            "opinion": "매도",
-            "datetime": "2026-06-24T08:52:00+09:00"
           }
         ],
         "avg_target_change_pct": 0.0
