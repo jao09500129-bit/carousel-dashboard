@@ -1,15 +1,15 @@
 {
-  "computed_at": "2026-06-25T10:30:57.530906+09:00",
+  "computed_at": "2026-06-25T11:00:55.709776+09:00",
   "carousel_recommendation": "금리 민감",
   "carousel_sector": "부동산",
   "consensus_top": [
     {
       "sector": "정보기술",
-      "weight": 0.55
+      "weight": 0.62
     },
     {
       "sector": "기타",
-      "weight": 0.45
+      "weight": 0.38
     }
   ],
   "alignment_score": 30,
