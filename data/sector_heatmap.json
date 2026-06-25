@@ -1,11 +1,17 @@
 {
-  "computed_at": "2026-06-24T23:10:50.953485+09:00",
+  "computed_at": "2026-06-25T09:30:54.446299+09:00",
   "sectors": [
     {
       "name": "정보기술",
-      "intensity": 0.0,
-      "count": 3,
-      "top": []
+      "intensity": -0.1,
+      "count": 5,
+      "top": [
+        {
+          "kw": "SK하이닉스",
+          "n": 2,
+          "score": 46.6
+        }
+      ]
     },
     {
       "name": "자동차",
@@ -40,7 +46,7 @@
     {
       "name": "필수소비재",
       "intensity": 0.0,
-      "count": 1,
+      "count": 2,
       "top": []
     },
     {
@@ -69,13 +75,13 @@
     },
     {
       "name": "기타",
-      "intensity": -1.0,
-      "count": 59,
+      "intensity": -0.8,
+      "count": 55,
       "top": [
         {
           "kw": "이 종목",
           "n": 2,
-          "score": 26.1
+          "score": 29.1
         }
       ]
     }

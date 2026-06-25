@@ -1,16 +1,16 @@
 {
-  "computed_at": "2026-06-24T23:10:50.953485+09:00",
-  "action_headline": "반도체 축 유지 — 신규 후보 신호 약함",
-  "confidence": 1,
-  "confidence_pct": 28.1,
+  "computed_at": "2026-06-25T09:30:54.446299+09:00",
+  "action_headline": "금리 민감 축 가속 + 정보기술 신규 진입 검토",
+  "confidence": 2,
+  "confidence_pct": 38.3,
   "rationale": [
-    "美 반도체 지수 -7.87% — 반도체 회전축",
-    "합의 시그널 '이 종목' — Conviction 26/100 (2사 동조)",
-    "Market Mood 61/100 (NEUTRAL)"
+    "미국 10년 yield -9.0bp — 금리 민감 회전축",
+    "합의 시그널 'SK하이닉스' — Conviction 47/100 (2사 동조)",
+    "Market Mood 54/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
-  "stars": "⭐○○○○",
+  "stars": "⭐⭐○○○",
   "friendly_emoji": "🔴",
   "friendly_action": "관망하세요",
   "friendly_reason": "오늘은 시장 의견이 갈리거나 신호가 약해요. 무리해서 진입하지 마세요.",
