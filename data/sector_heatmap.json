@@ -1,17 +1,11 @@
 {
-  "computed_at": "2026-06-25T13:00:57.553477+09:00",
+  "computed_at": "2026-06-25T15:00:51.157967+09:00",
   "sectors": [
     {
       "name": "정보기술",
-      "intensity": -0.6,
+      "intensity": 0.0,
       "count": 5,
-      "top": [
-        {
-          "kw": "SK하이닉스",
-          "n": 2,
-          "score": 36.1
-        }
-      ]
+      "top": []
     },
     {
       "name": "자동차",
@@ -46,13 +40,13 @@
     {
       "name": "필수소비재",
       "intensity": 0.0,
-      "count": 2,
+      "count": 1,
       "top": []
     },
     {
       "name": "커뮤니케이션",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -75,18 +69,13 @@
     },
     {
       "name": "기타",
-      "intensity": -0.7,
-      "count": 56,
+      "intensity": -0.6,
+      "count": 57,
       "top": [
         {
           "kw": "트래블월렛",
           "n": 2,
           "score": 36.1
-        },
-        {
-          "kw": "이 종목",
-          "n": 2,
-          "score": 29.1
         }
       ]
     }
