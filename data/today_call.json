@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-06-25T11:00:55.709776+09:00",
+  "computed_at": "2026-06-25T13:00:57.553477+09:00",
   "action_headline": "금리 민감 축 가속 + 정보기술 신규 진입 검토",
   "confidence": 2,
-  "confidence_pct": 38.3,
+  "confidence_pct": 31.9,
   "rationale": [
     "미국 10년 yield -9.0bp — 금리 민감 회전축",
-    "합의 시그널 'SK하이닉스' — Conviction 47/100 (2사 동조)",
-    "Market Mood 54/100 (NEUTRAL)"
+    "합의 시그널 '트래블월렛' — Conviction 36/100 (2사 동조)",
+    "Market Mood 51/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",

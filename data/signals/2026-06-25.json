@@ -1,14 +1,38 @@
 {
-  "computed_at": "2026-06-25T11:00:55.709776+09:00",
+  "computed_at": "2026-06-25T13:00:57.553477+09:00",
   "date": "2026-06-25",
   "summary": {
-    "broker_consensus": 2,
+    "broker_consensus": 3,
     "target_price_cluster_up": 0,
     "target_price_cluster_down": 0,
     "divergence": 0
   },
   "signals": {
     "broker_consensus": [
+      {
+        "keyword": "트래블월렛",
+        "n_brokers": 2,
+        "brokers": [
+          "KB",
+          "NH"
+        ],
+        "ups": 0,
+        "downs": 0,
+        "items": [
+          {
+            "title": "트래블월렛, IPO 준비 본격화…디지털월렛·B2B 결제 사업 확대",
+            "url": "https://www.hankyung.com/article/202606257356B",
+            "brokers": [
+              "NH",
+              "KB"
+            ],
+            "target_action": null,
+            "opinion": null,
+            "datetime": "2026-06-25T11:03:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 0.0
+      },
       {
         "keyword": "SK하이닉스",
         "n_brokers": 2,
