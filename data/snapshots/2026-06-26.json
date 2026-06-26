@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-26T10:35:52.604970+09:00",
+  "collected_at": "2026-06-26T11:00:55.058693+09:00",
   "date": "2026-06-26",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -404,22 +404,6 @@
       "hash": "317a47e415ac"
     },
     {
-      "title": "신동, 위고비 없이 37kg 다이어트 성공",
-      "url": "https://www.hankyung.com/article/202606232989H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신동"
-      ],
-      "hash": "4569b70a0e2a"
-    },
-    {
       "title": "11억이던 옥수동 아파트, 3개월 만에 갔더니…서민들 '비명'",
       "url": "https://www.hankyung.com/article/2026062572406",
       "summary": "",
@@ -437,8 +421,8 @@
       "hash": "48c292397b96"
     },
     {
-      "title": "'153만원→96만원' 폭락…외국인 바닥서 1300억 쓸어 담았다",
-      "url": "https://www.hankyung.com/article/202606245499i",
+      "title": "신동, 위고비 없이 37kg 다이어트 성공",
+      "url": "https://www.hankyung.com/article/202606232989H",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -446,11 +430,27 @@
       "brokers": [],
       "opinion": null,
       "target_action": null,
-      "target_change_pct": -37.254901960784316,
+      "target_change_pct": null,
       "keywords": [
-        "153만원→96만원"
+        "신동"
       ],
-      "hash": "0698c487d765"
+      "hash": "4569b70a0e2a"
+    },
+    {
+      "title": "차분하던 박지성도 폭발 \"이기려고 한 경기 맞는지…준비 소홀\"",
+      "url": "https://www.hankyung.com/article/2026062575637",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이기려고 한 경기 맞는지…준비 소홀"
+      ],
+      "hash": "f0d252d876d9"
     },
     {
       "title": "커지는 재활로봇의 중요성, ‘피엔에스로보틱스’에 주목",
