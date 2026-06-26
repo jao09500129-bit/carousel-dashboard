@@ -1,21 +1,16 @@
 {
-  "computed_at": "2026-06-26T13:00:51.626221+09:00",
+  "computed_at": "2026-06-26T15:01:01.650440+09:00",
   "current_pivot": "반도체",
   "current_view": "美 반도체 지수 +3.59% 강세. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 단기 과열 경계 — 확신은 합의 시그널과 교차검증 필요.",
   "current_confidence": "중 — 백테스트 미검증",
   "current_days": 1,
   "rotation_velocity": "빠름",
-  "volatility_index": 21.8,
+  "volatility_index": 20.5,
   "candidates": [
     {
       "name": "에너지",
       "probability": 0.2,
       "trigger": "브렌트 +2.21%"
-    },
-    {
-      "name": "환율 민감",
-      "probability": 0.2,
-      "trigger": "USDKRW +0.65%"
     },
     {
       "name": "정보기술",
