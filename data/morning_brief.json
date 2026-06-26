@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-26 09:30 KST",
+  "as_of": "2026-06-26 10:35 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
+    "치솟는 달러값…환율, 5일 연속 올라 1550원 근접 '비상' (2026-06-26 10:03)",
     "코스피, 유가불안·차익실현 매물에 장 초반 8700선 후퇴 (2026-06-26 09:21)",
     "\"빅뱅 컴백하면 주가 오를까\"…'엔터주' 물린 개미들 '들썩' [종목+] (2026-06-26 08:37)",
-    "주가 20% 하락했는데…2차전지株, 데이터센터로 반등할까 (2026-06-26 08:25)",
     "★ 합의 시그널 — SK하이닉스: 2사 동조 (삼성, 하나)"
   ],
   "carousel_implications": {
@@ -54,16 +54,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.56% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.69% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.56%"
+        "trigger_value": "+0.69%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-26T09:30:49.521785+09:00",
+    "collected_at": "2026-06-26T10:35:52.604970+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -133,30 +133,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,547.77",
-            "chg": "8.65",
-            "chg_pct": "+0.56%"
+            "close": "1,549.80",
+            "chg": "10.68",
+            "chg_pct": "+0.69%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,760.86",
-            "chg": "9.44",
-            "chg_pct": "+0.54%"
+            "close": "1,760.11",
+            "chg": "8.69",
+            "chg_pct": "+0.50%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "956.70",
-            "chg": "4.54",
-            "chg_pct": "+0.48%"
+            "close": "957.52",
+            "chg": "5.36",
+            "chg_pct": "+0.56%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "227.98",
-            "chg": "1.36",
-            "chg_pct": "+0.60%"
+            "close": "228.21",
+            "chg": "1.59",
+            "chg_pct": "+0.70%"
           }
         ]
       },
@@ -248,9 +248,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.67",
-            "chg": "0.01",
-            "chg_pct": "-0.34%"
+            "close": "2.64",
+            "chg": "0.04",
+            "chg_pct": "-1.38%"
           }
         ]
       }
