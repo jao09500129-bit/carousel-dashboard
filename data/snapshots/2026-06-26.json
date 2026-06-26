@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-26T11:00:55.058693+09:00",
+  "collected_at": "2026-06-26T13:00:51.626221+09:00",
   "date": "2026-06-26",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -36,6 +36,70 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피, 8%대 급락에 서킷브레이커 발동",
+      "url": "https://www.hankyung.com/article/202606269930Y",
+      "summary": "",
+      "datetime_raw": "2026.06.26 12:15",
+      "datetime": "2026-06-26T12:15:00+09:00",
+      "dt": "2026-06-26 12:15",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "5b04d31234c6"
+    },
+    {
+      "title": "코스피, 8%대 급락에 서킷브레이커 발동",
+      "url": "https://www.hankyung.com/article/2026062699326",
+      "summary": "코스피지수가 26일 장중 8% 넘게 급락해 유가증권시장에서 20분간 매매거래가 일시 중단되는 1단계 서킷 브레이커가 발동됐다.한국거래소는 이날 낮 12시10분 “코스피가 전일 종가지수 대비 8% 이상 하락해 향후 20분간 유가증권시장의 매매거래가 중단된다&r...",
+      "datetime_raw": "2026.06.26 12:14",
+      "datetime": "2026-06-26T12:14:00+09:00",
+      "dt": "2026-06-26 12:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "848159b2890c"
+    },
+    {
+      "title": "새 경영진 체제 '카카오게임즈'…3000억 실탄 들고 재도약 할까",
+      "url": "https://www.hankyung.com/article/202606269818i",
+      "summary": "카카오게임즈가 새 경영진 체제를 공식 출범시키며 재도약에 나섰다. 한때 대표작 ‘오딘: 발할라 라이징’ 흥행으로 주가가&n...",
+      "datetime_raw": "2026.06.26 11:38",
+      "datetime": "2026-06-26T11:38:00+09:00",
+      "dt": "2026-06-26 11:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "카카오게임즈"
+      ],
+      "hash": "4e71da88e30a"
+    },
+    {
+      "title": "코스피, 7%대 급락해 8200선까지 밀려…매도 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026062698236",
+      "summary": "코스피가 26일 장중 7% 넘게 급락하며 8200선으로 밀렸다. 급락에 매도 사이드카(프로그램매매 매도 호가 일시 효력정지)도 발동됐다.코스피는 이날 오전 11시52분 현재 649.02포인트(7.27%) 하락한 8281.28을 기록 중이다.이날 지수는 전날보다 117....",
+      "datetime_raw": "2026.06.26 11:16",
+      "datetime": "2026-06-26T11:16:00+09:00",
+      "dt": "2026-06-26 11:16",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "f529433e6a93"
+    },
     {
       "title": "치솟는 달러값…환율, 5일 연속 올라 1550원 근접 '비상'",
       "url": "https://www.hankyung.com/article/2026062695186",
@@ -306,6 +370,88 @@
       "hash": "75c8477b1021"
     },
     {
+      "title": "\"싸게 살 기회\"…호재 쌓였는데 3년 전 주가로 돌아간 종목",
+      "url": "https://www.hankyung.com/article/202606233069i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "싸게 살 기회"
+      ],
+      "hash": "a1edf9ebbc45"
+    },
+    {
+      "title": "11억이던 옥수동 아파트, 3개월 만에 갔더니…서민들 '비명'",
+      "url": "https://www.hankyung.com/article/2026062572406",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비명",
+        "11억이던 옥수동 아파트"
+      ],
+      "hash": "48c292397b96"
+    },
+    {
+      "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
+      "url": "https://www.hankyung.com/article/2026062453917",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "바글바글",
+        "오픈 1시간 만에 품절 또 품절"
+      ],
+      "hash": "317a47e415ac"
+    },
+    {
+      "title": "차분하던 박지성도 폭발 \"이기려고 한 경기 맞는지…준비 소홀\"",
+      "url": "https://www.hankyung.com/article/2026062575637",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이기려고 한 경기 맞는지…준비 소홀"
+      ],
+      "hash": "f0d252d876d9"
+    },
+    {
+      "title": "신동, 위고비 없이 37kg 다이어트 성공",
+      "url": "https://www.hankyung.com/article/202606232989H",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "신동"
+      ],
+      "hash": "4569b70a0e2a"
+    },
+    {
       "title": "토큰화 금융자산 2조달러 시대 온다…온체인 '머니 무브' 시작",
       "url": "https://www.hankyung.com/article/2026062583516",
       "summary": "자본시장의 변화는 대개 조용히 시작된다. 투자자가 체감하기 전, 먼저 움직이는 곳은 결제, 정산, 담보, 수탁 같은 보이지 않는 영역이다.지금 온체인 자본시장에서 벌어지는 일도 그렇다. 시장의 관심은 여전히 '가격'에 쏠려 있다. 하지만 더 주목할 것은 ...",
@@ -369,88 +515,6 @@
         "구천피"
       ],
       "hash": "5c8c1e2fff35"
-    },
-    {
-      "title": "\"싸게 살 기회\"…호재 쌓였는데 3년 전 주가로 돌아간 종목",
-      "url": "https://www.hankyung.com/article/202606233069i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "싸게 살 기회"
-      ],
-      "hash": "a1edf9ebbc45"
-    },
-    {
-      "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
-      "url": "https://www.hankyung.com/article/2026062453917",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "바글바글",
-        "오픈 1시간 만에 품절 또 품절"
-      ],
-      "hash": "317a47e415ac"
-    },
-    {
-      "title": "11억이던 옥수동 아파트, 3개월 만에 갔더니…서민들 '비명'",
-      "url": "https://www.hankyung.com/article/2026062572406",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비명",
-        "11억이던 옥수동 아파트"
-      ],
-      "hash": "48c292397b96"
-    },
-    {
-      "title": "신동, 위고비 없이 37kg 다이어트 성공",
-      "url": "https://www.hankyung.com/article/202606232989H",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "신동"
-      ],
-      "hash": "4569b70a0e2a"
-    },
-    {
-      "title": "차분하던 박지성도 폭발 \"이기려고 한 경기 맞는지…준비 소홀\"",
-      "url": "https://www.hankyung.com/article/2026062575637",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이기려고 한 경기 맞는지…준비 소홀"
-      ],
-      "hash": "f0d252d876d9"
     },
     {
       "title": "커지는 재활로봇의 중요성, ‘피엔에스로보틱스’에 주목",
@@ -1031,73 +1095,6 @@
         "아모레퍼시픽"
       ],
       "hash": "b1f31dda27dd"
-    },
-    {
-      "title": "'수익률 500%' 20대 투자 고수의 비결 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026062461271",
-      "summary": "'수익률 500%' 20대 투자 고수의 비결올해 초 ‘한경-타임폴리오 KIW 주식투자대회’에서 2등을 차지한 김동규 씨(28)는 삼성전자와 SK하이닉스가 시중 투자금을 빨아들이다 보니 중소형 우량주가 조정받고 있다고 진단했다. 수급이 개선되면 오를 만한 우량주는 무엇일까. 20대 투자 고수가 추천한다. ...",
-      "datetime_raw": "2026.06.24 17:53",
-      "datetime": "2026-06-24T17:53:00+09:00",
-      "dt": "2026-06-24 17:53",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "수익률 500%"
-      ],
-      "hash": "f4edb4eb1d48"
-    },
-    {
-      "title": "제니스, '日 국채 토큰화 협의체' 합류…\"대형은행 협력 강화\"",
-      "url": "https://www.hankyung.com/article/202606246115B",
-      "summary": "캔톤네트워크(CC) 기반 이더리움 가상머신(EVM) 호환 프로젝트 제니스(Zenith)가 일본국채(JGB) 토큰화를 위해 현지 대형은행들과 협업을 강화한다.제니스는 '토큰화 일본국채·온체인 레포 워킹그룹'에 합류했다고 24일 밝혔다. 해당 워킹그룹은 일본국채를 토큰화하...",
-      "datetime_raw": "2026.06.24 17:37",
-      "datetime": "2026-06-24T17:37:00+09:00",
-      "dt": "2026-06-24 17:37",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "제니스",
-        "대형은행 협력 강화",
-        "日 국채 토큰화 협의체"
-      ],
-      "hash": "63705a0bb0d0"
-    },
-    {
-      "title": "SK하이닉스, 7월10일 美 ADR 상장 추진…최대 45조 규모",
-      "url": "https://www.hankyung.com/article/2026062459106",
-      "summary": "SK하이닉스의 미국주식예탁증서(ADR) 나스닥 상장 일정이 다음달 10일로 잠정 결정됐다.SK하이닉스는 미국 나스닥 증권거래소 상장을 위해 최대 45조4534억원 규모의 증권예탁증권(DR)을 발행할 예정이라고 24일 공시했다. 정확한 금액은 ADR의 모집 총액...",
-      "datetime_raw": "2026.06.24 17:08",
-      "datetime": "2026-06-24T17:08:00+09:00",
-      "dt": "2026-06-24 17:08",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "86d03b1a10b4"
-    },
-    {
-      "title": "규제 문턱 낮아지는 美 바이오시밀러 시장…셀트리온 주가 '들썩'",
-      "url": "https://www.hankyung.com/article/202606245788i",
-      "summary": "미국 의회가 바이오시밀러(바이오의약품 복제약) 시장 활성화를 위해 본격적인 규제 완화에 나섰다는 소식에 업계 선두주자인 셀트리온과 삼성바이오에피스 등 국내 바이오시밀러 업계 주가가 급등했다.24일 한국거래소에 따르면 셀트리온 주가는 전일 대비 7.60% 상승한 17만2...",
-      "datetime_raw": "2026.06.24 17:00",
-      "datetime": "2026-06-24T17:00:00+09:00",
-      "dt": "2026-06-24 17:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "규제 문턱 낮아지는 美 바이오시밀러 시장"
-      ],
-      "hash": "9f7c00b28e59"
     }
   ],
   "consensus_signals": [
