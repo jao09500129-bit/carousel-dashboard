@@ -1,47 +1,14 @@
 {
-  "computed_at": "2026-06-26T16:00:48.557753+09:00",
+  "computed_at": "2026-06-26T23:10:46.521512+09:00",
   "date": "2026-06-26",
   "summary": {
-    "broker_consensus": 2,
+    "broker_consensus": 1,
     "target_price_cluster_up": 0,
     "target_price_cluster_down": 0,
     "divergence": 0
   },
   "signals": {
     "broker_consensus": [
-      {
-        "keyword": "SK하이닉스",
-        "n_brokers": 2,
-        "brokers": [
-          "삼성",
-          "하나"
-        ],
-        "ups": 1,
-        "downs": 0,
-        "items": [
-          {
-            "title": "\"SK하이닉스, 올해 내년 영업익 294조원 435조원…목표가↑\"-하나",
-            "url": "https://www.hankyung.com/article/2026062690166",
-            "brokers": [
-              "하나"
-            ],
-            "target_action": "up",
-            "opinion": null,
-            "datetime": "2026-06-26T07:54:00+09:00"
-          },
-          {
-            "title": "\"SK하이닉스, ADR 나스닥 입성 따른 주가 재평가 기대\"-삼성",
-            "url": "https://www.hankyung.com/article/2026062566466",
-            "brokers": [
-              "삼성"
-            ],
-            "target_action": null,
-            "opinion": "매수",
-            "datetime": "2026-06-25T08:14:00+09:00"
-          }
-        ],
-        "avg_target_change_pct": 0.0
-      },
       {
         "keyword": "트래블월렛",
         "n_brokers": 2,

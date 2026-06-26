@@ -1,15 +1,11 @@
 {
-  "computed_at": "2026-06-26T16:00:48.557753+09:00",
+  "computed_at": "2026-06-26T23:10:46.521512+09:00",
   "carousel_recommendation": "에너지",
   "carousel_sector": "에너지",
   "consensus_top": [
     {
       "sector": "기타",
-      "weight": 0.52
-    },
-    {
-      "sector": "정보기술",
-      "weight": 0.48
+      "weight": 1.0
     }
   ],
   "alignment_score": 30,
