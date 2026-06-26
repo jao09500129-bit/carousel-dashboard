@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-26T09:30:49.521785+09:00",
+  "collected_at": "2026-06-26T10:35:52.604970+09:00",
   "date": "2026-06-26",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -36,6 +36,23 @@
     ]
   },
   "items": [
+    {
+      "title": "치솟는 달러값…환율, 5일 연속 올라 1550원 근접 '비상'",
+      "url": "https://www.hankyung.com/article/2026062695186",
+      "summary": "원·달러 환율이 글로벌 금융위기 이후 최고 수준으로 치솟으며 1550원 선에 바짝 다가섰다. 미국 인플레이션 우려와 미국 중앙은행(Fed)의 긴축 전망이 달러 강세를 부추긴 영향으로 읽힌다.26일 서울 외환시장에서 미국 달러화 대비 원화 환율은 오전 9시5...",
+      "datetime_raw": "2026.06.26 10:03",
+      "datetime": "2026-06-26T10:03:00+09:00",
+      "dt": "2026-06-26 10:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "비상",
+        "치솟는 달러값"
+      ],
+      "hash": "67b08a697643"
+    },
     {
       "title": "코스피, 유가불안·차익실현 매물에 장 초반 8700선 후퇴",
       "url": "https://www.hankyung.com/article/2026062691396",
@@ -354,21 +371,20 @@
       "hash": "5c8c1e2fff35"
     },
     {
-      "title": "커지는 재활로봇의 중요성, ‘피엔에스로보틱스’에 주목",
-      "url": "https://www.hankyung.com/article/202606257793i",
-      "summary": "﻿주식투자자라면 일상에서 투자 아이디어를 얻는 경우가 많다. 피터 린치도 그랬다. 피터 린치는 “당신이 약간의 신경만 쓰면 동네 쇼핑상가 등에서 월스트리트 전문가들보다 훨씬 앞서 굉장한 종목들을 골라 가질 수 있다”고 했다. 의료 기술이 발달함에 ...",
-      "datetime_raw": "2026.06.25 15:00",
-      "datetime": "2026-06-25T15:00:00+09:00",
-      "dt": "2026-06-25 15:00",
+      "title": "\"싸게 살 기회\"…호재 쌓였는데 3년 전 주가로 돌아간 종목",
+      "url": "https://www.hankyung.com/article/202606233069i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "피엔에스로보틱스",
-        "커지는 재활로봇의 중요성"
+        "싸게 살 기회"
       ],
-      "hash": "a6e8b1c4b12b"
+      "hash": "a1edf9ebbc45"
     },
     {
       "title": "오픈 1시간 만에 품절 또 품절…캐리어 든 2030 '바글바글'",
@@ -386,22 +402,6 @@
         "오픈 1시간 만에 품절 또 품절"
       ],
       "hash": "317a47e415ac"
-    },
-    {
-      "title": "\"싸게 살 기회\"…호재 쌓였는데 3년 전 주가로 돌아간 종목",
-      "url": "https://www.hankyung.com/article/202606233069i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "싸게 살 기회"
-      ],
-      "hash": "a1edf9ebbc45"
     },
     {
       "title": "신동, 위고비 없이 37kg 다이어트 성공",
@@ -451,6 +451,23 @@
         "153만원→96만원"
       ],
       "hash": "0698c487d765"
+    },
+    {
+      "title": "커지는 재활로봇의 중요성, ‘피엔에스로보틱스’에 주목",
+      "url": "https://www.hankyung.com/article/202606257793i",
+      "summary": "﻿주식투자자라면 일상에서 투자 아이디어를 얻는 경우가 많다. 피터 린치도 그랬다. 피터 린치는 “당신이 약간의 신경만 쓰면 동네 쇼핑상가 등에서 월스트리트 전문가들보다 훨씬 앞서 굉장한 종목들을 골라 가질 수 있다”고 했다. 의료 기술이 발달함에 ...",
+      "datetime_raw": "2026.06.25 15:00",
+      "datetime": "2026-06-25T15:00:00+09:00",
+      "dt": "2026-06-25 15:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "피엔에스로보틱스",
+        "커지는 재활로봇의 중요성"
+      ],
+      "hash": "a6e8b1c4b12b"
     },
     {
       "title": "SK하이닉스 15% 급등…'시총 1위' 탈환",
@@ -1081,22 +1098,6 @@
         "규제 문턱 낮아지는 美 바이오시밀러 시장"
       ],
       "hash": "9f7c00b28e59"
-    },
-    {
-      "title": "요즘 주식 안하는 사람 없다는데…증권주 16% 하락한 까닭은?",
-      "url": "https://www.hankyung.com/article/202606245614i",
-      "summary": "코스피가 8000선에 등락을 거듭하고 있지만 증권주는 하락세를 보이고 있다. 거래대금 피크아웃 우려와 반도체 중심의 쏠림 장세, 금리 인상 조짐 등이 복합적으로 작용한 결과로 풀이된다.24일 한국거래소에 따르면 최근 3개월간 코스피는 52.5% 상승한 ...",
-      "datetime_raw": "2026.06.24 16:46",
-      "datetime": "2026-06-24T16:46:00+09:00",
-      "dt": "2026-06-24 16:46",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "요즘 주식 안하는 사람 없다는데"
-      ],
-      "hash": "71cd9821ab70"
     }
   ],
   "consensus_signals": [
