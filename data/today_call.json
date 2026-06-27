@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-06-26T23:10:46.521512+09:00",
+  "computed_at": "2026-06-27T23:10:52.663226+09:00",
   "action_headline": "반도체 축 유지 — 신규 후보 신호 약함",
   "confidence": 2,
-  "confidence_pct": 34.5,
+  "confidence_pct": 36.0,
   "rationale": [
-    "브렌트 +2.21% — 에너지 회전축",
-    "합의 시그널 '트래블월렛' — Conviction 39/100 (2사 동조)",
+    "브렌트 -3.84% — 에너지 회전축",
+    "합의 시그널 '트래블월렛' — Conviction 42/100 (2사 동조)",
     "Market Mood 61/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
