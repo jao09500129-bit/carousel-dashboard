@@ -1,39 +1,38 @@
 {
-  "as_of": "2026-06-27 23:10 KST",
+  "as_of": "2026-06-28 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "나스닥 5거래일째 하락…마이크론 6.69%↓ [뉴욕증시 브리핑]",
+  "headline": "중국산 칩 찾아나선 애플...\"빅테크 20년 황금기 끝\" [빈난새의 빈틈없이월가]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "나스닥 5거래일째 하락…마이크론 6.69%↓ [뉴욕증시 브리핑]",
+      "title": "중국산 칩 찾아나선 애플...\"빅테크 20년 황금기 끝\" [빈난새의 빈틈없이월가]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026062711497"
+      "url": "https://www.hankyung.com/article/202606281611i"
     },
     {
-      "title": "스페이스X 공모가 아래로 간다(83%) Fed 금리 안 올려(54%) [김현석의 월스트리트나우]",
+      "title": "스페이스X 팔고 '이것' 1조원치 담았다…개미들 '태세 전환'",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606271163i"
+      "url": "https://www.hankyung.com/article/2026062817127"
     },
     {
-      "title": "연준이 말을 줄이기 시작했다…워시 시대가 바꾸는 투자 공식 [박문환 시선집중]",
+      "title": "[속보] 트럼프 \"군사적 대처해야 할 수도…이란 존재 없어질 것\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026062711435"
+      "url": "https://www.hankyung.com/article/2026062817997"
     },
     {
-      "title": "'메이드 인 USA' 인텔의 화려한 부활…애플·구글 업고 주가 237% 급등",
+      "title": "이번엔 '칩플레이션' 논쟁, 반도체 변동성에 대응하려면 [월가백브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606269994i"
+      "url": "https://www.hankyung.com/article/202606271098i"
     }
   ],
   "today_kr_focus": [
-    "\"반도체 계속 간다\"…'압축 투자' ETF에 몰리는 개미들 [투자톡] (2026-06-27 17:00)",
-    "\"비트코인 소리없이 사라질 것\"…억만장자 투자자의 경고 (2026-06-27 08:21)",
-    "'메이드 인 USA' 인텔의 화려한 부활…애플·구글 업고 주가 237% 급등 (2026-06-27 08:00)",
-    "★ 합의 시그널 — 트래블월렛: 2사 동조 (KB, NH)"
+    "\"실적 비슷한데 몸값은 왜\"…삼전·하닉 저평가 받는 이유 [분석+] (2026-06-28 20:50)",
+    "中증시 투자 ETF '반등'...美바이오 상품도 강세 (2026-06-28 17:11)",
+    "\"고공행진 원·달러 환율...외환집중제 도입 검토해야\" [한상춘의 국제경제 읽기] (2026-06-28 17:00)"
   ],
   "carousel_implications": {
     "regime": "美 증시 조정 — 위험회피 분위기 (가설)",
@@ -56,7 +55,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-27T23:10:52.663226+09:00",
+    "collected_at": "2026-06-28T23:10:50.362725+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
