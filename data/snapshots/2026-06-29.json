@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-29T15:00:55.812555+09:00",
+  "collected_at": "2026-06-29T16:00:54.451008+09:00",
   "date": "2026-06-29",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -10,7 +10,7 @@
   "total_items": 64,
   "stats": {
     "with_broker_mention": 7,
-    "target_price_up": 3,
+    "target_price_up": 2,
     "target_price_down": 1,
     "top_brokers": [
       [
@@ -22,20 +22,87 @@
         2
       ],
       [
+        "삼성",
+        1
+      ],
+      [
         "LS",
         1
       ],
       [
         "DB",
         1
-      ],
-      [
-        "하나",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "\"이재용·최태원 가는 곳에 돈 몰린다\"…호남·신재생주 '폭등' [종합]",
+      "url": "https://www.hankyung.com/article/2026062944776",
+      "summary": "삼성전자와 SK그룹이 호남에 대규모 반도체 생산거점을 조성하겠다는 계획을 내놓자 호남 기업들 주가가 일제히 들썩였다. 광주·전남을 '제2 반도체 클러스터'로 육성한다는 청사진이 공개되면서 금호건설과 남화토건 등 호남 기반 기업은 상한가를 기록...",
+      "datetime_raw": "2026.06.29 15:56",
+      "datetime": "2026-06-29T15:56:00+09:00",
+      "dt": "2026-06-29 15:56",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "폭등",
+        "이재용"
+      ],
+      "hash": "7106dc1d25f3"
+    },
+    {
+      "title": "코스피, 반도체 고점 부담에 약보합 마감…코스닥은 8%대 급등",
+      "url": "https://www.hankyung.com/article/2026062943266",
+      "summary": "코스피지수가 29일 소폭 하락하며 8300선으로 밀려났다.이날 코스피지수는 전 거래일 대비 16.56포인트(0.20%) 내린 8394.65를 기록했다. 하락 출발한 코스피는 장중 8100선까지 밀리기도 했다. 코스피는 오후 들어 낙폭을 줄였으나 상승 전환에는 실패했다....",
+      "datetime_raw": "2026.06.29 15:46",
+      "datetime": "2026-06-29T15:46:00+09:00",
+      "dt": "2026-06-29 15:46",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "1bdcc6a27bf7"
+    },
+    {
+      "title": "삼성증권, 금융자산 30억 이상 초고액자산가 1만명 돌파",
+      "url": "https://www.hankyung.com/article/2026062944146",
+      "summary": "삼성증권의 금융자산 30억원 이상 개인 고객 수(법인 제외)가 업계 최초로 1만명을 넘어섰다.삼성증권은 30억원 이상 예탁자산 개인 고객 수가 지난 19일 기준 1만645명을 기록했다고 29일 밝혔다. 이는 지난해 말 5862명 대비 약 81.6% 증가한 것이다. 금융...",
+      "datetime_raw": "2026.06.29 15:31",
+      "datetime": "2026-06-29T15:31:00+09:00",
+      "dt": "2026-06-29 15:31",
+      "brokers": [
+        "삼성"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성증권"
+      ],
+      "hash": "e18a09ba1136"
+    },
+    {
+      "title": "\"빠져도 너무 빠졌다\"…코스닥, 3거래일 만에 반등 시도",
+      "url": "https://www.hankyung.com/article/202606293980i",
+      "summary": "다음달 1일 출범 30주년을 앞두고 800포인트 초반까지 내렸던 코스닥이 반등에 나섰다. 반도체 고점 논란의 여파로 코스피가 혼조세를 보인 가운데서도 코스닥은 전거래일 대비 8% 넘게 오르면서 900선을 재돌파했다.이날 오후 3시 기준 코스닥은 전거래일 대비 8.24%...",
+      "datetime_raw": "2026.06.29 15:12",
+      "datetime": "2026-06-29T15:12:00+09:00",
+      "dt": "2026-06-29 15:12",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "빠져도 너무 빠졌다"
+      ],
+      "hash": "cac936038b86"
+    },
     {
       "title": "반도체 흔들려도…초고수들, SK하이닉스·삼성전자 쓸어담아",
       "url": "https://www.hankyung.com/article/202606293577i",
@@ -300,6 +367,87 @@
       "hash": "f10d5cf48318"
     },
     {
+      "title": "\"다이소도 아닌데\"…3만원 들고 가면 가방에 옷까지 풀세팅",
+      "url": "https://www.hankyung.com/article/202606269802g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "다이소도 아닌데"
+      ],
+      "hash": "c387090cbb81"
+    },
+    {
+      "title": "\"만 원짜리 한 장 내면 빵 싹쓸이\"…요즘 입소문 난 곳이",
+      "url": "https://www.hankyung.com/article/202606260528g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "만 원짜리 한 장 내면 빵 싹쓸이"
+      ],
+      "hash": "9624d533d1d7"
+    },
+    {
+      "title": "보스턴다이내믹스, 핵심부품 한국서 조달한다",
+      "url": "https://www.hankyung.com/article/202606282185i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "보스턴다이내믹스"
+      ],
+      "hash": "ad1ab086d092"
+    },
+    {
+      "title": "\"7월 되면 더 오른다\"...부자고객이 가장 많이 산 종목은",
+      "url": "https://www.hankyung.com/article/202606281977i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "7월 되면 더 오른다"
+      ],
+      "hash": "4c7a958ded93"
+    },
+    {
+      "title": "'삼전닉스 레버리지' 50배까지 나왔다…\"사실상 도박판\"",
+      "url": "https://www.hankyung.com/article/2026062819377",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "사실상 도박판",
+        "삼전닉스 레버리지"
+      ],
+      "hash": "50fd7dfc06c9"
+    },
+    {
       "title": "1년 전에 삼성전자 대신 샀다면…수익률 652% 기록한 반도체 기업",
       "url": "https://www.hankyung.com/article/202606260545i",
       "summary": "대덕전자의 주가가 올해 들어 약 3배(182.80%) 급등했다. 국내 반도체 대장주인 삼성전자의 주가 상승률(183.15%)과 비슷한 수준이다. AI사이클의 영향이 대형주를 넘어 부품·기판 등 소부장(소재·부품·장비) 전반으로 확산...",
@@ -366,87 +514,6 @@
         "삼성바이오로직스"
       ],
       "hash": "9b1ea9768fe1"
-    },
-    {
-      "title": "\"다이소도 아닌데\"…3만원 들고 가면 가방에 옷까지 풀세팅",
-      "url": "https://www.hankyung.com/article/202606269802g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "다이소도 아닌데"
-      ],
-      "hash": "c387090cbb81"
-    },
-    {
-      "title": "\"만 원짜리 한 장 내면 빵 싹쓸이\"…요즘 입소문 난 곳이",
-      "url": "https://www.hankyung.com/article/202606260528g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "만 원짜리 한 장 내면 빵 싹쓸이"
-      ],
-      "hash": "9624d533d1d7"
-    },
-    {
-      "title": "'삼전닉스 레버리지' 50배까지 나왔다…\"사실상 도박판\"",
-      "url": "https://www.hankyung.com/article/2026062819377",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사실상 도박판",
-        "삼전닉스 레버리지"
-      ],
-      "hash": "50fd7dfc06c9"
-    },
-    {
-      "title": "\"7월 되면 더 오른다\"...부자고객이 가장 많이 산 종목은",
-      "url": "https://www.hankyung.com/article/202606281977i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "7월 되면 더 오른다"
-      ],
-      "hash": "4c7a958ded93"
-    },
-    {
-      "title": "\"집에서 삼겹살 자주 구워 먹었는데\"…뜻밖의 연구 결과",
-      "url": "https://www.hankyung.com/article/2026062588137",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "집에서 삼겹살 자주 구워 먹었는데"
-      ],
-      "hash": "502934f4b176"
     },
     {
       "title": "케빈 워시 FED의 시작…미국 장기국채커버드콜 ETF 다시 보기",
@@ -1016,74 +1083,6 @@
         "주가 20% 하락했는데"
       ],
       "hash": "f0147413b643"
-    },
-    {
-      "title": "올해 급등한 한국·일본·대만 ETF…하반기 변수와 투자전략은?",
-      "url": "https://www.hankyung.com/article/202606257922i",
-      "summary": "2026년 주요국 주가지수 연간 상승률 비교 및 분석2026년 글로벌 증시는 AI 반도체 슈퍼사이클, 중동 지정학적 리스크, 각국의 통화정책 차별화라는 세 가지 거대한 축을 중심으로 국가별로 극명하게 다른 궤적을 그려왔다.특히 한국 코스피는 연초 이후 G20 국가 중 ...",
-      "datetime_raw": "2026.06.26 07:56",
-      "datetime": "2026-06-26T07:56:00+09:00",
-      "dt": "2026-06-26 07:56",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "올해 급등한 한국"
-      ],
-      "hash": "49963a67942a"
-    },
-    {
-      "title": "\"SK하이닉스, 올해 내년 영업익 294조원 435조원…목표가↑\"-하나",
-      "url": "https://www.hankyung.com/article/2026062690166",
-      "summary": "하나증권은 26일 SK하이닉스에 대해 \"올해 2분기 매출과 영업이익은 각각 전년 동기 대비 292%, 638% 증가한 87조1000억원, 67조6000억원으로 전망한다\"며 \"고대역폭메모리(HBM)를 필두로 고사양 D램 및 기업용 솔리드스테이트드라이브(eSSD) 중심의 ...",
-      "datetime_raw": "2026.06.26 07:54",
-      "datetime": "2026-06-26T07:54:00+09:00",
-      "dt": "2026-06-26 07:54",
-      "brokers": [
-        "하나"
-      ],
-      "opinion": null,
-      "target_action": "up",
-      "target_change_pct": null,
-      "keywords": [
-        "SK하이닉스"
-      ],
-      "hash": "7c85a7fa7694"
-    },
-    {
-      "title": "\"삼전닉스 다음은 여기\"…투자 고수들 '이 종목' 콕 찍었다 [분석+]",
-      "url": "https://www.hankyung.com/article/2026062581246",
-      "summary": "'반도체 투톱' 삼성전자와 SK하이닉스로의 쏠림 현상이 이어지고 있다. 증권가는 반도체 대형주가 계속해서 시장을 주도할 것으로 예상하면서도 향후 쏠림이 완화됐을 때 온기를 나눠 받을 만한 종목·테마를 찾기 위해 분주하다.내러티브(서사) 측면에...",
-      "datetime_raw": "2026.06.26 06:30",
-      "datetime": "2026-06-26T06:30:00+09:00",
-      "dt": "2026-06-26 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 종목",
-        "삼전닉스 다음은 여기"
-      ],
-      "hash": "cf7e7405b719"
-    },
-    {
-      "title": "47조 팔았는데 700조 '잭팟'…외국인 한달 만에 '대반전'",
-      "url": "https://www.hankyung.com/article/2026062580096",
-      "summary": "외국인 투자자가 지난달 국내 주식을 47조원 넘게 팔아치운 것으로 나타났다. 다만 증시 활황에 보유 주식의 지분 가치는 한 달 만에 700조원 넘게 불어나 3000조원에 육박한 것으로 조사됐다.26일 금융감독원이 발표한 '5월 외국인 증권투자 동향' 자료...",
-      "datetime_raw": "2026.06.26 06:00",
-      "datetime": "2026-06-26T06:00:00+09:00",
-      "dt": "2026-06-26 06:00",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "잭팟",
-        "대반전"
-      ],
-      "hash": "23f66a6d40ba"
     }
   ],
   "consensus_signals": []
