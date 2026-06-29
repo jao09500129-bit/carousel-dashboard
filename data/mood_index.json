@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-06-29T13:00:59.578705+09:00",
+  "computed_at": "2026-06-29T15:00:55.812555+09:00",
   "score": 46,
   "label": "FEAR",
   "label_kr": "약간 조심",
@@ -12,7 +12,7 @@
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 25.68,
+    "vol_sum": 24.47,
     "n_divergence": 0,
     "n_signals": 0,
     "target_up": 3,
