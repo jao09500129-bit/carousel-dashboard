@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-29T16:00:54.451008+09:00",
+  "collected_at": "2026-06-29T23:10:53.274820+09:00",
   "date": "2026-06-29",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,7 +7,7 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 65,
   "stats": {
     "with_broker_mention": 7,
     "target_price_up": 2,
@@ -36,6 +36,88 @@
     ]
   },
   "items": [
+    {
+      "title": "'5000억 풀린다' 난리 났다…개미들 갈아탄 '이 주식' 불기둥",
+      "url": "https://www.hankyung.com/article/2026062945026",
+      "summary": "올 들어 부진한 흐름을 보이던 제약·바이오 종목의 주가가 큰 폭으로 뛰며 코스닥지수가 8%대 급등 마감했다. 최근 국민성장펀드의 리가켐바이오 지분투자 결정이 촉매로 작용한 것으로 풀이된다. 증권가에서는 이번 지분투자가 코스닥 제약·바이오 업종의...",
+      "datetime_raw": "2026.06.29 22:00",
+      "datetime": "2026-06-29T22:00:00+09:00",
+      "dt": "2026-06-29 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 주식",
+        "5000억 풀린다"
+      ],
+      "hash": "b566c8c59cb5"
+    },
+    {
+      "title": "하루 만에 21% 급등했다…외국인들 폭풍매수한 종목",
+      "url": "https://www.hankyung.com/article/2026062948931",
+      "summary": "'AI를 넘어서는 성공투자' 한국경제신문의 투자 전문 플랫폼 '한경 프리미엄9'에 실린 기사입니다.미국 전기차 시장 침체 속에서 3년 가까이 부진하던 국내 배터리업체 주가가 29일 일제히 반등했다. 전기차 수요 회복과 미국 에너지저장장치(E...",
+      "datetime_raw": "2026.06.29 17:45",
+      "datetime": "2026-06-29T17:45:00+09:00",
+      "dt": "2026-06-29 17:45",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하루 만에 21% 급등했다"
+      ],
+      "hash": "2d2dbad4a8ac"
+    },
+    {
+      "title": "내 주식만 뚝뚝 떨어지더니…\"드디어 빨간불 떴다\" 환호",
+      "url": "https://www.hankyung.com/article/2026062948921",
+      "summary": "'AI를 넘어서는 성공투자' 한국경제신문의 투자 전문 플랫폼 '한경 프리미엄9'에 실린 기사입니다.다음달 1일 출범 30주년을 앞두고 800대 초반까지 내린 코스닥지수가 반등에 나섰다. 반도체 고점 논란의 여파로 유가증권시장이 혼조세를 보인...",
+      "datetime_raw": "2026.06.29 17:43",
+      "datetime": "2026-06-29T17:43:00+09:00",
+      "dt": "2026-06-29 17:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "드디어 빨간불 떴다",
+        "내 주식만 뚝뚝 떨어지더니"
+      ],
+      "hash": "8e98e6f96ae5"
+    },
+    {
+      "title": "ESS 호조인데 전기차도 회복…2차전지주 드디어 외면 탈출",
+      "url": "https://www.hankyung.com/article/202606294518i",
+      "summary": "미국 전기차 시장의 침체와 함께 3년 가까이 부진해온 국내 배터리주의 주가가 29일 일제히 반등했다. 전기차 시장의 수요 회복과 미국 에너지저장장치(ESS) 시장의 급성장이 국내 배터리 업체들의 턴어라운드(급격한 실적 개선) 기회가 될 것이란 기대 때문이다. 시장 일각...",
+      "datetime_raw": "2026.06.29 17:14",
+      "datetime": "2026-06-29T17:14:00+09:00",
+      "dt": "2026-06-29 17:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "ESS 호조인데 전기차도 회복"
+      ],
+      "hash": "c395cecfa23e"
+    },
+    {
+      "title": "7.7조 팔아치운 외국인…환율 또 금융위기 후 최고",
+      "url": "https://www.hankyung.com/article/202606294517Y",
+      "summary": "13.2원 오른 1,545.2원원/달러 환율은 29일 외국인들이 국내 주식을 대거 팔아치우면서 글로벌 금융위기 후 최고 수준인 1,540원대 중반에서 주간 거래를 마쳤다.이날 서울 외환시장에서 미국 달러화 대비 원화 환율은 오후 3시 30분 기준 13.2원 오른 1,5...",
+      "datetime_raw": "2026.06.29 16:24",
+      "datetime": "2026-06-29T16:24:00+09:00",
+      "dt": "2026-06-29 16:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "7.7조 팔아치운 외국인"
+      ],
+      "hash": "13d3651422c3"
+    },
     {
       "title": "\"이재용·최태원 가는 곳에 돈 몰린다\"…호남·신재생주 '폭등' [종합]",
       "url": "https://www.hankyung.com/article/2026062944776",
@@ -216,9 +298,9 @@
       "hash": "2036d44f84ed"
     },
     {
-      "title": "바이오·2차전지에 코스닥 900 돌파…코스피는 8300선 등락 [오후 1시 시황]",
+      "title": "'3대 메가프로젝트'에 증시 급반전...코스피 약보합·코스닥 8% 폭등 [마감 시황]",
       "url": "https://www.hankyung.com/article/202606293134i",
-      "summary": "🕘 코스피·코스닥 극명한 양극화… 반도체 약세·이차전지·바이오 강세 지속오후 1시 기준, 한국 증시는 코스피와 코스닥이 극명하게 엇갈린 흐름을 이어가고 있습니다.코스피는 전일 대비 82.40포인트(0.98%) 하락한 8...",
+      "summary": "🕘 극적 장중 반전 후 혼조 마감… 코스피 하락·코스닥 급등6월 29일 오후 3시 30분 마감 기준, 한국 증시는 코스피와 코스닥이 극명하게 엇갈린 채 거래를 마쳤습니다.코스피는 전일 대비 16.56포인트(0.20%) 하락한 8,394.65로 ...",
       "datetime_raw": "2026.06.29 09:28",
       "datetime": "2026-06-29T09:28:00+09:00",
       "dt": "2026-06-29 09:28",
@@ -227,7 +309,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "바이오"
+        "3대 메가프로젝트"
       ],
       "hash": "43b43a65c8bc"
     },
@@ -279,6 +361,86 @@
         "져스텍"
       ],
       "hash": "f1f74ceaf1d2"
+    },
+    {
+      "title": "\"만 원짜리 한 장 내면 빵 싹쓸이\"…요즘 입소문 난 곳이",
+      "url": "https://www.hankyung.com/article/202606260528g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "만 원짜리 한 장 내면 빵 싹쓸이"
+      ],
+      "hash": "9624d533d1d7"
+    },
+    {
+      "title": "\"다이소도 아닌데\"…3만원 들고 가면 가방에 옷까지 풀세팅",
+      "url": "https://www.hankyung.com/article/202606269802g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "다이소도 아닌데"
+      ],
+      "hash": "c387090cbb81"
+    },
+    {
+      "title": "\"부모 외면한 자녀, 상속권 잃을 수도\"…상속제도 확 바뀐다",
+      "url": "https://www.hankyung.com/article/202606232976i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "부모 외면한 자녀"
+      ],
+      "hash": "6f5683c40804"
+    },
+    {
+      "title": "\"7월 되면 더 오른다\"...부자고객이 가장 많이 산 종목은",
+      "url": "https://www.hankyung.com/article/202606281977i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "7월 되면 더 오른다"
+      ],
+      "hash": "4c7a958ded93"
+    },
+    {
+      "title": "보스턴다이내믹스, 핵심부품 한국서 조달한다",
+      "url": "https://www.hankyung.com/article/202606282185i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "보스턴다이내믹스"
+      ],
+      "hash": "ad1ab086d092"
     },
     {
       "title": "지니언스 \"상반기 보안 취약점 신고 103건…포상금, 작년 10배 지급\"",
@@ -365,87 +527,6 @@
         "310% 하이닉스 vs 183% 삼성전자"
       ],
       "hash": "f10d5cf48318"
-    },
-    {
-      "title": "\"다이소도 아닌데\"…3만원 들고 가면 가방에 옷까지 풀세팅",
-      "url": "https://www.hankyung.com/article/202606269802g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "다이소도 아닌데"
-      ],
-      "hash": "c387090cbb81"
-    },
-    {
-      "title": "\"만 원짜리 한 장 내면 빵 싹쓸이\"…요즘 입소문 난 곳이",
-      "url": "https://www.hankyung.com/article/202606260528g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "만 원짜리 한 장 내면 빵 싹쓸이"
-      ],
-      "hash": "9624d533d1d7"
-    },
-    {
-      "title": "보스턴다이내믹스, 핵심부품 한국서 조달한다",
-      "url": "https://www.hankyung.com/article/202606282185i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "보스턴다이내믹스"
-      ],
-      "hash": "ad1ab086d092"
-    },
-    {
-      "title": "\"7월 되면 더 오른다\"...부자고객이 가장 많이 산 종목은",
-      "url": "https://www.hankyung.com/article/202606281977i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "7월 되면 더 오른다"
-      ],
-      "hash": "4c7a958ded93"
-    },
-    {
-      "title": "'삼전닉스 레버리지' 50배까지 나왔다…\"사실상 도박판\"",
-      "url": "https://www.hankyung.com/article/2026062819377",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사실상 도박판",
-        "삼전닉스 레버리지"
-      ],
-      "hash": "50fd7dfc06c9"
     },
     {
       "title": "1년 전에 삼성전자 대신 샀다면…수익률 652% 기록한 반도체 기업",
@@ -594,6 +675,23 @@
         "연 2000만원씩 3년간 돈 넣으니"
       ],
       "hash": "e47cea5f1a67"
+    },
+    {
+      "title": "'삼전닉스 레버리지' 50배까지 나왔다…\"사실상 도박판\"",
+      "url": "https://www.hankyung.com/article/2026062819377",
+      "summary": "국내 유가증권시장에 상장된 삼성전자·SK하이닉스의 2배 레버리지 상장지수펀드(ETF)가 높은 변동성으로 우려가 쏟아지는 가운데 해외 가상자산(암호화폐) 거래소에선 무려 50배 레버리지 파생상품까지 선보인 것으로 알려졌다.28일 가상자산 업계에 따르면 세계 ...",
+      "datetime_raw": "2026.06.28 11:09",
+      "datetime": "2026-06-28T11:09:00+09:00",
+      "dt": "2026-06-28 11:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "사실상 도박판",
+        "삼전닉스 레버리지"
+      ],
+      "hash": "50fd7dfc06c9"
     },
     {
       "title": "롤러코스터 타는 삼전닉스 주가…2분기 실적 미리 따져보니",
@@ -1000,89 +1098,6 @@
         "카카오게임즈"
       ],
       "hash": "4e71da88e30a"
-    },
-    {
-      "title": "코스피, 7%대 급락해 8200선까지 밀려…매도 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026062698236",
-      "summary": "코스피가 26일 장중 7% 넘게 급락하며 8200선으로 밀렸다. 급락에 매도 사이드카(프로그램매매 매도 호가 일시 효력정지)도 발동됐다.코스피는 이날 오전 11시52분 현재 649.02포인트(7.27%) 하락한 8281.28을 기록 중이다.이날 지수는 전날보다 117....",
-      "datetime_raw": "2026.06.26 11:16",
-      "datetime": "2026-06-26T11:16:00+09:00",
-      "dt": "2026-06-26 11:16",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "f529433e6a93"
-    },
-    {
-      "title": "치솟는 달러값…환율, 5일 연속 올라 1550원 근접 '비상'",
-      "url": "https://www.hankyung.com/article/2026062695186",
-      "summary": "원·달러 환율이 글로벌 금융위기 이후 최고 수준으로 치솟으며 1550원 선에 바짝 다가섰다. 미국 인플레이션 우려와 미국 중앙은행(Fed)의 긴축 전망이 달러 강세를 부추긴 영향으로 읽힌다.26일 서울 외환시장에서 미국 달러화 대비 원화 환율은 오전 9시5...",
-      "datetime_raw": "2026.06.26 10:03",
-      "datetime": "2026-06-26T10:03:00+09:00",
-      "dt": "2026-06-26 10:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비상",
-        "치솟는 달러값"
-      ],
-      "hash": "67b08a697643"
-    },
-    {
-      "title": "코스피, 유가불안·차익실현 매물에 장 초반 8700선 후퇴",
-      "url": "https://www.hankyung.com/article/2026062691396",
-      "summary": "코스피지수가 국제 유가 불안과 반도체 차익실현 매물에 하락하며 장 초반 8700선으로 후퇴했다.26일 오전 9시7분 현재 코스피지수는 전 거래일보다 170.44포인트(1.91%) 내린 8759.86을 기록 중이다.호르무즈 해협에서 발생한 선박 피격 사건의 영향으로 국제...",
-      "datetime_raw": "2026.06.26 09:21",
-      "datetime": "2026-06-26T09:21:00+09:00",
-      "dt": "2026-06-26 09:21",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피"
-      ],
-      "hash": "1f7800e590fc"
-    },
-    {
-      "title": "\"빅뱅 컴백하면 주가 오를까\"…'엔터주' 물린 개미들 '들썩' [종목+]",
-      "url": "https://www.hankyung.com/article/2026062689756",
-      "summary": "올해 상반기 국내 주요 엔터테인먼트 4사(하이브, YG, JYP, SM)의 주가는 반도체 중심의 증시 랠리에서 소외돼 부진한 흐름을 나타냈다. 다만 증권가는 하반기 대형 지식재산권(IP)인 주요 아티스트들의 컴백과 월드투어가 본격화되면서 엔터주 실적과 주가 모두 반등 ...",
-      "datetime_raw": "2026.06.26 08:37",
-      "datetime": "2026-06-26T08:37:00+09:00",
-      "dt": "2026-06-26 08:37",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "들썩",
-        "엔터주",
-        "빅뱅 컴백하면 주가 오를까"
-      ],
-      "hash": "02525519fa3b"
-    },
-    {
-      "title": "주가 20% 하락했는데…2차전지株, 데이터센터로 반등할까",
-      "url": "https://www.hankyung.com/article/202606258281i",
-      "summary": "2차전지 업종 주가가 좀처럼 반등하지 못하고 있지만 증권가에서는 2차전지 업황의 다운사이클이 마무리 단계에 접어들었다는 분석이 나온다. 전기차 수요 회복과 인공지능(AI)·우주 데이터센터 등 새로운 수요가 등장하면서 실적 개선이 가시화될 ...",
-      "datetime_raw": "2026.06.26 08:25",
-      "datetime": "2026-06-26T08:25:00+09:00",
-      "dt": "2026-06-26 08:25",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "주가 20% 하락했는데"
-      ],
-      "hash": "f0147413b643"
     }
   ],
   "consensus_signals": []

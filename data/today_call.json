@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-06-29T16:00:54.451008+09:00",
+  "computed_at": "2026-06-29T23:10:53.274820+09:00",
   "action_headline": "반도체 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
     "브렌트 -3.84% — 에너지 회전축",
-    "Market Mood 44/100 (FEAR)"
+    "Market Mood 45/100 (FEAR)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
