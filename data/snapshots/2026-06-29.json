@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-29T10:35:36.552835+09:00",
+  "collected_at": "2026-06-29T11:00:51.523743+09:00",
   "date": "2026-06-29",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 64,
   "stats": {
-    "with_broker_mention": 8,
+    "with_broker_mention": 7,
     "target_price_up": 3,
     "target_price_down": 1,
     "top_brokers": [
@@ -32,14 +32,26 @@
       [
         "하나",
         1
-      ],
-      [
-        "KB",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "해시드·부이, 비개발자 대상 AI 에이전트 해커톤 개최",
+      "url": "https://www.hankyung.com/article/202606293578B",
+      "summary": "해시드가 인공지능(AI) 에이전트 플랫폼 스타트업 부이(vooy)와 함께 비개발자를 위한 AI 에이전트 제작 해커톤 '부이 레시피 데이(vooy Recipe Day)'를 개최한다고 29일 밝혔다.행사는 오는 7월 4일 오후 1시부터 7시까지 서울 강남구 해시드 라운지에...",
+      "datetime_raw": "2026.06.29 10:38",
+      "datetime": "2026-06-29T10:38:00+09:00",
+      "dt": "2026-06-29 10:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "해시드"
+      ],
+      "hash": "75dbff30ff7c"
+    },
     {
       "title": "급등장에 코스닥 매수 사이드카 발동",
       "url": "https://www.hankyung.com/article/2026062931896",
@@ -356,22 +368,6 @@
       "hash": "1bead322d71b"
     },
     {
-      "title": "실적 반등 준비 '풀충'한 배터리 3사...주가도 오를까",
-      "url": "https://www.hankyung.com/article/202606282098i",
-      "summary": "중국 배터리사의 저가 공세와 전기차 캐즘(일시적 수요 정체)로 고전을 면치 못했던 국내 배터리 3사가 올해 2분기를 기점으로 본격적인 실적 반등에 나설 것이란 전망이 나온다. 이에 따라 최근 한 달 새 급락한 주가도 반등할 가능성이 제기된다.28일 인공지능(AI) 기반...",
-      "datetime_raw": "2026.06.28 15:05",
-      "datetime": "2026-06-28T15:05:00+09:00",
-      "dt": "2026-06-28 15:05",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "풀충"
-      ],
-      "hash": "871d53f64da6"
-    },
-    {
       "title": "\"다이소도 아닌데\"…3만원 들고 가면 가방에 옷까지 풀세팅",
       "url": "https://www.hankyung.com/article/202606269802g",
       "summary": "",
@@ -451,6 +447,22 @@
         "7월 되면 더 오른다"
       ],
       "hash": "4c7a958ded93"
+    },
+    {
+      "title": "실적 반등 준비 '풀충'한 배터리 3사...주가도 오를까",
+      "url": "https://www.hankyung.com/article/202606282098i",
+      "summary": "중국 배터리사의 저가 공세와 전기차 캐즘(일시적 수요 정체)로 고전을 면치 못했던 국내 배터리 3사가 올해 2분기를 기점으로 본격적인 실적 반등에 나설 것이란 전망이 나온다. 이에 따라 최근 한 달 새 급락한 주가도 반등할 가능성이 제기된다.28일 인공지능(AI) 기반...",
+      "datetime_raw": "2026.06.28 15:05",
+      "datetime": "2026-06-28T15:05:00+09:00",
+      "dt": "2026-06-28 15:05",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "풀충"
+      ],
+      "hash": "871d53f64da6"
     },
     {
       "title": "석화 래깅 효과... 대한유화 영업익 눈높이 10% '쑥'",
@@ -1074,25 +1086,6 @@
         "DATA 재단"
       ],
       "hash": "4ce3c62d25fa"
-    },
-    {
-      "title": "\"조정 오면 더 담아라\"…코스피 '1만5000' 파격 전망 [분석+]",
-      "url": "https://www.hankyung.com/article/2026062580656",
-      "summary": "글로벌 투자은행(IB) JP모간이 한국 증시에 대한 강세 의견을 유지하며 유가증권시장(코스피) 목표치를 최대 1만5000으로 제시했다. 이는 KB증권과 골드만삭스가 제시한 직전 최고 전망치(1만2000)를 훌쩍 뛰어넘는 수치로, 현재 국내외 증권사 가운데 가장 높은 목...",
-      "datetime_raw": "2026.06.25 20:00",
-      "datetime": "2026-06-25T20:00:00+09:00",
-      "dt": "2026-06-25 20:00",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "1만5000",
-        "조정 오면 더 담아라"
-      ],
-      "hash": "bc75270007ae"
     }
   ],
   "consensus_signals": []
