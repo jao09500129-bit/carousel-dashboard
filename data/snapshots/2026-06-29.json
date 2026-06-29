@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-29T11:00:51.523743+09:00",
+  "collected_at": "2026-06-29T13:00:59.578705+09:00",
   "date": "2026-06-29",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -36,6 +36,54 @@
     ]
   },
   "items": [
+    {
+      "title": "반도체 흔들려도…초고수들, SK하이닉스·삼성전자 쓸어담아",
+      "url": "https://www.hankyung.com/article/202606293577i",
+      "summary": "코스피가 미국 반도체주 급락 여파로 약세를 보이는 가운데 투자수익률 상위 1% 투자자들은 SK하이닉스와 삼성전자 등 반도체 대형주를 집중 매수한 것으로 나타났다. 반면 두산과 하이브, HD현대일렉트릭 등은 순매도에 나섰다.29일 미래에셋엠클럽에 따르면 미래에셋...",
+      "datetime_raw": "2026.06.29 11:39",
+      "datetime": "2026-06-29T11:39:00+09:00",
+      "dt": "2026-06-29 11:39",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 흔들려도"
+      ],
+      "hash": "1768e49d66cc"
+    },
+    {
+      "title": "한국거래소, 불공정거래 소액포상 한도 900만원으로 상향",
+      "url": "https://www.hankyung.com/article/2026062937486",
+      "summary": "한국거래소는 시장감시위원회기 불공정거래 신고를 활성화하기 위해 소액포상 한도를 기존 600만원에서 900만원으로 높이는 등 개편한 체계를 29일부터 시행한다고 밝혔다.소액포상 한도 증액에 더해 시세조종이나 미공개정보 이용 등 불공정거래 행위에 대한 내부 제보를 유도하기...",
+      "datetime_raw": "2026.06.29 11:19",
+      "datetime": "2026-06-29T11:19:00+09:00",
+      "dt": "2026-06-29 11:19",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": 50.0,
+      "keywords": [
+        "한국거래소"
+      ],
+      "hash": "0ea61f6964f0"
+    },
+    {
+      "title": "빗썸, 업계 첫 유튜브 실버버튼 획득…10만 구독자 감사 이벤트 진행",
+      "url": "https://www.hankyung.com/article/202606293713B",
+      "summary": "빗썸이 국내 가상자산(암호화폐) 거래소 가운데 처음으로 유튜브 구독자 10만명을 돌파하며 크리에이터 어워즈 '실버버튼'을 획득했다고 29일 밝혔다.유튜브 실버버튼은 구독자 10만명 이상을 달성한 채널에 수여되는 크리에이터 어워즈다. 빗썸 공식 유튜브 채널은 국내 가상자...",
+      "datetime_raw": "2026.06.29 11:10",
+      "datetime": "2026-06-29T11:10:00+09:00",
+      "dt": "2026-06-29 11:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "빗썸"
+      ],
+      "hash": "d5ec62af300b"
+    },
     {
       "title": "해시드·부이, 비개발자 대상 AI 에이전트 해커톤 개최",
       "url": "https://www.hankyung.com/article/202606293578B",
@@ -320,54 +368,6 @@
       "hash": "9b1ea9768fe1"
     },
     {
-      "title": "케빈 워시 FED의 시작…미국 장기국채커버드콜 ETF 다시 보기",
-      "url": "https://www.hankyung.com/article/202606269763i",
-      "summary": "지난주 시장의 이목은 케빈 워시(Kevin Warsh) 미국 연방준비제도 신임 의장의 첫 번째 FOMC에 집중되었다. 통화 정책회의 성명서에서 완화적 통화정책 문구는 삭제되었고 케빈 워시 의장은 예상 정책금리 점도표에 참여하지 않았다. 통화정책 방향을 예상해 볼 수 있...",
-      "datetime_raw": "2026.06.29 07:00",
-      "datetime": "2026-06-29T07:00:00+09:00",
-      "dt": "2026-06-29 07:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "케빈 워시 FED의 시작"
-      ],
-      "hash": "6bee7df54b06"
-    },
-    {
-      "title": "\"실적 비슷한데 몸값은 왜\"…삼전·하닉 저평가 받는 이유 [분석+]",
-      "url": "https://www.hankyung.com/article/2026062605956",
-      "summary": "인공지능(AI) 반도체 호황으로 글로벌 반도체 기업의 실적 눈높이가 빠르게 높아지고 있지만 증시 평가는 엇갈리고 있다. 일본 키옥시아와 대만 TSMC, 미국 마이크론테크놀로지는 AI 수요 확대와 장기 공급계약, 미국 증시 접근성 등을 앞세워 높은 주가수익비율(PER)을...",
-      "datetime_raw": "2026.06.28 20:50",
-      "datetime": "2026-06-28T20:50:00+09:00",
-      "dt": "2026-06-28 20:50",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "실적 비슷한데 몸값은 왜"
-      ],
-      "hash": "a2a016d46d3c"
-    },
-    {
-      "title": "\"고공행진 원·달러 환율...외환집중제 도입 검토해야\" [한상춘의 국제경제 읽기]",
-      "url": "https://www.hankyung.com/article/202606282206i",
-      "summary": "달러당 1500원 이상의 고환율이 우리 경제의 최대 현안으로 등장하고 있다. 외환 당국에서도 구두 개입 등을 통해 원&midd...",
-      "datetime_raw": "2026.06.28 17:00",
-      "datetime": "2026-06-28T17:00:00+09:00",
-      "dt": "2026-06-28 17:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "고공행진 원"
-      ],
-      "hash": "1bead322d71b"
-    },
-    {
       "title": "\"다이소도 아닌데\"…3만원 들고 가면 가방에 옷까지 풀세팅",
       "url": "https://www.hankyung.com/article/202606269802g",
       "summary": "",
@@ -417,6 +417,22 @@
       "hash": "50fd7dfc06c9"
     },
     {
+      "title": "\"7월 되면 더 오른다\"...부자고객이 가장 많이 산 종목은",
+      "url": "https://www.hankyung.com/article/202606281977i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "7월 되면 더 오른다"
+      ],
+      "hash": "4c7a958ded93"
+    },
+    {
       "title": "보스턴다이내믹스, 핵심부품 한국서 조달한다",
       "url": "https://www.hankyung.com/article/202606282185i",
       "summary": "",
@@ -433,20 +449,52 @@
       "hash": "ad1ab086d092"
     },
     {
-      "title": "\"7월 되면 더 오른다\"...부자고객이 가장 많이 산 종목은",
-      "url": "https://www.hankyung.com/article/202606281977i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
+      "title": "케빈 워시 FED의 시작…미국 장기국채커버드콜 ETF 다시 보기",
+      "url": "https://www.hankyung.com/article/202606269763i",
+      "summary": "지난주 시장의 이목은 케빈 워시(Kevin Warsh) 미국 연방준비제도 신임 의장의 첫 번째 FOMC에 집중되었다. 통화 정책회의 성명서에서 완화적 통화정책 문구는 삭제되었고 케빈 워시 의장은 예상 정책금리 점도표에 참여하지 않았다. 통화정책 방향을 예상해 볼 수 있...",
+      "datetime_raw": "2026.06.29 07:00",
+      "datetime": "2026-06-29T07:00:00+09:00",
+      "dt": "2026-06-29 07:00",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "7월 되면 더 오른다"
+        "케빈 워시 FED의 시작"
       ],
-      "hash": "4c7a958ded93"
+      "hash": "6bee7df54b06"
+    },
+    {
+      "title": "\"실적 비슷한데 몸값은 왜\"…삼전·하닉 저평가 받는 이유 [분석+]",
+      "url": "https://www.hankyung.com/article/2026062605956",
+      "summary": "인공지능(AI) 반도체 호황으로 글로벌 반도체 기업의 실적 눈높이가 빠르게 높아지고 있지만 증시 평가는 엇갈리고 있다. 일본 키옥시아와 대만 TSMC, 미국 마이크론테크놀로지는 AI 수요 확대와 장기 공급계약, 미국 증시 접근성 등을 앞세워 높은 주가수익비율(PER)을...",
+      "datetime_raw": "2026.06.28 20:50",
+      "datetime": "2026-06-28T20:50:00+09:00",
+      "dt": "2026-06-28 20:50",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "실적 비슷한데 몸값은 왜"
+      ],
+      "hash": "a2a016d46d3c"
+    },
+    {
+      "title": "\"고공행진 원·달러 환율...외환집중제 도입 검토해야\" [한상춘의 국제경제 읽기]",
+      "url": "https://www.hankyung.com/article/202606282206i",
+      "summary": "달러당 1500원 이상의 고환율이 우리 경제의 최대 현안으로 등장하고 있다. 외환 당국에서도 구두 개입 등을 통해 원&midd...",
+      "datetime_raw": "2026.06.28 17:00",
+      "datetime": "2026-06-28T17:00:00+09:00",
+      "dt": "2026-06-28 17:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "고공행진 원"
+      ],
+      "hash": "1bead322d71b"
     },
     {
       "title": "실적 반등 준비 '풀충'한 배터리 3사...주가도 오를까",
@@ -1035,57 +1083,6 @@
         "삼전닉스 다음은 여기"
       ],
       "hash": "cf7e7405b719"
-    },
-    {
-      "title": "47조 팔았는데 700조 '잭팟'…외국인 한달 만에 '대반전'",
-      "url": "https://www.hankyung.com/article/2026062580096",
-      "summary": "외국인 투자자가 지난달 국내 주식을 47조원 넘게 팔아치운 것으로 나타났다. 다만 증시 활황에 보유 주식의 지분 가치는 한 달 만에 700조원 넘게 불어나 3000조원에 육박한 것으로 조사됐다.26일 금융감독원이 발표한 '5월 외국인 증권투자 동향' 자료...",
-      "datetime_raw": "2026.06.26 06:00",
-      "datetime": "2026-06-26T06:00:00+09:00",
-      "dt": "2026-06-26 06:00",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "잭팟",
-        "대반전"
-      ],
-      "hash": "23f66a6d40ba"
-    },
-    {
-      "title": "\"메모리 새 시대\"에 빅테크는 울상...애플, 결국 가격 인상 [빈난새의 개장전요것만]",
-      "url": "https://www.hankyung.com/article/202606258846i",
-      "summary": "① 고물가에도 견조한 미국 경제미국 5월 근원 개인소비지출(PCE) 물가지수가 전월 대비 0.3% 상승하며 예상에 부합했습니다. 헤드라인 PCE 물가는 전년 대비 4.1% 올라 3년여 만에 가장 높았지만, 전월 대비 상승폭(0.4%)은 예상치(0.5%)를 밑돌았습니다....",
-      "datetime_raw": "2026.06.26 00:02",
-      "datetime": "2026-06-26T00:02:00+09:00",
-      "dt": "2026-06-26 00:02",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "메모리 새 시대"
-      ],
-      "hash": "9249def88f1f"
-    },
-    {
-      "title": "스토리, 'DATA 재단'으로 새출발…AI 데이터 플랫폼 '클레드' 품는다",
-      "url": "https://www.hankyung.com/article/202606268853B",
-      "summary": "블록체인 프로젝트 '스토리(Story)'가 'DATA 재단'으로 사명을 바꾸고 인공지능(AI) 데이터 인프라 기업으로 전면적인 사업 재편에 나선다. 글로벌 AI 학습 데이터 마켓플레이스인 '클레드(Kled)'와 기술적 통합을 단행해 데이터의 수집부터 정산까지 아우르는 ...",
-      "datetime_raw": "2026.06.26 00:01",
-      "datetime": "2026-06-26T00:01:00+09:00",
-      "dt": "2026-06-26 00:01",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "클레드",
-        "스토리",
-        "DATA 재단"
-      ],
-      "hash": "4ce3c62d25fa"
     }
   ],
   "consensus_signals": []
