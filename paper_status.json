@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "updated_at": "2026-06-30T15:00:14+09:00",
+  "updated_at": "2026-06-30T16:00:05+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "UP_STRONG",
@@ -73,17 +73,17 @@
     "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-06-29):\n    SP500_ret:  -0.05% (tau ≤ -2.70%)\n    VIX_z252:   +0.09 (tau ≥ +2.00)"
   },
   "portfolio": {
-    "total_return_pct": 41.08,
+    "total_return_pct": 41.54,
     "cash_pct": 17.7,
     "holdings": [
       {
         "code": "069500",
         "name": "KODEX 200",
-        "weight_pct": 82.28,
-        "pnl_pct": 0.21
+        "weight_pct": 82.34,
+        "pnl_pct": 0.6
       }
     ],
-    "last_updated": "2026-06-30T13:00:11.102766",
+    "last_updated": "2026-06-30T16:00:04.263984",
     "since_start_days": 62
   },
   "trade_today": {
@@ -229,11 +229,11 @@
       "vol_off_pct": 19.49
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-06-30T15:00:15+09:00"
+    "updated_at": "2026-06-30T16:00:06+09:00"
   },
   "m30_shadow": {
     "date": "2026-06-26",
-    "updated_at": "2026-06-30T15:00:16+09:00",
+    "updated_at": "2026-06-30T16:00:07+09:00",
     "m21": {
       "wl": 0.05,
       "ws": 0.0,
@@ -278,7 +278,7 @@
   },
   "m37_shadow": {
     "date": "2026-06-26",
-    "updated_at": "2026-06-30T15:00:20+09:00",
+    "updated_at": "2026-06-30T16:00:10+09:00",
     "m21": {
       "wl": 0.05,
       "ws": 0.0
@@ -578,7 +578,7 @@
       },
       {
         "date": "2026-06-30",
-        "total_return_pct": 41.08,
+        "total_return_pct": 41.54,
         "holding_qty": 0
       }
     ],
@@ -958,8 +958,8 @@
         "date": "2026-06-30",
         "action_short": "🟢 BUY",
         "qty": 841,
-        "return_pct": 40.06,
-        "memo": "KIS API 자동 갱신 [자동갱신 06-30 09:10]"
+        "return_pct": 41.54,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-30 15:40]"
       }
     ],
     "trading_stats": {
@@ -1186,10 +1186,10 @@
       },
       {
         "date": "2026-06-30",
-        "drawdown_pct": -13.44
+        "drawdown_pct": -12.98
       }
     ],
-    "generated_at": "2026-06-30T15:00:23"
+    "generated_at": "2026-06-30T16:00:14"
   },
   "evaluation": {
     "month1_review": "2026-05-29",
