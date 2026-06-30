@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-30T11:00:52.092399+09:00",
+  "collected_at": "2026-06-30T13:00:54.638871+09:00",
   "date": "2026-06-30",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,7 +9,7 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 14,
+    "with_broker_mention": 15,
     "target_price_up": 5,
     "target_price_down": 1,
     "top_brokers": [
@@ -30,6 +30,10 @@
         2
       ],
       [
+        "미래에셋",
+        1
+      ],
+      [
         "신한",
         1
       ],
@@ -48,6 +52,57 @@
     ]
   },
   "items": [
+    {
+      "title": "\"동원수산, 신규 트롤선 투입 따른 실적 개선 가능성 기대\"-밸류파인더",
+      "url": "https://www.hankyung.com/article/2026063065086",
+      "summary": "독립리서치 밸류파인더는 30일 동원수산에 대해 신규 대형 트롤선 ‘DW NOVA'의 뉴질랜드 해역 투입에 따른 어획량 확대가 실적 개선으로 이어질 가능성이 있다고 분석했다. 다만 투자의견이나 목표주가를 제시하지는 않았다.보고서에 따르면 DW NAVE는...",
+      "datetime_raw": "2026.06.30 12:34",
+      "datetime": "2026-06-30T12:34:00+09:00",
+      "dt": "2026-06-30 12:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "동원수산"
+      ],
+      "hash": "3765e97b6bdf"
+    },
+    {
+      "title": "외국인 순매도·엔화 약세에…환율 장중 1550원 넘어",
+      "url": "https://www.hankyung.com/article/202606306318Y",
+      "summary": "엔/달러 162엔 넘어, 39년 반만에 최고달러 강세 속에 외국인 투자자의 국내 주식 순매도와 엔화 약세가 이어지면서 원/달러 환율이 장중 1,550원을 넘었다.30일 서울외환시장에서 미국 달러화 대비 원화 환율은 오전 10시 15분께 전날 주간거래 종가(오후 3시 3...",
+      "datetime_raw": "2026.06.30 11:58",
+      "datetime": "2026-06-30T11:58:00+09:00",
+      "dt": "2026-06-30 11:58",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "외국인 순매도"
+      ],
+      "hash": "c03d44205501"
+    },
+    {
+      "title": "7% 급등한 삼성전기 팔고…초고수들은 산 '이것'은",
+      "url": "https://www.hankyung.com/article/202606306217i",
+      "summary": "30일 유가증권시장이 등락을 반복하는 가운데 투자수익률 상위 1% 초고수들은 삼성전자를 가장 많이 사들인 것으로 나타났다. 저스템, 유니테스트 등 코스닥 상장사도 순매수 상위권에 들었다.이날 미래에셋엠클럽에 따르면 미래에셋증권 계좌 가운데 전월 수익률 상위 1%에 해당...",
+      "datetime_raw": "2026.06.30 11:12",
+      "datetime": "2026-06-30T11:12:00+09:00",
+      "dt": "2026-06-30 11:12",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이것",
+        "7% 급등한 삼성전기 팔고"
+      ],
+      "hash": "a59841ac02a7"
+    },
     {
       "title": "日, 40년 만의 초엔저…다카이치노믹스, '미지의 상태' 들어갔다",
       "url": "https://www.hankyung.com/article/2026063060926",
@@ -340,55 +395,6 @@
       "hash": "8a4900035fbd"
     },
     {
-      "title": "\"3년 내 피지컬AI 글로벌 1등\"…지금 로봇주 투자 고려한다면",
-      "url": "https://www.hankyung.com/article/202606294395i",
-      "summary": "정부 피지컬 AI 메가프로젝트 개요 및 배경이재명 정부는 지난 29일 청와대 영빈관에서 ‘대한민국 대도약 3대 메가프로젝트 국민보고회’를 주재하며 반도체, 피지컬 AI, AI 데이터센터를 국가 미래 성장의 세 축으로 공식 선언했다.이재용 삼성전자 ...",
-      "datetime_raw": "2026.06.30 07:24",
-      "datetime": "2026-06-30T07:24:00+09:00",
-      "dt": "2026-06-30 07:24",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "3년 내 피지컬AI 글로벌 1등"
-      ],
-      "hash": "242e70e1c504"
-    },
-    {
-      "title": "'5000억 풀린다' 난리 났다…개미들 갈아탄 '이 주식' 불기둥",
-      "url": "https://www.hankyung.com/article/2026062945026",
-      "summary": "올 들어 부진한 흐름을 보이던 제약·바이오 종목의 주가가 큰 폭으로 뛰며 코스닥지수가 8%대 급등 마감했다. 최근 국민성장펀드의 리가켐바이오 지분투자 결정이 촉매로 작용한 것으로 풀이된다. 증권가에서는 이번 지분투자가 코스닥 제약·바이오 업종의...",
-      "datetime_raw": "2026.06.29 22:00",
-      "datetime": "2026-06-29T22:00:00+09:00",
-      "dt": "2026-06-29 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 주식",
-        "5000억 풀린다"
-      ],
-      "hash": "b566c8c59cb5"
-    },
-    {
-      "title": "ESS 호조인데 전기차도 회복…2차전지주 드디어 외면 탈출",
-      "url": "https://www.hankyung.com/article/202606294518i",
-      "summary": "미국 전기차 시장의 침체와 함께 3년 가까이 부진해온 국내 배터리주의 주가가 29일 일제히 반등했다. 전기차 시장의 수요 회복과 미국 에너지저장장치(ESS) 시장의 급성장이 국내 배터리 업체들의 턴어라운드(급격한 실적 개선) 기회가 될 것이란 기대 때문이다. 시장 일각...",
-      "datetime_raw": "2026.06.29 17:14",
-      "datetime": "2026-06-29T17:14:00+09:00",
-      "dt": "2026-06-29 17:14",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "ESS 호조인데 전기차도 회복"
-      ],
-      "hash": "c395cecfa23e"
-    },
-    {
       "title": "이천수 \"나는 홍명보 형이 진짜 싫은 게…\" 작심 발언",
       "url": "https://www.hankyung.com/article/2026062943367",
       "summary": "",
@@ -438,6 +444,22 @@
       "hash": "6f5683c40804"
     },
     {
+      "title": "\"테슬라 팔고 갈아탑니다\"…100억 부자들 몰려든 곳이",
+      "url": "https://www.hankyung.com/article/2026062949251",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "테슬라 팔고 갈아탑니다"
+      ],
+      "hash": "b5a1eb3af9ce"
+    },
+    {
       "title": "\"만원짜리 한 장 내면 빵 싹쓸이\"…요즘 입소문 난 곳이",
       "url": "https://www.hankyung.com/article/202606260528g",
       "summary": "",
@@ -454,20 +476,53 @@
       "hash": "9624d533d1d7"
     },
     {
-      "title": "\"테슬라 팔고 갈아탑니다\"…100억 부자들 몰려든 곳이",
-      "url": "https://www.hankyung.com/article/2026062949251",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
+      "title": "\"3년 내 피지컬AI 글로벌 1등\"…지금 로봇주 투자 고려한다면",
+      "url": "https://www.hankyung.com/article/202606294395i",
+      "summary": "정부 피지컬 AI 메가프로젝트 개요 및 배경이재명 정부는 지난 29일 청와대 영빈관에서 ‘대한민국 대도약 3대 메가프로젝트 국민보고회’를 주재하며 반도체, 피지컬 AI, AI 데이터센터를 국가 미래 성장의 세 축으로 공식 선언했다.이재용 삼성전자 ...",
+      "datetime_raw": "2026.06.30 07:24",
+      "datetime": "2026-06-30T07:24:00+09:00",
+      "dt": "2026-06-30 07:24",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "테슬라 팔고 갈아탑니다"
+        "3년 내 피지컬AI 글로벌 1등"
       ],
-      "hash": "b5a1eb3af9ce"
+      "hash": "242e70e1c504"
+    },
+    {
+      "title": "'5000억 풀린다' 난리 났다…개미들 갈아탄 '이 주식' 불기둥",
+      "url": "https://www.hankyung.com/article/2026062945026",
+      "summary": "올 들어 부진한 흐름을 보이던 제약·바이오 종목의 주가가 큰 폭으로 뛰며 코스닥지수가 8%대 급등 마감했다. 최근 국민성장펀드의 리가켐바이오 지분투자 결정이 촉매로 작용한 것으로 풀이된다. 증권가에서는 이번 지분투자가 코스닥 제약·바이오 업종의...",
+      "datetime_raw": "2026.06.29 22:00",
+      "datetime": "2026-06-29T22:00:00+09:00",
+      "dt": "2026-06-29 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이 주식",
+        "5000억 풀린다"
+      ],
+      "hash": "b566c8c59cb5"
+    },
+    {
+      "title": "ESS 호조인데 전기차도 회복…2차전지주 드디어 외면 탈출",
+      "url": "https://www.hankyung.com/article/202606294518i",
+      "summary": "미국 전기차 시장의 침체와 함께 3년 가까이 부진해온 국내 배터리주의 주가가 29일 일제히 반등했다. 전기차 시장의 수요 회복과 미국 에너지저장장치(ESS) 시장의 급성장이 국내 배터리 업체들의 턴어라운드(급격한 실적 개선) 기회가 될 것이란 기대 때문이다. 시장 일각...",
+      "datetime_raw": "2026.06.29 17:14",
+      "datetime": "2026-06-29T17:14:00+09:00",
+      "dt": "2026-06-29 17:14",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "ESS 호조인데 전기차도 회복"
+      ],
+      "hash": "c395cecfa23e"
     },
     {
       "title": "7.7조 팔아치운 외국인…환율 또 금융위기 후 최고",
@@ -1076,55 +1131,6 @@
         "삼전닉스 못 샀다면"
       ],
       "hash": "3dfdf987eca5"
-    },
-    {
-      "title": "SK하닉 '45조' 美 상장 노리는데…삼성전자 전망에 '깜짝' [강경주의 테크X]",
-      "url": "https://www.hankyung.com/article/2026062604096",
-      "summary": "한국과 일본 메모리 반도체 기업들이 잇따라 미국 자본시장 공략에 나섰다. SK하이닉스가 45조원 규모의 미국예탁증서(ADR) 발행을 추진하는 데 이어 일본 낸드플래시 1위 키옥시아도 미국 ADR 발행에 나선다. 증권가에서는 삼성전자 역시 미국 ADR 상장을 검토할 가능...",
-      "datetime_raw": "2026.06.26 22:00",
-      "datetime": "2026-06-26T22:00:00+09:00",
-      "dt": "2026-06-26 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "깜짝",
-        "45조"
-      ],
-      "hash": "b4e288abe1f1"
-    },
-    {
-      "title": "\"금융위기급 변동성…이 두 가지가 키웠다\"",
-      "url": "https://www.hankyung.com/article/202606260622i",
-      "summary": "코스피 지수가 26일 전 거래일 대비 519.09포인트(5.81%) 하락한 8,411.21로 마감하며 이른바 '검은 금요일'을 기록했다. 장중 8126.84까지 밀리며 낙폭이 8%를 넘어서기도 했다. 오후 12시 11분부터 20분간 서킷...",
-      "datetime_raw": "2026.06.26 20:21",
-      "datetime": "2026-06-26T20:21:00+09:00",
-      "dt": "2026-06-26 20:21",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "금융위기급 변동성"
-      ],
-      "hash": "098073dd0af4"
-    },
-    {
-      "title": "'5000억 호재' 떴는데…주가 급락에 개미들 난리 난 회사 [종목+]",
-      "url": "https://www.hankyung.com/article/2026062607176",
-      "summary": "리가켐바이오 주가가 26일 5000억원 규모의 국민성장펀드 지분투자 유치 소식에도 불구하고 급락세로 장을 마쳤다. 다만 코스닥 상장 바이오 기업이 국민성장펀드 지분투자 대상으로 선정되자 바이오 업종과 코스닥시장 전반의 반등 기대가 커지고 있다.한국거래소에 따르면 이날 ...",
-      "datetime_raw": "2026.06.26 20:00",
-      "datetime": "2026-06-26T20:00:00+09:00",
-      "dt": "2026-06-26 20:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "5000억 호재"
-      ],
-      "hash": "3be76d0f67c2"
     }
   ],
   "consensus_signals": []
