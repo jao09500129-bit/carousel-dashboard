@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-30T13:00:54.638871+09:00",
+  "collected_at": "2026-06-30T15:01:04.440147+09:00",
   "date": "2026-06-30",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,16 +9,16 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 15,
+    "with_broker_mention": 16,
     "target_price_up": 5,
     "target_price_down": 1,
     "top_brokers": [
       [
-        "삼성",
-        3
+        "NH",
+        4
       ],
       [
-        "NH",
+        "삼성",
         3
       ],
       [
@@ -52,6 +52,71 @@
     ]
   },
   "items": [
+    {
+      "title": "\"스탯·블루밍비트, 기관용 AI 인텔리전스 '블루밍비트 알파' 공개\"",
+      "url": "https://www.hankyung.com/article/2026063068146",
+      "summary": "한경미디어그룹의 디지털자산 계열사 블루밍비트는 블록체인 기반 데이터 분석 기업 스탯이 이 회사와 공동 개발 중인 기관투자자용 인공지능(AI) 인텔리전스 플랫폼 '블루밍비트 알파'를 공개했다고 30일 보도했다.스탯은 이날 X(옛 트위터) 계정을 통해 \u0003...",
+      "datetime_raw": "2026.06.30 14:47",
+      "datetime": "2026-06-30T14:47:00+09:00",
+      "dt": "2026-06-30 14:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "공개",
+        "스탯"
+      ],
+      "hash": "5a08add8d67c"
+    },
+    {
+      "title": "수익률 너무 좋아 상폐…액티브 ETF 상관계수 규제 또 논란 [돈앤톡]",
+      "url": "https://www.hankyung.com/article/2026063064286",
+      "summary": "액티브 상장지수펀드(ETF)에 적용되는 상관계수 규제가 또 도마 위에 올랐다. 최근 비교지수(벤치마크) 대비 초과 수익을 낸 액티브 ETF 4종의 상관계수가 기준에 미달하면서 상장 폐지가 확정됐기 때문이다. 업계에서는 이전부터 제기된 규제의 불합리성이 현실화했다는 지적...",
+      "datetime_raw": "2026.06.30 14:11",
+      "datetime": "2026-06-30T14:11:00+09:00",
+      "dt": "2026-06-30 14:11",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "수익률 너무 좋아 상폐"
+      ],
+      "hash": "85541c4f401f"
+    },
+    {
+      "title": "다음달 41개 회사 주식 2억주 의무보유 풀린다",
+      "url": "https://www.hankyung.com/article/2026063066386",
+      "summary": "한국예탁결제원은 의무보유등록된 상장사 41곳의 주식 2억514만주가 다음달 중 해제될 예정이라고 30일 밝혔다.유가증권시장에서는 메타케어, 에스케이위탁관리부동산투자회사, 데호에이엘 등 세 곳의 주식이 시장에 풀릴 가능성이 있다.이중 대호에이엘은 전체 주식의 11% 비율...",
+      "datetime_raw": "2026.06.30 13:55",
+      "datetime": "2026-06-30T13:55:00+09:00",
+      "dt": "2026-06-30 13:55",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "f4f0c448ba77"
+    },
+    {
+      "title": "\"의사결정 빠르게, 책임은 함께\" 신재욱·배광수 NH證 각자대표 선임",
+      "url": "https://www.hankyung.com/article/2026063066036",
+      "summary": "NH투자증권은 30일 임시주주총회를 열고 신재욱·배광수 각자대표를 공식 선임했다고 밝혔다.두 신임 대표는 핵심 경영 방향으로 △사업 간 시너지 강화 △자본 효율성 제고 △AI 전환 △내부 통제 강화 △주주가치 제고 및 사회적 책임 등을 제시했다.그러면서 &...",
+      "datetime_raw": "2026.06.30 13:44",
+      "datetime": "2026-06-30T13:44:00+09:00",
+      "dt": "2026-06-30 13:44",
+      "brokers": [
+        "NH"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "의사결정 빠르게"
+      ],
+      "hash": "0afafac17097"
+    },
     {
       "title": "\"동원수산, 신규 트롤선 투입 따른 실적 개선 가능성 기대\"-밸류파인더",
       "url": "https://www.hankyung.com/article/2026063065086",
@@ -187,18 +252,18 @@
       "hash": "db8065ae29b5"
     },
     {
-      "title": "코스피 8300선 하락 흐름… 외국인 1.3조 순매도, 이차전지·지주 약세 두드러져 [오전 10시 시황]",
+      "title": "코스피 8600선 돌파 강세… 기관 2.6조 순매수, 코스닥은 보합권 [오후 2시 시황]",
       "url": "https://www.hankyung.com/article/202606305740i",
-      "summary": "🕘 반기말 리밸런싱 속 외국인 매도 압력… 코스피 하락 전환오전 10시 기준, 한국 증시는 미국 증시의 강한 반등에도 불구하고 외국인의 대규모 순매도 압력에 밀려 코스피가 하락 흐름으로 전환되고 있습니다. 코스피는 전일 대비 71.06포인트(0.85%) 하...",
+      "summary": "🕘 반기말 변동성 극복… 코스피 반도체 대형주 주도로 2%대 강세오후 2시 기준, 코스피는 전일 대비 232.92포인트(2.77%) 상승한 8,627.57에 거래되고 있으며, 코스닥은 전일 대비 1.60포인트(0.17%) 오른 922.17로 보합권에 머물고...",
       "datetime_raw": "2026.06.30 09:23",
       "datetime": "2026-06-30T09:23:00+09:00",
       "dt": "2026-06-30 09:23",
       "brokers": [],
-      "opinion": "매도",
+      "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "코스피 8300선 하락 흐름"
+        "코스피 8600선 돌파 강세"
       ],
       "hash": "de002762c3ee"
     },
@@ -325,6 +390,87 @@
       "hash": "ddd36a4f434f"
     },
     {
+      "title": "이천수 \"나는 홍명보 형이 진짜 싫은 게…\" 작심 발언",
+      "url": "https://www.hankyung.com/article/2026062943367",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "나는 홍명보 형이 진짜 싫은 게…",
+        "이천수 \"나는 홍명보 형이 진짜 싫은 게"
+      ],
+      "hash": "d4a44e85f7ee"
+    },
+    {
+      "title": "하루 만에 21% 급등했다…외국인들 폭풍매수한 종목",
+      "url": "https://www.hankyung.com/article/2026062948931",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "하루 만에 21% 급등했다"
+      ],
+      "hash": "2d2dbad4a8ac"
+    },
+    {
+      "title": "\"테슬라 팔고 갈아탑니다\"…100억 부자들 몰려든 곳이",
+      "url": "https://www.hankyung.com/article/2026062949251",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "테슬라 팔고 갈아탑니다"
+      ],
+      "hash": "b5a1eb3af9ce"
+    },
+    {
+      "title": "\"부모 외면한 자녀, 상속권 잃을 수도\"…상속제도 확 바뀐다",
+      "url": "https://www.hankyung.com/article/202606232976i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "부모 외면한 자녀"
+      ],
+      "hash": "6f5683c40804"
+    },
+    {
+      "title": "\"아파트냐 현금청산이냐\"…조합원 희비 가른 판결",
+      "url": "https://www.hankyung.com/article/202606233706Q",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "아파트냐 현금청산이냐"
+      ],
+      "hash": "d7abe37b0d80"
+    },
+    {
       "title": "\"GS리테일, 실적 개선 흐름 감안하면 주가조정은 기회…목표가↑\"-키움",
       "url": "https://www.hankyung.com/article/2026063054286",
       "summary": "키움증권은 30일 GS리테일에 대해 실적 개선 흐름이 나타나고 있지만 주가는 고점 대비 20%가량 조정돼 이를 매수 기회로 삼을 만하다고 평가했다. 그러면서 목표주가를 기존 3만원에서 3만2000원으로 올리고, 투자의견은 ‘매수’를 유지했다.박상준...",
@@ -393,87 +539,6 @@
         "에이피알"
       ],
       "hash": "8a4900035fbd"
-    },
-    {
-      "title": "이천수 \"나는 홍명보 형이 진짜 싫은 게…\" 작심 발언",
-      "url": "https://www.hankyung.com/article/2026062943367",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "나는 홍명보 형이 진짜 싫은 게…",
-        "이천수 \"나는 홍명보 형이 진짜 싫은 게"
-      ],
-      "hash": "d4a44e85f7ee"
-    },
-    {
-      "title": "하루 만에 21% 급등했다…외국인들 폭풍매수한 종목",
-      "url": "https://www.hankyung.com/article/2026062948931",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하루 만에 21% 급등했다"
-      ],
-      "hash": "2d2dbad4a8ac"
-    },
-    {
-      "title": "\"부모 외면한 자녀, 상속권 잃을 수도\"…상속제도 확 바뀐다",
-      "url": "https://www.hankyung.com/article/202606232976i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "부모 외면한 자녀"
-      ],
-      "hash": "6f5683c40804"
-    },
-    {
-      "title": "\"테슬라 팔고 갈아탑니다\"…100억 부자들 몰려든 곳이",
-      "url": "https://www.hankyung.com/article/2026062949251",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "테슬라 팔고 갈아탑니다"
-      ],
-      "hash": "b5a1eb3af9ce"
-    },
-    {
-      "title": "\"만원짜리 한 장 내면 빵 싹쓸이\"…요즘 입소문 난 곳이",
-      "url": "https://www.hankyung.com/article/202606260528g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "만원짜리 한 장 내면 빵 싹쓸이"
-      ],
-      "hash": "9624d533d1d7"
     },
     {
       "title": "\"3년 내 피지컬AI 글로벌 1등\"…지금 로봇주 투자 고려한다면",
@@ -1066,71 +1131,6 @@
         "매매중단"
       ],
       "hash": "d1d4f7d58e9d"
-    },
-    {
-      "title": "\"반도체 계속 간다\"…'압축 투자' ETF에 몰리는 개미들 [투자톡]",
-      "url": "https://www.hankyung.com/article/2026062601096",
-      "summary": "반도체주에 투자하는 상장지수펀드(ETF)로 개인투자자의 자금이 집중되고 있다. 증권가에서 공식 목표치로 제시한 '1만피' 달성 역시 반도체주가 주도할 것으로 예상되는 가운데 소수 핵심 종목에 압축 투자하는 ETF가 주목받고 있다.27일 코스콤 ETF체크에...",
-      "datetime_raw": "2026.06.27 17:00",
-      "datetime": "2026-06-27T17:00:00+09:00",
-      "dt": "2026-06-27 17:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "압축 투자",
-        "반도체 계속 간다"
-      ],
-      "hash": "401e2225610f"
-    },
-    {
-      "title": "\"비트코인 소리없이 사라질 것\"…억만장자 투자자의 경고",
-      "url": "https://www.hankyung.com/article/2026062711987",
-      "summary": "억만장자 투자자로 유명한 제러미 그랜섬이 비트코인의 자산가치가 서서히 사그라들 것이라고 내다봤다.그랜섬은 26일(현지시간) 미국 CNBC방송의 ‘스쿼크 박스’에 출연해 “비트코인은 쓸모 없고 투기적인 자산”이라며 이 같이 밝혔...",
-      "datetime_raw": "2026.06.27 08:21",
-      "datetime": "2026-06-27T08:21:00+09:00",
-      "dt": "2026-06-27 08:21",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "비트코인 소리없이 사라질 것"
-      ],
-      "hash": "a0099158c56c"
-    },
-    {
-      "title": "'메이드 인 USA' 인텔의 화려한 부활…애플·구글 업고 주가 237% 급등",
-      "url": "https://www.hankyung.com/article/202606269994i",
-      "summary": "미국 반도체 자존심 인텔이 화려하게 부활하고 있다. 애플과의 미국 내 반도체 생산 협력을 필두로 대형 빅테크 기업의 수주 랠리와 호실적, 경영진 교체 효과 등이 한꺼번에 맞물리면서다. 트럼프 인증한 애플·엔비디아 협력지난 26일 기준 인텔 주가는 ...",
-      "datetime_raw": "2026.06.27 08:00",
-      "datetime": "2026-06-27T08:00:00+09:00",
-      "dt": "2026-06-27 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "메이드 인 USA"
-      ],
-      "hash": "046ecf40719a"
-    },
-    {
-      "title": "삼전닉스 못 샀다면…올해 소외된 대형주 10개 뽑아보니",
-      "url": "https://www.hankyung.com/article/202606260168i",
-      "summary": "국내 시가총액 상위 20개 종목 주가 분석 및 투자 전략연초 이후 주가 수익률 현황지난 26일 코스피지수의 큰 폭 하락에도 불구하고 시가총액 상위 20개 종목의 연초 이후 주가 수익률은 여전히 견조한 편이다. 특히 반도체·SK그...",
-      "datetime_raw": "2026.06.27 08:00",
-      "datetime": "2026-06-27T08:00:00+09:00",
-      "dt": "2026-06-27 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 못 샀다면"
-      ],
-      "hash": "3dfdf987eca5"
     }
   ],
   "consensus_signals": []
