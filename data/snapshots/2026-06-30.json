@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-30T09:30:50.220418+09:00",
+  "collected_at": "2026-06-30T10:29:40.580354+09:00",
   "date": "2026-06-30",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,9 +7,9 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 65,
   "stats": {
-    "with_broker_mention": 13,
+    "with_broker_mention": 14,
     "target_price_up": 5,
     "target_price_down": 1,
     "top_brokers": [
@@ -20,6 +20,10 @@
       [
         "NH",
         3
+      ],
+      [
+        "DB",
+        2
       ],
       [
         "유안타",
@@ -40,14 +44,61 @@
       [
         "LS",
         1
-      ],
-      [
-        "DB",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "DB증권, NHN두레이·클라우드와 AI 파트너십 체결",
+      "url": "https://www.hankyung.com/article/2026063057696",
+      "summary": "DB증권은 올인원 협업 플랫폼 전문 기업인 NHN두레이, NHN클라우드와 전략적 파트너십을 맺었다고 30일 밝혔다.전날 DB증권 본사에서 열린 파트너십 체결식에는 곽봉석 대표이사와 장현일 경영지원부문 상무, 백창열 NHN두레이 대표, 나홍석 NHN클라우드 전무 등 3사...",
+      "datetime_raw": "2026.06.30 09:55",
+      "datetime": "2026-06-30T09:55:00+09:00",
+      "dt": "2026-06-30 09:55",
+      "brokers": [
+        "DB"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "DB증권"
+      ],
+      "hash": "59610371e5e2"
+    },
+    {
+      "title": "주가 눌린 LG유플러스, AIDC로 승부수…“8월 반등 신호 나온다”는 증권가",
+      "url": "https://www.hankyung.com/article/202606294248i",
+      "summary": "LG유플러스 주가가 1만4000원대에서 방향성을 찾지 못하고 있다. 안정적인 배당 매력에도 불구하고 지난해 하반기 이후 주주환원 확대 속도가 둔화될 수 있다는 우려가 겹치며 통신주 내에서도 상대적으로 부진한 흐름을 보였다. 29일 주가(종가 기준)는 1만4570원이다....",
+      "datetime_raw": "2026.06.30 09:47",
+      "datetime": "2026-06-30T09:47:00+09:00",
+      "dt": "2026-06-30 09:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "8월 반등 신호 나온다",
+        "주가 눌린 LG유플러스"
+      ],
+      "hash": "a28c7cad8805"
+    },
+    {
+      "title": "코스피, 美 기술주 강세에 상승 출발 후 혼조…외국인 순매도",
+      "url": "https://www.hankyung.com/article/2026063058686",
+      "summary": "코스피가 30일 간밤 미국 기술주 강세에 힘입어 상승 출발 후 혼조세를 보이고 있다.이날 오전 9시35분 기준 코스피는 전 거래일보다 0.70% 내린 8336.19에 거래 중이다. 지수는 전장보다 0.26% 오른 8416.70으로 출발해 상승폭을 확대, 한때 8513....",
+      "datetime_raw": "2026.06.30 09:43",
+      "datetime": "2026-06-30T09:43:00+09:00",
+      "dt": "2026-06-30 09:43",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "0b1ea86fb408"
+    },
     {
       "title": "삼성전기, 글로벌 빅테크와 4540억원 규모 MLCC 공급계약",
       "url": "https://www.hankyung.com/article/2026063057816",
@@ -65,18 +116,18 @@
       "hash": "db8065ae29b5"
     },
     {
-      "title": "반도체 강세에 코스피·코스닥 동반 상승 출발… 이차전지는 약세 [오전 9시10분 시황]",
+      "title": "코스피 8300선 하락 흐름… 외국인 1.3조 순매도, 이차전지·지주 약세 두드러져 [오전 10시 시황]",
       "url": "https://www.hankyung.com/article/202606305740i",
-      "summary": "🕘 장초반 상승 출발… 반도체 주도, 이차전지 부진오늘 한국 증시는 지난밤 미국 증시의 강한 반등에 힘입어 상승 출발했습니다. 미국·이란 간 군사적 긴장 완화와 AI·반도체주 급반등(필라델피아반도체지수 +3.83%)이 국내 투자심리...",
+      "summary": "🕘 반기말 리밸런싱 속 외국인 매도 압력… 코스피 하락 전환오전 10시 기준, 한국 증시는 미국 증시의 강한 반등에도 불구하고 외국인의 대규모 순매도 압력에 밀려 코스피가 하락 흐름으로 전환되고 있습니다. 코스피는 전일 대비 71.06포인트(0.85%) 하...",
       "datetime_raw": "2026.06.30 09:23",
       "datetime": "2026-06-30T09:23:00+09:00",
       "dt": "2026-06-30 09:23",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "반도체 강세에 코스피"
+        "코스피 8300선 하락 흐름"
       ],
       "hash": "de002762c3ee"
     },
@@ -306,39 +357,6 @@
       "hash": "b566c8c59cb5"
     },
     {
-      "title": "하루 만에 21% 급등했다…외국인들 폭풍매수한 종목",
-      "url": "https://www.hankyung.com/article/2026062948931",
-      "summary": "'AI를 넘어서는 성공투자' 한국경제신문의 투자 전문 플랫폼 '한경 프리미엄9'에 실린 기사입니다.미국 전기차 시장 침체 속에서 3년 가까이 부진하던 국내 배터리업체 주가가 29일 일제히 반등했다. 전기차 수요 회복과 미국 에너지저장장치(E...",
-      "datetime_raw": "2026.06.29 17:45",
-      "datetime": "2026-06-29T17:45:00+09:00",
-      "dt": "2026-06-29 17:45",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "하루 만에 21% 급등했다"
-      ],
-      "hash": "2d2dbad4a8ac"
-    },
-    {
-      "title": "내 주식만 뚝뚝 떨어지더니…\"드디어 빨간불 떴다\" 환호",
-      "url": "https://www.hankyung.com/article/2026062948921",
-      "summary": "'AI를 넘어서는 성공투자' 한국경제신문의 투자 전문 플랫폼 '한경 프리미엄9'에 실린 기사입니다.다음달 1일 출범 30주년을 앞두고 800대 초반까지 내린 코스닥지수가 반등에 나섰다. 반도체 고점 논란의 여파로 유가증권시장이 혼조세를 보인...",
-      "datetime_raw": "2026.06.29 17:43",
-      "datetime": "2026-06-29T17:43:00+09:00",
-      "dt": "2026-06-29 17:43",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "드디어 빨간불 떴다",
-        "내 주식만 뚝뚝 떨어지더니"
-      ],
-      "hash": "8e98e6f96ae5"
-    },
-    {
       "title": "ESS 호조인데 전기차도 회복…2차전지주 드디어 외면 탈출",
       "url": "https://www.hankyung.com/article/202606294518i",
       "summary": "미국 전기차 시장의 침체와 함께 3년 가까이 부진해온 국내 배터리주의 주가가 29일 일제히 반등했다. 전기차 시장의 수요 회복과 미국 에너지저장장치(ESS) 시장의 급성장이 국내 배터리 업체들의 턴어라운드(급격한 실적 개선) 기회가 될 것이란 기대 때문이다. 시장 일각...",
@@ -371,23 +389,6 @@
       "hash": "13d3651422c3"
     },
     {
-      "title": "\"이재용·최태원 가는 곳에 돈 몰린다\"…호남·신재생주 '폭등' [종합]",
-      "url": "https://www.hankyung.com/article/2026062944776",
-      "summary": "삼성전자와 SK그룹이 호남에 대규모 반도체 생산거점을 조성하겠다는 계획을 내놓자 호남 기업들 주가가 일제히 들썩였다. 광주·전남을 '제2 반도체 클러스터'로 육성한다는 청사진이 공개되면서 금호건설과 남화토건 등 호남 기반 기업은 상한가를 기록...",
-      "datetime_raw": "2026.06.29 15:56",
-      "datetime": "2026-06-29T15:56:00+09:00",
-      "dt": "2026-06-29 15:56",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "폭등",
-        "이재용"
-      ],
-      "hash": "7106dc1d25f3"
-    },
-    {
       "title": "이천수 \"나는 홍명보 형이 진짜 싫은 게…\" 작심 발언",
       "url": "https://www.hankyung.com/article/2026062943367",
       "summary": "",
@@ -405,20 +406,20 @@
       "hash": "d4a44e85f7ee"
     },
     {
-      "title": "\"만원짜리 한 장 내면 빵 싹쓸이\"…요즘 입소문 난 곳이",
-      "url": "https://www.hankyung.com/article/202606260528g",
+      "title": "하루 만에 21% 급등했다…외국인들 폭풍매수한 종목",
+      "url": "https://www.hankyung.com/article/2026062948931",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
       "dt": "",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "만원짜리 한 장 내면 빵 싹쓸이"
+        "하루 만에 21% 급등했다"
       ],
-      "hash": "9624d533d1d7"
+      "hash": "2d2dbad4a8ac"
     },
     {
       "title": "\"부모 외면한 자녀, 상속권 잃을 수도\"…상속제도 확 바뀐다",
@@ -437,8 +438,8 @@
       "hash": "6f5683c40804"
     },
     {
-      "title": "\"다이소도 아닌데\"…3만원 들고 가면 가방에 옷까지 풀세팅",
-      "url": "https://www.hankyung.com/article/202606269802g",
+      "title": "\"만원짜리 한 장 내면 빵 싹쓸이\"…요즘 입소문 난 곳이",
+      "url": "https://www.hankyung.com/article/202606260528g",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -448,9 +449,42 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "다이소도 아닌데"
+        "만원짜리 한 장 내면 빵 싹쓸이"
       ],
-      "hash": "c387090cbb81"
+      "hash": "9624d533d1d7"
+    },
+    {
+      "title": "\"테슬라 팔고 갈아탑니다\"…100억 부자들 몰려든 곳이",
+      "url": "https://www.hankyung.com/article/2026062949251",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "테슬라 팔고 갈아탑니다"
+      ],
+      "hash": "b5a1eb3af9ce"
+    },
+    {
+      "title": "\"이재용·최태원 가는 곳에 돈 몰린다\"…호남·신재생주 '폭등' [종합]",
+      "url": "https://www.hankyung.com/article/2026062944776",
+      "summary": "삼성전자와 SK그룹이 호남에 대규모 반도체 생산거점을 조성하겠다는 계획을 내놓자 호남 기업들 주가가 일제히 들썩였다. 광주·전남을 '제2 반도체 클러스터'로 육성한다는 청사진이 공개되면서 금호건설과 남화토건 등 호남 기반 기업은 상한가를 기록...",
+      "datetime_raw": "2026.06.29 15:56",
+      "datetime": "2026-06-29T15:56:00+09:00",
+      "dt": "2026-06-29 15:56",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "폭등",
+        "이재용"
+      ],
+      "hash": "7106dc1d25f3"
     },
     {
       "title": "코스피, 반도체 고점 부담에 약보합 마감…코스닥은 8%대 급등",
@@ -1091,22 +1125,6 @@
         "롤러코스피"
       ],
       "hash": "5aa1de5ba8cf"
-    },
-    {
-      "title": "시장이 지워버린 이름 코스닥",
-      "url": "https://www.hankyung.com/article/2026062608311",
-      "summary": "95% vs -10%.국내 양대 증시 지수인 코스피지수와 코스닥지수의 올해 성적표다. 코스피지수가 올해 상반기 4000에서 8000으로 두 배로 수직 상승하며 축제를 벌일 때 코스닥지수는 900에서 800으로 미끄러지며 두 지수 간 격차가 역대급으로 벌어졌다. 반도체 ...",
-      "datetime_raw": "2026.06.26 18:09",
-      "datetime": "2026-06-26T18:09:00+09:00",
-      "dt": "2026-06-26 18:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": -80.0,
-      "keywords": [
-        "시장이 지워버린 이름 코스닥"
-      ],
-      "hash": "cea8494bae0a"
     }
   ],
   "consensus_signals": []

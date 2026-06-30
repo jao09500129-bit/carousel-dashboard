@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-06-30 09:31 KST",
+  "as_of": "2026-06-30 10:29 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "중동 긴장 완화에 기술주 반등…다우, 사상 첫 5만2000선 마감 [뉴욕증시 브리핑]",
+  "headline": "다시 반등한 반도체...美 우주·전기차 종목들 관심",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "중동 긴장 완화에 기술주 반등…다우, 사상 첫 5만2000선 마감 [뉴욕증시 브리핑]",
+      "title": "다시 반등한 반도체...美 우주·전기차 종목들 관심",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026063053956"
+      "url": "https://www.hankyung.com/article/202606305368i"
     },
     {
       "title": "리밸런싱 끝? 기술주 랠리…'2분기 어닝'이 상승 촉매 [김현석의 월스트리트나우]",
@@ -24,15 +24,15 @@
       "url": "https://www.hankyung.com/article/202606281611i"
     },
     {
-      "title": "캠벨 \"이란 전쟁의 승자는 중국, 韓日 손잡아야\" [도쿄나우]",
+      "title": "中 통계조작 '어마어마'… \"무역흑자 반토막냈다\" 지적한 美 경제학자 [이상은의 워싱턴나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202606305432i"
+      "url": "https://www.hankyung.com/article/202606305439i"
     }
   ],
   "today_kr_focus": [
-    "삼성전기, 글로벌 빅테크와 4540억원 규모 MLCC 공급계약 (2026-06-30 09:25)",
-    "반도체 강세에 코스피·코스닥 동반 상승 출발… 이차전지는 약세 [오전 9시10분 시황] (2026-06-30 09:23)",
-    "스트라드비젼, 상장 첫날 장 초반 공모가 밑돌아 (2026-06-30 09:18)"
+    "DB증권, NHN두레이·클라우드와 AI 파트너십 체결 (2026-06-30 09:55)",
+    "주가 눌린 LG유플러스, AIDC로 승부수…“8월 반등 신호 나온다”는 증권가 (2026-06-30 09:47)",
+    "코스피, 美 기술주 강세에 상승 출발 후 혼조…외국인 순매도 (2026-06-30 09:43)"
   ],
   "carousel_implications": {
     "regime": "美 메가캡·반도체 강세 주도 (가설)",
@@ -46,16 +46,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.30% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.34% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.30%"
+        "trigger_value": "+0.34%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-06-30T09:30:50.220418+09:00",
+    "collected_at": "2026-06-30T10:29:40.580354+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,30 +125,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,547.62",
-            "chg": "4.57",
-            "chg_pct": "+0.30%"
+            "close": "1,548.32",
+            "chg": "5.27",
+            "chg_pct": "+0.34%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,766.83",
-            "chg": "4.42",
-            "chg_pct": "+0.25%"
+            "close": "1,767.18",
+            "chg": "4.77",
+            "chg_pct": "+0.27%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "955.86",
-            "chg": "2.93",
-            "chg_pct": "+0.31%"
+            "close": "954.94",
+            "chg": "2.01",
+            "chg_pct": "+0.21%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "227.85",
-            "chg": "0.88",
-            "chg_pct": "+0.39%"
+            "close": "227.89",
+            "chg": "0.92",
+            "chg_pct": "+0.41%"
           }
         ]
       },
@@ -240,9 +240,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.61",
+            "close": "2.64",
             "chg": "0.03",
-            "chg_pct": "-0.99%"
+            "chg_pct": "+1.26%"
           }
         ]
       }
