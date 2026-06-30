@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-30T10:29:40.580354+09:00",
+  "collected_at": "2026-06-30T11:00:52.092399+09:00",
   "date": "2026-06-30",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -48,6 +48,22 @@
     ]
   },
   "items": [
+    {
+      "title": "日, 40년 만의 초엔저…다카이치노믹스, '미지의 상태' 들어갔다",
+      "url": "https://www.hankyung.com/article/2026063060926",
+      "summary": "40년 만의 '초엔저'가 일본 경제를 뒤흔들고 있다. 일본 정부가 사상 최대 규모의 외환시장 개입과 기준금리 인상 카드를 잇달아 꺼냈지만 시장은 꿈쩍도 하지 않는 모습이다. 엔화가 '바닥 없는 추락'에 들어섰다는 경고까지 나오면서 일본 경제...",
+      "datetime_raw": "2026.06.30 10:38",
+      "datetime": "2026-06-30T10:38:00+09:00",
+      "dt": "2026-06-30 10:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "미지의 상태"
+      ],
+      "hash": "d3929c4d1a79"
+    },
     {
       "title": "DB증권, NHN두레이·클라우드와 AI 파트너십 체결",
       "url": "https://www.hankyung.com/article/2026063057696",
@@ -373,22 +389,6 @@
       "hash": "c395cecfa23e"
     },
     {
-      "title": "7.7조 팔아치운 외국인…환율 또 금융위기 후 최고",
-      "url": "https://www.hankyung.com/article/202606294517Y",
-      "summary": "13.2원 오른 1,545.2원원/달러 환율은 29일 외국인들이 국내 주식을 대거 팔아치우면서 글로벌 금융위기 후 최고 수준인 1,540원대 중반에서 주간 거래를 마쳤다.이날 서울 외환시장에서 미국 달러화 대비 원화 환율은 오후 3시 30분 기준 13.2원 오른 1,5...",
-      "datetime_raw": "2026.06.29 16:24",
-      "datetime": "2026-06-29T16:24:00+09:00",
-      "dt": "2026-06-29 16:24",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "7.7조 팔아치운 외국인"
-      ],
-      "hash": "13d3651422c3"
-    },
-    {
       "title": "이천수 \"나는 홍명보 형이 진짜 싫은 게…\" 작심 발언",
       "url": "https://www.hankyung.com/article/2026062943367",
       "summary": "",
@@ -468,6 +468,22 @@
         "테슬라 팔고 갈아탑니다"
       ],
       "hash": "b5a1eb3af9ce"
+    },
+    {
+      "title": "7.7조 팔아치운 외국인…환율 또 금융위기 후 최고",
+      "url": "https://www.hankyung.com/article/202606294517Y",
+      "summary": "13.2원 오른 1,545.2원원/달러 환율은 29일 외국인들이 국내 주식을 대거 팔아치우면서 글로벌 금융위기 후 최고 수준인 1,540원대 중반에서 주간 거래를 마쳤다.이날 서울 외환시장에서 미국 달러화 대비 원화 환율은 오후 3시 30분 기준 13.2원 오른 1,5...",
+      "datetime_raw": "2026.06.29 16:24",
+      "datetime": "2026-06-29T16:24:00+09:00",
+      "dt": "2026-06-29 16:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "7.7조 팔아치운 외국인"
+      ],
+      "hash": "13d3651422c3"
     },
     {
       "title": "\"이재용·최태원 가는 곳에 돈 몰린다\"…호남·신재생주 '폭등' [종합]",
@@ -1109,22 +1125,6 @@
         "5000억 호재"
       ],
       "hash": "3be76d0f67c2"
-    },
-    {
-      "title": "연일 널뛰는 '롤러코스피'…변동성지수도 사상 최고치",
-      "url": "https://www.hankyung.com/article/2026062607921",
-      "summary": "26일 코스피지수가 장중 8% 넘게 급락하며 ‘검은 금요일’을 맞았다. 반도체 업황 호조 기대에 최근 회복세를 보인 증시는 이날 메모리 수요 급증이 ‘칩플레이션’(반도체 인플레이션)을 초래해 반도체 수요를 위축시킬 수 있다는 ...",
-      "datetime_raw": "2026.06.26 18:12",
-      "datetime": "2026-06-26T18:12:00+09:00",
-      "dt": "2026-06-26 18:12",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "롤러코스피"
-      ],
-      "hash": "5aa1de5ba8cf"
     }
   ],
   "consensus_signals": []
