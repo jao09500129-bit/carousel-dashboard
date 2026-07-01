@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-30",
-  "updated_at": "2026-06-30T23:10:02+09:00",
+  "date": "2026-07-01",
+  "updated_at": "2026-07-01T09:30:06+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "UP_STRONG",
@@ -66,25 +66,25 @@
   "m26": {
     "gate_active": false,
     "status_kr": "정상 (m21 그대로 운영)",
-    "sp500_ret_pct": -0.05,
-    "vix_z252": 0.09,
+    "sp500_ret_pct": 1.18,
+    "vix_z252": -0.14,
     "sp500_threshold_pct": -2.7,
     "vix_z_threshold": 2.0,
-    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-06-29):\n    SP500_ret:  -0.05% (tau ≤ -2.70%)\n    VIX_z252:   +0.09 (tau ≥ +2.00)"
+    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-06-30):\n    SP500_ret:  +1.18% (tau ≤ -2.70%)\n    VIX_z252:   -0.14 (tau ≥ +2.00)"
   },
   "portfolio": {
-    "total_return_pct": 41.54,
-    "cash_pct": 17.7,
+    "total_return_pct": 40.61,
+    "cash_pct": 4.0,
     "holdings": [
       {
         "code": "069500",
         "name": "KODEX 200",
-        "weight_pct": 82.34,
-        "pnl_pct": 0.6
+        "weight_pct": 95.95,
+        "pnl_pct": -0.17
       }
     ],
-    "last_updated": "2026-06-30T16:00:04.263984",
-    "since_start_days": 62
+    "last_updated": "2026-07-01T09:30:06.335210",
+    "since_start_days": 63
   },
   "trade_today": {
     "executed": true,
@@ -229,11 +229,11 @@
       "vol_off_pct": 19.49
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-06-30T23:10:04+09:00"
+    "updated_at": "2026-07-01T09:30:08+09:00"
   },
   "m30_shadow": {
     "date": "2026-06-26",
-    "updated_at": "2026-06-30T23:10:06+09:00",
+    "updated_at": "2026-07-01T09:30:09+09:00",
     "m21": {
       "wl": 0.05,
       "ws": 0.0,
@@ -278,7 +278,7 @@
   },
   "m37_shadow": {
     "date": "2026-06-26",
-    "updated_at": "2026-06-30T23:10:09+09:00",
+    "updated_at": "2026-07-01T09:30:13+09:00",
     "m21": {
       "wl": 0.05,
       "ws": 0.0
@@ -579,6 +579,11 @@
       {
         "date": "2026-06-30",
         "total_return_pct": 41.54,
+        "holding_qty": 0
+      },
+      {
+        "date": "2026-07-01",
+        "total_return_pct": 40.61,
         "holding_qty": 0
       }
     ],
@@ -960,11 +965,18 @@
         "qty": 841,
         "return_pct": 41.54,
         "memo": "KIS API 자동 갱신 [자동갱신 06-30 15:40]"
+      },
+      {
+        "date": "2026-07-01",
+        "action_short": "🟢 BUY",
+        "qty": 979,
+        "return_pct": 42.11,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-01 09:10]"
       }
     ],
     "trading_stats": {
-      "total_trades": 20,
-      "buy_count": 10,
+      "total_trades": 21,
+      "buy_count": 11,
       "sell_count": 10,
       "stop_loss_count": 4,
       "hold_days": 34,
@@ -1187,9 +1199,13 @@
       {
         "date": "2026-06-30",
         "drawdown_pct": -12.98
+      },
+      {
+        "date": "2026-07-01",
+        "drawdown_pct": -13.91
       }
     ],
-    "generated_at": "2026-06-30T23:10:12"
+    "generated_at": "2026-07-01T09:30:17"
   },
   "evaluation": {
     "month1_review": "2026-05-29",
