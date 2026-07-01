@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-01T16:00:47.769653+09:00",
+  "collected_at": "2026-07-01T23:10:49.200086+09:00",
   "date": "2026-07-01",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,16 +7,12 @@
     "p2",
     "p3"
   ],
-  "total_items": 64,
+  "total_items": 65,
   "stats": {
-    "with_broker_mention": 19,
-    "target_price_up": 6,
+    "with_broker_mention": 17,
+    "target_price_up": 4,
     "target_price_down": 1,
     "top_brokers": [
-      [
-        "키움",
-        3
-      ],
       [
         "NH",
         3
@@ -26,7 +22,11 @@
         3
       ],
       [
-        "한국투자",
+        "미래에셋",
+        2
+      ],
+      [
+        "키움",
         2
       ],
       [
@@ -34,11 +34,7 @@
         2
       ],
       [
-        "삼성",
-        2
-      ],
-      [
-        "미래에셋",
+        "한국투자",
         1
       ],
       [
@@ -52,10 +48,96 @@
       [
         "DB",
         1
+      ],
+      [
+        "삼성",
+        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "씨티, 비트코인 전망치 대폭 낮춰…\"ETF 자금 흐름 악화\"",
+      "url": "https://www.hankyung.com/article/202607010423B",
+      "summary": "글로벌 투자은행(IB) 씨티그룹이 비트코인(BTC)과 이더리움(ETF) 가격 전망치를 대폭 하향 조정했다.30일(현지시간) 로이터통신에 따르면 씨티는 이날 보고서를 통해 비트코인 12개월 목표가를 기존 11만2000달러에서 8만2000달러로 낮춰잡았다. 이더리움 12개...",
+      "datetime_raw": "2026.07.01 18:47",
+      "datetime": "2026-07-01T18:47:00+09:00",
+      "dt": "2026-07-01 18:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "씨티",
+        "ETF 자금 흐름 악화"
+      ],
+      "hash": "9648faebc4a0"
+    },
+    {
+      "title": "'30살' 코스닥, 봄날은 언제 오나 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026070102591",
+      "summary": "'30살' 코스닥, 봄날은 언제 오나이번 달로 코스닥 시장이 개설된 지 딱 30년이 됐다. 그동안 여러 혁신 기업을 키우는 젖줄 역할을 했지만 오랫동안 신뢰를 얻지 못해 정체돼왔던 것도 사실이다. 정부가 새롭게 내놓는 정책들은 코스닥 시장을 바...",
+      "datetime_raw": "2026.07.01 18:03",
+      "datetime": "2026-07-01T18:03:00+09:00",
+      "dt": "2026-07-01 18:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "30살"
+      ],
+      "hash": "4ca9e269b5c7"
+    },
+    {
+      "title": "경영권 프리미엄 매각에…위메이드 '상한가'",
+      "url": "https://www.hankyung.com/article/2026070102061",
+      "summary": "위메이드 창업자인 박관호 이사회 의장이 보유 지분 전량을 중국계 투자 플랫폼 네오펄스에 매각한다고 발표한 뒤 이 회사 주가가 1일 상한가로 마감했다. 시장이 창업주 경영권 매각보다 기업가치 재평가 가능성에 주목한 것으로 분석된다.이날 위메이드는 5770원(29.85%)...",
+      "datetime_raw": "2026.07.01 17:32",
+      "datetime": "2026-07-01T17:32:00+09:00",
+      "dt": "2026-07-01 17:32",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "상한가",
+        "경영권 프리미엄 매각에"
+      ],
+      "hash": "d1326523347f"
+    },
+    {
+      "title": "30살 생일에도 900선 갇힌 코스닥…시총 6조원 퇴출 위기",
+      "url": "https://www.hankyung.com/article/202607019507i",
+      "summary": "코스닥 시장이 탄생 30주년을 맞은 1일, 전거래일보다 1.44% 상승한 929.35에 마감했다. 반도체 소재·부품·장비주에 힘입어 가까스로 반등에 성공했지만, 지난달 19일 1000선이 무너진 후 좀처럼 800~900선을 벗어나지 못하면서 투...",
+      "datetime_raw": "2026.07.01 16:47",
+      "datetime": "2026-07-01T16:47:00+09:00",
+      "dt": "2026-07-01 16:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "30살 생일에도 900선 갇힌 코스닥"
+      ],
+      "hash": "739736d74d8e"
+    },
+    {
+      "title": "시장 개설 30주년…코스닥의 시대는 언제쯤 올까",
+      "url": "https://www.hankyung.com/article/202607018389i",
+      "summary": "﻿2026년 7월, 코스닥 시장이 개설된지 30년이 되었다. 1990년대 중반, 전통 제조업 중심에서 첨단 기술 및 정보통신(IT) 산업으로 국가 성장 동력을 대전환하려던 정부의 정책적 결단이 코스닥의 모태가 되었다. 자금이 부족한 혁신 중소기업들이 주식 발행을 통해서...",
+      "datetime_raw": "2026.07.01 16:36",
+      "datetime": "2026-07-01T16:36:00+09:00",
+      "dt": "2026-07-01 16:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "시장 개설 30주년"
+      ],
+      "hash": "7e2d596f4eb5"
+    },
     {
       "title": "외국인 국내서 月 2조원 쓴다…백화점 다음 '2차 수혜주'는 여기",
       "url": "https://www.hankyung.com/article/202607019274i",
@@ -312,6 +394,88 @@
       "hash": "e408aece7dce"
     },
     {
+      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
+      "url": "https://www.hankyung.com/article/202606307387g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배 타고 온 중국인 1500명 내리더니"
+      ],
+      "hash": "e0bedde8f749"
+    },
+    {
+      "title": "\"그때 살걸\"…국평 9억서 17억으로 뛴 분양가에도 '북적'",
+      "url": "https://www.hankyung.com/article/2026063062746",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "북적",
+        "그때 살걸"
+      ],
+      "hash": "590947a2603b"
+    },
+    {
+      "title": "\"나이키 말고 이거요\" 2030 콕 찍어 산다…인기 폭발한 러닝화",
+      "url": "https://www.hankyung.com/article/202606307414g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "나이키 말고 이거요"
+      ],
+      "hash": "e321b0edd42a"
+    },
+    {
+      "title": "동탄보다 훨씬 비쌌는데…역전당한 동네ㅣ연두부",
+      "url": "https://www.hankyung.com/article/202607017984i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "동탄보다 훨씬 비쌌는데"
+      ],
+      "hash": "e97fce94f6fa"
+    },
+    {
+      "title": "\"캐디 없이 칠게요\" 한국 골퍼들 돌변 이유가…'놀라운 현실'",
+      "url": "https://www.hankyung.com/article/202606305615i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "놀라운 현실",
+        "캐디 없이 칠게요"
+      ],
+      "hash": "2a6e903b0181"
+    },
+    {
       "title": "증권가 \"에코프로비엠 1.2조 유증, 시너지 감안해도 부담\"",
       "url": "https://www.hankyung.com/article/2026070180926",
       "summary": "에코프로비엠이 인도네시아 제련소 투자를 위해 대규모 유상증자를 결정한 가운데 증권가에선 사업 시너지를 감안해도 단기 주가 모멘텀(상승동력)은 제한적일 것으로 내다봤다.정원석 iM증권 연구원은 1일 \"전기차 수요 둔화, 양극재 업황 회복 지연, 고객사 물량 불확실성이 여...",
@@ -397,91 +561,6 @@
         "외환시장"
       ],
       "hash": "f3e72d26f7e3"
-    },
-    {
-      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
-      "url": "https://www.hankyung.com/article/202606307387g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "배 타고 온 중국인 1500명 내리더니"
-      ],
-      "hash": "e0bedde8f749"
-    },
-    {
-      "title": "\"160만㎞ 달려도 멀쩡\"…'국민 첫 차', 美서 불티나게 팔린다",
-      "url": "https://www.hankyung.com/article/202606295034g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "국민 첫 차",
-        "160만㎞ 달려도 멀쩡"
-      ],
-      "hash": "2a1bd93a89e9"
-    },
-    {
-      "title": "7% 급등한 삼성전기 팔고…초고수들은 산 '이것'은",
-      "url": "https://www.hankyung.com/article/202606306217i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이것",
-        "7% 급등한 삼성전기 팔고"
-      ],
-      "hash": "a59841ac02a7"
-    },
-    {
-      "title": "'정년 65세' 임피제 도입…'내용'보다 중요한 건 '절차'",
-      "url": "https://www.hankyung.com/article/202606306610i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "내용",
-        "절차",
-        "정년 65세"
-      ],
-      "hash": "8d67010ffa90"
-    },
-    {
-      "title": "국민연금이 수십조 판다?…7월 매도폭탄설 '오해와 진실'",
-      "url": "https://www.hankyung.com/article/202606307081i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "오해와 진실",
-        "국민연금이 수십조 판다?"
-      ],
-      "hash": "af96810586d9"
     },
     {
       "title": "\"대한전선, 국내 HVDC 시장 첫 진입…목표가↑\"-KB",
@@ -840,6 +919,25 @@
       "hash": "c03d44205501"
     },
     {
+      "title": "7% 급등한 삼성전기 팔고…초고수들은 산 '이것'은",
+      "url": "https://www.hankyung.com/article/202606306217i",
+      "summary": "30일 유가증권시장이 등락을 반복하는 가운데 투자수익률 상위 1% 초고수들은 삼성전자를 가장 많이 사들인 것으로 나타났다. 저스템, 유니테스트 등 코스닥 상장사도 순매수 상위권에 들었다.이날 미래에셋엠클럽에 따르면 미래에셋증권 계좌 가운데 전월 수익률 상위 1%에 해당...",
+      "datetime_raw": "2026.06.30 11:12",
+      "datetime": "2026-06-30T11:12:00+09:00",
+      "dt": "2026-06-30 11:12",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이것",
+        "7% 급등한 삼성전기 팔고"
+      ],
+      "hash": "a59841ac02a7"
+    },
+    {
       "title": "日, 40년 만의 초엔저…다카이치노믹스, '미지의 상태' 들어갔다",
       "url": "https://www.hankyung.com/article/2026063060926",
       "summary": "40년 만의 '초엔저'가 일본 경제를 뒤흔들고 있다. 일본 정부가 사상 최대 규모의 외환시장 개입과 기준금리 인상 카드를 잇달아 꺼냈지만 시장은 꿈쩍도 하지 않는 모습이다. 엔화가 '바닥 없는 추락'에 들어섰다는 경고까지 나오면서 일본 경제...",
@@ -1059,92 +1157,6 @@
         "다시 봤어요"
       ],
       "hash": "ddd36a4f434f"
-    },
-    {
-      "title": "\"GS리테일, 실적 개선 흐름 감안하면 주가조정은 기회…목표가↑\"-키움",
-      "url": "https://www.hankyung.com/article/2026063054286",
-      "summary": "키움증권은 30일 GS리테일에 대해 실적 개선 흐름이 나타나고 있지만 주가는 고점 대비 20%가량 조정돼 이를 매수 기회로 삼을 만하다고 평가했다. 그러면서 목표주가를 기존 3만원에서 3만2000원으로 올리고, 투자의견은 ‘매수’를 유지했다.박상준...",
-      "datetime_raw": "2026.06.30 07:54",
-      "datetime": "2026-06-30T07:54:00+09:00",
-      "dt": "2026-06-30 07:54",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 0.0,
-      "keywords": [
-        "GS리테일"
-      ],
-      "hash": "da7693cb5581"
-    },
-    {
-      "title": "\"SK, 반도체·AI 데이터센터 수혜 기대…목표가↑\"-삼성",
-      "url": "https://www.hankyung.com/article/2026063054266",
-      "summary": "삼성증권은 30일 SK에 대해 \"정부의 메가 프로젝트에 따른 반도체와 인공지능(AI) 데이터센터(AI DC) 투자 확대의 수혜주\"라며 목표주가를 기존 67만원에서 95만원으로 높이고 투자의견 '매수'를 유지했다.박세웅 삼성증권 연구원은 \"SK그룹이 반도체...",
-      "datetime_raw": "2026.06.30 07:53",
-      "datetime": "2026-06-30T07:53:00+09:00",
-      "dt": "2026-06-30 07:53",
-      "brokers": [
-        "삼성"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 41.7910447761194,
-      "keywords": [
-        "SK"
-      ],
-      "hash": "5038ad4321d8"
-    },
-    {
-      "title": "\"특허 분쟁 사실상 종결\"…시총 10조 증발했던 알테오젠, 반격 나서나",
-      "url": "https://www.hankyung.com/article/202606294515i",
-      "summary": "알테오젠의 발목을 잡던 대형 악재들이 해결되면서 회사는 주가 반등의 기회를 맞고 있다. 코스닥 대장주인 알테오젠의 주가는 올해 들어서만 18.47% 떨어졌다. 글로벌 협력사로부터 수령하는 판매 수수료(로열티) 규모가 시장의 기대치에 크게 미치지 못했기 때문이다...",
-      "datetime_raw": "2026.06.30 07:45",
-      "datetime": "2026-06-30T07:45:00+09:00",
-      "dt": "2026-06-30 07:45",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "특허 분쟁 사실상 종결"
-      ],
-      "hash": "384f896281b9"
-    },
-    {
-      "title": "\"에이피알, 실적·업황 모두 양호…쏠림 완화 시 주가 반등\"-한국",
-      "url": "https://www.hankyung.com/article/2026063053866",
-      "summary": "한국투자증권은 30일 에이피알에 대해 \"실적과 업황 모두 양호하나 수급만 아쉬운 상황\"이라며 목표주가 52만원, 투자의견 '매수'를 유지했다.이 증권사 김명주 연구원은 \"2분기 매출액이 전년 동기 대비 107.4% 증가한 6796억원, 영업이익은 104....",
-      "datetime_raw": "2026.06.30 07:42",
-      "datetime": "2026-06-30T07:42:00+09:00",
-      "dt": "2026-06-30 07:42",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "에이피알"
-      ],
-      "hash": "8a4900035fbd"
-    },
-    {
-      "title": "\"3년 내 피지컬AI 글로벌 1등\"…지금 로봇주 투자 고려한다면",
-      "url": "https://www.hankyung.com/article/202606294395i",
-      "summary": "정부 피지컬 AI 메가프로젝트 개요 및 배경이재명 정부는 지난 29일 청와대 영빈관에서 ‘대한민국 대도약 3대 메가프로젝트 국민보고회’를 주재하며 반도체, 피지컬 AI, AI 데이터센터를 국가 미래 성장의 세 축으로 공식 선언했다.이재용 삼성전자 ...",
-      "datetime_raw": "2026.06.30 07:24",
-      "datetime": "2026-06-30T07:24:00+09:00",
-      "dt": "2026-06-30 07:24",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "3년 내 피지컬AI 글로벌 1등"
-      ],
-      "hash": "242e70e1c504"
     }
   ],
   "consensus_signals": []
