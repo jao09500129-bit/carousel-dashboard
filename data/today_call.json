@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-07-01T13:00:54.022757+09:00",
+  "computed_at": "2026-07-01T15:00:51.918536+09:00",
   "action_headline": "금리 민감 축 가속 + 반도체 신규 진입 검토",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
     "미국 10년 yield +6.0bp — 금리 민감 회전축",
-    "Market Mood 49/100 (FEAR)"
+    "Market Mood 50/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
