@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-01T15:00:51.918536+09:00",
+  "collected_at": "2026-07-01T16:00:47.769653+09:00",
   "date": "2026-07-01",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -57,7 +57,58 @@
   },
   "items": [
     {
-      "title": "삼성·SK 800조 투자에 주가 급등…美 반도체 장비주들 '들썩'",
+      "title": "외국인 국내서 月 2조원 쓴다…백화점 다음 '2차 수혜주'는 여기",
+      "url": "https://www.hankyung.com/article/202607019274i",
+      "summary": "국내를 찾은 외국인 관광객의 지갑이 명품보다 'K뷰티' 분야에서 더 많이 열리고 있다. 증권가에서는 백화점주가 연일 신고가 랠리를 기록하는 가운데, 미용의료주가 '2차 수혜주'가 될 것이라는 예측이 나온다.1일 코스닥시장에서 국내 미용의료기...",
+      "datetime_raw": "2026.07.01 15:49",
+      "datetime": "2026-07-01T15:49:00+09:00",
+      "dt": "2026-07-01 15:49",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "2차 수혜주",
+        "외국인 국내서 月 2조원 쓴다"
+      ],
+      "hash": "e96b58b587c5"
+    },
+    {
+      "title": "코스피, 외국인 '팔자'에 2% 하락…코스닥은 1% 상승",
+      "url": "https://www.hankyung.com/article/2026070197676",
+      "summary": "코스피지수가 외국인 매도세와 국민연금 리밸런싱 경계감에 2% 넘게 하락 마감했다. 반면 코스닥지수는 출범 30주년을 맞아 반도체 장비주와 일부 성장주가 강세를 보이면서 1% 넘게 상승했다.1일 한국거래소에 따르면 코스피지수는 전 거래일보다 173.07포인트(2.04%)...",
+      "datetime_raw": "2026.07.01 15:43",
+      "datetime": "2026-07-01T15:43:00+09:00",
+      "dt": "2026-07-01 15:43",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔자",
+        "코스피"
+      ],
+      "hash": "554d1d1e0dae"
+    },
+    {
+      "title": "올해 최고 청약 경쟁률 '매드업'…상장 첫날 '따블'",
+      "url": "https://www.hankyung.com/article/2026070196905",
+      "summary": "광고 마케터의 업무를 담당하는 인공지능 에이전트 기업 '매드업'이 코스닥에 상장했습니다. 올해 가장 높은 일반 투자자 청약 경쟁률을 기록한데 이어 상장 첫날부터 긍정적인 주가 흐름을 보이고 있습니다.김예린 기자가 정리했습니다.인공지능 기반 디지털 마케팅 기업 '매드업'...",
+      "datetime_raw": "2026.07.01 15:17",
+      "datetime": "2026-07-01T15:17:00+09:00",
+      "dt": "2026-07-01 15:17",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "따블",
+        "매드업"
+      ],
+      "hash": "2d9d6e4578f7"
+    },
+    {
+      "title": "삼성·SK 800조 투자에 '주가 급등'…美 개미들도 '들썩'",
       "url": "https://www.hankyung.com/article/202607019263i",
       "summary": "삼성전자와 SK하이닉스가 800조원을 투자해 광주에 반도체 전공정 공장(팹) 4기를 짓는 내용을 골자로 한 '3대 메가 프로젝트’의 온기가 국내를 넘어 해외 증시까지 퍼져나가고 있다. 국내 반도체 소부장(소재·부품·장비) 주가...",
       "datetime_raw": "2026.07.01 14:41",
@@ -69,7 +120,8 @@
       "target_change_pct": null,
       "keywords": [
         "들썩",
-        "삼성"
+        "삼성",
+        "주가 급등"
       ],
       "hash": "9564a63315c4"
     },
@@ -347,6 +399,91 @@
       "hash": "f3e72d26f7e3"
     },
     {
+      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
+      "url": "https://www.hankyung.com/article/202606307387g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배 타고 온 중국인 1500명 내리더니"
+      ],
+      "hash": "e0bedde8f749"
+    },
+    {
+      "title": "\"160만㎞ 달려도 멀쩡\"…'국민 첫 차', 美서 불티나게 팔린다",
+      "url": "https://www.hankyung.com/article/202606295034g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "국민 첫 차",
+        "160만㎞ 달려도 멀쩡"
+      ],
+      "hash": "2a1bd93a89e9"
+    },
+    {
+      "title": "7% 급등한 삼성전기 팔고…초고수들은 산 '이것'은",
+      "url": "https://www.hankyung.com/article/202606306217i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이것",
+        "7% 급등한 삼성전기 팔고"
+      ],
+      "hash": "a59841ac02a7"
+    },
+    {
+      "title": "'정년 65세' 임피제 도입…'내용'보다 중요한 건 '절차'",
+      "url": "https://www.hankyung.com/article/202606306610i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "내용",
+        "절차",
+        "정년 65세"
+      ],
+      "hash": "8d67010ffa90"
+    },
+    {
+      "title": "국민연금이 수십조 판다?…7월 매도폭탄설 '오해와 진실'",
+      "url": "https://www.hankyung.com/article/202606307081i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "오해와 진실",
+        "국민연금이 수십조 판다?"
+      ],
+      "hash": "af96810586d9"
+    },
+    {
       "title": "\"대한전선, 국내 HVDC 시장 첫 진입…목표가↑\"-KB",
       "url": "https://www.hankyung.com/article/2026070180446",
       "summary": "KB증권은 1일 대한전선에 대해 \"국내 초고압직류송전(HVDC) 시장 진입에 성공했다\"며 목표주가를 기존 3만2000원에서 4만4000원으로 올리고 투자의견 '매수'를 유지했다.김선봉 KB증권 연구원은 \"국내 HVDC 시장 첫 진입에 성공하며 향후 서해안...",
@@ -397,91 +534,6 @@
         "삼성전자"
       ],
       "hash": "e0904d36e768"
-    },
-    {
-      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
-      "url": "https://www.hankyung.com/article/202606307387g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "배 타고 온 중국인 1500명 내리더니"
-      ],
-      "hash": "e0bedde8f749"
-    },
-    {
-      "title": "7% 급등한 삼성전기 팔고…초고수들은 산 '이것'은",
-      "url": "https://www.hankyung.com/article/202606306217i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이것",
-        "7% 급등한 삼성전기 팔고"
-      ],
-      "hash": "a59841ac02a7"
-    },
-    {
-      "title": "\"160만㎞ 달려도 멀쩡\"…'국민 첫 차', 美서 불티나게 팔린다",
-      "url": "https://www.hankyung.com/article/202606295034g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "국민 첫 차",
-        "160만㎞ 달려도 멀쩡"
-      ],
-      "hash": "2a1bd93a89e9"
-    },
-    {
-      "title": "'정년 65세' 임피제 도입…'내용'보다 중요한 건 '절차'",
-      "url": "https://www.hankyung.com/article/202606306610i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "내용",
-        "절차",
-        "정년 65세"
-      ],
-      "hash": "8d67010ffa90"
-    },
-    {
-      "title": "국민연금이 수십조 판다?…7월 매도폭탄설 '오해와 진실'",
-      "url": "https://www.hankyung.com/article/202606307081i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "오해와 진실",
-        "국민연금이 수십조 판다?"
-      ],
-      "hash": "af96810586d9"
     },
     {
       "title": "매일 3만명이 보는 스타 애널 \"1만피는 기본, 하반기엔 ○○주 주목하라\"",
@@ -1093,55 +1145,6 @@
         "3년 내 피지컬AI 글로벌 1등"
       ],
       "hash": "242e70e1c504"
-    },
-    {
-      "title": "'5000억 풀린다' 난리 났다…개미들 갈아탄 '이 주식' 불기둥",
-      "url": "https://www.hankyung.com/article/2026062945026",
-      "summary": "올 들어 부진한 흐름을 보이던 제약·바이오 종목의 주가가 큰 폭으로 뛰며 코스닥지수가 8%대 급등 마감했다. 최근 국민성장펀드의 리가켐바이오 지분투자 결정이 촉매로 작용한 것으로 풀이된다. 증권가에서는 이번 지분투자가 코스닥 제약·바이오 업종의...",
-      "datetime_raw": "2026.06.29 22:00",
-      "datetime": "2026-06-29T22:00:00+09:00",
-      "dt": "2026-06-29 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이 주식",
-        "5000억 풀린다"
-      ],
-      "hash": "b566c8c59cb5"
-    },
-    {
-      "title": "ESS 호조인데 전기차도 회복…2차전지주 드디어 외면 탈출",
-      "url": "https://www.hankyung.com/article/202606294518i",
-      "summary": "미국 전기차 시장의 침체와 함께 3년 가까이 부진해온 국내 배터리주의 주가가 29일 일제히 반등했다. 전기차 시장의 수요 회복과 미국 에너지저장장치(ESS) 시장의 급성장이 국내 배터리 업체들의 턴어라운드(급격한 실적 개선) 기회가 될 것이란 기대 때문이다. 시장 일각...",
-      "datetime_raw": "2026.06.29 17:14",
-      "datetime": "2026-06-29T17:14:00+09:00",
-      "dt": "2026-06-29 17:14",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "ESS 호조인데 전기차도 회복"
-      ],
-      "hash": "c395cecfa23e"
-    },
-    {
-      "title": "7.7조 팔아치운 외국인…환율 또 금융위기 후 최고",
-      "url": "https://www.hankyung.com/article/202606294517Y",
-      "summary": "13.2원 오른 1,545.2원원/달러 환율은 29일 외국인들이 국내 주식을 대거 팔아치우면서 글로벌 금융위기 후 최고 수준인 1,540원대 중반에서 주간 거래를 마쳤다.이날 서울 외환시장에서 미국 달러화 대비 원화 환율은 오후 3시 30분 기준 13.2원 오른 1,5...",
-      "datetime_raw": "2026.06.29 16:24",
-      "datetime": "2026-06-29T16:24:00+09:00",
-      "dt": "2026-06-29 16:24",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "7.7조 팔아치운 외국인"
-      ],
-      "hash": "13d3651422c3"
     }
   ],
   "consensus_signals": []
