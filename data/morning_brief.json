@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-02 10:30 KST",
+  "as_of": "2026-07-02 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -19,20 +19,20 @@
       "url": "https://www.hankyung.com/article/202607020685i"
     },
     {
+      "title": "달러는 코인을 품고 더 강해졌다...신간 <달러, 코인, 전쟁>",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202607019522i"
+    },
+    {
       "title": "\"존스법 돌려놓자\" 美 공화당 압박…트럼프가 머뭇거리는 이유 [이상은의 워싱턴나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202607020735i"
-    },
-    {
-      "title": "금값 계속 하락…미국 금리 인상 우려에 4000달러 붕괴",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202607010491i"
     }
   ],
   "today_kr_focus": [
+    "빗썸, 버그바운티 포상금 최대 2억원으로 확대…프라이버시센터도 개편 (2026-07-02 10:49)",
     "두나무 '업사이드 아카데미', 삼성전자·두나무 등 보안 인재 배출…취업률 63% (2026-07-02 10:06)",
     "\"해외 여행가서 많이 봤어요\"…돈 쓸어담는 K-편의점 '저평가 매력' (2026-07-02 10:00)",
-    "한국콜마 10% 급등…사상 최대 수출에 K뷰티주 '방긋' [종목+] (2026-07-02 09:36)",
     "★ 합의 시그널 — 삼성전기: 2사 동조 (NH, 신한)"
   ],
   "carousel_implications": {
@@ -49,7 +49,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-02T10:30:25.595501+09:00",
+    "collected_at": "2026-07-02T11:01:01.953788+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -119,30 +119,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,554.54",
-            "chg": "1.96",
-            "chg_pct": "+0.13%"
+            "close": "1,554.49",
+            "chg": "1.91",
+            "chg_pct": "+0.12%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,768.75",
-            "chg": "0.37",
-            "chg_pct": "-0.02%"
+            "close": "1,769.65",
+            "chg": "0.53",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "956.35",
-            "chg": "0.47",
-            "chg_pct": "+0.05%"
+            "close": "956.93",
+            "chg": "1.05",
+            "chg_pct": "+0.11%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "228.81",
-            "chg": "0.29",
-            "chg_pct": "+0.13%"
+            "close": "228.91",
+            "chg": "0.39",
+            "chg_pct": "+0.17%"
           }
         ]
       },
