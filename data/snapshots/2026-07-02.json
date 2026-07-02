@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-02T10:30:25.595501+09:00",
+  "collected_at": "2026-07-02T11:01:01.953788+09:00",
   "date": "2026-07-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,13 +9,13 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 17,
+    "with_broker_mention": 16,
     "target_price_up": 7,
     "target_price_down": 2,
     "top_brokers": [
       [
         "KB",
-        4
+        3
       ],
       [
         "신한",
@@ -60,6 +60,22 @@
     ]
   },
   "items": [
+    {
+      "title": "빗썸, 버그바운티 포상금 최대 2억원으로 확대…프라이버시센터도 개편",
+      "url": "https://www.hankyung.com/article/202607021547B",
+      "summary": "빗썸이 보안 취약점을 선제적으로 발굴하기 위한 버그바운티(Bug Bounty) 프로그램의 포상금을 최대 2억원으로 확대하고, 개인정보 보호 활동을 공개하는 프라이버시센터 운영도 강화한다고 2일 밝혔다.버그바운티는 서비스의 보안 취약점을 발견한 화이트해커에게 포상금을 지...",
+      "datetime_raw": "2026.07.02 10:49",
+      "datetime": "2026-07-02T10:49:00+09:00",
+      "dt": "2026-07-02 10:49",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "빗썸"
+      ],
+      "hash": "5e26d3ed469d"
+    },
     {
       "title": "두나무 '업사이드 아카데미', 삼성전자·두나무 등 보안 인재 배출…취업률 63%",
       "url": "https://www.hankyung.com/article/202607021372B",
@@ -382,24 +398,6 @@
       "hash": "5b011da0bbad"
     },
     {
-      "title": "\"SK스퀘어, SK하이닉스 가치 재평가…목표가↑\"-유안타",
-      "url": "https://www.hankyung.com/article/2026070207706",
-      "summary": "유안타증권은 2일 SK스퀘어에 대해 자회사 \"SK하이닉스의 지분가치 상승과 주주환원 강화가 기대된다\"며 목표주가를 기존 84만원에서 210만원으로 조정하고 투자의견은 '매수'를 유지했다.이승웅 유안타증권 연구원은 \"SK하이닉스를 중심으로 이익 증가세가 이...",
-      "datetime_raw": "2026.07.02 07:56",
-      "datetime": "2026-07-02T07:56:00+09:00",
-      "dt": "2026-07-02 07:56",
-      "brokers": [
-        "유안타"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 150.0,
-      "keywords": [
-        "SK스퀘어"
-      ],
-      "hash": "0b95e6819712"
-    },
-    {
       "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
       "url": "https://www.hankyung.com/article/202606307387g",
       "summary": "",
@@ -449,23 +447,6 @@
       "hash": "590947a2603b"
     },
     {
-      "title": "주가 반토막 났는데…'더 사라'는 증권사들",
-      "url": "https://www.hankyung.com/article/202606307801i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "더 사라",
-        "주가 반토막 났는데"
-      ],
-      "hash": "8132a1eebb9e"
-    },
-    {
       "title": "\"아파트 너무 많이 지었다\"…'유령도시' 전락한 中신도시",
       "url": "https://www.hankyung.com/article/202607019211i",
       "summary": "",
@@ -481,6 +462,40 @@
         "아파트 너무 많이 지었다"
       ],
       "hash": "7704be62d370"
+    },
+    {
+      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
+      "url": "https://www.hankyung.com/article/2026070101951",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "자율주행을 무슨 수로 막나"
+      ],
+      "hash": "c32b0a6ecefa"
+    },
+    {
+      "title": "\"SK스퀘어, SK하이닉스 가치 재평가…목표가↑\"-유안타",
+      "url": "https://www.hankyung.com/article/2026070207706",
+      "summary": "유안타증권은 2일 SK스퀘어에 대해 자회사 \"SK하이닉스의 지분가치 상승과 주주환원 강화가 기대된다\"며 목표주가를 기존 84만원에서 210만원으로 조정하고 투자의견은 '매수'를 유지했다.이승웅 유안타증권 연구원은 \"SK하이닉스를 중심으로 이익 증가세가 이...",
+      "datetime_raw": "2026.07.02 07:56",
+      "datetime": "2026-07-02T07:56:00+09:00",
+      "dt": "2026-07-02 07:56",
+      "brokers": [
+        "유안타"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 150.0,
+      "keywords": [
+        "SK스퀘어"
+      ],
+      "hash": "0b95e6819712"
     },
     {
       "title": "파죽지세 한국 수출…수익 극대화할 종목·ETF 투자법은",
@@ -1142,25 +1157,6 @@
         "VIP자산운용 손 들어준 월덱스 주주들"
       ],
       "hash": "5518c02393a9"
-    },
-    {
-      "title": "KB증권, 인도네시아에 '무지개 교실' 완공",
-      "url": "https://www.hankyung.com/article/2026063071686",
-      "summary": "KB증권은 인도네시아 북자카르타 칠린싱 지역에 위치한 살사빌라 알 카우타츠 초등학교에서 시설 개선 및 환경 교육을 지원하는 '해외 무지개교실' 완공식을 개최했다고 30일 밝혔다. 또 현지 저소득층 아동들을 위한 '사랑의 바이올린' 음악 캠프...",
-      "datetime_raw": "2026.06.30 16:17",
-      "datetime": "2026-06-30T16:17:00+09:00",
-      "dt": "2026-06-30 16:17",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "KB증권",
-        "무지개 교실"
-      ],
-      "hash": "310819c99a70"
     }
   ],
   "consensus_signals": [
