@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-02T13:00:57.678759+09:00",
+  "collected_at": "2026-07-02T15:00:55.474326+09:00",
   "date": "2026-07-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -60,6 +60,68 @@
     ]
   },
   "items": [
+    {
+      "title": "성호전자 \"최대주주 차입금 담보 제공 여력 충분…다음주 일부 상환할 것\"",
+      "url": "https://www.hankyung.com/article/2026070220266",
+      "summary": "성호전자는 2일 최대주주인 서룡전자가 담보로 제공한 성호전자 주식의 담보가치 리스크가 생겼다는 우려에 대해 “서룡전자의 주식 담보 대출에 대한 추가 담보 여력이 충분하며, 이날 중 성호전자 지분율 10%에 해당하는 담보가 추가로 제공될 예정”이라고...",
+      "datetime_raw": "2026.07.02 14:16",
+      "datetime": "2026-07-02T14:16:00+09:00",
+      "dt": "2026-07-02 14:16",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "670846644151"
+    },
+    {
+      "title": "숨고르기 돌입한 주식시장…그래도 핵심테마는 바뀌지 않는다",
+      "url": "https://www.hankyung.com/article/202607019768i",
+      "summary": "기술주 조정상반기 한국 증시는 예상외로 100% 상승했고, 50% 이상 오른 대만 증시와 더불어 아시아 증시의 기술 하드웨어 리레이팅을 주도했다. 일본도 기술주 비중이 40%인 닛케이 지수가 40% 상승했다. 반면 역외 중국, 인도, 싱가포르, 인도네시아 등은...",
+      "datetime_raw": "2026.07.02 14:04",
+      "datetime": "2026-07-02T14:04:00+09:00",
+      "dt": "2026-07-02 14:04",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "숨고르기 돌입한 주식시장"
+      ],
+      "hash": "37a38eafe415"
+    },
+    {
+      "title": "외면받던 란제리의 화려한 부활…1년간 주가 330% 급등",
+      "url": "https://www.hankyung.com/article/202607019010i",
+      "summary": "매출 부진과 경영진 논란 등으로 어려움을 겪었던 미국 속옷 브랜드 '빅토리아시크릿'이 반등의 발판을 마련하고 있다. 2024년 힐러리 슈퍼를 새로운 최고경영자(CEO)로 영입한 이후 기업 이미지 쇄신에 성공하면서 수익성이 개선됐다는 평가가 나온다. 월가는...",
+      "datetime_raw": "2026.07.02 14:00",
+      "datetime": "2026-07-02T14:00:00+09:00",
+      "dt": "2026-07-02 14:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "외면받던 란제리의 화려한 부활"
+      ],
+      "hash": "d4c8ec6f5d4b"
+    },
+    {
+      "title": "코스피 이어 코스닥도 매도 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026070219456",
+      "summary": "코스피에 이어 코스닥 시장에도 프로그램매도호가 일시효력정지(사이드카)가 발동됐다.한국거래소에 따르면 2일 오후 12시 47분 15초에 코스닥150선물 및 현물지수의 변동으로 코스닥 시장에서도 매도 사이드카가 발동됐다.발동 시점 당시 코스닥150선물 가격은 전 거래일 대...",
+      "datetime_raw": "2026.07.02 13:56",
+      "datetime": "2026-07-02T13:56:00+09:00",
+      "dt": "2026-07-02 13:56",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피 이어 코스닥도 매도 사이드카 발동"
+      ],
+      "hash": "f2a74cb14d04"
+    },
     {
       "title": "급락장에 코스피 이어 코스닥 매도 사이드카 발동",
       "url": "https://www.hankyung.com/article/2026070218247",
@@ -325,6 +387,87 @@
       "hash": "41cba66b1921"
     },
     {
+      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
+      "url": "https://www.hankyung.com/article/202606307387g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배 타고 온 중국인 1500명 내리더니"
+      ],
+      "hash": "e0bedde8f749"
+    },
+    {
+      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
+      "url": "https://www.hankyung.com/article/2026070101951",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "자율주행을 무슨 수로 막나"
+      ],
+      "hash": "c32b0a6ecefa"
+    },
+    {
+      "title": "\"나이키 말고 이거요\" 2030 콕 찍어 산다…인기 폭발한 러닝화",
+      "url": "https://www.hankyung.com/article/202606307414g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "나이키 말고 이거요"
+      ],
+      "hash": "e321b0edd42a"
+    },
+    {
+      "title": "\"따봤자 100만원짜리 신분증\" 대학생도 외면…눈물의 폐업",
+      "url": "https://www.hankyung.com/article/2026070102631",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "따봤자 100만원짜리 신분증"
+      ],
+      "hash": "0141631242ae"
+    },
+    {
+      "title": "\"아파트 너무 많이 지었다\"…'유령도시' 전락한 中신도시",
+      "url": "https://www.hankyung.com/article/202607019211i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유령도시",
+        "아파트 너무 많이 지었다"
+      ],
+      "hash": "7704be62d370"
+    },
+    {
       "title": "\"삼성전기, 구조적 성장 구간 진입…목표가 300만원으로 상향\"-신한",
       "url": "https://www.hankyung.com/article/2026070209426",
       "summary": "신한투자증권은 2일 삼성전기에 대해 \"주요 제품의 수주가 확대되면서 구조적 성장 구간에 진입한 것으로 확인된다\"며 목표주가를 기존 200만원에서 300만원으로 상향하고 투자의견 '매수'를 유지했다.오강호 신한투자증권 연구원은 \"삼성전기는 지난 5월 1조6...",
@@ -394,88 +537,6 @@
         "하이브"
       ],
       "hash": "5cd3c8dcf92f"
-    },
-    {
-      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
-      "url": "https://www.hankyung.com/article/202606307387g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "배 타고 온 중국인 1500명 내리더니"
-      ],
-      "hash": "e0bedde8f749"
-    },
-    {
-      "title": "\"나이키 말고 이거요\" 2030 콕 찍어 산다…인기 폭발한 러닝화",
-      "url": "https://www.hankyung.com/article/202606307414g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "나이키 말고 이거요"
-      ],
-      "hash": "e321b0edd42a"
-    },
-    {
-      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
-      "url": "https://www.hankyung.com/article/2026070101951",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "자율주행을 무슨 수로 막나"
-      ],
-      "hash": "c32b0a6ecefa"
-    },
-    {
-      "title": "\"아파트 너무 많이 지었다\"…'유령도시' 전락한 中신도시",
-      "url": "https://www.hankyung.com/article/202607019211i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "유령도시",
-        "아파트 너무 많이 지었다"
-      ],
-      "hash": "7704be62d370"
-    },
-    {
-      "title": "주가 반토막 났는데…'더 사라'는 증권사들",
-      "url": "https://www.hankyung.com/article/202606307801i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "더 사라",
-        "주가 반토막 났는데"
-      ],
-      "hash": "8132a1eebb9e"
     },
     {
       "title": "\"AI가 내 주식 살리나\"…'30% 폭등' 불기둥 쏜 이 종목 [종목+]",
@@ -1089,74 +1150,6 @@
         "매일 3만명이 보는 스타 애널 \"1만피는 기본"
       ],
       "hash": "33ecdd3dc3b3"
-    },
-    {
-      "title": "\"국민연금 50조 매도 폭탄 쏟아진다\"…증시 '초긴장' [분석+]",
-      "url": "https://www.hankyung.com/article/2026063076606",
-      "summary": "국민연금이 1일부터 국내 주식 비중 조정(리밸런싱)에 들어간다. 국내 증시 급등으로 국민연금이 팔아야 할 국내 주식 규모가 수십조원에 달하는 것으로 추정돼 시장이 바짝 긴장하고 있다. 다만 국민연금이 속도와 기간을 조절하겠다고 밝힌 만큼 '매도 폭탄'으로...",
-      "datetime_raw": "2026.07.01 06:30",
-      "datetime": "2026-07-01T06:30:00+09:00",
-      "dt": "2026-07-01 06:30",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "초긴장",
-        "국민연금 50조 매도 폭탄 쏟아진다"
-      ],
-      "hash": "78c157cb1c63"
-    },
-    {
-      "title": "반년간 50조 쏟아부어도 '역부족'…환율 '1600원' 전망까지 [분석+]",
-      "url": "https://www.hankyung.com/article/2026063075936",
-      "summary": "원·달러 환율이 장중 1550원 선을 넘어서며 글로벌 금융위기 이후 최고 수준까지 치솟았다. 외환당국이 반년간 50조원을 시장에 공급했지만 강달러와 원화 약세 압력을 막기엔 역부족인 모습이다. 시장에서는 구조적인 고환율 국면에 진입했다는 분석이 나...",
-      "datetime_raw": "2026.06.30 22:00",
-      "datetime": "2026-06-30T22:00:00+09:00",
-      "dt": "2026-06-30 22:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "역부족",
-        "1600원"
-      ],
-      "hash": "b8e352f5c938"
-    },
-    {
-      "title": "에코프로비엠, 1조2000억 규모 유상증자 결정…\"인니 투자\"",
-      "url": "https://www.hankyung.com/article/2026063076256",
-      "summary": "에코프로그룹은 인도네시아 니켈 제련소 2단계 투자인 인터내셔널 그린 산업단지(IGIP) 내 'BNSI 제련소' 건설 프로젝트에 대주주로 참여한다고 30일 밝혔다. 자금 조달을 위해 에코프로비엠은 1조2000억원 규모의 유상증자를...",
-      "datetime_raw": "2026.06.30 18:33",
-      "datetime": "2026-06-30T18:33:00+09:00",
-      "dt": "2026-06-30 18:33",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "인니 투자",
-        "에코프로비엠"
-      ],
-      "hash": "52ab1cc58352"
-    },
-    {
-      "title": "'어어' 하다 1,600원 갈 수도…역대급 환율에 'SK하닉 소방수론' 통할까",
-      "url": "https://www.hankyung.com/article/2026063075535",
-      "summary": "오늘 원·달러 환율이 장중 1,550원을 돌파했습니다. 주간 거래 마감가도 1,549.4원으로, 글로벌 금융위기 이후 17년 만에 최고 수준을 기록했는데요.오늘 1,543원대 하락 출발했던 환율은 개장 직후 상승 반전해 1,550원을 터치했습니다. 지난 8일 장중 1,...",
-      "datetime_raw": "2026.06.30 17:43",
-      "datetime": "2026-06-30T17:43:00+09:00",
-      "dt": "2026-06-30 17:43",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "어어",
-        "SK하닉 소방수론"
-      ],
-      "hash": "4cc535a7f3ad"
     }
   ],
   "consensus_signals": [

@@ -198,26 +198,26 @@ googletag.cmd.push(function() {
 					</div>
 					<div class="search__auto__wrap">
 						<ul class="autocomplete-result"></ul>
-					</div> 
+					</div>
 					<button type="button" class="btn-close">
 						<span class="blind">검색창 닫기</span>
 					</button>
 				</div>
-			</fieldset> 
+			</fieldset>
 		</form>
 	</div>
-</div>  
+</div>
 
 <script>
 $(document).ready(function(){
 	// 검색 레이어 열고/닫기
-	$('.hk-top__search .btn-total-search').click(function() {
+	$('.hk-top__search .btn-total-search').on("click", function() {
 		$('.hk-top__search .btn-inp-reset').trigger('click');
 		$('.hk-top__search').toggleClass('active');
 		$('.hk-top__search__layer input[type=search]').focus();
 	});
 
-	$('.hk-top__search .btn-close').click(function() {
+	$('.hk-top__search .btn-close').on("click", function() {
 		$('.hk-top__search').removeClass('active');
 	});
 
@@ -244,9 +244,9 @@ $(document).ready(function(){
 				$('.hk-top__search .hk-top__search__layer').removeClass('auto');
 				return;
 			}
-			
+
 			$(".hk-top__search .autocomplete-result").html('');
-			
+
 			$.each(data, function(idx, val){
 				$(".hk-top__search .autocomplete-result").append(`
 					<li class="type-stock">
@@ -258,7 +258,7 @@ $(document).ready(function(){
 					</li>
 				`);
 			});
-			
+
 			$('.hk-top__search .hk-top__search__layer').addClass('auto');
 		});
 	});
@@ -634,7 +634,7 @@ $(function () {
     });
 
     // 2025.01.16 gnb hover시 다른 메뉴 blur
-    $('.main__gnb > li').hover(function() {
+    $('.main__gnb > li').on("hover", function() {
         $(this).siblings().find('*').blur();
     });
 
@@ -1245,22 +1245,27 @@ $(function () {
                                         </div>
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202607021515i" data-pm="P9F">구겐하임, 소프트웨어 종목 세일즈포스·서비스나우 ‘매수’</a>
+                                                <a href="https://www.hankyung.com/article/202607021802i" data-pm="P9F">관세 환급에 '깜짝 실적' 착시…나이키, 그래도 4% 상승</a>
                                             </h2>
-                                            <p class="txt-date">2026.07.02 11:22</p>
+                                            <p class="txt-date">2026.07.02 13:18</p>
                                         </div>
                                         <div class="thumb">
-                                            <a href="https://www.hankyung.com/article/202607021515i">
-                                                <img src="https://img.hankyung.com/photo/202607/01.44883036.3.jpg" alt="구겐하임, 소프트웨어 종목 세일즈포스·서비스나우 ‘매수’">
+                                            <a href="https://www.hankyung.com/article/202607021802i">
+                                                <img src="https://img.hankyung.com/photo/202607/01.44884387.3.jpg" alt="관세 환급에 '깜짝 실적' 착시…나이키, 그래도 4% 상승">
                                             </a>
                                         </div>
                                     </article>
                                     <article class="news-item type-ellip">
+                                        <div class="news-item__meta">
+                                            <a href="/premium9/0101003" class="news-item__series">
+                                                <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">글로벌 시장 브리핑
+                                            </a>
+                                        </div>
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202607021497i" data-pm="N">설치비 350만원인데 '품절 대란'…유럽 폭염에 중국 '잭팟'</a>
+                                                <a href="https://www.hankyung.com/article/202607010375i" data-pm="P9P">구리 가격 급등의 역설…돈 버는 건 광산, 제련소는 적자 경쟁</a>
                                             </h2>
-                                            <p class="txt-date">2026.07.02 10:48</p>
+                                            <p class="txt-date">2026.07.02 13:00</p>
                                         </div>
                                     </article>
                                     <article class="news-item type-ellip">
@@ -1271,22 +1276,17 @@ $(function () {
                                         </div>
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202607019405i" data-pm="P9F">번스타인, 샌디스크 목표주가 1700→3000달러로 높여</a>
+                                                <a href="https://www.hankyung.com/article/202607021515i" data-pm="P9F">구겐하임, 소프트웨어 종목 세일즈포스·서비스나우 ‘매수’</a>
                                             </h2>
-                                            <p class="txt-date">2026.07.01 15:00</p>
+                                            <p class="txt-date">2026.07.02 11:22</p>
                                         </div>
                                     </article>
                                     <article class="news-item type-ellip">
-                                        <div class="news-item__meta">
-                                            <a href="/premium9/0101004" class="news-item__series">
-                                                <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">특파원 리포트
-                                            </a>
-                                        </div>
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202605308172i" data-pm="P9P">부동산 개발서 임대 운영으로…中 지방 국유기업의 변신</a>
+                                                <a href="https://www.hankyung.com/article/202607021497i" data-pm="N">설치비 350만원인데 '품절 대란'…유럽 폭염에 중국 '잭팟'</a>
                                             </h2>
-                                            <p class="txt-date">2026.07.01 13:00</p>
+                                            <p class="txt-date">2026.07.02 10:48</p>
                                         </div>
                                     </article>
                                 </div>
@@ -1324,7 +1324,7 @@ $(function () {
                                     <article class="news-item type-ellip">
                                         <div class="txt-cont">
                                             <h2 class="news-tit">
-                                                <a href="https://www.hankyung.com/article/202607021038i" data-pm="N">"80만원으로 시작해 月 1000만원 번다"…2030 창업 열풍</a>
+                                                <a href="https://www.hankyung.com/article/202607021038i" data-pm="N">배달 기사 그만두고 여자친구와 창업…"月 2500만원 번다"</a>
                                             </h2>
                                             <p class="txt-date">2026.07.02 09:09</p>
                                         </div>
@@ -1368,6 +1368,24 @@ $(function () {
                         <div class="news-item-group grid-column-2">
                             <article class="news-item type-headline">
                                 <div class="news-item__meta">
+                                    <a href="/premium9/0103001" class="news-item__series">
+                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">핫픽! 미국주식
+                                    </a>
+                                </div>
+                                <div class="txt-cont">
+                                    <h2 class="news-tit">
+                                        <a href="https://www.hankyung.com/article/202607019010i" data-pm="P9P">외면받던 란제리의 화려한 부활…1년간 주가 330% 급등</a>
+                                    </h2>
+                                    <p class="txt-date">2026.07.02 14:00</p>
+                                </div>
+                                <div class="thumb">
+                                    <a href="https://www.hankyung.com/article/202607019010i">
+                                        <img src="https://img.hankyung.com/photo/202607/01.44871787.3.jpg" alt="외면받던 란제리의 화려한 부활…1년간 주가 330% 급등">
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="news-item type-headline">
+                                <div class="news-item__meta">
                                     <a href="/premium9/0101003" class="news-item__series">
                                         <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">글로벌 시장 브리핑
                                     </a>
@@ -1384,7 +1402,7 @@ $(function () {
                                     </a>
                                 </div>
                             </article>
-                            <article class="news-item type-headline">
+                            <article class="news-item type-ellip">
                                 <div class="news-item__meta">
                                     <a href="/premium9/0101003" class="news-item__series">
                                         <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">글로벌 시장 브리핑
@@ -1395,11 +1413,6 @@ $(function () {
                                         <a href="https://www.hankyung.com/article/202607020916i" data-pm="P9P">JP모건, 안보산업에 100억달러 직접 투자</a>
                                     </h2>
                                     <p class="txt-date">2026.07.02 08:40</p>
-                                </div>
-                                <div class="thumb">
-                                    <a href="https://www.hankyung.com/article/202607020916i">
-                                        <img src="https://img.hankyung.com/photo/202607/01.44880228.3.jpg" alt="JP모건, 안보산업에 100억달러 직접 투자">
-                                    </a>
                                 </div>
                             </article>
                             <article class="news-item type-ellip">
@@ -1434,19 +1447,6 @@ $(function () {
                                         <a href="https://www.hankyung.com/article/2026070179926" data-pm="N">기술주가 이끈 상반기 마감…다우·S&P500·나스닥 상승</a>
                                     </h2>
                                     <p class="txt-date">2026.07.01 07:30</p>
-                                </div>
-                            </article>
-                            <article class="news-item type-ellip">
-                                <div class="news-item__meta">
-                                    <a href="/premium9/0101003" class="news-item__series">
-                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">글로벌 시장 브리핑
-                                    </a>
-                                </div>
-                                <div class="txt-cont">
-                                    <h2 class="news-tit">
-                                        <a href="https://www.hankyung.com/article/202606305639i" data-pm="P9P">AI 돈잔치의 진짜 승자…메모리 반도체 3사가 웃는다</a>
-                                    </h2>
-                                    <p class="txt-date">2026.06.30 09:00</p>
                                 </div>
                             </article>
                         </div>
