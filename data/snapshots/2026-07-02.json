@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-02T09:30:55.322399+09:00",
+  "collected_at": "2026-07-02T10:30:25.595501+09:00",
   "date": "2026-07-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -60,6 +60,89 @@
     ]
   },
   "items": [
+    {
+      "title": "두나무 '업사이드 아카데미', 삼성전자·두나무 등 보안 인재 배출…취업률 63%",
+      "url": "https://www.hankyung.com/article/202607021372B",
+      "summary": "업비트 운영사 두나무의 웹3(Web3)·사이버보안 인재 양성 프로그램 '업사이드 아카데미(Upside Academy)'가 삼성전자와 두나무 등 주요 IT 기업에 보안 인재를 잇달아 배출하며 실전형 교육 프로그램으로 성과를 내고 있다고 2일 밝혔다.지난해 7월 출범한 업...",
+      "datetime_raw": "2026.07.02 10:06",
+      "datetime": "2026-07-02T10:06:00+09:00",
+      "dt": "2026-07-02 10:06",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "업사이드 아카데미"
+      ],
+      "hash": "7d530e2f9a7d"
+    },
+    {
+      "title": "\"해외 여행가서 많이 봤어요\"…돈 쓸어담는 K-편의점 '저평가 매력'",
+      "url": "https://www.hankyung.com/article/202607010297i",
+      "summary": "유통업계에서도 편의점은 내수 의존도가 높은 대표적인 업종으로 꼽혀왔다. 편의점주(株)에 낮은 밸류에이션이 매겨진 건 내수에 갇힌 성장성의 한계를 반영한 것이었다. 점포 수 기준 편의점 1위인 BGF리테일도 마찬가지였다.최근엔 시각이 달라졌다. 해외에 CU 간판을 단 점...",
+      "datetime_raw": "2026.07.02 10:00",
+      "datetime": "2026-07-02T10:00:00+09:00",
+      "dt": "2026-07-02 10:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "저평가 매력",
+        "해외 여행가서 많이 봤어요"
+      ],
+      "hash": "071ed29c24ff"
+    },
+    {
+      "title": "한국콜마 10% 급등…사상 최대 수출에 K뷰티주 '방긋' [종목+]",
+      "url": "https://www.hankyung.com/article/2026070211866",
+      "summary": "화장품주가 2일 장 초반 일제히 강세를 보이고 있다. 역대 최대 화장품 수출 실적을 바탕으로 실적 기대가 커진 데다 인공지능(AI) 대형주에 쏠렸던 투자심리가 일부 완화된 영향으로 분석된다. 증권가는 K뷰티의 글로벌 성장세가 이어질 것으로 내다봤다.이날 오전 9시15분...",
+      "datetime_raw": "2026.07.02 09:36",
+      "datetime": "2026-07-02T09:36:00+09:00",
+      "dt": "2026-07-02 09:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "방긋",
+        "한국콜마 10% 급등"
+      ],
+      "hash": "2cc6dfc15d7f"
+    },
+    {
+      "title": "\"유휴 컴퓨팅 팔겠다\" 메타 선언에…삼전·닉스 '된서리'",
+      "url": "https://www.hankyung.com/article/2026070212206",
+      "summary": "삼성전자와 SK하이닉스가 급락하고 있다. 인공지능(AI) 인프라 투자에 적극적으로 나서던 메타플랫폼스가 ‘잉여 컴퓨팅 자원’을 외부에 판매하는 클라우드 사업 진출을 준비 중이라는 소식 때문이다. AI 인프라 투자 ‘치킨게임’의...",
+      "datetime_raw": "2026.07.02 09:34",
+      "datetime": "2026-07-02T09:34:00+09:00",
+      "dt": "2026-07-02 09:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "된서리",
+        "유휴 컴퓨팅 팔겠다"
+      ],
+      "hash": "dba98b44041e"
+    },
+    {
+      "title": "메가 프로젝트 가동…지역 백화점株 동반 강세",
+      "url": "https://www.hankyung.com/article/2026070211996",
+      "summary": "광주신세계와 대구백화점 주가가 2일 장 초반 동반 강세다.이날 오전 9시18분 현재 광주신세계는 전 거래일보다 2800원(6.44%) 오른 4만6300원을 기록하고 있다. 같은 시각 대구백화점도 225원(5.87%) 상승한 4055원에 거래되고 있다.정부가 호남&mid...",
+      "datetime_raw": "2026.07.02 09:30",
+      "datetime": "2026-07-02T09:30:00+09:00",
+      "dt": "2026-07-02 09:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "메가 프로젝트 가동"
+      ],
+      "hash": "b947e600b3f9"
+    },
     {
       "title": "코스피, 美 반도체 한파에 장 초반 매도 사이드카 [종합]",
       "url": "https://www.hankyung.com/article/2026070211126",
@@ -317,88 +400,6 @@
       "hash": "0b95e6819712"
     },
     {
-      "title": "파죽지세 한국 수출…수익 극대화할 종목·ETF 투자법은",
-      "url": "https://www.hankyung.com/article/202607019362i",
-      "summary": "2026년 상반기 한국 수출 현황 및 구조적 특징6월 및 상반기 수출 실적 개요6월 한국의 월간 수출액은 1,022억 5,000만 달러로 집계돼, 사상 최초로 월간 수출 1,000억 달러를 돌파하는 역사적 이정표를 세웠다. 이는 전년 동월 대비 7...",
-      "datetime_raw": "2026.07.02 07:37",
-      "datetime": "2026-07-02T07:37:00+09:00",
-      "dt": "2026-07-02 07:37",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "파죽지세 한국 수출"
-      ],
-      "hash": "b5ed75566143"
-    },
-    {
-      "title": "1인치, 로빈후드 체인 통합…토큰화 실물자산 거래 지원 확대",
-      "url": "https://www.hankyung.com/article/202607020734B",
-      "summary": "탈중앙화금융(DeFi) 플랫폼 1인치(1inch)가 로빈후드(Robinhood)의 토큰화 실물자산(RWA) 블록체인 '로빈후드 체인(Robinhood Chain)'을 통합했다고 2일 밝혔다.1인치는 로빈후드 체인의 공식 출시 파트너로 참여해 토큰화 주식과 상장지수상품(...",
-      "datetime_raw": "2026.07.02 07:10",
-      "datetime": "2026-07-02T07:10:00+09:00",
-      "dt": "2026-07-02 07:10",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "1인치"
-      ],
-      "hash": "d95e55c51361"
-    },
-    {
-      "title": "\"개미는 샀는데…\" 외국인들 148조 '폭풍 매도' 나선 이유 [분석+]",
-      "url": "https://www.hankyung.com/article/2026070100806",
-      "summary": "외국인 투자자가 올 상반기 코스피에서 148조원 넘게 순매도하며 사상 최대 규모의 '셀 코리아'를 기록했다. 삼성전자와 SK하이닉스의 외국인 보유율은 글로벌 금융위기 때보다 낮은 수준으로 떨어졌다. 증권가는 차익 실현과 원·달러 환율 상승이 ...",
-      "datetime_raw": "2026.07.02 06:30",
-      "datetime": "2026-07-02T06:30:00+09:00",
-      "dt": "2026-07-02 06:30",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "폭풍 매도",
-        "개미는 샀는데"
-      ],
-      "hash": "264a882c912e"
-    },
-    {
-      "title": "씨티, 비트코인 전망치 대폭 낮춰…\"ETF 자금 흐름 악화\"",
-      "url": "https://www.hankyung.com/article/202607010423B",
-      "summary": "글로벌 투자은행(IB) 씨티그룹이 비트코인(BTC)과 이더리움(ETF) 가격 전망치를 대폭 하향 조정했다.30일(현지시간) 로이터통신에 따르면 씨티는 이날 보고서를 통해 비트코인 12개월 목표가를 기존 11만2000달러에서 8만2000달러로 낮춰잡았다. 이더리움 12개...",
-      "datetime_raw": "2026.07.01 18:47",
-      "datetime": "2026-07-01T18:47:00+09:00",
-      "dt": "2026-07-01 18:47",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "씨티",
-        "ETF 자금 흐름 악화"
-      ],
-      "hash": "9648faebc4a0"
-    },
-    {
-      "title": "'30살' 코스닥, 봄날은 언제 오나 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026070102591",
-      "summary": "'30살' 코스닥, 봄날은 언제 오나이번달로 코스닥시장이 개설된 지 30년이 됐다. 그동안 여러 혁신 기업을 키우는 젖줄 역할을 했지만 오랫동안 신뢰를 얻지 못해 정체된 것도 사실이다. 정부가 새롭게 내놓은 정책들은 코스닥시장을 바꿀 수 있을까...",
-      "datetime_raw": "2026.07.01 18:03",
-      "datetime": "2026-07-01T18:03:00+09:00",
-      "dt": "2026-07-01 18:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "30살"
-      ],
-      "hash": "4ca9e269b5c7"
-    },
-    {
       "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
       "url": "https://www.hankyung.com/article/202606307387g",
       "summary": "",
@@ -482,21 +483,86 @@
       "hash": "7704be62d370"
     },
     {
-      "title": "경영권 프리미엄 매각에…위메이드 '상한가'",
-      "url": "https://www.hankyung.com/article/2026070102061",
-      "summary": "위메이드 창업자인 박관호 이사회 의장이 보유 지분 전량을 중국계 투자 플랫폼 네오펄스에 매각한다고 발표한 뒤 이 회사 주가가 1일 상한가로 마감했다. 시장이 창업주 경영권 매각보다 기업가치 재평가 가능성에 주목한 것으로 분석된다.이날 위메이드는 5770원(29.85%)...",
-      "datetime_raw": "2026.07.01 17:32",
-      "datetime": "2026-07-01T17:32:00+09:00",
-      "dt": "2026-07-01 17:32",
+      "title": "파죽지세 한국 수출…수익 극대화할 종목·ETF 투자법은",
+      "url": "https://www.hankyung.com/article/202607019362i",
+      "summary": "2026년 상반기 한국 수출 현황 및 구조적 특징6월 및 상반기 수출 실적 개요6월 한국의 월간 수출액은 1,022억 5,000만 달러로 집계돼, 사상 최초로 월간 수출 1,000억 달러를 돌파하는 역사적 이정표를 세웠다. 이는 전년 동월 대비 7...",
+      "datetime_raw": "2026.07.02 07:37",
+      "datetime": "2026-07-02T07:37:00+09:00",
+      "dt": "2026-07-02 07:37",
       "brokers": [],
-      "opinion": "보유",
+      "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "상한가",
-        "경영권 프리미엄 매각에"
+        "파죽지세 한국 수출"
       ],
-      "hash": "d1326523347f"
+      "hash": "b5ed75566143"
+    },
+    {
+      "title": "1인치, 로빈후드 체인 통합…토큰화 실물자산 거래 지원 확대",
+      "url": "https://www.hankyung.com/article/202607020734B",
+      "summary": "탈중앙화금융(DeFi) 플랫폼 1인치(1inch)가 로빈후드(Robinhood)의 토큰화 실물자산(RWA) 블록체인 '로빈후드 체인(Robinhood Chain)'을 통합했다고 2일 밝혔다.1인치는 로빈후드 체인의 공식 출시 파트너로 참여해 토큰화 주식과 상장지수상품(...",
+      "datetime_raw": "2026.07.02 07:10",
+      "datetime": "2026-07-02T07:10:00+09:00",
+      "dt": "2026-07-02 07:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1인치"
+      ],
+      "hash": "d95e55c51361"
+    },
+    {
+      "title": "\"개미는 샀는데…\" 외국인들 148조 '폭풍 매도' 나선 이유 [분석+]",
+      "url": "https://www.hankyung.com/article/2026070100806",
+      "summary": "외국인 투자자가 올 상반기 코스피에서 148조원 넘게 순매도하며 사상 최대 규모의 '셀 코리아'를 기록했다. 삼성전자와 SK하이닉스의 외국인 보유율은 글로벌 금융위기 때보다 낮은 수준으로 떨어졌다. 증권가는 차익 실현과 원·달러 환율 상승이 ...",
+      "datetime_raw": "2026.07.02 06:30",
+      "datetime": "2026-07-02T06:30:00+09:00",
+      "dt": "2026-07-02 06:30",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "폭풍 매도",
+        "개미는 샀는데"
+      ],
+      "hash": "264a882c912e"
+    },
+    {
+      "title": "씨티, 비트코인 전망치 대폭 낮춰…\"ETF 자금 흐름 악화\"",
+      "url": "https://www.hankyung.com/article/202607010423B",
+      "summary": "글로벌 투자은행(IB) 씨티그룹이 비트코인(BTC)과 이더리움(ETF) 가격 전망치를 대폭 하향 조정했다.30일(현지시간) 로이터통신에 따르면 씨티는 이날 보고서를 통해 비트코인 12개월 목표가를 기존 11만2000달러에서 8만2000달러로 낮춰잡았다. 이더리움 12개...",
+      "datetime_raw": "2026.07.01 18:47",
+      "datetime": "2026-07-01T18:47:00+09:00",
+      "dt": "2026-07-01 18:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "씨티",
+        "ETF 자금 흐름 악화"
+      ],
+      "hash": "9648faebc4a0"
+    },
+    {
+      "title": "'30살' 코스닥, 봄날은 언제 오나 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026070102591",
+      "summary": "'30살' 코스닥, 봄날은 언제 오나이번달로 코스닥시장이 개설된 지 30년이 됐다. 그동안 여러 혁신 기업을 키우는 젖줄 역할을 했지만 오랫동안 신뢰를 얻지 못해 정체된 것도 사실이다. 정부가 새롭게 내놓은 정책들은 코스닥시장을 바꿀 수 있을까...",
+      "datetime_raw": "2026.07.01 18:03",
+      "datetime": "2026-07-01T18:03:00+09:00",
+      "dt": "2026-07-01 18:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "30살"
+      ],
+      "hash": "4ca9e269b5c7"
     },
     {
       "title": "30살 생일에도 900선 갇힌 코스닥…시총 6조원 퇴출 위기",
@@ -1095,74 +1161,6 @@
         "무지개 교실"
       ],
       "hash": "310819c99a70"
-    },
-    {
-      "title": "하이퍼리퀴드 국내 차단되나…금융위 용역보고서 \"디파이 '접속 제한' 검토해야\"",
-      "url": "https://www.hankyung.com/article/202606307139B",
-      "summary": "탈중앙화금융(DeFi·디파이)을 사실상 '미인가 사업자'로 봐야 한다는 금융당국의 연구용역 결과가 나왔다. 정부가 디파이 서비스에 대한 접속 제한 조치 등을 단행할 수 있다는 관측이 나온다.30일 관계 부처에 따르면 한국금융연구원(KIF)은 올 상반기 이같은 내용이 담...",
-      "datetime_raw": "2026.06.30 16:11",
-      "datetime": "2026-06-30T16:11:00+09:00",
-      "dt": "2026-06-30 16:11",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "디파이",
-        "검토해야",
-        "하이퍼리퀴드 국내 차단되나"
-      ],
-      "hash": "526e6501e8b3"
-    },
-    {
-      "title": "삼성전자·전기의 힘…코스피, 외인 '팔자'에도 0.97% 상승",
-      "url": "https://www.hankyung.com/article/2026063070016",
-      "summary": "코스피지수가 올해 상반기 마지막 거래일인 30일 반도체주 반등에 힘입어 상승 마감했다. 장중 8600선 돌파를 시도했지만 장 후반 기관 매수 강도가 약해지고 외국인이 4조원 가까이 물량을 팔아치우면서 상승폭은 줄었다.이날 코스피는 전 거래일보다 0.97% 오른 8476...",
-      "datetime_raw": "2026.06.30 16:10",
-      "datetime": "2026-06-30T16:10:00+09:00",
-      "dt": "2026-06-30 16:10",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "팔자",
-        "삼성전자"
-      ],
-      "hash": "d4420e83e134"
-    },
-    {
-      "title": "\"스탯·블루밍비트, 기관용 AI 인텔리전스 '블루밍비트 알파' 공개\"",
-      "url": "https://www.hankyung.com/article/2026063068146",
-      "summary": "한경미디어그룹의 디지털자산 계열사 블루밍비트는 블록체인 기반 데이터 분석 기업 스탯이 이 회사와 공동 개발 중인 기관투자자용 인공지능(AI) 인텔리전스 플랫폼 '블루밍비트 알파'를 공개했다고 30일 보도했다.스탯은 이날 X(옛 트위터) 계정을 통해 \u0003...",
-      "datetime_raw": "2026.06.30 14:47",
-      "datetime": "2026-06-30T14:47:00+09:00",
-      "dt": "2026-06-30 14:47",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "공개",
-        "스탯"
-      ],
-      "hash": "5a08add8d67c"
-    },
-    {
-      "title": "수익률 너무 좋아 상폐…액티브 ETF 상관계수 규제 또 논란 [돈앤톡]",
-      "url": "https://www.hankyung.com/article/2026063064286",
-      "summary": "액티브 상장지수펀드(ETF)에 적용되는 상관계수 규제가 또 도마 위에 올랐다. 최근 비교지수(벤치마크) 대비 초과 수익을 낸 액티브 ETF 4종의 상관계수가 기준에 미달하면서 상장 폐지가 확정됐기 때문이다. 업계에서는 이전부터 제기된 규제의 불합리성이 현실화했다는 지적...",
-      "datetime_raw": "2026.06.30 14:11",
-      "datetime": "2026-06-30T14:11:00+09:00",
-      "dt": "2026-06-30 14:11",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "수익률 너무 좋아 상폐"
-      ],
-      "hash": "85541c4f401f"
     }
   ],
   "consensus_signals": [
