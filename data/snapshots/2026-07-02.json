@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-02T15:00:55.474326+09:00",
+  "collected_at": "2026-07-02T16:00:48.663542+09:00",
   "date": "2026-07-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -9,9 +9,9 @@
   ],
   "total_items": 65,
   "stats": {
-    "with_broker_mention": 16,
-    "target_price_up": 7,
-    "target_price_down": 2,
+    "with_broker_mention": 14,
+    "target_price_up": 6,
+    "target_price_down": 1,
     "top_brokers": [
       [
         "KB",
@@ -23,11 +23,7 @@
       ],
       [
         "신한",
-        2
-      ],
-      [
-        "키움",
-        2
+        1
       ],
       [
         "교보",
@@ -50,6 +46,10 @@
         1
       ],
       [
+        "키움",
+        1
+      ],
+      [
         "NH",
         1
       ],
@@ -60,6 +60,54 @@
     ]
   },
   "items": [
+    {
+      "title": "넥스트레이드, 올해 ETF 도입 시 프리마켓 우선 제외 검토",
+      "url": "https://www.hankyung.com/article/2026070218946",
+      "summary": "대체거래소 넥스트레이드가 연내 상장지수펀드(ETF) 거래를 추진하면서 프리마켓을 제외하고 정규장과 애프터마켓에서만 우선 도입하는 방안을 검토 중인 것으로 2일 확인됐다. 업계에서는 이에 대해 프리마켓 개설 시점을 내년으로 미룬 한국거래소와 보조를 맞추기 위한 성격으로 ...",
+      "datetime_raw": "2026.07.02 15:54",
+      "datetime": "2026-07-02T15:54:00+09:00",
+      "dt": "2026-07-02 15:54",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "넥스트레이드"
+      ],
+      "hash": "503135373332"
+    },
+    {
+      "title": "삼성전자, 9% 급락 마감…SK하이닉스는 14.5% 폭락",
+      "url": "https://www.hankyung.com/article/2026070223437",
+      "summary": "박수림 한경닷컴 기자 paksr365@hankyung.com",
+      "datetime_raw": "2026.07.02 15:40",
+      "datetime": "2026-07-02T15:40:00+09:00",
+      "dt": "2026-07-02 15:40",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자"
+      ],
+      "hash": "fb9b50f1b418"
+    },
+    {
+      "title": "코스피, 美 반도체 과잉투자 우려에 7.9% 급락 마감",
+      "url": "https://www.hankyung.com/article/2026070222986",
+      "summary": "코스피지수가 미국발(發) 반도체 과잉투자 우려에 7% 넘게 급락 마감했다.2일 코스피지수는 전일 대비 655.32포인트(7.89%) 내린 7648.09에 거래를 마감했다. 코스피지수가 종가 기준 8000선 밑으로 내려온 건 지난달 11일 이후 처음이다.코스닥지수도 급락...",
+      "datetime_raw": "2026.07.02 15:35",
+      "datetime": "2026-07-02T15:35:00+09:00",
+      "dt": "2026-07-02 15:35",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "c9270e3aba50"
+    },
     {
       "title": "성호전자 \"최대주주 차입금 담보 제공 여력 충분…다음주 일부 상환할 것\"",
       "url": "https://www.hankyung.com/article/2026070220266",
@@ -337,6 +385,87 @@
       "hash": "b9bdda817972"
     },
     {
+      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
+      "url": "https://www.hankyung.com/article/202606307387g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배 타고 온 중국인 1500명 내리더니"
+      ],
+      "hash": "e0bedde8f749"
+    },
+    {
+      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
+      "url": "https://www.hankyung.com/article/2026070101951",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "자율주행을 무슨 수로 막나"
+      ],
+      "hash": "c32b0a6ecefa"
+    },
+    {
+      "title": "\"따봤자 100만원짜리 신분증\" 대학생도 외면…눈물의 폐업",
+      "url": "https://www.hankyung.com/article/2026070102631",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "따봤자 100만원짜리 신분증"
+      ],
+      "hash": "0141631242ae"
+    },
+    {
+      "title": "\"아파트 너무 많이 지었다\"…'유령도시' 전락한 中신도시",
+      "url": "https://www.hankyung.com/article/202607019211i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유령도시",
+        "아파트 너무 많이 지었다"
+      ],
+      "hash": "7704be62d370"
+    },
+    {
+      "title": "\"나이키 말고 이거요\" 2030 콕 찍어 산다…인기 폭발한 러닝화",
+      "url": "https://www.hankyung.com/article/202606307414g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "나이키 말고 이거요"
+      ],
+      "hash": "e321b0edd42a"
+    },
+    {
       "title": "코스피, 美 반도체 투매에 5% 급락 출발…8000선 깨졌다",
       "url": "https://www.hankyung.com/article/2026070210426",
       "summary": "코스피지수가 미국발(發) 반도체 투매에 2일 장 초반 급락하고 있다.이날 오전 9시1분 현재 코스피지수는 전일 대비 5.02% 내린 7886.87을 기록 중이다. 지수는 이날 4.46% 급락 출발했다. 코스피지수가 8000선 밑으로 내려간 건 지난달 11일 이후 처음이...",
@@ -385,87 +514,6 @@
         "삼성바이오로직스"
       ],
       "hash": "41cba66b1921"
-    },
-    {
-      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
-      "url": "https://www.hankyung.com/article/202606307387g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "배 타고 온 중국인 1500명 내리더니"
-      ],
-      "hash": "e0bedde8f749"
-    },
-    {
-      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
-      "url": "https://www.hankyung.com/article/2026070101951",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "자율주행을 무슨 수로 막나"
-      ],
-      "hash": "c32b0a6ecefa"
-    },
-    {
-      "title": "\"나이키 말고 이거요\" 2030 콕 찍어 산다…인기 폭발한 러닝화",
-      "url": "https://www.hankyung.com/article/202606307414g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "나이키 말고 이거요"
-      ],
-      "hash": "e321b0edd42a"
-    },
-    {
-      "title": "\"따봤자 100만원짜리 신분증\" 대학생도 외면…눈물의 폐업",
-      "url": "https://www.hankyung.com/article/2026070102631",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "따봤자 100만원짜리 신분증"
-      ],
-      "hash": "0141631242ae"
-    },
-    {
-      "title": "\"아파트 너무 많이 지었다\"…'유령도시' 전락한 中신도시",
-      "url": "https://www.hankyung.com/article/202607019211i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "유령도시",
-        "아파트 너무 많이 지었다"
-      ],
-      "hash": "7704be62d370"
     },
     {
       "title": "\"삼성전기, 구조적 성장 구간 진입…목표가 300만원으로 상향\"-신한",
@@ -1097,59 +1145,6 @@
         "대한전선"
       ],
       "hash": "138d7f0153c4"
-    },
-    {
-      "title": "\"삼성바이오로직스, 노사 협상 따른 수익성 불확실성 확대…목표가↓\"-신한",
-      "url": "https://www.hankyung.com/article/2026070180466",
-      "summary": "신한투자증권은 1일 삼성바이오로직스에 대해 노사 협상 결과에 따라 하반기 매출 가이던스와 중장기 수익성이 바뀌는 불확실성이 생겼다며 목표주가를 기존 190만원에서 180만원으로 내렸다. 다만 향후 성장 모멘텀도 여전하다며 투자의견은 ‘매수’를 유지...",
-      "datetime_raw": "2026.07.01 07:54",
-      "datetime": "2026-07-01T07:54:00+09:00",
-      "dt": "2026-07-01 07:54",
-      "brokers": [
-        "신한"
-      ],
-      "opinion": "매수",
-      "target_action": "down",
-      "target_change_pct": -5.263157894736842,
-      "keywords": [
-        "삼성바이오로직스"
-      ],
-      "hash": "5e69bdbdd79a"
-    },
-    {
-      "title": "\"삼성전자, 메모리 슈퍼사이클 연장…목표가 58만원\"-상상인",
-      "url": "https://www.hankyung.com/article/2026070180066",
-      "summary": "상상인증권은 1일 삼성전자에 대해 \"인공지능(AI)발 메모리 수급 불균형과 가격 상승 사이클이 길어질 것\"이라며 목표주가를 기존 25만원에서 58만원으로 상향하고 투자의견 '매수'를 유지했다.정민규 상상인증권 연구원은 \"올 2분기 D램·낸드 ...",
-      "datetime_raw": "2026.07.01 07:32",
-      "datetime": "2026-07-01T07:32:00+09:00",
-      "dt": "2026-07-01 07:32",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 132.0,
-      "keywords": [
-        "삼성전자"
-      ],
-      "hash": "e0904d36e768"
-    },
-    {
-      "title": "매일 3만명이 보는 스타 애널 \"1만피는 기본, 하반기엔 ○○주 주목하라\"",
-      "url": "https://www.hankyung.com/article/202606282203i",
-      "summary": "매일 장이 열리기 전 아침 7시 30분마다 수만 명의 투자자들이 보는 글이 있다. 바로 한지영 키움증권 연구원이 올리는 '장 시작 전 생각'이다. 간밤 미국 증시를 분석하고 국내 시장에 미칠 영향을 날카롭게 짚어내며 텔레그램 구독자만 3만 명이 ...",
-      "datetime_raw": "2026.07.01 07:30",
-      "datetime": "2026-07-01T07:30:00+09:00",
-      "dt": "2026-07-01 07:30",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "1만피는 기본, 하반기엔 ○○주 주목하라",
-        "매일 3만명이 보는 스타 애널 \"1만피는 기본"
-      ],
-      "hash": "33ecdd3dc3b3"
     }
   ],
   "consensus_signals": [
