@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-07-01T23:10:49.200086+09:00",
+  "computed_at": "2026-07-02T09:30:55.322399+09:00",
   "sectors": [
     {
       "name": "정보기술",
@@ -10,7 +10,7 @@
     {
       "name": "자동차",
       "intensity": 0.0,
-      "count": 2,
+      "count": 0,
       "top": []
     },
     {
@@ -28,7 +28,7 @@
     {
       "name": "헬스케어",
       "intensity": 0.0,
-      "count": 1,
+      "count": 2,
       "top": []
     },
     {
@@ -46,7 +46,7 @@
     {
       "name": "커뮤니케이션",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -69,9 +69,15 @@
     },
     {
       "name": "기타",
-      "intensity": 0.0,
-      "count": 51,
-      "top": []
+      "intensity": 1.8,
+      "count": 52,
+      "top": [
+        {
+          "kw": "삼성전기",
+          "n": 2,
+          "score": 46.1
+        }
+      ]
     }
   ],
   "note": "★ 추정 — GICS 섹터 매핑 휴리스틱. 합의 강도는 ups-downs + conviction 합성."
