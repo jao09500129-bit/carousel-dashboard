@@ -209,26 +209,26 @@ $(function(){
 					</div>
 					<div class="search__auto__wrap">
 						<ul class="autocomplete-result"></ul>
-					</div> 
+					</div>
 					<button type="button" class="btn-close">
 						<span class="blind">검색창 닫기</span>
 					</button>
 				</div>
-			</fieldset> 
+			</fieldset>
 		</form>
 	</div>
-</div>  
+</div>
 
 <script>
 $(document).ready(function(){
 	// 검색 레이어 열고/닫기
-	$('.hk-top__search .btn-total-search').click(function() {
+	$('.hk-top__search .btn-total-search').on("click", function() {
 		$('.hk-top__search .btn-inp-reset').trigger('click');
 		$('.hk-top__search').toggleClass('active');
 		$('.hk-top__search__layer input[type=search]').focus();
 	});
 
-	$('.hk-top__search .btn-close').click(function() {
+	$('.hk-top__search .btn-close').on("click", function() {
 		$('.hk-top__search').removeClass('active');
 	});
 
@@ -255,9 +255,9 @@ $(document).ready(function(){
 				$('.hk-top__search .hk-top__search__layer').removeClass('auto');
 				return;
 			}
-			
+
 			$(".hk-top__search .autocomplete-result").html('');
-			
+
 			$.each(data, function(idx, val){
 				$(".hk-top__search .autocomplete-result").append(`
 					<li class="type-stock">
@@ -269,7 +269,7 @@ $(document).ready(function(){
 					</li>
 				`);
 			});
-			
+
 			$('.hk-top__search .hk-top__search__layer').addClass('auto');
 		});
 	});
@@ -645,7 +645,7 @@ $(function () {
     });
 
     // 2025.01.16 gnb hover시 다른 메뉴 blur
-    $('.main__gnb > li').hover(function() {
+    $('.main__gnb > li').on("hover", function() {
         $(this).siblings().find('*').blur();
     });
 
@@ -770,6 +770,80 @@ $(function () {
                         <div class="news-item">
                             <div class="text-cont">
                                 <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026070220266" data-pm="N">성호전자 "최대주주 차입금 담보 제공 여력 충분…다음주 일부 상환할 것"</a>
+                                </h2>
+                                <p class="lead">성호전자는 2일 최대주주인 서룡전자가 담보로 제공한 성호전자 주식의 담보가치 리스크가 생겼다는 우려에 대해 “서룡전자의 주식 담보 대출에 대한 추가 담보 여력이 충분하며, 이날 중 성호전자 지분율 10%에 해당하는 담보가 추가로 제공될 예정”이라고...</p>
+                                <p class="txt-date">2026.07.02 14:16</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026070220266">
+                                    <img src="https://img.hankyung.com/photo/202607/02.34226547.3.jpg" alt="성호전자 &quot;최대주주 차입금 담보 제공 여력 충분…다음주 일부 상환할 것&quot;">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <div class="news-item__meta">
+                                    <a href="/premium9/0102005" class="news-item__series">
+                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">투자 인사이트
+                                    </a>
+                                </div>
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/202607019768i" data-pm="P9P">숨고르기 돌입한 주식시장…그래도 핵심테마는 바뀌지 않는다</a>
+                                </h2>
+                                <p class="lead">기술주 조정상반기 한국 증시는 예상외로 100% 상승했고, 50% 이상 오른 대만 증시와 더불어 아시아 증시의 기술 하드웨어 리레이팅을 주도했다. 일본도 기술주 비중이 40%인 닛케이 지수가 40% 상승했다. 반면 역외 중국, 인도, 싱가포르, 인도네시아 등은...</p>
+                                <p class="txt-date">2026.07.02 14:04</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/202607019768i">
+                                    <img src="https://img.hankyung.com/photo/202607/01.44197844.3.jpg" alt="숨고르기 돌입한 주식시장…그래도 핵심테마는 바뀌지 않는다">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <div class="news-item__meta">
+                                    <a href="/premium9/0103001" class="news-item__series">
+                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">핫픽! 미국주식
+                                    </a>
+                                </div>
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/202607019010i" data-pm="P9P">외면받던 란제리의 화려한 부활…1년간 주가 330% 급등</a>
+                                </h2>
+                                <p class="lead">매출 부진과 경영진 논란 등으로 어려움을 겪었던 미국 속옷 브랜드 &#39;빅토리아시크릿&#39;이 반등의 발판을 마련하고 있다. 2024년 힐러리 슈퍼를 새로운 최고경영자(CEO)로 영입한 이후 기업 이미지 쇄신에 성공하면서 수익성이 개선됐다는 평가가 나온다. 월가는...</p>
+                                <p class="txt-date">2026.07.02 14:00</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/202607019010i">
+                                    <img src="https://img.hankyung.com/photo/202607/01.44871787.3.jpg" alt="외면받던 란제리의 화려한 부활…1년간 주가 330% 급등">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
+                                    <a href="https://www.hankyung.com/article/2026070219456" data-pm="N">코스피 이어 코스닥도 매도 사이드카 발동</a>
+                                </h2>
+                                <p class="lead">코스피에 이어 코스닥 시장에도 프로그램매도호가 일시효력정지(사이드카)가 발동됐다.한국거래소에 따르면 2일 오후 12시 47분 15초에 코스닥150선물 및 현물지수의 변동으로 코스닥 시장에서도 매도 사이드카가 발동됐다.발동 시점 당시 코스닥150선물 가격은 전 거래일 대...</p>
+                                <p class="txt-date">2026.07.02 13:56</p>
+                            </div>
+                            <figure class="thumb">
+                                <a href="https://www.hankyung.com/article/2026070219456">
+                                    <img src="https://img.hankyung.com/photo/202607/ZA.44880824.3.jpg" alt="코스피 이어 코스닥도 매도 사이드카 발동">
+                                </a>
+                            </figure>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-item">
+                            <div class="text-cont">
+                                <h2 class="news-tit">
                                     <a href="https://www.hankyung.com/article/2026070218247" data-pm="N"> 급락장에 코스피 이어 코스닥 매도 사이드카 발동</a>
                                 </h2>
                                 <p class="lead">[속보] 급락장에 코스피 이어 코스닥 매도 사이드카 발동박수빈 한경닷컴 기자 waterbean@hankyung.com</p>
@@ -777,7 +851,7 @@ $(function () {
                             </div>
                             <figure class="thumb">
                                 <a href="https://www.hankyung.com/article/2026070218247">
-                                    <img src="https://img.hankyung.com/photo/202607/02.22579247.3.jpg" alt=" 급락장에 코스피 이어 코스닥 매도 사이드카 발동">
+                                    <img src="https://img.hankyung.com/photo/202607/ZA.44880824.3.jpg" alt=" 급락장에 코스피 이어 코스닥 매도 사이드카 발동">
                                 </a>
                             </figure>
                         </div>
@@ -1028,75 +1102,6 @@ $(function () {
                             <figure class="thumb">
                                 <a href="https://www.hankyung.com/article/2026070209836">
                                     <img src="https://img.hankyung.com/photo/202607/01.44871044.3.jpg" alt="&quot;삼성바이오로직스, 중장기 CMO 수주 모멘텀 견조&quot;-흥국">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026070209426" data-pm="N">"삼성전기, 구조적 성장 구간 진입…목표가 300만원으로 상향"-신한</a>
-                                </h2>
-                                <p class="lead">신한투자증권은 2일 삼성전기에 대해 "주요 제품의 수주가 확대되면서 구조적 성장 구간에 진입한 것으로 확인된다"며 목표주가를 기존 200만원에서 300만원으로 상향하고 투자의견 &#39;매수&#39;를 유지했다.오강호 신한투자증권 연구원은 "삼성전기는 지난 5월 1조6...</p>
-                                <p class="txt-date">2026.07.02 08:33</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026070209426">
-                                    <img src="https://img.hankyung.com/photo/202607/01.44850148.3.jpg" alt="&quot;삼성전기, 구조적 성장 구간 진입…목표가 300만원으로 상향&quot;-신한">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <div class="news-item__meta">
-                                    <a href="/premium9/0102001" class="news-item__series">
-                                        <img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">핫스톡
-                                    </a>
-                                </div>
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/202607019481i" data-pm="P9P">증권주 소외 끝나나… ETF 훈풍에 하반기 반등 기대</a>
-                                </h2>
-                                <p class="lead">증시 상승 국면에서 소외됐던 증권주가 하반기에는 반등할 것이라는 전망이 나온다. 상장지수펀드(ETF) 시장의 확대가 거래대금 증가와 수익성 개선으로 이어질 것이란 기대에서다.1일 유가증권시장에서 증권주는 일제히 강세를 보였다. 한국금융지주는 전 거래일보다 3.17% 오...</p>
-                                <p class="txt-date">2026.07.02 08:30</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/202607019481i">
-                                    <img src="https://img.hankyung.com/photo/202607/02.44249769.3.jpg" alt="증권주 소외 끝나나… ETF 훈풍에 하반기 반등 기대">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026070208816" data-pm="N">"LG이노텍, 2분기 '어닝 서프라이즈' 전망…목표가↑"-교보</a>
-                                </h2>
-                                <p class="lead">교보증권은 2일 LG이노텍에 대해 "올 2분기 실적이 시장 기대치를 크게 웃돌 것"이라며 목표주가를 기존 68만원에서 130만원으로 상향하고 투자의견 &#39;매수&#39;를 유지했다.최보영 교보증권 연구원은 "계절적 비수기 진입에 따라 전분기 대비 감익은 불가피하다"...</p>
-                                <p class="txt-date">2026.07.02 08:20</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026070208816">
-                                    <img src="https://img.hankyung.com/photo/202607/01.44863221.3.jpg" alt="&quot;LG이노텍, 2분기 '어닝 서프라이즈' 전망…목표가↑&quot;-교보">
-                                </a>
-                            </figure>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="news-item">
-                            <div class="text-cont">
-                                <h2 class="news-tit">
-                                    <a href="https://www.hankyung.com/article/2026070208666" data-pm="N">"하이브, 단기적 수익성 전망 보수적으로 조정…목표가↓"-삼성</a>
-                                </h2>
-                                <p class="lead">삼성증권은 2일 하이브에 대해 단기적인 레이블의 수익성 추정치를 보수적으로 조정했다며 목표주가를 기존 38만원에서 33만원으로 내렸다. 다만 중장기적 성장은 기대된다며 투자의견은 ‘매수’를 유지했다.최민하 삼성증권 연구원은 “하이브 주가...</p>
-                                <p class="txt-date">2026.07.02 08:18</p>
-                            </div>
-                            <figure class="thumb">
-                                <a href="https://www.hankyung.com/article/2026070208666">
-                                    <img src="https://img.hankyung.com/photo/202607/BF.44770884.3.jpg" alt="&quot;하이브, 단기적 수익성 전망 보수적으로 조정…목표가↓&quot;-삼성">
                                 </a>
                             </figure>
                         </div>
@@ -1367,21 +1372,6 @@ $(function () {
 				<div class="news-item">
 					<div class="txt-cont">
 						<p class="news-tit">
-							<a href="https://www.hankyung.com/article/202606307414g" data-pm="N">"나이키 말고 이거요" 2030 콕 찍어 산다…인기 폭발한 러닝화</a>
-						</p>
-					</div>
-					<div class="thumb">
-						<a href="https://www.hankyung.com/article/202606307414g">
-							<img src="https://img.hankyung.com/photo/202606/01.44856330.3.jpg" alt="&quot;나이키 말고 이거요&quot; 2030 콕 찍어 산다…인기 폭발한 러닝화">
-						</a>
-					</div>
-				</div>
-			</li>
-			<li>
-				<em class="num">3</em>
-				<div class="news-item">
-					<div class="txt-cont">
-						<p class="news-tit">
 							<a href="https://www.hankyung.com/article/2026070101951" data-pm="N">'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다</a>
 						</p>
 					</div>
@@ -1393,7 +1383,37 @@ $(function () {
 				</div>
 			</li>
 			<li>
+				<em class="num">3</em>
+				<div class="news-item">
+					<div class="txt-cont">
+						<p class="news-tit">
+							<a href="https://www.hankyung.com/article/202606307414g" data-pm="N">"나이키 말고 이거요" 2030 콕 찍어 산다…인기 폭발한 러닝화</a>
+						</p>
+					</div>
+					<div class="thumb">
+						<a href="https://www.hankyung.com/article/202606307414g">
+							<img src="https://img.hankyung.com/photo/202606/01.44856330.3.jpg" alt="&quot;나이키 말고 이거요&quot; 2030 콕 찍어 산다…인기 폭발한 러닝화">
+						</a>
+					</div>
+				</div>
+			</li>
+			<li>
 				<em class="num">4</em>
+				<div class="news-item">
+					<div class="txt-cont">
+						<p class="news-tit">
+							<a href="https://www.hankyung.com/article/2026070102631" data-pm="N">"따봤자 100만원짜리 신분증" 대학생도 외면…눈물의 폐업</a>
+						</p>
+					</div>
+					<div class="thumb">
+						<a href="https://www.hankyung.com/article/2026070102631">
+							<img src="https://img.hankyung.com/photo/202607/02.27969961.3.jpg" alt="&quot;따봤자 100만원짜리 신분증&quot; 대학생도 외면…눈물의 폐업">
+						</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<em class="num">5</em>
 				<div class="news-item">
 					<div class="txt-cont">
 						<p class="news-tit">
@@ -1403,26 +1423,6 @@ $(function () {
 					<div class="thumb">
 						<a href="https://www.hankyung.com/article/202607019211i">
 							<img src="https://img.hankyung.com/photo/202607/01.44867327.3.jpg" alt="&quot;아파트 너무 많이 지었다&quot;…'유령도시' 전락한 中신도시">
-						</a>
-					</div>
-				</div>
-			</li>
-			<li>
-				<em class="num">5</em>
-				<div class="news-item">
-					<div class="news-item__meta">
-						<a href="/premium9/0102001" class="news-item__series">
-							<img src="https://hkstatic.hankyung.com/resource/www/common/img/icon/icon-premium9.svg" alt="PREMIUM9" class="icon-premium9">핫스톡
-						</a>
-					</div>
-					<div class="txt-cont">
-						<p class="news-tit">
-							<a href="https://www.hankyung.com/article/202606307801i" data-pm="P9P">주가 반토막 났는데…'더 사라'는 증권사들</a>
-						</p>
-					</div>
-					<div class="thumb">
-						<a href="https://www.hankyung.com/article/202606307801i">
-							<img src="https://img.hankyung.com/photo/202606/02.43093559.3.jpg" alt="주가 반토막 났는데…'더 사라'는 증권사들">
 						</a>
 					</div>
 				</div>

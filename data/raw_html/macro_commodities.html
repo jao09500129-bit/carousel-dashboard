@@ -178,26 +178,26 @@ Highcharts.setOptions({
 					</div>
 					<div class="search__auto__wrap">
 						<ul class="autocomplete-result"></ul>
-					</div> 
+					</div>
 					<button type="button" class="btn-close">
 						<span class="blind">검색창 닫기</span>
 					</button>
 				</div>
-			</fieldset> 
+			</fieldset>
 		</form>
 	</div>
-</div>  
+</div>
 
 <script>
 $(document).ready(function(){
 	// 검색 레이어 열고/닫기
-	$('.hk-top__search .btn-total-search').click(function() {
+	$('.hk-top__search .btn-total-search').on("click", function() {
 		$('.hk-top__search .btn-inp-reset').trigger('click');
 		$('.hk-top__search').toggleClass('active');
 		$('.hk-top__search__layer input[type=search]').focus();
 	});
 
-	$('.hk-top__search .btn-close').click(function() {
+	$('.hk-top__search .btn-close').on("click", function() {
 		$('.hk-top__search').removeClass('active');
 	});
 
@@ -224,9 +224,9 @@ $(document).ready(function(){
 				$('.hk-top__search .hk-top__search__layer').removeClass('auto');
 				return;
 			}
-			
+
 			$(".hk-top__search .autocomplete-result").html('');
-			
+
 			$.each(data, function(idx, val){
 				$(".hk-top__search .autocomplete-result").append(`
 					<li class="type-stock">
@@ -238,7 +238,7 @@ $(document).ready(function(){
 					</li>
 				`);
 			});
-			
+
 			$('.hk-top__search .hk-top__search__layer').addClass('auto');
 		});
 	});
@@ -614,7 +614,7 @@ $(function () {
     });
 
     // 2025.01.16 gnb hover시 다른 메뉴 blur
-    $('.main__gnb > li').hover(function() {
+    $('.main__gnb > li').on("hover", function() {
         $(this).siblings().find('*').blur();
     });
 
