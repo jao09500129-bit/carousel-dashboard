@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-02T11:01:01.953788+09:00",
+  "collected_at": "2026-07-02T13:00:57.678759+09:00",
   "date": "2026-07-02",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -18,11 +18,11 @@
         3
       ],
       [
-        "신한",
+        "미래에셋",
         2
       ],
       [
-        "IBK",
+        "신한",
         2
       ],
       [
@@ -38,15 +38,15 @@
         1
       ],
       [
+        "IBK",
+        1
+      ],
+      [
         "유안타",
         1
       ],
       [
         "한국투자",
-        1
-      ],
-      [
-        "미래에셋",
         1
       ],
       [
@@ -60,6 +60,72 @@
     ]
   },
   "items": [
+    {
+      "title": "급락장에 코스피 이어 코스닥 매도 사이드카 발동",
+      "url": "https://www.hankyung.com/article/2026070218247",
+      "summary": "[속보] 급락장에 코스피 이어 코스닥 매도 사이드카 발동박수빈 한경닷컴 기자 waterbean@hankyung.com",
+      "datetime_raw": "2026.07.02 12:51",
+      "datetime": "2026-07-02T12:51:00+09:00",
+      "dt": "2026-07-02 12:51",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [],
+      "hash": "79a05429b9a6"
+    },
+    {
+      "title": "\"떨어질때 줍줍\"…고수들 삼성전자 7% 떨어지자 '싹쓸이'",
+      "url": "https://www.hankyung.com/article/202607021237i",
+      "summary": "투자수익률 상위 1%의 초고수들은 2일 오전 국내 증시에서 삼성전자를 가장 많이 순매수한 것으로 나타났다. 이날 미래에셋엠클럽에 따르면 미래에셋증권 계좌 가운데 전월 수익률 상위 1%에 해당하는 투자 고수들은 이날 오전 10시 삼성전자를 가장 많이 담았다. 삼...",
+      "datetime_raw": "2026.07.02 11:13",
+      "datetime": "2026-07-02T11:13:00+09:00",
+      "dt": "2026-07-02 11:13",
+      "brokers": [
+        "미래에셋"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "싹쓸이",
+        "떨어질때 줍줍"
+      ],
+      "hash": "2fbe8a254996"
+    },
+    {
+      "title": "코빗, 모바일 앱 홈 화면 개편…\"시장 정보 한눈에 확인\"",
+      "url": "https://www.hankyung.com/article/202607021634B",
+      "summary": "코빗이 이용자 편의성을 높이기 위해 모바일 앱 홈 화면을 전면 개편했다고 2일 밝혔다.이번 개편은 이용자가 앱 실행과 동시에 주요 시장 정보를 직관적으로 확인하고 자주 사용하는 기능에 빠르게 접근할 수 있도록 사용자환경(UI)을 개선하는 데 초점을 맞췄다.새 홈 화면에...",
+      "datetime_raw": "2026.07.02 11:13",
+      "datetime": "2026-07-02T11:13:00+09:00",
+      "dt": "2026-07-02 11:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코빗",
+        "시장 정보 한눈에 확인"
+      ],
+      "hash": "0c954577b441"
+    },
+    {
+      "title": "아크릴, 모아데이타에 11억원 규모 GPU베이스 공급키로",
+      "url": "https://www.hankyung.com/article/2026070216096",
+      "summary": "아크릴은 “지난달 30일 모아데이타와 11억원 규모의 ‘K-AI 클라우드 센터 구축 및 공급’ 계약을 맺었다”고 지난 1일 공시했다. 계약기간은 10월31일까지다.2일 회사 측은 이번 계약에 대해 “국내 모듈형 데이...",
+      "datetime_raw": "2026.07.02 11:09",
+      "datetime": "2026-07-02T11:09:00+09:00",
+      "dt": "2026-07-02 11:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "아크릴"
+      ],
+      "hash": "a0db186869aa"
+    },
     {
       "title": "빗썸, 버그바운티 포상금 최대 2억원으로 확대…프라이버시센터도 개편",
       "url": "https://www.hankyung.com/article/202607021547B",
@@ -93,7 +159,7 @@
       "hash": "7d530e2f9a7d"
     },
     {
-      "title": "\"해외 여행가서 많이 봤어요\"…돈 쓸어담는 K-편의점 '저평가 매력'",
+      "title": "\"해외여행 가서 많이 봤어요\"…돈 쓸어담는 K편의점 '저평가 매력'",
       "url": "https://www.hankyung.com/article/202607010297i",
       "summary": "유통업계에서도 편의점은 내수 의존도가 높은 대표적인 업종으로 꼽혀왔다. 편의점주(株)에 낮은 밸류에이션이 매겨진 건 내수에 갇힌 성장성의 한계를 반영한 것이었다. 점포 수 기준 편의점 1위인 BGF리테일도 마찬가지였다.최근엔 시각이 달라졌다. 해외에 CU 간판을 단 점...",
       "datetime_raw": "2026.07.02 10:00",
@@ -105,7 +171,7 @@
       "target_change_pct": null,
       "keywords": [
         "저평가 매력",
-        "해외 여행가서 많이 봤어요"
+        "해외여행 가서 많이 봤어요"
       ],
       "hash": "071ed29c24ff"
     },
@@ -330,6 +396,88 @@
       "hash": "5cd3c8dcf92f"
     },
     {
+      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
+      "url": "https://www.hankyung.com/article/202606307387g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배 타고 온 중국인 1500명 내리더니"
+      ],
+      "hash": "e0bedde8f749"
+    },
+    {
+      "title": "\"나이키 말고 이거요\" 2030 콕 찍어 산다…인기 폭발한 러닝화",
+      "url": "https://www.hankyung.com/article/202606307414g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "나이키 말고 이거요"
+      ],
+      "hash": "e321b0edd42a"
+    },
+    {
+      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
+      "url": "https://www.hankyung.com/article/2026070101951",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "자율주행을 무슨 수로 막나"
+      ],
+      "hash": "c32b0a6ecefa"
+    },
+    {
+      "title": "\"아파트 너무 많이 지었다\"…'유령도시' 전락한 中신도시",
+      "url": "https://www.hankyung.com/article/202607019211i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "유령도시",
+        "아파트 너무 많이 지었다"
+      ],
+      "hash": "7704be62d370"
+    },
+    {
+      "title": "주가 반토막 났는데…'더 사라'는 증권사들",
+      "url": "https://www.hankyung.com/article/202606307801i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "더 사라",
+        "주가 반토막 났는데"
+      ],
+      "hash": "8132a1eebb9e"
+    },
+    {
       "title": "\"AI가 내 주식 살리나\"…'30% 폭등' 불기둥 쏜 이 종목 [종목+]",
       "url": "https://www.hankyung.com/article/2026070207796",
       "summary": "지역 중견 건설주가 인공지능(AI) 대전환을 위한 정부의 '메가 프로젝트' 발표 이후 불기둥을 세웠다. 대규모 산업단지를 조성하는 과정에서 건설사 일감이 늘어나 실적이 개선될 것이란 기대가 반영됐다는 분석이다. 장기적으로 대형 건설주들도 수혜를 볼 것으로...",
@@ -396,88 +544,6 @@
         "사상 최대"
       ],
       "hash": "5b011da0bbad"
-    },
-    {
-      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
-      "url": "https://www.hankyung.com/article/202606307387g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "배 타고 온 중국인 1500명 내리더니"
-      ],
-      "hash": "e0bedde8f749"
-    },
-    {
-      "title": "\"나이키 말고 이거요\" 2030 콕 찍어 산다…인기 폭발한 러닝화",
-      "url": "https://www.hankyung.com/article/202606307414g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "나이키 말고 이거요"
-      ],
-      "hash": "e321b0edd42a"
-    },
-    {
-      "title": "\"그때 살걸\"…국평 9억서 17억으로 뛴 분양가에도 '북적'",
-      "url": "https://www.hankyung.com/article/2026063062746",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "북적",
-        "그때 살걸"
-      ],
-      "hash": "590947a2603b"
-    },
-    {
-      "title": "\"아파트 너무 많이 지었다\"…'유령도시' 전락한 中신도시",
-      "url": "https://www.hankyung.com/article/202607019211i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "유령도시",
-        "아파트 너무 많이 지었다"
-      ],
-      "hash": "7704be62d370"
-    },
-    {
-      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
-      "url": "https://www.hankyung.com/article/2026070101951",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "자율주행을 무슨 수로 막나"
-      ],
-      "hash": "c32b0a6ecefa"
     },
     {
       "title": "\"SK스퀘어, SK하이닉스 가치 재평가…목표가↑\"-유안타",
@@ -1091,72 +1157,6 @@
         "SK하닉 소방수론"
       ],
       "hash": "4cc535a7f3ad"
-    },
-    {
-      "title": "국민연금 '7월 매도 폭탄설' 진실은 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026063074581",
-      "summary": "국민연금 '7월 매도 폭탄설' 진실은국민연금의 국내 주식 리밸런싱 종료에 따라 ‘7월 매도 폭탄설’이 제기되고 있다. 국민연금은 주식을 대규모로 매각할까. 한경 프리미엄9이 분석했다. 투자대회 우승자가 꼽은 유망 ...",
-      "datetime_raw": "2026.06.30 17:35",
-      "datetime": "2026-06-30T17:35:00+09:00",
-      "dt": "2026-06-30 17:35",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "7월 매도 폭탄설"
-      ],
-      "hash": "b39ba549302c"
-    },
-    {
-      "title": "증시 뒤흔든 '3대 메가 프로젝트'…장비·전력기기 주가 급등",
-      "url": "https://www.hankyung.com/article/202606307210i",
-      "summary": "주식시장이 삼성과 SK그룹 주도의 4700조원 규모 ‘3대 메가 프로젝트’ 수혜주 찾기에 나섰다. 시장이 ‘1차 수혜주’로 지목한 건 반도체 장비주와 전력기기다. 동남권 반도체 클러스터와 1000조원 규모의 AI 데이터센터가 ...",
-      "datetime_raw": "2026.06.30 17:11",
-      "datetime": "2026-06-30T17:11:00+09:00",
-      "dt": "2026-06-30 17:11",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "3대 메가 프로젝트"
-      ],
-      "hash": "57242332764e"
-    },
-    {
-      "title": "IBK證, 최광진 신임 대표이사 선임",
-      "url": "https://www.hankyung.com/article/2026063071656",
-      "summary": "IBK투자증권은 임시주주총회와 이사회를 열고 최광진 부사장을 신임 대표이사 사장으로 선임했다고 30일 밝혔다. 최 신임 대표이사는 1965년생으로 부산진고와 고려대학교 경제학과를 졸업한 뒤 미국 아이오와대학교 MBA(경영학 석사)를 취득했다.1992년 기업은행...",
-      "datetime_raw": "2026.06.30 16:40",
-      "datetime": "2026-06-30T16:40:00+09:00",
-      "dt": "2026-06-30 16:40",
-      "brokers": [
-        "IBK"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "IBK證"
-      ],
-      "hash": "2a0969f05999"
-    },
-    {
-      "title": "VIP자산운용 손 들어준 월덱스 주주들…이사 보수 안건 부결",
-      "url": "https://www.hankyung.com/article/2026063062886",
-      "summary": "VIP자산운용은 지난 29일 열린 월덱스 임시주주총회에서 회사 측 이사 보수 관련 안건 3건이 모두 부결됐다고 30일 밝혔다.앞서 월덱스 정기주주총회에서는 이사 보수한도를 기존 70억원에서 80억원으로 상향하는 내용의 이사보수규정 제정의 건이 부결됐다. 이후 월덱스는 ...",
-      "datetime_raw": "2026.06.30 16:30",
-      "datetime": "2026-06-30T16:30:00+09:00",
-      "dt": "2026-06-30 16:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "VIP자산운용 손 들어준 월덱스 주주들"
-      ],
-      "hash": "5518c02393a9"
     }
   ],
   "consensus_signals": [
