@@ -1,21 +1,21 @@
 {
-  "computed_at": "2026-07-03T16:00:49.570723+09:00",
-  "score": 44,
+  "computed_at": "2026-07-03T23:10:44.436015+09:00",
+  "score": 34,
   "label": "FEAR",
   "label_kr": "약간 조심",
   "label_emoji": "😟",
   "components": {
     "volatility": 0,
     "divergence": 50,
-    "target_up_ratio": 100.0,
+    "target_up_ratio": 50,
     "publish_freq": 50.0,
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 22.32,
+    "vol_sum": 21.65,
     "n_divergence": 0,
     "n_signals": 0,
-    "target_up": 3,
+    "target_up": 0,
     "target_down": 0,
     "total_items": 25,
     "velocity": "빠름"
