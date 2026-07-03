@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-03T15:00:50.195790+09:00",
+  "collected_at": "2026-07-03T16:00:49.570723+09:00",
   "date": "2026-07-03",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,8 +7,8 @@
   ],
   "total_items": 25,
   "stats": {
-    "with_broker_mention": 6,
-    "target_price_up": 4,
+    "with_broker_mention": 5,
+    "target_price_up": 3,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -26,14 +26,77 @@
       [
         "하나",
         1
-      ],
-      [
-        "KB",
-        1
       ]
     ]
   },
   "items": [
+    {
+      "title": "\"폭락장엔 무조건 풀매수\"...전투개미의 삼전닉스 레버리지 투자 공식",
+      "url": "https://www.hankyung.com/article/202607034144i",
+      "summary": "국내 증시가 급락할수록 개인 투자자의 삼성전자·SK하이닉스 단일종목 레버리지 베팅이 강해진 것으로 나타났다. 최근 한 달간 코스피 지수가 하락한 날에 단 하루도 예외 없이 단일종목 레버리지 상품으로 개인 자금이 대거 순유입됐다. 시장 급락을 반도체주 저가 ...",
+      "datetime_raw": "2026.07.03 15:56",
+      "datetime": "2026-07-03T15:56:00+09:00",
+      "dt": "2026-07-03 15:56",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "폭락장엔 무조건 풀매수"
+      ],
+      "hash": "13c9efdc926a"
+    },
+    {
+      "title": "삼전 4% 빠질 때 레버리지 17% 뚝…'음의 복리'가 부른 참사",
+      "url": "https://www.hankyung.com/article/202607034330i",
+      "summary": "국내 증시의 변동성이 심해지면서 삼성전자와 SK하이닉스 단일종목 레버리지 상장지수펀드(ETF)가 기초종목보다 저조한 수익률을 기록한 것으로 나타났다. 하루 등락률의 2배를 추종하는 레버리지 상품 특성상 주가 등락이 반복될수록 누적 수익률이 깎이는 '음의 복리&#...",
+      "datetime_raw": "2026.07.03 15:49",
+      "datetime": "2026-07-03T15:49:00+09:00",
+      "dt": "2026-07-03 15:49",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "음의 복리",
+        "삼전 4% 빠질 때 레버리지 17% 뚝"
+      ],
+      "hash": "3aef0774fdf3"
+    },
+    {
+      "title": "코스피 5%대 급등해 '팔천피' 회복…삼전 8%·닉스 10% 급등",
+      "url": "https://www.hankyung.com/article/2026070345166",
+      "summary": "코스피가 8000선을 회복했다. 장중 7400선이 무너지기도 했지만, 가파르게 반등해 유가증권시장에선 프로그램 매수 호가 효력 일시정지(매수 사이드카)가 발동되기도 했다.3일 코스피는 전일 대비 440.25포인트(5.76%) 오른 8088.34에 거래를 마쳤다.증시 변...",
+      "datetime_raw": "2026.07.03 15:35",
+      "datetime": "2026-07-03T15:35:00+09:00",
+      "dt": "2026-07-03 15:35",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔천피"
+      ],
+      "hash": "d1adbb8d2cb6"
+    },
+    {
+      "title": "한국투자증권, 글로벌 대체투자 운용사 대표 초청 행사",
+      "url": "https://www.hankyung.com/article/2026070345186",
+      "summary": "한국투자증권은 지난 2일 서울 여의도 본사에서 글로벌 부동산 대체투자 운용사 및 투자기관 대표들을 초청해 'CEO 네트워크 행사'를 개최했다고 3일 밝혔다.이번 행사는 국내 부동산 시장의 변화와 투자 트렌드에 대한 인사이트를 공유하고 글로벌 투자기관과의 ...",
+      "datetime_raw": "2026.07.03 15:20",
+      "datetime": "2026-07-03T15:20:00+09:00",
+      "dt": "2026-07-03 15:20",
+      "brokers": [
+        "한국투자"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국투자증권"
+      ],
+      "hash": "48370a96c56d"
+    },
     {
       "title": "급등장에 코스피 매수 사이드카 발동",
       "url": "https://www.hankyung.com/article/2026070342436",
@@ -304,75 +367,21 @@
       "hash": "e8d5dc422f86"
     },
     {
-      "title": "\"LS일렉트릭, 2분기 신규 수주 2조 웃돌아…목표가↑\"-한국",
-      "url": "https://www.hankyung.com/article/2026070331866",
-      "summary": "한국투자증권은 3일 LS일렉트릭(LS ELECTRIC)에 대해 \"올 2분기 신규 수주가 2조원을 넘어서며 분기 최대치를 기록한 것으로 파악된다\"며 목표주가를 기존 28만5000원에서 33만원으로 상향하고 투자의견 '매수'를 유지했다.장남현 한국투자증권 연...",
-      "datetime_raw": "2026.07.03 07:31",
-      "datetime": "2026-07-03T07:31:00+09:00",
-      "dt": "2026-07-03 07:31",
-      "brokers": [
-        "한국투자"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": -99.33999999999999,
-      "keywords": [
-        "LS일렉트릭"
-      ],
-      "hash": "018fdfc1d6c9"
-    },
-    {
-      "title": "\"420만닉스 간다\"…반도체주 급락에도 증권가 '깜짝' 전망 [종목+]",
-      "url": "https://www.hankyung.com/article/2026070331896",
-      "summary": "KB증권은 3일 하이퍼스케일러(대규모 데이터센터 운영사)의 유휴 컴퓨팅 파워 판매는 인공지능(AI) 투자의 대표적인 수익화 사례라고 분석했다. 컴퓨팅 파워 판매가 AI 투자를 꺾는 게 아니라 더 가속화할 수 있다는 것이다.이에 따라 AI 투자의 대표적 수혜주로 꼽히는 ...",
-      "datetime_raw": "2026.07.03 07:31",
-      "datetime": "2026-07-03T07:31:00+09:00",
-      "dt": "2026-07-03 07:31",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "깜짝",
-        "420만닉스 간다"
-      ],
-      "hash": "613515d360e6"
-    },
-    {
-      "title": "설상가상 악재만 줄줄이…1600원 '킹달러' 공포 덮쳤다 [분석+]",
-      "url": "https://www.hankyung.com/article/2026070225686",
-      "summary": "원·달러 환율이 글로벌 금융위기 이후 최고 수준을 연일 경신하면서 증권가에선 잇달아 하반기 환율 전망치를 높이고 있다. 외국인 주식 순매도와 달러 강세가 이어지면서 환율 상단을 1600원까지 열어둬야 한다는 분석도 나왔다. 외환당국의 시장 개입 여...",
-      "datetime_raw": "2026.07.03 06:30",
-      "datetime": "2026-07-03T06:30:00+09:00",
-      "dt": "2026-07-03 06:30",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "킹달러",
-        "설상가상 악재만 줄줄이"
-      ],
-      "hash": "49e58d56db3d"
-    },
-    {
-      "title": "공포 커진 비트코인, 7월엔 반등할까…심리적 지지선 '6만달러' 시험대 [강민승의 트레이드나우]",
-      "url": "https://www.hankyung.com/article/202607023037B",
-      "summary": "케빈 워시 미국 연방준비제도(Fed) 의장이 인플레이션 위험 완화를 언급한 뒤 6만달러선을 웃돈 비트코인(BTC)은 미국의 6월 고용보고서 발표를 앞두고 경계감에 숨을 고르고 있다. 단기적으로는 6만달러 지지선 방어 여부를 우선 확인하며 모멘텀 전환을 지켜볼 필요가 있...",
-      "datetime_raw": "2026.07.02 22:43",
-      "datetime": "2026-07-02T22:43:00+09:00",
-      "dt": "2026-07-02 22:43",
+      "title": "\"이제 금요일마다 어쩌냐\"…국민연금 직원들 '부글부글'",
+      "url": "https://www.hankyung.com/article/2026070227511",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "6만달러",
-        "공포 커진 비트코인"
+        "부글부글",
+        "이제 금요일마다 어쩌냐"
       ],
-      "hash": "fafa112c7626"
+      "hash": "c0d16155ba5f"
     },
     {
       "title": "\"따봤자 100만원짜리 신분증\" 대학생도 외면…눈물의 폐업",
@@ -389,23 +398,6 @@
         "따봤자 100만원짜리 신분증"
       ],
       "hash": "0141631242ae"
-    },
-    {
-      "title": "\"이제 금요일마다 어쩌냐\"…국민연금 직원들 '부글부글'",
-      "url": "https://www.hankyung.com/article/2026070227511",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "부글부글",
-        "이제 금요일마다 어쩌냐"
-      ],
-      "hash": "c0d16155ba5f"
     },
     {
       "title": "200만원 넘던 주가 5개월 만에…\"도대체 바닥이 어디냐\" 눈물",
