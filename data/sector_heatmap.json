@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-07-03T11:00:49.795739+09:00",
+  "computed_at": "2026-07-03T13:00:48.243250+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 6,
+      "count": 2,
       "top": []
     },
     {
@@ -22,13 +22,13 @@
     {
       "name": "금융",
       "intensity": 0.0,
-      "count": 1,
+      "count": 0,
       "top": []
     },
     {
       "name": "헬스케어",
       "intensity": 0.0,
-      "count": 1,
+      "count": 0,
       "top": []
     },
     {
@@ -46,7 +46,7 @@
     {
       "name": "커뮤니케이션",
       "intensity": 0.0,
-      "count": 1,
+      "count": 0,
       "top": []
     },
     {
@@ -69,15 +69,9 @@
     },
     {
       "name": "기타",
-      "intensity": -1.2,
-      "count": 51,
-      "top": [
-        {
-          "kw": "금감원",
-          "n": 2,
-          "score": 19.1
-        }
-      ]
+      "intensity": 0.0,
+      "count": 21,
+      "top": []
     }
   ],
   "note": "★ 추정 — GICS 섹터 매핑 휴리스틱. 합의 강도는 ups-downs + conviction 합성."
