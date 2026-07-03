@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-03T10:08:27.604110+09:00",
+  "collected_at": "2026-07-03T11:00:49.795739+09:00",
   "date": "2026-07-03",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -61,6 +61,23 @@
   },
   "items": [
     {
+      "title": "7700 회복했다가 7400 깨졌다가…멀미 나는 '롤러코스피'",
+      "url": "https://www.hankyung.com/article/2026070338306",
+      "summary": "코스피가 극단적인 변동성을 보이고 있다. 장초반엔 7700선을 회복하기도 했다가, 하락전환해 7400선이 무너지더니, 수분만에 7600선까지 올라섰다.3일 오전 10시10분 현재 코스피는 전일 대비 42.31포인트(0.55%) 하락한 7605.78에 거래되고 있다. 개...",
+      "datetime_raw": "2026.07.03 10:22",
+      "datetime": "2026-07-03T10:22:00+09:00",
+      "dt": "2026-07-03 10:22",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "롤러코스피",
+        "7700 회복했다가 7400 깨졌다가"
+      ],
+      "hash": "a808b5370758"
+    },
+    {
       "title": "반도체 차익실현 압력 지속… 코스피·코스닥 동반 하락 출발 [개장시황]",
       "url": "https://www.hankyung.com/article/202607033617i",
       "summary": "오늘 한국 증시는 미국 반도체주의 이틀 연속 급락 여파를 고스란히 받으며 하락 출발했습니다. 전날 밤 필라델피아 반도체지수가 5.45% 추가 하락하며 이틀간 누적 낙폭이 11%를 넘어선 가운데, 국내 반도체 대형주에 대한 매도 압력이 장 초반부터 집중되고 있습니다. 오...",
@@ -93,7 +110,7 @@
       "hash": "f285d8a0e5a4"
     },
     {
-      "title": "美 '메타'발 쇼크 하루 만에 '삼전닉스' 저가 매수세 유입",
+      "title": "'메타發' 쇼크 하루 만에…'삼전닉스' 싼값에 쓸어 담는다",
       "url": "https://www.hankyung.com/article/2026070335276",
       "summary": "반도체 투톱 삼성전자와 SK하이닉스 주가가 미국 메타발(發) 쇼크로 급락한지 하루 만에 저가 매수세가 유입되고 있다.3일 오전 9시13분 현재 삼성전자는 전일 대비 9500원(3.32%) 오른 29만5500원에 거래되면서 30만원대 회복을 타진하고 있다. SK하이닉스 ...",
       "datetime_raw": "2026.07.03 09:22",
@@ -104,7 +121,7 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "메타",
+        "메타發",
         "삼전닉스"
       ],
       "hash": "0097f24fc8ca"
@@ -385,22 +402,6 @@
       "hash": "0cd9cac013f5"
     },
     {
-      "title": "\"반도체 호황 끝 전망은 시기상조\"…OECD, 韓성장률 2.6% 관측 유지",
-      "url": "https://www.hankyung.com/article/2026070227087",
-      "summary": "경제협력개발기구(OECD)는 올해 한국 경제 성장률 전망치를 2.6%로 유지했다. 비상계엄 사태와 중동전쟁 등 대내외 불확실성에도 소비쿠폰 지급 등 내수 진작 정책에 힘입어 한국 경제가 회복 흐름을 이어갈 것으로 내다봤다.OECD는 2일 발표한 '2026 한국경...",
-      "datetime_raw": "2026.07.02 17:52",
-      "datetime": "2026-07-02T17:52:00+09:00",
-      "dt": "2026-07-02 17:52",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "반도체 호황 끝 전망은 시기상조"
-      ],
-      "hash": "3821cbc208da"
-    },
-    {
       "title": "\"따봤자 100만원짜리 신분증\" 대학생도 외면…눈물의 폐업",
       "url": "https://www.hankyung.com/article/2026070102631",
       "summary": "",
@@ -415,6 +416,22 @@
         "따봤자 100만원짜리 신분증"
       ],
       "hash": "0141631242ae"
+    },
+    {
+      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
+      "url": "https://www.hankyung.com/article/202606307387g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "배 타고 온 중국인 1500명 내리더니"
+      ],
+      "hash": "e0bedde8f749"
     },
     {
       "title": "국민연금 리밸런싱 첫날…삼성전자 팔고 '이 종목' 담았다",
@@ -432,22 +449,6 @@
         "국민연금 리밸런싱 첫날"
       ],
       "hash": "ae85e8e81161"
-    },
-    {
-      "title": "배 타고 온 중국인 1500명 내리더니…서산에서 벌어진 일",
-      "url": "https://www.hankyung.com/article/202606307387g",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "배 타고 온 중국인 1500명 내리더니"
-      ],
-      "hash": "e0bedde8f749"
     },
     {
       "title": "배달 기사 그만두고 여자친구와 창업…\"月 2500만원 번다\"",
@@ -483,20 +484,20 @@
       "hash": "c32b0a6ecefa"
     },
     {
-      "title": "7.8조 KDDX 선도함 따낸 한화오션 '들썩'",
-      "url": "https://www.hankyung.com/article/2026070227271",
-      "summary": "한국경제신문의 투자 전문 유료 플랫폼 '한경 프리미엄9'(www.hankyung.com/premium9)에 실린 기사입니다. 한경 프리미엄9을 구독하시면 더 많은 주식 투자 기사를 찾아볼 수 있습니다.한화오션이 7조8000억원 규모 한국형 차기구축함(KDDX) 상세 설계 및 선도함 건조 사업자로 선정됐다는 소식에 주가가 2일 반등했다.한화오션...",
-      "datetime_raw": "2026.07.02 17:39",
-      "datetime": "2026-07-02T17:39:00+09:00",
-      "dt": "2026-07-02 17:39",
+      "title": "\"반도체 호황 끝 전망은 시기상조\"…OECD, 韓성장률 2.6% 관측 유지",
+      "url": "https://www.hankyung.com/article/2026070227087",
+      "summary": "경제협력개발기구(OECD)는 올해 한국 경제 성장률 전망치를 2.6%로 유지했다. 비상계엄 사태와 중동전쟁 등 대내외 불확실성에도 소비쿠폰 지급 등 내수 진작 정책에 힘입어 한국 경제가 회복 흐름을 이어갈 것으로 내다봤다.OECD는 2일 발표한 '2026 한국경...",
+      "datetime_raw": "2026.07.02 17:52",
+      "datetime": "2026-07-02T17:52:00+09:00",
+      "dt": "2026-07-02 17:52",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "들썩"
+        "반도체 호황 끝 전망은 시기상조"
       ],
-      "hash": "17acf02fa6ae"
+      "hash": "3821cbc208da"
     },
     {
       "title": "메타 쇼크에 레버리지 충격까지…코스피 가장 세게 맞았다",
