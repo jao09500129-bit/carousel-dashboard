@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-07-02T23:10:53.095104+09:00",
+  "computed_at": "2026-07-03T09:31:09.082590+09:00",
   "sectors": [
     {
       "name": "정보기술",
       "intensity": 0.0,
-      "count": 4,
+      "count": 5,
       "top": []
     },
     {
@@ -22,7 +22,7 @@
     {
       "name": "금융",
       "intensity": 0.0,
-      "count": 2,
+      "count": 1,
       "top": []
     },
     {
@@ -40,7 +40,7 @@
     {
       "name": "필수소비재",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "유틸리티",
       "intensity": 0.0,
-      "count": 0,
+      "count": 1,
       "top": []
     },
     {
@@ -69,13 +69,13 @@
     },
     {
       "name": "기타",
-      "intensity": -1.4,
-      "count": 54,
+      "intensity": -1.2,
+      "count": 52,
       "top": [
         {
           "kw": "금감원",
           "n": 2,
-          "score": 16.1
+          "score": 19.1
         }
       ]
     }

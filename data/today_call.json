@@ -1,12 +1,12 @@
 {
-  "computed_at": "2026-07-02T23:10:53.095104+09:00",
+  "computed_at": "2026-07-03T09:31:09.082590+09:00",
   "action_headline": "반도체 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
-  "confidence_pct": 23.1,
+  "confidence_pct": 24.6,
   "rationale": [
-    "美 반도체 지수 -6.27% — 반도체 회전축",
-    "합의 시그널 '금감원' — Conviction 16/100 (2사 동조)",
-    "Market Mood 57/100 (NEUTRAL)"
+    "美 반도체 지수 -5.44% — 반도체 회전축",
+    "합의 시그널 '금감원' — Conviction 19/100 (2사 동조)",
+    "Market Mood 59/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
