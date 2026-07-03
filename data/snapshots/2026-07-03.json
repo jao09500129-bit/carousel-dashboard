@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-03T09:31:09.082590+09:00",
+  "collected_at": "2026-07-03T10:08:27.604110+09:00",
   "date": "2026-07-03",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -60,6 +60,22 @@
     ]
   },
   "items": [
+    {
+      "title": "반도체 차익실현 압력 지속… 코스피·코스닥 동반 하락 출발 [개장시황]",
+      "url": "https://www.hankyung.com/article/202607033617i",
+      "summary": "오늘 한국 증시는 미국 반도체주의 이틀 연속 급락 여파를 고스란히 받으며 하락 출발했습니다. 전날 밤 필라델피아 반도체지수가 5.45% 추가 하락하며 이틀간 누적 낙폭이 11%를 넘어선 가운데, 국내 반도체 대형주에 대한 매도 압력이 장 초반부터 집중되고 있습니다. 오...",
+      "datetime_raw": "2026.07.03 09:37",
+      "datetime": "2026-07-03T09:37:00+09:00",
+      "dt": "2026-07-03 09:37",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 차익실현 압력 지속"
+      ],
+      "hash": "a318671e3c63"
+    },
     {
       "title": "콘텐트리중앙, 거래 재개 후 사흘 연속 하한가",
       "url": "https://www.hankyung.com/article/2026070335336",
@@ -353,22 +369,6 @@
       "hash": "c9c41e5e51ea"
     },
     {
-      "title": "유로존 인플레 둔화…ECB, 금리인상 속도 조절할 듯",
-      "url": "https://www.hankyung.com/article/2026070227401",
-      "summary": "이란 전쟁 휴전 합의로 국제 유가가 안정되자 유럽과 미국의 물가 압력이 둔화한 것으로 나타났다. 주요 중앙은행의 금리 인상 부담이 다소 완화됐다는 평가가 나온다.1일(현지시간) 유럽연합(EU) 통계 기관 유로스타트에 따르면 지난달 유로존 소비자물가는 전년 동기 대비 2...",
-      "datetime_raw": "2026.07.02 18:00",
-      "datetime": "2026-07-02T18:00:00+09:00",
-      "dt": "2026-07-02 18:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "유로존 인플레 둔화"
-      ],
-      "hash": "694af3faaa36"
-    },
-    {
       "title": "숨고르는 증시…핵심 테마는 그대로 [한경 프리미엄9 TODAY]",
       "url": "https://www.hankyung.com/article/2026070227621",
       "summary": "숨고르는 증시…핵심 테마는 그대로글로벌 기술주와 국내 반도체 대형주가 숨 고르기 국면에 들어갔다. 김영민 토러스자산운용 대표는 이럴 때 선별적 투자 전략이 필요하다고 조언했다. 그가 주목하는 섹터는 무엇일까. 한경 프리미엄9에서 살펴볼 수 있다....",
@@ -450,22 +450,6 @@
       "hash": "e0bedde8f749"
     },
     {
-      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
-      "url": "https://www.hankyung.com/article/2026070101951",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "자율주행을 무슨 수로 막나"
-      ],
-      "hash": "c32b0a6ecefa"
-    },
-    {
       "title": "배달 기사 그만두고 여자친구와 창업…\"月 2500만원 번다\"",
       "url": "https://www.hankyung.com/article/202607021038i",
       "summary": "",
@@ -481,6 +465,22 @@
         "배달 기사 그만두고 여자친구와 창업"
       ],
       "hash": "2698abf897f6"
+    },
+    {
+      "title": "'자율주행을 무슨 수로 막나'…택시업계 결국 백기 들었다",
+      "url": "https://www.hankyung.com/article/2026070101951",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "자율주행을 무슨 수로 막나"
+      ],
+      "hash": "c32b0a6ecefa"
     },
     {
       "title": "7.8조 KDDX 선도함 따낸 한화오션 '들썩'",

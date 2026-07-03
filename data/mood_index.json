@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-07-03T09:31:09.082590+09:00",
+  "computed_at": "2026-07-03T10:08:27.604110+09:00",
   "score": 59,
   "label": "NEUTRAL",
   "label_kr": "보통",
@@ -12,7 +12,7 @@
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 20.48,
+    "vol_sum": 20.2,
     "n_divergence": 0,
     "n_signals": 1,
     "target_up": 8,
