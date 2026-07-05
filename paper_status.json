@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-04",
-  "updated_at": "2026-07-04T23:10:02+09:00",
+  "date": "2026-07-05",
+  "updated_at": "2026-07-05T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "UP_STRONG",
@@ -76,8 +76,8 @@
         "pnl_pct": -4.32
       }
     ],
-    "last_updated": "2026-07-04T08:00:37.732334",
-    "since_start_days": 66
+    "last_updated": "2026-07-05T15:40:04.541839",
+    "since_start_days": 67
   },
   "trade_today": {
     "executed": false,
@@ -214,11 +214,11 @@
       "vol_off_pct": 19.59
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-07-04T23:10:03+09:00"
+    "updated_at": "2026-07-05T23:10:03+09:00"
   },
   "m30_shadow": {
     "date": "2026-07-03",
-    "updated_at": "2026-07-04T23:10:04+09:00",
+    "updated_at": "2026-07-05T23:10:04+09:00",
     "m21": {
       "wl": 2.0,
       "ws": 0.0,
@@ -263,7 +263,7 @@
   },
   "m37_shadow": {
     "date": "2026-07-03",
-    "updated_at": "2026-07-04T23:10:07+09:00",
+    "updated_at": "2026-07-05T23:10:07+09:00",
     "m21": {
       "wl": 2.0,
       "ws": 0.0
@@ -583,6 +583,11 @@
       },
       {
         "date": "2026-07-04",
+        "total_return_pct": 30.2,
+        "holding_qty": 0
+      },
+      {
+        "date": "2026-07-05",
         "total_return_pct": 30.2,
         "holding_qty": 0
       }
@@ -993,6 +998,13 @@
         "qty": 531,
         "return_pct": 30.2,
         "memo": "KIS API 자동 갱신 [자동갱신 07-04 15:40]"
+      },
+      {
+        "date": "2026-07-05",
+        "action_short": "⏸ HOLD",
+        "qty": 531,
+        "return_pct": 30.2,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-05 15:40]"
       }
     ],
     "trading_stats": {
@@ -1000,7 +1012,7 @@
       "buy_count": 12,
       "sell_count": 11,
       "stop_loss_count": 5,
-      "hold_days": 35,
+      "hold_days": 36,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -1236,9 +1248,13 @@
       {
         "date": "2026-07-04",
         "drawdown_pct": -24.32
+      },
+      {
+        "date": "2026-07-05",
+        "drawdown_pct": -24.32
       }
     ],
-    "generated_at": "2026-07-04T23:10:10"
+    "generated_at": "2026-07-05T23:10:11"
   },
   "evaluation": {
     "month1_review": "2026-05-29",
