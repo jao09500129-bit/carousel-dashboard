@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-07-04T23:10:45.027090+09:00",
+  "computed_at": "2026-07-05T23:10:43.565362+09:00",
   "score": 39,
   "label": "FEAR",
   "label_kr": "약간 조심",
@@ -8,7 +8,7 @@
     "volatility": 22.0,
     "divergence": 50,
     "target_up_ratio": 50,
-    "publish_freq": 48.0,
+    "publish_freq": 50.0,
     "rotation_velocity": 30
   },
   "raw": {
@@ -17,7 +17,7 @@
     "n_signals": 0,
     "target_up": 0,
     "target_down": 0,
-    "total_items": 24,
+    "total_items": 25,
     "velocity": "빠름"
   },
   "note": "★ 추정 — Bloomberg Fear&Greed 영감, 5-factor 가중합. 백테스트 미검증."
