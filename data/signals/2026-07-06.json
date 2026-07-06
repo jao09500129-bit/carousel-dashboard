@@ -1,14 +1,63 @@
 {
-  "computed_at": "2026-07-06T16:00:48.244640+09:00",
+  "computed_at": "2026-07-06T23:10:50.453941+09:00",
   "date": "2026-07-06",
   "summary": {
-    "broker_consensus": 0,
+    "broker_consensus": 2,
     "target_price_cluster_up": 0,
     "target_price_cluster_down": 0,
     "divergence": 0
   },
   "signals": {
-    "broker_consensus": [],
+    "broker_consensus": [
+      {
+        "keyword": "더 간다",
+        "n_brokers": 2,
+        "brokers": [
+          "삼성",
+          "신한"
+        ],
+        "ups": 1,
+        "downs": 0,
+        "items": [
+          {
+            "title": "삼성전기 \"더 간다\" vs 하이브 \"하향 불가피\"…엇갈리는 증권가 눈높이",
+            "url": "https://www.hankyung.com/article/202607068361i",
+            "brokers": [
+              "삼성",
+              "신한"
+            ],
+            "target_action": "up",
+            "opinion": null,
+            "datetime": "2026-07-06T16:41:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 50.0
+      },
+      {
+        "keyword": "하향 불가피",
+        "n_brokers": 2,
+        "brokers": [
+          "삼성",
+          "신한"
+        ],
+        "ups": 1,
+        "downs": 0,
+        "items": [
+          {
+            "title": "삼성전기 \"더 간다\" vs 하이브 \"하향 불가피\"…엇갈리는 증권가 눈높이",
+            "url": "https://www.hankyung.com/article/202607068361i",
+            "brokers": [
+              "삼성",
+              "신한"
+            ],
+            "target_action": "up",
+            "opinion": null,
+            "datetime": "2026-07-06T16:41:00+09:00"
+          }
+        ],
+        "avg_target_change_pct": 50.0
+      }
+    ],
     "target_price_cluster_up": [],
     "target_price_cluster_down": [],
     "divergence": []

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-06T16:00:48.244640+09:00",
+  "collected_at": "2026-07-06T23:10:50.453941+09:00",
   "date": "2026-07-06",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,29 +7,211 @@
   ],
   "total_items": 25,
   "stats": {
-    "with_broker_mention": 4,
-    "target_price_up": 2,
+    "with_broker_mention": 2,
+    "target_price_up": 1,
     "target_price_down": 0,
     "top_brokers": [
       [
+        "삼성",
+        1
+      ],
+      [
+        "신한",
+        1
+      ],
+      [
         "대신",
-        1
-      ],
-      [
-        "키움",
-        1
-      ],
-      [
-        "NH",
-        1
-      ],
-      [
-        "메리츠",
         1
       ]
     ]
   },
   "items": [
+    {
+      "title": "40만원 간다더니 반토막 났다…LG전자 개미들 '피눈물' [종목+]",
+      "url": "https://www.hankyung.com/article/2026070683066",
+      "summary": "LG전자 주가가 한달여 만에 50% 넘게 떨어진 가운데 2분기 잠정실적 발표가 반등의 계기가 될지 시장의 관심이 쏠린다. 금융투자업계에 따르면 LG전자는 오는 7일 2분기 잠정실적을 발표할 계획이다.6일 한국거래소에 따르면 LG전자는 전 거래일 대비 5300원...",
+      "datetime_raw": "2026.07.06 22:00",
+      "datetime": "2026-07-06T22:00:00+09:00",
+      "dt": "2026-07-06 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "피눈물",
+        "40만원 간다더니 반토막 났다"
+      ],
+      "hash": "03ad1aeae764"
+    },
+    {
+      "title": "최태원 매직 시작된다…\"SK하이닉스, 외국기업 역대 최대 美 ADR\"",
+      "url": "https://www.hankyung.com/article/2026070683196",
+      "summary": "SK하이닉스가 나스닥시장에 약 290억달러 규모의 미국 주식예탁증서(ADR)를 상장하며 글로벌 자본시장 공략에 나선다. 인공지능(AI) 메모리 1위 기업이 미국 투자자와 직접 만날 수 있는 길이 열리면서 SK하이닉스의 밸류에이션(실적 대비 주가 수준)이 3위 메모리 기...",
+      "datetime_raw": "2026.07.06 20:00",
+      "datetime": "2026-07-06T20:00:00+09:00",
+      "dt": "2026-07-06 20:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "최태원 매직 시작된다",
+        "SK하이닉스, 외국기업 역대 최대 美 ADR"
+      ],
+      "hash": "a3c59c5d6e15"
+    },
+    {
+      "title": "加잠수함 수주 기대감…한화시스템 '들썩'",
+      "url": "https://www.hankyung.com/article/2026070685871",
+      "summary": "한화시스템이 캐나다 잠수함 사업 수혜 기대에 강세를 보였다. 지난 2분기 실적은 시장 기대치를 밑돌았을 것으로 추정되지만 중동 방공미사일 수출 확대와 차세대 무기체계 공급 증가로 성장 기대가 이어지고 있다.6일 유가증권시장에서 한화시스템은 7.15% 오른 8만900원에...",
+      "datetime_raw": "2026.07.06 18:13",
+      "datetime": "2026-07-06T18:13:00+09:00",
+      "dt": "2026-07-06 18:13",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "들썩",
+        "加잠수함 수주 기대감"
+      ],
+      "hash": "9e263ffda4ed"
+    },
+    {
+      "title": "반도체 소부장 ETF, 수익률 효자는 '전공정株'",
+      "url": "https://www.hankyung.com/article/2026070685841",
+      "summary": "같은 반도체 소재·부품·장비(소부장)에 투자하는 상장지수펀드(ETF)인데도 전공정, 후공정인지에 따라 최근 한 달 수익률이 40%포인트 가까이 벌어진 것으로 나타났다. 브이엠, 피에스케이 등 전공정 장비주를 담은 ETF는 두 자릿수 수익률을 낸...",
+      "datetime_raw": "2026.07.06 18:10",
+      "datetime": "2026-07-06T18:10:00+09:00",
+      "dt": "2026-07-06 18:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "전공정株",
+        "반도체 소부장 ETF"
+      ],
+      "hash": "f03dd6435e2e"
+    },
+    {
+      "title": "변동성 키운 '삼전닉스 레버리지' [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026070686551",
+      "summary": "변동성 키운 '삼전닉스 레버리지' 삼성전자와 SK하이닉스를 기초자산으로 하는 단일종목 레버리지 상장지수펀드(ETF)의 하루 리밸런싱 수요가 장 마감 시점에 해당 종목의 변동성을 크게 키우고 있다. 선물시장도 덩달아 출렁거린다. 얼마나 심각한 영...",
+      "datetime_raw": "2026.07.06 17:55",
+      "datetime": "2026-07-06T17:55:00+09:00",
+      "dt": "2026-07-06 17:55",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스 레버리지"
+      ],
+      "hash": "d1aebb4eafe4"
+    },
+    {
+      "title": "보스턴다이내믹스, 해외상장 탄력 받나",
+      "url": "https://www.hankyung.com/article/2026070686151",
+      "summary": "현대자동차그룹의 로봇 회사 보스턴다이내믹스와 같이 해외에 설립한 현지 법인의 해외 상장에 속도가 붙을 전망이다. 자회사 해외 상장에도 중복상장 규제가 적용되지만, 거래소의 깐깐한 심사는 피할 수 있게 됐다.6일 금융당국에 따르면 중복상장 심사 기준은 자회사 등을 해외 증시에 기업공개(IPO)할 때도 그대로 적용된다. 보스턴다이내믹스와 같이 해외 법인이 해외...",
+      "datetime_raw": "2026.07.06 17:33",
+      "datetime": "2026-07-06T17:33:00+09:00",
+      "dt": "2026-07-06 17:33",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "보스턴다이내믹스"
+      ],
+      "hash": "cf4f9eec51a9"
+    },
+    {
+      "title": "외환시장 24시간 시대...달라진 딜링룸",
+      "url": "https://www.hankyung.com/article/2026070685995",
+      "summary": "환율은 쉼 없이 움직이는데, 우리 외환시장은 그동안 새벽에 거래가 멈췄습니다. 오늘부터 국내 외환시장이 24시간 거래 체제로 전환되면서, 이런 공백이 사라지게 됐는데요.외국인 투자자들의 거래 접근성은 높아지고, 기업들의 환 위험 관리도 수월해질 것으로 기대됩니다. 김예...",
+      "datetime_raw": "2026.07.06 17:31",
+      "datetime": "2026-07-06T17:31:00+09:00",
+      "dt": "2026-07-06 17:31",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "외환시장 24시간 시대...달라진 딜링룸"
+      ],
+      "hash": "805e4b4b203d"
+    },
+    {
+      "title": "李 대통령, '나토 정상회의' 데뷔전…커지는 방산주 기대감",
+      "url": "https://www.hankyung.com/article/202607068264i",
+      "summary": "이재명 대통령이 오는 7~8일 튀르키예 앙카라에서 열리는 북대서양조약기구(나토·NATO) 연례 정상회의에 참석한다. 이 대통령이 나토 회원국을 상대로 'K-방산' 세일즈에 나설 것으로 관측되는 만큼 방산주에 대한 기대도 커지고 있다.6일 KE...",
+      "datetime_raw": "2026.07.06 16:46",
+      "datetime": "2026-07-06T16:46:00+09:00",
+      "dt": "2026-07-06 16:46",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "李 대통령",
+        "나토 정상회의"
+      ],
+      "hash": "5ba995de580b"
+    },
+    {
+      "title": "삼성전기 \"더 간다\" vs 하이브 \"하향 불가피\"…엇갈리는 증권가 눈높이",
+      "url": "https://www.hankyung.com/article/202607068361i",
+      "summary": "'구조적 성장 구간 진입 확인, 삼성전기 목표가 200만원에서 300만원으로 상향'(신한투자증권), '레이블 수익성 보수적으로 조정, 하이브 목표주가 38만원에서 33만원으로 하향'(삼성증권)….증권사들이 본격적인 2분기 실적 ...",
+      "datetime_raw": "2026.07.06 16:41",
+      "datetime": "2026-07-06T16:41:00+09:00",
+      "dt": "2026-07-06 16:41",
+      "brokers": [
+        "삼성",
+        "신한"
+      ],
+      "opinion": null,
+      "target_action": "up",
+      "target_change_pct": 50.0,
+      "keywords": [
+        "더 간다",
+        "하향 불가피"
+      ],
+      "hash": "218a0c76c445"
+    },
+    {
+      "title": "반도체에 가린 유통·소부장·증권…2분기 '깜짝 실적' 기대",
+      "url": "https://www.hankyung.com/article/2026070671751",
+      "summary": "상장사들의 상반기 성적표가 공개되는 7월 실적 시즌을 앞두고 ‘어닝 서프라이즈’ 종목을 향한 기대감이 커지고 있다. 상반기 내내 이어진 반도체 쏠림 장세로 인해 양호한 실적에도 저평가된 기업들이 어닝 서프라이즈와 함께 밸류에이션(실적 대비 주가 수...",
+      "datetime_raw": "2026.07.06 16:10",
+      "datetime": "2026-07-06T16:10:00+09:00",
+      "dt": "2026-07-06 16:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "깜짝 실적",
+        "반도체에 가린 유통"
+      ],
+      "hash": "48dda47ea991"
+    },
+    {
+      "title": "반도체 오를 때 바이오가 빠지는 진짜 이유",
+      "url": "https://www.hankyung.com/article/2026070671781",
+      "summary": "주식시장에서 반도체 등 대형 주도주가 급등할 때 바이오나 성장주가 하락하는 현상을 흔히 ‘수급 쏠림’으로 설명하곤 한다. 하지만 보다 근본적인 원인을 추적해 보면, 이는 ‘리얼옵션의 유지 비용이 급격히 상승했기 때문’으로 봐야...",
+      "datetime_raw": "2026.07.06 16:05",
+      "datetime": "2026-07-06T16:05:00+09:00",
+      "dt": "2026-07-06 16:05",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 오를 때 바이오가 빠지는 진짜 이유"
+      ],
+      "hash": "aa57f942270c"
+    },
     {
       "title": "삼전닉스 수익률 뛰어넘는 지주사…시세차익에 배당까지 '두둑'",
       "url": "https://www.hankyung.com/article/2026070671891",
@@ -182,194 +364,38 @@
       "hash": "14471515fb19"
     },
     {
-      "title": "홈플러스 회생절차 폐지에…'반사이익' 롯데쇼핑·이마트 강세",
-      "url": "https://www.hankyung.com/article/2026070671736",
-      "summary": "롯데쇼핑과 이마트가 강세다. 법원이 홈플러스의 회생절차를 폐지한 영향이다. 홈플러스 파산 가능성이 높아지면서 대형마트를 운영하는 두 기업의 반사 수혜가 기대되고 있다.6일 오전 9시21분 현재 롯데쇼핑은 전일 대비 1만900원(6.52%) 오른 17만8200원에, 이마...",
-      "datetime_raw": "2026.07.06 09:32",
-      "datetime": "2026-07-06T09:32:00+09:00",
-      "dt": "2026-07-06 09:32",
+      "title": "3만원짜리 1000원에 산다…다이소 '가격 파괴'에 품절 대란",
+      "url": "https://www.hankyung.com/article/202607056343i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "반사이익",
-        "홈플러스 회생절차 폐지에"
+        "가격 파괴",
+        "3만원짜리 1000원에 산다"
       ],
-      "hash": "d90d5b63bdf6"
+      "hash": "af507b22fe07"
     },
     {
-      "title": "코스피, 개인 '사자' 힘입어 상승폭 확대…8300선 회복",
-      "url": "https://www.hankyung.com/article/2026070669736",
-      "summary": "코스피지수가 6일 장 초반 개인 매수세 유입에 힘입어 8300선을 회복했다.이날 오전 9시18분 현재 코스피지수는 전 거래일보다 220.13포인트(2.72%) 오른 8308.47을 기록 중이다. 1%대 상승세로 장을 시작한 코스피는 오름폭을 확대해 장중 8300선을 탈...",
-      "datetime_raw": "2026.07.06 09:24",
-      "datetime": "2026-07-06T09:24:00+09:00",
-      "dt": "2026-07-06 09:24",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사자",
-        "코스피"
-      ],
-      "hash": "1046133be731"
-    },
-    {
-      "title": "구윤철 \"외환시장 24시 개장, 韓자본시장·원화 매력 높일 것\"",
-      "url": "https://www.hankyung.com/article/202607066893Y",
-      "summary": "한은 권민수 부총재보 \"외환시장 폭·깊이 확대 기대\"구윤철 부총리 겸 재정경제부 장관은 6일 외환시장 24시간 개장은 \"원화의 글로벌 도약을 위한 출발점\"이라면서 한국 자본시장과 원화의 매력도가 높아질 것이라고 강조했다.한국은행과 재경부에 따르면 구 부총리...",
-      "datetime_raw": "2026.07.06 09:22",
-      "datetime": "2026-07-06T09:22:00+09:00",
-      "dt": "2026-07-06 09:22",
+      "title": "YMTC 낸드 특허, 삼전닉스 압도…中 '포스트 HBM'도 넘본다",
+      "url": "https://www.hankyung.com/article/2026070564161",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "구윤철 \"외환시장 24시 개장",
-        "외환시장 24시 개장, 韓자본시장·원화 매력 높일 것"
+        "포스트 HBM",
+        "YMTC 낸드 특허"
       ],
-      "hash": "cc9e38ec5f24"
-    },
-    {
-      "title": "코스피 8,050선 등락… 외국인·기관 동반 매도 속 낙폭 축소, 완성차·증권 강세[오후 시황]",
-      "url": "https://www.hankyung.com/article/202607067082i",
-      "summary": "🕘 낙폭 축소 시도… 외국인·기관 매도 지속, 개인 홀로 순매수오후 2시 기준, 코스피는 전일 대비 38.46포인트(-0.48%) 하락한 8,049.88에 거래되고 있으며, 코스닥은 전일 대비 20.84포인트(-2.40%) 하락한 8...",
-      "datetime_raw": "2026.07.06 09:21",
-      "datetime": "2026-07-06T09:21:00+09:00",
-      "dt": "2026-07-06 09:21",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 8"
-      ],
-      "hash": "b184ace7c494"
-    },
-    {
-      "title": "한화오션, '60조' 캐나다 잠수함 수주전 결과 앞두고 '급등'",
-      "url": "https://www.hankyung.com/article/2026070670716",
-      "summary": "한화오션이 급등하고 있다. 60조원 규모에 달하는 ‘캐나다 차세대 잠수함 도입 사업(CPSP)’ 수주전의 결과 발표를 앞두고, 대형 수주 기대감에 매수세가 몰린 모습이다.6일 오전 9시7분 현재 한화오션은 전일 대비 8100원(7.58%) 오른 1...",
-      "datetime_raw": "2026.07.06 09:13",
-      "datetime": "2026-07-06T09:13:00+09:00",
-      "dt": "2026-07-06 09:13",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "급등",
-        "60조",
-        "한화오션"
-      ],
-      "hash": "af737119f8fa"
-    },
-    {
-      "title": "결국 믿을 건 삼전닉스? 1% 초고수들, '줍줍' 나섰다",
-      "url": "https://www.hankyung.com/article/202607067004i",
-      "summary": "투자수익률 상위 1%의 초고수들이 지난 3일 증시 반등을 활용해 SK하이닉스와 삼성전자 등 기존 주도주를 대거 매수한 것으로 나타났다. 두 종목의 수익률을 2배로 추종하는 단일 종목 레버리지 상품도 순매수 순위 상단에 이름을 올렸다.6일 키움증권에 따르면 투자원금 10...",
-      "datetime_raw": "2026.07.06 09:07",
-      "datetime": "2026-07-06T09:07:00+09:00",
-      "dt": "2026-07-06 09:07",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "줍줍",
-        "결국 믿을 건 삼전닉스? 1% 초고수들"
-      ],
-      "hash": "85eeeabcb5fa"
-    },
-    {
-      "title": "\"사두면 돈 된다\"…반도체 주춤한 사이 4000억 쓸어 담았다 [분석+]",
-      "url": "https://www.hankyung.com/article/2026070667156",
-      "summary": "최근 주도주인 반도체주가 단기 조정을 받는 사이 방산과 화장품 등 수출주가 반등하고 있다. 역대 최대 수출 실적과 풍부한 수주잔고를 확보한 업종에 기관을 중심으로 매수세가 유입된 결과란 분석이다. 증권가는 이 같은 흐름에 대해 반도체주 강세 사이클 종료보다는 특정 업종...",
-      "datetime_raw": "2026.07.06 08:54",
-      "datetime": "2026-07-06T08:54:00+09:00",
-      "dt": "2026-07-06 08:54",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사두면 돈 된다"
-      ],
-      "hash": "1ccad3f78f6a"
-    },
-    {
-      "title": "\"NHN, AI·클라우드 중심으로 사업 재편…목표가↑\"-NH",
-      "url": "https://www.hankyung.com/article/2026070669566",
-      "summary": "NH투자증권은 6일 NHN에 대해 \"과거 게임 사업 중심이었던 포트폴리오가 인공지능(AI)과 클라우드 중심으로 재편되고 있다\"고 분석했다. 투자의견 '매수'를 유지하고 목표주가는 기존 4만8000원에서 5만4000원으로 높였다.안재민 NH투자증권 연구원은...",
-      "datetime_raw": "2026.07.06 08:48",
-      "datetime": "2026-07-06T08:48:00+09:00",
-      "dt": "2026-07-06 08:48",
-      "brokers": [
-        "NH"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": -99.9375,
-      "keywords": [
-        "NHN"
-      ],
-      "hash": "d5b4b5b6e390"
-    },
-    {
-      "title": "\"애플 악재? 오히려 기회\"…LG이노텍 '110만원 간다'는 까닭 [종목+]",
-      "url": "https://www.hankyung.com/article/2026070667466",
-      "summary": "iM증권은 6일 LG이노텍에 대해 \"최근 주가 하락은 펀더멘털(기초 체력) 대비 과도하다\"며 목표주가를 기존 100만원에서 110만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 박정하 연구원은 \"애플이 맥북, 아이패드 가격을 크게 인상해...",
-      "datetime_raw": "2026.07.06 08:18",
-      "datetime": "2026-07-06T08:18:00+09:00",
-      "dt": "2026-07-06 08:18",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 10.0,
-      "keywords": [
-        "110만원 간다",
-        "애플 악재? 오히려 기회"
-      ],
-      "hash": "5061cb19033d"
-    },
-    {
-      "title": "삼전 실적·하닉 상장…금주 이벤트별 주가 영향 분석해보니",
-      "url": "https://www.hankyung.com/article/202607056136i",
-      "summary": "이번 주 글로벌 증시 주요 이벤트 개요이번 주(7월 6일~10일)는 국내외 증시에 중대한 영향을 미칠 수 있는 굵직한 이벤트들이 집중된 이른바 ‘슈퍼위크’로 평가된다.지난주(6월 29일~7월 3일) 코스피는 AI 인프라 투자 지속성에 대한 우려가 ...",
-      "datetime_raw": "2026.07.06 08:00",
-      "datetime": "2026-07-06T08:00:00+09:00",
-      "dt": "2026-07-06 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전 실적"
-      ],
-      "hash": "a17ea94a77c1"
-    },
-    {
-      "title": "\"50만전자 간다\"…6억 성과급 줘도 '90조' 역대급 전망 [종목+]",
-      "url": "https://www.hankyung.com/article/2026070667516",
-      "summary": "메리츠증권은 6일 삼성전자에 대해 2분기 영업이익이 성과급 충당금을 반영하더라도 90조원을 웃돌 것이라며 목표주가를 기존 42만원에서 50만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.삼성전자는 2분기 90조1000억원의 영업이익을 기록했을 것이...",
-      "datetime_raw": "2026.07.06 07:51",
-      "datetime": "2026-07-06T07:51:00+09:00",
-      "dt": "2026-07-06 07:51",
-      "brokers": [
-        "메리츠"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": 19.047619047619047,
-      "keywords": [
-        "90조",
-        "50만전자 간다"
-      ],
-      "hash": "7a2fcdd19b12"
+      "hash": "156f7ff04f28"
     },
     {
       "title": "월급 655만원 줘도 한국인 \"안 해\"…외국인이 절반 넘긴 직업",
@@ -404,23 +430,6 @@
       "hash": "2f078150dc2f"
     },
     {
-      "title": "3만원짜리 1000원에 산다…다이소 '가격 파괴'에 품절 대란",
-      "url": "https://www.hankyung.com/article/202607056343i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "가격 파괴",
-        "3만원짜리 1000원에 산다"
-      ],
-      "hash": "af507b22fe07"
-    },
-    {
       "title": "\"이걸 5000원에 살 수 있다니\"…1020 다이소 몰려간 이유",
       "url": "https://www.hankyung.com/article/202607034097i",
       "summary": "",
@@ -435,24 +444,56 @@
         "이걸 5000원에 살 수 있다니"
       ],
       "hash": "5623a35c0734"
-    },
-    {
-      "title": "YMTC 낸드 특허, 삼전닉스 압도…中 '포스트 HBM'도 넘본다",
-      "url": "https://www.hankyung.com/article/2026070564161",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "포스트 HBM",
-        "YMTC 낸드 특허"
-      ],
-      "hash": "156f7ff04f28"
     }
   ],
-  "consensus_signals": []
+  "consensus_signals": [
+    {
+      "keyword": "더 간다",
+      "n_brokers": 2,
+      "brokers": [
+        "삼성",
+        "신한"
+      ],
+      "ups": 1,
+      "downs": 0,
+      "items": [
+        {
+          "title": "삼성전기 \"더 간다\" vs 하이브 \"하향 불가피\"…엇갈리는 증권가 눈높이",
+          "url": "https://www.hankyung.com/article/202607068361i",
+          "brokers": [
+            "삼성",
+            "신한"
+          ],
+          "target_action": "up",
+          "opinion": null,
+          "datetime": "2026-07-06T16:41:00+09:00"
+        }
+      ],
+      "avg_target_change_pct": 50.0
+    },
+    {
+      "keyword": "하향 불가피",
+      "n_brokers": 2,
+      "brokers": [
+        "삼성",
+        "신한"
+      ],
+      "ups": 1,
+      "downs": 0,
+      "items": [
+        {
+          "title": "삼성전기 \"더 간다\" vs 하이브 \"하향 불가피\"…엇갈리는 증권가 눈높이",
+          "url": "https://www.hankyung.com/article/202607068361i",
+          "brokers": [
+            "삼성",
+            "신한"
+          ],
+          "target_action": "up",
+          "opinion": null,
+          "datetime": "2026-07-06T16:41:00+09:00"
+        }
+      ],
+      "avg_target_change_pct": 50.0
+    }
+  ]
 }
