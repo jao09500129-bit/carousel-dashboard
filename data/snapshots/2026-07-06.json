@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-06T15:01:20.856316+09:00",
+  "collected_at": "2026-07-06T16:00:48.244640+09:00",
   "date": "2026-07-06",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -30,6 +30,56 @@
     ]
   },
   "items": [
+    {
+      "title": "삼전닉스 수익률 뛰어넘는 지주사…시세차익에 배당까지 '두둑'",
+      "url": "https://www.hankyung.com/article/2026070671891",
+      "summary": "‘삼전닉스’(삼성전자·SK하이닉스)의 대체 투자처로 꼽히는 SK스퀘어, 삼성생명, 삼성물산의 기업가치가 높아지고 있다. 오히려 삼전닉스 주가 수익률을 뛰어넘으며 프리미엄을 형성하는 모습이다. 전문가들은 지분가치 상승 혜택을 누리면서 삼...",
+      "datetime_raw": "2026.07.06 15:59",
+      "datetime": "2026-07-06T15:59:00+09:00",
+      "dt": "2026-07-06 15:59",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "두둑",
+        "삼전닉스 수익률 뛰어넘는 지주사"
+      ],
+      "hash": "8a95db4c3b4f"
+    },
+    {
+      "title": "\"연평균 영업이익 성장률 99.9%에 달할 것\"...한화시스템 기대감↑",
+      "url": "https://www.hankyung.com/article/202607067983i",
+      "summary": "한화시스템이 캐나다 잠수함 사업 수혜 기대에 강세를 보였다. 2분기 실적은 시장 기대치를 밑돌 것으로 전망되지만, 중동 방공미사일 수출 확대와 차세대 무기체계 공급 증가로 성장 기대는 이어지고 있다.6일 유가증권시장에서 한화시스템은 전 거래일보다 7.15% 오른 8만9...",
+      "datetime_raw": "2026.07.06 15:58",
+      "datetime": "2026-07-06T15:58:00+09:00",
+      "dt": "2026-07-06 15:58",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "연평균 영업이익 성장률 99.9%에 달할 것"
+      ],
+      "hash": "fb5fb59cdd48"
+    },
+    {
+      "title": "코스피, 외인·기관 '팔자'에 하락…8000선은 사수",
+      "url": "https://www.hankyung.com/article/2026070681536",
+      "summary": "코스피지수가 6일 외국인과 기관의 동반 매도세에도 장중 하락폭을 줄여 8000선을 사수했다.이날 코스피지수는 전 거래일 대비 37.01포인트(0.46%) 내린 8051.33을 기록했다. 거래일 기준 하루 만에 약세로 전환했다. 1%대 상승 출발한 코스피는 한때 8300...",
+      "datetime_raw": "2026.07.06 15:51",
+      "datetime": "2026-07-06T15:51:00+09:00",
+      "dt": "2026-07-06 15:51",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔자",
+        "코스피"
+      ],
+      "hash": "ee93da671182"
+    },
     {
       "title": "코스피, 하락 전환해 장중 8000선 붕괴",
       "url": "https://www.hankyung.com/article/2026070675526",
@@ -322,54 +372,6 @@
       "hash": "7a2fcdd19b12"
     },
     {
-      "title": "글로벌 증시 분수령…삼전닉스 2분기 실적발표 시즌 개막한다",
-      "url": "https://www.hankyung.com/article/202607056511i",
-      "summary": "이번주 시작되는 국내 상장사의 2분기 실적발표가 하반기 글로벌 주식시장의 분수령이 될 전망이다. 미국과 일본 등 주요 시장&n...",
-      "datetime_raw": "2026.07.06 07:05",
-      "datetime": "2026-07-06T07:05:00+09:00",
-      "dt": "2026-07-06 07:05",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "글로벌 증시 분수령"
-      ],
-      "hash": "f6893023cc78"
-    },
-    {
-      "title": "독자 최애 코너는 '투자 고수에게 듣는다'",
-      "url": "https://www.hankyung.com/article/2026070565251",
-      "summary": "한경 프리미엄9에서 구독자들이 가장 즐겨보는 코너는 ‘투자 고수에게 듣는다’인 것으로 나타났다. 지난 5월 5일 출범 후 두 달간 한경 프리미엄9의 전체 64개 세부 메뉴에서 가장 많은 조회수를 기록한 코너는 ‘투자 고수에게 듣는다’ ‘초고수의 매매종목’ ‘한경 EXCLUSIVE&r...",
-      "datetime_raw": "2026.07.05 20:03",
-      "datetime": "2026-07-05T20:03:00+09:00",
-      "dt": "2026-07-05 20:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "투자 고수에게 듣는다"
-      ],
-      "hash": "19e2298b4abe"
-    },
-    {
-      "title": "식품사의 변신…AI 소재사로 우뚝 [한경 프리미엄9 TODAY]",
-      "url": "https://www.hankyung.com/article/2026070564081",
-      "summary": "식품사의 변신…AI 소재사로 우뚝MSG(글루탐산나트륨)를 세계 최초로 개발한 식품 회사 아지노모토가 인공지능(AI) 밸류체인의 핵심 소재 기업으로 재평가되고 있다. 아지노모토가 독점에 가깝게 공급하는 ABF(아지노모토 빌드업 필름)가 첨단 반도체...",
-      "datetime_raw": "2026.07.05 18:47",
-      "datetime": "2026-07-05T18:47:00+09:00",
-      "dt": "2026-07-05 18:47",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "식품사의 변신"
-      ],
-      "hash": "00cc156097b7"
-    },
-    {
       "title": "월급 655만원 줘도 한국인 \"안 해\"…외국인이 절반 넘긴 직업",
       "url": "https://www.hankyung.com/article/202607045665i",
       "summary": "",
@@ -402,22 +404,6 @@
       "hash": "2f078150dc2f"
     },
     {
-      "title": "\"이걸 5000원에 살 수 있다니\"…1020 다이소 몰려간 이유",
-      "url": "https://www.hankyung.com/article/202607034097i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "이걸 5000원에 살 수 있다니"
-      ],
-      "hash": "5623a35c0734"
-    },
-    {
       "title": "3만원짜리 1000원에 산다…다이소 '가격 파괴'에 품절 대란",
       "url": "https://www.hankyung.com/article/202607056343i",
       "summary": "",
@@ -435,8 +421,8 @@
       "hash": "af507b22fe07"
     },
     {
-      "title": "3개월 내내 주가 '뚝뚝'…\"드디어 돌아오나\" 개미 '들썩'",
-      "url": "https://www.hankyung.com/article/2026070347236",
+      "title": "\"이걸 5000원에 살 수 있다니\"…1020 다이소 몰려간 이유",
+      "url": "https://www.hankyung.com/article/202607034097i",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -446,11 +432,26 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "뚝뚝",
-        "들썩",
-        "드디어 돌아오나"
+        "이걸 5000원에 살 수 있다니"
       ],
-      "hash": "08661ff169bc"
+      "hash": "5623a35c0734"
+    },
+    {
+      "title": "YMTC 낸드 특허, 삼전닉스 압도…中 '포스트 HBM'도 넘본다",
+      "url": "https://www.hankyung.com/article/2026070564161",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "포스트 HBM",
+        "YMTC 낸드 특허"
+      ],
+      "hash": "156f7ff04f28"
     }
   ],
   "consensus_signals": []
