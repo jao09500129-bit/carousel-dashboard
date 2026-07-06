@@ -1,0 +1,449 @@
+{
+  "collected_at": "2026-07-06T09:31:12.979663+09:00",
+  "date": "2026-07-06",
+  "source": "hankyung_koreamarket_news",
+  "pages": [
+    "p1"
+  ],
+  "total_items": 25,
+  "stats": {
+    "with_broker_mention": 3,
+    "target_price_up": 2,
+    "target_price_down": 0,
+    "top_brokers": [
+      [
+        "키움",
+        1
+      ],
+      [
+        "NH",
+        1
+      ],
+      [
+        "메리츠",
+        1
+      ]
+    ]
+  },
+  "items": [
+    {
+      "title": "코스피, 개인 '사자' 힘입어 상승폭 확대…8300선 회복",
+      "url": "https://www.hankyung.com/article/2026070669736",
+      "summary": "코스피지수가 6일 장 초반 개인 매수세 유입에 힘입어 8300선을 회복했다.이날 오전 9시18분 현재 코스피지수는 전 거래일보다 220.13포인트(2.72%) 오른 8308.47을 기록 중이다. 1%대 상승세로 장을 시작한 코스피는 오름폭을 확대해 장중 8300선을 탈...",
+      "datetime_raw": "2026.07.06 09:24",
+      "datetime": "2026-07-06T09:24:00+09:00",
+      "dt": "2026-07-06 09:24",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "사자",
+        "코스피"
+      ],
+      "hash": "1046133be731"
+    },
+    {
+      "title": "구윤철 \"외환시장 24시 개장, 韓자본시장·원화 매력 높일 것\"",
+      "url": "https://www.hankyung.com/article/202607066893Y",
+      "summary": "한은 권민수 부총재보 \"외환시장 폭·깊이 확대 기대\"구윤철 부총리 겸 재정경제부 장관은 6일 외환시장 24시간 개장은 \"원화의 글로벌 도약을 위한 출발점\"이라면서 한국 자본시장과 원화의 매력도가 높아질 것이라고 강조했다.한국은행과 재경부에 따르면 구 부총리...",
+      "datetime_raw": "2026.07.06 09:22",
+      "datetime": "2026-07-06T09:22:00+09:00",
+      "dt": "2026-07-06 09:22",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "구윤철 \"외환시장 24시 개장",
+        "외환시장 24시 개장, 韓자본시장·원화 매력 높일 것"
+      ],
+      "hash": "cc9e38ec5f24"
+    },
+    {
+      "title": "반도체·조선 강세에 코스피 2.27% 급등 출발… 개인 순매수 주도 [개장 시황]",
+      "url": "https://www.hankyung.com/article/202607067082i",
+      "summary": "🕘 장초반 강세… 반도체·조선 업종 주도, 개인 매수세 유입오전 9시 10분 기준, 한국 증시는 반도체와 조선 업종의 강한 상승세에 힘입어 코스피가 큰 폭으로 오르며 출발했습니다. 미국 6월 비농업 고용지표가 예상치를 크게 하회하며 연준의 긴축...",
+      "datetime_raw": "2026.07.06 09:21",
+      "datetime": "2026-07-06T09:21:00+09:00",
+      "dt": "2026-07-06 09:21",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체"
+      ],
+      "hash": "b184ace7c494"
+    },
+    {
+      "title": "한화오션, '60조' 캐나다 잠수함 수주전 결과 앞두고 '급등'",
+      "url": "https://www.hankyung.com/article/2026070670716",
+      "summary": "한화오션이 급등하고 있다. 60조원 규모에 달하는 ‘캐나다 차세대 잠수함 도입 사업(CPSP)’ 수주전의 결과 발표를 앞두고, 대형 수주 기대감에 매수세가 몰린 모습이다.6일 오전 9시7분 현재 한화오션은 전일 대비 8100원(7.58%) 오른 1...",
+      "datetime_raw": "2026.07.06 09:13",
+      "datetime": "2026-07-06T09:13:00+09:00",
+      "dt": "2026-07-06 09:13",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "60조",
+        "한화오션"
+      ],
+      "hash": "af737119f8fa"
+    },
+    {
+      "title": "결국 믿을 건 삼전닉스? 1% 초고수들, '줍줍' 나섰다",
+      "url": "https://www.hankyung.com/article/202607067004i",
+      "summary": "투자수익률 상위 1%의 초고수들이 지난 3일 증시 반등을 활용해 SK하이닉스와 삼성전자 등 기존 주도주를 대거 매수한 것으로 나타났다. 두 종목의 수익률을 2배로 추종하는 단일 종목 레버리지 상품도 순매수 순위 상단에 이름을 올렸다.6일 키움증권에 따르면 투자원금 10...",
+      "datetime_raw": "2026.07.06 09:07",
+      "datetime": "2026-07-06T09:07:00+09:00",
+      "dt": "2026-07-06 09:07",
+      "brokers": [
+        "키움"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "줍줍",
+        "결국 믿을 건 삼전닉스? 1% 초고수들"
+      ],
+      "hash": "85eeeabcb5fa"
+    },
+    {
+      "title": "\"사두면 돈 된다\"…반도체 주춤한 사이 4000억 쓸어 담았다 [분석+]",
+      "url": "https://www.hankyung.com/article/2026070667156",
+      "summary": "최근 주도주인 반도체주가 단기 조정을 받는 사이 방산과 화장품 등 수출주가 반등하고 있다. 역대 최대 수출 실적과 풍부한 수주잔고를 확보한 업종에 기관을 중심으로 매수세가 유입된 결과란 분석이다. 증권가는 이 같은 흐름에 대해 반도체주 강세 사이클 종료보다는 특정 업종...",
+      "datetime_raw": "2026.07.06 08:54",
+      "datetime": "2026-07-06T08:54:00+09:00",
+      "dt": "2026-07-06 08:54",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "사두면 돈 된다"
+      ],
+      "hash": "1ccad3f78f6a"
+    },
+    {
+      "title": "\"NHN, AI·클라우드 중심으로 사업 재편…목표가↑\"-NH",
+      "url": "https://www.hankyung.com/article/2026070669566",
+      "summary": "NH투자증권은 6일 NHN에 대해 \"과거 게임 사업 중심이었던 포트폴리오가 인공지능(AI)과 클라우드 중심으로 재편되고 있다\"고 분석했다. 투자의견 '매수'를 유지하고 목표주가는 기존 4만8000원에서 5만4000원으로 높였다.안재민 NH투자증권 연구원은...",
+      "datetime_raw": "2026.07.06 08:48",
+      "datetime": "2026-07-06T08:48:00+09:00",
+      "dt": "2026-07-06 08:48",
+      "brokers": [
+        "NH"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": -99.9375,
+      "keywords": [
+        "NHN"
+      ],
+      "hash": "d5b4b5b6e390"
+    },
+    {
+      "title": "\"애플 악재? 오히려 기회\"…LG이노텍 '110만원 간다'는 까닭 [종목+]",
+      "url": "https://www.hankyung.com/article/2026070667466",
+      "summary": "iM증권은 6일 LG이노텍에 대해 \"최근 주가 하락은 펀더멘털(기초 체력) 대비 과도하다\"며 목표주가를 기존 100만원에서 110만원으로 상향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 박정하 연구원은 \"애플이 맥북, 아이패드 가격을 크게 인상해...",
+      "datetime_raw": "2026.07.06 08:18",
+      "datetime": "2026-07-06T08:18:00+09:00",
+      "dt": "2026-07-06 08:18",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 10.0,
+      "keywords": [
+        "110만원 간다",
+        "애플 악재? 오히려 기회"
+      ],
+      "hash": "5061cb19033d"
+    },
+    {
+      "title": "삼전 실적·하닉 상장…금주 이벤트별 주가 영향 분석해보니",
+      "url": "https://www.hankyung.com/article/202607056136i",
+      "summary": "이번 주 글로벌 증시 주요 이벤트 개요이번 주(7월 6일~10일)는 국내외 증시에 중대한 영향을 미칠 수 있는 굵직한 이벤트들이 집중된 이른바 ‘슈퍼위크’로 평가된다.지난주(6월 29일~7월 3일) 코스피는 AI 인프라 투자 지속성에 대한 우려가 ...",
+      "datetime_raw": "2026.07.06 08:00",
+      "datetime": "2026-07-06T08:00:00+09:00",
+      "dt": "2026-07-06 08:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전 실적"
+      ],
+      "hash": "a17ea94a77c1"
+    },
+    {
+      "title": "\"50만전자 간다\"…6억 성과급 줘도 '90조' 역대급 전망 [종목+]",
+      "url": "https://www.hankyung.com/article/2026070667516",
+      "summary": "메리츠증권은 6일 삼성전자에 대해 2분기 영업이익이 성과급 충당금을 반영하더라도 90조원을 웃돌 것이라며 목표주가를 기존 42만원에서 50만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.삼성전자는 2분기 90조1000억원의 영업이익을 기록했을 것이...",
+      "datetime_raw": "2026.07.06 07:51",
+      "datetime": "2026-07-06T07:51:00+09:00",
+      "dt": "2026-07-06 07:51",
+      "brokers": [
+        "메리츠"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": 19.047619047619047,
+      "keywords": [
+        "90조",
+        "50만전자 간다"
+      ],
+      "hash": "7a2fcdd19b12"
+    },
+    {
+      "title": "글로벌 증시 분수령…삼전닉스 2분기 실적발표 시즌 개막한다",
+      "url": "https://www.hankyung.com/article/202607056511i",
+      "summary": "이번주 시작되는 국내 상장사의 2분기 실적발표가 하반기 글로벌 주식시장의 분수령이 될 전망이다. 미국과 일본 등 주요 시장&n...",
+      "datetime_raw": "2026.07.06 07:05",
+      "datetime": "2026-07-06T07:05:00+09:00",
+      "dt": "2026-07-06 07:05",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "글로벌 증시 분수령"
+      ],
+      "hash": "f6893023cc78"
+    },
+    {
+      "title": "독자 최애 코너는 '투자 고수에게 듣는다'",
+      "url": "https://www.hankyung.com/article/2026070565251",
+      "summary": "한경 프리미엄9에서 구독자들이 가장 즐겨보는 코너는 ‘투자 고수에게 듣는다’인 것으로 나타났다. 지난 5월 5일 출범 후 두 달간 한경 프리미엄9의 전체 64개 세부 메뉴에서 가장 많은 조회수를 기록한 코너는 ‘투자 고수에게 듣는다’ ‘초고수의 매매종목’ ‘한경 EXCLUSIVE&r...",
+      "datetime_raw": "2026.07.05 20:03",
+      "datetime": "2026-07-05T20:03:00+09:00",
+      "dt": "2026-07-05 20:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "투자 고수에게 듣는다"
+      ],
+      "hash": "19e2298b4abe"
+    },
+    {
+      "title": "식품사의 변신…AI 소재사로 우뚝 [한경 프리미엄9 TODAY]",
+      "url": "https://www.hankyung.com/article/2026070564081",
+      "summary": "식품사의 변신…AI 소재사로 우뚝MSG(글루탐산나트륨)를 세계 최초로 개발한 식품 회사 아지노모토가 인공지능(AI) 밸류체인의 핵심 소재 기업으로 재평가되고 있다. 아지노모토가 독점에 가깝게 공급하는 ABF(아지노모토 빌드업 필름)가 첨단 반도체...",
+      "datetime_raw": "2026.07.05 18:47",
+      "datetime": "2026-07-05T18:47:00+09:00",
+      "dt": "2026-07-05 18:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "식품사의 변신"
+      ],
+      "hash": "00cc156097b7"
+    },
+    {
+      "title": "\"깜짝 실적 예고한 유통·증권주 관심 가져야\"",
+      "url": "https://www.hankyung.com/article/2026070564641",
+      "summary": "2분기 실적 시즌을 앞두고 어닝 서프라이즈(깜짝 실적)가 유력한 종목을 선점하는 전략이 각광 받고 있다. 상반기 내내 이어진 반도체 쏠림 장세로 양호한 실적에도 저평가된 종목이 급증했기 때문이다. 증권가에선 반도체주의 변동성이 확대되며 반도체 외 업종 가운데 저평가 종...",
+      "datetime_raw": "2026.07.05 18:45",
+      "datetime": "2026-07-05T18:45:00+09:00",
+      "dt": "2026-07-05 18:45",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "깜짝 실적 예고한 유통"
+      ],
+      "hash": "b76b1b6fb19e"
+    },
+    {
+      "title": "재테크 고수 되는 길, 한경 프리미엄9 영상에 답 있다",
+      "url": "https://www.hankyung.com/article/2026070564091",
+      "summary": "한국경제신문의 투자 정보 유료 플랫폼 ‘한경 프리미엄9’에서 진행하는 동영상 강의 콘텐츠가 주식·부동산 투자자에게 호평받고 있다. 경제 전반을 다루는 ‘모닝루틴 사이버대학’을 비롯해 ‘미국 주식 101&...",
+      "datetime_raw": "2026.07.05 18:34",
+      "datetime": "2026-07-05T18:34:00+09:00",
+      "dt": "2026-07-05 18:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "재테크 고수 되는 길"
+      ],
+      "hash": "e136c6b85875"
+    },
+    {
+      "title": "수수료 적고 수익률 높은 ETF, AI가 알려드려요",
+      "url": "https://www.hankyung.com/article/2026070564101",
+      "summary": "“◇◇◇ ETF 대신 같은 종목들로 구성된 □□□ ETF로 바꾸면 연간 수수료가 60만원 절약됩니다.”한경 프리미엄9 구독자에게 글라이드(GLIDE)의 상장지수펀드(ETF) 포트폴리오 분석 서비스가 1회 무료로 제공된다. 글라이드는 흩어져 있는 ETF와 연금 포트폴리오를 한 번에 분석해 투자자가 놓치기 쉬운 문제점을 진단하고 개선 방안...",
+      "datetime_raw": "2026.07.05 18:34",
+      "datetime": "2026-07-05T18:34:00+09:00",
+      "dt": "2026-07-05 18:34",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "수수료 적고 수익률 높은 ETF"
+      ],
+      "hash": "8bc8ce0d5ac3"
+    },
+    {
+      "title": "전세계가 '한국의 일주일' 주목한 이유가…'150조 터진다'",
+      "url": "https://www.hankyung.com/article/2026070564631",
+      "summary": "이번주 시작되는 국내 상장사의 2분기 실적발표가 하반기 글로벌 주식시장의 분수령이 될 전망이다. 미국과 일본 등 주요 시장 주도주로 떠오른 반도체 업종 투자심리를 좌우할 주요 이벤트로 삼성전자와 SK하이닉스의 2분기 실적이 지목되면서다. 두 회사가 내놓을 성적표와 업황...",
+      "datetime_raw": "2026.07.05 17:48",
+      "datetime": "2026-07-05T17:48:00+09:00",
+      "dt": "2026-07-05 17:48",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "한국의 일주일",
+        "150조 터진다"
+      ],
+      "hash": "58f65f466c82"
+    },
+    {
+      "title": "삼성전자 100조 넘을까…AI랠리 분수령",
+      "url": "https://www.hankyung.com/article/2026070564551",
+      "summary": "이번주 시작되는 국내 상장사의 2분기 실적발표가 하반기 글로벌 주식시장의 분수령이 될 전망이다. 미국과 일본 등 주요 시장 주도주로 떠오른 반도체 업종 투자심리를 좌우할 주요 이벤트로 삼성전자와 SK하이닉스의 2분기 실적이 지목되면서다. 두 회사가 내놓을 성적표와 업황 평가, 가격 전략 등에 따라 글로벌 인공지능(AI) 밸류체인 랠리의 향방이 결정될 것이라...",
+      "datetime_raw": "2026.07.05 17:47",
+      "datetime": "2026-07-05T17:47:00+09:00",
+      "dt": "2026-07-05 17:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자 100조 넘을까"
+      ],
+      "hash": "7c225657dda1"
+    },
+    {
+      "title": "국제유가 안정세에 정유株 반등…\"에쓰오일 고배당 복귀 기대\"",
+      "url": "https://www.hankyung.com/article/202607056227i",
+      "summary": "중동의 지정학적 리스크가 완화되면서 정유업종 주가가 반등하고 있다. 국제유가가 안정 국면에 접어들면서 원유 조달 비용 부담이 낮아지고 정제마진이 개선될 것이란 기대가 커진 영향이다.5일 한국거래소에 따르면 에쓰오일의 주가는 지난달 26일 9만3200원에서 이달 3일 1...",
+      "datetime_raw": "2026.07.05 16:47",
+      "datetime": "2026-07-05T16:47:00+09:00",
+      "dt": "2026-07-05 16:47",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "에쓰오일 고배당 복귀 기대",
+        "국제유가 안정세에 정유株 반등"
+      ],
+      "hash": "51ef4e4853b2"
+    },
+    {
+      "title": "\"변동성에 AI 사이클 안 끝나…하반기엔 소프트웨어 기업 주목\"",
+      "url": "https://www.hankyung.com/article/202607056056i",
+      "summary": "“일시적인 변동성 때문에 AI 사이클이 끝나지는 않습니다. 다만 하반기부터는 '수익성'을 증명해내는 소프트웨어 기업 중심으로 투자 패러다임이 바뀔 수 있습니다”강영수 KCGI자산운용 글로벌 운용본부장(사진)은 최근 한국경제신...",
+      "datetime_raw": "2026.07.05 16:24",
+      "datetime": "2026-07-05T16:24:00+09:00",
+      "dt": "2026-07-05 16:24",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "변동성에 AI 사이클 안 끝나"
+      ],
+      "hash": "321ab6bb1668"
+    },
+    {
+      "title": "월급 655만원 줘도 한국인 \"안 해\"…외국인이 절반 넘긴 직업",
+      "url": "https://www.hankyung.com/article/202607045665i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "안 해"
+      ],
+      "hash": "f69ae8455be2"
+    },
+    {
+      "title": "\"동네 마트 겁나서 못 가요\"…2030 싱글족 몰리더니 7조 잭팟",
+      "url": "https://www.hankyung.com/article/202607045487g",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "동네 마트 겁나서 못 가요"
+      ],
+      "hash": "2f078150dc2f"
+    },
+    {
+      "title": "\"이걸 5000원에 살 수 있다니\"…1020 다이소 몰려간 이유",
+      "url": "https://www.hankyung.com/article/202607034097i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이걸 5000원에 살 수 있다니"
+      ],
+      "hash": "5623a35c0734"
+    },
+    {
+      "title": "3개월 내내 주가 '뚝뚝'…\"드디어 돌아오나\" 개미 '들썩'",
+      "url": "https://www.hankyung.com/article/2026070347236",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "뚝뚝",
+        "들썩",
+        "드디어 돌아오나"
+      ],
+      "hash": "08661ff169bc"
+    },
+    {
+      "title": "조퇴하더니 \"3일 쉴게요\" 통보…400만원 날린 회사 '분통'",
+      "url": "https://www.hankyung.com/article/202607019277i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "분통",
+        "3일 쉴게요"
+      ],
+      "hash": "53104a545908"
+    }
+  ],
+  "consensus_signals": []
+}
