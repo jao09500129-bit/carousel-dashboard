@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-06T11:00:59.657999+09:00",
+  "collected_at": "2026-07-06T13:01:01.544360+09:00",
   "date": "2026-07-06",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -30,6 +30,38 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피, 하락 전환해 장중 8000선 붕괴",
+      "url": "https://www.hankyung.com/article/2026070675526",
+      "summary": "코스피지수가 6일 하락 전환해 장중 8000선이 붕괴됐다.이날 오전 11시5분 현재 코스피지수는 전 거래일보다 17.03포인트(0.21%) 하락한 8071.31을 기록 중이다. 코스피지수는 한때 8000선 밑으로 내려가기도 했다.이 시각 현재 유가증권시장에서 개인은 1...",
+      "datetime_raw": "2026.07.06 11:10",
+      "datetime": "2026-07-06T11:10:00+09:00",
+      "dt": "2026-07-06 11:10",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "d24308b475bc"
+    },
+    {
+      "title": "\"이번주 큰거 온다\" 삼전닉스 쓸어담는 상위 1% 초고수들",
+      "url": "https://www.hankyung.com/article/202607067491i",
+      "summary": "투자수익률 상위 1%의 초고수들이 6일 장 초반 삼성전자와 SK하이닉스를 집중매수하고 있는 것으로 나타났다. 삼성전자의 잠정 실적 발표와 SK하이닉스의 미국 주식예탁증권(ADR) 상장 등 이번주 대기 중인 이벤트를 앞두고 선제적으로 매수에 나섰다는 해석이다.6일 미래에...",
+      "datetime_raw": "2026.07.06 11:03",
+      "datetime": "2026-07-06T11:03:00+09:00",
+      "dt": "2026-07-06 11:03",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이번주 큰거 온다"
+      ],
+      "hash": "bfe9f2ce4a43"
+    },
     {
       "title": "두나무, '업클래스 앰배서더 1기' 해단식 개최…3개월 활동 마무리",
       "url": "https://www.hankyung.com/article/202607067509B",
@@ -338,38 +370,6 @@
       "hash": "00cc156097b7"
     },
     {
-      "title": "재테크 고수 되는 길, 한경 프리미엄9 영상에 답 있다",
-      "url": "https://www.hankyung.com/article/2026070564091",
-      "summary": "한국경제신문의 투자 정보 유료 플랫폼 ‘한경 프리미엄9’에서 진행하는 동영상 강의 콘텐츠가 주식·부동산 투자자에게 호평받고 있다. 경제 전반을 다루는 ‘모닝루틴 사이버대학’을 비롯해 ‘미국 주식 101&...",
-      "datetime_raw": "2026.07.05 18:34",
-      "datetime": "2026-07-05T18:34:00+09:00",
-      "dt": "2026-07-05 18:34",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "재테크 고수 되는 길"
-      ],
-      "hash": "e136c6b85875"
-    },
-    {
-      "title": "수수료 적고 수익률 높은 ETF, AI가 알려드려요",
-      "url": "https://www.hankyung.com/article/2026070564101",
-      "summary": "“◇◇◇ ETF 대신 같은 종목들로 구성된 □□□ ETF로 바꾸면 연간 수수료가 60만원 절약됩니다.”한경 프리미엄9 구독자에게 글라이드(GLIDE)의 상장지수펀드(ETF) 포트폴리오 분석 서비스가 1회 무료로 제공된다. 글라이드는 흩어져 있는 ETF와 연금 포트폴리오를 한 번에 분석해 투자자가 놓치기 쉬운 문제점을 진단하고 개선 방안...",
-      "datetime_raw": "2026.07.05 18:34",
-      "datetime": "2026-07-05T18:34:00+09:00",
-      "dt": "2026-07-05 18:34",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "수수료 적고 수익률 높은 ETF"
-      ],
-      "hash": "8bc8ce0d5ac3"
-    },
-    {
       "title": "월급 655만원 줘도 한국인 \"안 해\"…외국인이 절반 넘긴 직업",
       "url": "https://www.hankyung.com/article/202607045665i",
       "summary": "",
@@ -436,8 +436,8 @@
       "hash": "08661ff169bc"
     },
     {
-      "title": "조퇴하더니 \"3일 쉴게요\" 통보…400만원 날린 회사 '분통'",
-      "url": "https://www.hankyung.com/article/202607019277i",
+      "title": "中 반도체 무시했는데…'삼전닉스 압도' 충격 결과에 초긴장",
+      "url": "https://www.hankyung.com/article/2026070564161",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -447,10 +447,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "분통",
-        "3일 쉴게요"
+        "삼전닉스 압도",
+        "中 반도체 무시했는데"
       ],
-      "hash": "53104a545908"
+      "hash": "156f7ff04f28"
     }
   ],
   "consensus_signals": []
