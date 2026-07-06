@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-06T13:01:01.544360+09:00",
+  "collected_at": "2026-07-06T15:01:20.856316+09:00",
   "date": "2026-07-06",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -183,18 +183,18 @@
       "hash": "cc9e38ec5f24"
     },
     {
-      "title": "코스피 8200선 유지 중… 개인 순매수 주도, 반도체·조선·증권 강세[오전 시황]",
+      "title": "코스피 8,050선 등락… 외국인·기관 동반 매도 속 낙폭 축소, 완성차·증권 강세[오후 시황]",
       "url": "https://www.hankyung.com/article/202607067082i",
-      "summary": "🕘 개인 매수세 주도 속 반도체·조선 강세 지속오전 10시 기준, 코스피는 전일 대비 138.24포인트(1.71%) 상승한 8,226.58에 거래되고 있으며, 장 초반 8,327선까지 오르는 강한 상승 흐름을 보인 뒤 다소 상승폭이 축소된 상태입...",
+      "summary": "🕘 낙폭 축소 시도… 외국인·기관 매도 지속, 개인 홀로 순매수오후 2시 기준, 코스피는 전일 대비 38.46포인트(-0.48%) 하락한 8,049.88에 거래되고 있으며, 코스닥은 전일 대비 20.84포인트(-2.40%) 하락한 8...",
       "datetime_raw": "2026.07.06 09:21",
       "datetime": "2026-07-06T09:21:00+09:00",
       "dt": "2026-07-06 09:21",
       "brokers": [],
-      "opinion": "매수",
+      "opinion": "매도",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "코스피 8200선 유지 중"
+        "코스피 8"
       ],
       "hash": "b184ace7c494"
     },
@@ -418,6 +418,23 @@
       "hash": "5623a35c0734"
     },
     {
+      "title": "3만원짜리 1000원에 산다…다이소 '가격 파괴'에 품절 대란",
+      "url": "https://www.hankyung.com/article/202607056343i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "가격 파괴",
+        "3만원짜리 1000원에 산다"
+      ],
+      "hash": "af507b22fe07"
+    },
+    {
       "title": "3개월 내내 주가 '뚝뚝'…\"드디어 돌아오나\" 개미 '들썩'",
       "url": "https://www.hankyung.com/article/2026070347236",
       "summary": "",
@@ -434,23 +451,6 @@
         "드디어 돌아오나"
       ],
       "hash": "08661ff169bc"
-    },
-    {
-      "title": "中 반도체 무시했는데…'삼전닉스 압도' 충격 결과에 초긴장",
-      "url": "https://www.hankyung.com/article/2026070564161",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 압도",
-        "中 반도체 무시했는데"
-      ],
-      "hash": "156f7ff04f28"
     }
   ],
   "consensus_signals": []
