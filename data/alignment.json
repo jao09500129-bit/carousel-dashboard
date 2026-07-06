@@ -1,9 +1,14 @@
 {
-  "computed_at": "2026-07-06T16:00:48.244640+09:00",
+  "computed_at": "2026-07-06T23:10:50.453941+09:00",
   "carousel_recommendation": "반도체",
   "carousel_sector": "정보기술",
-  "consensus_top": [],
-  "alignment_score": 0,
+  "consensus_top": [
+    {
+      "sector": "기타",
+      "weight": 1.0
+    }
+  ],
+  "alignment_score": 30,
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
   "note": "★ 추정 — 섹터 매핑 휴리스틱, 백테스트 미검증."
