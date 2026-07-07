@@ -1,0 +1,451 @@
+{
+  "collected_at": "2026-07-07T10:15:06.450147+09:00",
+  "date": "2026-07-07",
+  "source": "hankyung_koreamarket_news",
+  "pages": [
+    "p1"
+  ],
+  "total_items": 25,
+  "stats": {
+    "with_broker_mention": 5,
+    "target_price_up": 2,
+    "target_price_down": 1,
+    "top_brokers": [
+      [
+        "KB",
+        2
+      ],
+      [
+        "한화",
+        1
+      ],
+      [
+        "LS",
+        1
+      ],
+      [
+        "하나",
+        1
+      ]
+    ]
+  },
+  "items": [
+    {
+      "title": "\"이제 반도체 팔아라\"…모건스탠리 파격 전망",
+      "url": "https://www.hankyung.com/article/202607079276i",
+      "summary": "글로벌 투자은행(IB) 모건스탠리가 삼성전자와 SK하이닉스, 마이크론 등 메모리 반도체 관련주의 비중을 축소하고 빅테크 하이퍼스케일러의 비중을 확대할 것을 권고했다. 반도체주의 실적 모멘텀이 정점을 지났고, 추가 조정 가능성이 상대적으로 높다는 분석이다.모건스탠리는 지...",
+      "datetime_raw": "2026.07.07 09:46",
+      "datetime": "2026-07-07T09:46:00+09:00",
+      "dt": "2026-07-07 09:46",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "이제 반도체 팔아라"
+      ],
+      "hash": "db2f6c00c1f7"
+    },
+    {
+      "title": "삼성전자, 2분기 '어닝 서프라이즈'에도 5%대 급락",
+      "url": "https://www.hankyung.com/article/2026070795546",
+      "summary": "삼성전자가 올 2분기 시장 기대치를 넘어서는 최대 실적을 발표했음에도 주가가 7일 장 초반 급락하고 있다. 이날 오전 9시34분 현재 삼성전자는 전 거래일보다 1만7500원(5.5%) 내린 30만500원을 기록하고 있다. 장중 6% 넘게 급락해 29만원선으로 ...",
+      "datetime_raw": "2026.07.07 09:37",
+      "datetime": "2026-07-07T09:37:00+09:00",
+      "dt": "2026-07-07 09:37",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼성전자",
+        "어닝 서프라이즈"
+      ],
+      "hash": "4bf1a36b217b"
+    },
+    {
+      "title": "남성, 30% 무상증자 결정 소식에 '급등'",
+      "url": "https://www.hankyung.com/article/2026070795366",
+      "summary": "유가증권시장 상장사 남성이 30% 무상증자를 결정했다는 소식 이후 주가가 7일 장 초반 급등세다. 무상증자에 따른 주식 수 증가로 거래량이 늘어날 것이란 기대가 반영된 것으로 풀이된다.이날 오전 9시29분 현재 남성은 전 거래일보다 590원(8.39%) 오른 7620원을 기록하고 있다. 장중 13%대까지 상승폭을 키우기도 했다.앞서 남성은 전날 장 마감 후...",
+      "datetime_raw": "2026.07.07 09:32",
+      "datetime": "2026-07-07T09:32:00+09:00",
+      "dt": "2026-07-07 09:32",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "남성"
+      ],
+      "hash": "17d30a6b8fcc"
+    },
+    {
+      "title": "\"7700선도 위험하다\" 반도체·조선·방산 급락...코스닥은 3%대 상승[오전 10시 시황]",
+      "url": "https://www.hankyung.com/article/202607079333i",
+      "summary": "\"7700선도 위협\" 반도체·조선·방산 급락...코스닥은 3%대 상승 [오전 10시 시황]🕘 코스피 급락·코스닥 상승… 극명한 혼조세오전 10시 기준, 국내 증시는 코스피와 코스닥이 극명하게 엇갈리는 혼조세를 보이고 있...",
+      "datetime_raw": "2026.07.07 09:23",
+      "datetime": "2026-07-07T09:23:00+09:00",
+      "dt": "2026-07-07 09:23",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "7700선도 위험하다"
+      ],
+      "hash": "ebe65134657a"
+    },
+    {
+      "title": "코스피, 삼전 호실적에도 3%대 급락…7700선으로 밀려",
+      "url": "https://www.hankyung.com/article/2026070794216",
+      "summary": "코스피지수가 7일 장 초반 3% 넘게 급락해 7700선까지 밀렸다. 삼성전자의 2분기 최대 실적을 확인한 투자자들이 차익 실현 매물을 대거 쏟아낸 탓으로 풀이된다.이날 오전 9시16분 현재 코스피지수는 293.39포인트(3.64%) 내린 7757.94를 기록하고 있다....",
+      "datetime_raw": "2026.07.07 09:20",
+      "datetime": "2026-07-07T09:20:00+09:00",
+      "dt": "2026-07-07 09:20",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "585162a332bd"
+    },
+    {
+      "title": "서울옥션, 125억원 규모 교환사채 전액 조기상환",
+      "url": "https://www.hankyung.com/article/2026070794956",
+      "summary": "서울옥션이 125억원 규모의 제1회 무기명식 무보증 사모 교환사채(EB)를 전액 조기상환했다고 7일 공시했다.해당 교환사채는 자기주식 75만1201주를 교환 대상으로 2023년 발행됐다. 서울옥션은 사채권자의 조기상환청구권 행사에 따라 전액 상환을 완료했다고 밝혔다.회...",
+      "datetime_raw": "2026.07.07 09:19",
+      "datetime": "2026-07-07T09:19:00+09:00",
+      "dt": "2026-07-07 09:19",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "서울옥션"
+      ],
+      "hash": "cbd99896349d"
+    },
+    {
+      "title": "한화오션, 캐나다 잠수함 수주전 고배에 '급락'",
+      "url": "https://www.hankyung.com/article/2026070794796",
+      "summary": "한화오션이 급락하고 있다. 캐나다의 차세대 잠수함 건조 사업(CPSP) 수주전에서 독일 티센크루프마린시스템즈(TKMS)에 고배를 마신 결과다.7일 오전 9시10분 현재 한화오션은 전일 대비 2만4800원(21.36%) 내린 9만1300원에 거래되고 있다.전일엔 CPSP...",
+      "datetime_raw": "2026.07.07 09:15",
+      "datetime": "2026-07-07T09:15:00+09:00",
+      "dt": "2026-07-07 09:15",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급락",
+        "한화오션"
+      ],
+      "hash": "6be7bcb90d44"
+    },
+    {
+      "title": "씨싸이트 \"GAP 주문 증가에 인도네시아 공장 가동률 150%↑\"",
+      "url": "https://www.hankyung.com/article/2026070794336",
+      "summary": "씨싸이트는 주요 고객사의 주문 증가에 힘입어 올해 들어 인도네시아 공장 가동률이 크게 높아졌다고 7일 밝혔다.회사 측은 가동률이 전년의 250% 수준에 달한다고 강조했다.씨사이트의 인도네시아 공장은 GAP의 의류의 위탁생산을 전담하고 있다. 이 브랜드의 주문 확대와 라...",
+      "datetime_raw": "2026.07.07 09:04",
+      "datetime": "2026-07-07T09:04:00+09:00",
+      "dt": "2026-07-07 09:04",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "GAP 주문 증가에 인도네시아 공장 가동률 150%↑"
+      ],
+      "hash": "5fb7d56daecc"
+    },
+    {
+      "title": "코스피, 1.64% 하락 출발…8000선 아래로",
+      "url": "https://www.hankyung.com/article/2026070794136",
+      "summary": "[속보] 코스피, 1.64% 하락 출발…8000선 아래로고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.07.07 09:01",
+      "datetime": "2026-07-07T09:01:00+09:00",
+      "dt": "2026-07-07 09:01",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "9ebefcd5a2b2"
+    },
+    {
+      "title": "'실적 D-day' 삼성전자 담은 초고수…SK하이닉스도 쓸어담았다",
+      "url": "https://www.hankyung.com/article/202607079143i",
+      "summary": "투자수익률 상위 1%의 초고수들이 지난 6일 증시에서 조정받은 반도체 대표주를 집중적으로 사들인 것으로 나타났다. SK하이닉스와 삼성전자가 나란히 순매수 1·2위를 차지했고, SK하이닉스 단일종목 레버리지 상장지수펀드(ETF)도 상위권에 이름을 올렸다.7일...",
+      "datetime_raw": "2026.07.07 09:00",
+      "datetime": "2026-07-07T09:00:00+09:00",
+      "dt": "2026-07-07 09:00",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "실적 D"
+      ],
+      "hash": "8353d3fb87c5"
+    },
+    {
+      "title": "철강·리튬 사업 기대감↑… 증권가 \"포스코홀딩스 75% 상승 여력\"",
+      "url": "https://www.hankyung.com/article/202607068369i",
+      "summary": "2분기 실적부진 우려로 최근 조정을 받아온 POSCO홀딩스가 3분기부터 실적이 반등할 것이란 전망이 나왔다. 철강 업황과 이차전지 소재 사업의 수익성이 동시에 개선될 것이란 이유에서다. 6일 유가증권시장에서 POSCO홀딩스는 전 거래일보다 0.47% ...",
+      "datetime_raw": "2026.07.07 08:30",
+      "datetime": "2026-07-07T08:30:00+09:00",
+      "dt": "2026-07-07 08:30",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "철강",
+        "포스코홀딩스 75% 상승 여력"
+      ],
+      "hash": "1e2d0c222c01"
+    },
+    {
+      "title": "영업이익 1810% 늘었는데…삼성전자 프리마켓서 약세",
+      "url": "https://www.hankyung.com/article/202607079254i",
+      "summary": "삼성전자의 '어닝 서프라이즈' 발표에도 프리마켓에서 주가가 약세를 보이고 있다. 7일 넥스트레이드 프리마켓에 따르면 오전 8시 24분 기준 삼성전자는 전일 대비 2.67% 내린 30만9500원에 거래 중이다. 이날 오전 삼성전자는 2분기 잠정실적...",
+      "datetime_raw": "2026.07.07 08:29",
+      "datetime": "2026-07-07T08:29:00+09:00",
+      "dt": "2026-07-07 08:29",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "영업이익 1810% 늘었는데"
+      ],
+      "hash": "204d19adcc70"
+    },
+    {
+      "title": "AI 메모리가 이끈 독주…삼성전자, 역대급 수익성으로 ‘슈퍼사이클’ 증명",
+      "url": "https://www.hankyung.com/article/202607079241i",
+      "summary": "삼성전자가 7일 오전 2026년 2분기 잠정실적을 발표했다. 공시된 수치는 매출액 171조 원, 영업이익 89조 4,000억 원으로 직전 분기(2026년 1분기) 매출액 133조 8,734억 원, 영업이익 57조 2,328억 원 대비 각각 약 27.7%, 56.2% 증...",
+      "datetime_raw": "2026.07.07 08:28",
+      "datetime": "2026-07-07T08:28:00+09:00",
+      "dt": "2026-07-07 08:28",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "슈퍼사이클",
+        "AI 메모리가 이끈 독주"
+      ],
+      "hash": "65eadb46dcd9"
+    },
+    {
+      "title": "\"삼성에스디에스, 2분기 실적 기대 웃돌 것…목표가↑\"-한화",
+      "url": "https://www.hankyung.com/article/2026070792316",
+      "summary": "한화투자증권은 7일 삼성에스디에스에 대해 \"2분기 실적이 시장 기대치를 웃돌 것\"이라며 투자의견 '매수'를 유지하고 목표주가는 기존 21만원에서 25만원으로 올렸다. 김소혜 한화투자증권 연구원은 \"2분기 매출액은 3조6900억원, 영업이익은 24...",
+      "datetime_raw": "2026.07.07 08:27",
+      "datetime": "2026-07-07T08:27:00+09:00",
+      "dt": "2026-07-07 08:27",
+      "brokers": [
+        "한화"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 19.047619047619047,
+      "keywords": [
+        "삼성에스디에스"
+      ],
+      "hash": "46745df2c831"
+    },
+    {
+      "title": "거래소, 코스닥시장위원장으로 김우찬 고려대 교수 선임",
+      "url": "https://www.hankyung.com/article/2026070792696",
+      "summary": "한국거래소는 지난 6일 서울사옥에서 임시주주총회를 열고 김우찬 고려대 경영대 교수를 코스닥시장위원장으로 선임했다고 밝혔다.김우찬 신임 코스닥위원장의 임기는 7일부터 2028년 7월6일까지다.김 위원장은 서울대에서 국제경제학을 전공하고 미국 하버드대에서 정책학 석&mid...",
+      "datetime_raw": "2026.07.07 08:26",
+      "datetime": "2026-07-07T08:26:00+09:00",
+      "dt": "2026-07-07 08:26",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "거래소"
+      ],
+      "hash": "046026831337"
+    },
+    {
+      "title": "\"HPSP, 고압어닐링 장비 더 다양한 반도체 공정 적용될 것\"-KB",
+      "url": "https://www.hankyung.com/article/2026070792206",
+      "summary": "KB증권은 7일 HPSP에 대해 \"회사는 글로벌 파운드리(반도체 수탁생산) 및 메모리 업체들의 선단 공정 전환 투자 수혜를 입을 것으로 예상된다\"며 \"HPSP의 핵심 장비인 고압어닐링(HPA) 장비가 기존보다 더 다양한 반도체 공정에 적용될 가능성도 커지고 있다\"고 말...",
+      "datetime_raw": "2026.07.07 08:15",
+      "datetime": "2026-07-07T08:15:00+09:00",
+      "dt": "2026-07-07 08:15",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "HPSP"
+      ],
+      "hash": "a3da74ce6f25"
+    },
+    {
+      "title": "\"포스코퓨처엠, 최대주주 오버행 이슈…목표가↓\"-LS",
+      "url": "https://www.hankyung.com/article/2026070792046",
+      "summary": "LS증권은 7일 포스코퓨처엠에 대해 \"최대주주가 보유 지분율을 조정하겠다고 밝힌 점은 중단기 오버행(대량 매물 부담) 이슈로 작용할 것\"이라고 분석했다. 목표주가는 기존 26만6000원에서 14만원으로 낮추고 투자의견 '중립'을 유지했다.이 증권사 정경희...",
+      "datetime_raw": "2026.07.07 08:09",
+      "datetime": "2026-07-07T08:09:00+09:00",
+      "dt": "2026-07-07 08:09",
+      "brokers": [
+        "LS"
+      ],
+      "opinion": "보유",
+      "target_action": "down",
+      "target_change_pct": -99.76666666666667,
+      "keywords": [
+        "포스코퓨처엠"
+      ],
+      "hash": "05bee0da135c"
+    },
+    {
+      "title": "AI 데이터센터 띄운 GS…주가 조정 딛고 반등 시동 [종목+]",
+      "url": "https://www.hankyung.com/article/2026070790806",
+      "summary": "GS가 인공지능(AI) 데이터센터 사업을 미래 성장동력으로 공식화하자 주가가 반등세를 탔다. 정유·발전 자회사의 실적 개선 기대에 더해 대규모 AI 인프라 사업이 지주사 할인율을 낮출 수 있다는 기대도 커지고 있다.7일 한국거래소에 따르면 GS 주...",
+      "datetime_raw": "2026.07.07 08:09",
+      "datetime": "2026-07-07T08:09:00+09:00",
+      "dt": "2026-07-07 08:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "AI 데이터센터 띄운 GS"
+      ],
+      "hash": "e725451c8e0b"
+    },
+    {
+      "title": "\"S-Oil, 유가 하락에도 윤활기유 호조에 호실적 예상…목표가↑\"-하나",
+      "url": "https://www.hankyung.com/article/2026070791816",
+      "summary": "하나증권은 7일 S-Oil(에쓰오일)에 대해 국제유가 하락으로 정유부문의 실적이 둔화되겠지만 윤활기유 부문의 호조로 호실적이 기대된다며 목표주가를 기존 13만원에서 20만원으로 올렸다. 투자의견은 ‘매수’를 유지했다.S-Oil은 2분기 1조200억...",
+      "datetime_raw": "2026.07.07 08:04",
+      "datetime": "2026-07-07T08:04:00+09:00",
+      "dt": "2026-07-07 08:04",
+      "brokers": [
+        "하나"
+      ],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": 53.84615384615385,
+      "keywords": [],
+      "hash": "5567df400bb8"
+    },
+    {
+      "title": "\"피에스케이, 반도체 전방위 증설 수혜…목표가 28만원\"-KB",
+      "url": "https://www.hankyung.com/article/2026070791646",
+      "summary": "KB증권은 7일 피에스케이에 대해 \"전 응용처에 걸쳐 다변화된 글로벌 고객사를 바탕으로 장기화될 반도체 전공정 투자 사이클의 수혜를 오롯이 흡수할 것\"이라며 목표주가 28만원과 투자의견 '매수'를 제시하고 분석을 개시했다. 이창민 KB증권 연구원...",
+      "datetime_raw": "2026.07.07 08:01",
+      "datetime": "2026-07-07T08:01:00+09:00",
+      "dt": "2026-07-07 08:01",
+      "brokers": [
+        "KB"
+      ],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "피에스케이"
+      ],
+      "hash": "9db928d636e0"
+    },
+    {
+      "title": "3만원짜리 1000원에 산다…다이소 '가격 파괴'에 품절 대란",
+      "url": "https://www.hankyung.com/article/202607056343i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "가격 파괴",
+        "3만원짜리 1000원에 산다"
+      ],
+      "hash": "af507b22fe07"
+    },
+    {
+      "title": "\"정청래에 엄지척\" 하더니…전한길 집회에 나타난 전원주",
+      "url": "https://www.hankyung.com/article/2026070678797",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "정청래에 엄지척"
+      ],
+      "hash": "0f7e92225486"
+    },
+    {
+      "title": "기아, 대형 세단 접는다…14년 만에 'K9' 단종",
+      "url": "https://www.hankyung.com/article/2026070685381",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "K9",
+        "기아"
+      ],
+      "hash": "b96d4a65caba"
+    },
+    {
+      "title": "\"꿈의 1만피 온다\"…여의도 고수들이 꼽은 무조건 담을 종목",
+      "url": "https://www.hankyung.com/article/2026070671641",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "꿈의 1만피 온다"
+      ],
+      "hash": "37c114343de1"
+    },
+    {
+      "title": "'퇴직하면 어쩌나' 뜻밖의 상황 터졌다… 공무원들 '술렁'",
+      "url": "https://www.hankyung.com/article/2026070686851",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "술렁",
+        "퇴직하면 어쩌나"
+      ],
+      "hash": "8095cc80cbfb"
+    }
+  ],
+  "consensus_signals": []
+}
