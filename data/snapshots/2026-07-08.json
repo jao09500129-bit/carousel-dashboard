@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-08T15:00:42.167587+09:00",
+  "collected_at": "2026-07-08T16:00:47.649298+09:00",
   "date": "2026-07-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -13,6 +13,54 @@
     "top_brokers": []
   },
   "items": [
+    {
+      "title": "'반도체 피크아웃' 공포 덮쳤다…코스피·코스닥 5% 넘게 폭락 [종합]",
+      "url": "https://www.hankyung.com/article/2026070831686",
+      "summary": "'반도체 피크아웃' 우려가 국내 증시를 덮쳤다. 코스피와 코스닥이 나란히 5% 넘게 급락하며 양 시장에서 매도 사이드카가 연이어 발동됐고, 코스피 시가총액은 7주 만에 6000조원 아래로 떨어졌다. 인공지능(AI) 투자 사이클 둔화 우려와 중동 지정학 리...",
+      "datetime_raw": "2026.07.08 15:58",
+      "datetime": "2026-07-08T15:58:00+09:00",
+      "dt": "2026-07-08 15:58",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 피크아웃"
+      ],
+      "hash": "3c5e477c00e2"
+    },
+    {
+      "title": "코스피·코스닥, 5%대 하락 마감…삼전 6.25%↓ 하이닉스 5.68%↓",
+      "url": "https://www.hankyung.com/article/2026070831636",
+      "summary": "코스피·코스닥, 5%대 하락 마감…삼전 6.25%↓ SK하이닉스 5.68%↓마감강경주 한경닷컴 기자 qurasoha@hankyung.com",
+      "datetime_raw": "2026.07.08 15:38",
+      "datetime": "2026-07-08T15:38:00+09:00",
+      "dt": "2026-07-08 15:38",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스피"
+      ],
+      "hash": "d3d56c33cf35"
+    },
+    {
+      "title": "'검은 수요일'…코스피 5.4%·코스닥 5.6% 급락 마감",
+      "url": "https://www.hankyung.com/article/2026070831546",
+      "summary": "'검은 수요일'…코스피 5.4%·코스닥 5.6% 급락 마감한경우 한경닷컴 기자 case@hankyung.com",
+      "datetime_raw": "2026.07.08 15:36",
+      "datetime": "2026-07-08T15:36:00+09:00",
+      "dt": "2026-07-08 15:36",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "검은 수요일"
+      ],
+      "hash": "399fc303f9f5"
+    },
     {
       "title": "유럽 1위 운용사의 하반기 픽은? \"유럽·일본·금 유망\"",
       "url": "https://www.hankyung.com/article/202607082412i",
@@ -227,19 +275,18 @@
       "hash": "9559db92600a"
     },
     {
-      "title": "\"시총보다 큰 규모\"…광무, 삼성전자 주식 매도 결정에 '급등' [종목+]",
+      "title": "\"보유한 삼전 주식 전부 팔겠다\" 발표에…상한가 찍은 기업 [종목+]",
       "url": "https://www.hankyung.com/article/2026070824916",
       "summary": "코스닥 상장사 광무가 급등하고 있다. 보유 중인 삼성전자 주식 약 1143억원어치를 매도하기로 결정했다고 밝힌 영향이다. 회사 측이 제시한 양도대금은 1100억원 상당이다. 광무의 전일 종가(1435원) 기준 시가총액 857억원보다 많다.8일 오전 10시53분 현재 광...",
       "datetime_raw": "2026.07.08 11:17",
       "datetime": "2026-07-08T11:17:00+09:00",
       "dt": "2026-07-08 11:17",
       "brokers": [],
-      "opinion": "매도",
+      "opinion": "보유",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "급등",
-        "시총보다 큰 규모"
+        "보유한 삼전 주식 전부 팔겠다"
       ],
       "hash": "8a1c497e8155"
     },
@@ -292,54 +339,6 @@
       "hash": "b90c9e669b06"
     },
     {
-      "title": "51% 웃돈 주고 샀다…경영권 분쟁 조짐에 주가 11% 뛴 회사 [종목+]",
-      "url": "https://www.hankyung.com/article/2026070820056",
-      "summary": "한미사이언스가 급등하고 있다. 경영권 분쟁이 재점화할 조짐을 보이면서다.8일 오전 9시9분 현재 한미사이언스는 전일 대비 1850원(5.85%) 상승한 3만3500원에 거래되고 있다. 개장 직후엔 11.06% 상승한 3만5150원까지 치솟기도 했다.신동국 한양정밀 회장...",
-      "datetime_raw": "2026.07.08 09:28",
-      "datetime": "2026-07-08T09:28:00+09:00",
-      "dt": "2026-07-08 09:28",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "51% 웃돈 주고 샀다"
-      ],
-      "hash": "480f0bf7d4c6"
-    },
-    {
-      "title": "외국인이 또 지수 끌어내린다…코스피, 장 초반 2% 넘게 하락",
-      "url": "https://www.hankyung.com/article/2026070820076",
-      "summary": "코스피가 8일 전날의 반도체 종목의 하락 흐름을 끊지 못한 가운데 장 초반 2% 넘게 하락 중이다.이날 오전 9시23분 현재 코스피는 전날보다 2% 내린 7502.82다. 기관이 2064억원 순매수하고 있지만 외국인이 1871억원 순매도로 지수를 끌어내리고 있다. 개인...",
-      "datetime_raw": "2026.07.08 09:28",
-      "datetime": "2026-07-08T09:28:00+09:00",
-      "dt": "2026-07-08 09:28",
-      "brokers": [],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "외국인이 또 지수 끌어내린다"
-      ],
-      "hash": "5103c5476bc2"
-    },
-    {
-      "title": "코스피 4.46% 하락 중… 기관 홀로 지지, 반도체·방산·기계 전방위 약세 지속[오후 시황]",
-      "url": "https://www.hankyung.com/article/202607081935i",
-      "summary": "🕘 낙폭 확대 지속… 7,300선마저 위협받는 장중 흐름오후 2시 기준, 코스피는 전일 대비 341.78포인트(4.46%) 하락한 7,314.53에 거래되고 있으며, 코스닥은 44.66포인트(5.37%) 내린 786.57에 거래 중입니다. 장 초...",
-      "datetime_raw": "2026.07.08 09:19",
-      "datetime": "2026-07-08T09:19:00+09:00",
-      "dt": "2026-07-08 09:19",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 4.46% 하락 중"
-      ],
-      "hash": "8fc5139db359"
-    },
-    {
       "title": "\"저걸 풀어주면 어떡해\"…아파트 거실서 잡은 뱀 방생한 이유",
       "url": "https://www.hankyung.com/article/202607070041i",
       "summary": "",
@@ -354,6 +353,22 @@
         "저걸 풀어주면 어떡해"
       ],
       "hash": "508b0621d281"
+    },
+    {
+      "title": "\"샤넬백은 이제 흔하잖아요\"…요즘 가방 대신 몰리는 곳",
+      "url": "https://www.hankyung.com/article/202607079219i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "샤넬백은 이제 흔하잖아요"
+      ],
+      "hash": "5fde2108cf66"
     },
     {
       "title": "'반도체 저승사자' 또 등판…\"삼전닉스 고점 근접\" 경고",
@@ -371,22 +386,6 @@
         "삼전닉스 고점 근접"
       ],
       "hash": "db2f6c00c1f7"
-    },
-    {
-      "title": "\"샤넬백은 이제 흔하잖아요\"…요즘 가방 대신 몰리는 곳",
-      "url": "https://www.hankyung.com/article/202607079219i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "샤넬백은 이제 흔하잖아요"
-      ],
-      "hash": "5fde2108cf66"
     },
     {
       "title": "대기업·석사 출신도 줄섰다…경비 1명 뽑는데 170명 '우르르'",
