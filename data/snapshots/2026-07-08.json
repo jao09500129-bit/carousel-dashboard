@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-08T11:00:54.969870+09:00",
+  "collected_at": "2026-07-08T13:00:54.058095+09:00",
   "date": "2026-07-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,33 +7,118 @@
   ],
   "total_items": 25,
   "stats": {
-    "with_broker_mention": 7,
+    "with_broker_mention": 3,
     "target_price_up": 0,
-    "target_price_down": 3,
+    "target_price_down": 1,
     "top_brokers": [
       [
         "키움",
-        3
+        2
       ],
       [
         "IBK",
-        1
-      ],
-      [
-        "KB",
-        1
-      ],
-      [
-        "신한",
-        1
-      ],
-      [
-        "NH",
         1
       ]
     ]
   },
   "items": [
+    {
+      "title": "1분기 파생결합증권·사채 발행 20조 육박…전년비 24%↑",
+      "url": "https://www.hankyung.com/article/2026070820296",
+      "summary": "지난 1분기 파생결합증권·사채 발행액이 한 해 전보다 4조원 가까이 늘어나 20조원에 육박한 것으로 나타났다.8일 금융감독원이 발표한 '2026년 1분기 파생결합증권·사채 발행·운용 현황'에 따르면 지난 1분기 파생결...",
+      "datetime_raw": "2026.07.08 12:00",
+      "datetime": "2026-07-08T12:00:00+09:00",
+      "dt": "2026-07-08 12:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "1분기 파생결합증권"
+      ],
+      "hash": "02e8c3cc3f5b"
+    },
+    {
+      "title": "코스닥, 4%대 급락…10개월 만에 800선 밑으로",
+      "url": "https://www.hankyung.com/article/2026070825976",
+      "summary": "코스닥지수가 8일 급락하며 약 10개월 만에 800선을 내줬다.이날 오전 11시 55분 현재 코스닥지수는 전 거래일보다 33.42포인트(4.02%) 내린 797.81을 기록 중이다. 1.79% 하락 출발한 코스닥지수는 낙폭을 키우고 있다.코스닥시장에서 외국인은 633억...",
+      "datetime_raw": "2026.07.08 11:59",
+      "datetime": "2026-07-08T11:59:00+09:00",
+      "dt": "2026-07-08 11:59",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥"
+      ],
+      "hash": "a1bcc42f73d6"
+    },
+    {
+      "title": "\"삼전 다시 오른다\" 베팅 나선 1% 초고수....하이닉스는 매도",
+      "url": "https://www.hankyung.com/article/202607082543i",
+      "summary": "주식 수익률 상위 1%의 초고수들이 8일 장 초반 삼성전자와 삼성전자 우선주를 대거 순매수하고 있는 것으로 나타났다. 섬성전자가 전날 잠정 실적 발표 이후 급락하자 조정이 과도했다고 보고 추가 매수에 나섰다는 해석이 나온다.8일 미래에셋M클럽에 따르면 오전 10시 기준...",
+      "datetime_raw": "2026.07.08 11:43",
+      "datetime": "2026-07-08T11:43:00+09:00",
+      "dt": "2026-07-08 11:43",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전 다시 오른다"
+      ],
+      "hash": "ea17d8f900db"
+    },
+    {
+      "title": "'완판' 국민성장펀드 9월 2차 판매…은행 영업점 물량 확대",
+      "url": "https://www.hankyung.com/article/2026070822316",
+      "summary": "정부가 국민참여형 성장펀드(국민성장펀드)의 2차 판매를 오는 9월 시작해 추석 연휴 전 마무리 지을 계획인 것으로 전해졌다. 고령층을 비롯한 소비자의 상품 접근성을 높이기 위해 전국 영업망을 갖춘 은행권의 판매 비중도 확대했다.8일 금융투자업계에 따르면 금융위원회&mi...",
+      "datetime_raw": "2026.07.08 11:43",
+      "datetime": "2026-07-08T11:43:00+09:00",
+      "dt": "2026-07-08 11:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "완판"
+      ],
+      "hash": "9559db92600a"
+    },
+    {
+      "title": "\"시총보다 큰 규모\"…광무, 삼성전자 주식 매도 결정에 '급등' [종목+]",
+      "url": "https://www.hankyung.com/article/2026070824916",
+      "summary": "코스닥 상장사 광무가 급등하고 있다. 보유 중인 삼성전자 주식 약 1143억원어치를 매도하기로 결정했다고 밝힌 영향이다. 회사 측이 제시한 양도대금은 1100억원 상당이다. 광무의 전일 종가(1435원) 기준 시가총액 857억원보다 많다.8일 오전 10시53분 현재 광...",
+      "datetime_raw": "2026.07.08 11:17",
+      "datetime": "2026-07-08T11:17:00+09:00",
+      "dt": "2026-07-08 11:17",
+      "brokers": [],
+      "opinion": "매도",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "급등",
+        "시총보다 큰 규모"
+      ],
+      "hash": "8a1c497e8155"
+    },
+    {
+      "title": "코스닥, 10개월만 800선 밑으로…장중 3%대 급락",
+      "url": "https://www.hankyung.com/article/2026070824787",
+      "summary": "최수진 한경닷컴 기자 naive@hankyung.com",
+      "datetime_raw": "2026.07.08 11:09",
+      "datetime": "2026-07-08T11:09:00+09:00",
+      "dt": "2026-07-08 11:09",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥"
+      ],
+      "hash": "c67dc1948e18"
+    },
     {
       "title": "상폐 위기 몰렸던 효성화학의 반전…주가 나흘 연속 급등 [종목+]",
       "url": "https://www.hankyung.com/article/2026070815456",
@@ -269,113 +354,6 @@
       "hash": "90bd22244f55"
     },
     {
-      "title": "\"AI 고점? 이제 시작일 뿐\"…증권가 \"60만전자 간다\"는 이유 [종목+]",
-      "url": "https://www.hankyung.com/article/2026070816536",
-      "summary": "KB증권은 8일 삼성전자에 대해 \"회사의 어닝서프라이즈는 이제 시작일 뿐\"이라며 \"글로벌 인공지능(AI) 투자가 올해 8000억 달러에서 내년 1조1000억 달러, 2028년 1조5000억 달러까지 확대되는 등 메모리 공급 부족 장기화가 전망되기 때문\"이라고 분석했다....",
-      "datetime_raw": "2026.07.08 08:07",
-      "datetime": "2026-07-08T08:07:00+09:00",
-      "dt": "2026-07-08 08:07",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "60만전자 간다",
-        "AI 고점? 이제 시작일 뿐"
-      ],
-      "hash": "2eec85dccb1c"
-    },
-    {
-      "title": "저점찍고 반등했는데…증권사는 ‘사실상 매도’ 싸늘",
-      "url": "https://www.hankyung.com/article/202607081609i",
-      "summary": "LG생활건강이 최근 1주일 사이 주가가 12% 이상 올랐지만 증권가에서는 추가적인 주가 상승에 시간이 걸릴 것이라는 전망이 나오고 있다. LG생활건강의 고질적인 문제점으로 꼽히는 중국 화장품 사업 부진이 해소되고 사업 다각화가 확인돼야 근본적인 가치 재평가가 가능하다는...",
-      "datetime_raw": "2026.07.08 08:00",
-      "datetime": "2026-07-08T08:00:00+09:00",
-      "dt": "2026-07-08 08:00",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "사실상 매도",
-        "저점찍고 반등했는데"
-      ],
-      "hash": "8f206a62c330"
-    },
-    {
-      "title": "삼성전자 실적 놓고 엇갈린 해석…지금 투자해도 될지 물어보니",
-      "url": "https://www.hankyung.com/article/202607070591i",
-      "summary": "삼성전자의 2분기 실적 분석 및 투자 전략증권사별 최신 리포트 요약 1. 삼성전자 2분기 실적 심층 분석1-1. 핵심 실적 개요: 역대급 이익 체력 입증2분기 삼성전자의 잠정 실적은 매출액 171조 원, 영업이익 89.4조 원으로 집계됐다....",
-      "datetime_raw": "2026.07.08 08:00",
-      "datetime": "2026-07-08T08:00:00+09:00",
-      "dt": "2026-07-08 08:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼성전자 실적 놓고 엇갈린 해석"
-      ],
-      "hash": "cb878a859c68"
-    },
-    {
-      "title": "\"21만원 간다\"…외국인까지 한국서 쓸어담더니 '깜짝' 전망 [종목+]",
-      "url": "https://www.hankyung.com/article/2026070815926",
-      "summary": "신한투자증권은 8일 현대백화점에 대해 \"정부의 확장적 재정 정책과 근로소득 증가, 자산가격 상승, 외국인 매출 급증으로 백화점 구매력 반등은 올해 내내 이어질 것\"이라며 목표주가를 기존 14만원에서 21만원으로 올렸다. 투자의견은 '매수'를 유지했다.조상...",
-      "datetime_raw": "2026.07.08 07:59",
-      "datetime": "2026-07-08T07:59:00+09:00",
-      "dt": "2026-07-08 07:59",
-      "brokers": [
-        "신한"
-      ],
-      "opinion": "매수",
-      "target_action": null,
-      "target_change_pct": 50.0,
-      "keywords": [
-        "깜짝",
-        "21만원 간다"
-      ],
-      "hash": "93c89fabd95f"
-    },
-    {
-      "title": "\"LG에너지솔루션, ESS 팩 병목에 발목 잡혀…목표가↓\"-NH",
-      "url": "https://www.hankyung.com/article/2026070816136",
-      "summary": "NH투자증권은 8일 LG에너지솔루션에 대해 북미 지역에서 에너지저장장치(ESS) 팩 병목현상의 영향으로 2분기 실적이 기대를 밑돌았다며 목표주가를 기존 58만원에서 48만원으로 내렸다. 다만 2차전지 업황의 회복 추세는 이어질 것이라며 투자의견은 ‘매수&rs...",
-      "datetime_raw": "2026.07.08 07:58",
-      "datetime": "2026-07-08T07:58:00+09:00",
-      "dt": "2026-07-08 07:58",
-      "brokers": [
-        "NH"
-      ],
-      "opinion": "매수",
-      "target_action": "down",
-      "target_change_pct": -17.24137931034483,
-      "keywords": [
-        "LG에너지솔루션"
-      ],
-      "hash": "44bf381ff8ad"
-    },
-    {
-      "title": "\"삼성전자, 하반기 EPS 상승률 둔화…목표가 39만원으로 하향\"-키움",
-      "url": "https://www.hankyung.com/article/2026070815866",
-      "summary": "키움증권은 8일 삼성전자에 대해 \"주당순이익(EPS) 상승률이 둔화하는 하반기엔 메모리 산업의 변화 요인들로 인해 변동성이 확대될 것\"이라며 목표주가를 기존 43만원에서 39만원으로 하향 조정했다. 투자의견은 '매수'를 유지했다.이 증권사 박유악 연구원은...",
-      "datetime_raw": "2026.07.08 07:43",
-      "datetime": "2026-07-08T07:43:00+09:00",
-      "dt": "2026-07-08 07:43",
-      "brokers": [
-        "키움"
-      ],
-      "opinion": "매수",
-      "target_action": "down",
-      "target_change_pct": -9.30232558139535,
-      "keywords": [
-        "삼성전자"
-      ],
-      "hash": "4295894ad49f"
-    },
-    {
       "title": "'반도체 저승사자' 또 등판…\"삼전닉스 고점 근접\" 경고",
       "url": "https://www.hankyung.com/article/202607079276i",
       "summary": "",
@@ -409,6 +387,22 @@
       "hash": "508b0621d281"
     },
     {
+      "title": "\"샤넬백은 이제 흔하잖아요\"…요즘 가방 대신 몰리는 곳",
+      "url": "https://www.hankyung.com/article/202607079219i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "샤넬백은 이제 흔하잖아요"
+      ],
+      "hash": "5fde2108cf66"
+    },
+    {
       "title": "'퇴직하면 어쩌나' 뜻밖의 상황 터졌다… 공무원들 '술렁'",
       "url": "https://www.hankyung.com/article/2026070686851",
       "summary": "",
@@ -426,8 +420,8 @@
       "hash": "8095cc80cbfb"
     },
     {
-      "title": "\"샤넬백은 이제 흔하잖아요\"…요즘 가방 대신 몰리는 곳",
-      "url": "https://www.hankyung.com/article/202607079219i",
+      "title": "대기업·석사 출신도 줄섰다…경비 1명 뽑는데 170명 '우르르'",
+      "url": "https://www.hankyung.com/article/2026070710181",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -437,26 +431,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "샤넬백은 이제 흔하잖아요"
+        "우르르",
+        "대기업"
       ],
-      "hash": "5fde2108cf66"
-    },
-    {
-      "title": "3만원짜리 1000원에 산다…다이소 '가격 파괴'에 품절 대란",
-      "url": "https://www.hankyung.com/article/202607056343i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "가격 파괴",
-        "3만원짜리 1000원에 산다"
-      ],
-      "hash": "af507b22fe07"
+      "hash": "0de0f0a8bb36"
     }
   ],
   "consensus_signals": []
