@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-08T16:00:47.649298+09:00",
+  "collected_at": "2026-07-08T23:10:44.456859+09:00",
   "date": "2026-07-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -14,9 +14,158 @@
   },
   "items": [
     {
+      "title": "IMF, 올해 한국 성장률 2.6%로 상향…\"선진국 중 가장 높아\"",
+      "url": "https://www.hankyung.com/article/2026070839067",
+      "summary": "국제통화기금(IMF)이 올해 한국 경제성장률 전망치를 1.9%에서 2.6%로 0.7%포인트 상향 조정했다. 주요 30개국 가운데 이란과 함께 가장 큰 상승 폭이다. 내년 성장률 전망도 2.1%에서 2.5%로 높였다.IMF는 8일 발표한 7월 세계경제전망에서 한국의 올해...",
+      "datetime_raw": "2026.07.08 22:17",
+      "datetime": "2026-07-08T22:17:00+09:00",
+      "dt": "2026-07-08 22:17",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "IMF",
+        "선진국 중 가장 높아"
+      ],
+      "hash": "89359ce08d5c"
+    },
+    {
+      "title": "\"왜 자꾸 떨어지나\" 속타는 개미…삼전, 지금 담아도 될까 [종목+]",
+      "url": "https://www.hankyung.com/article/2026070832456",
+      "summary": "삼성전자가 역대 최대 실적을 내고도 이틀 연속 급락하자 투자자의 혼란이 커지고 있다. 2분기 영업이익이 89조원대로 역대 최대 분기 실적을 경신하며 시장 기대를 웃돌았지만 주가는 실적 발표 당일 7% 가까이 급락한 데 이어 다음날도 6% 밀렸다.2분기 실적이 발표된 7...",
+      "datetime_raw": "2026.07.08 22:00",
+      "datetime": "2026-07-08T22:00:00+09:00",
+      "dt": "2026-07-08 22:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "왜 자꾸 떨어지나"
+      ],
+      "hash": "66fd02cb6dcc"
+    },
+    {
+      "title": "환율 소방수된 SK하이닉스·일본…한달 만에 1490원대로 [분석+]",
+      "url": "https://www.hankyung.com/article/2026070834266",
+      "summary": "고공행진하던 원·달러 환율이 37거래일 만에 1500원 아래로 내려왔다. SK하이닉스의 미국 주식예탁증서(ADR) 발행에 따른 대규모 달러 유입 기대와 대한민국·일본 간 외환 공조 분위기가 전해진 영향이다. 대외 불확실성이 여전한 만큼 추세적 ...",
+      "datetime_raw": "2026.07.08 20:00",
+      "datetime": "2026-07-08T20:00:00+09:00",
+      "dt": "2026-07-08 20:00",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "환율 소방수된 SK하이닉스"
+      ],
+      "hash": "e9b2392d0010"
+    },
+    {
+      "title": "아문디 \"하반기엔 유럽·일본·金 투자해야\"",
+      "url": "https://www.hankyung.com/article/2026070835831",
+      "summary": "유럽 최대 자산운용사인 아문디가 글로벌 변동성 확대에 대비해 올 하반기에는 특정 자산에 대한 쏠림을 경계해야 한다고 조언했다. 인공지능(AI) 투자가 반도체 중심에서 산업 전반으로 확산하는 국면에 접어든 만큼 투자 대상을 유럽·일본 주식과 실물자산 등으로 넓혀야 한다는 분석이다.아문디는 8일 발표한 ‘2026년 하반기 글로벌 투자 전...",
+      "datetime_raw": "2026.07.08 18:43",
+      "datetime": "2026-07-08T18:43:00+09:00",
+      "dt": "2026-07-08 18:43",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "아문디 \"하반기엔 유럽",
+        "하반기엔 유럽·일본·金 투자해야"
+      ],
+      "hash": "249dfb47bb57"
+    },
+    {
+      "title": "애프터마켓서 SK하닉 200만원·삼전 27만원 붕괴",
+      "url": "https://www.hankyung.com/article/2026070837387",
+      "summary": "8일 증시 정규장 종료 이후 넥스트트레이드 애프터마켓에서 SK하이닉스 주가가 200만원 아래러 내려갔다. 삼성전자도 27만원선이 무너졌다.넥스트트레이드에 따르면 이날 오후 6시32분 현재 SK하이닉스는 전일 대비 8.86% 하락한 200만6000원에 거래되고 있다. 장...",
+      "datetime_raw": "2026.07.08 18:15",
+      "datetime": "2026-07-08T18:15:00+09:00",
+      "dt": "2026-07-08 18:15",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "애프터마켓서 SK하닉 200만원"
+      ],
+      "hash": "8e979d23a77d"
+    },
+    {
+      "title": "OKX, 데이터 '거래 보상 캠페인' 실시…토큰 총 100만개 지급",
+      "url": "https://www.hankyung.com/article/202607083699B",
+      "summary": "글로벌 암호화폐 거래소 OKX가 인공지능(AI) 데이터 인프라 프로젝트 데이터(DATA, 옛 스토리) 거래 보상 캠페인을 실시한다.OKX는 이달 20일까지 데이터 '트레이드 투 언(Trade to Earn)' 캠페인을 진행한다고 7일(현지시간) 밝혔다. 이번 캠페인은 ...",
+      "datetime_raw": "2026.07.08 17:53",
+      "datetime": "2026-07-08T17:53:00+09:00",
+      "dt": "2026-07-08 17:53",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "OKX",
+        "거래 보상 캠페인"
+      ],
+      "hash": "5fd07444e33f"
+    },
+    {
+      "title": "반도체 피크아웃 공포에…韓증시 '검은 수요일'",
+      "url": "https://www.hankyung.com/article/2026070835861",
+      "summary": "한국경제신문의 투자 전문 유료 플랫폼 '한경 프리미엄9'(www.hankyung.com/premium9)에 실린 기사입니다. '한경 프리미엄9'을 구독하시면 더 많은 주식 투자 기사를 찾아볼 수 있습니다.코스피지수와 코스닥지수가 5%대 동반...",
+      "datetime_raw": "2026.07.08 17:48",
+      "datetime": "2026-07-08T17:48:00+09:00",
+      "dt": "2026-07-08 17:48",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "검은 수요일",
+        "반도체 피크아웃 공포에"
+      ],
+      "hash": "cc148b14704d"
+    },
+    {
+      "title": "벌써 초과청약…SK하이닉스 美ADR 공모 '후끈'",
+      "url": "https://www.hankyung.com/article/2026070835881",
+      "summary": "뉴욕 월스트리트가 SK하이닉스의 미국 주식예탁증서(ADR) 공모를 앞두고 후끈 달아오르고 있다.블룸버그는 지난 6일 소식통을 인용해 SK하이닉스의 ADR 공모가 몇 배 초과 청약됐다고 보도했다. 또 안정적·장기적 성향의 대형 기관투자가와 기술주 전문 투자자 수요가 초기부터 강하다고 전했다. 이날 열린 투자설명회에는 기관투자가 1000곳가량이 참...",
+      "datetime_raw": "2026.07.08 17:46",
+      "datetime": "2026-07-08T17:46:00+09:00",
+      "dt": "2026-07-08 17:46",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "후끈",
+        "벌써 초과청약"
+      ],
+      "hash": "100c056c4ac6"
+    },
+    {
+      "title": "타이거리서치 \"RWA 핵심은 금융 인프라…캔톤 네트워크, 기관 금융 특화\"",
+      "url": "https://www.hankyung.com/article/2026070833866",
+      "summary": "타이거리서치가 글로벌 블록체인 네트워크인 '캔톤 네트워크' 분석 보고서에서 시장의 관심이 국채 토큰화 사례에 집중돼 있지만 실제 변화는 금융 시스템 전반에서 진행되고 있다고 분석했다고 블루밍비트가 8일 보도했다.보고서는 올해 5월 기준 온체인(블록체인 네...",
+      "datetime_raw": "2026.07.08 17:06",
+      "datetime": "2026-07-08T17:06:00+09:00",
+      "dt": "2026-07-08 17:06",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "타이거리서치 \"RWA 핵심은 금융 인프라"
+      ],
+      "hash": "f83c3148998e"
+    },
+    {
       "title": "'반도체 피크아웃' 공포 덮쳤다…코스피·코스닥 5% 넘게 폭락 [종합]",
       "url": "https://www.hankyung.com/article/2026070831686",
-      "summary": "'반도체 피크아웃' 우려가 국내 증시를 덮쳤다. 코스피와 코스닥이 나란히 5% 넘게 급락하며 양 시장에서 매도 사이드카가 연이어 발동됐고, 코스피 시가총액은 7주 만에 6000조원 아래로 떨어졌다. 인공지능(AI) 투자 사이클 둔화 우려와 중동 지정학 리...",
+      "summary": "'반도체 피크아웃' 우려가 국내 증시를 덮쳤다. 코스피와 코스닥이 나란히 5% 넘게 급락하며 양 시장에서 매도 사이드카(프로그램 매도호가 일시효력정지)가 연이어 발동됐고, 코스피 시가총액은 7주 만에 6000조원 아래로 떨어졌다. 인공지능(AI) 투자 사...",
       "datetime_raw": "2026.07.08 15:58",
       "datetime": "2026-07-08T15:58:00+09:00",
       "dt": "2026-07-08 15:58",
@@ -164,7 +313,7 @@
     {
       "title": "업비트, 탈중앙화 AI 코인 '오픈그라디언트(OPG)' 원화 마켓 상장",
       "url": "https://www.hankyung.com/article/202607082768B",
-      "summary": "국내 가상자산(암호화폐) 거래소 업비트가 탈중앙화 인공지능(AI) 인프라 네트워크 프로젝트인 오픈그라디언트(OPG)를 원화 마켓에 신규 추가한다고 8일 밝혔다.이날 업비트 공지에 따르면 오픈그라디언트의 원화 마켓 거래 지원은 7일 오후 3시30분부터 시작될 예정이다. ...",
+      "summary": "국내 가상자산(암호화폐) 거래소 업비트가 탈중앙화 인공지능(AI) 인프라 네트워크 프로젝트인 오픈그라디언트(OPG)를 원화 마켓에 신규 추가한다고 밝혔다.이날 업비트 공지에 따르면 오픈그라디언트의 원화 마켓 거래 지원은 7일 오후 3시30분부터 시작됐다.안전한 거래 환...",
       "datetime_raw": "2026.07.08 13:44",
       "datetime": "2026-07-08T13:44:00+09:00",
       "dt": "2026-07-08 13:44",
@@ -195,152 +344,8 @@
       "hash": "f4a47a9d2341"
     },
     {
-      "title": "코스피 급락에 매도 사이드카 발동",
-      "url": "https://www.hankyung.com/article/2026070827547",
-      "summary": "최수진 한경닷컴 기자 naive@hankyung.com",
-      "datetime_raw": "2026.07.08 13:36",
-      "datetime": "2026-07-08T13:36:00+09:00",
-      "dt": "2026-07-08 13:36",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스피 급락에 매도 사이드카 발동"
-      ],
-      "hash": "94b9bd0d3e68"
-    },
-    {
-      "title": "\"삼전 다시 오른다\" 베팅 나선 1% 초고수…하이닉스는 매도",
-      "url": "https://www.hankyung.com/article/202607082543i",
-      "summary": "주식 수익률 상위 1%의 초고수들이 8일 장 초반 삼성전자와 삼성전자 우선주를 대거 순매수하고 있는 것으로 나타났다. 섬성전자가 전날 잠정 실적 발표 이후 급락하자 조정이 과도했다고 보고 추가 매수에 나섰다는 해석이 나온다.8일 미래에셋M클럽에 따르면 오전 10시 기준...",
-      "datetime_raw": "2026.07.08 13:13",
-      "datetime": "2026-07-08T13:13:00+09:00",
-      "dt": "2026-07-08 13:13",
-      "brokers": [],
-      "opinion": "매도",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전 다시 오른다"
-      ],
-      "hash": "ea17d8f900db"
-    },
-    {
-      "title": "1분기 파생결합증권·사채 발행 20조 육박…전년비 24%↑",
-      "url": "https://www.hankyung.com/article/2026070820296",
-      "summary": "지난 1분기 파생결합증권·사채 발행액이 한 해 전보다 4조원 가까이 늘어나 20조원에 육박한 것으로 나타났다.8일 금융감독원이 발표한 '2026년 1분기 파생결합증권·사채 발행·운용 현황'에 따르면 지난 1분기 파생결...",
-      "datetime_raw": "2026.07.08 12:00",
-      "datetime": "2026-07-08T12:00:00+09:00",
-      "dt": "2026-07-08 12:00",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "1분기 파생결합증권"
-      ],
-      "hash": "02e8c3cc3f5b"
-    },
-    {
-      "title": "코스닥, 4%대 급락…10개월 만에 800선 밑으로",
-      "url": "https://www.hankyung.com/article/2026070825976",
-      "summary": "코스닥지수가 8일 급락하며 약 10개월 만에 800선을 내줬다.이날 오전 11시 55분 현재 코스닥지수는 전 거래일보다 33.42포인트(4.02%) 내린 797.81을 기록 중이다. 1.79% 하락 출발한 코스닥지수는 낙폭을 키우고 있다.코스닥시장에서 외국인은 633억...",
-      "datetime_raw": "2026.07.08 11:59",
-      "datetime": "2026-07-08T11:59:00+09:00",
-      "dt": "2026-07-08 11:59",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스닥"
-      ],
-      "hash": "a1bcc42f73d6"
-    },
-    {
-      "title": "'완판' 국민성장펀드 9월 2차 판매…은행 영업점 물량 확대",
-      "url": "https://www.hankyung.com/article/2026070822316",
-      "summary": "정부가 국민참여형 성장펀드(국민성장펀드)의 2차 판매를 오는 9월 시작해 추석 연휴 전 마무리 지을 계획인 것으로 전해졌다. 고령층을 비롯한 소비자의 상품 접근성을 높이기 위해 전국 영업망을 갖춘 은행권의 판매 비중도 확대했다.8일 금융투자업계에 따르면 금융위원회&mi...",
-      "datetime_raw": "2026.07.08 11:43",
-      "datetime": "2026-07-08T11:43:00+09:00",
-      "dt": "2026-07-08 11:43",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "완판"
-      ],
-      "hash": "9559db92600a"
-    },
-    {
-      "title": "\"보유한 삼전 주식 전부 팔겠다\" 발표에…상한가 찍은 기업 [종목+]",
-      "url": "https://www.hankyung.com/article/2026070824916",
-      "summary": "코스닥 상장사 광무가 급등하고 있다. 보유 중인 삼성전자 주식 약 1143억원어치를 매도하기로 결정했다고 밝힌 영향이다. 회사 측이 제시한 양도대금은 1100억원 상당이다. 광무의 전일 종가(1435원) 기준 시가총액 857억원보다 많다.8일 오전 10시53분 현재 광...",
-      "datetime_raw": "2026.07.08 11:17",
-      "datetime": "2026-07-08T11:17:00+09:00",
-      "dt": "2026-07-08 11:17",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "보유한 삼전 주식 전부 팔겠다"
-      ],
-      "hash": "8a1c497e8155"
-    },
-    {
-      "title": "코스닥, 10개월만 800선 밑으로…장중 3%대 급락",
-      "url": "https://www.hankyung.com/article/2026070824787",
-      "summary": "최수진 한경닷컴 기자 naive@hankyung.com",
-      "datetime_raw": "2026.07.08 11:09",
-      "datetime": "2026-07-08T11:09:00+09:00",
-      "dt": "2026-07-08 11:09",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "코스닥"
-      ],
-      "hash": "c67dc1948e18"
-    },
-    {
-      "title": "상폐 위기 몰렸던 효성화학의 반전…주가 나흘 연속 급등 [종목+]",
-      "url": "https://www.hankyung.com/article/2026070815456",
-      "summary": "효성화학 주가가 연일 급등세를 나타냈다. 불과 한 달 전까지만 해도 완전자본잠식에 따른 상장폐지 위기 끝에 거래를 재개한 기업이지만, 올해 2분기 영업이익이 1000억원을 웃돌 것이란 전망이 나오면서 투자심리에 불이 붙었다. 수년간 실적과 재무구조를 짓눌러온 베트남 사...",
-      "datetime_raw": "2026.07.08 10:29",
-      "datetime": "2026-07-08T10:29:00+09:00",
-      "dt": "2026-07-08 10:29",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "상폐 위기 몰렸던 효성화학의 반전"
-      ],
-      "hash": "4044adc80d2f"
-    },
-    {
-      "title": "삼전닉스 상승 전환…코스피, 급락 출발 후 낙폭축소해 보합권",
-      "url": "https://www.hankyung.com/article/2026070822016",
-      "summary": "코스피가 8일 급락 출발한 뒤, 낙폭을 상당 부분 회복해 보합세를 나타내고 있다. 반도체 '투톱'인 삼성전자와 SK하이닉스도 상승 전환에 성공했다.이날 오전 9시55분 현재 코스피는 전날보다 0.90% 오른 7725.28이다. 지수는 전 거래일 대비 2....",
-      "datetime_raw": "2026.07.08 10:03",
-      "datetime": "2026-07-08T10:03:00+09:00",
-      "dt": "2026-07-08 10:03",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "삼전닉스 상승 전환"
-      ],
-      "hash": "b90c9e669b06"
-    },
-    {
-      "title": "\"저걸 풀어주면 어떡해\"…아파트 거실서 잡은 뱀 방생한 이유",
-      "url": "https://www.hankyung.com/article/202607070041i",
+      "title": "대기업·석사 출신도 줄섰다…경비 1명 뽑는데 170명 '우르르'",
+      "url": "https://www.hankyung.com/article/2026070710181",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -350,9 +355,27 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "저걸 풀어주면 어떡해"
+        "우르르",
+        "대기업"
       ],
-      "hash": "508b0621d281"
+      "hash": "0de0f0a8bb36"
+    },
+    {
+      "title": "삼전닉스 끝물이라고?…'반도체 저승사자' 경고의 진짜 의미",
+      "url": "https://www.hankyung.com/article/202607071371i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "반도체 저승사자",
+        "삼전닉스 끝물이라고?"
+      ],
+      "hash": "90bd22244f55"
     },
     {
       "title": "\"샤넬백은 이제 흔하잖아요\"…요즘 가방 대신 몰리는 곳",
@@ -371,8 +394,8 @@
       "hash": "5fde2108cf66"
     },
     {
-      "title": "'반도체 저승사자' 또 등판…\"삼전닉스 고점 근접\" 경고",
-      "url": "https://www.hankyung.com/article/202607079276i",
+      "title": "\"저걸 풀어주면 어떡해\"…아파트 거실서 잡은 뱀 방생한 이유",
+      "url": "https://www.hankyung.com/article/202607070041i",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -382,14 +405,13 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "반도체 저승사자",
-        "삼전닉스 고점 근접"
+        "저걸 풀어주면 어떡해"
       ],
-      "hash": "db2f6c00c1f7"
+      "hash": "508b0621d281"
     },
     {
-      "title": "대기업·석사 출신도 줄섰다…경비 1명 뽑는데 170명 '우르르'",
-      "url": "https://www.hankyung.com/article/2026070710181",
+      "title": "독일 간담 서늘하게 했다…\"60조 놓쳐 22% 폭락? 줍줍 기회\"",
+      "url": "https://www.hankyung.com/article/2026070700646",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -399,27 +421,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "우르르",
-        "대기업"
+        "독일 간담 서늘하게 했다",
+        "60조 놓쳐 22% 폭락? 줍줍 기회"
       ],
-      "hash": "0de0f0a8bb36"
-    },
-    {
-      "title": "'퇴직하면 어쩌나' 뜻밖의 상황 터졌다… 공무원들 '술렁'",
-      "url": "https://www.hankyung.com/article/2026070686851",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "술렁",
-        "퇴직하면 어쩌나"
-      ],
-      "hash": "8095cc80cbfb"
+      "hash": "bae44300c47c"
     }
   ],
   "consensus_signals": []
