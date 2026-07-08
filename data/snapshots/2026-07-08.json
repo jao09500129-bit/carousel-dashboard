@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-08T09:57:51.920543+09:00",
+  "collected_at": "2026-07-08T11:00:54.969870+09:00",
   "date": "2026-07-08",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -7,8 +7,8 @@
   ],
   "total_items": 25,
   "stats": {
-    "with_broker_mention": 8,
-    "target_price_up": 1,
+    "with_broker_mention": 7,
+    "target_price_up": 0,
     "target_price_down": 3,
     "top_brokers": [
       [
@@ -16,11 +16,11 @@
         3
       ],
       [
-        "KB",
-        2
+        "IBK",
+        1
       ],
       [
-        "IBK",
+        "KB",
         1
       ],
       [
@@ -34,6 +34,38 @@
     ]
   },
   "items": [
+    {
+      "title": "상폐 위기 몰렸던 효성화학의 반전…주가 나흘 연속 급등 [종목+]",
+      "url": "https://www.hankyung.com/article/2026070815456",
+      "summary": "효성화학 주가가 연일 급등세를 나타냈다. 불과 한 달 전까지만 해도 완전자본잠식에 따른 상장폐지 위기 끝에 거래를 재개한 기업이지만, 올해 2분기 영업이익이 1000억원을 웃돌 것이란 전망이 나오면서 투자심리에 불이 붙었다. 수년간 실적과 재무구조를 짓눌러온 베트남 사...",
+      "datetime_raw": "2026.07.08 10:29",
+      "datetime": "2026-07-08T10:29:00+09:00",
+      "dt": "2026-07-08 10:29",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "상폐 위기 몰렸던 효성화학의 반전"
+      ],
+      "hash": "4044adc80d2f"
+    },
+    {
+      "title": "삼전닉스 상승 전환…코스피, 급락 출발 후 낙폭축소해 보합권",
+      "url": "https://www.hankyung.com/article/2026070822016",
+      "summary": "코스피가 8일 급락 출발한 뒤, 낙폭을 상당 부분 회복해 보합세를 나타내고 있다. 반도체 '투톱'인 삼성전자와 SK하이닉스도 상승 전환에 성공했다.이날 오전 9시55분 현재 코스피는 전날보다 0.90% 오른 7725.28이다. 지수는 전 거래일 대비 2....",
+      "datetime_raw": "2026.07.08 10:03",
+      "datetime": "2026-07-08T10:03:00+09:00",
+      "dt": "2026-07-08 10:03",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "삼전닉스 상승 전환"
+      ],
+      "hash": "b90c9e669b06"
+    },
     {
       "title": "51% 웃돈 주고 샀다…경영권 분쟁 조짐에 주가 11% 뛴 회사 [종목+]",
       "url": "https://www.hankyung.com/article/2026070820056",
@@ -67,18 +99,18 @@
       "hash": "5103c5476bc2"
     },
     {
-      "title": "반도체·지주·전자부품 급락… 코스피·코스닥 3연속 하락 출발 [오전시황]",
+      "title": "코스피 7700선 회복… 기관 대규모 순매수에 반도체·완성차 반등 주도 [오전시황]",
       "url": "https://www.hankyung.com/article/202607081935i",
-      "summary": "🕘 장초반 급락세… 반도체 중심 전방위 하락 흐름오늘 한국 증시는 전날 밤 미국 증시의 반도체주 급락과 호르무즈 해협을 둘러싼 미-이란 군사 충돌이라는 이중 악재가 그대로 반영되며 큰 폭의 하락 출발을 보이고 있습니다. 오전 9시 10분 기준, 코스피는 전...",
+      "summary": "🕘 급락 출발 후 빠른 반등… 기관 매수세가 낙폭 만회오전 10시 기준, 코스피는 전일 대비 126.13포인트(1.65%) 상승한 7,782.44를 기록하며 장 초반의 급락을 완전히 만회하고 상승 전환에 성공했습니다. 미국 반도체주 급락과 호르무...",
       "datetime_raw": "2026.07.08 09:19",
       "datetime": "2026-07-08T09:19:00+09:00",
       "dt": "2026-07-08 09:19",
       "brokers": [],
-      "opinion": null,
+      "opinion": "매수",
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "반도체"
+        "코스피 7700선 회복"
       ],
       "hash": "8fc5139db359"
     },
@@ -344,41 +376,6 @@
       "hash": "4295894ad49f"
     },
     {
-      "title": "\"KT&G, 2분기 실적 기대 웃돌 것…목표가↑\"-KB",
-      "url": "https://www.hankyung.com/article/2026070815596",
-      "summary": "KB증권은 8일 KT&G에 대해 \"견조한 실적에 더해 하반기 주주환원 모멘텀(성장동력)이 풍부하다\"며 목표주가를 기존 22만원에서 25만원으로 올리고 투자의견은 '매수'를 유지했다. 류은애 KB증권 연구원은 \"2분기 실적은 해외 궐련 성장에 더해...",
-      "datetime_raw": "2026.07.08 07:35",
-      "datetime": "2026-07-08T07:35:00+09:00",
-      "dt": "2026-07-08 07:35",
-      "brokers": [
-        "KB"
-      ],
-      "opinion": "매수",
-      "target_action": "up",
-      "target_change_pct": 13.636363636363635,
-      "keywords": [
-        "KT&G"
-      ],
-      "hash": "8279ddd6f53d"
-    },
-    {
-      "title": "'잠수함' 발표에 22% 급락했는데…한화오션 '반전 전망' [종목+]",
-      "url": "https://www.hankyung.com/article/2026070700646",
-      "summary": "한화오션이 지난 7일 캐나다 해군 차기 잠수함 사업(CPSP) 수주에서 고배를 마셨다는 소식에 20% 넘게 급락했다. 이에 주가는 한국 정부가 미국에 한·미 조선 협력 프로젝트 ‘마스가(MASGA·미국 조선업을 다시 위대하게...",
-      "datetime_raw": "2026.07.08 06:30",
-      "datetime": "2026-07-08T06:30:00+09:00",
-      "dt": "2026-07-08 06:30",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "잠수함",
-        "반전 전망"
-      ],
-      "hash": "bae44300c47c"
-    },
-    {
       "title": "'반도체 저승사자' 또 등판…\"삼전닉스 고점 근접\" 경고",
       "url": "https://www.hankyung.com/article/202607079276i",
       "summary": "",
@@ -394,6 +391,22 @@
         "삼전닉스 고점 근접"
       ],
       "hash": "db2f6c00c1f7"
+    },
+    {
+      "title": "\"저걸 풀어주면 어떡해\"…아파트 거실서 잡은 뱀 방생한 이유",
+      "url": "https://www.hankyung.com/article/202607070041i",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "저걸 풀어주면 어떡해"
+      ],
+      "hash": "508b0621d281"
     },
     {
       "title": "'퇴직하면 어쩌나' 뜻밖의 상황 터졌다… 공무원들 '술렁'",
@@ -413,8 +426,8 @@
       "hash": "8095cc80cbfb"
     },
     {
-      "title": "\"저걸 풀어주면 어떡해\"…아파트 거실서 잡은 뱀 방생한 이유",
-      "url": "https://www.hankyung.com/article/202607070041i",
+      "title": "\"샤넬백은 이제 흔하잖아요\"…요즘 가방 대신 몰리는 곳",
+      "url": "https://www.hankyung.com/article/202607079219i",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -424,9 +437,9 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "저걸 풀어주면 어떡해"
+        "샤넬백은 이제 흔하잖아요"
       ],
-      "hash": "508b0621d281"
+      "hash": "5fde2108cf66"
     },
     {
       "title": "3만원짜리 1000원에 산다…다이소 '가격 파괴'에 품절 대란",
@@ -444,22 +457,6 @@
         "3만원짜리 1000원에 산다"
       ],
       "hash": "af507b22fe07"
-    },
-    {
-      "title": "\"샤넬백은 이제 흔하잖아요\"…요즘 가방 대신 몰리는 곳",
-      "url": "https://www.hankyung.com/article/202607079219i",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "샤넬백은 이제 흔하잖아요"
-      ],
-      "hash": "5fde2108cf66"
     }
   ],
   "consensus_signals": []
