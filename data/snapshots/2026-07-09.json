@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-09T11:00:59.042668+09:00",
+  "collected_at": "2026-07-09T13:00:45.349864+09:00",
   "date": "2026-07-09",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -26,6 +26,23 @@
     ]
   },
   "items": [
+    {
+      "title": "급락 딛고 반등한 코스피, 오름폭 줄여 7300선…개인 1.6조 '팔자'",
+      "url": "https://www.hankyung.com/article/2026070950316",
+      "summary": "코스피지수가 9일 장 초반 4% 넘게 급등한 이후 오름폭을 반납해 7300선 부근에서 움직이고 있다. 이날 오전 11시9분 현재 코스피지수는 전장보다 92.43포인트(1.28%) 오른 7339.22를 기록하고 있다. 3.31% 상승 출발한 코스피지수는 장중 4...",
+      "datetime_raw": "2026.07.09 11:11",
+      "datetime": "2026-07-09T11:11:00+09:00",
+      "dt": "2026-07-09 11:11",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "팔자",
+        "급락 딛고 반등한 코스피"
+      ],
+      "hash": "c343f0d8f129"
+    },
     {
       "title": "올라보엑스, 리센느 공식 캐릭터 '레미니' 공개…캐릭터 라이선싱 페어서 첫선",
       "url": "https://www.hankyung.com/article/202607094859B",
@@ -345,20 +362,36 @@
       "hash": "e9b2392d0010"
     },
     {
-      "title": "애프터마켓서 SK하닉 200만원·삼전 27만원 붕괴",
-      "url": "https://www.hankyung.com/article/2026070837387",
-      "summary": "8일 증시 정규장 종료 이후 넥스트트레이드 애프터마켓에서 SK하이닉스 주가가 200만원 아래러 내려갔다. 삼성전자도 27만원선이 무너졌다.넥스트트레이드에 따르면 이날 오후 6시32분 현재 SK하이닉스는 전일 대비 8.86% 하락한 200만6000원에 거래되고 있다. 장...",
-      "datetime_raw": "2026.07.08 18:15",
-      "datetime": "2026-07-08T18:15:00+09:00",
-      "dt": "2026-07-08 18:15",
+      "title": "\"보유한 삼전 주식 전부 팔겠다\" 발표에…상한가 찍은 기업",
+      "url": "https://www.hankyung.com/article/2026070824916",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "보유한 삼전 주식 전부 팔겠다"
+      ],
+      "hash": "8a1c497e8155"
+    },
+    {
+      "title": "\"너무 야하다고?\" 여성들 열광…1년 새 290% 폭등한 회사",
+      "url": "https://www.hankyung.com/article/2026070835201",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
       "brokers": [],
       "opinion": null,
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "애프터마켓서 SK하닉 200만원"
+        "너무 야하다고?"
       ],
-      "hash": "8e979d23a77d"
+      "hash": "1da8e1e6f592"
     },
     {
       "title": "삼전닉스 끝물이라고?…'반도체 저승사자' 경고의 진짜 의미",
@@ -378,22 +411,6 @@
       "hash": "90bd22244f55"
     },
     {
-      "title": "\"보유한 삼전 주식 전부 팔겠다\" 발표에…상한가 찍은 기업",
-      "url": "https://www.hankyung.com/article/2026070824916",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "보유한 삼전 주식 전부 팔겠다"
-      ],
-      "hash": "8a1c497e8155"
-    },
-    {
       "title": "대기업·석사 출신도 줄섰다…경비 1명 뽑는데 170명 '우르르'",
       "url": "https://www.hankyung.com/article/2026070710181",
       "summary": "",
@@ -411,8 +428,8 @@
       "hash": "0de0f0a8bb36"
     },
     {
-      "title": "\"너무 야하다고?\" 여성들 열광…1년 새 290% 폭등한 회사",
-      "url": "https://www.hankyung.com/article/2026070835201",
+      "title": "배에서 중국인 끝도 없이 내리더니…\"처음 보는 광경\" 깜짝",
+      "url": "https://www.hankyung.com/article/2026070834911",
       "summary": "",
       "datetime_raw": "",
       "datetime": "",
@@ -422,26 +439,10 @@
       "target_action": null,
       "target_change_pct": null,
       "keywords": [
-        "너무 야하다고?"
+        "처음 보는 광경",
+        "배에서 중국인 끝도 없이 내리더니"
       ],
-      "hash": "1da8e1e6f592"
-    },
-    {
-      "title": "독일 간담 서늘하게 했다…\"60조 놓쳐 22% 폭락? 줍줍 기회\"",
-      "url": "https://www.hankyung.com/article/2026070700646",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "독일 간담 서늘하게 했다",
-        "60조 놓쳐 22% 폭락? 줍줍 기회"
-      ],
-      "hash": "bae44300c47c"
+      "hash": "9d5477380d64"
     }
   ],
   "consensus_signals": []
