@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-09T09:30:50.943592+09:00",
+  "collected_at": "2026-07-09T10:08:26.802562+09:00",
   "date": "2026-07-09",
   "source": "hankyung_koreamarket_news",
   "pages": [
@@ -8,7 +8,7 @@
   "total_items": 25,
   "stats": {
     "with_broker_mention": 3,
-    "target_price_up": 2,
+    "target_price_up": 3,
     "target_price_down": 0,
     "top_brokers": [
       [
@@ -26,6 +26,56 @@
     ]
   },
   "items": [
+    {
+      "title": "코스피 질주 때 16% 빠진 이 종목…'저가 매수' 기회 왔다",
+      "url": "https://www.hankyung.com/article/202607083457i",
+      "summary": "'49.1%'. 농심에 대한 증권가의 목표주가와 현 주가와의 괴리율이다. 괴리율이 높을수록 해당 종목의 주가 상승 여력이 크다. 올 들어 농심 주가가 지지부진한 흐름을 이어가고 있지만 증권가에선 이 회사 주가가 '바닥'에 근접했다며...",
+      "datetime_raw": "2026.07.09 10:00",
+      "datetime": "2026-07-09T10:00:00+09:00",
+      "dt": "2026-07-09 10:00",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": "up",
+      "target_change_pct": null,
+      "keywords": [
+        "저가 매수",
+        "코스피 질주 때 16% 빠진 이 종목"
+      ],
+      "hash": "5073c840c156"
+    },
+    {
+      "title": "코스닥, 장중 800선 회복",
+      "url": "https://www.hankyung.com/article/2026070945346",
+      "summary": "[속보] 코스닥, 장중 800선 회복고정삼 한경닷컴 기자 jsk@hankyung.com",
+      "datetime_raw": "2026.07.09 09:33",
+      "datetime": "2026-07-09T09:33:00+09:00",
+      "dt": "2026-07-09 09:33",
+      "brokers": [],
+      "opinion": null,
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "코스닥"
+      ],
+      "hash": "f94a74d66f8f"
+    },
+    {
+      "title": "최태원, 나스닥 '오프닝 벨' 울린다…SK하이닉스·스퀘어 급등 [종목+]",
+      "url": "https://www.hankyung.com/article/2026070945256",
+      "summary": "SK하이닉스와 SK스퀘어가 미국 나스닥 ADR(미국 주식예탁증서) 상장을 하루 앞두고 9일 장 초반 강세를 나타냈다. 43조원 규모의 초대형 ADR 발행을 계기로 글로벌 투자자 유입과 기업가치 재평가 기대가 커지면서 매수세가 집중됐다는 분석이다. 최태원 SK그룹 회장도...",
+      "datetime_raw": "2026.07.09 09:32",
+      "datetime": "2026-07-09T09:32:00+09:00",
+      "dt": "2026-07-09 09:32",
+      "brokers": [],
+      "opinion": "매수",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "최태원",
+        "오프닝 벨"
+      ],
+      "hash": "ad887618c2d5"
+    },
     {
       "title": "코스피, 외인·기관 저가 매수에 3%대 반등…삼전닉스 급등",
       "url": "https://www.hankyung.com/article/2026070944126",
@@ -277,23 +327,6 @@
       "hash": "e9b2392d0010"
     },
     {
-      "title": "아문디 \"하반기엔 유럽·일본·金 투자해야\"",
-      "url": "https://www.hankyung.com/article/2026070835831",
-      "summary": "유럽 최대 자산운용사인 아문디가 글로벌 변동성 확대에 대비해 올 하반기에는 특정 자산에 대한 쏠림을 경계해야 한다고 조언했다. 인공지능(AI) 투자가 반도체 중심에서 산업 전반으로 확산하는 국면에 접어든 만큼 투자 대상을 유럽·일본 주식과 실물자산 등으로 넓혀야 한다는 분석이다.아문디는 8일 발표한 ‘2026년 하반기 글로벌 투자 전...",
-      "datetime_raw": "2026.07.08 18:43",
-      "datetime": "2026-07-08T18:43:00+09:00",
-      "dt": "2026-07-08 18:43",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "아문디 \"하반기엔 유럽",
-        "하반기엔 유럽·일본·金 투자해야"
-      ],
-      "hash": "249dfb47bb57"
-    },
-    {
       "title": "애프터마켓서 SK하닉 200만원·삼전 27만원 붕괴",
       "url": "https://www.hankyung.com/article/2026070837387",
       "summary": "8일 증시 정규장 종료 이후 넥스트트레이드 애프터마켓에서 SK하이닉스 주가가 200만원 아래러 내려갔다. 삼성전자도 27만원선이 무너졌다.넥스트트레이드에 따르면 이날 오후 6시32분 현재 SK하이닉스는 전일 대비 8.86% 하락한 200만6000원에 거래되고 있다. 장...",
@@ -327,40 +360,6 @@
       "hash": "5fd07444e33f"
     },
     {
-      "title": "반도체 피크아웃 공포에…韓증시 '검은 수요일'",
-      "url": "https://www.hankyung.com/article/2026070835861",
-      "summary": "한국경제신문의 투자 전문 유료 플랫폼 '한경 프리미엄9'(www.hankyung.com/premium9)에 실린 기사입니다. '한경 프리미엄9'을 구독하시면 더 많은 주식 투자 기사를 찾아볼 수 있습니다.코스피지수와 코스닥지수가 5%대 동반...",
-      "datetime_raw": "2026.07.08 17:48",
-      "datetime": "2026-07-08T17:48:00+09:00",
-      "dt": "2026-07-08 17:48",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "검은 수요일",
-        "반도체 피크아웃 공포에"
-      ],
-      "hash": "cc148b14704d"
-    },
-    {
-      "title": "벌써 초과청약…SK하이닉스 美ADR 공모 '후끈'",
-      "url": "https://www.hankyung.com/article/2026070835881",
-      "summary": "뉴욕 월스트리트가 SK하이닉스의 미국 주식예탁증서(ADR) 공모를 앞두고 후끈 달아오르고 있다.블룸버그는 지난 6일 소식통을 인용해 SK하이닉스의 ADR 공모가 몇 배 초과 청약됐다고 보도했다. 또 안정적·장기적 성향의 대형 기관투자가와 기술주 전문 투자자 수요가 초기부터 강하다고 전했다. 이날 열린 투자설명회에는 기관투자가 1000곳가량이 참...",
-      "datetime_raw": "2026.07.08 17:46",
-      "datetime": "2026-07-08T17:46:00+09:00",
-      "dt": "2026-07-08 17:46",
-      "brokers": [],
-      "opinion": null,
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "후끈",
-        "벌써 초과청약"
-      ],
-      "hash": "100c056c4ac6"
-    },
-    {
       "title": "삼전닉스 끝물이라고?…'반도체 저승사자' 경고의 진짜 의미",
       "url": "https://www.hankyung.com/article/202607071371i",
       "summary": "",
@@ -378,6 +377,22 @@
       "hash": "90bd22244f55"
     },
     {
+      "title": "\"보유한 삼전 주식 전부 팔겠다\" 발표에…상한가 찍은 기업",
+      "url": "https://www.hankyung.com/article/2026070824916",
+      "summary": "",
+      "datetime_raw": "",
+      "datetime": "",
+      "dt": "",
+      "brokers": [],
+      "opinion": "보유",
+      "target_action": null,
+      "target_change_pct": null,
+      "keywords": [
+        "보유한 삼전 주식 전부 팔겠다"
+      ],
+      "hash": "8a1c497e8155"
+    },
+    {
       "title": "대기업·석사 출신도 줄섰다…경비 1명 뽑는데 170명 '우르르'",
       "url": "https://www.hankyung.com/article/2026070710181",
       "summary": "",
@@ -393,22 +408,6 @@
         "대기업"
       ],
       "hash": "0de0f0a8bb36"
-    },
-    {
-      "title": "\"보유한 삼전 주식 전부 팔겠다\" 발표에…상한가 찍은 기업",
-      "url": "https://www.hankyung.com/article/2026070824916",
-      "summary": "",
-      "datetime_raw": "",
-      "datetime": "",
-      "dt": "",
-      "brokers": [],
-      "opinion": "보유",
-      "target_action": null,
-      "target_change_pct": null,
-      "keywords": [
-        "보유한 삼전 주식 전부 팔겠다"
-      ],
-      "hash": "8a1c497e8155"
     },
     {
       "title": "\"너무 야하다고?\" 여성들 열광…1년 새 290% 폭등한 회사",
