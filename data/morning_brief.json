@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-07-09 13:01 KST",
+  "as_of": "2026-07-09 15:06 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "중동 긴장 재고조에 혼조 마감…나스닥은 반등 [뉴욕증시 브리핑]",
+  "headline": "베이조스의 우주기업 블루오리진도 상장 나설까",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "중동 긴장 재고조에 혼조 마감…나스닥은 반등 [뉴욕증시 브리핑]",
+      "title": "베이조스의 우주기업 블루오리진도 상장 나설까",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026070940956"
+      "url": "https://www.hankyung.com/article/202607094777i"
     },
     {
       "title": "트럼프 \"전쟁 재개 아냐\"…'허쉬보다 싼 엔비디아', 반도체 지지선 도달?",
@@ -30,9 +30,9 @@
     }
   ],
   "today_kr_focus": [
-    "급락 딛고 반등한 코스피, 오름폭 줄여 7300선…개인 1.6조 '팔자' (2026-07-09 11:11)",
-    "올라보엑스, 리센느 공식 캐릭터 '레미니' 공개…캐릭터 라이선싱 페어서 첫선 (2026-07-09 10:30)",
-    "코스피 질주 때 16% 빠진 이 종목…'저가 매수' 기회 왔다 (2026-07-09 10:00)"
+    "iM증권, 신종자본증권 1500억 발행…\"운용·투자 중개 확대\" (2026-07-09 14:31)",
+    "LS증권, 국내주식·부동산 시장 대응 전략 세미나 개최 (2026-07-09 14:30)",
+    "담배 안 피우는데 주가는 뛴다…필립모리스에 무슨 일이 (2026-07-09 14:00)"
   ],
   "carousel_implications": {
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
@@ -50,12 +50,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "+2.23%"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.33% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.33%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-09T13:00:45.349864+09:00",
+    "collected_at": "2026-07-09T15:06:07.849529+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -125,30 +132,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,505.64",
-            "chg": "3.12",
-            "chg_pct": "-0.21%"
+            "close": "1,503.80",
+            "chg": "4.96",
+            "chg_pct": "-0.33%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,721.33",
-            "chg": "0.25",
-            "chg_pct": "-0.01%"
+            "close": "1,719.00",
+            "chg": "2.58",
+            "chg_pct": "-0.15%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "926.76",
-            "chg": "1.13",
-            "chg_pct": "-0.12%"
+            "close": "926.10",
+            "chg": "1.79",
+            "chg_pct": "-0.19%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "221.29",
-            "chg": "0.78",
-            "chg_pct": "-0.35%"
+            "close": "220.99",
+            "chg": "1.08",
+            "chg_pct": "-0.49%"
           }
         ]
       },
@@ -205,16 +212,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.25",
-            "chg": "0.03",
-            "chg_pct": "+0.76%"
+            "close": "4.28",
+            "chg": "0.04",
+            "chg_pct": "+0.87%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.78",
-            "chg": "0.01",
-            "chg_pct": "-0.13%"
+            "close": "3.81",
+            "chg": "0.04",
+            "chg_pct": "+1.01%"
           },
           {
             "name": "미국 국채 10년",
