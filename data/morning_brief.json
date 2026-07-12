@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-07-11 23:11 KST",
+  "as_of": "2026-07-12 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "나스닥 데뷔 SK하이닉스 13% 상승…뉴욕증시 소폭 상승 마감 [뉴욕증시 브리핑]",
+  "headline": "SK하이닉스 미국 데뷔, 거세진 메모리 피크아웃 논란 [월가백브리핑]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "나스닥 데뷔 SK하이닉스 13% 상승…뉴욕증시 소폭 상승 마감 [뉴욕증시 브리핑]",
+      "title": "SK하이닉스 미국 데뷔, 거세진 메모리 피크아웃 논란 [월가백브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026071189867"
+      "url": "https://www.hankyung.com/article/202607129717i"
     },
     {
-      "title": "최태원 \"메모리 사이클, 구조 변화\"…14일 CPI·워시·어닝 몰렸다 [김현석의 월스트리트나우]",
+      "title": "'10분의1 가격' 메타·스페이스X의 반격…중국산 AI 대체할까 [김인엽의 AI 프런티어]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202607118953i"
+      "url": "https://www.hankyung.com/article/202607107442i"
     },
     {
-      "title": "JP모간 뉴욕본사 태극기로 덮었다…월가 홀린 SK하이닉스 [종목+]",
+      "title": "고금리 장기화 부작용, 미국 하이일드 주목",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026071083056"
+      "url": "https://www.hankyung.com/article/202607107802i"
     },
     {
-      "title": "\"휴전 끝났다\" 트럼프 통보에 이란도 \"항복 없다\"…강대강 대치",
+      "title": "\"애플 부품 가져와봐라\"…오픈AI의 수상한 채용 면접",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026071189777"
+      "url": "https://www.hankyung.com/article/202607129590i"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-11T23:10:44.563980+09:00",
+    "collected_at": "2026-07-12T23:10:46.739399+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
