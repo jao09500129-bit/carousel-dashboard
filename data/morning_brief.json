@@ -1,27 +1,27 @@
 {
-  "as_of": "2026-07-13 16:01 KST",
+  "as_of": "2026-07-13 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "SK하이닉스 미국 데뷔, 거세진 메모리 피크아웃 논란 [월가백브리핑]",
+  "headline": "\"삼전닉스 때문에 다 오른다\"…전세계 소비자 '분노 폭발' [도쿄나우]",
   "us_market_snapshot": [],
   "themes": [
+    {
+      "title": "\"삼전닉스 때문에 다 오른다\"…전세계 소비자 '분노 폭발' [도쿄나우]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202607131877i"
+    },
+    {
+      "title": "美 벤처시장 'AI 독식' 더 심해…자금 86% 싹쓸이",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026071325031"
+    },
     {
       "title": "SK하이닉스 미국 데뷔, 거세진 메모리 피크아웃 논란 [월가백브리핑]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202607129717i"
-    },
-    {
-      "title": "'10분의1 가격' 메타·스페이스X의 반격…중국산 AI 대체할까 [김인엽의 AI 프런티어]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202607107442i"
-    },
-    {
-      "title": "고금리 장기화 부작용, 미국 하이일드 주목",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202607107802i"
     },
     {
       "title": "\"애플 부품 가져와봐라\"…오픈AI의 수상한 채용 면접",
@@ -34,17 +34,17 @@
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
     "axes": [
       {
-        "axis": "관찰 대기",
-        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-        "confidence": "낮음 — 신호 부재",
-        "trigger_metric": "",
-        "trigger_value": ""
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.32% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.32%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-13T16:00:50.498743+09:00",
+    "collected_at": "2026-07-13T23:10:47.811984+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -81,16 +81,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "68,557.73",
-            "chg": "813.88",
-            "chg_pct": "+1.20%"
+            "close": "67,242.73",
+            "chg": "1,315.00",
+            "chg_pct": "-1.92%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "45,354.61",
-            "chg": "379.80",
-            "chg_pct": "-0.83%"
+            "close": "45,380.52",
+            "chg": "25.91",
+            "chg_pct": "+0.06%"
           },
           {
             "name": "독일",
@@ -102,9 +102,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "24,175.12",
-            "chg": "144.94",
-            "chg_pct": "+0.60%"
+            "close": "24,213.72",
+            "chg": "38.60",
+            "chg_pct": "+0.16%"
           }
         ]
       },
@@ -114,30 +114,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,503.29",
-            "chg": "4.22",
-            "chg_pct": "+0.28%"
+            "close": "1,494.24",
+            "chg": "4.83",
+            "chg_pct": "-0.32%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,713.83",
-            "chg": "1.91",
-            "chg_pct": "+0.11%"
+            "close": "1,705.46",
+            "chg": "6.46",
+            "chg_pct": "-0.38%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "926.49",
-            "chg": "0.77",
-            "chg_pct": "-0.08%"
+            "close": "920.75",
+            "chg": "6.51",
+            "chg_pct": "-0.70%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "221.80",
-            "chg": "0.59",
-            "chg_pct": "+0.27%"
+            "close": "220.47",
+            "chg": "0.74",
+            "chg_pct": "-0.33%"
           }
         ]
       },
