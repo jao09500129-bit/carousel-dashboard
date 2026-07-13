@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-13 10:02 KST",
+  "as_of": "2026-07-13 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -35,16 +35,16 @@
     "axes": [
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.36% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.38% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.36%"
+        "trigger_value": "+0.38%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-13T10:02:27.669198+09:00",
+    "collected_at": "2026-07-13T11:00:54.193515+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -114,9 +114,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,504.47",
-            "chg": "5.40",
-            "chg_pct": "+0.36%"
+            "close": "1,504.70",
+            "chg": "5.63",
+            "chg_pct": "+0.38%"
           },
           {
             "name": "유로",
@@ -128,16 +128,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "928.08",
-            "chg": "0.82",
-            "chg_pct": "+0.09%"
+            "close": "928.93",
+            "chg": "1.67",
+            "chg_pct": "+0.18%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "221.99",
-            "chg": "0.78",
-            "chg_pct": "+0.35%"
+            "close": "222.01",
+            "chg": "0.80",
+            "chg_pct": "+0.36%"
           }
         ]
       },
