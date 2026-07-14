@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-07-13T23:10:47.811984+09:00",
-  "action_headline": "환율 민감 축 유지 — 신규 후보 신호 약함",
+  "computed_at": "2026-07-14T09:13:30.972209+09:00",
+  "action_headline": "금리 민감 축 가속 + 반도체 신규 진입 검토",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
-    "USDKRW -0.32% — 환율 민감 회전축",
-    "Market Mood 47/100 (FEAR)"
+    "미국 10년 yield +6.0bp — 금리 민감 회전축",
+    "Market Mood 26/100 (FEAR)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
