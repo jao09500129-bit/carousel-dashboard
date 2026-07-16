@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-07-16 16:01 KST",
+  "as_of": "2026-07-16 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "물가 둔화에 빅테크 강세까지…나스닥 0.6% 상승 [뉴욕증시 브리핑]",
+  "headline": "앤트로픽, 10월 IPO 추진…투자자 미팅 돌입",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "물가 둔화에 빅테크 강세까지…나스닥 0.6% 상승 [뉴욕증시 브리핑]",
+      "title": "앤트로픽, 10월 IPO 추진…투자자 미팅 돌입",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026071681156"
+      "url": "https://www.hankyung.com/article/202607168836i"
     },
     {
       "title": "윌리엄스 '동결' 선언…반도체 내리고, 빅테크 오른 이유 [김현석의 월스트리트나우]",
@@ -42,16 +42,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.86% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.68% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.86%"
+        "trigger_value": "-0.68%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-16T16:00:46.685394+09:00",
+    "collected_at": "2026-07-16T23:10:52.706542+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -88,16 +88,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "68,751.51",
-            "chg": "1,008.01",
-            "chg_pct": "+1.49%"
+            "close": "66,835.54",
+            "chg": "1,915.97",
+            "chg_pct": "-2.79%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "45,631.59",
-            "chg": "893.64",
-            "chg_pct": "+2.00%"
+            "close": "45,624.98",
+            "chg": "6.61",
+            "chg_pct": "-0.01%"
           },
           {
             "name": "독일",
@@ -109,9 +109,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "24,681.10",
-            "chg": "340.37",
-            "chg_pct": "+1.40%"
+            "close": "25,008.60",
+            "chg": "327.50",
+            "chg_pct": "+1.33%"
           }
         ]
       },
@@ -121,30 +121,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,478.41",
-            "chg": "12.79",
-            "chg_pct": "-0.86%"
+            "close": "1,481.06",
+            "chg": "10.14",
+            "chg_pct": "-0.68%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,695.87",
-            "chg": "8.84",
-            "chg_pct": "-0.52%"
+            "close": "1,696.25",
+            "chg": "8.46",
+            "chg_pct": "-0.50%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "911.93",
-            "chg": "7.69",
-            "chg_pct": "-0.84%"
+            "close": "912.40",
+            "chg": "7.22",
+            "chg_pct": "-0.79%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "218.41",
-            "chg": "1.80",
-            "chg_pct": "-0.82%"
+            "close": "218.85",
+            "chg": "1.36",
+            "chg_pct": "-0.62%"
           }
         ]
       },
@@ -201,16 +201,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.33",
-            "chg": "0.00",
-            "chg_pct": "+0.05%"
+            "close": "4.30",
+            "chg": "0.03",
+            "chg_pct": "-0.69%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.86",
-            "chg": "0.00",
-            "chg_pct": "-0.10%"
+            "close": "3.85",
+            "chg": "0.02",
+            "chg_pct": "-0.47%"
           },
           {
             "name": "미국 국채 10년",
