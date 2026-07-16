@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "updated_at": "2026-07-16T13:00:13+09:00",
+  "updated_at": "2026-07-16T15:00:18+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "TOP_STALL",
@@ -61,7 +61,7 @@
     "total_return_pct": 20.52,
     "cash_pct": 100.0,
     "holdings": [],
-    "last_updated": "2026-07-16T13:00:08.590427",
+    "last_updated": "2026-07-16T15:00:08.140216",
     "since_start_days": 78
   },
   "trade_today": {
@@ -199,11 +199,11 @@
       "vol_off_pct": 19.62
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-07-16T13:00:14+09:00"
+    "updated_at": "2026-07-16T15:00:19+09:00"
   },
   "m30_shadow": {
     "date": "2026-07-15",
-    "updated_at": "2026-07-16T13:00:15+09:00",
+    "updated_at": "2026-07-16T15:00:20+09:00",
     "m21": {
       "wl": 3.2207,
       "ws": 0.0,
@@ -248,7 +248,7 @@
   },
   "m37_shadow": {
     "date": "2026-07-15",
-    "updated_at": "2026-07-16T13:00:18+09:00",
+    "updated_at": "2026-07-16T15:00:23+09:00",
     "m21": {
       "wl": 3.2207,
       "ws": 0.0
@@ -1415,7 +1415,7 @@
         "drawdown_pct": -34.0
       }
     ],
-    "generated_at": "2026-07-16T13:00:22"
+    "generated_at": "2026-07-16T15:00:27"
   },
   "evaluation": {
     "month1_review": "2026-05-29",
