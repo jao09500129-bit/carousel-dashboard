@@ -1,17 +1,11 @@
 {
-  "computed_at": "2026-07-16T23:10:52.706542+09:00",
+  "computed_at": "2026-07-17T09:30:54.082100+09:00",
   "current_pivot": "반도체",
-  "current_view": "美 반도체 지수 -2.08% 조정. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 저점 매수 진입 검토 — 확신은 합의 시그널과 교차검증 필요.",
+  "current_view": "美 반도체 지수 -4.29% 조정. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 저점 매수 진입 검토 — 확신은 합의 시그널과 교차검증 필요.",
   "current_confidence": "중 — 백테스트 미검증",
   "current_days": 1,
   "rotation_velocity": "빠름",
-  "volatility_index": 17.6,
-  "candidates": [
-    {
-      "name": "환율 민감",
-      "probability": 0.2,
-      "trigger": "USDKRW -0.68%"
-    }
-  ],
+  "volatility_index": 21.9,
+  "candidates": [],
   "note": "★ 추정 — 매크로 변동성·conviction 휴리스틱 기반, 백테스트 미검증."
 }

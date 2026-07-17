@@ -1,57 +1,50 @@
 {
-  "as_of": "2026-07-16 23:11 KST",
+  "as_of": "2026-07-17 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "앤트로픽, 10월 IPO 추진…투자자 미팅 돌입",
+  "headline": "TSMC 끝내줬지만, 반도체 4.3% 급락…스페이스X의 경착륙 [김현석의 월스트리트나우]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "앤트로픽, 10월 IPO 추진…투자자 미팅 돌입",
+      "title": "TSMC 끝내줬지만, 반도체 4.3% 급락…스페이스X의 경착륙 [김현석의 월스트리트나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202607168836i"
+      "url": "https://www.hankyung.com/article/202607170670i"
     },
     {
-      "title": "윌리엄스 '동결' 선언…반도체 내리고, 빅테크 오른 이유 [김현석의 월스트리트나우]",
+      "title": "'SK하닉 본주 한국에 있는데…' ADR 프리미엄 굳어지나 [노정동의 어쩌다 투자자]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202607168150i"
+      "url": "https://www.hankyung.com/article/2026071603056"
     },
     {
-      "title": "호르무즈 긴장 재고조…원유 비축 바닥에 공급난 우려 확산",
+      "title": "反이민 정책 강화하는 美…유학생·언론인 비자 옥죈다 [이상은의 워싱턴나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202607168577i"
+      "url": "https://www.hankyung.com/article/202607170560i"
     },
     {
-      "title": "AI 인프라 쏠림 '충격'…IBM 시총 하루새 690억弗 증발",
+      "title": "미-이란·러-우 전쟁 끝내기 왜 이리 어렵나 [홍영식의 이슈 워치]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026071577101"
+      "url": "https://magazine.hankyung.com/business/article/202607156294b"
     }
   ],
   "today_kr_focus": [],
   "carousel_implications": {
-    "regime": "혼조 — 명확한 방향성 부족 (가설)",
+    "regime": "美 증시 조정 — 위험회피 분위기 (가설)",
     "axes": [
       {
         "axis": "반도체 회전축",
-        "view": "美 반도체 지수 -2.08% 조정. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 저점 매수 진입 검토 — 확신은 합의 시그널과 교차검증 필요.",
+        "view": "美 반도체 지수 -4.29% 조정. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 저점 매수 진입 검토 — 확신은 합의 시그널과 교차검증 필요.",
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
-        "trigger_value": "-2.08%"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.68% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.68%"
+        "trigger_value": "-4.29%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-16T23:10:52.706542+09:00",
+    "collected_at": "2026-07-17T09:30:54.082100+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -60,30 +53,30 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "26,269.23",
-            "chg": "162.22",
-            "chg_pct": "+0.62%"
+            "close": "25,881.95",
+            "chg": "387.28",
+            "chg_pct": "-1.47%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "52,658.64",
-            "chg": "150.37",
-            "chg_pct": "+0.29%"
+            "close": "52,552.97",
+            "chg": "105.67",
+            "chg_pct": "-0.20%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,572.40",
-            "chg": "28.81",
-            "chg_pct": "+0.38%"
+            "close": "7,533.77",
+            "chg": "38.63",
+            "chg_pct": "-0.51%"
           },
           {
             "name": "반도체",
             "symbol": "PSEMICON",
-            "close": "12,398.89",
-            "chg": "263.04",
-            "chg_pct": "-2.08%"
+            "close": "11,867.50",
+            "chg": "531.39",
+            "chg_pct": "-4.29%"
           },
           {
             "name": "NIKKEI 225",
@@ -102,9 +95,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "24,999.53",
-            "chg": "147.50",
-            "chg_pct": "-0.59%"
+            "close": "24,915.49",
+            "chg": "84.04",
+            "chg_pct": "-0.34%"
           },
           {
             "name": "홍콩",
@@ -121,30 +114,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,481.06",
-            "chg": "10.14",
-            "chg_pct": "-0.68%"
+            "close": "1,480.75",
+            "chg": "0.46",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,696.25",
-            "chg": "8.46",
-            "chg_pct": "-0.50%"
+            "close": "1,694.50",
+            "chg": "0.18",
+            "chg_pct": "+0.01%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "912.40",
-            "chg": "7.22",
-            "chg_pct": "-0.79%"
+            "close": "911.71",
+            "chg": "0.44",
+            "chg_pct": "+0.05%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "218.85",
-            "chg": "1.36",
-            "chg_pct": "-0.62%"
+            "close": "218.60",
+            "chg": "0.09",
+            "chg_pct": "-0.04%"
           }
         ]
       },
@@ -154,9 +147,9 @@
           {
             "name": "브렌트",
             "symbol": "BRENTF",
-            "close": "84.95",
-            "chg": "0.22",
-            "chg_pct": "+0.26%"
+            "close": "84.23",
+            "chg": "0.72",
+            "chg_pct": "-0.85%"
           },
           {
             "name": "두바이유 현물",
@@ -168,30 +161,30 @@
           {
             "name": "니켈",
             "symbol": "LMENIC",
-            "close": "16,505.00",
-            "chg": "85.00",
-            "chg_pct": "-0.51%"
+            "close": "17,150.00",
+            "chg": "645.00",
+            "chg_pct": "+3.91%"
           },
           {
             "name": "알루미늄 H/G 캐시",
             "symbol": "LMEALC",
-            "close": "3,153.50",
-            "chg": "17.50",
-            "chg_pct": "-0.55%"
+            "close": "3,170.00",
+            "chg": "16.50",
+            "chg_pct": "+0.52%"
           },
           {
             "name": "전기동",
             "symbol": "LMECOC",
-            "close": "13,537.00",
-            "chg": "4.00",
-            "chg_pct": "-0.03%"
+            "close": "13,565.00",
+            "chg": "28.00",
+            "chg_pct": "+0.21%"
           },
           {
             "name": "전기동 3M",
             "symbol": "LMECOF",
-            "close": "13,585.00",
-            "chg": "7.00",
-            "chg_pct": "-0.05%"
+            "close": "13,606.00",
+            "chg": "21.00",
+            "chg_pct": "+0.15%"
           }
         ]
       },
@@ -215,23 +208,23 @@
           {
             "name": "미국 국채 10년",
             "symbol": "US10YY",
-            "close": "4.55",
-            "chg": "0.03",
-            "chg_pct": "-0.66%"
+            "close": "4.57",
+            "chg": "0.02",
+            "chg_pct": "+0.44%"
           },
           {
             "name": "미국 국채 2년",
             "symbol": "US2YY",
-            "close": "4.13",
-            "chg": "0.05",
-            "chg_pct": "-1.20%"
+            "close": "4.16",
+            "chg": "0.03",
+            "chg_pct": "+0.73%"
           },
           {
             "name": "미국 국채 30년",
             "symbol": "US30YY",
-            "close": "5.08",
-            "chg": "0.00",
-            "chg_pct": "0.00%"
+            "close": "5.09",
+            "chg": "0.01",
+            "chg_pct": "+0.20%"
           },
           {
             "name": "일본 국채 10년",
