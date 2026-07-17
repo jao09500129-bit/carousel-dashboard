@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-17T16:00:54.563872+09:00",
+  "collected_at": "2026-07-17T23:10:47.963098+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -36,16 +36,16 @@
         {
           "name": "NIKKEI 225",
           "symbol": "NIKKEI",
-          "close": "66,835.54",
-          "chg": "1,915.97",
-          "chg_pct": "-2.79%"
+          "close": "64,141.12",
+          "chg": "2,694.42",
+          "chg_pct": "-4.03%"
         },
         {
           "name": "대만",
           "symbol": "WEIGHT",
-          "close": "45,624.98",
-          "chg": "6.61",
-          "chg_pct": "-0.01%"
+          "close": "42,671.27",
+          "chg": "2,953.71",
+          "chg_pct": "-6.47%"
         },
         {
           "name": "독일",
@@ -57,9 +57,9 @@
         {
           "name": "홍콩",
           "symbol": "HANGSE",
-          "close": "25,008.60",
-          "chg": "327.50",
-          "chg_pct": "+1.33%"
+          "close": "24,562.24",
+          "chg": "446.36",
+          "chg_pct": "-1.78%"
         }
       ]
     },
@@ -69,30 +69,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,480.21",
-          "chg": "0.08",
-          "chg_pct": "-0.01%"
+          "close": "1,485.07",
+          "chg": "4.78",
+          "chg_pct": "+0.32%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,694.69",
-          "chg": "0.37",
-          "chg_pct": "+0.02%"
+          "close": "1,698.70",
+          "chg": "4.38",
+          "chg_pct": "+0.26%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "912.21",
-          "chg": "0.94",
-          "chg_pct": "+0.10%"
+          "close": "914.73",
+          "chg": "3.46",
+          "chg_pct": "+0.38%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "218.53",
-          "chg": "0.16",
-          "chg_pct": "-0.07%"
+          "close": "219.26",
+          "chg": "0.57",
+          "chg_pct": "+0.26%"
         }
       ]
     },
