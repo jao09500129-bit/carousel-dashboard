@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-07-18 23:11 KST",
+  "as_of": "2026-07-19 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "월가 덮친 '중국산 AI' 쇼크…반도체 부활 기회 남았나 [월가 백브리핑]",
+  "headline": "'딥시크 악몽' 시즌2...'가성비 모델' 역습, 반도체엔 강세? [빈난새의 빈틈없이월가]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "월가 덮친 '중국산 AI' 쇼크…반도체 부활 기회 남았나 [월가 백브리핑]",
+      "title": "'딥시크 악몽' 시즌2...'가성비 모델' 역습, 반도체엔 강세? [빈난새의 빈틈없이월가]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202607181616i"
+      "url": "https://www.hankyung.com/article/202607192100i"
     },
     {
       "title": "'딥시크 2.0' 충격, 연일 터지는 반도체…어닝시즌 핵심이 될 22일 [김현석의 월스트리트나우]",
@@ -19,9 +19,9 @@
       "url": "https://www.hankyung.com/article/202607181460i"
     },
     {
-      "title": "반도체주 매도세에 일제 하락…나스닥 1.4%↓ [뉴욕증시 브리핑]",
+      "title": "월가 덮친 '중국산 AI' 쇼크…반도체 부활 기회 남았나 [월가 백브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026071815657"
+      "url": "https://www.hankyung.com/article/202607181616i"
     },
     {
       "title": "공모가 아래로 주저앉은 스페이스X, 시총 1500조 증발",
@@ -51,7 +51,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-18T23:10:44.750137+09:00",
+    "collected_at": "2026-07-19T23:10:48.417717+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
