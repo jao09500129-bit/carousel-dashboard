@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21 09:56 KST",
+  "as_of": "2026-07-21 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-21T09:56:37.124842+09:00",
+    "collected_at": "2026-07-21T11:00:57.561119+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -114,30 +114,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,479.34",
-            "chg": "0.30",
-            "chg_pct": "-0.02%"
+            "close": "1,479.71",
+            "chg": "0.07",
+            "chg_pct": "+0.00%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,688.92",
-            "chg": "0.19",
-            "chg_pct": "+0.01%"
+            "close": "1,688.74",
+            "chg": "0.01",
+            "chg_pct": "+0.00%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "909.93",
-            "chg": "0.48",
-            "chg_pct": "-0.05%"
+            "close": "910.64",
+            "chg": "0.23",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "218.33",
-            "chg": "0.13",
-            "chg_pct": "-0.06%"
+            "close": "218.45",
+            "chg": "0.01",
+            "chg_pct": "-0.00%"
           }
         ]
       },
@@ -230,8 +230,8 @@
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
             "close": "2.72",
-            "chg": "0.02",
-            "chg_pct": "+0.82%"
+            "chg": "0.00",
+            "chg_pct": "-0.15%"
           }
         ]
       }
