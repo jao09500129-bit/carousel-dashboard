@@ -1,17 +1,11 @@
 {
-  "computed_at": "2026-07-21T16:00:47.428129+09:00",
+  "computed_at": "2026-07-21T23:10:52.680745+09:00",
   "current_pivot": "금리 민감",
   "current_view": "미국 10년 yield +5.0bp 상승. 리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
   "current_confidence": "중 — 백테스트 미검증",
   "current_days": 1,
   "rotation_velocity": "빠름",
-  "volatility_index": 19.6,
-  "candidates": [
-    {
-      "name": "환율 민감",
-      "probability": 0.2,
-      "trigger": "USDKRW -0.33%"
-    }
-  ],
+  "volatility_index": 19.2,
+  "candidates": [],
   "note": "★ 추정 — 매크로 변동성·conviction 휴리스틱 기반, 백테스트 미검증."
 }
