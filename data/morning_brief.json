@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23 15:03 KST",
+  "as_of": "2026-07-23 16:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -42,16 +42,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.61% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.46% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.61%"
+        "trigger_value": "-0.46%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-23T15:03:13.352593+09:00",
+    "collected_at": "2026-07-23T16:01:03.436292+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -121,30 +121,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,467.58",
-            "chg": "8.97",
-            "chg_pct": "-0.61%"
+            "close": "1,469.74",
+            "chg": "6.81",
+            "chg_pct": "-0.46%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,677.01",
-            "chg": "9.85",
-            "chg_pct": "-0.58%"
+            "close": "1,678.08",
+            "chg": "8.78",
+            "chg_pct": "-0.52%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "899.84",
-            "chg": "5.55",
-            "chg_pct": "-0.61%"
+            "close": "901.09",
+            "chg": "4.30",
+            "chg_pct": "-0.47%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "216.70",
-            "chg": "1.54",
-            "chg_pct": "-0.71%"
+            "close": "216.99",
+            "chg": "1.25",
+            "chg_pct": "-0.57%"
           }
         ]
       },
