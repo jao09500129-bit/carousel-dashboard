@@ -1,0 +1,15 @@
+{
+  "collected_at": "2026-07-23T09:58:42.005772+09:00",
+  "date": "2026-07-23",
+  "source": "hankyung_koreamarket_news",
+  "pages": [],
+  "total_items": 0,
+  "stats": {
+    "with_broker_mention": 0,
+    "target_price_up": 0,
+    "target_price_down": 0,
+    "top_brokers": []
+  },
+  "items": [],
+  "consensus_signals": []
+}
