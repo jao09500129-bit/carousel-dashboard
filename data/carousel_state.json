@@ -1,17 +1,11 @@
 {
-  "computed_at": "2026-07-22T23:11:06.823794+09:00",
-  "current_pivot": "반도체",
-  "current_view": "美 반도체 지수 +5.21% 강세. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 단기 과열 경계 — 확신은 합의 시그널과 교차검증 필요.",
-  "current_confidence": "중 — 백테스트 미검증",
+  "computed_at": "2026-07-23T09:58:42.005772+09:00",
+  "current_pivot": "에너지",
+  "current_view": "브렌트 +3.36% 급등. 정유·해운·항공 비용 구조 영향. 단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
+  "current_confidence": "낮음 — 변동성 자체가 검증 까다로움",
   "current_days": 1,
   "rotation_velocity": "빠름",
-  "volatility_index": 23.5,
-  "candidates": [
-    {
-      "name": "에너지",
-      "probability": 0.2,
-      "trigger": "브렌트 +2.01%"
-    }
-  ],
+  "volatility_index": 19.7,
+  "candidates": [],
   "note": "★ 추정 — 매크로 변동성·conviction 휴리스틱 기반, 백테스트 미검증."
 }
