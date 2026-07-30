@@ -1,6 +1,6 @@
 {
   "date": "2026-07-31",
-  "updated_at": "2026-07-31T06:33:58+09:00",
+  "updated_at": "2026-07-31T07:00:04+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_VOLATILE",
@@ -199,11 +199,11 @@
       "vol_off_pct": 19.58
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-07-31T06:34:00+09:00"
+    "updated_at": "2026-07-31T07:00:06+09:00"
   },
   "m30_shadow": {
     "date": "2026-07-29",
-    "updated_at": "2026-07-31T06:34:01+09:00",
+    "updated_at": "2026-07-31T07:00:07+09:00",
     "m21": {
       "wl": 1.6849,
       "ws": 0.0,
@@ -248,7 +248,7 @@
   },
   "m37_shadow": {
     "date": "2026-07-29",
-    "updated_at": "2026-07-31T06:34:04+09:00",
+    "updated_at": "2026-07-31T07:00:10+09:00",
     "m21": {
       "wl": 1.6849,
       "ws": 0.0
@@ -287,15 +287,689 @@
         "holding_qty": 0
       }
     ],
-    "trade_history": [],
+    "trade_history": [
+      {
+        "date": "2026-04-29",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 638,
+        "return_pct": 1.74,
+        "memo": "첫 매수, 시가 -85bp 슬리피지 이득"
+      },
+      {
+        "date": "2026-04-30",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 638,
+        "return_pct": 0.07,
+        "memo": "신호 동일 75% / 122630 -2.22% / 자본 -1.64%"
+      },
+      {
+        "date": "2026-05-04",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 638,
+        "return_pct": 7.94,
+        "memo": "신호 동일 75% / 122630 +10.69% / 5/1~5/3 휴장"
+      },
+      {
+        "date": "2026-05-07",
+        "track": 1,
+        "action_short": "🔴 SELL",
+        "qty": 509,
+        "return_pct": 23.52,
+        "memo": "drift +19.0%p > 10%p / 시장가 매도, 잔여 509주"
+      },
+      {
+        "date": "2026-05-08",
+        "track": 1,
+        "action_short": "🔴 SELL",
+        "qty": 361,
+        "return_pct": 22.71,
+        "memo": "drift +22.7%p > 10%p / 시장가 매도, 잔여 361주"
+      },
+      {
+        "date": "2026-05-11",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 487,
+        "return_pct": 29.26,
+        "memo": "drift -19.5%p > 10%p / 시초 갭업 +9% 매수 / 잔여 487주"
+      },
+      {
+        "date": "2026-05-12",
+        "track": 1,
+        "action_short": "🚨 SL",
+        "qty": 0,
+        "return_pct": 22.08,
+        "memo": "🚨 STOP-LOSS 발동 -5.42% / 시장가 청산 487주 / 잔여 0"
+      },
+      {
+        "date": "2026-05-13",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 306,
+        "return_pct": 27.52,
+        "memo": "신호 75→50% 약화 / 재진입 306주 / 5/12 청산 후 첫 매수"
+      },
+      {
+        "date": "2026-05-14",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 306,
+        "return_pct": 27.4,
+        "memo": "신호 동일 50% / drift +2.6%p ≤ 10%p / 매매 X"
+      },
+      {
+        "date": "2026-05-15",
+        "track": 1,
+        "action_short": "🚨 SL",
+        "qty": 0,
+        "return_pct": 22.41,
+        "memo": "🚨 STOP-LOSS 발동 -5.19% / 시장가 청산 306주 14:32"
+      },
+      {
+        "date": "2026-05-18",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 319,
+        "return_pct": 25.58,
+        "memo": "신호 50% / 재진입 319주 / 5/15 청산 후 첫 매수"
+      },
+      {
+        "date": "2026-05-19",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 319,
+        "return_pct": 22.65,
+        "memo": "신호 동일 50% / 장중 -3.14% alert 후 회복 / 매매 X"
+      },
+      {
+        "date": "2026-05-20",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 846,
+        "return_pct": 22.84,
+        "memo": "⚠️ 자동매매 cash 부족 실패 / 사용자 수동 매수 316+127+84=527주"
+      },
+      {
+        "date": "2026-05-21",
+        "track": 1,
+        "action_short": "🔴 SELL",
+        "qty": 423,
+        "return_pct": 44.15,
+        "memo": "⚠️ 09:05 자동매매 차단 (KIS API prev_close=0 모의계좌 ETF 버그) → 사용자 원칙 확인 후 15:17 수동 재실행 →"
+      },
+      {
+        "date": "2026-05-22",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 423,
+        "return_pct": 44.46,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-22 15:40]"
+      },
+      {
+        "date": "2026-05-23",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 423,
+        "return_pct": 44.46,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-23 15:40]"
+      },
+      {
+        "date": "2026-05-24",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 423,
+        "return_pct": 44.46,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-24 15:40]"
+      },
+      {
+        "date": "2026-05-25",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 423,
+        "return_pct": 44.46,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-25 15:40]"
+      },
+      {
+        "date": "2026-05-26",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 423,
+        "return_pct": 48.56,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-26 15:40]"
+      },
+      {
+        "date": "2026-05-27",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 423,
+        "return_pct": 52.97,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-27 15:40]"
+      },
+      {
+        "date": "2026-05-28",
+        "track": 1,
+        "action_short": "🚨 SL",
+        "qty": 0,
+        "return_pct": 45.16,
+        "memo": "🚨 STOP-LOSS 발동 (정점 대비 -5.07%) → KIS 시장가 청산 423주 (13:20:13). 5/27 정점 152.97M 대비 -"
+      },
+      {
+        "date": "2026-05-29",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 376,
+        "return_pct": 46.59,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-29 15:40]"
+      },
+      {
+        "date": "2026-05-30",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 46.59,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-30 15:40]"
+      },
+      {
+        "date": "2026-05-31",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 46.59,
+        "memo": "KIS API 자동 갱신 [자동갱신 05-31 15:40]"
+      },
+      {
+        "date": "2026-06-01",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 54.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-01 22:10]"
+      },
+      {
+        "date": "2026-06-02",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 54.14,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-02 15:40]"
+      },
+      {
+        "date": "2026-06-03",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 54.14,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-03 15:40]"
+      },
+      {
+        "date": "2026-06-04",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 50.71,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-04 15:40]"
+      },
+      {
+        "date": "2026-06-05",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 41.11,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-05 15:40]"
+      },
+      {
+        "date": "2026-06-06",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 41.11,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-06 15:40]"
+      },
+      {
+        "date": "2026-06-07",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 376,
+        "return_pct": 41.11,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-07 15:40]"
+      },
+      {
+        "date": "2026-06-08",
+        "track": 1,
+        "action_short": "🚨 SL",
+        "qty": 0,
+        "return_pct": 30.64,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-08 15:40]"
+      },
+      {
+        "date": "2026-06-09",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 30.64,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-09 15:40]"
+      },
+      {
+        "date": "2026-06-10",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 30.64,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-10 15:40]"
+      },
+      {
+        "date": "2026-06-11",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 30.64,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-11 15:40]"
+      },
+      {
+        "date": "2026-06-12",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 30.64,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-12 15:40]"
+      },
+      {
+        "date": "2026-06-13",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 30.64,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-13 15:40]"
+      },
+      {
+        "date": "2026-06-14",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 30.64,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-14 15:40]"
+      },
+      {
+        "date": "2026-06-15",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 30.64,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-15 15:40]"
+      },
+      {
+        "date": "2026-06-16",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 318,
+        "return_pct": 30.63,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-16 15:40]"
+      },
+      {
+        "date": "2026-06-17",
+        "track": 1,
+        "action_short": "🔴 SELL",
+        "qty": 933,
+        "return_pct": 32.85,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-17 15:40]"
+      },
+      {
+        "date": "2026-06-18",
+        "track": 1,
+        "action_short": "🔴 SELL",
+        "qty": 45,
+        "return_pct": 34.46,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-18 15:40]"
+      },
+      {
+        "date": "2026-06-19",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 45,
+        "return_pct": 34.45,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-19 15:40]"
+      },
+      {
+        "date": "2026-06-20",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 45,
+        "return_pct": 34.45,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-20 15:40]"
+      },
+      {
+        "date": "2026-06-21",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 45,
+        "return_pct": 34.45,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-21 15:40]"
+      },
+      {
+        "date": "2026-06-22",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 45,
+        "return_pct": 34.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-22 15:40]"
+      },
+      {
+        "date": "2026-06-23",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 45,
+        "return_pct": 33.82,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-23 15:40]"
+      },
+      {
+        "date": "2026-06-24",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 781,
+        "return_pct": 36.99,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-24 15:40]"
+      },
+      {
+        "date": "2026-06-25",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 781,
+        "return_pct": 42.99,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-25 15:40]"
+      },
+      {
+        "date": "2026-06-26",
+        "track": 1,
+        "action_short": "🔴 SELL",
+        "qty": 0,
+        "return_pct": 40.86,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-26 15:40]"
+      },
+      {
+        "date": "2026-06-27",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 40.86,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-27 15:40]"
+      },
+      {
+        "date": "2026-06-28",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 40.86,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-28 15:40]"
+      },
+      {
+        "date": "2026-06-29",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 209,
+        "return_pct": 41.24,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-29 15:40]"
+      },
+      {
+        "date": "2026-06-30",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 841,
+        "return_pct": 41.54,
+        "memo": "KIS API 자동 갱신 [자동갱신 06-30 15:40]"
+      },
+      {
+        "date": "2026-07-01",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 979,
+        "return_pct": 37.39,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-01 15:40]"
+      },
+      {
+        "date": "2026-07-02",
+        "track": 1,
+        "action_short": "🚨 SL",
+        "qty": 490,
+        "return_pct": 26.23,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-02 15:40]"
+      },
+      {
+        "date": "2026-07-03",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 531,
+        "return_pct": 29.89,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-03 15:40]"
+      },
+      {
+        "date": "2026-07-04",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 531,
+        "return_pct": 30.2,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-04 15:40]"
+      },
+      {
+        "date": "2026-07-05",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 531,
+        "return_pct": 30.2,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-05 15:40]"
+      },
+      {
+        "date": "2026-07-06",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 885,
+        "return_pct": 28.91,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-06 15:40]"
+      },
+      {
+        "date": "2026-07-07",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 885,
+        "return_pct": 28.91,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-07 15:40]"
+      },
+      {
+        "date": "2026-07-08",
+        "track": 1,
+        "action_short": "🔴 SELL",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-08 15:40]"
+      },
+      {
+        "date": "2026-07-09",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-09 15:40]"
+      },
+      {
+        "date": "2026-07-10",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-10 15:40]"
+      },
+      {
+        "date": "2026-07-11",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-11 15:40]"
+      },
+      {
+        "date": "2026-07-12",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-12 15:40]"
+      },
+      {
+        "date": "2026-07-13",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-13 15:40]"
+      },
+      {
+        "date": "2026-07-14",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-14 15:40]"
+      },
+      {
+        "date": "2026-07-15",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-15 15:40]"
+      },
+      {
+        "date": "2026-07-16",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-16 15:40]"
+      },
+      {
+        "date": "2026-07-17",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-17 15:40]"
+      },
+      {
+        "date": "2026-07-18",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-18 15:40]"
+      },
+      {
+        "date": "2026-07-19",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-19 15:40]"
+      },
+      {
+        "date": "2026-07-20",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 20.52,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-20 15:40]"
+      },
+      {
+        "date": "2026-07-21",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 684,
+        "return_pct": 26.7,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-21 15:40]"
+      },
+      {
+        "date": "2026-07-22",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 684,
+        "return_pct": 26.98,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-22 15:40]"
+      },
+      {
+        "date": "2026-07-23",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 684,
+        "return_pct": 34.14,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-23 15:40]"
+      },
+      {
+        "date": "2026-07-24",
+        "track": 1,
+        "action_short": "🟢 BUY",
+        "qty": 453,
+        "return_pct": 22.17,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-24 15:40]"
+      },
+      {
+        "date": "2026-07-25",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 453,
+        "return_pct": 22.17,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-25 15:40]"
+      },
+      {
+        "date": "2026-07-26",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 453,
+        "return_pct": 22.17,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-26 15:40]"
+      },
+      {
+        "date": "2026-07-27",
+        "track": 1,
+        "action_short": "🔴 SELL",
+        "qty": 0,
+        "return_pct": 22.84,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-27 15:40]"
+      },
+      {
+        "date": "2026-07-28",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 22.84,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-28 15:40]"
+      },
+      {
+        "date": "2026-07-29",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 22.84,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-29 15:40]"
+      },
+      {
+        "date": "2026-07-30",
+        "track": 1,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 22.84,
+        "memo": "KIS API 자동 갱신 [자동갱신 07-30 15:40]"
+      }
+    ],
+    "track_start": "2026-07-31",
     "trading_stats": {
-      "total_trades": 0,
-      "buy_count": 0,
-      "sell_count": 0,
-      "stop_loss_count": 0,
-      "hold_days": 0,
-      "peak_return_pct": 0,
-      "peak_date": null
+      "total_trades": 28,
+      "buy_count": 15,
+      "sell_count": 13,
+      "stop_loss_count": 5,
+      "hold_days": 56,
+      "peak_return_pct": 54.52,
+      "peak_date": "2026-06-01 (월)"
     },
     "mdd_series": [
       {
@@ -303,7 +977,7 @@
         "drawdown_pct": 0.0
       }
     ],
-    "generated_at": "2026-07-31T06:34:08"
+    "generated_at": "2026-07-31T07:00:14"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
