@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-07-30 09:52 KST",
+  "as_of": "2026-07-31 06:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "Fed 금리 동결이 '물가 불안' 자극…美 주식·채권 동반 하락 [뉴욕증시 브리핑]",
+  "headline": "\"애플은 안전자산\"vs \"반도체 오르면 끝난다\"[박신영의 개장전 요것만]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "Fed 금리 동결이 '물가 불안' 자극…美 주식·채권 동반 하락 [뉴욕증시 브리핑]",
+      "title": "\"애플은 안전자산\"vs \"반도체 오르면 끝난다\"[박신영의 개장전 요것만]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026073044466"
+      "url": "https://www.hankyung.com/article/202607306705i"
     },
     {
       "title": "'말로만 매파' 워시, 신뢰 잃었나?…장기금리 폭등, 주가 폭락 [김현석의 월스트리트나우]",
@@ -19,27 +19,20 @@
       "url": "https://www.hankyung.com/article/202607304331i"
     },
     {
-      "title": "\"AI 매출 뛰었고 재무 상황도 낫다\"…'깜짝실적' MS, 주가 상승세",
+      "title": "美 6월 근원 PCE 전년대비 3.3% 상승",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202607304493i"
+      "url": "https://www.hankyung.com/article/2026073066951"
     },
     {
-      "title": "메타, AI 투자에 현금 다 썼다…영업익 감소에 주가 10% 급락",
+      "title": "트럼프 \"AI 규제 검토\"…中과 경쟁 고려해 신중 접근",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202607304484i"
+      "url": "https://www.hankyung.com/article/2026073045067"
     }
   ],
   "today_kr_focus": [],
   "carousel_implications": {
-    "regime": "美 증시 조정 — 위험회피 분위기 (가설)",
+    "regime": "美 메가캡·반도체 강세 주도 (가설)",
     "axes": [
-      {
-        "axis": "금리 민감 회전축",
-        "view": "미국 10년 yield +6.0bp 상승. 리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
-        "confidence": "중 — 백테스트 미검증",
-        "trigger_metric": "미국 10년 yield",
-        "trigger_value": "+6.0bp"
-      },
       {
         "axis": "에너지 회전축",
         "view": "브렌트 +7.32% 급등. 정유·해운·항공 비용 구조 영향. 단기 catalyst 명확 시 회전 검토, 변동성 자체로는 alpha 검증 어려움.",
@@ -49,23 +42,23 @@
       },
       {
         "axis": "반도체 회전축",
-        "view": "美 반도체 지수 -5.33% 조정. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 저점 매수 진입 검토 — 확신은 합의 시그널과 교차검증 필요.",
+        "view": "美 반도체 지수 +8.19% 강세. 한국 반도체(삼성·하이닉스) 동조 가능성 큼. 단기 과열 경계 — 확신은 합의 시그널과 교차검증 필요.",
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
-        "trigger_value": "-5.33%"
+        "trigger_value": "+8.19%"
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.76% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.48% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.76%"
+        "trigger_value": "-0.48%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-07-30T09:52:20.909834+09:00",
+    "collected_at": "2026-07-31T06:31:32.923950+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -74,58 +67,58 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "24,442.94",
-            "chg": "433.97",
-            "chg_pct": "-1.74%"
+            "close": "25,122.18",
+            "chg": "679.24",
+            "chg_pct": "+2.78%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "51,594.14",
-            "chg": "1,153.18",
-            "chg_pct": "-2.19%"
+            "close": "52,208.06",
+            "chg": "613.92",
+            "chg_pct": "+1.19%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,316.15",
-            "chg": "112.63",
-            "chg_pct": "-1.52%"
+            "close": "7,437.63",
+            "chg": "121.48",
+            "chg_pct": "+1.66%"
           },
           {
             "name": "반도체",
             "symbol": "PSEMICON",
-            "close": "10,447.49",
-            "chg": "588.19",
-            "chg_pct": "-5.33%"
+            "close": "11,302.99",
+            "chg": "855.50",
+            "chg_pct": "+8.19%"
           },
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "61,434.19",
-            "chg": "930.73",
-            "chg_pct": "-1.49%"
+            "close": "61,867.43",
+            "chg": "433.24",
+            "chg_pct": "+0.71%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "40,039.18",
-            "chg": "1,564.18",
-            "chg_pct": "-3.76%"
+            "close": "39,933.30",
+            "chg": "105.88",
+            "chg_pct": "-0.26%"
           },
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "25,460.48",
-            "chg": "3.53",
-            "chg_pct": "-0.01%"
+            "close": "25,612.03",
+            "chg": "151.55",
+            "chg_pct": "+0.60%"
           },
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "25,807.92",
-            "chg": "497.07",
-            "chg_pct": "+1.96%"
+            "close": "25,858.88",
+            "chg": "50.96",
+            "chg_pct": "+0.20%"
           }
         ]
       },
@@ -135,30 +128,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,441.21",
-            "chg": "10.98",
-            "chg_pct": "-0.76%"
+            "close": "1,422.34",
+            "chg": "6.80",
+            "chg_pct": "-0.48%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,651.32",
-            "chg": "1.87",
-            "chg_pct": "-0.11%"
+            "close": "1,640.99",
+            "chg": "3.76",
+            "chg_pct": "-0.23%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "881.52",
-            "chg": "4.60",
-            "chg_pct": "-0.52%"
+            "close": "891.46",
+            "chg": "5.81",
+            "chg_pct": "-0.65%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "212.95",
-            "chg": "1.50",
-            "chg_pct": "-0.70%"
+            "close": "210.55",
+            "chg": "0.71",
+            "chg_pct": "-0.34%"
           }
         ]
       },
@@ -215,44 +208,44 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.26",
-            "chg": "0.03",
-            "chg_pct": "-0.75%"
+            "close": "4.31",
+            "chg": "0.05",
+            "chg_pct": "+1.27%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.80",
+            "close": "3.83",
             "chg": "0.03",
-            "chg_pct": "-0.76%"
+            "chg_pct": "+0.82%"
           },
           {
             "name": "미국 국채 10년",
             "symbol": "US10YY",
-            "close": "4.67",
-            "chg": "0.06",
-            "chg_pct": "+1.30%"
+            "close": "4.68",
+            "chg": "0.01",
+            "chg_pct": "+0.21%"
           },
           {
             "name": "미국 국채 2년",
             "symbol": "US2YY",
-            "close": "4.22",
-            "chg": "0.04",
-            "chg_pct": "-0.94%"
+            "close": "4.23",
+            "chg": "0.01",
+            "chg_pct": "+0.24%"
           },
           {
             "name": "미국 국채 30년",
             "symbol": "US30YY",
-            "close": "5.20",
-            "chg": "0.11",
-            "chg_pct": "+2.16%"
+            "close": "5.21",
+            "chg": "0.01",
+            "chg_pct": "+0.19%"
           },
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.78",
-            "chg": "0.01",
-            "chg_pct": "+0.18%"
+            "close": "2.76",
+            "chg": "0.03",
+            "chg_pct": "-0.93%"
           }
         ]
       }
