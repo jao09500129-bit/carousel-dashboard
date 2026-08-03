@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-03T16:00:51.982653+09:00",
+  "collected_at": "2026-08-03T23:10:51.653596+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -36,16 +36,16 @@
         {
           "name": "NIKKEI 225",
           "symbol": "NIKKEI",
-          "close": "64,362.02",
-          "chg": "2,494.59",
-          "chg_pct": "+4.03%"
+          "close": "63,754.90",
+          "chg": "607.12",
+          "chg_pct": "-0.94%"
         },
         {
           "name": "대만",
           "symbol": "WEIGHT",
-          "close": "43,119.75",
-          "chg": "3,186.45",
-          "chg_pct": "+7.98%"
+          "close": "43,386.41",
+          "chg": "266.66",
+          "chg_pct": "+0.62%"
         },
         {
           "name": "독일",
@@ -57,9 +57,9 @@
         {
           "name": "홍콩",
           "symbol": "HANGSE",
-          "close": "25,884.43",
-          "chg": "25.55",
-          "chg_pct": "+0.10%"
+          "close": "26,009.40",
+          "chg": "124.97",
+          "chg_pct": "+0.48%"
         }
       ]
     },
@@ -69,30 +69,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,430.54",
-          "chg": "12.42",
-          "chg_pct": "-0.86%"
+          "close": "1,427.45",
+          "chg": "15.51",
+          "chg_pct": "-1.07%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,648.42",
-          "chg": "15.26",
-          "chg_pct": "-0.92%"
+          "close": "1,644.87",
+          "chg": "18.81",
+          "chg_pct": "-1.13%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "912.39",
-          "chg": "4.14",
-          "chg_pct": "-0.45%"
+          "close": "911.99",
+          "chg": "4.54",
+          "chg_pct": "-0.50%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "211.89",
-          "chg": "1.83",
-          "chg_pct": "-0.86%"
+          "close": "211.43",
+          "chg": "2.29",
+          "chg_pct": "-1.07%"
         }
       ]
     },
@@ -151,14 +151,14 @@
           "symbol": "KR10Y",
           "close": "4.26",
           "chg": "0.00",
-          "chg_pct": "-0.05%"
+          "chg_pct": "+0.07%"
         },
         {
           "name": "국고3년",
           "symbol": "KR3Y",
-          "close": "3.75",
-          "chg": "0.01",
-          "chg_pct": "-0.21%"
+          "close": "3.74",
+          "chg": "0.02",
+          "chg_pct": "-0.43%"
         },
         {
           "name": "미국 국채 10년",
