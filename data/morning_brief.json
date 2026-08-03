@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-03 09:31 KST",
+  "as_of": "2026-08-03 10:04 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -42,16 +42,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.68% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.89% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.68%"
+        "trigger_value": "-0.89%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-03T09:30:55.419881+09:00",
+    "collected_at": "2026-08-03T10:04:25.827962+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -121,9 +121,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,433.16",
-            "chg": "9.80",
-            "chg_pct": "-0.68%"
+            "close": "1,430.09",
+            "chg": "12.87",
+            "chg_pct": "-0.89%"
           },
           {
             "name": "유로",
@@ -135,16 +135,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "911.98",
-            "chg": "4.55",
-            "chg_pct": "-0.50%"
+            "close": "915.49",
+            "chg": "1.04",
+            "chg_pct": "-0.11%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "213.72",
-            "chg": "0.00",
-            "chg_pct": "0.00%"
+            "close": "211.84",
+            "chg": "1.88",
+            "chg_pct": "-0.88%"
           }
         ]
       },
@@ -237,8 +237,8 @@
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
             "close": "2.80",
-            "chg": "0.04",
-            "chg_pct": "+1.60%"
+            "chg": "0.00",
+            "chg_pct": "0.00%"
           }
         ]
       }
