@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-08-05 15:01 KST",
+  "as_of": "2026-08-05 16:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "호르무즈 협상 기대에 상승 랠리…다우·S&P 최고치 [뉴욕증시 브리핑]",
+  "headline": "머스크 \"전 세계 인터넷 대부분 제공 가능성…엔비디아와 협력 강화\"",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "호르무즈 협상 기대에 상승 랠리…다우·S&P 최고치 [뉴욕증시 브리핑]",
+      "title": "머스크 \"전 세계 인터넷 대부분 제공 가능성…엔비디아와 협력 강화\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026080552266"
+      "url": "https://www.hankyung.com/article/202608055146i"
     },
     {
       "title": "스페이스X, 2분기 깜짝 실적…'대규모 투자 부담'에 약세",
@@ -19,9 +19,9 @@
       "url": "https://www.hankyung.com/article/202608055138i"
     },
     {
-      "title": "머스크 \"전 세계 인터넷 대부분 제공 가능성…엔비디아와 협력 강화\"",
+      "title": "맥도날드, 2분기 실적 부진에 美 사업총괄 교체",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202608055146i"
+      "url": "https://www.hankyung.com/article/202608056175i"
     },
     {
       "title": "NYT \"이란-오만, 호르무즈 해협에 '수수료' 도입 합의 목전\" [이상은의 워싱턴나우]",
@@ -58,7 +58,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-05T15:01:06.243134+09:00",
+    "collected_at": "2026-08-05T16:00:50.725925+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -128,30 +128,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,423.40",
-            "chg": "3.16",
-            "chg_pct": "-0.22%"
+            "close": "1,424.44",
+            "chg": "2.12",
+            "chg_pct": "-0.15%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,643.27",
-            "chg": "0.60",
-            "chg_pct": "-0.04%"
+            "close": "1,644.48",
+            "chg": "0.61",
+            "chg_pct": "+0.04%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "903.02",
-            "chg": "2.30",
-            "chg_pct": "-0.25%"
+            "close": "903.95",
+            "chg": "1.37",
+            "chg_pct": "-0.15%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "210.78",
-            "chg": "0.48",
-            "chg_pct": "-0.23%"
+            "close": "210.95",
+            "chg": "0.31",
+            "chg_pct": "-0.15%"
           }
         ]
       },
