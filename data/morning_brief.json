@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-06 15:01 KST",
+  "as_of": "2026-08-06 16:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -14,14 +14,14 @@
       "url": "https://www.hankyung.com/article/202608068179i"
     },
     {
+      "title": "실적 대박 낸 샌디스크, 케클러 CEO \"데이터센터가 핵심… 장기계약으로 체질 개선\"",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202608068742i"
+    },
+    {
       "title": "\"한국 때문에 다 묻혔다\"…일본 증권가 분통 터트린 이유",
       "summary": "",
       "url": "https://www.hankyung.com/article/202608067417i"
-    },
-    {
-      "title": "시진핑 방미 앞두고 긴장 고조…美中 신경전 '팽팽'",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202608067717i"
     },
     {
       "title": "호르무즈 불확실성에 혼조 마감…다우↑·나스닥↓",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-06T15:01:10.913997+09:00",
+    "collected_at": "2026-08-06T16:01:00.779510+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -114,30 +114,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,418.94",
-            "chg": "4.15",
-            "chg_pct": "-0.29%"
+            "close": "1,425.75",
+            "chg": "2.66",
+            "chg_pct": "+0.19%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,635.97",
-            "chg": "8.37",
-            "chg_pct": "-0.51%"
+            "close": "1,646.52",
+            "chg": "2.18",
+            "chg_pct": "+0.13%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "899.51",
-            "chg": "4.10",
-            "chg_pct": "-0.45%"
+            "close": "903.55",
+            "chg": "0.06",
+            "chg_pct": "-0.01%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "210.22",
-            "chg": "0.50",
-            "chg_pct": "-0.24%"
+            "close": "211.25",
+            "chg": "0.53",
+            "chg_pct": "+0.25%"
           }
         ]
       },
