@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-08-07 09:31 KST",
+  "as_of": "2026-08-07 10:50 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "중동 긴장 재고조에 뉴욕증시 약세…유가 뛰고 반도체주↓ [뉴욕증시브리핑]",
+  "headline": "추락하던 스페이스X, 9억주 보호예수 해제되자 9% 상승 마감",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "중동 긴장 재고조에 뉴욕증시 약세…유가 뛰고 반도체주↓ [뉴욕증시브리핑]",
+      "title": "추락하던 스페이스X, 9억주 보호예수 해제되자 9% 상승 마감",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026080796996"
+      "url": "https://www.hankyung.com/article/202608079764H"
     },
     {
       "title": "\"삼전닉스보다 싼 가격에 안팔아\"…애플도 걷어찬 中 기업",
@@ -19,14 +19,14 @@
       "url": "https://www.hankyung.com/article/2026080695481"
     },
     {
+      "title": "중동 긴장 재고조에 뉴욕증시 약세…유가 뛰고 반도체주↓ [뉴욕증시브리핑]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026080796996"
+    },
+    {
       "title": "美, 폴리실리콘 파생제품에 15% 관세 부과…120일 뒤 발효",
       "summary": "",
       "url": "https://www.hankyung.com/article/2026080796447"
-    },
-    {
-      "title": "트럼프 \"이란과의 전쟁 곧 끝날 것\"…탄약 부족 보도엔 반박",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026080796517"
     }
   ],
   "today_kr_focus": [],
@@ -51,7 +51,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-07T09:30:59.413327+09:00",
+    "collected_at": "2026-08-07T10:50:33.951573+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -121,30 +121,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,422.25",
-            "chg": "0.27",
-            "chg_pct": "-0.02%"
+            "close": "1,418.42",
+            "chg": "4.10",
+            "chg_pct": "-0.29%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,637.91",
-            "chg": "3.22",
-            "chg_pct": "-0.20%"
+            "close": "1,634.32",
+            "chg": "6.81",
+            "chg_pct": "-0.41%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "897.09",
-            "chg": "2.04",
-            "chg_pct": "-0.23%"
+            "close": "896.03",
+            "chg": "3.10",
+            "chg_pct": "-0.34%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "210.68",
-            "chg": "0.08",
-            "chg_pct": "-0.04%"
+            "close": "210.17",
+            "chg": "0.59",
+            "chg_pct": "-0.28%"
           }
         ]
       },
@@ -236,9 +236,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.81",
+            "close": "2.77",
             "chg": "0.04",
-            "chg_pct": "-1.23%"
+            "chg_pct": "-1.42%"
           }
         ]
       }
