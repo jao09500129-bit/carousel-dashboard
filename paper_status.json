@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-06",
-  "updated_at": "2026-08-06T23:10:02+09:00",
+  "date": "2026-08-07",
+  "updated_at": "2026-08-07T09:30:06+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_VOLATILE",
@@ -8,20 +8,22 @@
     "wl_after_all": 0.0,
     "weights_pct": {
       "069500": 0.0,
-      "122630": 100.0,
+      "122630": 0.0,
       "114800": 0.0,
       "252670": 0.0
     },
-    "weight_changes": [],
-    "decision_kr": "KODEX 레버리지 100%",
-    "daily_ret_pct": 7.783,
-    "recent_timeline": [
+    "weight_changes": [
       {
-        "date": "2026-07-30",
-        "regime": "RANGE_VOLATILE",
-        "w_122630": 68.5,
-        "daily_ret_pct": -3.726
-      },
+        "code": "122630",
+        "name": "KODEX 레버리지",
+        "prev_pct": 100.0,
+        "curr_pct": 0.0,
+        "delta_pct": -100.0
+      }
+    ],
+    "decision_kr": "전 종목 비중 0% — 현금 보유",
+    "daily_ret_pct": -0.065,
+    "recent_timeline": [
       {
         "date": "2026-07-31",
         "regime": "RANGE_VOLATILE",
@@ -45,48 +47,46 @@
         "regime": "RANGE_VOLATILE",
         "w_122630": 100.0,
         "daily_ret_pct": 7.783
+      },
+      {
+        "date": "2026-08-06",
+        "regime": "RANGE_VOLATILE",
+        "w_122630": 0.0,
+        "daily_ret_pct": -0.065
       }
     ]
   },
   "m26": {
     "gate_active": false,
     "status_kr": "정상 (m21 그대로 운영)",
-    "sp500_ret_pct": 1.79,
-    "vix_z252": -0.5,
+    "sp500_ret_pct": -0.17,
+    "vix_z252": -0.71,
     "sp500_threshold_pct": -2.7,
     "vix_z_threshold": 2.0,
-    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-08-05):\n    SP500_ret:  +1.79% (tau ≤ -2.70%)\n    VIX_z252:   -0.50 (tau ≥ +2.00)"
+    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-08-06):\n    SP500_ret:  -0.17% (tau ≤ -2.70%)\n    VIX_z252:   -0.71 (tau ≥ +2.00)"
   },
   "portfolio": {
     "total_return_pct": 3.22,
     "cash_pct": 100.0,
     "holdings": [],
-    "last_updated": "2026-08-06T16:00:03.213820",
-    "since_start_days": 6
+    "last_updated": "2026-08-07T09:30:03.796066",
+    "since_start_days": 7
   },
   "trade_today": {
-    "executed": true,
-    "actions": [
-      {
-        "side": "sell",
-        "code": "122630",
-        "name": "KODEX 레버리지",
-        "executed": true,
-        "result_msg": "모의투자 매도주문이 완료 되었습니다."
-      }
-    ]
+    "executed": false,
+    "actions": []
   },
   "m28h_shadow": {
-    "date": "2026-08-05",
+    "date": "2026-08-06",
     "regime": "RANGE_VOLATILE",
     "hmm": "RANGE",
-    "vkz_lag1": 0.089,
+    "vkz_lag1": -0.397,
     "m21": {
       "wl": 0.0,
       "ws": 0.0,
       "weights_pct": {
         "069500": 0.0,
-        "122630": 100.0,
+        "122630": 0.0,
         "114800": 0.0,
         "252670": 0.0
       }
@@ -100,23 +100,14 @@
         "114800": 0.0,
         "252670": 0.0
       },
-      "gated_today": false,
+      "gated_today": true,
       "vol_off_today": false,
-      "signal_delta": 2.2831,
+      "signal_delta": 0.0,
       "gate_threshold": 0.5,
       "vkz_threshold": 1.0,
       "diverged": false
     },
     "recent_10d": [
-      {
-        "date": "2026-07-23",
-        "m21_wl": 2.52,
-        "m21_ws": 0.0,
-        "m28h_wl": 2.52,
-        "m28h_ws": 0.0,
-        "gated": true,
-        "vol_off": false
-      },
       {
         "date": "2026-07-24",
         "m21_wl": 0.0,
@@ -197,27 +188,36 @@
         "m28h_ws": 0.0,
         "gated": false,
         "vol_off": false
+      },
+      {
+        "date": "2026-08-06",
+        "m21_wl": 0.0,
+        "m21_ws": 0.0,
+        "m28h_wl": 0.0,
+        "m28h_ws": 0.0,
+        "gated": true,
+        "vol_off": false
       }
     ],
     "history_summary": {
-      "total_days": 4050,
-      "gated_days": 2782,
+      "total_days": 4051,
+      "gated_days": 2783,
       "vol_off_days": 792,
-      "gated_pct": 68.69,
-      "vol_off_pct": 19.56
+      "gated_pct": 68.7,
+      "vol_off_pct": 19.55
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-08-06T23:10:04+09:00"
+    "updated_at": "2026-08-07T09:30:07+09:00"
   },
   "m30_shadow": {
-    "date": "2026-08-05",
-    "updated_at": "2026-08-06T23:10:05+09:00",
+    "date": "2026-08-06",
+    "updated_at": "2026-08-07T09:30:08+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 0.0,
       "weights_pct": {
         "069500": 0.0,
-        "122630": 100.0,
+        "122630": 0.0,
         "114800": 0.0,
         "252670": 0.0
       }
@@ -225,7 +225,7 @@
     "m28h": {
       "wl": 0.0,
       "ws": 0.0,
-      "gated_today": false,
+      "gated_today": true,
       "diverged_from_m21": false
     },
     "m26": {
@@ -255,8 +255,8 @@
     "note": "m30 = m21 + m28h(cost gate) + m26(tail defense) 3중 결합. R&D Phase 7 채택 후보 (Ext CAGR +1.02p, MDD +1.40p 개선 vs m21)."
   },
   "m37_shadow": {
-    "date": "2026-08-05",
-    "updated_at": "2026-08-06T23:10:09+09:00",
+    "date": "2026-08-06",
+    "updated_at": "2026-08-07T09:30:12+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 0.0
@@ -273,7 +273,7 @@
       "diverged_from_m21": false
     },
     "history_summary": {
-      "total_days": 4050,
+      "total_days": 4051,
       "m26_active_days": 29,
       "m37_strong_days": 15,
       "m37_normal_days": 14,
@@ -323,6 +323,11 @@
         "date": "2026-08-06",
         "total_return_pct": 3.22,
         "holding_qty": 663
+      },
+      {
+        "date": "2026-08-07",
+        "total_return_pct": 3.22,
+        "holding_qty": 0
       }
     ],
     "trade_history": [
@@ -1053,6 +1058,14 @@
         "qty": 0,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-06 15:40]"
+      },
+      {
+        "date": "2026-08-07",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "qty": 0,
+        "return_pct": 3.22,
+        "memo": "KIS API 자동 갱신 [자동갱신 08-07 09:10]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1061,7 +1074,7 @@
       "buy_count": 16,
       "sell_count": 14,
       "stop_loss_count": 5,
-      "hold_days": 61,
+      "hold_days": 62,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -1093,9 +1106,13 @@
       {
         "date": "2026-08-06",
         "drawdown_pct": -1.6
+      },
+      {
+        "date": "2026-08-07",
+        "drawdown_pct": -1.6
       }
     ],
-    "generated_at": "2026-08-06T23:10:13"
+    "generated_at": "2026-08-07T09:30:15"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
