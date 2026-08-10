@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-08-10 08:57 KST",
+  "as_of": "2026-08-10 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "팔란티어의 경고…스페이스X, 저점 찍었나[박신영의 개장전 요것만]",
+  "headline": "'수익률 1500%' 객기 vs 패기…25세 신화 놓고 '시끌시끌'",
   "us_market_snapshot": [],
   "themes": [
+    {
+      "title": "'수익률 1500%' 객기 vs 패기…25세 신화 놓고 '시끌시끌'",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026080928161"
+    },
     {
       "title": "팔란티어의 경고…스페이스X, 저점 찍었나[박신영의 개장전 요것만]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202608081600i"
     },
     {
-      "title": "애플 저가 매수 기회?…금값도 시동 건다[박신영의 개장전 요것만]",
+      "title": "애플 저가 매수 기회?…금값도 시동 건다",
       "summary": "",
       "url": "https://www.hankyung.com/article/202608081598i"
     },
     {
-      "title": "[속보] 美 7월 '고용 충격'…예상 밖 2만3000명 감소",
+      "title": "AI 병목 '핵심 광물'…트럼프 4.2조원 투자",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026080715507"
-    },
-    {
-      "title": "美, 폴리실리콘 파생제품에 15% 관세 부과…120일 뒤 발효",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026080796447"
+      "url": "https://www.hankyung.com/article/2026080928141"
     }
   ],
   "today_kr_focus": [],
@@ -39,12 +39,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "美 반도체 지수",
         "trigger_value": "+2.56%"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW +0.31% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "+0.31%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-10T08:57:08.295748+09:00",
+    "collected_at": "2026-08-10T09:31:00.010371+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -114,30 +121,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,408.11",
-            "chg": "0.22",
-            "chg_pct": "+0.02%"
+            "close": "1,412.19",
+            "chg": "4.30",
+            "chg_pct": "+0.31%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,627.25",
-            "chg": "1.39",
-            "chg_pct": "-0.09%"
+            "close": "1,620.12",
+            "chg": "7.13",
+            "chg_pct": "-0.44%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "892.09",
-            "chg": "0.05",
-            "chg_pct": "-0.01%"
+            "close": "894.16",
+            "chg": "2.02",
+            "chg_pct": "+0.23%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "208.73",
-            "chg": "0.09",
-            "chg_pct": "+0.04%"
+            "close": "209.26",
+            "chg": "0.62",
+            "chg_pct": "+0.30%"
           }
         ]
       },
