@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-08-11T08:59:09.824431+09:00",
-  "action_headline": "금리 민감 축 가속 + 반도체 신규 진입 검토",
+  "computed_at": "2026-08-12T09:06:10.453137+09:00",
+  "action_headline": "회전축 신호 약함 — 기존 포지션 유지·관찰",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
-    "미국 10년 yield +7.0bp — 금리 민감 회전축",
+    "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
     "Market Mood 26/100 (FEAR)"
   ],
   "action": "DIVERGENT",
