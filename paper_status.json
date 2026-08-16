@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-10",
-  "updated_at": "2026-08-10T16:00:04+09:00",
+  "date": "2026-08-16",
+  "updated_at": "2026-08-16T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_VOLATILE",
@@ -62,7 +62,7 @@
     "cash_pct": 100.0,
     "holdings": [],
     "last_updated": "2026-08-10T16:00:03.039202",
-    "since_start_days": 10
+    "since_start_days": 16
   },
   "trade_today": {
     "executed": false,
@@ -120,45 +120,45 @@
       },
       {
         "date": "2026-07-29",
-        "m21_wl": 1.6849,
+        "m21_wl": 1.6856,
         "m21_ws": 0.0,
-        "m28h_wl": 1.6849,
+        "m28h_wl": 1.6856,
         "m28h_ws": 0.0,
         "gated": false,
         "vol_off": false
       },
       {
         "date": "2026-07-30",
-        "m21_wl": 1.3248,
+        "m21_wl": 1.3254,
         "m21_ws": 0.0,
-        "m28h_wl": 1.6849,
+        "m28h_wl": 1.6856,
         "m28h_ws": 0.0,
         "gated": true,
         "vol_off": false
       },
       {
         "date": "2026-07-31",
-        "m21_wl": 1.2579,
+        "m21_wl": 1.2584,
         "m21_ws": 0.0,
-        "m28h_wl": 1.6849,
+        "m28h_wl": 1.6856,
         "m28h_ws": 0.0,
         "gated": true,
         "vol_off": false
       },
       {
         "date": "2026-08-03",
-        "m21_wl": 2.2831,
+        "m21_wl": 2.2839,
         "m21_ws": 0.0,
-        "m28h_wl": 2.2831,
+        "m28h_wl": 2.2839,
         "m28h_ws": 0.0,
         "gated": false,
         "vol_off": false
       },
       {
         "date": "2026-08-04",
-        "m21_wl": 2.304,
+        "m21_wl": 2.3045,
         "m21_ws": 0.0,
-        "m28h_wl": 2.2831,
+        "m28h_wl": 2.2839,
         "m28h_ws": 0.0,
         "gated": true,
         "vol_off": false
@@ -199,11 +199,11 @@
       "vol_off_pct": 19.55
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-08-10T16:00:06+09:00"
+    "updated_at": "2026-08-16T23:10:04+09:00"
   },
   "m30_shadow": {
     "date": "2026-08-07",
-    "updated_at": "2026-08-10T16:00:07+09:00",
+    "updated_at": "2026-08-16T23:10:06+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 0.0,
@@ -248,7 +248,7 @@
   },
   "m37_shadow": {
     "date": "2026-08-07",
-    "updated_at": "2026-08-10T16:00:10+09:00",
+    "updated_at": "2026-08-16T23:10:12+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 0.0
@@ -1155,7 +1155,7 @@
         "drawdown_pct": -1.6
       }
     ],
-    "generated_at": "2026-08-10T16:00:14"
+    "generated_at": "2026-08-16T23:10:18"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
