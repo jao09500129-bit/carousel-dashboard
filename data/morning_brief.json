@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-08-18 16:01 KST",
+  "as_of": "2026-08-18 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "유가 상승에 3대 지수 하락했지만…메모리반도체는 상승 [뉴욕증시 브리핑]",
+  "headline": "버핏의 '중력'이 돌아온다?…AI 강세장 위협하는 20년 만의 위험신호",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "유가 상승에 3대 지수 하락했지만…메모리반도체는 상승 [뉴욕증시 브리핑]",
+      "title": "버핏의 '중력'이 돌아온다?…AI 강세장 위협하는 20년 만의 위험신호",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026081857816"
+      "url": "https://www.hankyung.com/article/202608186623i"
     },
     {
-      "title": "미 30년물 5.3% '금융위기 이후 최고'…그래도 반도체는 상승 [김현석의 월스트리트나우]",
+      "title": "세계 3위 피델리티의 굴욕…국내 펀드 설정액 '7000억 증발'",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202608185899i"
-    },
-    {
-      "title": "일본이 흔든 美 채권시장…30년물 금리 19년 만에 최고 [도쿄나우]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202608185802i"
+      "url": "https://www.hankyung.com/article/202608187637i"
     },
     {
       "title": "미국 섹터별 하락방어력과 투자매력도 [오대정의 경제지표 읽기]",
       "summary": "",
       "url": "https://magazine.hankyung.com/business/article/202608117388b"
+    },
+    {
+      "title": "미 30년물 5.3% '금융위기 이후 최고'…그래도 반도체는 상승 [김현석의 월스트리트나우]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202608185899i"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-18T16:00:59.147226+09:00",
+    "collected_at": "2026-08-18T23:11:07.045554+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -74,16 +74,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "69,220.25",
-            "chg": "506.45",
-            "chg_pct": "+0.74%"
+            "close": "67,460.73",
+            "chg": "1,759.52",
+            "chg_pct": "-2.54%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "45,857.27",
-            "chg": "46.26",
-            "chg_pct": "+0.10%"
+            "close": "45,308.68",
+            "chg": "548.59",
+            "chg_pct": "-1.20%"
           },
           {
             "name": "독일",
@@ -95,9 +95,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "25,453.23",
-            "chg": "336.38",
-            "chg_pct": "+1.34%"
+            "close": "25,471.15",
+            "chg": "17.92",
+            "chg_pct": "+0.07%"
           }
         ]
       },
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,411.49",
-            "chg": "1.48",
-            "chg_pct": "-0.10%"
+            "close": "1,410.78",
+            "chg": "2.19",
+            "chg_pct": "-0.15%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,633.43",
-            "chg": "3.76",
-            "chg_pct": "-0.23%"
+            "close": "1,634.31",
+            "chg": "2.88",
+            "chg_pct": "-0.18%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "883.59",
-            "chg": "3.39",
-            "chg_pct": "-0.38%"
+            "close": "884.42",
+            "chg": "2.56",
+            "chg_pct": "-0.29%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "209.38",
-            "chg": "0.14",
-            "chg_pct": "-0.07%"
+            "close": "209.29",
+            "chg": "0.23",
+            "chg_pct": "-0.11%"
           }
         ]
       },
