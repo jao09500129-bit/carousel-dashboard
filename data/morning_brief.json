@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-19 16:01 KST",
+  "as_of": "2026-08-19 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -35,16 +35,16 @@
     "axes": [
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.99% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -1.76% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.99%"
+        "trigger_value": "-1.76%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-19T16:01:05.165151+09:00",
+    "collected_at": "2026-08-19T23:11:02.259481+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -74,16 +74,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "67,460.73",
-            "chg": "1,759.52",
-            "chg_pct": "-2.54%"
+            "close": "65,326.42",
+            "chg": "2,134.31",
+            "chg_pct": "-3.16%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "45,308.68",
-            "chg": "548.59",
-            "chg_pct": "-1.20%"
+            "close": "44,719.35",
+            "chg": "589.33",
+            "chg_pct": "-1.30%"
           },
           {
             "name": "독일",
@@ -95,9 +95,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "25,471.15",
-            "chg": "17.92",
-            "chg_pct": "+0.07%"
+            "close": "25,495.07",
+            "chg": "23.92",
+            "chg_pct": "+0.09%"
           }
         ]
       },
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,398.15",
-            "chg": "13.91",
-            "chg_pct": "-0.99%"
+            "close": "1,387.23",
+            "chg": "24.83",
+            "chg_pct": "-1.76%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,621.02",
-            "chg": "14.67",
-            "chg_pct": "-0.90%"
+            "close": "1,617.99",
+            "chg": "17.70",
+            "chg_pct": "-1.08%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "878.08",
-            "chg": "6.91",
-            "chg_pct": "-0.78%"
+            "close": "875.78",
+            "chg": "9.21",
+            "chg_pct": "-1.04%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "207.34",
-            "chg": "2.13",
-            "chg_pct": "-1.02%"
+            "close": "205.71",
+            "chg": "3.76",
+            "chg_pct": "-1.80%"
           }
         ]
       },
