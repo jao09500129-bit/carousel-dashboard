@@ -1,27 +1,27 @@
 {
-  "as_of": "2026-08-20 08:45 KST",
+  "as_of": "2026-08-20 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "美 국채금리 진정에 상승 마감…모더나 177% 폭등 [뉴욕증시 브리핑]",
+  "headline": "\"베센트와 싸우지 말라\"…금리 급락에 주가 상승, 반도체는 빠진 이유",
   "us_market_snapshot": [],
   "themes": [
+    {
+      "title": "\"베센트와 싸우지 말라\"…금리 급락에 주가 상승, 반도체는 빠진 이유",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202608200881i"
+    },
     {
       "title": "美 국채금리 진정에 상승 마감…모더나 177% 폭등 [뉴욕증시 브리핑]",
       "summary": "",
       "url": "https://www.hankyung.com/article/2026082009316"
     },
     {
-      "title": "\"베센트와 싸우지 말라\"…금리 급락에 주가 상승, 반도체는 빠진 이유 [김현석의 월스트리트나우]",
+      "title": "인플레 공포에 지갑 닫은 유럽…소비 회복 멀어진다",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202608200881i"
-    },
-    {
-      "title": "\"구글과 손 잡더니 이번엔…\" 이달에만 40% 넘게 뛴 이 회사 [종목+]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026081997856"
+      "url": "https://www.hankyung.com/article/202608201091i"
     },
     {
       "title": "초유의 '국가부채 40조달러'…\"암울한 미국\" 공포 덮쳤다",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-20T08:45:03.432075+09:00",
+    "collected_at": "2026-08-20T09:31:13.749567+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,390.32",
-            "chg": "3.77",
-            "chg_pct": "+0.27%"
+            "close": "1,387.76",
+            "chg": "1.21",
+            "chg_pct": "+0.09%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,620.95",
-            "chg": "3.49",
-            "chg_pct": "+0.22%"
+            "close": "1,620.08",
+            "chg": "2.62",
+            "chg_pct": "+0.16%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "878.55",
-            "chg": "3.12",
-            "chg_pct": "+0.36%"
+            "close": "876.09",
+            "chg": "0.66",
+            "chg_pct": "+0.08%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "206.59",
-            "chg": "0.99",
-            "chg_pct": "+0.48%"
+            "close": "206.13",
+            "chg": "0.53",
+            "chg_pct": "+0.26%"
           }
         ]
       },
@@ -140,37 +140,37 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "90.29",
-            "chg": "2.44",
-            "chg_pct": "+2.78%"
+            "close": "93.60",
+            "chg": "3.31",
+            "chg_pct": "+3.67%"
           },
           {
             "name": "니켈",
             "symbol": "LMENIC",
-            "close": "16,740.00",
-            "chg": "70.00",
-            "chg_pct": "+0.42%"
+            "close": "16,690.00",
+            "chg": "50.00",
+            "chg_pct": "-0.30%"
           },
           {
             "name": "알루미늄 H/G 캐시",
             "symbol": "LMEALC",
-            "close": "3,219.00",
-            "chg": "53.00",
-            "chg_pct": "-1.62%"
+            "close": "3,191.50",
+            "chg": "27.50",
+            "chg_pct": "-0.85%"
           },
           {
             "name": "전기동",
             "symbol": "LMECOC",
-            "close": "14,335.00",
-            "chg": "515.00",
-            "chg_pct": "-3.47%"
+            "close": "14,180.00",
+            "chg": "155.00",
+            "chg_pct": "-1.08%"
           },
           {
             "name": "전기동 3M",
             "symbol": "LMECOF",
-            "close": "14,080.00",
-            "chg": "235.00",
-            "chg_pct": "-1.64%"
+            "close": "13,890.00",
+            "chg": "190.00",
+            "chg_pct": "-1.35%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.37",
-            "chg": "0.05",
-            "chg_pct": "-1.04%"
+            "close": "4.34",
+            "chg": "0.03",
+            "chg_pct": "-0.73%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.83",
-            "chg": "0.03",
-            "chg_pct": "-0.75%"
+            "close": "3.80",
+            "chg": "0.04",
+            "chg_pct": "-0.91%"
           },
           {
             "name": "미국 국채 10년",
