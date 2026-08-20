@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-20 16:01 KST",
+  "as_of": "2026-08-20 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -42,16 +42,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.42% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.60% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.42%"
+        "trigger_value": "+0.60%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-20T16:00:58.836409+09:00",
+    "collected_at": "2026-08-20T23:10:54.751491+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -81,16 +81,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "65,326.42",
-            "chg": "2,134.31",
-            "chg_pct": "-3.16%"
+            "close": "66,216.79",
+            "chg": "890.37",
+            "chg_pct": "+1.36%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "44,719.35",
-            "chg": "589.33",
-            "chg_pct": "-1.30%"
+            "close": "44,933.74",
+            "chg": "214.39",
+            "chg_pct": "+0.48%"
           },
           {
             "name": "독일",
@@ -102,9 +102,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "25,495.07",
-            "chg": "23.92",
-            "chg_pct": "+0.09%"
+            "close": "25,698.49",
+            "chg": "203.42",
+            "chg_pct": "+0.80%"
           }
         ]
       },
@@ -114,30 +114,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,392.44",
-            "chg": "5.89",
-            "chg_pct": "+0.42%"
+            "close": "1,394.83",
+            "chg": "8.28",
+            "chg_pct": "+0.60%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,626.82",
-            "chg": "9.36",
-            "chg_pct": "+0.58%"
+            "close": "1,628.15",
+            "chg": "10.69",
+            "chg_pct": "+0.66%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "879.15",
-            "chg": "3.72",
-            "chg_pct": "+0.42%"
+            "close": "878.06",
+            "chg": "2.63",
+            "chg_pct": "+0.30%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "206.88",
-            "chg": "1.28",
-            "chg_pct": "+0.62%"
+            "close": "207.26",
+            "chg": "1.66",
+            "chg_pct": "+0.81%"
           }
         ]
       },
@@ -187,16 +187,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.34",
-            "chg": "0.03",
-            "chg_pct": "-0.78%"
+            "close": "4.32",
+            "chg": "0.05",
+            "chg_pct": "-1.05%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.82",
+            "close": "3.81",
             "chg": "0.02",
-            "chg_pct": "-0.44%"
+            "chg_pct": "-0.57%"
           },
           {
             "name": "미국 국채 10년",
