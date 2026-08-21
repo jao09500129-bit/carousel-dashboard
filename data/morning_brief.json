@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-21 13:01 KST",
+  "as_of": "2026-08-21 15:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -14,14 +14,14 @@
       "url": "https://www.hankyung.com/article/202608213485i"
     },
     {
+      "title": "위고비·마운자로 뜨자…美 식품업계 '먹거리 공식' 바뀐다",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202608214662i"
+    },
+    {
       "title": "뉴욕증시, 美국채금리 반등에 일제히 하락…반도체주는 선방 [뉴욕증시 브리핑]",
       "summary": "",
       "url": "https://www.hankyung.com/article/2026082135636"
-    },
-    {
-      "title": "\"올해 2790兆 몰린다\"…골드만삭스가 예상한 '대세 투자법' 뭐길래",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202608202142i"
     },
     {
       "title": "미국 재무부의 국채 바이백, '악마와의 거래'?[박신영의 월가 아나토미]",
@@ -35,16 +35,16 @@
     "axes": [
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.76% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.64% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.76%"
+        "trigger_value": "-0.64%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-21T13:01:08.080039+09:00",
+    "collected_at": "2026-08-21T15:01:01.964985+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,382.28",
-            "chg": "10.54",
-            "chg_pct": "-0.76%"
+            "close": "1,383.92",
+            "chg": "8.90",
+            "chg_pct": "-0.64%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,616.68",
-            "chg": "10.78",
-            "chg_pct": "-0.66%"
+            "close": "1,618.92",
+            "chg": "8.54",
+            "chg_pct": "-0.52%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "869.45",
-            "chg": "8.02",
-            "chg_pct": "-0.91%"
+            "close": "871.38",
+            "chg": "6.09",
+            "chg_pct": "-0.69%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "205.61",
-            "chg": "1.36",
-            "chg_pct": "-0.66%"
+            "close": "205.84",
+            "chg": "1.13",
+            "chg_pct": "-0.55%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.32",
+            "close": "4.37",
             "chg": "0.05",
-            "chg_pct": "-1.05%"
+            "chg_pct": "+1.06%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.81",
-            "chg": "0.02",
-            "chg_pct": "-0.57%"
+            "close": "3.84",
+            "chg": "0.03",
+            "chg_pct": "+0.87%"
           },
           {
             "name": "미국 국채 10년",
