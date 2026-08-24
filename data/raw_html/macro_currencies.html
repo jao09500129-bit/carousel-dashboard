@@ -219,15 +219,28 @@ $(document).ready(function(){
 		$('.hk-top__search__layer .btn-inp-reset').show();
 		$('.hk-top__search__layer .btn-search').show();
 
-		$.get('https://www.hankyung.com/ext-api/search-autocomplete?keyword='+encodeURI($(this).val().trim()), function(data, status) {
-			if(data.length == 0){
+		const keyword = $(this).val().trim()
+		const url = "https://api-www.hankyung.com/search/finance/list?keyword="+encodeURI(keyword);
+
+		$.get(url, function(data, status) {
+			// 데이터 호출 실패
+			if(data.code != 200){
+				$('.hk-top__search .hk-top__search__layer').removeClass('auto');
+				return;
+			}
+
+			// 데이터 개수가 없을 경우
+			if(data.data.list.length == 0){
 				$('.hk-top__search .hk-top__search__layer').removeClass('auto');
 				return;
 			}
 
 			$(".hk-top__search .autocomplete-result").html('');
 
-			$.each(data, function(idx, val){
+			$.each(data.data.list, function(idx, val){
+				val.code = val.code.replace(keyword, `<mark>${keyword}</mark>`);
+				val.name = val.name.replace(keyword, `<mark>${keyword}</mark>`);
+
 				$(".hk-top__search .autocomplete-result").append(`
 					<li class="type-stock">
 						<a href="${val.url}" title="${val.code}">
@@ -833,17 +846,17 @@ $(function () {
           <td>
             <span class="txt-en">USDKRW</span>
           </td>
-          <td class="txt-rt" data-value="1380.8">
-            <span class="txt-num">1,380.80</span>
+          <td class="txt-rt" data-value="1380.72">
+            <span class="txt-num">1,380.72</span>
           </td>
-          <td class="txt-rt" data-value="-5.44">
+          <td class="txt-rt" data-value="-5.52">
             <span class="txt-num stock-point down"
-              >5.44</span
+              >5.52</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.39">
+          <td class="txt-rt" data-value="-0.4">
             <span class="txt-num down"
-              >-0.39%</span
+              >-0.40%</span
             >
           </td>
           <td class="txt-rt" data-value="1386.15">
@@ -852,8 +865,8 @@ $(function () {
           <td class="txt-rt" data-value="1386.8">
             <span class="txt-num">1,386.80</span>
           </td>
-          <td class="txt-rt" data-value="1380.47">
-            <span class="txt-num">1,380.47</span>
+          <td class="txt-rt" data-value="1376.22">
+            <span class="txt-num">1,376.22</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -868,17 +881,17 @@ $(function () {
           <td>
             <span class="txt-en">NZDKRW</span>
           </td>
-          <td class="txt-rt" data-value="825">
-            <span class="txt-num">825.00</span>
+          <td class="txt-rt" data-value="824.84">
+            <span class="txt-num">824.84</span>
           </td>
-          <td class="txt-rt" data-value="-3.82">
+          <td class="txt-rt" data-value="-3.98">
             <span class="txt-num stock-point down"
-              >3.82</span
+              >3.98</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.46">
+          <td class="txt-rt" data-value="-0.48">
             <span class="txt-num down"
-              >-0.46%</span
+              >-0.48%</span
             >
           </td>
           <td class="txt-rt" data-value="827.46">
@@ -887,8 +900,8 @@ $(function () {
           <td class="txt-rt" data-value="828.8">
             <span class="txt-num">828.80</span>
           </td>
-          <td class="txt-rt" data-value="825">
-            <span class="txt-num">825.00</span>
+          <td class="txt-rt" data-value="823.03">
+            <span class="txt-num">823.03</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -903,17 +916,17 @@ $(function () {
           <td>
             <span class="txt-en">MYRKRW</span>
           </td>
-          <td class="txt-rt" data-value="341.66">
-            <span class="txt-num">341.66</span>
+          <td class="txt-rt" data-value="341.7">
+            <span class="txt-num">341.70</span>
           </td>
-          <td class="txt-rt" data-value="-1.53">
+          <td class="txt-rt" data-value="-1.49">
             <span class="txt-num stock-point down"
-              >1.53</span
+              >1.49</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.45">
+          <td class="txt-rt" data-value="-0.43">
             <span class="txt-num down"
-              >-0.45%</span
+              >-0.43%</span
             >
           </td>
           <td class="txt-rt" data-value="343.19">
@@ -922,8 +935,8 @@ $(function () {
           <td class="txt-rt" data-value="343.21">
             <span class="txt-num">343.21</span>
           </td>
-          <td class="txt-rt" data-value="341.66">
-            <span class="txt-num">341.66</span>
+          <td class="txt-rt" data-value="340.64">
+            <span class="txt-num">340.64</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -938,17 +951,17 @@ $(function () {
           <td>
             <span class="txt-en">CHFKRW</span>
           </td>
-          <td class="txt-rt" data-value="1725.34">
-            <span class="txt-num">1,725.34</span>
+          <td class="txt-rt" data-value="1725.18">
+            <span class="txt-num">1,725.18</span>
           </td>
-          <td class="txt-rt" data-value="-4.11">
+          <td class="txt-rt" data-value="-4.27">
             <span class="txt-num stock-point down"
-              >4.11</span
+              >4.27</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.24">
+          <td class="txt-rt" data-value="-0.25">
             <span class="txt-num down"
-              >-0.24%</span
+              >-0.25%</span
             >
           </td>
           <td class="txt-rt" data-value="1728.93">
@@ -957,8 +970,8 @@ $(function () {
           <td class="txt-rt" data-value="1731.07">
             <span class="txt-num">1,731.07</span>
           </td>
-          <td class="txt-rt" data-value="1725.34">
-            <span class="txt-num">1,725.34</span>
+          <td class="txt-rt" data-value="1721.01">
+            <span class="txt-num">1,721.01</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -973,17 +986,17 @@ $(function () {
           <td>
             <span class="txt-en">SGDKRW</span>
           </td>
-          <td class="txt-rt" data-value="1087.56">
-            <span class="txt-num">1,087.56</span>
+          <td class="txt-rt" data-value="1087.84">
+            <span class="txt-num">1,087.84</span>
           </td>
-          <td class="txt-rt" data-value="-4.28">
+          <td class="txt-rt" data-value="-4">
             <span class="txt-num stock-point down"
-              >4.28</span
+              >4.00</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.39">
+          <td class="txt-rt" data-value="-0.37">
             <span class="txt-num down"
-              >-0.39%</span
+              >-0.37%</span
             >
           </td>
           <td class="txt-rt" data-value="1092.14">
@@ -992,8 +1005,8 @@ $(function () {
           <td class="txt-rt" data-value="1092.62">
             <span class="txt-num">1,092.62</span>
           </td>
-          <td class="txt-rt" data-value="1087.56">
-            <span class="txt-num">1,087.56</span>
+          <td class="txt-rt" data-value="1084.8">
+            <span class="txt-num">1,084.80</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -1008,12 +1021,12 @@ $(function () {
           <td>
             <span class="txt-en">GBPKRW</span>
           </td>
-          <td class="txt-rt" data-value="1884.08">
-            <span class="txt-num">1,884.08</span>
+          <td class="txt-rt" data-value="1884.01">
+            <span class="txt-num">1,884.01</span>
           </td>
-          <td class="txt-rt" data-value="-6.56">
+          <td class="txt-rt" data-value="-6.63">
             <span class="txt-num stock-point down"
-              >6.56</span
+              >6.63</span
             >
           </td>
           <td class="txt-rt" data-value="-0.35">
@@ -1027,8 +1040,8 @@ $(function () {
           <td class="txt-rt" data-value="1892.28">
             <span class="txt-num">1,892.28</span>
           </td>
-          <td class="txt-rt" data-value="1884.08">
-            <span class="txt-num">1,884.08</span>
+          <td class="txt-rt" data-value="1879.21">
+            <span class="txt-num">1,879.21</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -1043,17 +1056,17 @@ $(function () {
           <td>
             <span class="txt-en">AUDKRW</span>
           </td>
-          <td class="txt-rt" data-value="989.56">
-            <span class="txt-num">989.56</span>
+          <td class="txt-rt" data-value="989.18">
+            <span class="txt-num">989.18</span>
           </td>
-          <td class="txt-rt" data-value="-4.19">
+          <td class="txt-rt" data-value="-4.57">
             <span class="txt-num stock-point down"
-              >4.19</span
+              >4.57</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.42">
+          <td class="txt-rt" data-value="-0.46">
             <span class="txt-num down"
-              >-0.42%</span
+              >-0.46%</span
             >
           </td>
           <td class="txt-rt" data-value="992.75">
@@ -1062,8 +1075,8 @@ $(function () {
           <td class="txt-rt" data-value="993.9">
             <span class="txt-num">993.90</span>
           </td>
-          <td class="txt-rt" data-value="989.56">
-            <span class="txt-num">989.56</span>
+          <td class="txt-rt" data-value="987.25">
+            <span class="txt-num">987.25</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -1113,17 +1126,17 @@ $(function () {
           <td>
             <span class="txt-en">IDRKRW</span>
           </td>
-          <td class="txt-rt" data-value="7.81">
-            <span class="txt-num">7.81</span>
+          <td class="txt-rt" data-value="7.8">
+            <span class="txt-num">7.80</span>
           </td>
           <td class="txt-rt" data-value="-0.05">
             <span class="txt-num stock-point down"
               >0.05</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.59">
+          <td class="txt-rt" data-value="-0.67">
             <span class="txt-num down"
-              >-0.59%</span
+              >-0.67%</span
             >
           </td>
           <td class="txt-rt" data-value="7.83">
@@ -1132,8 +1145,8 @@ $(function () {
           <td class="txt-rt" data-value="7.86">
             <span class="txt-num">7.86</span>
           </td>
-          <td class="txt-rt" data-value="7.81">
-            <span class="txt-num">7.81</span>
+          <td class="txt-rt" data-value="7.78">
+            <span class="txt-num">7.78</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -1148,17 +1161,17 @@ $(function () {
           <td>
             <span class="txt-en">JPYKRW</span>
           </td>
-          <td class="txt-rt" data-value="869.14">
-            <span class="txt-num">869.14</span>
+          <td class="txt-rt" data-value="868.73">
+            <span class="txt-num">868.73</span>
           </td>
-          <td class="txt-rt" data-value="-2.63">
+          <td class="txt-rt" data-value="-3.04">
             <span class="txt-num stock-point down"
-              >2.63</span
+              >3.04</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.3">
+          <td class="txt-rt" data-value="-0.35">
             <span class="txt-num down"
-              >-0.30%</span
+              >-0.35%</span
             >
           </td>
           <td class="txt-rt" data-value="871.69">
@@ -1167,8 +1180,8 @@ $(function () {
           <td class="txt-rt" data-value="874.17">
             <span class="txt-num">874.17</span>
           </td>
-          <td class="txt-rt" data-value="869.14">
-            <span class="txt-num">869.14</span>
+          <td class="txt-rt" data-value="866.78">
+            <span class="txt-num">866.78</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -1183,17 +1196,17 @@ $(function () {
           <td>
             <span class="txt-en">CNYKRW</span>
           </td>
-          <td class="txt-rt" data-value="205.43">
-            <span class="txt-num">205.43</span>
+          <td class="txt-rt" data-value="205.42">
+            <span class="txt-num">205.42</span>
           </td>
-          <td class="txt-rt" data-value="-0.77">
+          <td class="txt-rt" data-value="-0.78">
             <span class="txt-num stock-point down"
-              >0.77</span
+              >0.78</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.37">
+          <td class="txt-rt" data-value="-0.38">
             <span class="txt-num down"
-              >-0.37%</span
+              >-0.38%</span
             >
           </td>
           <td class="txt-rt" data-value="206.2">
@@ -1202,8 +1215,8 @@ $(function () {
           <td class="txt-rt" data-value="206.21">
             <span class="txt-num">206.21</span>
           </td>
-          <td class="txt-rt" data-value="205.39">
-            <span class="txt-num">205.39</span>
+          <td class="txt-rt" data-value="204.8">
+            <span class="txt-num">204.80</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -1218,17 +1231,17 @@ $(function () {
           <td>
             <span class="txt-en">CADKRW</span>
           </td>
-          <td class="txt-rt" data-value="1000.87">
-            <span class="txt-num">1,000.87</span>
+          <td class="txt-rt" data-value="1001.14">
+            <span class="txt-num">1,001.14</span>
           </td>
-          <td class="txt-rt" data-value="-5.33">
+          <td class="txt-rt" data-value="-5.06">
             <span class="txt-num stock-point down"
-              >5.33</span
+              >5.06</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.53">
+          <td class="txt-rt" data-value="-0.5">
             <span class="txt-num down"
-              >-0.53%</span
+              >-0.50%</span
             >
           </td>
           <td class="txt-rt" data-value="1003.58">
@@ -1237,8 +1250,8 @@ $(function () {
           <td class="txt-rt" data-value="1005.07">
             <span class="txt-num">1,005.07</span>
           </td>
-          <td class="txt-rt" data-value="1000.87">
-            <span class="txt-num">1,000.87</span>
+          <td class="txt-rt" data-value="998.21">
+            <span class="txt-num">998.21</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -1253,17 +1266,17 @@ $(function () {
           <td>
             <span class="txt-en">THBKRW</span>
           </td>
-          <td class="txt-rt" data-value="42.31">
-            <span class="txt-num">42.31</span>
+          <td class="txt-rt" data-value="42.28">
+            <span class="txt-num">42.28</span>
           </td>
-          <td class="txt-rt" data-value="-0.11">
+          <td class="txt-rt" data-value="-0.15">
             <span class="txt-num stock-point down"
-              >0.11</span
+              >0.15</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.26">
+          <td class="txt-rt" data-value="-0.35">
             <span class="txt-num down"
-              >-0.26%</span
+              >-0.35%</span
             >
           </td>
           <td class="txt-rt" data-value="42.41">
@@ -1272,8 +1285,8 @@ $(function () {
           <td class="txt-rt" data-value="42.46">
             <span class="txt-num">42.46</span>
           </td>
-          <td class="txt-rt" data-value="42.31">
-            <span class="txt-num">42.31</span>
+          <td class="txt-rt" data-value="42.23">
+            <span class="txt-num">42.23</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
@@ -1288,17 +1301,17 @@ $(function () {
           <td>
             <span class="txt-en">HKDKRW</span>
           </td>
-          <td class="txt-rt" data-value="176.14">
-            <span class="txt-num">176.14</span>
+          <td class="txt-rt" data-value="176.13">
+            <span class="txt-num">176.13</span>
           </td>
-          <td class="txt-rt" data-value="-0.59">
+          <td class="txt-rt" data-value="-0.6">
             <span class="txt-num stock-point down"
-              >0.59</span
+              >0.60</span
             >
           </td>
-          <td class="txt-rt" data-value="-0.33">
+          <td class="txt-rt" data-value="-0.34">
             <span class="txt-num down"
-              >-0.33%</span
+              >-0.34%</span
             >
           </td>
           <td class="txt-rt" data-value="176.79">
@@ -1307,8 +1320,8 @@ $(function () {
           <td class="txt-rt" data-value="176.8">
             <span class="txt-num">176.80</span>
           </td>
-          <td class="txt-rt" data-value="176.11">
-            <span class="txt-num">176.11</span>
+          <td class="txt-rt" data-value="175.63">
+            <span class="txt-num">175.63</span>
           </td>
           <td class="txt-rt">
             <span class="txt-date">2026.08.24</span>
