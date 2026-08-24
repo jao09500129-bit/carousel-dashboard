@@ -219,15 +219,28 @@ $(document).ready(function(){
 		$('.hk-top__search__layer .btn-inp-reset').show();
 		$('.hk-top__search__layer .btn-search').show();
 
-		$.get('https://www.hankyung.com/ext-api/search-autocomplete?keyword='+encodeURI($(this).val().trim()), function(data, status) {
-			if(data.length == 0){
+		const keyword = $(this).val().trim()
+		const url = "https://api-www.hankyung.com/search/finance/list?keyword="+encodeURI(keyword);
+
+		$.get(url, function(data, status) {
+			// 데이터 호출 실패
+			if(data.code != 200){
+				$('.hk-top__search .hk-top__search__layer').removeClass('auto');
+				return;
+			}
+
+			// 데이터 개수가 없을 경우
+			if(data.data.list.length == 0){
 				$('.hk-top__search .hk-top__search__layer').removeClass('auto');
 				return;
 			}
 
 			$(".hk-top__search .autocomplete-result").html('');
 
-			$.each(data, function(idx, val){
+			$.each(data.data.list, function(idx, val){
+				val.code = val.code.replace(keyword, `<mark>${keyword}</mark>`);
+				val.name = val.name.replace(keyword, `<mark>${keyword}</mark>`);
+
 				$(".hk-top__search .autocomplete-result").append(`
 					<li class="type-stock">
 						<a href="${val.url}" title="${val.code}">
