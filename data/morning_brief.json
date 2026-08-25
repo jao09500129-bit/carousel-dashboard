@@ -1,22 +1,22 @@
 {
-  "as_of": "2026-08-25 15:01 KST",
+  "as_of": "2026-08-25 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "유가·국채 금리 하락에도 반도체株 약세…나스닥·S&P 500↓ [뉴욕증시 브리핑]",
+  "headline": "반도체만 내리는 시장…나일스 \"9월 조심\" vs 톰 리 \"조정에도 팔지 마\" [김현석의 월스트리트나우]",
   "us_market_snapshot": [],
   "themes": [
-    {
-      "title": "유가·국채 금리 하락에도 반도체株 약세…나스닥·S&P 500↓ [뉴욕증시 브리핑]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026082500336"
-    },
     {
       "title": "반도체만 내리는 시장…나일스 \"9월 조심\" vs 톰 리 \"조정에도 팔지 마\" [김현석의 월스트리트나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202608250071i"
+    },
+    {
+      "title": "유가·국채 금리 하락에도 반도체株 약세…나스닥·S&P 500↓ [뉴욕증시 브리핑]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026082500336"
     },
     {
       "title": "머스크 \"내년 4분기 AI 위성 첫 발사…2028년엔 상당한 규모\"",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-25T15:01:16.160937+09:00",
+    "collected_at": "2026-08-25T23:10:54.459204+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -74,16 +74,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "65,528.09",
-            "chg": "488.27",
-            "chg_pct": "-0.74%"
+            "close": "65,856.43",
+            "chg": "328.34",
+            "chg_pct": "+0.50%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "44,762.32",
-            "chg": "461.97",
-            "chg_pct": "-1.02%"
+            "close": "45,169.46",
+            "chg": "407.14",
+            "chg_pct": "+0.91%"
           },
           {
             "name": "독일",
@@ -95,9 +95,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "25,517.33",
-            "chg": "492.13",
-            "chg_pct": "-1.89%"
+            "close": "25,511.10",
+            "chg": "6.23",
+            "chg_pct": "-0.02%"
           }
         ]
       },
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,385.49",
-            "chg": "1.47",
-            "chg_pct": "+0.11%"
+            "close": "1,384.83",
+            "chg": "0.81",
+            "chg_pct": "+0.06%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,613.32",
-            "chg": "1.95",
-            "chg_pct": "-0.12%"
+            "close": "1,616.86",
+            "chg": "1.59",
+            "chg_pct": "+0.10%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "869.60",
-            "chg": "0.20",
-            "chg_pct": "+0.02%"
+            "close": "869.65",
+            "chg": "0.25",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "206.11",
-            "chg": "0.21",
-            "chg_pct": "+0.10%"
+            "close": "206.01",
+            "chg": "0.11",
+            "chg_pct": "+0.05%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.33",
-            "chg": "0.01",
-            "chg_pct": "-0.30%"
+            "close": "4.32",
+            "chg": "0.03",
+            "chg_pct": "-0.62%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.84",
-            "chg": "0.01",
-            "chg_pct": "-0.31%"
+            "close": "3.83",
+            "chg": "0.03",
+            "chg_pct": "-0.67%"
           },
           {
             "name": "미국 국채 10년",
