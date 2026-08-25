@@ -1,50 +1,50 @@
 {
-  "as_of": "2026-08-25 23:11 KST",
+  "as_of": "2026-08-26 08:47 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "반도체만 내리는 시장…나일스 \"9월 조심\" vs 톰 리 \"조정에도 팔지 마\" [김현석의 월스트리트나우]",
+  "headline": "유가·금리 하락에 3대지수 상승 마감…반도체주 강세 [뉴욕증시 브리핑]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "반도체만 내리는 시장…나일스 \"9월 조심\" vs 톰 리 \"조정에도 팔지 마\" [김현석의 월스트리트나우]",
+      "title": "유가·금리 하락에 3대지수 상승 마감…반도체주 강세 [뉴욕증시 브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202608250071i"
+      "url": "https://www.hankyung.com/article/2026082626966"
     },
     {
-      "title": "유가·국채 금리 하락에도 반도체株 약세…나스닥·S&P 500↓ [뉴욕증시 브리핑]",
+      "title": "\"베센트, 뭐든 할 것\"…올랐지만 찜찜한 반도체, 골드만이 지적한 3가지 [김현석의 월스트리트나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026082500336"
+      "url": "https://www.hankyung.com/article/202608262716i"
     },
     {
-      "title": "머스크 \"내년 4분기 AI 위성 첫 발사…2028년엔 상당한 규모\"",
+      "title": "베선트의 '국채 구하기'에 꼬인 워시…잭슨홀로 모이는 시선[심성미의 중앙은행 워치]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026082503637"
+      "url": "https://www.hankyung.com/article/202608252343i"
     },
     {
-      "title": "알리바바 손절하더니…'빅쇼트' 버리, '뭉칫돈' 베팅한 곳이",
+      "title": "\"AI보다 테마파크·콘서트\"…월가가 꼽은 의외의 유망주 [뉴욕 인사이트]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026082497947"
+      "url": "https://www.hankyung.com/article/202608262642i"
     }
   ],
   "today_kr_focus": [],
   "carousel_implications": {
-    "regime": "혼조 — 명확한 방향성 부족 (가설)",
+    "regime": "금리 변동 주도 (-6.0bp) (가설)",
     "axes": [
       {
-        "axis": "관찰 대기",
-        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-        "confidence": "낮음 — 신호 부재",
-        "trigger_metric": "",
-        "trigger_value": ""
+        "axis": "금리 민감 회전축",
+        "view": "미국 10년 yield -6.0bp 하락. 리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
+        "confidence": "중 — 백테스트 미검증",
+        "trigger_metric": "미국 10년 yield",
+        "trigger_value": "-6.0bp"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-25T23:10:54.459204+09:00",
+    "collected_at": "2026-08-26T08:47:05.373567+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -53,23 +53,23 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "25,980.19",
-            "chg": "200.27",
-            "chg_pct": "-0.76%"
+            "close": "26,151.30",
+            "chg": "171.11",
+            "chg_pct": "+0.66%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "53,417.16",
-            "chg": "140.15",
-            "chg_pct": "+0.26%"
+            "close": "53,577.40",
+            "chg": "160.24",
+            "chg_pct": "+0.30%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,652.86",
-            "chg": "21.51",
-            "chg_pct": "-0.28%"
+            "close": "7,677.28",
+            "chg": "24.42",
+            "chg_pct": "+0.32%"
           },
           {
             "name": "NIKKEI 225",
@@ -88,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "26,106.60",
-            "chg": "29.96",
-            "chg_pct": "-0.11%"
+            "close": "26,266.14",
+            "chg": "159.54",
+            "chg_pct": "+0.61%"
           },
           {
             "name": "홍콩",
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,384.83",
-            "chg": "0.81",
-            "chg_pct": "+0.06%"
+            "close": "1,382.28",
+            "chg": "2.59",
+            "chg_pct": "-0.19%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,616.86",
-            "chg": "1.59",
-            "chg_pct": "+0.10%"
+            "close": "1,614.03",
+            "chg": "1.93",
+            "chg_pct": "-0.12%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "869.65",
-            "chg": "0.25",
-            "chg_pct": "+0.03%"
+            "close": "868.03",
+            "chg": "1.56",
+            "chg_pct": "-0.18%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "206.01",
-            "chg": "0.11",
-            "chg_pct": "+0.05%"
+            "close": "205.68",
+            "chg": "0.34",
+            "chg_pct": "-0.17%"
           }
         ]
       },
@@ -140,9 +140,9 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "97.90",
-            "chg": "0.09",
-            "chg_pct": "+0.09%"
+            "close": "93.00",
+            "chg": "4.90",
+            "chg_pct": "-5.01%"
           },
           {
             "name": "니켈",
@@ -194,23 +194,23 @@
           {
             "name": "미국 국채 10년",
             "symbol": "US10YY",
-            "close": "4.70",
-            "chg": "0.04",
-            "chg_pct": "-0.84%"
+            "close": "4.64",
+            "chg": "0.06",
+            "chg_pct": "-1.28%"
           },
           {
             "name": "미국 국채 2년",
             "symbol": "US2YY",
-            "close": "4.24",
-            "chg": "0.00",
-            "chg_pct": "0.00%"
+            "close": "4.17",
+            "chg": "0.07",
+            "chg_pct": "-1.65%"
           },
           {
             "name": "미국 국채 30년",
             "symbol": "US30YY",
-            "close": "5.23",
-            "chg": "0.04",
-            "chg_pct": "-0.76%"
+            "close": "5.17",
+            "chg": "0.06",
+            "chg_pct": "-1.15%"
           },
           {
             "name": "일본 국채 10년",
