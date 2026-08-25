@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-08-25T15:01:16.160937+09:00",
+  "computed_at": "2026-08-25T23:10:54.459204+09:00",
   "action_headline": "회전축 신호 약함 — 기존 포지션 유지·관찰",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
     "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-    "Market Mood 49/100 (FEAR)"
+    "Market Mood 55/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
