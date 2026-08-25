@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-25T08:44:33.478010+09:00",
+  "collected_at": "2026-08-25T09:31:25.536116+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -62,30 +62,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,382.64",
-          "chg": "1.38",
-          "chg_pct": "-0.10%"
+          "close": "1,381.27",
+          "chg": "2.75",
+          "chg_pct": "-0.20%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,612.68",
-          "chg": "2.59",
-          "chg_pct": "-0.16%"
+          "close": "1,611.05",
+          "chg": "4.22",
+          "chg_pct": "-0.26%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "868.76",
-          "chg": "0.64",
-          "chg_pct": "-0.07%"
+          "close": "867.90",
+          "chg": "1.50",
+          "chg_pct": "-0.17%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "205.68",
-          "chg": "0.22",
-          "chg_pct": "-0.11%"
+          "close": "205.47",
+          "chg": "0.43",
+          "chg_pct": "-0.21%"
         }
       ]
     },
@@ -102,30 +102,30 @@
         {
           "name": "니켈",
           "symbol": "LMENIC",
-          "close": "16,860.00",
-          "chg": "200.00",
-          "chg_pct": "+1.20%"
+          "close": "16,940.00",
+          "chg": "80.00",
+          "chg_pct": "+0.47%"
         },
         {
           "name": "알루미늄 H/G 캐시",
           "symbol": "LMEALC",
-          "close": "3,227.00",
-          "chg": "45.00",
-          "chg_pct": "+1.41%"
+          "close": "3,215.50",
+          "chg": "11.50",
+          "chg_pct": "-0.36%"
         },
         {
           "name": "전기동",
           "symbol": "LMECOC",
-          "close": "14,291.00",
-          "chg": "121.00",
-          "chg_pct": "+0.85%"
+          "close": "14,344.00",
+          "chg": "53.00",
+          "chg_pct": "+0.37%"
         },
         {
           "name": "전기동 3M",
           "symbol": "LMECOF",
-          "close": "14,235.00",
-          "chg": "264.50",
-          "chg_pct": "+1.89%"
+          "close": "14,245.00",
+          "chg": "10.00",
+          "chg_pct": "+0.07%"
         }
       ]
     },
