@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-08-26 08:47 KST",
+  "as_of": "2026-08-26 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "유가·금리 하락에 3대지수 상승 마감…반도체주 강세 [뉴욕증시 브리핑]",
+  "headline": "\"베센트, 뭐든 할 것\"…올랐지만 찜찜한 반도체, 골드만이 지적한 3가지 [김현석의 월스트리트나우]",
   "us_market_snapshot": [],
   "themes": [
-    {
-      "title": "유가·금리 하락에 3대지수 상승 마감…반도체주 강세 [뉴욕증시 브리핑]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026082626966"
-    },
     {
       "title": "\"베센트, 뭐든 할 것\"…올랐지만 찜찜한 반도체, 골드만이 지적한 3가지 [김현석의 월스트리트나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202608262716i"
     },
     {
+      "title": "엔비디아, 끊없는 GPU 영토 확장 [박신영의 월가 아나토미]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202608263222i"
+    },
+    {
+      "title": "\"비트코인, 8만 달러 넘어도 추가 상승 여력 있어\"[박신영의 개장전 요것만]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202608263446i"
+    },
+    {
       "title": "베선트의 '국채 구하기'에 꼬인 워시…잭슨홀로 모이는 시선[심성미의 중앙은행 워치]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202608252343i"
-    },
-    {
-      "title": "\"AI보다 테마파크·콘서트\"…월가가 꼽은 의외의 유망주 [뉴욕 인사이트]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202608262642i"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-26T08:47:05.373567+09:00",
+    "collected_at": "2026-08-26T11:01:16.223716+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,382.28",
-            "chg": "2.59",
-            "chg_pct": "-0.19%"
+            "close": "1,382.79",
+            "chg": "2.08",
+            "chg_pct": "-0.15%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,614.03",
-            "chg": "1.93",
-            "chg_pct": "-0.12%"
+            "close": "1,614.13",
+            "chg": "1.83",
+            "chg_pct": "-0.11%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "868.03",
-            "chg": "1.56",
-            "chg_pct": "-0.18%"
+            "close": "869.50",
+            "chg": "0.09",
+            "chg_pct": "-0.01%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "205.68",
-            "chg": "0.34",
-            "chg_pct": "-0.17%"
+            "close": "205.78",
+            "chg": "0.24",
+            "chg_pct": "-0.12%"
           }
         ]
       },
@@ -147,30 +147,30 @@
           {
             "name": "니켈",
             "symbol": "LMENIC",
-            "close": "16,940.00",
-            "chg": "80.00",
-            "chg_pct": "+0.47%"
+            "close": "16,780.00",
+            "chg": "160.00",
+            "chg_pct": "-0.94%"
           },
           {
             "name": "알루미늄 H/G 캐시",
             "symbol": "LMEALC",
-            "close": "3,215.50",
-            "chg": "11.50",
-            "chg_pct": "-0.36%"
+            "close": "3,188.00",
+            "chg": "27.50",
+            "chg_pct": "-0.86%"
           },
           {
             "name": "전기동",
             "symbol": "LMECOC",
-            "close": "14,344.00",
-            "chg": "53.00",
-            "chg_pct": "+0.37%"
+            "close": "14,425.00",
+            "chg": "81.00",
+            "chg_pct": "+0.56%"
           },
           {
             "name": "전기동 3M",
             "symbol": "LMECOF",
-            "close": "14,245.00",
-            "chg": "10.00",
-            "chg_pct": "+0.07%"
+            "close": "14,298.00",
+            "chg": "53.00",
+            "chg_pct": "+0.37%"
           }
         ]
       },
@@ -215,9 +215,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.89",
+            "close": "2.90",
             "chg": "0.01",
-            "chg_pct": "+0.17%"
+            "chg_pct": "+0.35%"
           }
         ]
       }
