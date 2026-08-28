@@ -1,10 +1,10 @@
 {
-  "computed_at": "2026-08-28T16:01:07.614958+09:00",
+  "computed_at": "2026-08-28T23:10:54.598881+09:00",
   "action_headline": "환율 민감 축 유지 — 신규 후보 신호 약함",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
-    "USDKRW -0.73% — 환율 민감 회전축",
+    "USDKRW -0.41% — 환율 민감 회전축",
     "Market Mood 35/100 (FEAR)"
   ],
   "action": "DIVERGENT",
