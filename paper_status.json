@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-29",
-  "updated_at": "2026-08-29T23:10:02+09:00",
+  "date": "2026-08-30",
+  "updated_at": "2026-08-30T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_VOLATILE",
@@ -89,8 +89,8 @@
         "pnl_pct": -1.52
       }
     ],
-    "last_updated": "2026-08-29T09:10:05.583763",
-    "since_start_days": 29
+    "last_updated": "2026-08-30T15:40:06.076236",
+    "since_start_days": 30
   },
   "trade_today": {
     "executed": false,
@@ -227,11 +227,11 @@
       "vol_off_pct": 19.48
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-08-29T23:10:04+09:00"
+    "updated_at": "2026-08-30T23:10:05+09:00"
   },
   "m30_shadow": {
     "date": "2026-08-28",
-    "updated_at": "2026-08-29T23:10:06+09:00",
+    "updated_at": "2026-08-30T23:10:06+09:00",
     "m21": {
       "wl": 1.187,
       "ws": 0.0,
@@ -276,7 +276,7 @@
   },
   "m37_shadow": {
     "date": "2026-08-28",
-    "updated_at": "2026-08-29T23:10:09+09:00",
+    "updated_at": "2026-08-30T23:10:09+09:00",
     "m21": {
       "wl": 1.187,
       "ws": 0.0
@@ -426,6 +426,11 @@
       },
       {
         "date": "2026-08-29",
+        "total_return_pct": 0.44,
+        "holding_qty": 314
+      },
+      {
+        "date": "2026-08-30",
         "total_return_pct": 0.44,
         "holding_qty": 314
       }
@@ -1294,6 +1299,14 @@
         "qty": 627,
         "return_pct": 0.44,
         "memo": "KIS API 자동 갱신 [자동갱신 08-29 15:40]"
+      },
+      {
+        "date": "2026-08-30",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "qty": 627,
+        "return_pct": 0.44,
+        "memo": "KIS API 자동 갱신 [자동갱신 08-30 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1302,7 +1315,7 @@
       "buy_count": 21,
       "sell_count": 17,
       "stop_loss_count": 5,
-      "hold_days": 73,
+      "hold_days": 74,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -1402,9 +1415,13 @@
       {
         "date": "2026-08-29",
         "drawdown_pct": -5.66
+      },
+      {
+        "date": "2026-08-30",
+        "drawdown_pct": -5.66
       }
     ],
-    "generated_at": "2026-08-29T23:10:13"
+    "generated_at": "2026-08-30T23:10:13"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
