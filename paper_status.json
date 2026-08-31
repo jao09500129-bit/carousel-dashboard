@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updated_at": "2026-08-31T16:00:14+09:00",
+  "updated_at": "2026-08-31T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_VOLATILE",
@@ -242,11 +242,11 @@
       "vol_off_pct": 19.48
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-08-31T16:00:16+09:00"
+    "updated_at": "2026-08-31T23:10:05+09:00"
   },
   "m30_shadow": {
     "date": "2026-08-28",
-    "updated_at": "2026-08-31T16:00:17+09:00",
+    "updated_at": "2026-08-31T23:10:06+09:00",
     "m21": {
       "wl": 1.187,
       "ws": 0.0,
@@ -291,7 +291,7 @@
   },
   "m37_shadow": {
     "date": "2026-08-28",
-    "updated_at": "2026-08-31T16:00:20+09:00",
+    "updated_at": "2026-08-31T23:10:09+09:00",
     "m21": {
       "wl": 1.187,
       "ws": 0.0
@@ -1453,7 +1453,7 @@
         "drawdown_pct": -5.84
       }
     ],
-    "generated_at": "2026-08-31T16:00:24"
+    "generated_at": "2026-08-31T23:10:13"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
