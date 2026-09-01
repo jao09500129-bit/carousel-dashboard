@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-01 10:56 KST",
+  "as_of": "2026-09-01 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-01T10:56:11.537687+09:00",
+    "collected_at": "2026-09-01T11:01:25.124736+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,371.01",
-            "chg": "2.06",
-            "chg_pct": "+0.15%"
+            "close": "1,370.19",
+            "chg": "1.24",
+            "chg_pct": "+0.09%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,591.42",
-            "chg": "1.24",
-            "chg_pct": "+0.08%"
+            "close": "1,591.36",
+            "chg": "1.18",
+            "chg_pct": "+0.07%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "857.96",
-            "chg": "0.59",
-            "chg_pct": "+0.07%"
+            "close": "857.68",
+            "chg": "0.31",
+            "chg_pct": "+0.04%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "204.01",
-            "chg": "0.51",
-            "chg_pct": "+0.25%"
+            "close": "203.89",
+            "chg": "0.39",
+            "chg_pct": "+0.19%"
           }
         ]
       },
