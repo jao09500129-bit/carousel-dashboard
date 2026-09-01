@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updated_at": "2026-09-01T09:30:21+09:00",
+  "updated_at": "2026-09-01T11:00:27+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -73,23 +73,23 @@
     "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-08-31):\n    SP500_ret:  -0.25% (tau ≤ -2.70%)\n    VIX_z252:   -1.13 (tau ≥ +2.00)"
   },
   "portfolio": {
-    "total_return_pct": -0.39,
+    "total_return_pct": -0.33,
     "cash_pct": 0.7,
     "holdings": [
       {
         "code": "069500",
         "name": "KODEX 200",
         "weight_pct": 89.06,
-        "pnl_pct": -1.53
+        "pnl_pct": -1.49
       },
       {
         "code": "122630",
         "name": "KODEX 레버리지",
-        "weight_pct": 10.2,
-        "pnl_pct": -1.98
+        "weight_pct": 10.21,
+        "pnl_pct": -1.83
       }
     ],
-    "last_updated": "2026-09-01T09:30:12.025822",
+    "last_updated": "2026-09-01T11:00:14.347529",
     "since_start_days": 32
   },
   "trade_today": {
@@ -242,11 +242,11 @@
       "vol_off_pct": 19.47
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-09-01T09:30:23+09:00"
+    "updated_at": "2026-09-01T11:00:29+09:00"
   },
   "m30_shadow": {
     "date": "2026-08-31",
-    "updated_at": "2026-09-01T09:30:25+09:00",
+    "updated_at": "2026-09-01T11:00:30+09:00",
     "m21": {
       "wl": 1.11,
       "ws": 0.0,
@@ -291,7 +291,7 @@
   },
   "m37_shadow": {
     "date": "2026-08-31",
-    "updated_at": "2026-09-01T09:30:28+09:00",
+    "updated_at": "2026-09-01T11:00:34+09:00",
     "m21": {
       "wl": 1.11,
       "ws": 0.0
@@ -456,7 +456,7 @@
       },
       {
         "date": "2026-09-01",
-        "total_return_pct": -0.39,
+        "total_return_pct": -0.33,
         "holding_qty": 96
       }
     ],
@@ -1467,10 +1467,10 @@
       },
       {
         "date": "2026-09-01",
-        "drawdown_pct": -6.49
+        "drawdown_pct": -6.43
       }
     ],
-    "generated_at": "2026-09-01T09:30:32"
+    "generated_at": "2026-09-01T11:00:38"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
