@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-09-01 11:01 KST",
+  "as_of": "2026-09-01 15:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "'종말론' 해소에 \"SaaS주가 10월까지 더 오른다\"[박신영의 개장전 요것만]",
+  "headline": "엔비디아, 대만 팹리스 미디어텍 CB에 35억달러 투자",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "'종말론' 해소에 \"SaaS주가 10월까지 더 오른다\"[박신영의 개장전 요것만]",
+      "title": "엔비디아, 대만 팹리스 미디어텍 CB에 35억달러 투자",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609014977i"
+      "url": "https://www.hankyung.com/article/202609016053i"
+    },
+    {
+      "title": "캐리어, AI 데이터센터 냉각 부문에 투자자 관심",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202609016562i"
+    },
+    {
+      "title": "美·이란 한 달 만에 교전 재개…유가 급등에 3대 지수 하락 [뉴욕증시 브리핑]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026090150926"
     },
     {
       "title": "워시, 9월 인상 시사?…증시 하락 이유 : \"Fed와 싸우지 마라\" [김현석의 월스트리트나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202608290496i"
-    },
-    {
-      "title": "'워시는 매파'라는 착각...잭슨홀 연설의 진짜 뜻 [빈난새의 빈틈없이마켓]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202608314319i"
-    },
-    {
-      "title": "美, 베네수 원유 100년 통제…트럼프 \"650억배럴 확보\"",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026083020051"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-01T11:01:25.124736+09:00",
+    "collected_at": "2026-09-01T15:01:12.595405+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,370.19",
-            "chg": "1.24",
-            "chg_pct": "+0.09%"
+            "close": "1,370.58",
+            "chg": "1.63",
+            "chg_pct": "+0.12%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,591.36",
-            "chg": "1.18",
-            "chg_pct": "+0.07%"
+            "close": "1,590.50",
+            "chg": "0.32",
+            "chg_pct": "+0.02%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "857.68",
-            "chg": "0.31",
-            "chg_pct": "+0.04%"
+            "close": "857.18",
+            "chg": "0.19",
+            "chg_pct": "-0.02%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "203.89",
-            "chg": "0.39",
-            "chg_pct": "+0.19%"
+            "close": "203.93",
+            "chg": "0.43",
+            "chg_pct": "+0.21%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.31",
-            "chg": "0.03",
-            "chg_pct": "+0.68%"
+            "close": "4.38",
+            "chg": "0.07",
+            "chg_pct": "+1.51%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.84",
+            "close": "3.88",
             "chg": "0.05",
-            "chg_pct": "+1.32%"
+            "chg_pct": "+1.17%"
           },
           {
             "name": "미국 국채 10년",
