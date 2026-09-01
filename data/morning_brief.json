@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-08-31 23:11 KST",
+  "as_of": "2026-09-01 10:56 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "\"물가 우려\" 美 금리 인상 시사한 워시…베선트와 날 세웠다",
+  "headline": "'종말론' 해소에 \"SaaS주가 10월까지 더 오른다\"[박신영의 개장전 요것만]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "\"물가 우려\" 美 금리 인상 시사한 워시…베선트와 날 세웠다",
+      "title": "'종말론' 해소에 \"SaaS주가 10월까지 더 오른다\"[박신영의 개장전 요것만]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026083020021"
+      "url": "https://www.hankyung.com/article/202609014977i"
     },
     {
       "title": "워시, 9월 인상 시사?…증시 하락 이유 : \"Fed와 싸우지 마라\" [김현석의 월스트리트나우]",
@@ -19,9 +19,9 @@
       "url": "https://www.hankyung.com/article/202608290496i"
     },
     {
-      "title": "\"클로드, 머라이어 캐리·테일러 스위프트 곡 무단학습\"…음악계도 소송전",
+      "title": "'워시는 매파'라는 착각...잭슨홀 연설의 진짜 뜻 [빈난새의 빈틈없이마켓]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026083013757"
+      "url": "https://www.hankyung.com/article/202608314319i"
     },
     {
       "title": "美, 베네수 원유 100년 통제…트럼프 \"650억배럴 확보\"",
@@ -31,27 +31,20 @@
   ],
   "today_kr_focus": [],
   "carousel_implications": {
-    "regime": "금리 변동 주도 (+6.0bp) (가설)",
+    "regime": "혼조 — 명확한 방향성 부족 (가설)",
     "axes": [
       {
-        "axis": "금리 민감 회전축",
-        "view": "미국 10년 yield +6.0bp 상승. 리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
-        "confidence": "중 — 백테스트 미검증",
-        "trigger_metric": "미국 10년 yield",
-        "trigger_value": "+6.0bp"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.66% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.66%"
+        "axis": "관찰 대기",
+        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
+        "confidence": "낮음 — 신호 부재",
+        "trigger_metric": "",
+        "trigger_value": ""
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-08-31T23:10:57.837893+09:00",
+    "collected_at": "2026-09-01T10:56:11.537687+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -60,23 +53,23 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "26,402.42",
-            "chg": "138.93",
-            "chg_pct": "-0.52%"
+            "close": "26,370.89",
+            "chg": "31.53",
+            "chg_pct": "-0.12%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "53,559.99",
-            "chg": "9.45",
-            "chg_pct": "-0.02%"
+            "close": "53,185.90",
+            "chg": "374.09",
+            "chg_pct": "-0.70%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,711.76",
-            "chg": "19.23",
-            "chg_pct": "-0.25%"
+            "close": "7,686.14",
+            "chg": "25.62",
+            "chg_pct": "-0.33%"
           },
           {
             "name": "NIKKEI 225",
@@ -95,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "26,569.99",
-            "chg": "202.75",
-            "chg_pct": "+0.77%"
+            "close": "26,258.11",
+            "chg": "311.88",
+            "chg_pct": "-1.17%"
           },
           {
             "name": "홍콩",
@@ -114,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,368.46",
-            "chg": "9.11",
-            "chg_pct": "-0.66%"
+            "close": "1,371.01",
+            "chg": "2.06",
+            "chg_pct": "+0.15%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,587.80",
-            "chg": "6.26",
-            "chg_pct": "-0.39%"
+            "close": "1,591.42",
+            "chg": "1.24",
+            "chg_pct": "+0.08%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "856.25",
-            "chg": "4.02",
-            "chg_pct": "-0.47%"
+            "close": "857.96",
+            "chg": "0.59",
+            "chg_pct": "+0.07%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "203.41",
-            "chg": "1.32",
-            "chg_pct": "-0.64%"
+            "close": "204.01",
+            "chg": "0.51",
+            "chg_pct": "+0.25%"
           }
         ]
       },
@@ -147,9 +140,9 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "93.20",
-            "chg": "2.80",
-            "chg_pct": "+3.10%"
+            "close": "94.99",
+            "chg": "1.79",
+            "chg_pct": "+1.92%"
           },
           {
             "name": "니켈",
@@ -201,30 +194,30 @@
           {
             "name": "미국 국채 10년",
             "symbol": "US10YY",
-            "close": "4.73",
-            "chg": "0.06",
-            "chg_pct": "+1.28%"
+            "close": "4.75",
+            "chg": "0.02",
+            "chg_pct": "+0.42%"
           },
           {
             "name": "미국 국채 2년",
             "symbol": "US2YY",
             "close": "4.34",
-            "chg": "0.14",
-            "chg_pct": "+3.33%"
+            "chg": "0.00",
+            "chg_pct": "0.00%"
           },
           {
             "name": "미국 국채 30년",
             "symbol": "US30YY",
-            "close": "5.22",
+            "close": "5.25",
             "chg": "0.03",
-            "chg_pct": "+0.58%"
+            "chg_pct": "+0.57%"
           },
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.93",
-            "chg": "0.03",
-            "chg_pct": "+1.14%"
+            "close": "2.94",
+            "chg": "0.01",
+            "chg_pct": "+0.44%"
           }
         ]
       }
