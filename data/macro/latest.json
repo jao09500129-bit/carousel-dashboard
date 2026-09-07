@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-07T11:01:14.321795+09:00",
+  "collected_at": "2026-09-07T13:01:13.163421+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -62,9 +62,9 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,343.10",
-          "chg": "2.87",
-          "chg_pct": "-0.21%"
+          "close": "1,345.39",
+          "chg": "0.58",
+          "chg_pct": "-0.04%"
         },
         {
           "name": "유로",
@@ -76,16 +76,16 @@
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "860.64",
-          "chg": "0.19",
-          "chg_pct": "-0.02%"
+          "close": "862.11",
+          "chg": "1.28",
+          "chg_pct": "+0.15%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "200.09",
-          "chg": "0.34",
-          "chg_pct": "-0.17%"
+          "close": "200.46",
+          "chg": "0.03",
+          "chg_pct": "+0.01%"
         }
       ]
     },
