@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-08 09:31 KST",
+  "as_of": "2026-09-08 10:17 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -34,17 +34,17 @@
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
     "axes": [
       {
-        "axis": "관찰 대기",
-        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-        "confidence": "낮음 — 신호 부재",
-        "trigger_metric": "",
-        "trigger_value": ""
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.44% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.44%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-08T09:31:01.794684+09:00",
+    "collected_at": "2026-09-08T10:16:39.746844+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,341.86",
-            "chg": "3.94",
-            "chg_pct": "-0.29%"
+            "close": "1,339.93",
+            "chg": "5.87",
+            "chg_pct": "-0.44%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,559.83",
-            "chg": "5.70",
-            "chg_pct": "-0.36%"
+            "close": "1,558.31",
+            "chg": "7.22",
+            "chg_pct": "-0.46%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "873.68",
-            "chg": "1.56",
-            "chg_pct": "+0.18%"
+            "close": "871.98",
+            "chg": "0.14",
+            "chg_pct": "-0.02%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "199.90",
-            "chg": "0.62",
-            "chg_pct": "-0.31%"
+            "close": "199.64",
+            "chg": "0.88",
+            "chg_pct": "-0.44%"
           }
         ]
       },
@@ -215,9 +215,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.91",
-            "chg": "0.06",
-            "chg_pct": "-1.89%"
+            "close": "2.94",
+            "chg": "0.03",
+            "chg_pct": "+0.86%"
           }
         ]
       }
