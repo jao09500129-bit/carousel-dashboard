@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-09-07 23:11 KST",
+  "as_of": "2026-09-08 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "고용 호조에 9월 美금리 인상 가능성 58%…3대지수 하락 [뉴욕증시 브리핑]",
+  "headline": "9월 운명 결정할 CPI…멈췄던 반도체 다시 달릴까 [월가 백브리핑]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "고용 호조에 9월 美금리 인상 가능성 58%…3대지수 하락 [뉴욕증시 브리핑]",
+      "title": "9월 운명 결정할 CPI…멈췄던 반도체 다시 달릴까 [월가 백브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026090555447"
+      "url": "https://www.hankyung.com/article/202609080072i"
     },
     {
-      "title": "'굿 뉴스는 나쁜 뉴스' 뜨거운 고용, 냉각된 증시…CPI가 9월 운명 결정? [김현석의 월스트리트나우]",
+      "title": "엔화 급등, 반년 만의 최고…헤지펀드 줄줄이 매도 청산",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609055581i"
+      "url": "https://www.hankyung.com/article/202609080113i"
     },
     {
-      "title": "트럼프 \"금리 안 낮추면 무역 중단\"…막무가내 발언 왜 나왔나 [Fed 워치]",
+      "title": "중국인민은행, 8월에만 금 18t 샀다…22개월 연속 매입",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609055488i"
+      "url": "https://www.hankyung.com/article/2026090800587"
     },
     {
-      "title": "트럼프 \"시진핑 부부 24일 미국 방문…훌륭한 일 해낼 것\"",
+      "title": "노동절 연휴로 휴장…이번주 PPI·CPI 촉각 [뉴욕증시 브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026090555607"
+      "url": "https://www.hankyung.com/article/2026090899186"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-07T23:10:59.151347+09:00",
+    "collected_at": "2026-09-08T09:31:01.794684+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -88,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "26,046.40",
-            "chg": "43.08",
-            "chg_pct": "+0.17%"
+            "close": "26,006.53",
+            "chg": "39.87",
+            "chg_pct": "-0.15%"
           },
           {
             "name": "홍콩",
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,346.97",
-            "chg": "1.00",
-            "chg_pct": "+0.07%"
+            "close": "1,341.86",
+            "chg": "3.94",
+            "chg_pct": "-0.29%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,566.64",
-            "chg": "3.05",
-            "chg_pct": "+0.20%"
+            "close": "1,559.83",
+            "chg": "5.70",
+            "chg_pct": "-0.36%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "871.25",
-            "chg": "10.42",
-            "chg_pct": "+1.21%"
+            "close": "873.68",
+            "chg": "1.56",
+            "chg_pct": "+0.18%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "200.69",
-            "chg": "0.26",
-            "chg_pct": "+0.13%"
+            "close": "199.90",
+            "chg": "0.62",
+            "chg_pct": "-0.31%"
           }
         ]
       },
@@ -140,37 +140,37 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "101.91",
-            "chg": "0.28",
-            "chg_pct": "-0.27%"
+            "close": "105.39",
+            "chg": "3.48",
+            "chg_pct": "+3.41%"
           },
           {
             "name": "니켈",
             "symbol": "LMENIC",
-            "close": "16,690.00",
-            "chg": "75.00",
-            "chg_pct": "+0.45%"
+            "close": "16,600.00",
+            "chg": "90.00",
+            "chg_pct": "-0.54%"
           },
           {
             "name": "알루미늄 H/G 캐시",
             "symbol": "LMEALC",
-            "close": "3,292.50",
-            "chg": "10.50",
-            "chg_pct": "-0.32%"
+            "close": "3,310.00",
+            "chg": "17.50",
+            "chg_pct": "+0.53%"
           },
           {
             "name": "전기동",
             "symbol": "LMECOC",
-            "close": "14,371.00",
-            "chg": "12.00",
-            "chg_pct": "+0.08%"
+            "close": "14,540.00",
+            "chg": "169.00",
+            "chg_pct": "+1.18%"
           },
           {
             "name": "전기동 3M",
             "symbol": "LMECOF",
-            "close": "14,365.00",
-            "chg": "90.00",
-            "chg_pct": "+0.63%"
+            "close": "14,448.00",
+            "chg": "83.00",
+            "chg_pct": "+0.58%"
           }
         ]
       },
