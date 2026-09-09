@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-09-09 10:21 KST",
+  "as_of": "2026-09-09 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "\"엔캐리 청산 우려, 이미 시장에 반영…위험자산 투매 가능성 낮아\"",
+  "headline": "애플만 살까, 애플만 죽을까[박신영의 월가 아나토미]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "\"엔캐리 청산 우려, 이미 시장에 반영…위험자산 투매 가능성 낮아\"",
+      "title": "애플만 살까, 애플만 죽을까[박신영의 월가 아나토미]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026090928926"
+      "url": "https://www.hankyung.com/article/202609092773i"
     },
     {
       "title": "유가 100달러 역풍에도 반도체 급등했는데…MS \"모멘텀 마지막 불꽃\" [김현석의 월스트리트나우]",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-09T10:21:10.115240+09:00",
+    "collected_at": "2026-09-09T11:01:10.941727+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,339.08",
-            "chg": "2.64",
-            "chg_pct": "-0.20%"
+            "close": "1,338.96",
+            "chg": "2.76",
+            "chg_pct": "-0.21%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,557.71",
-            "chg": "3.05",
-            "chg_pct": "-0.20%"
+            "close": "1,557.20",
+            "chg": "3.56",
+            "chg_pct": "-0.23%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "871.32",
-            "chg": "0.19",
-            "chg_pct": "+0.02%"
+            "close": "872.00",
+            "chg": "0.87",
+            "chg_pct": "+0.10%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "199.56",
-            "chg": "0.35",
-            "chg_pct": "-0.18%"
+            "close": "199.52",
+            "chg": "0.39",
+            "chg_pct": "-0.20%"
           }
         ]
       },
