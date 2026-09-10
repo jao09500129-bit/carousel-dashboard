@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-10 09:31 KST",
+  "as_of": "2026-09-10 10:16 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -19,14 +19,14 @@
       "url": "https://www.hankyung.com/article/202609105159i"
     },
     {
-      "title": "애플만 살까, 애플만 죽을까[박신영의 월가 아나토미]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202609092773i"
-    },
-    {
       "title": "\"329만원부터 시작\"…애플 첫 폴더블 '아이폰 듀오' 등판",
       "summary": "",
       "url": "https://www.hankyung.com/article/202609105089i"
+    },
+    {
+      "title": "AI 데이터센터 '전력 전쟁' 올라탄 미코…세계 1위 HRSG 기업 인수",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202609105765i"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-10T09:31:03.525473+09:00",
+    "collected_at": "2026-09-10T10:15:50.803093+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,339.51",
-            "chg": "1.64",
-            "chg_pct": "+0.12%"
+            "close": "1,338.00",
+            "chg": "0.13",
+            "chg_pct": "+0.01%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,557.90",
-            "chg": "0.06",
-            "chg_pct": "-0.00%"
+            "close": "1,556.27",
+            "chg": "1.69",
+            "chg_pct": "-0.11%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "871.79",
-            "chg": "1.26",
-            "chg_pct": "-0.14%"
+            "close": "871.21",
+            "chg": "1.84",
+            "chg_pct": "-0.21%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "199.61",
-            "chg": "0.25",
-            "chg_pct": "+0.13%"
+            "close": "199.40",
+            "chg": "0.04",
+            "chg_pct": "+0.02%"
           }
         ]
       },
@@ -215,9 +215,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.90",
-            "chg": "0.04",
-            "chg_pct": "-1.33%"
+            "close": "2.89",
+            "chg": "0.01",
+            "chg_pct": "-0.17%"
           }
         ]
       }
