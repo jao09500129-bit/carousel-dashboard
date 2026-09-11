@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updated_at": "2026-09-11T15:00:12+09:00",
+  "updated_at": "2026-09-11T16:00:05+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -58,17 +58,17 @@
     "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-09-10):\n    SP500_ret:  -0.48% (tau ≤ -2.70%)\n    VIX_z252:   -0.51 (tau ≥ +2.00)"
   },
   "portfolio": {
-    "total_return_pct": 3.23,
+    "total_return_pct": 5.02,
     "cash_pct": 0.5,
     "holdings": [
       {
         "code": "122630",
         "name": "KODEX 레버리지",
         "weight_pct": 99.5,
-        "pnl_pct": 5.56
+        "pnl_pct": 7.39
       }
     ],
-    "last_updated": "2026-09-11T13:00:12.525021",
+    "last_updated": "2026-09-11T16:00:03.324280",
     "since_start_days": 42
   },
   "trade_today": {
@@ -206,11 +206,11 @@
       "vol_off_pct": 19.44
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-09-11T15:00:13+09:00"
+    "updated_at": "2026-09-11T16:00:06+09:00"
   },
   "m30_shadow": {
     "date": "2026-09-10",
-    "updated_at": "2026-09-11T15:00:14+09:00",
+    "updated_at": "2026-09-11T16:00:07+09:00",
     "m21": {
       "wl": 3.1277,
       "ws": 0.0,
@@ -255,7 +255,7 @@
   },
   "m37_shadow": {
     "date": "2026-09-10",
-    "updated_at": "2026-09-11T15:00:17+09:00",
+    "updated_at": "2026-09-11T16:00:10+09:00",
     "m21": {
       "wl": 3.1277,
       "ws": 0.0
@@ -470,7 +470,7 @@
       },
       {
         "date": "2026-09-11",
-        "total_return_pct": 3.23,
+        "total_return_pct": 5.02,
         "holding_qty": 950
       }
     ],
@@ -1440,8 +1440,8 @@
         "track": 2,
         "action_short": "⏸ HOLD",
         "qty": 950,
-        "return_pct": 9.77,
-        "memo": "KIS API 자동 갱신 [자동갱신 09-11 09:10]"
+        "return_pct": 5.02,
+        "memo": "KIS API 자동 갱신 [자동갱신 09-11 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1601,10 +1601,10 @@
       },
       {
         "date": "2026-09-11",
-        "drawdown_pct": -7.09
+        "drawdown_pct": -5.3
       }
     ],
-    "generated_at": "2026-09-11T15:00:21"
+    "generated_at": "2026-09-11T16:00:14"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
