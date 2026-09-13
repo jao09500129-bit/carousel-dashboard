@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-12 23:11 KST",
+  "as_of": "2026-09-13 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-12T23:10:45.827240+09:00",
+    "collected_at": "2026-09-13T23:11:04.790799+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
