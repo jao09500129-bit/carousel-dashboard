@@ -1,27 +1,27 @@
 {
-  "as_of": "2026-09-15 16:01 KST",
+  "as_of": "2026-09-15 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "금리·유가 상승에 ‘AI 속도조절론’까지…SK하닉 ADR 7.6%↓ [뉴욕증시 브리핑]",
+  "headline": "금리 5%는 호재? 저점에서 반등한 증시…\"신중하라, 기다려라\" [김현석의 월스트리트나우]",
   "us_market_snapshot": [],
   "themes": [
-    {
-      "title": "금리·유가 상승에 ‘AI 속도조절론’까지…SK하닉 ADR 7.6%↓ [뉴욕증시 브리핑]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026091544386"
-    },
     {
       "title": "금리 5%는 호재? 저점에서 반등한 증시…\"신중하라, 기다려라\" [김현석의 월스트리트나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202609154524i"
     },
     {
-      "title": "\"자율주행 최강자\"라더니…뒤통수 맞은 테슬라 차주들 [이슈+]",
+      "title": "'코인 랠리' 올라탄 스트래티지…한달새 44% 급등",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609142445g"
+      "url": "https://www.hankyung.com/article/2026091565181"
+    },
+    {
+      "title": "日 키옥시아, 美 ADR로…최소 100억弗 조달 추진",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026091565131"
     },
     {
       "title": "美 3년 만에 금리 인상 나서나…고유가·10년물 5% 돌파 압박",
@@ -35,16 +35,16 @@
     "axes": [
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.92% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW +0.76% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.92%"
+        "trigger_value": "+0.76%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-15T16:00:51.046710+09:00",
+    "collected_at": "2026-09-15T23:10:54.975115+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -74,16 +74,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "63,492.99",
-            "chg": "518.35",
-            "chg_pct": "-0.81%"
+            "close": "63,484.10",
+            "chg": "8.89",
+            "chg_pct": "-0.01%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "45,862.52",
-            "chg": "322.33",
-            "chg_pct": "-0.70%"
+            "close": "45,511.49",
+            "chg": "351.03",
+            "chg_pct": "-0.77%"
           },
           {
             "name": "독일",
@@ -95,9 +95,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "24,917.60",
-            "chg": "111.97",
-            "chg_pct": "+0.45%"
+            "close": "24,667.24",
+            "chg": "250.36",
+            "chg_pct": "-1.00%"
           }
         ]
       },
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,360.36",
-            "chg": "12.42",
-            "chg_pct": "+0.92%"
+            "close": "1,358.15",
+            "chg": "10.21",
+            "chg_pct": "+0.76%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,569.23",
-            "chg": "14.02",
-            "chg_pct": "+0.90%"
+            "close": "1,568.24",
+            "chg": "13.03",
+            "chg_pct": "+0.84%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "878.09",
-            "chg": "6.89",
-            "chg_pct": "+0.79%"
+            "close": "876.09",
+            "chg": "4.89",
+            "chg_pct": "+0.56%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "202.70",
-            "chg": "1.79",
-            "chg_pct": "+0.89%"
+            "close": "202.31",
+            "chg": "1.40",
+            "chg_pct": "+0.70%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.55",
-            "chg": "0.02",
-            "chg_pct": "+0.35%"
+            "close": "4.60",
+            "chg": "0.06",
+            "chg_pct": "+1.41%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "4.05",
-            "chg": "0.03",
-            "chg_pct": "+0.65%"
+            "close": "4.09",
+            "chg": "0.07",
+            "chg_pct": "+1.64%"
           },
           {
             "name": "미국 국채 10년",
