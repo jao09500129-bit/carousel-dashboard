@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-18 16:01 KST",
+  "as_of": "2026-09-18 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -14,6 +14,11 @@
       "url": "https://www.hankyung.com/article/202609183730i"
     },
     {
+      "title": "트럼프, 공항서 시진핑 직접 맞이한다…'이례적 영접'의 속내 [이상은의 워싱턴나우]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202609183259i"
+    },
+    {
       "title": "시티 \"한두 번 인상, 안 무너져\" vs JPM \"점도표보다 더 올려\" [김현석의 월스트리트나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202609182531i"
@@ -22,11 +27,6 @@
       "title": "美 SEC, 토큰화 주식 5년간 허용…24시간 거래 눈앞에",
       "summary": "",
       "url": "https://www.hankyung.com/article/202609183658i"
-    },
-    {
-      "title": "젠슨 황 \"엔비디아, 내년 칩 판매 2배로 늘어난다\"",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202609183300i"
     }
   ],
   "today_kr_focus": [],
@@ -39,12 +39,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "미국 10년 yield",
         "trigger_value": "-7.0bp"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW +0.59% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "+0.59%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-18T16:00:54.694836+09:00",
+    "collected_at": "2026-09-18T23:10:52.415509+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -74,16 +81,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "64,136.25",
-            "chg": "213.25",
-            "chg_pct": "+0.33%"
+            "close": "65,018.95",
+            "chg": "882.70",
+            "chg_pct": "+1.38%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "46,288.00",
-            "chg": "439.10",
-            "chg_pct": "+0.96%"
+            "close": "47,180.75",
+            "chg": "892.75",
+            "chg_pct": "+1.93%"
           },
           {
             "name": "독일",
@@ -95,9 +102,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "24,604.29",
-            "chg": "109.49",
-            "chg_pct": "-0.44%"
+            "close": "24,750.78",
+            "chg": "146.49",
+            "chg_pct": "+0.60%"
           }
         ]
       },
@@ -107,30 +114,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,383.60",
-            "chg": "2.40",
-            "chg_pct": "+0.17%"
+            "close": "1,389.38",
+            "chg": "8.18",
+            "chg_pct": "+0.59%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,588.54",
-            "chg": "1.77",
-            "chg_pct": "+0.11%"
+            "close": "1,591.22",
+            "chg": "4.45",
+            "chg_pct": "+0.28%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "881.59",
-            "chg": "5.26",
-            "chg_pct": "-0.59%"
+            "close": "880.65",
+            "chg": "6.20",
+            "chg_pct": "-0.70%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "206.21",
-            "chg": "0.27",
-            "chg_pct": "+0.13%"
+            "close": "207.11",
+            "chg": "1.17",
+            "chg_pct": "+0.57%"
           }
         ]
       },
@@ -180,16 +187,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.45",
-            "chg": "0.05",
-            "chg_pct": "-1.20%"
+            "close": "4.47",
+            "chg": "0.04",
+            "chg_pct": "-0.89%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "4.03",
+            "close": "4.04",
             "chg": "0.03",
-            "chg_pct": "-0.71%"
+            "chg_pct": "-0.69%"
           },
           {
             "name": "미국 국채 10년",
