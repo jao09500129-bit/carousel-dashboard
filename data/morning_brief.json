@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-09-18 13:01 KST",
+  "as_of": "2026-09-18 15:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "'금리 충격' 딛고 주요 지수 일제히 반등…나스닥 1.69%↑ [뉴욕증시 브리핑]",
+  "headline": "벅셔해서웨이, 日 5대 종합상사 지분 확대 검토",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "'금리 충격' 딛고 주요 지수 일제히 반등…나스닥 1.69%↑ [뉴욕증시 브리핑]",
+      "title": "벅셔해서웨이, 日 5대 종합상사 지분 확대 검토",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026091825586"
+      "url": "https://www.hankyung.com/article/202609183730i"
     },
     {
       "title": "시티 \"한두 번 인상, 안 무너져\" vs JPM \"점도표보다 더 올려\" [김현석의 월스트리트나우]",
@@ -19,14 +19,14 @@
       "url": "https://www.hankyung.com/article/202609182531i"
     },
     {
-      "title": "\"18년 만에 쫓겨나는 신세\"…잘 나가던 나이키, 무슨 일이? [갓신상]",
+      "title": "美 SEC, 토큰화 주식 5년간 허용…24시간 거래 눈앞에",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609171641g"
+      "url": "https://www.hankyung.com/article/202609183658i"
     },
     {
-      "title": "병목 따라 도는 돈…AI ETF 투자 지도",
+      "title": "젠슨 황 \"엔비디아, 내년 칩 판매 2배로 늘어난다\"",
       "summary": "",
-      "url": "https://magazine.hankyung.com/money/article/202608186231c"
+      "url": "https://www.hankyung.com/article/202609183300i"
     }
   ],
   "today_kr_focus": [],
@@ -39,19 +39,12 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "미국 10년 yield",
         "trigger_value": "-7.0bp"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.31% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "+0.31%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-18T13:01:08.179298+09:00",
+    "collected_at": "2026-09-18T15:00:57.960429+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -114,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,385.55",
-            "chg": "4.35",
-            "chg_pct": "+0.31%"
+            "close": "1,382.23",
+            "chg": "1.03",
+            "chg_pct": "+0.07%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,592.19",
-            "chg": "5.42",
-            "chg_pct": "+0.34%"
+            "close": "1,588.03",
+            "chg": "1.26",
+            "chg_pct": "+0.08%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "882.60",
-            "chg": "4.25",
-            "chg_pct": "-0.48%"
+            "close": "879.20",
+            "chg": "7.65",
+            "chg_pct": "-0.86%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "206.65",
-            "chg": "0.71",
-            "chg_pct": "+0.34%"
+            "close": "206.03",
+            "chg": "0.09",
+            "chg_pct": "+0.04%"
           }
         ]
       },
@@ -187,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.51",
-            "chg": "0.04",
-            "chg_pct": "-0.90%"
+            "close": "4.45",
+            "chg": "0.05",
+            "chg_pct": "-1.20%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "4.06",
-            "chg": "0.01",
-            "chg_pct": "+0.25%"
+            "close": "4.03",
+            "chg": "0.03",
+            "chg_pct": "-0.71%"
           },
           {
             "name": "미국 국채 10년",
