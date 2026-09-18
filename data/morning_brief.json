@@ -1,50 +1,50 @@
 {
-  "as_of": "2026-09-17 23:11 KST",
+  "as_of": "2026-09-18 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "3년 만에 금리인상·워시 매파 발언에 하락 마감…다우 1.2%↓[뉴욕증시 브리핑]",
+  "headline": "'금리 충격' 딛고 주요 지수 일제히 반등…나스닥 1.69%↑ [뉴욕증시 브리핑]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "3년 만에 금리인상·워시 매파 발언에 하락 마감…다우 1.2%↓[뉴욕증시 브리핑]",
+      "title": "'금리 충격' 딛고 주요 지수 일제히 반등…나스닥 1.69%↑ [뉴욕증시 브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026091798786"
+      "url": "https://www.hankyung.com/article/2026091825586"
     },
     {
-      "title": "\"중대한 발걸음\" 워시, 추가 인상 예고…10년물도 동반 상승 [김현석의 월스트리트나우]",
+      "title": "시티 \"한두 번 인상, 안 무너져\" vs JPM \"점도표보다 더 올려\" [김현석의 월스트리트나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609179982i"
+      "url": "https://www.hankyung.com/article/202609182531i"
     },
     {
-      "title": "AI 개발 늦추자더니…오픈AI·앤트로픽 내부 갈등",
+      "title": "\"18년 만에 쫓겨나는 신세\"…잘 나가던 나이키, 무슨 일이? [갓신상]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609179994i"
+      "url": "https://www.hankyung.com/article/202609171641g"
     },
     {
-      "title": "美 기준금리 인상하자 트럼프 뿔났다…\"빨리 1% 이하로 낮춰라\" [Fed 워치]",
+      "title": "병목 따라 도는 돈…AI ETF 투자 지도",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609179777i"
+      "url": "https://magazine.hankyung.com/money/article/202608186231c"
     }
   ],
   "today_kr_focus": [],
   "carousel_implications": {
-    "regime": "혼조 — 명확한 방향성 부족 (가설)",
+    "regime": "금리 변동 주도 (-7.0bp) (가설)",
     "axes": [
       {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.90% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "+0.90%"
+        "axis": "금리 민감 회전축",
+        "view": "미국 10년 yield -7.0bp 하락. 리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
+        "confidence": "중 — 백테스트 미검증",
+        "trigger_metric": "미국 10년 yield",
+        "trigger_value": "-7.0bp"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-17T23:10:48.001894+09:00",
+    "collected_at": "2026-09-18T09:30:46.101708+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -53,23 +53,23 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "25,978.43",
-            "chg": "3.14",
-            "chg_pct": "-0.01%"
+            "close": "26,418.30",
+            "chg": "439.87",
+            "chg_pct": "+1.69%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "51,461.90",
-            "chg": "631.21",
-            "chg_pct": "-1.21%"
+            "close": "51,778.04",
+            "chg": "316.14",
+            "chg_pct": "+0.61%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,551.81",
-            "chg": "33.92",
-            "chg_pct": "-0.45%"
+            "close": "7,637.76",
+            "chg": "85.95",
+            "chg_pct": "+1.14%"
           },
           {
             "name": "NIKKEI 225",
@@ -88,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "25,537.75",
-            "chg": "135.47",
-            "chg_pct": "+0.53%"
+            "close": "25,716.71",
+            "chg": "178.96",
+            "chg_pct": "+0.70%"
           },
           {
             "name": "홍콩",
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,380.15",
-            "chg": "12.31",
-            "chg_pct": "+0.90%"
+            "close": "1,382.42",
+            "chg": "1.22",
+            "chg_pct": "+0.09%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,587.20",
-            "chg": "9.73",
-            "chg_pct": "+0.62%"
+            "close": "1,587.17",
+            "chg": "0.40",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "886.75",
-            "chg": "5.00",
-            "chg_pct": "+0.57%"
+            "close": "885.04",
+            "chg": "1.81",
+            "chg_pct": "-0.20%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "205.79",
-            "chg": "2.00",
-            "chg_pct": "+0.98%"
+            "close": "206.10",
+            "chg": "0.16",
+            "chg_pct": "+0.08%"
           }
         ]
       },
@@ -140,37 +140,37 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "128.00",
-            "chg": "0.30",
-            "chg_pct": "+0.23%"
+            "close": "123.70",
+            "chg": "4.30",
+            "chg_pct": "-3.36%"
           },
           {
             "name": "니켈",
             "symbol": "LMENIC",
-            "close": "16,090.00",
-            "chg": "45.00",
-            "chg_pct": "-0.28%"
+            "close": "16,170.00",
+            "chg": "80.00",
+            "chg_pct": "+0.50%"
           },
           {
             "name": "알루미늄 H/G 캐시",
             "symbol": "LMEALC",
-            "close": "3,310.00",
-            "chg": "50.00",
-            "chg_pct": "+1.53%"
+            "close": "3,303.50",
+            "chg": "6.50",
+            "chg_pct": "-0.20%"
           },
           {
             "name": "전기동",
             "symbol": "LMECOC",
-            "close": "14,227.00",
-            "chg": "182.00",
-            "chg_pct": "+1.30%"
+            "close": "14,400.50",
+            "chg": "173.50",
+            "chg_pct": "+1.22%"
           },
           {
             "name": "전기동 3M",
             "symbol": "LMECOF",
-            "close": "14,232.00",
-            "chg": "155.00",
-            "chg_pct": "+1.10%"
+            "close": "14,409.00",
+            "chg": "177.00",
+            "chg_pct": "+1.24%"
           }
         ]
       },
@@ -194,23 +194,23 @@
           {
             "name": "미국 국채 10년",
             "symbol": "US10YY",
-            "close": "5.01",
-            "chg": "0.01",
-            "chg_pct": "+0.20%"
+            "close": "4.94",
+            "chg": "0.07",
+            "chg_pct": "-1.40%"
           },
           {
             "name": "미국 국채 2년",
             "symbol": "US2YY",
-            "close": "4.74",
+            "close": "4.67",
             "chg": "0.07",
-            "chg_pct": "+1.50%"
+            "chg_pct": "-1.48%"
           },
           {
             "name": "미국 국채 30년",
             "symbol": "US30YY",
-            "close": "5.35",
-            "chg": "0.01",
-            "chg_pct": "-0.19%"
+            "close": "5.29",
+            "chg": "0.06",
+            "chg_pct": "-1.12%"
           },
           {
             "name": "일본 국채 10년",
