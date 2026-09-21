@@ -1,10 +1,60 @@
 {
-  "collected_at": "2026-09-21T11:00:55.166104+09:00",
+  "collected_at": "2026-09-21T13:01:01.007154+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
       "label": "한경 데이터센터 해외지수",
-      "items": []
+      "items": [
+        {
+          "name": "나스닥",
+          "symbol": "NASDAQ",
+          "close": "26,522.55",
+          "chg": "104.25",
+          "chg_pct": "+0.39%"
+        },
+        {
+          "name": "다우존스",
+          "symbol": "DJIA",
+          "close": "51,682.64",
+          "chg": "95.40",
+          "chg_pct": "-0.18%"
+        },
+        {
+          "name": "S&P 500",
+          "symbol": "SP500",
+          "close": "7,650.50",
+          "chg": "12.74",
+          "chg_pct": "+0.17%"
+        },
+        {
+          "name": "NIKKEI 225",
+          "symbol": "NIKKEI",
+          "close": "65,018.95",
+          "chg": "882.70",
+          "chg_pct": "+1.38%"
+        },
+        {
+          "name": "대만",
+          "symbol": "WEIGHT",
+          "close": "47,180.75",
+          "chg": "892.75",
+          "chg_pct": "+1.93%"
+        },
+        {
+          "name": "독일",
+          "symbol": "DAX",
+          "close": "25,304.06",
+          "chg": "412.65",
+          "chg_pct": "-1.60%"
+        },
+        {
+          "name": "홍콩",
+          "symbol": "HANGSE",
+          "close": "24,750.78",
+          "chg": "146.49",
+          "chg_pct": "+0.60%"
+        }
+      ]
     },
     "currencies": {
       "label": "한경 데이터센터 외환",
@@ -12,9 +62,9 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,385.86",
-          "chg": "0.18",
-          "chg_pct": "-0.01%"
+          "close": "1,383.76",
+          "chg": "2.28",
+          "chg_pct": "-0.16%"
         },
         {
           "name": "유로",
@@ -26,22 +76,58 @@
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "884.28",
-          "chg": "0.66",
-          "chg_pct": "+0.07%"
+          "close": "881.72",
+          "chg": "1.90",
+          "chg_pct": "-0.22%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "206.91",
-          "chg": "0.05",
-          "chg_pct": "-0.02%"
+          "close": "206.62",
+          "chg": "0.34",
+          "chg_pct": "-0.16%"
         }
       ]
     },
     "commodities": {
       "label": "한경 데이터센터 원자재",
-      "items": []
+      "items": [
+        {
+          "name": "두바이유 현물",
+          "symbol": "DUBAIF",
+          "close": "118.40",
+          "chg": "5.30",
+          "chg_pct": "-4.28%"
+        },
+        {
+          "name": "니켈",
+          "symbol": "LMENIC",
+          "close": "16,055.00",
+          "chg": "115.00",
+          "chg_pct": "-0.71%"
+        },
+        {
+          "name": "알루미늄 H/G 캐시",
+          "symbol": "LMEALC",
+          "close": "3,285.00",
+          "chg": "18.50",
+          "chg_pct": "-0.56%"
+        },
+        {
+          "name": "전기동",
+          "symbol": "LMECOC",
+          "close": "14,529.00",
+          "chg": "128.50",
+          "chg_pct": "+0.89%"
+        },
+        {
+          "name": "전기동 3M",
+          "symbol": "LMECOF",
+          "close": "14,515.00",
+          "chg": "106.00",
+          "chg_pct": "+0.74%"
+        }
+      ]
     },
     "rates-bonds": {
       "label": "한경 데이터센터 채권금리",
