@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updated_at": "2026-09-21T11:00:10+09:00",
+  "updated_at": "2026-09-21T13:00:17+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -73,17 +73,17 @@
     "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-09-18):\n    SP500_ret:  +1.14% (tau ≤ -2.70%)\n    VIX_z252:   -0.83 (tau ≥ +2.00)"
   },
   "portfolio": {
-    "total_return_pct": 1.18,
-    "cash_pct": 10.3,
+    "total_return_pct": 1.75,
+    "cash_pct": 10.2,
     "holdings": [
       {
         "code": "069500",
         "name": "KODEX 200",
-        "weight_pct": 89.73,
-        "pnl_pct": 5.41
+        "weight_pct": 89.79,
+        "pnl_pct": 6.08
       }
     ],
-    "last_updated": "2026-09-21T11:00:05.443965",
+    "last_updated": "2026-09-21T13:00:09.432809",
     "since_start_days": 52
   },
   "trade_today": {
@@ -229,11 +229,11 @@
       "vol_off_pct": 19.41
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-09-21T11:00:12+09:00"
+    "updated_at": "2026-09-21T13:00:19+09:00"
   },
   "m30_shadow": {
     "date": "2026-09-18",
-    "updated_at": "2026-09-21T11:00:13+09:00",
+    "updated_at": "2026-09-21T13:00:20+09:00",
     "m21": {
       "wl": 0.8957,
       "ws": 0.0,
@@ -278,7 +278,7 @@
   },
   "m37_shadow": {
     "date": "2026-09-18",
-    "updated_at": "2026-09-21T11:00:16+09:00",
+    "updated_at": "2026-09-21T13:00:23+09:00",
     "m21": {
       "wl": 0.8957,
       "ws": 0.0
@@ -543,7 +543,7 @@
       },
       {
         "date": "2026-09-21",
-        "total_return_pct": 1.18,
+        "total_return_pct": 1.75,
         "holding_qty": 0
       }
     ],
@@ -1794,10 +1794,10 @@
       },
       {
         "date": "2026-09-21",
-        "drawdown_pct": -9.14
+        "drawdown_pct": -8.57
       }
     ],
-    "generated_at": "2026-09-21T11:00:20"
+    "generated_at": "2026-09-21T13:00:27"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
