@@ -93,7 +93,7 @@ header .sub { font-size: 14px; opacity: .95; font-weight: 500; }
     <div class="card span-3">
       <h2>📉 현재 Drawdown</h2>
       <div class="kpi-value" id="kpi-dd">…</div>
-      <div class="kpi-sub" id="kpi-dd-from-peak">최고점 대비</div>
+      <div class="kpi-sub" id="kpi-dd-from-peak">현재 트랙 최고점 대비</div>
     </div>
     <div class="card span-3">
       <h2>🎯 목표 달성률</h2>
@@ -112,7 +112,8 @@ header .sub { font-size: 14px; opacity: .95; font-weight: 500; }
       <div class="chart-box tall">
         <canvas id="cumret-chart"></canvas>
       </div>
-      <div class="notice">파란선 = 일별 누적 수익률 · 빨강 점선 = 최고 수익률 · 회색 점선 = 목표 라인 (12거래일 단순 환산)</div>
+      <div class="notice" id="cumret-note">파란선 = <b>현재 트랙(운영·손절)</b> · 청록 점선 = <b>연결(전략 평가)</b> · 빨강 점선 = 현재 트랙 최고 — <b>두 곡선은 모집단이 다르다. 섞어 읽지 마라.</b></div>
+      <div class="notice" id="cumret-metrics">…</div>
     </div>
   </div>
 
@@ -229,15 +230,37 @@ function renderDashboard(d) {
   document.getElementById('kpi-since').textContent = `Paper ${days}일 차`;
 
   const v6 = d.v6_extras || {};
+  window.__v6 = v6;   // (twocurve 20260922) 두 곡선·4지표 참조용
+
+  // §22 4지표 — 두 곡선 각각. **표본 길이를 반드시 병기한다**(연환산 참고치).
+  (function () {
+    const el = document.getElementById('cumret-metrics');
+    const tc = v6.two_curves;
+    if (!el || !tc) { if (el) el.textContent = '4지표 미산출'; return; }
+    const f = (m) => m && m.cagr_pct != null
+      ? `CAGR ${m.cagr_pct}% · Sharpe ${m.sharpe ?? '—'} · MDD ${m.mdd_pct}% · Calmar ${m.calmar ?? '—'} (${m.n_days}거래일)`
+      : '표본 부족';
+    const b = (tc.boundaries || []).map(x => `${x.date} ${x.note} · 재진입까지 4거래일 공백(실제 비용)`).join(' / ');
+    el.innerHTML = `<b>현재 트랙</b> ${f(tc.current?.metrics)}<br><b>연결(전략)</b> ${f(tc.chained?.metrics)}`
+      + (b ? `<br><b>전환 경계</b> ${b}` : '')
+      + `<br><span style="color:#b45309">손절 임계(−5%)는 <b>현재 트랙</b> 곡선에만 적용된다.</span>`
+      + `<br><span style="display:inline-block;margin-top:6px;padding:6px 10px;border-left:4px solid #dc2626;background:#fef2f2;color:#991b1b;font-weight:700">`
+      + `⚠ 위 CAGR 는 <b>짧은 표본의 연환산 참고치</b>다. <b>목표(42.58%) 달성 판정에 쓰지 않는다.</b>`
+      + `<br>목표 판정은 in-sample 백테스트 + 봉인 구간으로만 한다. 페이퍼 몇 달치 연환산을 성과로 읽는 것이 이 프로젝트가 과거에 실패한 함정이다.</span>`;
+  })();
   const stats = v6.trading_stats || {};
 
-  // KPI 2: 최고
-  const peak = stats.peak_return_pct ?? 0;
+  // KPI 2: 최고 — (twocurve 20260922) **현재 트랙 모집단**에서 뽑는다.
+  // 종전에는 stats.peak_return_pct(전 트랙)를 ret(현재 트랙)에서 빼 -53.76% 가 나왔다(L-181).
+  const _cur = (window.__v6?.two_curves?.current?.points) || [];
+  const peak = _cur.length ? Math.max(..._cur.map(p => p.pct)) : (stats.peak_return_pct ?? 0);
+  const _peakPt = _cur.find(p => p.pct === peak);
   document.getElementById('kpi-peak').textContent = fmtPct(peak, true);
   document.getElementById('kpi-peak').className = 'kpi-value ' + pctClass(peak);
-  document.getElementById('kpi-peak-date').textContent = stats.peak_date || '—';
+  document.getElementById('kpi-peak-date').textContent =
+    (_peakPt ? _peakPt.date : (stats.peak_date || '—')) + ' · 현재 트랙';
 
-  // KPI 3: Drawdown
+  // KPI 3: Drawdown — 같은 모집단(현재 트랙) 안에서만 뺀다
   const dd = Math.min(ret - peak, 0);
   document.getElementById('kpi-dd').textContent = fmtPct(dd, true);
   document.getElementById('kpi-dd').className = 'kpi-value ' + pctClass(dd);
@@ -302,7 +325,17 @@ function drawCumretChart(history, peak, target, days) {
           pointBorderWidth: 2,
         },
         {
-          label: '최고 누적',
+          // (twocurve 20260922) 연결 곡선 — **전략 평가용. 손절선을 여기 그리지 마라.**
+          label: '연결(전략 평가)',
+          data: (window.__v6?.two_curves?.chained?.points || []).map(p => p.pct),
+          borderColor: '#0f766e',
+          borderWidth: 2,
+          borderDash: [3,3],
+          pointRadius: 0,
+          fill: false,
+        },
+        {
+          label: '최고 누적(현재 트랙)',
           data: peakLine,
           borderColor: '#dc2626',
           borderWidth: 2.5,
