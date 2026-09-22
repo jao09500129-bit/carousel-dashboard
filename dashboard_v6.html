@@ -204,7 +204,7 @@ if (typeof Chart !== 'undefined') {
 }
 
 // paper_status.json 로드
-fetch('paper_status.json').then(r => r.json()).then(data => {
+fetch('paper_status.json?v=' + Date.now()).then(r => r.json()).then(data => {   // (cachebust 20260922 · L-187) 없으면 방문자가 옛 숫자를 본다
   renderDashboard(data);
 }).catch(err => {
   document.querySelector('header h1').innerHTML += ' <span style="color:#fef3c7;">(데이터 로딩 실패)</span>';
