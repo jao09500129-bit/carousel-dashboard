@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-25",
-  "updated_at": "2026-09-25T23:10:02+09:00",
+  "date": "2026-09-26",
+  "updated_at": "2026-09-26T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -66,11 +66,11 @@
   "m26": {
     "gate_active": false,
     "status_kr": "정상 (m21 그대로 운영)",
-    "sp500_ret_pct": -0.75,
-    "vix_z252": -0.9,
+    "sp500_ret_pct": -0.02,
+    "vix_z252": -0.75,
     "sp500_threshold_pct": -2.7,
     "vix_z_threshold": 2.0,
-    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-09-24):\n    SP500_ret:  -0.75% (tau ≤ -2.70%)\n    VIX_z252:   -0.90 (tau ≥ +2.00)"
+    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-09-25):\n    SP500_ret:  -0.02% (tau ≤ -2.70%)\n    VIX_z252:   -0.75 (tau ≥ +2.00)"
   },
   "portfolio": {
     "total_return_pct": 1.91,
@@ -89,27 +89,12 @@
         "pnl_pct": -1.71
       }
     ],
-    "last_updated": "2026-09-25T16:00:03.253169",
-    "since_start_days": 56
+    "last_updated": "2026-09-26T15:40:04.037461",
+    "since_start_days": 57
   },
   "trade_today": {
     "executed": false,
-    "actions": [
-      {
-        "side": "sell",
-        "code": "069500",
-        "name": "KODEX 200",
-        "executed": false,
-        "result_msg": "모의투자 영업일이 아닙니다."
-      },
-      {
-        "side": "buy",
-        "code": "122630",
-        "name": "KODEX 레버리지",
-        "executed": false,
-        "result_msg": "모의투자 영업일이 아닙니다."
-      }
-    ]
+    "actions": []
   },
   "m28h_shadow": {
     "date": "2026-09-23",
@@ -242,11 +227,11 @@
       "vol_off_pct": 19.39
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-09-25T23:10:05+09:00"
+    "updated_at": "2026-09-26T23:10:05+09:00"
   },
   "m30_shadow": {
     "date": "2026-09-23",
-    "updated_at": "2026-09-25T23:10:06+09:00",
+    "updated_at": "2026-09-26T23:10:06+09:00",
     "m21": {
       "wl": 2.0679,
       "ws": 0.0,
@@ -292,7 +277,7 @@
   },
   "m37_shadow": {
     "date": "2026-09-23",
-    "updated_at": "2026-09-25T23:10:10+09:00",
+    "updated_at": "2026-09-26T23:10:09+09:00",
     "m21": {
       "wl": 2.0679,
       "ws": 0.0
@@ -577,6 +562,11 @@
       },
       {
         "date": "2026-09-25",
+        "total_return_pct": 1.91,
+        "holding_qty": 713
+      },
+      {
+        "date": "2026-09-26",
         "total_return_pct": 1.91,
         "holding_qty": 713
       }
@@ -1661,6 +1651,14 @@
         "qty": 713,
         "return_pct": 1.91,
         "memo": "KIS API 자동 갱신 [자동갱신 09-25 15:40]"
+      },
+      {
+        "date": "2026-09-26",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "qty": 713,
+        "return_pct": 1.91,
+        "memo": "KIS API 자동 갱신 [자동갱신 09-26 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1669,7 +1667,7 @@
       "buy_count": 30,
       "sell_count": 26,
       "stop_loss_count": 6,
-      "hold_days": 88,
+      "hold_days": 89,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -1876,6 +1874,10 @@
       },
       {
         "date": "2026-09-25",
+        "drawdown_pct": -8.41
+      },
+      {
+        "date": "2026-09-26",
         "drawdown_pct": -8.41
       }
     ],
@@ -2087,15 +2089,19 @@
           {
             "date": "2026-09-25",
             "pct": 1.91
+          },
+          {
+            "date": "2026-09-26",
+            "pct": 1.91
           }
         ],
         "metrics": {
-          "n_days": 51,
-          "cagr_pct": 9.8,
+          "n_days": 52,
+          "cagr_pct": 9.6,
           "sharpe": 0.43,
           "mdd_pct": -13.1,
-          "calmar": 0.75,
-          "note": "51거래일 표본 · 연환산 참고치 · rf=0"
+          "calmar": 0.73,
+          "note": "52거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "chained": {
@@ -2640,15 +2646,19 @@
           {
             "date": "2026-09-25",
             "pct": 25.19
+          },
+          {
+            "date": "2026-09-26",
+            "pct": 25.19
           }
         ],
         "metrics": {
-          "n_days": 135,
-          "cagr_pct": 52.1,
-          "sharpe": 1.0,
+          "n_days": 136,
+          "cagr_pct": 51.63,
+          "sharpe": 0.99,
           "mdd_pct": -23.78,
-          "calmar": 2.19,
-          "note": "135거래일 표본 · 연환산 참고치 · rf=0"
+          "calmar": 2.17,
+          "note": "136거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "boundaries": [
@@ -2660,7 +2670,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-09-25T23:10:14"
+    "generated_at": "2026-09-26T23:10:13"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
