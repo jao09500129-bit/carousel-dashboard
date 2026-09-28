@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updated_at": "2026-09-28T15:00:15+09:00",
+  "updated_at": "2026-09-28T16:00:14+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -73,17 +73,17 @@
     "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-09-25):\n    SP500_ret:  -0.02% (tau ≤ -2.70%)\n    VIX_z252:   -0.75 (tau ≥ +2.00)"
   },
   "portfolio": {
-    "total_return_pct": -3.87,
+    "total_return_pct": -4.53,
     "cash_pct": 0.8,
     "holdings": [
       {
         "code": "122630",
         "name": "KODEX 레버리지",
-        "weight_pct": 99.21,
-        "pnl_pct": -6.94
+        "weight_pct": 99.2,
+        "pnl_pct": -7.58
       }
     ],
-    "last_updated": "2026-09-28T15:00:08.355987",
+    "last_updated": "2026-09-28T16:00:03.110560",
     "since_start_days": 59
   },
   "trade_today": {
@@ -236,11 +236,11 @@
       "vol_off_pct": 19.39
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-09-28T15:00:17+09:00"
+    "updated_at": "2026-09-28T16:00:16+09:00"
   },
   "m30_shadow": {
     "date": "2026-09-23",
-    "updated_at": "2026-09-28T15:00:19+09:00",
+    "updated_at": "2026-09-28T16:00:17+09:00",
     "m21": {
       "wl": 2.0679,
       "ws": 0.0,
@@ -286,7 +286,7 @@
   },
   "m37_shadow": {
     "date": "2026-09-23",
-    "updated_at": "2026-09-28T15:00:22+09:00",
+    "updated_at": "2026-09-28T16:00:21+09:00",
     "m21": {
       "wl": 2.0679,
       "ws": 0.0
@@ -586,7 +586,7 @@
       },
       {
         "date": "2026-09-28",
-        "total_return_pct": -3.87,
+        "total_return_pct": -4.53,
         "holding_qty": 866
       }
     ],
@@ -1692,8 +1692,8 @@
         "track": 2,
         "action_short": "🟢 BUY",
         "qty": 866,
-        "return_pct": 0.83,
-        "memo": "KIS API 자동 갱신 [자동갱신 09-28 09:10]"
+        "return_pct": -4.53,
+        "memo": "KIS API 자동 갱신 [자동갱신 09-28 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1921,7 +1921,7 @@
       },
       {
         "date": "2026-09-28",
-        "drawdown_pct": -14.19
+        "drawdown_pct": -14.85
       }
     ],
     "two_curves": {
@@ -2143,15 +2143,15 @@
           },
           {
             "date": "2026-09-28",
-            "pct": 0.83
+            "pct": -4.53
           }
         ],
         "metrics": {
           "n_days": 54,
-          "cagr_pct": 3.93,
-          "sharpe": 0.29,
-          "mdd_pct": -13.1,
-          "calmar": 0.3,
+          "cagr_pct": -19.45,
+          "sharpe": -0.33,
+          "mdd_pct": -13.46,
+          "calmar": -1.45,
           "note": "54거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
@@ -2708,15 +2708,15 @@
           },
           {
             "date": "2026-09-28",
-            "pct": 23.86
+            "pct": 17.28
           }
         ],
         "metrics": {
           "n_days": 138,
-          "cagr_pct": 47.81,
-          "sharpe": 0.95,
-          "mdd_pct": -23.78,
-          "calmar": 2.01,
+          "cagr_pct": 33.79,
+          "sharpe": 0.75,
+          "mdd_pct": -24.1,
+          "calmar": 1.4,
           "note": "138거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
@@ -2729,7 +2729,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-09-28T15:00:26"
+    "generated_at": "2026-09-28T16:00:25"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
