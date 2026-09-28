@@ -1,17 +1,22 @@
 {
-  "as_of": "2026-09-27 23:11 KST",
+  "as_of": "2026-09-28 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "10년물 금리 2007년 이후 최고…美증시는 버텼다 [뉴욕증시 브리핑]",
+  "headline": "외국인 美 주식 순매수, 9420억달러 '역대 최대'",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "10년물 금리 2007년 이후 최고…美증시는 버텼다 [뉴욕증시 브리핑]",
+      "title": "외국인 美 주식 순매수, 9420억달러 '역대 최대'",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202609266166i"
+      "url": "https://www.hankyung.com/article/2026092775841"
+    },
+    {
+      "title": "겉으론 \"성공적 회담\"…AI·반도체·대만 문제엔 '딴 생각'",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026092776681"
     },
     {
       "title": "이란 협상 진전? 9월 계절성 무너뜨린 뉴욕 증시 [김현석의 월스트리트나우]",
@@ -22,11 +27,6 @@
       "title": "'다마고치' 들고 나온 저커버그의 속내는?[월가 백브리핑]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202609266123i"
-    },
-    {
-      "title": "美 PCE 물가 0.2%P 낮아진다…통화정책 경로에 미칠 영향은 [심성미의 중앙은행 워치]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202609256104i"
     }
   ],
   "today_kr_focus": [],
@@ -34,17 +34,17 @@
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
     "axes": [
       {
-        "axis": "관찰 대기",
-        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-        "confidence": "낮음 — 신호 부재",
-        "trigger_metric": "",
-        "trigger_value": ""
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW +0.30% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "+0.30%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-27T23:10:51.804457+09:00",
+    "collected_at": "2026-09-28T09:30:59.162214+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,354.75",
-            "chg": "2.68",
-            "chg_pct": "-0.20%"
+            "close": "1,358.88",
+            "chg": "4.13",
+            "chg_pct": "+0.30%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,544.39",
-            "chg": "3.04",
-            "chg_pct": "-0.20%"
+            "close": "1,547.28",
+            "chg": "2.89",
+            "chg_pct": "+0.19%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "861.30",
-            "chg": "2.34",
-            "chg_pct": "-0.27%"
+            "close": "861.56",
+            "chg": "0.26",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "201.80",
-            "chg": "0.45",
-            "chg_pct": "-0.22%"
+            "close": "202.41",
+            "chg": "0.61",
+            "chg_pct": "+0.30%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.41",
-            "chg": "0.06",
-            "chg_pct": "-1.26%"
+            "close": "4.39",
+            "chg": "0.07",
+            "chg_pct": "-1.55%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
             "close": "4.01",
             "chg": "0.03",
-            "chg_pct": "-0.64%"
+            "chg_pct": "-0.84%"
           },
           {
             "name": "미국 국채 10년",
