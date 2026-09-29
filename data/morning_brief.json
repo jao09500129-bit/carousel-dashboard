@@ -1,34 +1,13 @@
 {
-  "as_of": "2026-09-29 15:01 KST",
+  "as_of": "2026-09-29 16:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "美, 이란 '7일 계획' 거부에 주요 지수 하락 …유가·국채금리↑ [뉴욕증시 브리핑]",
+  "headline": "2026-09-29 자동 빌드 — 신규 합의 시그널 없음",
   "us_market_snapshot": [],
-  "themes": [
-    {
-      "title": "美, 이란 '7일 계획' 거부에 주요 지수 하락 …유가·국채금리↑ [뉴욕증시 브리핑]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026092906806"
-    },
-    {
-      "title": "9월 하락 전환한 S&P500…그런데 \"최고의 7개월이 온다\" [김현석의 월스트리트나우]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202609280544i"
-    },
-    {
-      "title": "'7일 제안' 거부한 트럼프…이란, 뉴욕 협상도 '빈손'으로 돌아서나 [이상은의 워싱턴나우]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202609290653i"
-    },
-    {
-      "title": "사우디, 홍해 원유수출 재개…폭격받은 동서 송유관 복구완료",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202609291011Y"
-    }
-  ],
+  "themes": [],
   "today_kr_focus": [],
   "carousel_implications": {
     "regime": "美 증시 조정 — 위험회피 분위기 (가설)",
@@ -44,7 +23,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-29T15:01:03.344649+09:00",
+    "collected_at": "2026-09-29T16:00:55.307659+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +86,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,357.00",
-            "chg": "3.59",
-            "chg_pct": "-0.26%"
+            "close": "1,358.13",
+            "chg": "2.46",
+            "chg_pct": "-0.18%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,541.54",
-            "chg": "4.62",
-            "chg_pct": "-0.30%"
+            "close": "1,543.14",
+            "chg": "3.02",
+            "chg_pct": "-0.20%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "862.59",
-            "chg": "0.92",
-            "chg_pct": "-0.11%"
+            "close": "862.45",
+            "chg": "1.06",
+            "chg_pct": "-0.12%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "202.26",
-            "chg": "0.41",
-            "chg_pct": "-0.20%"
+            "close": "202.34",
+            "chg": "0.33",
+            "chg_pct": "-0.16%"
           }
         ]
       },
