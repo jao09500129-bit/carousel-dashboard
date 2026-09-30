@@ -1,22 +1,22 @@
 {
-  "as_of": "2026-09-30 09:31 KST",
+  "as_of": "2026-09-30 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "유가 내려도 오른 금리…윌리엄스의 치료 \"10월 안 올려\" [김현석의 월스트리트나우]",
+  "headline": "고금리에도 강한 美 증시…10가지 이유와 5가지 변수[박신영의 월가 아나토미]",
   "us_market_snapshot": [],
   "themes": [
+    {
+      "title": "고금리에도 강한 美 증시…10가지 이유와 5가지 변수[박신영의 월가 아나토미]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202609304092i"
+    },
     {
       "title": "유가 내려도 오른 금리…윌리엄스의 치료 \"10월 안 올려\" [김현석의 월스트리트나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202609303339i"
-    },
-    {
-      "title": "美국채 금리 부담에 약보합 마감…다우 0.26% 하락 [뉴욕증시 브리핑]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026093032656"
     },
     {
       "title": "4000억달러 특허절벽…빅파마 '블록버스터 공식' 깨진다 [김주완의 글로벌머니 X파일]",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-09-30T09:31:13.300229+09:00",
+    "collected_at": "2026-09-30T11:01:14.058000+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,354.83",
-            "chg": "1.70",
-            "chg_pct": "-0.13%"
+            "close": "1,358.30",
+            "chg": "1.77",
+            "chg_pct": "+0.13%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,536.14",
-            "chg": "2.27",
-            "chg_pct": "-0.15%"
+            "close": "1,540.09",
+            "chg": "1.68",
+            "chg_pct": "+0.11%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "861.19",
-            "chg": "0.36",
-            "chg_pct": "+0.04%"
+            "close": "866.37",
+            "chg": "5.54",
+            "chg_pct": "+0.64%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "202.13",
-            "chg": "0.01",
-            "chg_pct": "-0.00%"
+            "close": "202.61",
+            "chg": "0.47",
+            "chg_pct": "+0.23%"
           }
         ]
       },
@@ -216,8 +216,8 @@
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
             "close": "3.08",
-            "chg": "0.01",
-            "chg_pct": "+0.36%"
+            "chg": "0.00",
+            "chg_pct": "0.00%"
           }
         ]
       }
