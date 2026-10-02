@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-10-02 09:31 KST",
+  "as_of": "2026-10-02 11:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "美국채 금리 등락에 강보합 마감…다우 0.04%↑[뉴욕증시 브리핑]",
+  "headline": "쇼핑 천조국 미국…소비로 성장하는 경제[박신영의 월가 아나토미]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "美국채 금리 등락에 강보합 마감…다우 0.04%↑[뉴욕증시 브리핑]",
+      "title": "쇼핑 천조국 미국…소비로 성장하는 경제[박신영의 월가 아나토미]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026100290346"
+      "url": "https://www.hankyung.com/article/202610029519i"
     },
     {
       "title": "금리 깜짝 반전, 왜?…마이크론 비틀거린 3가지 이유 [김현석의 월스트리트나우]",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-10-02T09:31:07.406031+09:00",
+    "collected_at": "2026-10-02T11:01:10.734305+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,364.73",
-            "chg": "3.87",
-            "chg_pct": "+0.28%"
+            "close": "1,359.82",
+            "chg": "1.04",
+            "chg_pct": "-0.08%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,532.64",
-            "chg": "0.84",
-            "chg_pct": "-0.05%"
+            "close": "1,528.41",
+            "chg": "5.07",
+            "chg_pct": "-0.33%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "864.08",
-            "chg": "1.31",
-            "chg_pct": "+0.15%"
+            "close": "860.19",
+            "chg": "2.58",
+            "chg_pct": "-0.30%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "203.54",
-            "chg": "0.54",
-            "chg_pct": "+0.27%"
+            "close": "202.81",
+            "chg": "0.19",
+            "chg_pct": "-0.09%"
           }
         ]
       },
@@ -215,9 +215,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "3.06",
-            "chg": "0.03",
-            "chg_pct": "-0.81%"
+            "close": "3.09",
+            "chg": "0.04",
+            "chg_pct": "+1.14%"
           }
         ]
       }
