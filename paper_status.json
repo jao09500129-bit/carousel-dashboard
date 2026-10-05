@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-04",
-  "updated_at": "2026-10-04T23:10:02+09:00",
+  "date": "2026-10-05",
+  "updated_at": "2026-10-05T09:30:05+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -76,12 +76,20 @@
         "pnl_pct": 2.71
       }
     ],
-    "last_updated": "2026-10-04T15:40:04.385543",
-    "since_start_days": 65
+    "last_updated": "2026-10-05T09:30:04.173762",
+    "since_start_days": 66
   },
   "trade_today": {
     "executed": false,
-    "actions": []
+    "actions": [
+      {
+        "side": "sell",
+        "code": "069500",
+        "name": "KODEX 200",
+        "executed": false,
+        "result_msg": "모의투자 영업일이 아닙니다."
+      }
+    ]
   },
   "m28h_shadow": {
     "date": "2026-10-02",
@@ -214,11 +222,11 @@
       "vol_off_pct": 19.37
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-10-04T23:10:06+09:00"
+    "updated_at": "2026-10-05T09:30:07+09:00"
   },
   "m30_shadow": {
     "date": "2026-10-02",
-    "updated_at": "2026-10-04T23:10:07+09:00",
+    "updated_at": "2026-10-05T09:30:08+09:00",
     "m21": {
       "wl": 0.7288,
       "ws": 0.0,
@@ -264,7 +272,7 @@
   },
   "m37_shadow": {
     "date": "2026-10-02",
-    "updated_at": "2026-10-04T23:10:10+09:00",
+    "updated_at": "2026-10-05T09:30:12+09:00",
     "m21": {
       "wl": 0.7288,
       "ws": 0.0
@@ -594,6 +602,11 @@
       },
       {
         "date": "2026-10-04",
+        "total_return_pct": -2.88,
+        "holding_qty": 0
+      },
+      {
+        "date": "2026-10-05",
         "total_return_pct": -2.88,
         "holding_qty": 0
       }
@@ -1750,6 +1763,14 @@
         "qty": 726,
         "return_pct": -2.88,
         "memo": "KIS API 자동 갱신 [자동갱신 10-04 15:40]"
+      },
+      {
+        "date": "2026-10-05",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "qty": 726,
+        "return_pct": -2.88,
+        "memo": "KIS API 자동 갱신 [자동갱신 10-05 09:10]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1758,7 +1779,7 @@
       "buy_count": 33,
       "sell_count": 29,
       "stop_loss_count": 6,
-      "hold_days": 94,
+      "hold_days": 95,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -2001,6 +2022,10 @@
       },
       {
         "date": "2026-10-04",
+        "drawdown_pct": -13.2
+      },
+      {
+        "date": "2026-10-05",
         "drawdown_pct": -13.2
       }
     ],
@@ -2248,15 +2273,19 @@
           {
             "date": "2026-10-04",
             "pct": -2.88
+          },
+          {
+            "date": "2026-10-05",
+            "pct": -2.88
           }
         ],
         "metrics": {
-          "n_days": 60,
-          "cagr_pct": -11.55,
+          "n_days": 61,
+          "cagr_pct": -11.37,
           "sharpe": -0.13,
           "mdd_pct": -13.91,
-          "calmar": -0.83,
-          "note": "60거래일 표본 · 연환산 참고치 · rf=0"
+          "calmar": -0.82,
+          "note": "61거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "chained": {
@@ -2837,15 +2866,19 @@
           {
             "date": "2026-10-04",
             "pct": 19.3
+          },
+          {
+            "date": "2026-10-05",
+            "pct": 19.3
           }
         ],
         "metrics": {
-          "n_days": 144,
-          "cagr_pct": 36.18,
+          "n_days": 145,
+          "cagr_pct": 35.89,
           "sharpe": 0.79,
           "mdd_pct": -24.5,
-          "calmar": 1.48,
-          "note": "144거래일 표본 · 연환산 참고치 · rf=0"
+          "calmar": 1.47,
+          "note": "145거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "boundaries": [
@@ -2857,7 +2890,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-10-04T23:10:15"
+    "generated_at": "2026-10-05T09:30:16"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
