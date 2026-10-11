@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-10",
-  "updated_at": "2026-10-10T23:10:03+09:00",
+  "date": "2026-10-11",
+  "updated_at": "2026-10-11T11:27:01+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -89,8 +89,14 @@
         "pnl_pct": -4.47
       }
     ],
-    "last_updated": "2026-10-10T15:40:04.978772",
-    "since_start_days": 71
+    "last_updated": "2026-10-11T09:10:03.623546",
+    "since_start_days": 72,
+    "annualized": {
+      "cagr_pct": -36.36,
+      "n_trading_days": 45,
+      "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
+      "reference_only": true
+    }
   },
   "trade_today": {
     "executed": false,
@@ -100,7 +106,6 @@
     "date": "2026-10-08",
     "regime": "RANGE_QUIET",
     "hmm": "BULL",
-    "vkz_lag1": -1.278,
     "m21": {
       "wl": 1.1286,
       "ws": 0.0,
@@ -124,7 +129,6 @@
       "vol_off_today": false,
       "signal_delta": 0.2933,
       "gate_threshold": 0.5,
-      "vkz_threshold": 1.0,
       "diverged": true
     },
     "recent_10d": [
@@ -226,12 +230,12 @@
       "gated_pct": 68.77,
       "vol_off_pct": 19.35
     },
-    "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. R&D backtest 결과 채택 후보 (CAGR +0.61p, MDD +0.70p 개선 vs m21 baseline, slip 20bp).",
-    "updated_at": "2026-10-10T23:10:05+09:00"
+    "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
+    "updated_at": "2026-10-11T11:27:02+09:00"
   },
   "m30_shadow": {
     "date": "2026-10-08",
-    "updated_at": "2026-10-10T23:10:07+09:00",
+    "updated_at": "2026-10-11T11:27:03+09:00",
     "m21": {
       "wl": 1.1286,
       "ws": 0.0,
@@ -267,17 +271,16 @@
       "diverged_from_m21": true
     },
     "params": {
-      "m28h_vkz_threshold": 1.0,
       "m28h_signal_threshold": 0.5,
       "m26_sp_tau": -0.027,
       "m26_vix_tau": 2.0
     },
-    "note": "m30 = m21 + m28h(cost gate) + m26(tail defense) 3중 결합. R&D Phase 7 채택 후보 (Ext CAGR +1.02p, MDD +1.40p 개선 vs m21).",
+    "note": "m30 = m21 + m28h(cost gate) + m26(tail defense) 3중 결합. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
     "optimism_tag": "이 그림자 성적은 낙관입니다 — foreign_net 이 당일 값입니다 (E363)\n  결정일 d 의 비중을 d 당일 외국인 순매수로 조정합니다. 그 값은 15:30 이후에 확정됩니다.\n  in-sample 3,901행 100% 가 이 규약이고, 두 규약의 부호가 갈리는 날이 10.5% 입니다.\n  -> 전략 판단의 근거로 쓰지 마십시오. 상태 확인용입니다.\n  라이브 주문에는 영향이 없습니다 — m26 이 주문 경로에 없어서가 아니라,\n  라이브가 mokma_core 의 별도 파이프라인을 쓰고 그 정렬이 T-1 이기 때문입니다 (E367)."
   },
   "m37_shadow": {
     "date": "2026-10-08",
-    "updated_at": "2026-10-10T23:10:10+09:00",
+    "updated_at": "2026-10-11T11:27:06+09:00",
     "m21": {
       "wl": 1.1286,
       "ws": 0.0
@@ -301,344 +304,181 @@
       "m37_v_cancelled_days": 12
     },
     "params": {
-      "m28h_vkz_threshold": 1.0,
       "m28h_signal_threshold": 0.5,
       "m37_rebound_threshold": 0.025,
       "m37_rebound_lookback": 3
     },
-    "note": "m37 = m30 + V자 반등 cancellation. R&D Phase 13 채택 후보 (CAGR +2.00p vs m21, Bootstrap p=99.7% vs m30 robust 우월)."
+    "note": "m37 = m30 + V자 반등 cancellation. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차)."
   },
   "v6_extras": {
     "daily_history": [
       {
         "date": "2026-07-31",
-        "total_return_pct": 0.0,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-01",
-        "total_return_pct": 0.0,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-02",
-        "total_return_pct": 0.0,
-        "holding_qty": null
+        "total_return_pct": 0.0
       },
       {
         "date": "2026-08-03",
-        "total_return_pct": 0.0,
-        "holding_qty": null
+        "total_return_pct": 0.0
       },
       {
         "date": "2026-08-04",
-        "total_return_pct": -0.1,
-        "holding_qty": null
+        "total_return_pct": -0.1
       },
       {
         "date": "2026-08-05",
-        "total_return_pct": 4.82,
-        "holding_qty": null
+        "total_return_pct": 4.82
       },
       {
         "date": "2026-08-06",
-        "total_return_pct": 3.22,
-        "holding_qty": null
+        "total_return_pct": 3.22
       },
       {
         "date": "2026-08-07",
-        "total_return_pct": 3.22,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-08",
-        "total_return_pct": 3.22,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-09",
-        "total_return_pct": 3.22,
-        "holding_qty": null
+        "total_return_pct": 3.22
       },
       {
         "date": "2026-08-10",
-        "total_return_pct": 3.22,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-17",
-        "total_return_pct": 3.22,
-        "holding_qty": null
+        "total_return_pct": 3.22
       },
       {
         "date": "2026-08-18",
-        "total_return_pct": 3.22,
-        "holding_qty": null
+        "total_return_pct": 3.22
       },
       {
         "date": "2026-08-19",
-        "total_return_pct": 3.22,
-        "holding_qty": null
+        "total_return_pct": 3.22
       },
       {
         "date": "2026-08-20",
-        "total_return_pct": 3.22,
-        "holding_qty": null
+        "total_return_pct": 3.22
       },
       {
         "date": "2026-08-21",
-        "total_return_pct": 6.1,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-22",
-        "total_return_pct": 6.1,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-23",
-        "total_return_pct": 6.1,
-        "holding_qty": null
+        "total_return_pct": 6.1
       },
       {
         "date": "2026-08-24",
-        "total_return_pct": 0.14,
-        "holding_qty": null
+        "total_return_pct": 0.14
       },
       {
         "date": "2026-08-25",
-        "total_return_pct": 1.39,
-        "holding_qty": null
+        "total_return_pct": 1.39
       },
       {
         "date": "2026-08-26",
-        "total_return_pct": 2.2,
-        "holding_qty": null
+        "total_return_pct": 2.2
       },
       {
         "date": "2026-08-27",
-        "total_return_pct": 2.49,
-        "holding_qty": null
+        "total_return_pct": 2.49
       },
       {
         "date": "2026-08-28",
-        "total_return_pct": 0.44,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-29",
-        "total_return_pct": 0.44,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-08-30",
-        "total_return_pct": 0.44,
-        "holding_qty": null
+        "total_return_pct": 0.44
       },
       {
         "date": "2026-08-31",
-        "total_return_pct": 0.26,
-        "holding_qty": null
+        "total_return_pct": 0.26
       },
       {
         "date": "2026-09-01",
-        "total_return_pct": 0.51,
-        "holding_qty": null
+        "total_return_pct": 0.51
       },
       {
         "date": "2026-09-02",
-        "total_return_pct": -3.06,
-        "holding_qty": null
+        "total_return_pct": -3.06
       },
       {
         "date": "2026-09-03",
-        "total_return_pct": -3.03,
-        "holding_qty": null
+        "total_return_pct": -3.03
       },
       {
         "date": "2026-09-04",
-        "total_return_pct": -1.58,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-05",
-        "total_return_pct": -1.58,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-06",
-        "total_return_pct": -1.58,
-        "holding_qty": null
+        "total_return_pct": -1.58
       },
       {
         "date": "2026-09-07",
-        "total_return_pct": 7.91,
-        "holding_qty": null
+        "total_return_pct": 7.91
       },
       {
         "date": "2026-09-08",
-        "total_return_pct": 7.06,
-        "holding_qty": null
+        "total_return_pct": 7.06
       },
       {
         "date": "2026-09-09",
-        "total_return_pct": 10.32,
-        "holding_qty": null
+        "total_return_pct": 10.32
       },
       {
         "date": "2026-09-10",
-        "total_return_pct": 9.77,
-        "holding_qty": null
+        "total_return_pct": 9.77
       },
       {
         "date": "2026-09-11",
-        "total_return_pct": 5.02,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-12",
-        "total_return_pct": 5.02,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-13",
-        "total_return_pct": 5.02,
-        "holding_qty": null
+        "total_return_pct": 5.02
       },
       {
         "date": "2026-09-14",
-        "total_return_pct": -2.99,
-        "holding_qty": null
+        "total_return_pct": -2.99
       },
       {
         "date": "2026-09-15",
-        "total_return_pct": -4.13,
-        "holding_qty": null
+        "total_return_pct": -4.13
       },
       {
         "date": "2026-09-16",
-        "total_return_pct": -2.82,
-        "holding_qty": null
+        "total_return_pct": -2.82
       },
       {
         "date": "2026-09-17",
-        "total_return_pct": -3.15,
-        "holding_qty": null
+        "total_return_pct": -3.15
       },
       {
         "date": "2026-09-18",
-        "total_return_pct": -0.4,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-19",
-        "total_return_pct": -0.4,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-20",
-        "total_return_pct": -0.4,
-        "holding_qty": null
+        "total_return_pct": -0.4
       },
       {
         "date": "2026-09-21",
-        "total_return_pct": 1.54,
-        "holding_qty": null
+        "total_return_pct": 1.54
       },
       {
         "date": "2026-09-22",
-        "total_return_pct": 0.76,
-        "holding_qty": null
+        "total_return_pct": 0.76
       },
       {
         "date": "2026-09-23",
-        "total_return_pct": 1.91,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-24",
-        "total_return_pct": 1.91,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-25",
-        "total_return_pct": 1.91,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-26",
-        "total_return_pct": 1.91,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-09-27",
-        "total_return_pct": 1.91,
-        "holding_qty": null
+        "total_return_pct": 1.91
       },
       {
         "date": "2026-09-28",
-        "total_return_pct": -4.53,
-        "holding_qty": null
+        "total_return_pct": -4.53
       },
       {
         "date": "2026-09-29",
-        "total_return_pct": -3.73,
-        "holding_qty": null
+        "total_return_pct": -3.73
       },
       {
         "date": "2026-09-30",
-        "total_return_pct": -4.44,
-        "holding_qty": null
+        "total_return_pct": -4.44
       },
       {
         "date": "2026-10-01",
-        "total_return_pct": -3.06,
-        "holding_qty": null
+        "total_return_pct": -3.06
       },
       {
         "date": "2026-10-02",
-        "total_return_pct": -2.88,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-10-03",
-        "total_return_pct": -2.88,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-10-04",
-        "total_return_pct": -2.88,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-10-05",
-        "total_return_pct": -2.88,
-        "holding_qty": null
+        "total_return_pct": -2.88
       },
       {
         "date": "2026-10-06",
-        "total_return_pct": -3.73,
-        "holding_qty": null
+        "total_return_pct": -3.73
       },
       {
         "date": "2026-10-07",
-        "total_return_pct": -5.17,
-        "holding_qty": null
+        "total_return_pct": -5.17
       },
       {
         "date": "2026-10-08",
-        "total_return_pct": -7.75,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-10-09",
-        "total_return_pct": -7.75,
-        "holding_qty": null
-      },
-      {
-        "date": "2026-10-10",
-        "total_return_pct": -7.75,
-        "holding_qty": null
+        "total_return_pct": -7.75
       }
     ],
     "trade_history": [
@@ -646,7 +486,6 @@
         "date": "2026-04-29",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 1.74,
         "memo": "첫 매수, 시가 -85bp 슬리피지 이득"
       },
@@ -654,7 +493,6 @@
         "date": "2026-04-30",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 0.07,
         "memo": "신호 동일 75% / 122630 -2.22% / 자본 -1.64%"
       },
@@ -662,7 +500,6 @@
         "date": "2026-05-04",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 7.94,
         "memo": "신호 동일 75% / 122630 +10.69% / 5/1~5/3 휴장"
       },
@@ -670,7 +507,6 @@
         "date": "2026-05-07",
         "track": 1,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 23.52,
         "memo": "drift +19.0%p > 10%p / 시장가 매도, 잔여 *주"
       },
@@ -678,7 +514,6 @@
         "date": "2026-05-08",
         "track": 1,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 22.71,
         "memo": "drift +22.7%p > 10%p / 시장가 매도, 잔여 *주"
       },
@@ -686,7 +521,6 @@
         "date": "2026-05-11",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 29.26,
         "memo": "drift -19.5%p > 10%p / 시초 갭업 +9% 매수 / 잔여 *주"
       },
@@ -694,7 +528,6 @@
         "date": "2026-05-12",
         "track": 1,
         "action_short": "🚨 SL",
-        "qty": null,
         "return_pct": 22.08,
         "memo": "🚨 STOP-LOSS 발동 -5.42% / 시장가 청산 *주 / 잔여 0"
       },
@@ -702,7 +535,6 @@
         "date": "2026-05-13",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 27.52,
         "memo": "신호 75→50% 약화 / 재진입 *주 / 5/12 청산 후 첫 매수"
       },
@@ -710,7 +542,6 @@
         "date": "2026-05-14",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 27.4,
         "memo": "신호 동일 50% / drift +2.6%p ≤ 10%p / 매매 X"
       },
@@ -718,7 +549,6 @@
         "date": "2026-05-15",
         "track": 1,
         "action_short": "🚨 SL",
-        "qty": null,
         "return_pct": 22.41,
         "memo": "🚨 STOP-LOSS 발동 -5.19% / 시장가 청산 *주 14:32"
       },
@@ -726,7 +556,6 @@
         "date": "2026-05-18",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 25.58,
         "memo": "신호 50% / 재진입 *주 / 5/15 청산 후 첫 매수"
       },
@@ -734,7 +563,6 @@
         "date": "2026-05-19",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 22.65,
         "memo": "신호 동일 50% / 장중 -3.14% alert 후 회복 / 매매 X"
       },
@@ -742,7 +570,6 @@
         "date": "2026-05-20",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 22.84,
         "memo": "⚠️ 자동매매 cash 부족 실패 / 사용자 수동 매수 *주"
       },
@@ -750,7 +577,6 @@
         "date": "2026-05-21",
         "track": 1,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 44.15,
         "memo": "⚠️ 09:05 자동매매 차단 (KIS API prev_close=0 모의계좌 ETF 버그) → 사용자 원칙 확인 후 15:17 수동 재실행 →"
       },
@@ -758,7 +584,6 @@
         "date": "2026-05-22",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 44.46,
         "memo": "KIS API 자동 갱신 [자동갱신 05-22 15:40]"
       },
@@ -766,7 +591,6 @@
         "date": "2026-05-23",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 44.46,
         "memo": "KIS API 자동 갱신 [자동갱신 05-23 15:40]"
       },
@@ -774,7 +598,6 @@
         "date": "2026-05-24",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 44.46,
         "memo": "KIS API 자동 갱신 [자동갱신 05-24 15:40]"
       },
@@ -782,7 +605,6 @@
         "date": "2026-05-25",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 44.46,
         "memo": "KIS API 자동 갱신 [자동갱신 05-25 15:40]"
       },
@@ -790,7 +612,6 @@
         "date": "2026-05-26",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 48.56,
         "memo": "KIS API 자동 갱신 [자동갱신 05-26 15:40]"
       },
@@ -798,7 +619,6 @@
         "date": "2026-05-27",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 52.97,
         "memo": "KIS API 자동 갱신 [자동갱신 05-27 15:40]"
       },
@@ -806,15 +626,13 @@
         "date": "2026-05-28",
         "track": 1,
         "action_short": "🚨 SL",
-        "qty": null,
         "return_pct": 45.16,
-        "memo": "🚨 STOP-LOSS 발동 (정점 대비 -5.07%) → KIS 시장가 청산 *주 (13:20:13). 5/27 정점 152.97M 대비 -"
+        "memo": "🚨 STOP-LOSS 발동 (정점 대비 -5.07%) → KIS 시장가 청산 *주 (13:20:13). 5/27 정점 *M 대비 -"
       },
       {
         "date": "2026-05-29",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 46.59,
         "memo": "KIS API 자동 갱신 [자동갱신 05-29 15:40]"
       },
@@ -822,7 +640,6 @@
         "date": "2026-05-30",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 46.59,
         "memo": "KIS API 자동 갱신 [자동갱신 05-30 15:40]"
       },
@@ -830,7 +647,6 @@
         "date": "2026-05-31",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 46.59,
         "memo": "KIS API 자동 갱신 [자동갱신 05-31 15:40]"
       },
@@ -838,7 +654,6 @@
         "date": "2026-06-01",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 54.52,
         "memo": "KIS API 자동 갱신 [자동갱신 06-01 22:10]"
       },
@@ -846,7 +661,6 @@
         "date": "2026-06-02",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 54.14,
         "memo": "KIS API 자동 갱신 [자동갱신 06-02 15:40]"
       },
@@ -854,7 +668,6 @@
         "date": "2026-06-03",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 54.14,
         "memo": "KIS API 자동 갱신 [자동갱신 06-03 15:40]"
       },
@@ -862,7 +675,6 @@
         "date": "2026-06-04",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 50.71,
         "memo": "KIS API 자동 갱신 [자동갱신 06-04 15:40]"
       },
@@ -870,7 +682,6 @@
         "date": "2026-06-05",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 41.11,
         "memo": "KIS API 자동 갱신 [자동갱신 06-05 15:40]"
       },
@@ -878,7 +689,6 @@
         "date": "2026-06-06",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 41.11,
         "memo": "KIS API 자동 갱신 [자동갱신 06-06 15:40]"
       },
@@ -886,7 +696,6 @@
         "date": "2026-06-07",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 41.11,
         "memo": "KIS API 자동 갱신 [자동갱신 06-07 15:40]"
       },
@@ -894,7 +703,6 @@
         "date": "2026-06-08",
         "track": 1,
         "action_short": "🚨 SL",
-        "qty": null,
         "return_pct": 30.64,
         "memo": "KIS API 자동 갱신 [자동갱신 06-08 15:40]"
       },
@@ -902,7 +710,6 @@
         "date": "2026-06-09",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.64,
         "memo": "KIS API 자동 갱신 [자동갱신 06-09 15:40]"
       },
@@ -910,7 +717,6 @@
         "date": "2026-06-10",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.64,
         "memo": "KIS API 자동 갱신 [자동갱신 06-10 15:40]"
       },
@@ -918,7 +724,6 @@
         "date": "2026-06-11",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.64,
         "memo": "KIS API 자동 갱신 [자동갱신 06-11 15:40]"
       },
@@ -926,7 +731,6 @@
         "date": "2026-06-12",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.64,
         "memo": "KIS API 자동 갱신 [자동갱신 06-12 15:40]"
       },
@@ -934,7 +738,6 @@
         "date": "2026-06-13",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.64,
         "memo": "KIS API 자동 갱신 [자동갱신 06-13 15:40]"
       },
@@ -942,7 +745,6 @@
         "date": "2026-06-14",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.64,
         "memo": "KIS API 자동 갱신 [자동갱신 06-14 15:40]"
       },
@@ -950,7 +752,6 @@
         "date": "2026-06-15",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.64,
         "memo": "KIS API 자동 갱신 [자동갱신 06-15 15:40]"
       },
@@ -958,7 +759,6 @@
         "date": "2026-06-16",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 30.63,
         "memo": "KIS API 자동 갱신 [자동갱신 06-16 15:40]"
       },
@@ -966,7 +766,6 @@
         "date": "2026-06-17",
         "track": 1,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 32.85,
         "memo": "KIS API 자동 갱신 [자동갱신 06-17 15:40]"
       },
@@ -974,7 +773,6 @@
         "date": "2026-06-18",
         "track": 1,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 34.46,
         "memo": "KIS API 자동 갱신 [자동갱신 06-18 15:40]"
       },
@@ -982,7 +780,6 @@
         "date": "2026-06-19",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 34.45,
         "memo": "KIS API 자동 갱신 [자동갱신 06-19 15:40]"
       },
@@ -990,7 +787,6 @@
         "date": "2026-06-20",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 34.45,
         "memo": "KIS API 자동 갱신 [자동갱신 06-20 15:40]"
       },
@@ -998,7 +794,6 @@
         "date": "2026-06-21",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 34.45,
         "memo": "KIS API 자동 갱신 [자동갱신 06-21 15:40]"
       },
@@ -1006,7 +801,6 @@
         "date": "2026-06-22",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 34.52,
         "memo": "KIS API 자동 갱신 [자동갱신 06-22 15:40]"
       },
@@ -1014,7 +808,6 @@
         "date": "2026-06-23",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 33.82,
         "memo": "KIS API 자동 갱신 [자동갱신 06-23 15:40]"
       },
@@ -1022,7 +815,6 @@
         "date": "2026-06-24",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 36.99,
         "memo": "KIS API 자동 갱신 [자동갱신 06-24 15:40]"
       },
@@ -1030,7 +822,6 @@
         "date": "2026-06-25",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 42.99,
         "memo": "KIS API 자동 갱신 [자동갱신 06-25 15:40]"
       },
@@ -1038,7 +829,6 @@
         "date": "2026-06-26",
         "track": 1,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 40.86,
         "memo": "KIS API 자동 갱신 [자동갱신 06-26 15:40]"
       },
@@ -1046,7 +836,6 @@
         "date": "2026-06-27",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 40.86,
         "memo": "KIS API 자동 갱신 [자동갱신 06-27 15:40]"
       },
@@ -1054,7 +843,6 @@
         "date": "2026-06-28",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 40.86,
         "memo": "KIS API 자동 갱신 [자동갱신 06-28 15:40]"
       },
@@ -1062,7 +850,6 @@
         "date": "2026-06-29",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 41.24,
         "memo": "KIS API 자동 갱신 [자동갱신 06-29 15:40]"
       },
@@ -1070,7 +857,6 @@
         "date": "2026-06-30",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 41.54,
         "memo": "KIS API 자동 갱신 [자동갱신 06-30 15:40]"
       },
@@ -1078,7 +864,6 @@
         "date": "2026-07-01",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 37.39,
         "memo": "KIS API 자동 갱신 [자동갱신 07-01 15:40]"
       },
@@ -1086,7 +871,6 @@
         "date": "2026-07-02",
         "track": 1,
         "action_short": "🚨 SL",
-        "qty": null,
         "return_pct": 26.23,
         "memo": "KIS API 자동 갱신 [자동갱신 07-02 15:40]"
       },
@@ -1094,7 +878,6 @@
         "date": "2026-07-03",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 29.89,
         "memo": "KIS API 자동 갱신 [자동갱신 07-03 15:40]"
       },
@@ -1102,7 +885,6 @@
         "date": "2026-07-04",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.2,
         "memo": "KIS API 자동 갱신 [자동갱신 07-04 15:40]"
       },
@@ -1110,7 +892,6 @@
         "date": "2026-07-05",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 30.2,
         "memo": "KIS API 자동 갱신 [자동갱신 07-05 15:40]"
       },
@@ -1118,7 +899,6 @@
         "date": "2026-07-06",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 28.91,
         "memo": "KIS API 자동 갱신 [자동갱신 07-06 15:40]"
       },
@@ -1126,7 +906,6 @@
         "date": "2026-07-07",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 28.91,
         "memo": "KIS API 자동 갱신 [자동갱신 07-07 15:40]"
       },
@@ -1134,7 +913,6 @@
         "date": "2026-07-08",
         "track": 1,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-08 15:40]"
       },
@@ -1142,7 +920,6 @@
         "date": "2026-07-09",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-09 15:40]"
       },
@@ -1150,7 +927,6 @@
         "date": "2026-07-10",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-10 15:40]"
       },
@@ -1158,7 +934,6 @@
         "date": "2026-07-11",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-11 15:40]"
       },
@@ -1166,7 +941,6 @@
         "date": "2026-07-12",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-12 15:40]"
       },
@@ -1174,7 +948,6 @@
         "date": "2026-07-13",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-13 15:40]"
       },
@@ -1182,7 +955,6 @@
         "date": "2026-07-14",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-14 15:40]"
       },
@@ -1190,7 +962,6 @@
         "date": "2026-07-15",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-15 15:40]"
       },
@@ -1198,7 +969,6 @@
         "date": "2026-07-16",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-16 15:40]"
       },
@@ -1206,7 +976,6 @@
         "date": "2026-07-17",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-17 15:40]"
       },
@@ -1214,7 +983,6 @@
         "date": "2026-07-18",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-18 15:40]"
       },
@@ -1222,7 +990,6 @@
         "date": "2026-07-19",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-19 15:40]"
       },
@@ -1230,7 +997,6 @@
         "date": "2026-07-20",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 20.52,
         "memo": "KIS API 자동 갱신 [자동갱신 07-20 15:40]"
       },
@@ -1238,7 +1004,6 @@
         "date": "2026-07-21",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 26.7,
         "memo": "KIS API 자동 갱신 [자동갱신 07-21 15:40]"
       },
@@ -1246,7 +1011,6 @@
         "date": "2026-07-22",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 26.98,
         "memo": "KIS API 자동 갱신 [자동갱신 07-22 15:40]"
       },
@@ -1254,7 +1018,6 @@
         "date": "2026-07-23",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 34.14,
         "memo": "KIS API 자동 갱신 [자동갱신 07-23 15:40]"
       },
@@ -1262,7 +1025,6 @@
         "date": "2026-07-24",
         "track": 1,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 22.17,
         "memo": "KIS API 자동 갱신 [자동갱신 07-24 15:40]"
       },
@@ -1270,7 +1032,6 @@
         "date": "2026-07-25",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 22.17,
         "memo": "KIS API 자동 갱신 [자동갱신 07-25 15:40]"
       },
@@ -1278,7 +1039,6 @@
         "date": "2026-07-26",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 22.17,
         "memo": "KIS API 자동 갱신 [자동갱신 07-26 15:40]"
       },
@@ -1286,7 +1046,6 @@
         "date": "2026-07-27",
         "track": 1,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 22.84,
         "memo": "KIS API 자동 갱신 [자동갱신 07-27 15:40]"
       },
@@ -1294,7 +1053,6 @@
         "date": "2026-07-28",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 22.84,
         "memo": "KIS API 자동 갱신 [자동갱신 07-28 15:40]"
       },
@@ -1302,7 +1060,6 @@
         "date": "2026-07-29",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 22.84,
         "memo": "KIS API 자동 갱신 [자동갱신 07-29 15:40]"
       },
@@ -1310,7 +1067,6 @@
         "date": "2026-07-30",
         "track": 1,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 22.84,
         "memo": "KIS API 자동 갱신 [자동갱신 07-30 15:40]"
       },
@@ -1318,15 +1074,13 @@
         "date": "2026-07-31",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 0,
-        "memo": "★계좌 전환 이음매 — 2026-07-31 신규 모의계좌 50**9934 전환. 트랙1 종료(구계좌 50184936 · +22.84% · 84일"
+        "memo": "★계좌 전환 이음매 — 2026-07-31 신규 모의계좌 50**9934 전환. 트랙1 종료(구계좌 50**4936 · +22.84% · 84일"
       },
       {
         "date": "2026-08-01",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 0,
         "memo": "KIS API 자동 갱신 [자동갱신 08-01 15:40]"
       },
@@ -1334,7 +1088,6 @@
         "date": "2026-08-02",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 0,
         "memo": "KIS API 자동 갱신 [자동갱신 08-02 15:40]"
       },
@@ -1342,7 +1095,6 @@
         "date": "2026-08-03",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 0,
         "memo": "KIS API 자동 갱신 [자동갱신 08-03 15:40]"
       },
@@ -1350,7 +1102,6 @@
         "date": "2026-08-04",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -0.1,
         "memo": "KIS API 자동 갱신 [자동갱신 08-04 15:40]"
       },
@@ -1358,7 +1109,6 @@
         "date": "2026-08-05",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 4.82,
         "memo": "KIS API 자동 갱신 [자동갱신 08-05 15:40]"
       },
@@ -1366,7 +1116,6 @@
         "date": "2026-08-06",
         "track": 2,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-06 15:40]"
       },
@@ -1374,7 +1123,6 @@
         "date": "2026-08-07",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-07 15:40]"
       },
@@ -1382,7 +1130,6 @@
         "date": "2026-08-08",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-08 15:40]"
       },
@@ -1390,7 +1137,6 @@
         "date": "2026-08-09",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-09 15:40]"
       },
@@ -1398,7 +1144,6 @@
         "date": "2026-08-10",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-10 15:40]"
       },
@@ -1406,7 +1151,6 @@
         "date": "2026-08-17",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-17 15:40]"
       },
@@ -1414,7 +1158,6 @@
         "date": "2026-08-18",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-18 15:40]"
       },
@@ -1422,7 +1165,6 @@
         "date": "2026-08-19",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-19 15:40]"
       },
@@ -1430,7 +1172,6 @@
         "date": "2026-08-20",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 3.22,
         "memo": "KIS API 자동 갱신 [자동갱신 08-20 15:40]"
       },
@@ -1438,7 +1179,6 @@
         "date": "2026-08-21",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 6.1,
         "memo": "KIS API 자동 갱신 [자동갱신 08-21 15:40]"
       },
@@ -1446,7 +1186,6 @@
         "date": "2026-08-22",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 6.1,
         "memo": "KIS API 자동 갱신 [자동갱신 08-22 15:40]"
       },
@@ -1454,7 +1193,6 @@
         "date": "2026-08-23",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 6.1,
         "memo": "KIS API 자동 갱신 [자동갱신 08-23 15:40]"
       },
@@ -1462,7 +1200,6 @@
         "date": "2026-08-24",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 0.14,
         "memo": "KIS API 자동 갱신 [자동갱신 08-24 15:40]"
       },
@@ -1470,7 +1207,6 @@
         "date": "2026-08-25",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 1.39,
         "memo": "KIS API 자동 갱신 [자동갱신 08-25 15:40]"
       },
@@ -1478,7 +1214,6 @@
         "date": "2026-08-26",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 2.2,
         "memo": "KIS API 자동 갱신 [자동갱신 08-26 15:40] [정정 08-27: 보유 열 다종목 표기 — 기존 단일 종목 스키마로 069500 1"
       },
@@ -1486,7 +1221,6 @@
         "date": "2026-08-27",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 2.49,
         "memo": "KIS API 자동 갱신 [자동갱신 08-27 22:35]"
       },
@@ -1494,7 +1228,6 @@
         "date": "2026-08-28",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 0.44,
         "memo": "KIS API 자동 갱신 [자동갱신 08-28 15:40]"
       },
@@ -1502,7 +1235,6 @@
         "date": "2026-08-29",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 0.44,
         "memo": "KIS API 자동 갱신 [자동갱신 08-29 15:40]"
       },
@@ -1510,7 +1242,6 @@
         "date": "2026-08-30",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 0.44,
         "memo": "KIS API 자동 갱신 [자동갱신 08-30 15:40]"
       },
@@ -1518,7 +1249,6 @@
         "date": "2026-08-31",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -3.02,
         "memo": "KIS API 자동 갱신 [자동갱신 08-31 15:40]"
       },
@@ -1526,7 +1256,6 @@
         "date": "2026-09-01",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 0.51,
         "memo": "KIS API 자동 갱신 [자동갱신 09-01 15:40]"
       },
@@ -1534,7 +1263,6 @@
         "date": "2026-09-02",
         "track": 2,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": -2.96,
         "memo": "KIS API 자동 갱신 [자동갱신 09-02 15:40]"
       },
@@ -1542,7 +1270,6 @@
         "date": "2026-09-03",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -3.03,
         "memo": "KIS API 자동 갱신 [자동갱신 09-03 15:40]"
       },
@@ -1550,7 +1277,6 @@
         "date": "2026-09-04",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -1.58,
         "memo": "KIS API 자동 갱신 [자동갱신 09-04 15:40]"
       },
@@ -1558,7 +1284,6 @@
         "date": "2026-09-05",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -1.58,
         "memo": "KIS API 자동 갱신 [자동갱신 09-05 15:40]"
       },
@@ -1566,7 +1291,6 @@
         "date": "2026-09-06",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -1.58,
         "memo": "KIS API 자동 갱신 [자동갱신 09-06 15:40]"
       },
@@ -1574,7 +1298,6 @@
         "date": "2026-09-07",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 7.91,
         "memo": "KIS API 자동 갱신 [자동갱신 09-07 15:40]"
       },
@@ -1582,7 +1305,6 @@
         "date": "2026-09-08",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 7.06,
         "memo": "KIS API 자동 갱신 [자동갱신 09-08 15:40]"
       },
@@ -1590,7 +1312,6 @@
         "date": "2026-09-09",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 10.32,
         "memo": "KIS API 자동 갱신 [자동갱신 09-09 15:40]"
       },
@@ -1598,7 +1319,6 @@
         "date": "2026-09-10",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 9.77,
         "memo": "KIS API 자동 갱신 [자동갱신 09-10 15:40]"
       },
@@ -1606,7 +1326,6 @@
         "date": "2026-09-11",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 5.02,
         "memo": "KIS API 자동 갱신 [자동갱신 09-11 15:40]"
       },
@@ -1614,7 +1333,6 @@
         "date": "2026-09-12",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 5.02,
         "memo": "KIS API 자동 갱신 [자동갱신 09-12 15:40]"
       },
@@ -1622,7 +1340,6 @@
         "date": "2026-09-13",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 5.02,
         "memo": "KIS API 자동 갱신 [자동갱신 09-13 15:40]"
       },
@@ -1630,7 +1347,6 @@
         "date": "2026-09-14",
         "track": 2,
         "action_short": "🚨 SL",
-        "qty": null,
         "return_pct": -2.99,
         "memo": "KIS API 자동 갱신 [자동갱신 09-14 15:40]"
       },
@@ -1638,7 +1354,6 @@
         "date": "2026-09-15",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -4.13,
         "memo": "KIS API 자동 갱신 [자동갱신 09-15 15:40]"
       },
@@ -1646,7 +1361,6 @@
         "date": "2026-09-16",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -2.82,
         "memo": "KIS API 자동 갱신 [자동갱신 09-16 15:40]"
       },
@@ -1654,7 +1368,6 @@
         "date": "2026-09-17",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -3.15,
         "memo": "KIS API 자동 갱신 [자동갱신 09-17 15:40]"
       },
@@ -1662,7 +1375,6 @@
         "date": "2026-09-18",
         "track": 2,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": -0.4,
         "memo": "KIS API 자동 갱신 [자동갱신 09-18 15:40]"
       },
@@ -1670,7 +1382,6 @@
         "date": "2026-09-19",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -0.4,
         "memo": "KIS API 자동 갱신 [자동갱신 09-19 15:40]"
       },
@@ -1678,7 +1389,6 @@
         "date": "2026-09-20",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -0.4,
         "memo": "KIS API 자동 갱신 [자동갱신 09-20 15:40]"
       },
@@ -1686,7 +1396,6 @@
         "date": "2026-09-21",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 1.54,
         "memo": "KIS API 자동 갱신 [자동갱신 09-21 15:40]"
       },
@@ -1694,7 +1403,6 @@
         "date": "2026-09-22",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 0.76,
         "memo": "KIS API 자동 갱신 [자동갱신 09-22 15:40]"
       },
@@ -1702,7 +1410,6 @@
         "date": "2026-09-23",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": 1.91,
         "memo": "KIS API 자동 갱신 [자동갱신 09-23 15:40]"
       },
@@ -1710,7 +1417,6 @@
         "date": "2026-09-24",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 1.91,
         "memo": "KIS API 자동 갱신 [자동갱신 09-24 15:40]"
       },
@@ -1718,7 +1424,6 @@
         "date": "2026-09-25",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 1.91,
         "memo": "KIS API 자동 갱신 [자동갱신 09-25 15:40]"
       },
@@ -1726,7 +1431,6 @@
         "date": "2026-09-26",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 1.91,
         "memo": "KIS API 자동 갱신 [자동갱신 09-26 15:40]"
       },
@@ -1734,7 +1438,6 @@
         "date": "2026-09-27",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": 1.91,
         "memo": "KIS API 자동 갱신 [자동갱신 09-27 15:40]"
       },
@@ -1742,7 +1445,6 @@
         "date": "2026-09-28",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -4.53,
         "memo": "KIS API 자동 갱신 [자동갱신 09-28 15:40]"
       },
@@ -1750,7 +1452,6 @@
         "date": "2026-09-29",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -5.02,
         "memo": "KIS API 자동 갱신 [자동갱신 09-29 15:40]"
       },
@@ -1758,7 +1459,6 @@
         "date": "2026-09-30",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -4.44,
         "memo": "KIS API 자동 갱신 [자동갱신 09-30 15:40]"
       },
@@ -1766,7 +1466,6 @@
         "date": "2026-10-01",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -3.06,
         "memo": "KIS API 자동 갱신 [자동갱신 10-01 15:40]"
       },
@@ -1774,7 +1473,6 @@
         "date": "2026-10-02",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -2.88,
         "memo": "KIS API 자동 갱신 [자동갱신 10-02 15:40]"
       },
@@ -1782,7 +1480,6 @@
         "date": "2026-10-03",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -2.88,
         "memo": "KIS API 자동 갱신 [자동갱신 10-03 15:40]"
       },
@@ -1790,7 +1487,6 @@
         "date": "2026-10-04",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -2.88,
         "memo": "KIS API 자동 갱신 [자동갱신 10-04 15:40]"
       },
@@ -1798,7 +1494,6 @@
         "date": "2026-10-05",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -2.88,
         "memo": "KIS API 자동 갱신 [자동갱신 10-05 15:40]"
       },
@@ -1806,7 +1501,6 @@
         "date": "2026-10-06",
         "track": 2,
         "action_short": "🔴 SELL",
-        "qty": null,
         "return_pct": -3.73,
         "memo": "KIS API 자동 갱신 [자동갱신 10-06 15:40]"
       },
@@ -1814,7 +1508,6 @@
         "date": "2026-10-07",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -5.17,
         "memo": "KIS API 자동 갱신 [자동갱신 10-07 15:40]"
       },
@@ -1822,7 +1515,6 @@
         "date": "2026-10-08",
         "track": 2,
         "action_short": "🟢 BUY",
-        "qty": null,
         "return_pct": -7.36,
         "memo": "KIS API 자동 갱신 [자동갱신 10-08 15:40]"
       },
@@ -1830,7 +1522,6 @@
         "date": "2026-10-09",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -7.75,
         "memo": "KIS API 자동 갱신 [자동갱신 10-09 15:40]"
       },
@@ -1838,9 +1529,15 @@
         "date": "2026-10-10",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "qty": null,
         "return_pct": -7.75,
         "memo": "KIS API 자동 갱신 [자동갱신 10-10 15:40]"
+      },
+      {
+        "date": "2026-10-11",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "return_pct": -7.75,
+        "memo": "KIS API 자동 갱신 [자동갱신 10-11 09:10]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1849,21 +1546,13 @@
       "buy_count": 35,
       "sell_count": 30,
       "stop_loss_count": 6,
-      "hold_days": 97,
+      "hold_days": 98,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
     "mdd_series": [
       {
         "date": "2026-07-31",
-        "drawdown_pct": 0.0
-      },
-      {
-        "date": "2026-08-01",
-        "drawdown_pct": 0.0
-      },
-      {
-        "date": "2026-08-02",
         "drawdown_pct": 0.0
       },
       {
@@ -1880,107 +1569,71 @@
       },
       {
         "date": "2026-08-06",
-        "drawdown_pct": -1.6
+        "drawdown_pct": -1.53
       },
       {
         "date": "2026-08-07",
-        "drawdown_pct": -1.6
-      },
-      {
-        "date": "2026-08-08",
-        "drawdown_pct": -1.6
-      },
-      {
-        "date": "2026-08-09",
-        "drawdown_pct": -1.6
+        "drawdown_pct": -1.53
       },
       {
         "date": "2026-08-10",
-        "drawdown_pct": -1.6
-      },
-      {
-        "date": "2026-08-17",
-        "drawdown_pct": -1.6
+        "drawdown_pct": -1.53
       },
       {
         "date": "2026-08-18",
-        "drawdown_pct": -1.6
+        "drawdown_pct": -1.53
       },
       {
         "date": "2026-08-19",
-        "drawdown_pct": -1.6
+        "drawdown_pct": -1.53
       },
       {
         "date": "2026-08-20",
-        "drawdown_pct": -1.6
+        "drawdown_pct": -1.53
       },
       {
         "date": "2026-08-21",
         "drawdown_pct": 0.0
       },
       {
-        "date": "2026-08-22",
-        "drawdown_pct": 0.0
-      },
-      {
-        "date": "2026-08-23",
-        "drawdown_pct": 0.0
-      },
-      {
         "date": "2026-08-24",
-        "drawdown_pct": -5.96
+        "drawdown_pct": -5.62
       },
       {
         "date": "2026-08-25",
-        "drawdown_pct": -4.71
+        "drawdown_pct": -4.44
       },
       {
         "date": "2026-08-26",
-        "drawdown_pct": -3.9
+        "drawdown_pct": -3.68
       },
       {
         "date": "2026-08-27",
-        "drawdown_pct": -3.61
+        "drawdown_pct": -3.4
       },
       {
         "date": "2026-08-28",
-        "drawdown_pct": -5.66
-      },
-      {
-        "date": "2026-08-29",
-        "drawdown_pct": -5.66
-      },
-      {
-        "date": "2026-08-30",
-        "drawdown_pct": -5.66
+        "drawdown_pct": -5.33
       },
       {
         "date": "2026-08-31",
-        "drawdown_pct": -5.84
+        "drawdown_pct": -5.5
       },
       {
         "date": "2026-09-01",
-        "drawdown_pct": -5.59
+        "drawdown_pct": -5.27
       },
       {
         "date": "2026-09-02",
-        "drawdown_pct": -9.16
+        "drawdown_pct": -8.63
       },
       {
         "date": "2026-09-03",
-        "drawdown_pct": -9.13
+        "drawdown_pct": -8.61
       },
       {
         "date": "2026-09-04",
-        "drawdown_pct": -7.68
-      },
-      {
-        "date": "2026-09-05",
-        "drawdown_pct": -7.68
-      },
-      {
-        "date": "2026-09-06",
-        "drawdown_pct": -7.68
+        "drawdown_pct": -7.24
       },
       {
         "date": "2026-09-07",
@@ -1988,7 +1641,7 @@
       },
       {
         "date": "2026-09-08",
-        "drawdown_pct": -0.85
+        "drawdown_pct": -0.79
       },
       {
         "date": "2026-09-09",
@@ -1996,127 +1649,75 @@
       },
       {
         "date": "2026-09-10",
-        "drawdown_pct": -0.55
+        "drawdown_pct": -0.5
       },
       {
         "date": "2026-09-11",
-        "drawdown_pct": -5.3
-      },
-      {
-        "date": "2026-09-12",
-        "drawdown_pct": -5.3
-      },
-      {
-        "date": "2026-09-13",
-        "drawdown_pct": -5.3
+        "drawdown_pct": -4.8
       },
       {
         "date": "2026-09-14",
-        "drawdown_pct": -13.31
+        "drawdown_pct": -12.06
       },
       {
         "date": "2026-09-15",
-        "drawdown_pct": -14.45
+        "drawdown_pct": -13.1
       },
       {
         "date": "2026-09-16",
-        "drawdown_pct": -13.14
+        "drawdown_pct": -11.91
       },
       {
         "date": "2026-09-17",
-        "drawdown_pct": -13.47
+        "drawdown_pct": -12.21
       },
       {
         "date": "2026-09-18",
-        "drawdown_pct": -10.72
-      },
-      {
-        "date": "2026-09-19",
-        "drawdown_pct": -10.72
-      },
-      {
-        "date": "2026-09-20",
-        "drawdown_pct": -10.72
+        "drawdown_pct": -9.72
       },
       {
         "date": "2026-09-21",
-        "drawdown_pct": -8.78
+        "drawdown_pct": -7.96
       },
       {
         "date": "2026-09-22",
-        "drawdown_pct": -9.56
+        "drawdown_pct": -8.67
       },
       {
         "date": "2026-09-23",
-        "drawdown_pct": -8.41
-      },
-      {
-        "date": "2026-09-24",
-        "drawdown_pct": -8.41
-      },
-      {
-        "date": "2026-09-25",
-        "drawdown_pct": -8.41
-      },
-      {
-        "date": "2026-09-26",
-        "drawdown_pct": -8.41
-      },
-      {
-        "date": "2026-09-27",
-        "drawdown_pct": -8.41
+        "drawdown_pct": -7.62
       },
       {
         "date": "2026-09-28",
-        "drawdown_pct": -14.85
+        "drawdown_pct": -13.46
       },
       {
         "date": "2026-09-29",
-        "drawdown_pct": -14.05
+        "drawdown_pct": -12.74
       },
       {
         "date": "2026-09-30",
-        "drawdown_pct": -14.76
-      },
-      {
-        "date": "2026-10-01",
         "drawdown_pct": -13.38
       },
       {
+        "date": "2026-10-01",
+        "drawdown_pct": -12.13
+      },
+      {
         "date": "2026-10-02",
-        "drawdown_pct": -13.2
-      },
-      {
-        "date": "2026-10-03",
-        "drawdown_pct": -13.2
-      },
-      {
-        "date": "2026-10-04",
-        "drawdown_pct": -13.2
-      },
-      {
-        "date": "2026-10-05",
-        "drawdown_pct": -13.2
+        "drawdown_pct": -11.97
       },
       {
         "date": "2026-10-06",
-        "drawdown_pct": -14.05
+        "drawdown_pct": -12.74
       },
       {
         "date": "2026-10-07",
-        "drawdown_pct": -15.49
+        "drawdown_pct": -14.04
       },
       {
         "date": "2026-10-08",
-        "drawdown_pct": -18.07
-      },
-      {
-        "date": "2026-10-09",
-        "drawdown_pct": -18.07
-      },
-      {
-        "date": "2026-10-10",
-        "drawdown_pct": -18.07
+        "drawdown_pct": -16.38
       }
     ],
     "two_curves": {
@@ -2126,14 +1727,6 @@
         "points": [
           {
             "date": "2026-07-31",
-            "pct": 0
-          },
-          {
-            "date": "2026-08-01",
-            "pct": 0
-          },
-          {
-            "date": "2026-08-02",
             "pct": 0
           },
           {
@@ -2157,19 +1750,7 @@
             "pct": 3.22
           },
           {
-            "date": "2026-08-08",
-            "pct": 3.22
-          },
-          {
-            "date": "2026-08-09",
-            "pct": 3.22
-          },
-          {
             "date": "2026-08-10",
-            "pct": 3.22
-          },
-          {
-            "date": "2026-08-17",
             "pct": 3.22
           },
           {
@@ -2186,14 +1767,6 @@
           },
           {
             "date": "2026-08-21",
-            "pct": 6.1
-          },
-          {
-            "date": "2026-08-22",
-            "pct": 6.1
-          },
-          {
-            "date": "2026-08-23",
             "pct": 6.1
           },
           {
@@ -2217,14 +1790,6 @@
             "pct": 0.44
           },
           {
-            "date": "2026-08-29",
-            "pct": 0.44
-          },
-          {
-            "date": "2026-08-30",
-            "pct": 0.44
-          },
-          {
             "date": "2026-08-31",
             "pct": -3.02
           },
@@ -2242,14 +1807,6 @@
           },
           {
             "date": "2026-09-04",
-            "pct": -1.58
-          },
-          {
-            "date": "2026-09-05",
-            "pct": -1.58
-          },
-          {
-            "date": "2026-09-06",
             "pct": -1.58
           },
           {
@@ -2273,14 +1830,6 @@
             "pct": 5.02
           },
           {
-            "date": "2026-09-12",
-            "pct": 5.02
-          },
-          {
-            "date": "2026-09-13",
-            "pct": 5.02
-          },
-          {
             "date": "2026-09-14",
             "pct": -2.99
           },
@@ -2301,14 +1850,6 @@
             "pct": -0.4
           },
           {
-            "date": "2026-09-19",
-            "pct": -0.4
-          },
-          {
-            "date": "2026-09-20",
-            "pct": -0.4
-          },
-          {
             "date": "2026-09-21",
             "pct": 1.54
           },
@@ -2318,22 +1859,6 @@
           },
           {
             "date": "2026-09-23",
-            "pct": 1.91
-          },
-          {
-            "date": "2026-09-24",
-            "pct": 1.91
-          },
-          {
-            "date": "2026-09-25",
-            "pct": 1.91
-          },
-          {
-            "date": "2026-09-26",
-            "pct": 1.91
-          },
-          {
-            "date": "2026-09-27",
             "pct": 1.91
           },
           {
@@ -2357,18 +1882,6 @@
             "pct": -2.88
           },
           {
-            "date": "2026-10-03",
-            "pct": -2.88
-          },
-          {
-            "date": "2026-10-04",
-            "pct": -2.88
-          },
-          {
-            "date": "2026-10-05",
-            "pct": -2.88
-          },
-          {
             "date": "2026-10-06",
             "pct": -3.73
           },
@@ -2378,24 +1891,17 @@
           },
           {
             "date": "2026-10-08",
-            "pct": -7.36
-          },
-          {
-            "date": "2026-10-09",
-            "pct": -7.75
-          },
-          {
-            "date": "2026-10-10",
             "pct": -7.75
           }
         ],
         "metrics": {
-          "n_days": 66,
-          "cagr_pct": -26.51,
-          "sharpe": -0.65,
+          "n_days": 41,
+          "cagr_pct": -39.09,
+          "sharpe": -0.81,
           "mdd_pct": -16.38,
-          "calmar": -1.62,
-          "note": "66거래일 표본 · 연환산 참고치 · rf=0"
+          "calmar": -2.39,
+          "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
+          "note": "41거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "chained": {
@@ -2462,18 +1968,6 @@
             "pct": 44.46
           },
           {
-            "date": "2026-05-23",
-            "pct": 44.46
-          },
-          {
-            "date": "2026-05-24",
-            "pct": 44.46
-          },
-          {
-            "date": "2026-05-25",
-            "pct": 44.46
-          },
-          {
             "date": "2026-05-26",
             "pct": 48.56
           },
@@ -2490,14 +1984,6 @@
             "pct": 46.59
           },
           {
-            "date": "2026-05-30",
-            "pct": 46.59
-          },
-          {
-            "date": "2026-05-31",
-            "pct": 46.59
-          },
-          {
             "date": "2026-06-01",
             "pct": 54.52
           },
@@ -2506,23 +1992,11 @@
             "pct": 54.14
           },
           {
-            "date": "2026-06-03",
-            "pct": 54.14
-          },
-          {
             "date": "2026-06-04",
             "pct": 50.71
           },
           {
             "date": "2026-06-05",
-            "pct": 41.11
-          },
-          {
-            "date": "2026-06-06",
-            "pct": 41.11
-          },
-          {
-            "date": "2026-06-07",
             "pct": 41.11
           },
           {
@@ -2546,14 +2020,6 @@
             "pct": 30.64
           },
           {
-            "date": "2026-06-13",
-            "pct": 30.64
-          },
-          {
-            "date": "2026-06-14",
-            "pct": 30.64
-          },
-          {
             "date": "2026-06-15",
             "pct": 30.64
           },
@@ -2571,14 +2037,6 @@
           },
           {
             "date": "2026-06-19",
-            "pct": 34.45
-          },
-          {
-            "date": "2026-06-20",
-            "pct": 34.45
-          },
-          {
-            "date": "2026-06-21",
             "pct": 34.45
           },
           {
@@ -2602,14 +2060,6 @@
             "pct": 40.86
           },
           {
-            "date": "2026-06-27",
-            "pct": 40.86
-          },
-          {
-            "date": "2026-06-28",
-            "pct": 40.86
-          },
-          {
             "date": "2026-06-29",
             "pct": 41.24
           },
@@ -2627,14 +2077,6 @@
           },
           {
             "date": "2026-07-03",
-            "pct": 29.89
-          },
-          {
-            "date": "2026-07-04",
-            "pct": 30.2
-          },
-          {
-            "date": "2026-07-05",
             "pct": 30.2
           },
           {
@@ -2658,14 +2100,6 @@
             "pct": 20.52
           },
           {
-            "date": "2026-07-11",
-            "pct": 20.52
-          },
-          {
-            "date": "2026-07-12",
-            "pct": 20.52
-          },
-          {
             "date": "2026-07-13",
             "pct": 20.52
           },
@@ -2679,18 +2113,6 @@
           },
           {
             "date": "2026-07-16",
-            "pct": 20.52
-          },
-          {
-            "date": "2026-07-17",
-            "pct": 20.52
-          },
-          {
-            "date": "2026-07-18",
-            "pct": 20.52
-          },
-          {
-            "date": "2026-07-19",
             "pct": 20.52
           },
           {
@@ -2714,14 +2136,6 @@
             "pct": 22.17
           },
           {
-            "date": "2026-07-25",
-            "pct": 22.17
-          },
-          {
-            "date": "2026-07-26",
-            "pct": 22.17
-          },
-          {
             "date": "2026-07-27",
             "pct": 22.84
           },
@@ -2739,14 +2153,6 @@
           },
           {
             "date": "2026-07-31",
-            "pct": 22.84
-          },
-          {
-            "date": "2026-08-01",
-            "pct": 22.84
-          },
-          {
-            "date": "2026-08-02",
             "pct": 22.84
           },
           {
@@ -2770,19 +2176,7 @@
             "pct": 26.8
           },
           {
-            "date": "2026-08-08",
-            "pct": 26.8
-          },
-          {
-            "date": "2026-08-09",
-            "pct": 26.8
-          },
-          {
             "date": "2026-08-10",
-            "pct": 26.8
-          },
-          {
-            "date": "2026-08-17",
             "pct": 26.8
           },
           {
@@ -2799,14 +2193,6 @@
           },
           {
             "date": "2026-08-21",
-            "pct": 30.33
-          },
-          {
-            "date": "2026-08-22",
-            "pct": 30.33
-          },
-          {
-            "date": "2026-08-23",
             "pct": 30.33
           },
           {
@@ -2830,14 +2216,6 @@
             "pct": 23.38
           },
           {
-            "date": "2026-08-29",
-            "pct": 23.38
-          },
-          {
-            "date": "2026-08-30",
-            "pct": 23.38
-          },
-          {
             "date": "2026-08-31",
             "pct": 19.13
           },
@@ -2855,14 +2233,6 @@
           },
           {
             "date": "2026-09-04",
-            "pct": 20.9
-          },
-          {
-            "date": "2026-09-05",
-            "pct": 20.9
-          },
-          {
-            "date": "2026-09-06",
             "pct": 20.9
           },
           {
@@ -2886,14 +2256,6 @@
             "pct": 29.01
           },
           {
-            "date": "2026-09-12",
-            "pct": 29.01
-          },
-          {
-            "date": "2026-09-13",
-            "pct": 29.01
-          },
-          {
             "date": "2026-09-14",
             "pct": 19.17
           },
@@ -2914,14 +2276,6 @@
             "pct": 22.35
           },
           {
-            "date": "2026-09-19",
-            "pct": 22.35
-          },
-          {
-            "date": "2026-09-20",
-            "pct": 22.35
-          },
-          {
             "date": "2026-09-21",
             "pct": 24.73
           },
@@ -2931,22 +2285,6 @@
           },
           {
             "date": "2026-09-23",
-            "pct": 25.19
-          },
-          {
-            "date": "2026-09-24",
-            "pct": 25.19
-          },
-          {
-            "date": "2026-09-25",
-            "pct": 25.19
-          },
-          {
-            "date": "2026-09-26",
-            "pct": 25.19
-          },
-          {
-            "date": "2026-09-27",
             "pct": 25.19
           },
           {
@@ -2970,18 +2308,6 @@
             "pct": 19.3
           },
           {
-            "date": "2026-10-03",
-            "pct": 19.3
-          },
-          {
-            "date": "2026-10-04",
-            "pct": 19.3
-          },
-          {
-            "date": "2026-10-05",
-            "pct": 19.3
-          },
-          {
             "date": "2026-10-06",
             "pct": 18.26
           },
@@ -2991,24 +2317,17 @@
           },
           {
             "date": "2026-10-08",
-            "pct": 13.8
-          },
-          {
-            "date": "2026-10-09",
-            "pct": 13.32
-          },
-          {
-            "date": "2026-10-10",
             "pct": 13.32
           }
         ],
         "metrics": {
-          "n_days": 150,
-          "cagr_pct": 23.38,
-          "sharpe": 0.61,
+          "n_days": 102,
+          "cagr_pct": 30.51,
+          "sharpe": 0.73,
           "mdd_pct": -26.66,
-          "calmar": 0.88,
-          "note": "150거래일 표본 · 연환산 참고치 · rf=0"
+          "calmar": 1.14,
+          "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
+          "note": "102거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "boundaries": [
@@ -3020,7 +2339,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-10-10T23:10:14"
+    "generated_at": "2026-10-11T11:27:11"
   },
   "evaluation": {
     "month1_review": "2026-08-31",

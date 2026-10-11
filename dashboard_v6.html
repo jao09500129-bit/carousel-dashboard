@@ -261,16 +261,17 @@ function renderDashboard(d) {
     (_peakPt ? _peakPt.date : (stats.peak_date || '—')) + ' · 현재 트랙';
 
   // KPI 3: Drawdown — 같은 모집단(현재 트랙) 안에서만 뺀다
-  const dd = Math.min(ret - peak, 0);
+  const dd = Math.min(((1 + ret / 100) / (1 + peak / 100) - 1) * 100, 0);   // (235차) 고점 대비 비율 — %p 뺄셈 아님
   document.getElementById('kpi-dd').textContent = fmtPct(dd, true);
   document.getElementById('kpi-dd').className = 'kpi-value ' + pctClass(dd);
 
   // KPI 4: 목표 달성률
   const target = 42.58;
-  const annual = days > 0 ? (Math.pow(1 + ret/100, 252/days) - 1) * 100 : 0;
-  const ratio = Math.min(Math.max(annual / target * 100, 0), 100);
+  const _ann = d.portfolio?.annualized || {};   // (235차) paper_export 단일 값 · N=거래일 · 브라우저 재계산 금지
+  const annual = (_ann.cagr_pct === undefined || _ann.cagr_pct === null) ? NaN : Number(_ann.cagr_pct);   // 값 없음 = '—'(0% 로 보이지 않게)
+  const ratio = isNaN(annual) ? 0 : Math.min(Math.max(annual / target * 100, 0), 100);
   document.getElementById('target-bar').style.width = ratio + '%';
-  document.getElementById('target-text').textContent = `현재 환산 ${annual.toFixed(1)}% / 목표 ${target}%`;
+  document.getElementById('target-text').textContent = `현재 환산 ${isNaN(annual) ? '—' : annual.toFixed(1) + '%'} (${_ann.n_trading_days ?? '?'}거래일${_ann.reference_only ? ' · 참고' : ''}) / 목표 ${target}% (월 3% 복리)`;
 
   // 매매 통계
   document.getElementById('stat-total').textContent = (stats.total_trades ?? 0) + '회';
@@ -475,9 +476,9 @@ function drawShadowTable(d) {
   const m37 = d.m37_shadow?.m37;
   const rows = [
     { name: 'm21 (LIVE)', wl: m21wl, diff: '—', note: d.m21?.decision_kr || '', badge: 'live', stage: '본승인 baseline' },
-    { name: 'm28h SHADOW', wl: m28h?.wl ?? '—', diff: m28h ? (m28h.diverged ? '⚠ 다름' : '동일') : '—', note: m28h?.gated_today ? 'cost gate ON (매매 skip)' : 'cost gate OFF', badge: 'shadow', stage: 'Phase 4 후보' },
-    { name: 'm30 SHADOW', wl: m30?.wl ?? '—', diff: m30 ? (m30.diverged_from_m21 ? '⚠ 다름' : '동일') : '—', note: m30 && d.m30_shadow?.m26?.active_today ? 'm26 cut 발동!' : 'm26 미발동', badge: 'shadow', stage: 'Phase 7 후보' },
-    { name: 'm37 SHADOW', wl: m37?.wl ?? '—', diff: m37 ? (m37.diverged_from_m21 ? '⚠ 다름' : '동일') : '—', note: m37?.v_cancelled_today ? '🌟 V자 cancel!' : '평소 운영', badge: 'shadow', stage: 'Phase 13 후보' },
+    { name: 'm28h SHADOW', wl: m28h?.wl ?? '—', diff: m28h ? (m28h.diverged ? '⚠ 다름' : '동일') : '—', note: m28h?.gated_today ? 'cost gate ON (매매 skip)' : 'cost gate OFF', badge: 'shadow', stage: '관찰(미채택)' },
+    { name: 'm30 SHADOW', wl: m30?.wl ?? '—', diff: m30 ? (m30.diverged_from_m21 ? '⚠ 다름' : '동일') : '—', note: m30 && d.m30_shadow?.m26?.active_today ? 'm26 cut 발동!' : 'm26 미발동', badge: 'shadow', stage: '관찰(미채택)' },
+    { name: 'm37 SHADOW', wl: m37?.wl ?? '—', diff: m37 ? (m37.diverged_from_m21 ? '⚠ 다름' : '동일') : '—', note: m37?.v_cancelled_today ? '🌟 V자 cancel!' : '평소 운영', badge: 'shadow', stage: '관찰(미채택)' },
   ];
   tbody.innerHTML = rows.map(r => `<tr>
     <td><span class="badge ${r.badge}">${r.name}</span></td>

@@ -808,16 +808,16 @@ details.more[open] > summary::after { transform: rotate(180deg); }
       <div class="pcnote">★ 게이트 발동 가설 — 16년 백테스트 기반. 실거래 미검증.</div>
     </section>
 
-    <!-- Section P2: 백테스트 vs 실측 -->
+    <!-- Section P2: 목표 vs 실측 (235차 정정) -->
     <section class="pcard">
-      <div class="pch">📈 백테스트 기대치 vs 실측</div>
-      <div class="pcdesc">💬 회전목마 백테스트 예측과 지금 실측이 얼마나 비슷한지</div>
+      <div class="pch">📈 목표 vs 실측</div>
+      <div class="pcdesc">💬 목표(월 3% 복리)와 지금 실측의 거리 — 목표는 백테스트 결과가 아니다</div>
 
       <div class="bt-grid">
         <div>
           <span class="label">목표 CAGR</span>
           <span class="val">+42.58%/yr</span>
-          <span class="note">(추정 — 16년 백테스트)</span>
+          <span class="note">(목표 — 월 3% 복리 · 1.03¹²−1 · 백테스트 결과 아님)</span>
         </div>
         <div>
           <span class="label">현재 페이스</span>
@@ -825,7 +825,7 @@ details.more[open] > summary::after { transform: rotate(180deg); }
           <span class="note" id="ps-bt-current-note">—</span>
         </div>
         <div>
-          <span class="label">연환산 추정</span>
+          <span class="label">연환산 (참고)</span>
           <span class="val" id="ps-bt-annualized">—</span>
           <span class="note">(추정 — 미검증 / 변동성 큼)</span>
         </div>
@@ -1190,7 +1190,7 @@ function renderPaperZone() {
     totalRetEl.classList.toggle("negative", totalRet < 0);
   }
   document.getElementById("ps-total-sub").textContent =
-    `시작 D+${dDays !== undefined ? dDays : "?"} · 목표 +42.58%/yr (백테스트 추정)`;
+    `시작 D+${dDays !== undefined ? dDays : "?"} · 목표 +42.58%/yr (월 3% 복리)`;
 
   // 보유
   const holdEl = document.getElementById("ps-holdings");
@@ -1276,14 +1276,14 @@ function renderPaperZone() {
     noteEl.textContent = "";
   }
   if (totalRet !== undefined && totalRet !== null && dDays && dDays > 0) {
-    const r = Number(totalRet) / 100;
-    const annR = Math.pow(1 + r, 365 / dDays) - 1;
-    const annPct = annR * 100;
+    // (235차) 연환산은 paper_export 의 단일 값만 읽는다(N=거래일 · 브라우저 재계산 금지)
+    const ann = portfolio.annualized || {};
+    const annPct = (ann.cagr_pct === undefined || ann.cagr_pct === null) ? NaN : Number(ann.cagr_pct);
     const sign = annPct >= 0 ? "+" : "";
     const display = (Math.abs(annPct) > 9999)
       ? (annPct > 0 ? ">+9999%/yr" : "<-9999%/yr")
-      : (sign + annPct.toFixed(0) + "%/yr");
-    annEl.textContent = `~${display}`;
+      : (sign + annPct.toFixed(1) + "%/yr");
+    annEl.textContent = isNaN(annPct) ? "—" : `${display} · ${ann.n_trading_days}거래일${ann.reference_only ? " · 참고" : ""}`;
   } else {
     annEl.textContent = "—";
   }

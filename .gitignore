@@ -1,0 +1,4 @@
+# (235차) 내부 문서 — 실수로 git add -A 해도 공개되지 않게
+CC_ORDERS/
+HANDOFF*.md
+KNOWLEDGE_BASE.md
