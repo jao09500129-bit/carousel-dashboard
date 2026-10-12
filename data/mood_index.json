@@ -1,18 +1,18 @@
 {
-  "computed_at": "2026-10-12T15:00:57.963095+09:00",
-  "score": 35,
+  "computed_at": "2026-10-12T16:00:50.213218+09:00",
+  "score": 34,
   "label": "FEAR",
   "label_kr": "약간 조심",
   "label_emoji": "😟",
   "components": {
-    "volatility": 37.0,
+    "volatility": 32.7,
     "divergence": 50,
     "target_up_ratio": 50,
     "publish_freq": 0.0,
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 12.6,
+    "vol_sum": 13.46,
     "n_divergence": 0,
     "n_signals": 0,
     "target_up": 0,
