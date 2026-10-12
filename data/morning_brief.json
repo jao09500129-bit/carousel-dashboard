@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12 11:33 KST",
+  "as_of": "2026-10-12 13:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -35,16 +35,16 @@
     "axes": [
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.42% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.46% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.42%"
+        "trigger_value": "-0.46%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-10-12T11:32:51.919454+09:00",
+    "collected_at": "2026-10-12T13:00:58.081800+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,9 +107,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,334.79",
-            "chg": "5.65",
-            "chg_pct": "-0.42%"
+            "close": "1,334.26",
+            "chg": "6.18",
+            "chg_pct": "-0.46%"
           },
           {
             "name": "유로",
@@ -121,16 +121,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "843.83",
-            "chg": "3.35",
-            "chg_pct": "-0.40%"
+            "close": "843.19",
+            "chg": "3.99",
+            "chg_pct": "-0.47%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "199.45",
-            "chg": "0.91",
-            "chg_pct": "-0.45%"
+            "close": "199.37",
+            "chg": "0.99",
+            "chg_pct": "-0.49%"
           }
         ]
       },
