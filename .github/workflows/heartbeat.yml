@@ -1,0 +1,76 @@
+name: PC Heartbeat Watch
+
+# R24 ① PC 밖 생존 경보 — 라이브 PC 가 기준 시각까지 이 저장소에 갱신을 남겼는지 본다.
+# 없으면: 텔레그램(저장소 secrets 가 있을 때) + 이 작업 실패 → GitHub 실패 메일(2차 경로).
+# 비밀값은 secrets 로만 쓰고 출력하지 않는다. 데이터 내용은 읽지 않는다(커밋 시각만).
+on:
+  schedule:
+    - cron: '50 0 * * 1-5'    # 09:50 KST — 09:30 장중 갱신 확인
+    - cron: '20 7 * * 1-5'    # 16:20 KST — 16:00 장중 갱신 확인
+    - cron: '40 14 * * 1-5'   # 23:40 KST — 23:10 일일 갱신 확인
+  workflow_dispatch:
+    inputs:
+      check:
+        description: 'morning | close | night | demo'
+        required: true
+        default: 'demo'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: heartbeat
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 200
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Pick check
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then c="${{ inputs.check }}"
+          elif [ "${{ github.event.schedule }}" = "50 0 * * 1-5" ]; then c=morning
+          elif [ "${{ github.event.schedule }}" = "20 7 * * 1-5" ]; then c=close
+          else c=night; fi
+          echo "check=$c" >> "$GITHUB_OUTPUT"
+
+      - name: Judge
+        id: judge
+        env:
+          PYTHONUTF8: '1'
+          HB_OUT: hb_msg.txt
+        run: |
+          set +e
+          python .github/heartbeat/check.py "${{ steps.pick.outputs.check }}"
+          rc=$?
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Telegram alert
+        if: steps.judge.outputs.rc != '0'
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ]; then
+            echo "텔레그램 secrets 미설정 — GitHub 실패 메일로만 알린다"
+            exit 0
+          fi
+          msg="[회전목마 생존 경보] $(cat hb_msg.txt 2>/dev/null || echo '판정 실패')"
+          code=$(curl -s -o /dev/null -w '%{http_code}' -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+                 --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${msg}")
+          echo "telegram http=$code"
+
+      - name: Fail on alert (GitHub email)
+        if: steps.judge.outputs.rc != '0'
+        run: exit 1
