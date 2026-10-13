@@ -1,24 +1,24 @@
 {
-  "computed_at": "2026-10-13T09:30:47.689674+09:00",
-  "score": 55,
+  "computed_at": "2026-10-13T11:00:50.658926+09:00",
+  "score": 50,
   "label": "NEUTRAL",
   "label_kr": "보통",
   "label_emoji": "😐",
   "components": {
-    "volatility": 75.0,
+    "volatility": 70.7,
     "divergence": 50,
     "target_up_ratio": 50,
     "publish_freq": 0.0,
-    "rotation_velocity": 80
+    "rotation_velocity": 60
   },
   "raw": {
-    "vol_sum": 4.99,
+    "vol_sum": 5.87,
     "n_divergence": 0,
     "n_signals": 0,
     "target_up": 0,
     "target_down": 0,
     "total_items": 0,
-    "velocity": "느림"
+    "velocity": "중간"
   },
   "note": "★ 추정 — Bloomberg Fear&Greed 영감, 5-factor 가중합. 백테스트 미검증."
 }
