@@ -78,6 +78,29 @@ header .sub { font-size: 14px; opacity: .95; font-weight: 500; }
     <div class="sub">실시간 paper trading + R&D 시각화 · 마지막 갱신: <span id="updated-at">…</span></div>
   </header>
 
+  <!-- ROW 0 (R26 · 10/14 회의 · 오후: 맨 위): 리스크 한도 상태(매일 · % 와 일수만 · 누적 수익 없음) + 기대 범위 팬차트(주 1회) -->
+  <div class="grid" id="risk-row" style="margin-bottom: 16px; display: none;">
+    <div class="card span-12">
+      <h2>🛡 리스크 한도 상태 (매일)</h2>
+      <div class="stats-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="stat"><div class="stat-label">고점 대비 낙폭</div><div class="stat-value" id="rp-dd">—</div></div>
+        <div class="stat"><div class="stat-label">수중 거래일</div><div class="stat-value" id="rp-uw">—</div></div>
+        <div class="stat"><div class="stat-label">킬스위치까지</div><div class="stat-value" id="rp-ks">—</div></div>
+        <div class="stat"><div class="stat-label">−20% 경고</div><div class="stat-value" id="rp-warn">—</div></div>
+        <div class="stat"><div class="stat-label">일일 −6% 매수 중지</div><div class="stat-value" id="rp-daily">—</div></div>
+        <div class="stat"><div class="stat-label">전략 점검(실전만 · 252거래일 ≤ −29.6%)</div><div class="stat-value" id="rp-review">—</div></div>
+      </div>
+      <div class="notice" id="rp-note">이 칸은 위험 상태만 보인다. 누적 수익은 넣지 않는다(E464 §6 — 매일 누적 수익을 보며 멈출 때를 고르지 않는다).</div>
+      <div class="notice" id="rp-dd-def">낙폭 = 현재 모의 트랙(자동 탐지) 안 고점 대비 · 아래 KPI '현재 Drawdown' 과 같은 값(같은 함수)<span id="rp-track"></span></div>
+    </div>
+    <div class="card span-12">
+      <h2>📐 기대 범위 vs 실제 (주 1회 갱신 · R26)</h2>
+      <div class="chart-box tall"><canvas id="fan-chart"></canvas></div>
+      <div class="notice" id="fan-label">—</div>
+      <div class="notice"><b>이 그림은 위험 기술이다. 판정이 아니다. 판정은 E112/E464 일정에서만 한다.</b> 중립 띠 = p5–p95(옅게) · p25–p75(진하게) · 점선 = 낙관/비관 중앙 · x = 트랙 시작 후 거래일.</div>
+    </div>
+  </div>
+
   <!-- ROW 1: KPI 4개 -->
   <div class="grid">
     <div class="card span-3">
@@ -261,7 +284,13 @@ function renderDashboard(d) {
     (_peakPt ? _peakPt.date : (stats.peak_date || '—')) + ' · 현재 트랙';
 
   // KPI 3: Drawdown — 같은 모집단(현재 트랙) 안에서만 뺀다
-  const dd = Math.min(((1 + ret / 100) / (1 + peak / 100) - 1) * 100, 0);   // (235차) 고점 대비 비율 — %p 뺄셈 아님
+  // (10/14 오후 회의) risk_panel 이 있으면 리스크 칸과 **같은 값**(rg.track_drawdown · 현재 모의 트랙(자동 탐지) 안 고점 대비).
+  //   없으면(스위치 OFF) 종전 계산 그대로.
+  const _rpd = d.risk_panel?.daily;
+  const _shared = _rpd && _rpd.drawdown_pct != null;
+  const dd = _shared ? _rpd.drawdown_pct
+    : Math.min(((1 + ret / 100) / (1 + peak / 100) - 1) * 100, 0);   // (235차) 고점 대비 비율 — %p 뺄셈 아님
+  if (_shared) document.getElementById('kpi-dd-from-peak').textContent = '현재 모의 트랙(자동 탐지) 안 고점 대비';
   document.getElementById('kpi-dd').textContent = fmtPct(dd, true);
   document.getElementById('kpi-dd').className = 'kpi-value ' + pctClass(dd);
 
@@ -298,6 +327,7 @@ function renderDashboard(d) {
 
   // 4-Way 신호 비교
   drawShadowTable(d);
+  renderRiskPanel(d.risk_panel);   // (R26) 블록이 없으면 카드를 숨긴다(스위치 OFF = 종전 화면)
 }
 
 function drawCumretChart(history, peak, target, days) {
@@ -466,6 +496,57 @@ function drawTradeTable(trades) {
     </tr>`;
   }).join('');
   tbody.innerHTML = rows;
+}
+
+// (R26) 리스크 블록 — paper_status.json risk_panel (허용목록 직렬화 · % 와 일수만). 값은 textContent 로만 넣는다.
+function renderRiskPanel(rp) {
+  const row = document.getElementById('risk-row');
+  if (!row || !rp || !rp.daily) return;
+  row.style.display = '';
+  const set = (id, text, cls) => { const el = document.getElementById(id); el.textContent = text; el.className = 'stat-value' + (cls ? ' ' + cls : ''); };
+  const L = rp.daily.limits || {};
+  const STATE = { normal: '정상', warning: '경고', stopped: '중지', no_record: '오늘 기록 없음', halted: '정지 중',
+                  inactive_insufficient: '비활성(이력 부족)', ok: '정상', flagged: '점검 상신', unavailable: '판정 불가',
+                  dormant_paper: '휴면(모의 트랙)' };
+  const st = (x) => STATE[x?.state] ?? '—';
+  const off = (x) => (x && x.enabled === false) ? ' (꺼짐)' : '';
+  const dd = rp.daily.drawdown_pct;
+  set('rp-dd', dd == null ? '—' : fmtPct(dd, true), dd != null && dd < 0 ? 'sell' : '');
+  set('rp-uw', rp.daily.days_underwater == null ? '—' : `${rp.daily.days_underwater}일`);
+  if (rp.daily.track_start) document.getElementById('rp-track').textContent = ` · 트랙 시작 ${rp.daily.track_start}`;
+  const ks = L.kill_switch;
+  set('rp-ks', ks?.state === 'halted' ? '정지 중' : (ks?.distance_pp == null ? '—' : `${ks.distance_pp.toFixed(1)}%p (선 ${ks.threshold_pct}%)`) + off(ks),
+      ks?.state === 'halted' || ks?.state === 'warning' ? 'buy' : '');
+  set('rp-warn', st(L.dd_warn) + off(L.dd_warn), L.dd_warn?.state === 'warning' ? 'warn' : '');
+  const dl = L.daily_loss;
+  set('rp-daily', st(dl) + (dl?.today_pct != null ? ` · 오늘 ${fmtPct(dl.today_pct, true)}` : '') + off(dl), dl?.state === 'stopped' ? 'warn' : '');
+  const rv = L.strategy_review;
+  set('rp-review', st(rv) + (rv?.history_days != null ? ` · ${rv.history_days}/${rv.window_days}일` : '') + off(rv), rv?.state === 'flagged' ? 'warn' : '');
+
+  const fan = rp.weekly_fan || {};
+  const label = document.getElementById('fan-label');
+  if (!fan.bands || !fan.actual || typeof Chart === 'undefined') { label.textContent = fan.note || '팬차트 없음'; return; }
+  const ZONE = { '<p5': 'p5 아래', 'p5-p25': 'p5–p25', 'p25-p75': 'p25–p75', 'p75-p95': 'p75–p95', '>p95': 'p95 위' };
+  label.textContent = `기준 ${fan.asof_date} (트랙 ${fan.asof_day}거래일) · 실제 ${fmtPct(fan.actual_pct, true)} · 중립 중앙 ${fmtPct(fan.neutral_p50_pct, true)} · 위치: 중립 ${ZONE[fan.zone] ?? '—'}`;
+  const xy = (ys) => fan.bands.day.map((x, i) => ({ x, y: ys[i] }));
+  const N = fan.bands['중립'];
+  new Chart(document.getElementById('fan-chart'), {
+    type: 'line',
+    data: { datasets: [
+      { label: '중립 p95', data: xy(N.p95), borderWidth: 0, pointRadius: 0, fill: '+3', backgroundColor: 'rgba(37,99,235,.10)' },
+      { label: '중립 p75', data: xy(N.p75), borderWidth: 0, pointRadius: 0, fill: '+1', backgroundColor: 'rgba(37,99,235,.25)' },
+      { label: '중립 p25', data: xy(N.p25), borderWidth: 0, pointRadius: 0, fill: false },
+      { label: '중립 p5', data: xy(N.p5), borderWidth: 0, pointRadius: 0, fill: false },
+      { label: '중립 중앙', data: xy(N.p50), borderColor: '#2563eb', borderWidth: 1.5, pointRadius: 0, fill: false },
+      { label: '낙관 중앙', data: xy(fan.bands['낙관'].p50), borderColor: '#16a34a', borderDash: [6, 4], borderWidth: 1.5, pointRadius: 0, fill: false },
+      { label: '비관 중앙', data: xy(fan.bands['비관'].p50), borderColor: '#d97706', borderDash: [6, 4], borderWidth: 1.5, pointRadius: 0, fill: false },
+      { label: '실제(주별)', data: fan.actual.map(p => ({ x: p.day, y: p.pct })), borderColor: '#0f172a', borderWidth: 3, pointRadius: 3, fill: false },
+    ] },
+    options: { responsive: true, maintainAspectRatio: false, parsing: false,
+      scales: { x: { type: 'linear', title: { display: true, text: '트랙 시작 후 거래일' } },
+                y: { title: { display: true, text: '누적 수익 %' } } },
+      plugins: { legend: { labels: { filter: (it) => !/p(5|25|75|95)$/.test(it.text) } } } }
+  });
 }
 
 function drawShadowTable(d) {
