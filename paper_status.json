@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "updated_at": "2026-10-17T01:15:36+09:00",
+  "updated_at": "2026-10-17T23:10:02+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -9,19 +9,21 @@
     "weights_pct": {
       "069500": 0.0,
       "122630": 0.0,
-      "114800": 0.0,
+      "114800": 100.0,
       "252670": 0.0
     },
-    "weight_changes": [],
-    "decision_kr": "전 종목 비중 0% — 현금 보유",
+    "weight_changes": [
+      {
+        "code": "114800",
+        "name": "KODEX 인버스",
+        "prev_pct": 0.0,
+        "curr_pct": 100.0,
+        "delta_pct": 100.0
+      }
+    ],
+    "decision_kr": "KODEX 인버스 100%",
     "daily_ret_pct": 0.0,
     "recent_timeline": [
-      {
-        "date": "2026-10-08",
-        "regime": "RANGE_QUIET",
-        "w_122630": 12.9,
-        "daily_ret_pct": -2.878
-      },
       {
         "date": "2026-10-12",
         "regime": "RANGE_QUIET",
@@ -45,23 +47,29 @@
         "regime": "RANGE_QUIET",
         "w_122630": 0.0,
         "daily_ret_pct": 0.0
+      },
+      {
+        "date": "2026-10-16",
+        "regime": "RANGE_QUIET",
+        "w_122630": 0.0,
+        "daily_ret_pct": 0.0
       }
     ]
   },
   "m26": {
     "gate_active": false,
     "status_kr": "정상 (m21 그대로 운영)",
-    "sp500_ret_pct": -1.11,
-    "vix_z252": -0.36,
+    "sp500_ret_pct": 0.33,
+    "vix_z252": -0.48,
     "sp500_threshold_pct": -2.7,
     "vix_z_threshold": 2.0,
-    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-10-15):\n    SP500_ret:  -1.11% (tau ≤ -2.70%)\n    VIX_z252:   -0.36 (tau ≥ +2.00)"
+    "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-10-16):\n    SP500_ret:  +0.33% (tau ≤ -2.70%)\n    VIX_z252:   -0.48 (tau ≥ +2.00)"
   },
   "portfolio": {
     "total_return_pct": -16.92,
     "cash_pct": 100.0,
     "holdings": [],
-    "last_updated": "2026-10-16T16:00:03.039115",
+    "last_updated": "2026-10-17T15:40:03.533765",
     "since_start_days": 78,
     "annualized": {
       "cagr_pct": -60.72,
@@ -75,12 +83,12 @@
     "actions": []
   },
   "m28h_shadow": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "regime": "RANGE_QUIET",
     "hmm": "BEAR",
     "m21": {
       "wl": 0.0,
-      "ws": 0.0,
+      "ws": 1.0,
       "weights_pct": {
         "069500": 0.0,
         "122630": 0.0,
@@ -90,29 +98,20 @@
     },
     "m28h": {
       "wl": 0.0,
-      "ws": 0.0,
+      "ws": 1.0,
       "weights_pct": {
-        "069500": 87.12,
-        "122630": 12.88,
+        "069500": 0.0,
+        "122630": 0.0,
         "114800": 0.0,
         "252670": 0.0
       },
-      "gated_today": true,
+      "gated_today": false,
       "vol_off_today": false,
-      "signal_delta": 0.0,
+      "signal_delta": 1.0,
       "gate_threshold": 0.5,
       "diverged": false
     },
     "recent_10d": [
-      {
-        "date": "2026-09-30",
-        "m21_wl": 1.3622,
-        "m21_ws": 0.0,
-        "m28h_wl": 1.3622,
-        "m28h_ws": 0.0,
-        "gated": false,
-        "vol_off": false
-      },
       {
         "date": "2026-10-01",
         "m21_wl": 0.8353,
@@ -193,24 +192,33 @@
         "m28h_ws": 0.0,
         "gated": true,
         "vol_off": false
+      },
+      {
+        "date": "2026-10-16",
+        "m21_wl": 0.0,
+        "m21_ws": 1.0,
+        "m28h_wl": 0.0,
+        "m28h_ws": 1.0,
+        "gated": false,
+        "vol_off": false
       }
     ],
     "history_summary": {
-      "total_days": 4096,
+      "total_days": 4097,
       "gated_days": 2817,
       "vol_off_days": 792,
-      "gated_pct": 68.77,
-      "vol_off_pct": 19.34
+      "gated_pct": 68.76,
+      "vol_off_pct": 19.33
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
-    "updated_at": "2026-10-17T01:15:38+09:00"
+    "updated_at": "2026-10-17T23:10:05+09:00"
   },
   "m30_shadow": {
-    "date": "2026-10-15",
-    "updated_at": "2026-10-17T01:15:39+09:00",
+    "date": "2026-10-16",
+    "updated_at": "2026-10-17T23:10:06+09:00",
     "m21": {
       "wl": 0.0,
-      "ws": 0.0,
+      "ws": 1.0,
       "weights_pct": {
         "069500": 0.0,
         "122630": 0.0,
@@ -220,8 +228,8 @@
     },
     "m28h": {
       "wl": 0.0,
-      "ws": 0.0,
-      "gated_today": true,
+      "ws": 1.0,
+      "gated_today": false,
       "diverged_from_m21": false
     },
     "m26": {
@@ -233,7 +241,7 @@
     },
     "m30": {
       "wl": 0.0,
-      "ws": 0.0,
+      "ws": 1.0,
       "weights_pct": {
         "069500": 0.0,
         "122630": 0.0,
@@ -251,25 +259,25 @@
     "optimism_tag": "이 그림자 성적은 낙관입니다 — foreign_net 이 당일 값입니다 (E363)\n  결정일 d 의 비중을 d 당일 외국인 순매수로 조정합니다. 그 값은 15:30 이후에 확정됩니다.\n  in-sample 3,901행 100% 가 이 규약이고, 두 규약의 부호가 갈리는 날이 10.5% 입니다.\n  -> 전략 판단의 근거로 쓰지 마십시오. 상태 확인용입니다.\n  라이브 주문에는 영향이 없습니다 — m26 이 주문 경로에 없어서가 아니라,\n  라이브가 mokma_core 의 별도 파이프라인을 쓰고 그 정렬이 T-1 이기 때문입니다 (E367)."
   },
   "m37_shadow": {
-    "date": "2026-10-15",
-    "updated_at": "2026-10-17T01:15:42+09:00",
+    "date": "2026-10-16",
+    "updated_at": "2026-10-17T23:10:09+09:00",
     "m21": {
       "wl": 0.0,
-      "ws": 0.0
+      "ws": 1.0
     },
     "m28h": {
       "wl": 0.0,
-      "ws": 0.0
+      "ws": 1.0
     },
     "m37": {
       "wl": 0.0,
-      "ws": 0.0,
+      "ws": 1.0,
       "cut_today": 1.0,
       "v_cancelled_today": false,
       "diverged_from_m21": false
     },
     "history_summary": {
-      "total_days": 4096,
+      "total_days": 4097,
       "m26_active_days": 29,
       "m37_strong_days": 15,
       "m37_normal_days": 14,
@@ -1565,6 +1573,13 @@
         "action_short": "⏸ HOLD",
         "return_pct": -16.92,
         "memo": "KIS API 자동 갱신 [자동갱신 10-16 15:40]"
+      },
+      {
+        "date": "2026-10-17",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "return_pct": -16.92,
+        "memo": "KIS API 자동 갱신 [자동갱신 10-17 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1573,7 +1588,7 @@
       "buy_count": 36,
       "sell_count": 33,
       "stop_loss_count": 7,
-      "hold_days": 100,
+      "hold_days": 101,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -2426,7 +2441,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-10-17T01:15:47"
+    "generated_at": "2026-10-17T23:10:14"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
@@ -2439,12 +2454,12 @@
     "asof_date": "2026-10-17",
     "note": "% · 일수만. 금액·수량 없음. 일일 칸에는 누적 수익을 두지 않는다(E464 §6).",
     "daily": {
-      "asof_date": "2026-10-15",
+      "asof_date": "2026-10-16",
       "drawdown_pct": -24.7,
-      "days_underwater": 22,
+      "days_underwater": 23,
       "peak_date": "2026-09-09",
       "track_start": "2026-07-31",
-      "track_days": 46,
+      "track_days": 47,
       "limits": {
         "kill_switch": {
           "enabled": true,
@@ -2467,18 +2482,18 @@
           "enabled": true,
           "threshold_pct": -29.6,
           "window_days": 252,
-          "history_days": 45,
+          "history_days": 46,
           "state": "dormant_paper"
         }
       }
     },
     "weekly_fan": {
-      "asof_date": "2026-10-08",
+      "asof_date": "2026-10-16",
       "track_start": "2026-07-31",
-      "asof_day": 45,
-      "actual_pct": -7.36,
-      "zone": "p5-p25",
-      "neutral_p50_pct": 0.91,
+      "asof_day": 50,
+      "actual_pct": -16.92,
+      "zone": "<p5",
+      "neutral_p50_pct": 1.17,
       "note": "주 1회 갱신(완결된 주의 마지막 거래일). 위험 기술이지 판정이 아니다 — 판정은 E112/E464 일정에서만.",
       "actual": [
         {
@@ -2530,6 +2545,11 @@
           "day": 45,
           "pct": -7.36,
           "date": "2026-10-08"
+        },
+        {
+          "day": 50,
+          "pct": -16.92,
+          "date": "2026-10-16"
         }
       ],
       "bands": {
