@@ -5,13 +5,14 @@ name: PC Heartbeat Watch
 # 비밀값은 secrets 로만 쓰고 출력하지 않는다. 데이터 내용은 읽지 않는다(커밋 시각만).
 on:
   schedule:
+    - cron: '20 23 * * 0-4'   # 08:20 KST(월~금) — 08:0x 생존 신호(Heartbeat 커밋 + heartbeat/alive.json) 확인 (R24 ⑤ #4)
     - cron: '50 0 * * 1-5'    # 09:50 KST — 09:30 장중 갱신 확인
     - cron: '20 7 * * 1-5'    # 16:20 KST — 16:00 장중 갱신 확인
     - cron: '40 14 * * 1-5'   # 23:40 KST — 23:10 일일 갱신 확인
   workflow_dispatch:
     inputs:
       check:
-        description: 'morning | close | night | demo'
+        description: 'early | morning | close | night | demo'
         required: true
         default: 'demo'
 
@@ -39,6 +40,7 @@ jobs:
         id: pick
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then c="${{ inputs.check }}"
+          elif [ "${{ github.event.schedule }}" = "20 23 * * 0-4" ]; then c=early
           elif [ "${{ github.event.schedule }}" = "50 0 * * 1-5" ]; then c=morning
           elif [ "${{ github.event.schedule }}" = "20 7 * * 1-5" ]; then c=close
           else c=night; fi
