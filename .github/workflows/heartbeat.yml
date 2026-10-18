@@ -9,10 +9,12 @@ on:
     - cron: '50 0 * * 1-5'    # 09:50 KST — 09:30 장중 갱신 확인
     - cron: '20 7 * * 1-5'    # 16:20 KST — 16:00 장중 갱신 확인
     - cron: '40 14 * * 1-5'   # 23:40 KST — 23:10 일일 갱신 확인
+  push:                      # 텔레그램 경로 시험 전용(R24 · 봇 토큰 교체 확인) - 이 파일을 바꿔 push 하면 tgtest 1회
+    paths: ['.github/heartbeat/tg_test_request.txt']
   workflow_dispatch:
     inputs:
       check:
-        description: 'early | morning | close | night | demo'
+        description: 'early | morning | close | night | demo | tgtest'
         required: true
         default: 'demo'
 
@@ -40,6 +42,7 @@ jobs:
         id: pick
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then c="${{ inputs.check }}"
+          elif [ "${{ github.event_name }}" = "push" ]; then c=tgtest
           elif [ "${{ github.event.schedule }}" = "20 23 * * 0-4" ]; then c=early
           elif [ "${{ github.event.schedule }}" = "50 0 * * 1-5" ]; then c=morning
           elif [ "${{ github.event.schedule }}" = "20 7 * * 1-5" ]; then c=close
@@ -48,6 +51,7 @@ jobs:
 
       - name: Judge
         id: judge
+        if: steps.pick.outputs.check != 'tgtest'
         env:
           PYTHONUTF8: '1'
           HB_OUT: hb_msg.txt
@@ -59,7 +63,7 @@ jobs:
           exit 0
 
       - name: Telegram alert
-        if: steps.judge.outputs.rc != '0'
+        if: steps.pick.outputs.check != 'tgtest' && steps.judge.outputs.rc != '0'
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -74,5 +78,26 @@ jobs:
           echo "telegram http=$code"
 
       - name: Fail on alert (GitHub email)
-        if: steps.judge.outputs.rc != '0'
+        if: steps.pick.outputs.check != 'tgtest' && steps.judge.outputs.rc != '0'
         run: exit 1
+
+      # ── 텔레그램 경로 시험(tgtest) — 경보 판정과 무관 · 값 출력 없음(코드·건수만) ──
+      - name: "tgtest 1/2: secrets present"
+        if: steps.pick.outputs.check == 'tgtest'
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -n "$TG_TOKEN" ] || { echo "TELEGRAM_BOT_TOKEN 비어 있음(이름 확인)"; exit 1; }
+          [ -n "$TG_CHAT" ] || { echo "TELEGRAM_CHAT_ID 비어 있음(이름 확인)"; exit 1; }
+          echo "secrets 2개 존재"
+
+      - name: "tgtest 2/2: send"
+        if: steps.pick.outputs.check == 'tgtest'
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"                  --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=[회전목마 GitHub 경로 알림 테스트] 봇 토큰 교체 확인 (heartbeat tgtest)")
+          echo "telegram http=$code"
+          [ "$code" = "200" ]
