@@ -1,1 +1,1 @@
-tgtest 2026-10-18 #2 (secret 별 진단)
+tgtest 2026-10-18 #3 (Repository secrets 등록 후)
