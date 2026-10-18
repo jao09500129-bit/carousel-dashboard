@@ -82,15 +82,17 @@ jobs:
         run: exit 1
 
       # ── 텔레그램 경로 시험(tgtest) — 경보 판정과 무관 · 값 출력 없음(코드·건수만) ──
-      - name: "tgtest 1/2: secrets present"
+      - name: "tgtest 1a: TELEGRAM_BOT_TOKEN present"
         if: steps.pick.outputs.check == 'tgtest'
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: '[ -n "$TG_TOKEN" ]'
+
+      - name: "tgtest 1b: TELEGRAM_CHAT_ID present"
+        if: always() && steps.pick.outputs.check == 'tgtest'
+        env:
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          [ -n "$TG_TOKEN" ] || { echo "TELEGRAM_BOT_TOKEN 비어 있음(이름 확인)"; exit 1; }
-          [ -n "$TG_CHAT" ] || { echo "TELEGRAM_CHAT_ID 비어 있음(이름 확인)"; exit 1; }
-          echo "secrets 2개 존재"
+        run: '[ -n "$TG_CHAT" ]'
 
       - name: "tgtest 2/2: send"
         if: steps.pick.outputs.check == 'tgtest'
