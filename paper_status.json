@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "updated_at": "2026-10-17T23:10:02+09:00",
+  "date": "2026-10-18",
+  "updated_at": "2026-10-18T23:10:01+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "RANGE_QUIET",
@@ -69,8 +69,8 @@
     "total_return_pct": -16.92,
     "cash_pct": 100.0,
     "holdings": [],
-    "last_updated": "2026-10-17T15:40:03.533765",
-    "since_start_days": 78,
+    "last_updated": "2026-10-18T15:40:03.956715",
+    "since_start_days": 79,
     "annualized": {
       "cagr_pct": -60.72,
       "n_trading_days": 50,
@@ -211,11 +211,11 @@
       "vol_off_pct": 19.33
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
-    "updated_at": "2026-10-17T23:10:05+09:00"
+    "updated_at": "2026-10-18T23:10:03+09:00"
   },
   "m30_shadow": {
     "date": "2026-10-16",
-    "updated_at": "2026-10-17T23:10:06+09:00",
+    "updated_at": "2026-10-18T23:10:04+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 1.0,
@@ -260,7 +260,7 @@
   },
   "m37_shadow": {
     "date": "2026-10-16",
-    "updated_at": "2026-10-17T23:10:09+09:00",
+    "updated_at": "2026-10-18T23:10:07+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 1.0
@@ -1580,6 +1580,13 @@
         "action_short": "⏸ HOLD",
         "return_pct": -16.92,
         "memo": "KIS API 자동 갱신 [자동갱신 10-17 15:40]"
+      },
+      {
+        "date": "2026-10-18",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "return_pct": -16.92,
+        "memo": "KIS API 자동 갱신 [자동갱신 10-18 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1588,7 +1595,7 @@
       "buy_count": 36,
       "sell_count": 33,
       "stop_loss_count": 7,
-      "hold_days": 101,
+      "hold_days": 102,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -2441,7 +2448,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-10-17T23:10:14"
+    "generated_at": "2026-10-18T23:10:12"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
@@ -2451,7 +2458,7 @@
   "_note": "★ 모든 수치는 비율(%)·라벨만. KRW 절대금액·주수·계좌·API key 일체 마스킹됨. 회전목마 paper trading R&D 진행 중.",
   "risk_panel": {
     "version": "r26-1",
-    "asof_date": "2026-10-17",
+    "asof_date": "2026-10-18",
     "note": "% · 일수만. 금액·수량 없음. 일일 칸에는 누적 수익을 두지 않는다(E464 §6).",
     "daily": {
       "asof_date": "2026-10-16",
