@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-18 23:11 KST",
+  "as_of": "2026-10-19 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -19,14 +19,14 @@
       "url": "https://www.hankyung.com/article/202610177445i"
     },
     {
-      "title": "최악의 일주일 나스닥 2.2%…AI 경고등에 유가 급등까지 [뉴욕증시 브리핑]",
+      "title": "연금개미, 국내 반도체 ETF 팔고 미국 대표지수 샀다",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026101775037"
+      "url": "https://www.hankyung.com/article/202610167004i"
     },
     {
-      "title": "\"증시 운명 걸렸다\"…테슬라·한은·중국에 쏠린 눈[다음주 변수 미리보기]",
+      "title": "뉴욕·상하이 증시, 메타·테슬라 등 실적이 증시 향방 좌우",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202610167208i"
+      "url": "https://www.hankyung.com/article/2026101888171"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-10-18T23:10:59.059458+09:00",
+    "collected_at": "2026-10-19T09:30:49.738332+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,9 +107,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,334.74",
-            "chg": "1.00",
-            "chg_pct": "+0.07%"
+            "close": "1,336.00",
+            "chg": "1.26",
+            "chg_pct": "+0.09%"
           },
           {
             "name": "유로",
@@ -121,16 +121,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "844.55",
-            "chg": "0.22",
-            "chg_pct": "+0.03%"
+            "close": "846.27",
+            "chg": "1.72",
+            "chg_pct": "+0.20%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "199.45",
-            "chg": "0.18",
-            "chg_pct": "+0.09%"
+            "close": "199.66",
+            "chg": "0.21",
+            "chg_pct": "+0.11%"
           }
         ]
       },
