@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-19 15:01 KST",
+  "as_of": "2026-10-19 16:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -34,17 +34,17 @@
     "regime": "美 증시 조정 — 위험회피 분위기 (가설)",
     "axes": [
       {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.43% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.43%"
+        "axis": "관찰 대기",
+        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
+        "confidence": "낮음 — 신호 부재",
+        "trigger_metric": "",
+        "trigger_value": ""
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-10-19T15:01:02.227862+09:00",
+    "collected_at": "2026-10-19T16:00:56.256079+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,329.05",
-            "chg": "5.69",
-            "chg_pct": "-0.43%"
+            "close": "1,330.92",
+            "chg": "3.82",
+            "chg_pct": "-0.29%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,492.44",
-            "chg": "7.58",
-            "chg_pct": "-0.51%"
+            "close": "1,493.92",
+            "chg": "6.10",
+            "chg_pct": "-0.41%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "840.62",
-            "chg": "3.93",
-            "chg_pct": "-0.47%"
+            "close": "842.55",
+            "chg": "2.00",
+            "chg_pct": "-0.24%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "198.63",
-            "chg": "0.82",
-            "chg_pct": "-0.41%"
+            "close": "198.84",
+            "chg": "0.61",
+            "chg_pct": "-0.31%"
           }
         ]
       },
