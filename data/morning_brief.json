@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-20 09:31 KST",
+  "as_of": "2026-10-20 10:58 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -19,14 +19,14 @@
       "url": "https://www.hankyung.com/article/202610202032i"
     },
     {
-      "title": "아마존 목표가 350달러…엔비디아도 비중확대 유지 [월가 업&다운]",
+      "title": "트럼프 국방비 5000억달러 증액 흔들…美 방산주 급락",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202610201850i"
+      "url": "https://www.hankyung.com/article/202610202383i"
     },
     {
-      "title": "장중 '2%' 가까이 떨어졌는데…유가 낙폭 줄인 이유[글로벌 머니플로우]",
+      "title": "美 기업들 주식 토큰화에 반발…브로드컴·버라이즌 거부",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026102019615"
+      "url": "https://www.hankyung.com/article/202610202324i"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-10-20T09:30:53.208882+09:00",
+    "collected_at": "2026-10-20T10:58:12.138567+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,328.17",
-            "chg": "3.49",
-            "chg_pct": "-0.26%"
+            "close": "1,328.74",
+            "chg": "2.92",
+            "chg_pct": "-0.22%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,490.19",
-            "chg": "2.90",
-            "chg_pct": "-0.19%"
+            "close": "1,490.83",
+            "chg": "2.26",
+            "chg_pct": "-0.15%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "837.91",
-            "chg": "2.57",
-            "chg_pct": "-0.31%"
+            "close": "837.92",
+            "chg": "2.56",
+            "chg_pct": "-0.30%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "198.50",
-            "chg": "0.51",
-            "chg_pct": "-0.26%"
+            "close": "198.57",
+            "chg": "0.44",
+            "chg_pct": "-0.22%"
           }
         ]
       },
@@ -215,9 +215,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.96",
-            "chg": "0.01",
-            "chg_pct": "+0.34%"
+            "close": "2.94",
+            "chg": "0.02",
+            "chg_pct": "-0.78%"
           }
         ]
       }
