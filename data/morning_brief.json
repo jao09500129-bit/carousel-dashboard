@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-23 09:31 KST",
+  "as_of": "2026-10-23 10:43 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -19,14 +19,14 @@
       "url": "https://www.hankyung.com/article/202610239972i"
     },
     {
-      "title": "\"더 떨어진다\" 하락 베팅 급증…美 반도체 6.7% 급락 [글로벌 머니플로우]",
+      "title": "기술주 떠나 헬스케어로…AI 투자 우려에 자금 이동",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026102399545"
+      "url": "https://www.hankyung.com/article/202610230240i"
     },
     {
-      "title": "모더나·머크 흑색종 백신 3상 재발 위험 42% 감소…X 유출설 사실로 확인되며 약세-[美증시 특징주]",
+      "title": "주식계좌 웃고 장바구니 울었다…트럼프 2기 美 가계경제 명암",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026102399555"
+      "url": "https://www.hankyung.com/article/202610230131i"
     }
   ],
   "today_kr_focus": [],
@@ -39,12 +39,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "미국 10년 yield",
         "trigger_value": "-17.0bp"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.31% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.31%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-10-23T09:30:49.733211+09:00",
+    "collected_at": "2026-10-23T10:43:14.985181+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +114,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,324.87",
-            "chg": "1.59",
-            "chg_pct": "-0.12%"
+            "close": "1,322.39",
+            "chg": "4.07",
+            "chg_pct": "-0.31%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,486.98",
-            "chg": "0.96",
-            "chg_pct": "+0.06%"
+            "close": "1,483.48",
+            "chg": "2.54",
+            "chg_pct": "-0.17%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "848.22",
-            "chg": "4.33",
-            "chg_pct": "+0.51%"
+            "close": "844.14",
+            "chg": "0.25",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "198.41",
-            "chg": "0.22",
-            "chg_pct": "-0.11%"
+            "close": "198.03",
+            "chg": "0.60",
+            "chg_pct": "-0.30%"
           }
         ]
       },
@@ -215,9 +222,9 @@
           {
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
-            "close": "2.92",
-            "chg": "0.00",
-            "chg_pct": "-0.14%"
+            "close": "2.91",
+            "chg": "0.01",
+            "chg_pct": "-0.31%"
           }
         ]
       }
