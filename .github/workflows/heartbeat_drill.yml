@@ -1,0 +1,30 @@
+name: PC Heartbeat Drill
+
+# R28 장애 훈련 — 경보 2경로(텔레그램 + GitHub 실패 메일) 실수신 확인용. 판정 로직과 무관하다.
+# .github/heartbeat/drill_request.txt 를 바꿔 push 하면 1회: 텔레그램 "[훈련]" 1건 + 이 작업을 일부러 실패시켜 실패 메일 1건.
+on:
+  push:
+    paths: ['.github/heartbeat/drill_request.txt']
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  drill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: "drill 1/2: telegram"
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+                 --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=[회전목마 생존 경보 · 훈련] 실제 장애 아님 — 텔레그램 + GitHub 실패 메일 2경로 수신 확인용 (R28)")
+          echo "telegram http=$code"
+          [ "$code" = "200" ]
+      - name: "drill 2/2: fail on purpose (GitHub failure email)"
+        run: |
+          echo "훈련: 일부러 실패 — GitHub 실패 메일이 와야 정상"
+          exit 1
