@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updated_at": "2026-10-26T11:00:06+09:00",
+  "updated_at": "2026-10-26T13:00:04+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "DOWN_STRONG",
@@ -210,11 +210,11 @@
       "vol_off_pct": 19.31
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
-    "updated_at": "2026-10-26T11:00:08+09:00"
+    "updated_at": "2026-10-26T13:00:05+09:00"
   },
   "m30_shadow": {
     "date": "2026-10-23",
-    "updated_at": "2026-10-26T11:00:09+09:00",
+    "updated_at": "2026-10-26T13:00:07+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 1.0,
@@ -259,7 +259,7 @@
   },
   "m37_shadow": {
     "date": "2026-10-23",
-    "updated_at": "2026-10-26T11:00:12+09:00",
+    "updated_at": "2026-10-26T13:00:09+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 1.0
@@ -2599,7 +2599,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-10-26T11:00:17"
+    "generated_at": "2026-10-26T13:00:14"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
@@ -2633,7 +2633,7 @@
         "daily_loss": {
           "enabled": true,
           "threshold_pct": -6.0,
-          "today_pct": 1.25,
+          "today_pct": 0.94,
           "state": "normal"
         },
         "strategy_review": {
