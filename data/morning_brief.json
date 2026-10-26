@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-10-25 23:11 KST",
+  "as_of": "2026-10-26 09:31 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "\"결국 엔비디아가 돈 댄다\"…중간 선거 끝나면 또 전쟁?[월가 백브리핑]",
+  "headline": "물가 뛰어도 금리 동결…미·유럽·일본 중앙은행 신중론",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "\"결국 엔비디아가 돈 댄다\"…중간 선거 끝나면 또 전쟁?[월가 백브리핑]",
+      "title": "물가 뛰어도 금리 동결…미·유럽·일본 중앙은행 신중론",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202610242082i"
+      "url": "https://www.hankyung.com/article/202610264095i"
     },
     {
       "title": "또 헤지펀드 청산이었나…재미없을 FOMC, 흥미로울 빅테크 실적 [김현석의 월스트리트나우]",
@@ -19,14 +19,14 @@
       "url": "https://www.hankyung.com/article/202610242192i"
     },
     {
-      "title": "채권의 귀환...월가 기관들의 투자 전략은[박신영의 월가 아나토미]",
+      "title": "바닷길·하늘길 이어 육로까지 막혔다…이란 경제 '고사 위기'",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202610242220i"
+      "url": "https://www.hankyung.com/article/202610264200i"
     },
     {
-      "title": "[속보] 금값 4000달러 붕괴...중동 전운에 뉴욕증시 일제히 하락",
+      "title": "베일 벗는 '퀀트 제왕'…100억달러대 투자왕국 드러나나",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026102421215"
+      "url": "https://www.hankyung.com/article/202610264117i"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-10-25T23:10:53.913314+09:00",
+    "collected_at": "2026-10-26T09:30:50.377897+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,9 +107,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,323.52",
-            "chg": "2.27",
-            "chg_pct": "-0.17%"
+            "close": "1,323.55",
+            "chg": "0.03",
+            "chg_pct": "+0.00%"
           },
           {
             "name": "유로",
@@ -121,16 +121,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "843.87",
-            "chg": "1.91",
-            "chg_pct": "-0.23%"
+            "close": "842.41",
+            "chg": "1.46",
+            "chg_pct": "-0.17%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
             "close": "198.22",
-            "chg": "0.30",
-            "chg_pct": "-0.15%"
+            "chg": "0.00",
+            "chg_pct": "0.00%"
           }
         ]
       },
