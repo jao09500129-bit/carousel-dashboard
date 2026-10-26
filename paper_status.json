@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-25",
-  "updated_at": "2026-10-25T23:10:02+09:00",
+  "date": "2026-10-26",
+  "updated_at": "2026-10-26T09:30:03+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "DOWN_STRONG",
@@ -68,8 +68,8 @@
         "pnl_pct": -0.4
       }
     ],
-    "last_updated": "2026-10-25T15:40:03.702060",
-    "since_start_days": 86,
+    "last_updated": "2026-10-26T08:10:04.091604",
+    "since_start_days": 87,
     "annualized": {
       "cagr_pct": -58.02,
       "n_trading_days": 55,
@@ -210,11 +210,11 @@
       "vol_off_pct": 19.31
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
-    "updated_at": "2026-10-25T23:10:05+09:00"
+    "updated_at": "2026-10-26T09:30:05+09:00"
   },
   "m30_shadow": {
     "date": "2026-10-23",
-    "updated_at": "2026-10-25T23:10:06+09:00",
+    "updated_at": "2026-10-26T09:30:07+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 1.0,
@@ -259,7 +259,7 @@
   },
   "m37_shadow": {
     "date": "2026-10-23",
-    "updated_at": "2026-10-25T23:10:09+09:00",
+    "updated_at": "2026-10-26T09:30:10+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 1.0
@@ -497,6 +497,10 @@
       },
       {
         "date": "2026-10-23",
+        "total_return_pct": -17.26
+      },
+      {
+        "date": "2026-10-26",
         "total_return_pct": -17.26
       }
     ],
@@ -1655,6 +1659,13 @@
         "action_short": "⏸ HOLD",
         "return_pct": -17.26,
         "memo": "KIS API 자동 갱신 [자동갱신 10-25 15:40]"
+      },
+      {
+        "date": "2026-10-26",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "return_pct": -17.26,
+        "memo": "KIS API 자동 갱신 [자동갱신 10-26 09:10]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1663,7 +1674,7 @@
       "buy_count": 37,
       "sell_count": 33,
       "stop_loss_count": 7,
-      "hold_days": 108,
+      "hold_days": 109,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -1874,6 +1885,10 @@
       },
       {
         "date": "2026-10-23",
+        "drawdown_pct": -25.0
+      },
+      {
+        "date": "2026-10-26",
         "drawdown_pct": -25.0
       }
     ],
@@ -2089,16 +2104,20 @@
           {
             "date": "2026-10-23",
             "pct": -17.26
+          },
+          {
+            "date": "2026-10-26",
+            "pct": -17.26
           }
         ],
         "metrics": {
-          "n_days": 51,
-          "cagr_pct": -60.79,
-          "sharpe": -1.71,
+          "n_days": 52,
+          "cagr_pct": -60.08,
+          "sharpe": -1.69,
           "mdd_pct": -27.04,
-          "calmar": -2.25,
+          "calmar": -2.22,
           "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
-          "note": "51거래일 표본 · 연환산 참고치 · rf=0"
+          "note": "52거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "chained": {
@@ -2555,16 +2574,20 @@
           {
             "date": "2026-10-23",
             "pct": 1.64
+          },
+          {
+            "date": "2026-10-26",
+            "pct": 1.64
           }
         ],
         "metrics": {
-          "n_days": 112,
+          "n_days": 113,
           "cagr_pct": -0.22,
           "sharpe": 0.29,
           "mdd_pct": -36.01,
           "calmar": -0.01,
           "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
-          "note": "112거래일 표본 · 연환산 참고치 · rf=0"
+          "note": "113거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "boundaries": [
@@ -2576,7 +2599,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-10-25T23:10:13"
+    "generated_at": "2026-10-26T09:30:15"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
@@ -2586,7 +2609,7 @@
   "_note": "★ 모든 수치는 비율(%)·라벨만. KRW 절대금액·주수·계좌·API key 일체 마스킹됨. 회전목마 paper trading R&D 진행 중.",
   "risk_panel": {
     "version": "r26-1",
-    "asof_date": "2026-10-25",
+    "asof_date": "2026-10-26",
     "note": "% · 일수만. 금액·수량 없음. 일일 칸에는 누적 수익을 두지 않는다(E464 §6).",
     "daily": {
       "asof_date": "2026-10-23",
@@ -2610,8 +2633,8 @@
         "daily_loss": {
           "enabled": true,
           "threshold_pct": -6.0,
-          "today_pct": null,
-          "state": "no_record"
+          "today_pct": 0.16,
+          "state": "normal"
         },
         "strategy_review": {
           "enabled": true,
