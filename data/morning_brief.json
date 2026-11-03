@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-03 13:02 KST",
+  "as_of": "2026-11-03 15:02 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-03T13:02:17.672277+09:00",
+    "collected_at": "2026-11-03T15:02:13.046956+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,338.92",
-            "chg": "3.77",
-            "chg_pct": "-0.28%"
+            "close": "1,340.36",
+            "chg": "2.33",
+            "chg_pct": "-0.17%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,498.81",
-            "chg": "6.89",
-            "chg_pct": "-0.46%"
+            "close": "1,500.13",
+            "chg": "5.57",
+            "chg_pct": "-0.37%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "848.21",
-            "chg": "3.35",
-            "chg_pct": "-0.39%"
+            "close": "849.44",
+            "chg": "2.12",
+            "chg_pct": "-0.25%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "201.39",
-            "chg": "0.17",
-            "chg_pct": "-0.08%"
+            "close": "201.68",
+            "chg": "0.12",
+            "chg_pct": "+0.06%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.03",
-            "chg": "0.01",
-            "chg_pct": "+0.30%"
+            "close": "4.00",
+            "chg": "0.03",
+            "chg_pct": "-0.82%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.74",
+            "close": "3.73",
             "chg": "0.01",
-            "chg_pct": "+0.24%"
+            "chg_pct": "-0.37%"
           },
           {
             "name": "미국 국채 10년",
