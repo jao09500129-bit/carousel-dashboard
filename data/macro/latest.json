@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-02T23:10:52.256847+09:00",
+  "collected_at": "2026-11-03T09:33:25.503717+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -8,23 +8,23 @@
         {
           "name": "나스닥",
           "symbol": "NASDAQ",
-          "close": "25,437.00",
-          "chg": "747.72",
-          "chg_pct": "-2.86%"
+          "close": "25,164.32",
+          "chg": "272.68",
+          "chg_pct": "-1.07%"
         },
         {
           "name": "다우존스",
           "symbol": "DJIA",
-          "close": "51,770.31",
-          "chg": "572.25",
-          "chg_pct": "-1.09%"
+          "close": "51,983.98",
+          "chg": "213.67",
+          "chg_pct": "+0.41%"
         },
         {
           "name": "S&P 500",
           "symbol": "SP500",
-          "close": "7,580.07",
-          "chg": "140.32",
-          "chg_pct": "-1.82%"
+          "close": "7,541.40",
+          "chg": "38.67",
+          "chg_pct": "-0.51%"
         },
         {
           "name": "NIKKEI 225",
@@ -43,9 +43,9 @@
         {
           "name": "독일",
           "symbol": "DAX",
-          "close": "25,818.21",
-          "chg": "221.47",
-          "chg_pct": "-0.85%"
+          "close": "25,981.09",
+          "chg": "162.88",
+          "chg_pct": "+0.63%"
         },
         {
           "name": "홍콩",
@@ -62,30 +62,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,342.35",
-          "chg": "9.03",
-          "chg_pct": "+0.68%"
+          "close": "1,343.43",
+          "chg": "0.74",
+          "chg_pct": "+0.06%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,505.08",
-          "chg": "17.59",
-          "chg_pct": "+1.18%"
+          "close": "1,504.06",
+          "chg": "1.64",
+          "chg_pct": "-0.11%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "850.60",
-          "chg": "4.26",
-          "chg_pct": "+0.50%"
+          "close": "851.36",
+          "chg": "0.20",
+          "chg_pct": "-0.02%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "201.50",
-          "chg": "1.33",
-          "chg_pct": "+0.66%"
+          "close": "202.12",
+          "chg": "0.56",
+          "chg_pct": "+0.28%"
         }
       ]
     },
@@ -95,9 +95,9 @@
         {
           "name": "두바이유 현물",
           "symbol": "DUBAIF",
-          "close": "118.70",
-          "chg": "4.50",
-          "chg_pct": "+3.94%"
+          "close": "105.30",
+          "chg": "13.40",
+          "chg_pct": "-11.29%"
         },
         {
           "name": "니켈",
@@ -149,23 +149,23 @@
         {
           "name": "미국 국채 10년",
           "symbol": "US10YY",
-          "close": "4.94",
-          "chg": "0.04",
-          "chg_pct": "-0.80%"
+          "close": "4.91",
+          "chg": "0.03",
+          "chg_pct": "-0.61%"
         },
         {
           "name": "미국 국채 2년",
           "symbol": "US2YY",
-          "close": "4.56",
-          "chg": "0.05",
-          "chg_pct": "-1.08%"
+          "close": "4.59",
+          "chg": "0.03",
+          "chg_pct": "+0.66%"
         },
         {
           "name": "미국 국채 30년",
           "symbol": "US30YY",
-          "close": "5.31",
-          "chg": "0.01",
-          "chg_pct": "-0.19%"
+          "close": "5.28",
+          "chg": "0.03",
+          "chg_pct": "-0.56%"
         },
         {
           "name": "일본 국채 10년",
