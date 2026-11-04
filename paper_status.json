@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "updated_at": "2026-11-04T15:01:33+09:00",
+  "updated_at": "2026-11-04T16:00:04+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "DOWN_STRONG",
@@ -58,21 +58,21 @@
     "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-11-03):\n    SP500_ret:  -0.51% (tau ≤ -2.70%)\n    VIX_z252:   +0.94 (tau ≥ +2.00)"
   },
   "portfolio": {
-    "total_return_pct": -0.3,
-    "cash_pct": 39.9,
+    "total_return_pct": 0.22,
+    "cash_pct": 39.7,
     "holdings": [
       {
         "code": "122630",
         "name": "KODEX 레버리지",
-        "weight_pct": 60.08,
-        "pnl_pct": -0.49
+        "weight_pct": 60.28,
+        "pnl_pct": 0.38
       }
     ],
-    "last_updated": "2026-11-04T15:01:27.976269",
+    "last_updated": "2026-11-04T16:00:02.718843",
     "since_start_days": 96,
     "annualized": {
-      "cagr_pct": -1.22,
-      "n_trading_days": 62,
+      "cagr_pct": 0.89,
+      "n_trading_days": 63,
       "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
       "reference_only": false
     }
@@ -210,11 +210,11 @@
       "vol_off_pct": 19.27
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
-    "updated_at": "2026-11-04T15:01:35+09:00"
+    "updated_at": "2026-11-04T16:00:06+09:00"
   },
   "m30_shadow": {
     "date": "2026-11-03",
-    "updated_at": "2026-11-04T15:01:36+09:00",
+    "updated_at": "2026-11-04T16:00:07+09:00",
     "m21": {
       "wl": 2.0,
       "ws": 0.0,
@@ -259,7 +259,7 @@
   },
   "m37_shadow": {
     "date": "2026-11-03",
-    "updated_at": "2026-11-04T15:01:39+09:00",
+    "updated_at": "2026-11-04T16:00:10+09:00",
     "m21": {
       "wl": 2.0,
       "ws": 0.0
@@ -529,7 +529,7 @@
       },
       {
         "date": "2026-11-04",
-        "total_return_pct": -0.3
+        "total_return_pct": 0.22
       }
     ],
     "trade_history": [
@@ -1755,8 +1755,8 @@
         "date": "2026-11-04",
         "track": 2,
         "action_short": "⏸ HOLD",
-        "return_pct": 4.03,
-        "memo": "KIS API 자동 갱신 [자동갱신 11-04 09:10]"
+        "return_pct": 0.22,
+        "memo": "KIS API 자동 갱신 [자동갱신 11-04 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -2008,7 +2008,7 @@
       },
       {
         "date": "2026-11-04",
-        "drawdown_pct": -9.63
+        "drawdown_pct": -9.16
       }
     ],
     "two_curves": {
@@ -2254,15 +2254,15 @@
           },
           {
             "date": "2026-11-04",
-            "pct": 4.03
+            "pct": 0.22
           }
         ],
         "metrics": {
           "n_days": 59,
-          "cagr_pct": 18.38,
-          "sharpe": 0.57,
+          "cagr_pct": 0.94,
+          "sharpe": 0.38,
           "mdd_pct": -31.84,
-          "calmar": 0.58,
+          "calmar": 0.03,
           "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
           "note": "59거래일 표본 · 연환산 참고치 · rf=0"
         }
@@ -2752,15 +2752,15 @@
           },
           {
             "date": "2026-11-04",
-            "pct": 27.79
+            "pct": 23.11
           }
         ],
         "metrics": {
           "n_days": 120,
-          "cagr_pct": 61.4,
-          "sharpe": 0.97,
+          "cagr_pct": 49.24,
+          "sharpe": 0.87,
           "mdd_pct": -40.23,
-          "calmar": 1.53,
+          "calmar": 1.22,
           "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
           "note": "120거래일 표본 · 연환산 참고치 · rf=0"
         }
@@ -2774,7 +2774,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-11-04T15:01:44"
+    "generated_at": "2026-11-04T16:00:15"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
@@ -2808,7 +2808,7 @@
         "daily_loss": {
           "enabled": true,
           "threshold_pct": -6.0,
-          "today_pct": -0.25,
+          "today_pct": 0.06,
           "state": "normal"
         },
         "strategy_review": {
