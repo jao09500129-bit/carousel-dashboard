@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-04 09:33 KST",
+  "as_of": "2026-11-04 11:02 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -34,17 +34,17 @@
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
     "axes": [
       {
-        "axis": "관찰 대기",
-        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-        "confidence": "낮음 — 신호 부재",
-        "trigger_metric": "",
-        "trigger_value": ""
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.41% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.41%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-04T09:33:11.892182+09:00",
+    "collected_at": "2026-11-04T11:02:13.814862+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,344.97",
-            "chg": "1.64",
-            "chg_pct": "+0.12%"
+            "close": "1,337.83",
+            "chg": "5.50",
+            "chg_pct": "-0.41%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,508.79",
-            "chg": "6.01",
-            "chg_pct": "+0.40%"
+            "close": "1,503.66",
+            "chg": "0.88",
+            "chg_pct": "+0.06%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "849.44",
-            "chg": "0.80",
-            "chg_pct": "+0.09%"
+            "close": "848.33",
+            "chg": "0.31",
+            "chg_pct": "-0.04%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "201.62",
-            "chg": "0.47",
-            "chg_pct": "-0.23%"
+            "close": "200.54",
+            "chg": "1.55",
+            "chg_pct": "-0.77%"
           }
         ]
       },
@@ -147,30 +147,30 @@
           {
             "name": "니켈",
             "symbol": "LMENIC",
-            "close": "15,260.00",
-            "chg": "20.00",
-            "chg_pct": "+0.13%"
+            "close": "15,200.00",
+            "chg": "60.00",
+            "chg_pct": "-0.39%"
           },
           {
             "name": "알루미늄 H/G 캐시",
             "symbol": "LMEALC",
-            "close": "3,095.00",
-            "chg": "19.00",
-            "chg_pct": "-0.61%"
+            "close": "3,082.00",
+            "chg": "13.00",
+            "chg_pct": "-0.42%"
           },
           {
             "name": "전기동",
             "symbol": "LMECOC",
-            "close": "14,380.00",
-            "chg": "69.00",
-            "chg_pct": "-0.48%"
+            "close": "14,110.50",
+            "chg": "269.50",
+            "chg_pct": "-1.87%"
           },
           {
             "name": "전기동 3M",
             "symbol": "LMECOF",
-            "close": "14,242.00",
-            "chg": "8.00",
-            "chg_pct": "-0.06%"
+            "close": "14,001.00",
+            "chg": "241.00",
+            "chg_pct": "-1.69%"
           }
         ]
       },
@@ -216,8 +216,8 @@
             "name": "일본 국채 10년",
             "symbol": "JP10YY",
             "close": "2.82",
-            "chg": "0.06",
-            "chg_pct": "-2.05%"
+            "chg": "0.00",
+            "chg_pct": "0.00%"
           }
         ]
       }
