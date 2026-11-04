@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-04 13:02 KST",
+  "as_of": "2026-11-04 15:02 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -34,17 +34,17 @@
     "regime": "혼조 — 명확한 방향성 부족 (가설)",
     "axes": [
       {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.36% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.36%"
+        "axis": "관찰 대기",
+        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
+        "confidence": "낮음 — 신호 부재",
+        "trigger_metric": "",
+        "trigger_value": ""
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-04T13:02:15.710116+09:00",
+    "collected_at": "2026-11-04T15:02:20.744414+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,338.46",
-            "chg": "4.87",
-            "chg_pct": "-0.36%"
+            "close": "1,340.75",
+            "chg": "2.58",
+            "chg_pct": "-0.19%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,505.14",
-            "chg": "2.36",
-            "chg_pct": "+0.16%"
+            "close": "1,506.03",
+            "chg": "3.25",
+            "chg_pct": "+0.22%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "848.92",
-            "chg": "0.28",
-            "chg_pct": "+0.03%"
+            "close": "848.32",
+            "chg": "0.32",
+            "chg_pct": "-0.04%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "200.32",
-            "chg": "1.77",
-            "chg_pct": "-0.88%"
+            "close": "200.67",
+            "chg": "1.42",
+            "chg_pct": "-0.70%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "4.00",
-            "chg": "0.03",
-            "chg_pct": "-0.82%"
+            "close": "3.95",
+            "chg": "0.05",
+            "chg_pct": "-1.35%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.73",
-            "chg": "0.01",
-            "chg_pct": "-0.37%"
+            "close": "3.70",
+            "chg": "0.02",
+            "chg_pct": "-0.62%"
           },
           {
             "name": "미국 국채 10년",
