@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-11-05 11:02 KST",
+  "as_of": "2026-11-05 12:35 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "트럼프 패배 인정에 다우 3% 급등…유가 8% 급락 [뉴욕증시 브리핑]",
+  "headline": "美 중간선거 종료, 기술주 매수해야 하나[박신영의 월가 아나토미]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "트럼프 패배 인정에 다우 3% 급등…유가 8% 급락 [뉴욕증시 브리핑]",
+      "title": "美 중간선거 종료, 기술주 매수해야 하나[박신영의 월가 아나토미]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026110569576"
+      "url": "https://www.hankyung.com/article/202611057770i"
     },
     {
       "title": "\"불확실성 청산\" 반도체만 빼고 폭등…연말 랠리 or 불트랩? [김현석의 월스트리트나우]",
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-05T11:02:18.059372+09:00",
+    "collected_at": "2026-11-05T12:35:41.643536+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,342.55",
-            "chg": "2.49",
-            "chg_pct": "+0.19%"
+            "close": "1,343.82",
+            "chg": "3.76",
+            "chg_pct": "+0.28%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,511.37",
-            "chg": "3.01",
-            "chg_pct": "+0.20%"
+            "close": "1,512.46",
+            "chg": "4.10",
+            "chg_pct": "+0.27%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "849.70",
-            "chg": "4.23",
-            "chg_pct": "+0.50%"
+            "close": "850.42",
+            "chg": "4.95",
+            "chg_pct": "+0.59%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "201.22",
-            "chg": "0.64",
-            "chg_pct": "+0.32%"
+            "close": "201.31",
+            "chg": "0.73",
+            "chg_pct": "+0.36%"
           }
         ]
       },
