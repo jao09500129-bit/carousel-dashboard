@@ -1,50 +1,50 @@
 {
-  "as_of": "2026-11-04 23:11 KST",
+  "as_of": "2026-11-05 09:33 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "기술주 반등에 나스닥 0.83%↑…중간선거 앞두고 혼조 [뉴욕증시 브리핑]",
+  "headline": "트럼프 패배 인정에 다우 3% 급등…유가 8% 급락 [뉴욕증시 브리핑]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "기술주 반등에 나스닥 0.83%↑…중간선거 앞두고 혼조 [뉴욕증시 브리핑]",
+      "title": "트럼프 패배 인정에 다우 3% 급등…유가 8% 급락 [뉴욕증시 브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026110442136"
+      "url": "https://www.hankyung.com/article/2026110569576"
     },
     {
-      "title": "어떤 결과라도 안도 랠리?…'인텔 망령' 떨쳐낸 AMD [김현석의 월스트리트나우]",
+      "title": "\"불확실성 청산\" 반도체만 빼고 폭등…연말 랠리 or 불트랩? [김현석의 월스트리트나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611044338i"
+      "url": "https://www.hankyung.com/article/202611056892i"
     },
     {
-      "title": "국채·달러로 몰리는 피난 자금…금은 왜 외면받나",
+      "title": "테슬라·스페이스X 합병, ‘머스크 제국’ 커지면 내 주식도 오를까",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611044266i"
+      "url": "https://www.hankyung.com/article/202611046776i"
     },
     {
-      "title": "美 중간선거, 폭발적인 투표율…민주당에 '청신호' [이상은의 워싱턴나우]",
+      "title": "선거로 美 신규 데이터센터 41% 멈추나…빅테크 웃고 네오클라우드 울상",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611044123i"
+      "url": "https://www.hankyung.com/article/202611057007i"
     }
   ],
   "today_kr_focus": [],
   "carousel_implications": {
-    "regime": "혼조 — 명확한 방향성 부족 (가설)",
+    "regime": "금리 변동 주도 (-5.0bp) (가설)",
     "axes": [
       {
-        "axis": "관찰 대기",
-        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-        "confidence": "낮음 — 신호 부재",
-        "trigger_metric": "",
-        "trigger_value": ""
+        "axis": "금리 민감 회전축",
+        "view": "미국 10년 yield -5.0bp 하락. 리츠·고배당·장기 그로스 비중에 영향. 회전 진입 시 듀레이션 노출 재점검 필요.",
+        "confidence": "중 — 백테스트 미검증",
+        "trigger_metric": "미국 10년 yield",
+        "trigger_value": "-5.0bp"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-04T23:10:52.007651+09:00",
+    "collected_at": "2026-11-05T09:33:13.053222+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -53,23 +53,23 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "25,372.01",
-            "chg": "207.65",
-            "chg_pct": "+0.83%"
+            "close": "25,736.51",
+            "chg": "364.50",
+            "chg_pct": "+1.44%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "51,786.72",
-            "chg": "197.26",
-            "chg_pct": "-0.38%"
+            "close": "53,356.12",
+            "chg": "1,569.40",
+            "chg_pct": "+3.03%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,568.92",
-            "chg": "27.52",
-            "chg_pct": "+0.36%"
+            "close": "7,688.62",
+            "chg": "119.70",
+            "chg_pct": "+1.58%"
           },
           {
             "name": "NIKKEI 225",
@@ -88,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "25,864.62",
-            "chg": "116.47",
-            "chg_pct": "-0.45%"
+            "close": "26,437.67",
+            "chg": "573.05",
+            "chg_pct": "+2.22%"
           },
           {
             "name": "홍콩",
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,339.80",
-            "chg": "3.53",
-            "chg_pct": "-0.26%"
+            "close": "1,343.23",
+            "chg": "3.17",
+            "chg_pct": "+0.24%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,508.36",
-            "chg": "5.58",
-            "chg_pct": "+0.37%"
+            "close": "1,506.89",
+            "chg": "1.47",
+            "chg_pct": "-0.10%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "845.71",
-            "chg": "2.93",
-            "chg_pct": "-0.35%"
+            "close": "848.54",
+            "chg": "3.07",
+            "chg_pct": "+0.36%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "200.53",
-            "chg": "1.56",
-            "chg_pct": "-0.77%"
+            "close": "201.25",
+            "chg": "0.67",
+            "chg_pct": "+0.33%"
           }
         ]
       },
@@ -140,9 +140,9 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "102.16",
-            "chg": "3.14",
-            "chg_pct": "-2.98%"
+            "close": "100.89",
+            "chg": "1.27",
+            "chg_pct": "-1.24%"
           },
           {
             "name": "니켈",
@@ -180,37 +180,37 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "3.95",
-            "chg": "0.05",
-            "chg_pct": "-1.35%"
+            "close": "3.97",
+            "chg": "0.03",
+            "chg_pct": "-0.82%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.70",
-            "chg": "0.02",
-            "chg_pct": "-0.62%"
+            "close": "3.71",
+            "chg": "0.01",
+            "chg_pct": "-0.32%"
           },
           {
             "name": "미국 국채 10년",
             "symbol": "US10YY",
-            "close": "4.95",
-            "chg": "0.04",
-            "chg_pct": "+0.81%"
+            "close": "4.90",
+            "chg": "0.05",
+            "chg_pct": "-1.01%"
           },
           {
             "name": "미국 국채 2년",
             "symbol": "US2YY",
-            "close": "4.61",
-            "chg": "0.02",
-            "chg_pct": "+0.44%"
+            "close": "4.58",
+            "chg": "0.03",
+            "chg_pct": "-0.65%"
           },
           {
             "name": "미국 국채 30년",
             "symbol": "US30YY",
-            "close": "5.32",
+            "close": "5.28",
             "chg": "0.04",
-            "chg_pct": "+0.76%"
+            "chg_pct": "-0.75%"
           },
           {
             "name": "일본 국채 10년",
