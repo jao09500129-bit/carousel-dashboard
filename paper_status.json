@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updated_at": "2026-11-09T15:01:32+09:00",
+  "updated_at": "2026-11-09T16:00:06+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "DOWN_STRONG",
@@ -61,11 +61,11 @@
     "total_return_pct": -15.04,
     "cash_pct": 100.0,
     "holdings": [],
-    "last_updated": "2026-11-09T15:01:27.315149",
+    "last_updated": "2026-11-09T16:00:03.101999",
     "since_start_days": 101,
     "annualized": {
-      "cagr_pct": -46.83,
-      "n_trading_days": 65,
+      "cagr_pct": -46.32,
+      "n_trading_days": 66,
       "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
       "reference_only": false
     }
@@ -203,12 +203,12 @@
       "vol_off_pct": 19.29
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
-    "updated_at": "2026-11-09T15:01:34+09:00"
+    "updated_at": "2026-11-09T16:00:08+09:00"
   },
   "m30_shadow": null,
   "m37_shadow": {
     "date": "2026-11-06",
-    "updated_at": "2026-11-09T15:01:35+09:00",
+    "updated_at": "2026-11-09T16:00:09+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 0.0
@@ -1752,7 +1752,7 @@
         "track": 2,
         "action_short": "⏸ HOLD",
         "return_pct": -15.04,
-        "memo": "KIS API 자동 갱신 [자동갱신 11-09 09:10]"
+        "memo": "KIS API 자동 갱신 [자동갱신 11-09 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -2806,7 +2806,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-11-09T15:01:41"
+    "generated_at": "2026-11-09T16:00:14"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
