@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-08 23:11 KST",
+  "as_of": "2026-11-09 09:33 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "기술주 운명, 다음 주에 달렸다 ⑴ 코어위브 실적 ⑵ 앤트로픽 IPO [김현석의 월스트리트나우]",
+  "headline": "\"민주당 싹쓸이에 뜬다\"…월가가 점찍은 수혜 종목 [월가 업&다운]",
   "us_market_snapshot": [],
   "themes": [
+    {
+      "title": "\"민주당 싹쓸이에 뜬다\"…월가가 점찍은 수혜 종목 [월가 업&다운]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202611093502i"
+    },
     {
       "title": "기술주 운명, 다음 주에 달렸다 ⑴ 코어위브 실적 ⑵ 앤트로픽 IPO [김현석의 월스트리트나우]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202611071912i"
     },
     {
-      "title": "AI 반등 랠리 시작할까? vs \"데드캣 바운스일 뿐\"[월가 백브리핑]",
+      "title": "\"개미들 공포에 떠는데\"…'돈나무 언니' 캐시 우드가 웃는 이유",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611071857i"
+      "url": "https://www.hankyung.com/article/202611093645H"
     },
     {
-      "title": "'충성파 중의 충성파'만 남긴다.. 트럼프, 와일스 버리고 스티븐 밀러 비서실장에 기용[워싱턴나우+]",
+      "title": "AI주 급락에도 앤트로픽 더 산다…월가 투자사 XN의 베팅",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611071879i"
-    },
-    {
-      "title": "\"트럼프 관세와 한판\" 예고했지만…민주당 가로막는 것은 [워싱턴나우+]",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202611061481i"
+      "url": "https://www.hankyung.com/article/202611093819i"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-08T23:11:11.327805+09:00",
+    "collected_at": "2026-11-09T09:33:09.352191+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,9 +107,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,363.80",
-            "chg": "1.85",
-            "chg_pct": "+0.14%"
+            "close": "1,359.89",
+            "chg": "3.91",
+            "chg_pct": "-0.29%"
           },
           {
             "name": "유로",
@@ -121,16 +121,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "860.49",
-            "chg": "0.17",
-            "chg_pct": "+0.02%"
+            "close": "859.45",
+            "chg": "1.04",
+            "chg_pct": "-0.12%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "204.27",
-            "chg": "0.65",
-            "chg_pct": "+0.32%"
+            "close": "203.68",
+            "chg": "0.59",
+            "chg_pct": "-0.29%"
           }
         ]
       },
