@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "updated_at": "2026-11-08T23:10:05+09:00",
+  "date": "2026-11-09",
+  "updated_at": "2026-11-09T09:32:26+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "DOWN_STRONG",
@@ -61,8 +61,8 @@
     "total_return_pct": -15.04,
     "cash_pct": 100.0,
     "holdings": [],
-    "last_updated": "2026-11-08T15:40:04.787321",
-    "since_start_days": 100,
+    "last_updated": "2026-11-09T09:32:24.149064",
+    "since_start_days": 101,
     "annualized": {
       "cagr_pct": -46.83,
       "n_trading_days": 65,
@@ -203,12 +203,12 @@
       "vol_off_pct": 19.29
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
-    "updated_at": "2026-11-08T23:10:12+09:00"
+    "updated_at": "2026-11-09T09:32:28+09:00"
   },
   "m30_shadow": null,
   "m37_shadow": {
     "date": "2026-11-06",
-    "updated_at": "2026-11-08T23:10:13+09:00",
+    "updated_at": "2026-11-09T09:32:29+09:00",
     "m21": {
       "wl": 0.0,
       "ws": 0.0
@@ -486,6 +486,10 @@
       },
       {
         "date": "2026-11-06",
+        "total_return_pct": -15.04
+      },
+      {
+        "date": "2026-11-09",
         "total_return_pct": -15.04
       }
     ],
@@ -1742,6 +1746,13 @@
         "action_short": "⏸ HOLD",
         "return_pct": -15.04,
         "memo": "KIS API 자동 갱신 [자동갱신 11-08 15:40]"
+      },
+      {
+        "date": "2026-11-09",
+        "track": 2,
+        "action_short": "⏸ HOLD",
+        "return_pct": -15.04,
+        "memo": "KIS API 자동 갱신 [자동갱신 11-09 09:10]"
       }
     ],
     "track_start": "2026-07-31",
@@ -1750,7 +1761,7 @@
       "buy_count": 38,
       "sell_count": 35,
       "stop_loss_count": 8,
-      "hold_days": 119,
+      "hold_days": 120,
       "peak_return_pct": 54.52,
       "peak_date": "2026-06-01 (월)"
     },
@@ -2001,6 +2012,10 @@
       },
       {
         "date": "2026-11-06",
+        "drawdown_pct": -22.99
+      },
+      {
+        "date": "2026-11-09",
         "drawdown_pct": -22.99
       }
     ],
@@ -2256,16 +2271,20 @@
           {
             "date": "2026-11-06",
             "pct": -15.04
+          },
+          {
+            "date": "2026-11-09",
+            "pct": -15.04
           }
         ],
         "metrics": {
-          "n_days": 61,
-          "cagr_pct": -49.0,
+          "n_days": 62,
+          "cagr_pct": -48.44,
           "sharpe": -0.39,
           "mdd_pct": -31.84,
-          "calmar": -1.54,
+          "calmar": -1.52,
           "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
-          "note": "61거래일 표본 · 연환산 참고치 · rf=0"
+          "note": "62거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "chained": {
@@ -2762,16 +2781,20 @@
           {
             "date": "2026-11-06",
             "pct": 4.36
+          },
+          {
+            "date": "2026-11-09",
+            "pct": 4.36
           }
         ],
         "metrics": {
-          "n_days": 122,
-          "cagr_pct": 5.39,
-          "sharpe": 0.43,
+          "n_days": 123,
+          "cagr_pct": 5.35,
+          "sharpe": 0.42,
           "mdd_pct": -40.23,
           "calmar": 0.13,
           "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
-          "note": "122거래일 표본 · 연환산 참고치 · rf=0"
+          "note": "123거래일 표본 · 연환산 참고치 · rf=0"
         }
       },
       "boundaries": [
@@ -2783,7 +2806,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-11-08T23:10:20"
+    "generated_at": "2026-11-09T09:32:35"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
@@ -2793,7 +2816,7 @@
   "_note": "★ 모든 수치는 비율(%)·라벨만. KRW 절대금액·주수·계좌·API key 일체 마스킹됨. 회전목마 paper trading R&D 진행 중.",
   "risk_panel": {
     "version": "r26-1",
-    "asof_date": "2026-11-08",
+    "asof_date": "2026-11-09",
     "note": "% · 일수만. 금액·수량 없음. 일일 칸에는 누적 수익을 두지 않는다(E464 §6).",
     "daily": {
       "asof_date": "2026-11-06",
@@ -2817,8 +2840,8 @@
         "daily_loss": {
           "enabled": true,
           "threshold_pct": -6.0,
-          "today_pct": null,
-          "state": "no_record"
+          "today_pct": 0.0,
+          "state": "normal"
         },
         "strategy_review": {
           "enabled": true,
