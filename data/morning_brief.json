@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-10 15:02 KST",
+  "as_of": "2026-11-10 16:01 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
@@ -24,9 +24,9 @@
       "url": "https://www.hankyung.com/article/202611093480i"
     },
     {
-      "title": "\"개미들 공포에 떠는데\"…'돈나무 언니' 캐시 우드가 웃는 이유",
+      "title": "'외도 인정' 젠슨 황, 美 엔비디아 주주들에게 집단소송 당해",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611093645H"
+      "url": "https://www.hankyung.com/article/2026111066657"
     }
   ],
   "today_kr_focus": [],
@@ -35,16 +35,16 @@
     "axes": [
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.61% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.70% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.61%"
+        "trigger_value": "-0.70%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-10T15:02:24.871599+09:00",
+    "collected_at": "2026-11-10T16:00:55.579925+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,337.83",
-            "chg": "8.23",
-            "chg_pct": "-0.61%"
+            "close": "1,336.69",
+            "chg": "9.37",
+            "chg_pct": "-0.70%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,501.60",
-            "chg": "5.45",
-            "chg_pct": "-0.36%"
+            "close": "1,501.80",
+            "chg": "5.25",
+            "chg_pct": "-0.35%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "846.61",
-            "chg": "4.82",
-            "chg_pct": "-0.57%"
+            "close": "845.92",
+            "chg": "5.51",
+            "chg_pct": "-0.65%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "200.51",
-            "chg": "1.08",
-            "chg_pct": "-0.54%"
+            "close": "200.31",
+            "chg": "1.28",
+            "chg_pct": "-0.63%"
           }
         ]
       },
