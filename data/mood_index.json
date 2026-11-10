@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-11-10T13:02:20.455070+09:00",
+  "computed_at": "2026-11-10T13:42:39.827037+09:00",
   "score": 26,
   "label": "FEAR",
   "label_kr": "불안",
@@ -12,7 +12,7 @@
     "rotation_velocity": 30
   },
   "raw": {
-    "vol_sum": 23.01,
+    "vol_sum": 23.12,
     "n_divergence": 0,
     "n_signals": 0,
     "target_up": 0,
