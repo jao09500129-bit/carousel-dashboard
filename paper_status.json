@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "updated_at": "2026-11-11T15:01:34+09:00",
+  "updated_at": "2026-11-11T16:00:08+09:00",
   "mask_policy": "level_1_safest (코드+이름+%+PnL% only)",
   "m21": {
     "regime": "DOWN_STRONG",
@@ -58,21 +58,21 @@
     "raw_text": "──────────────────────────────────────────────────\n  m26 (병렬 추적용 — 매매 X)\n──────────────────────────────────────────────────\n  Gate: ✓ 정상 (m22 trigger 미발동)\n  → m26 신호 = m21 신호 (동일)\n\n  지표 (lag1, 2026-11-10):\n    SP500_ret:  +2.35% (tau ≤ -2.70%)\n    VIX_z252:   +0.53 (tau ≥ +2.00)"
   },
   "portfolio": {
-    "total_return_pct": -12.68,
+    "total_return_pct": -9.59,
     "cash_pct": 2.4,
     "holdings": [
       {
         "code": "122630",
         "name": "KODEX 레버리지",
-        "weight_pct": 97.56,
-        "pnl_pct": 2.86
+        "weight_pct": 97.64,
+        "pnl_pct": 6.59
       }
     ],
-    "last_updated": "2026-11-11T11:01:30.481693",
+    "last_updated": "2026-11-11T16:00:04.812768",
     "since_start_days": 103,
     "annualized": {
-      "cagr_pct": -39.94,
-      "n_trading_days": 67,
+      "cagr_pct": -31.17,
+      "n_trading_days": 68,
       "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
       "reference_only": false
     }
@@ -218,12 +218,12 @@
       "vol_off_pct": 19.32
     },
     "note": "m28h SHADOW — 실제 매매는 m21 그대로. 추적/평가용. SHADOW 관찰 (미채택 · 의사결정에 쓰지 않음). 채택된 알파 0 — 과거 백테스트 수치는 in-sample·미검증이라 공개하지 않는다(235차).",
-    "updated_at": "2026-11-11T15:01:36+09:00"
+    "updated_at": "2026-11-11T16:00:10+09:00"
   },
   "m30_shadow": null,
   "m37_shadow": {
     "date": "2026-11-10",
-    "updated_at": "2026-11-11T15:01:37+09:00",
+    "updated_at": "2026-11-11T16:00:11+09:00",
     "m21": {
       "wl": 2.0,
       "ws": 0.0
@@ -513,7 +513,7 @@
       },
       {
         "date": "2026-11-11",
-        "total_return_pct": -12.68
+        "total_return_pct": -9.59
       }
     ],
     "trade_history": [
@@ -1788,8 +1788,8 @@
         "date": "2026-11-11",
         "track": 2,
         "action_short": "🟢 BUY",
-        "return_pct": -15.11,
-        "memo": "KIS API 자동 갱신 [자동갱신 11-11 09:10]"
+        "return_pct": -9.59,
+        "memo": "KIS API 자동 갱신 [자동갱신 11-11 15:40]"
       }
     ],
     "track_start": "2026-07-31",
@@ -2061,7 +2061,7 @@
       },
       {
         "date": "2026-11-11",
-        "drawdown_pct": -20.85
+        "drawdown_pct": -18.05
       }
     ],
     "two_curves": {
@@ -2327,15 +2327,15 @@
           },
           {
             "date": "2026-11-11",
-            "pct": -15.11
+            "pct": -9.59
           }
         ],
         "metrics": {
           "n_days": 64,
-          "cagr_pct": -47.53,
-          "sharpe": -0.39,
+          "cagr_pct": -32.76,
+          "sharpe": -0.08,
           "mdd_pct": -31.84,
-          "calmar": -1.49,
+          "calmar": -1.03,
           "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
           "note": "64거래일 표본 · 연환산 참고치 · rf=0"
         }
@@ -2845,15 +2845,15 @@
           },
           {
             "date": "2026-11-11",
-            "pct": 4.28
+            "pct": 11.06
           }
         ],
         "metrics": {
           "n_days": 125,
-          "cagr_pct": 5.1,
-          "sharpe": 0.42,
+          "cagr_pct": 19.33,
+          "sharpe": 0.58,
           "mdd_pct": -40.23,
-          "calmar": 0.13,
+          "calmar": 0.48,
           "method": "(1+누적수익률)^(252/N)-1 · N=거래일 수(주말·휴장일 제외)",
           "note": "125거래일 표본 · 연환산 참고치 · rf=0"
         }
@@ -2867,7 +2867,7 @@
       ],
       "note": "두 곡선은 모집단이 다르다 — 섞어 읽지 마라. 손절 임계는 '현재 트랙' 위에서만 의미가 있다."
     },
-    "generated_at": "2026-11-11T15:01:42"
+    "generated_at": "2026-11-11T16:00:16"
   },
   "evaluation": {
     "month1_review": "2026-08-31",
@@ -2901,7 +2901,7 @@
         "daily_loss": {
           "enabled": true,
           "threshold_pct": -6.0,
-          "today_pct": 6.14,
+          "today_pct": 5.83,
           "state": "normal"
         },
         "strategy_review": {
