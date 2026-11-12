@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-11 23:11 KST",
+  "as_of": "2026-11-12 09:33 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "美 물가 부담에 금리 인상 가능성 커져…나스닥 0.74%↓ [뉴욕증시 브리핑]",
+  "headline": "\"엔비디아 이사회, 젠슨 황 해임 준비\"...주가 시간외 -8% 급락",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "美 물가 부담에 금리 인상 가능성 커져…나스닥 0.74%↓ [뉴욕증시 브리핑]",
+      "title": "\"엔비디아 이사회, 젠슨 황 해임 준비\"...주가 시간외 -8% 급락",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026111189066"
+      "url": "https://www.hankyung.com/article/202611121596i"
+    },
+    {
+      "title": "코어위브 호실적에 AI·반도체주 반등…나스닥 1.6%↑ [뉴욕증시 브리핑]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026111215046"
+    },
+    {
+      "title": "윌러가 누른 빅스텝 발작 버튼…중국이 美 데이터센터 중단시키나[박신영의 개장전 요것만]",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202611118700i"
     },
     {
       "title": "앤트로픽 IPO 몸값 최대 1.4조달러…640억달러 조달 추진",
       "summary": "",
       "url": "https://www.hankyung.com/article/202611119031i"
-    },
-    {
-      "title": "美 대법원, 트럼프 국경장벽 건설 허용…\"국경 안보가 최우선\"",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202611119066i"
-    },
-    {
-      "title": "美 Fed, 4년 만에 '빅스텝' 검토…물가 고착 우려",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202611119077i"
     }
   ],
   "today_kr_focus": [],
@@ -39,19 +39,12 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "미국 10년 yield",
         "trigger_value": "+10.0bp"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.56% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.56%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-11T23:10:53.355239+09:00",
+    "collected_at": "2026-11-12T09:33:13.081204+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -60,23 +53,23 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "25,065.87",
-            "chg": "187.27",
-            "chg_pct": "-0.74%"
+            "close": "25,466.19",
+            "chg": "400.32",
+            "chg_pct": "+1.60%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "52,231.89",
-            "chg": "157.86",
-            "chg_pct": "-0.30%"
+            "close": "52,486.49",
+            "chg": "254.60",
+            "chg_pct": "+0.49%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,520.93",
-            "chg": "29.01",
-            "chg_pct": "-0.38%"
+            "close": "7,619.38",
+            "chg": "98.45",
+            "chg_pct": "+1.31%"
           },
           {
             "name": "NIKKEI 225",
@@ -95,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "26,347.45",
-            "chg": "80.26",
-            "chg_pct": "+0.31%"
+            "close": "26,662.77",
+            "chg": "315.32",
+            "chg_pct": "+1.20%"
           },
           {
             "name": "홍콩",
@@ -114,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,336.35",
-            "chg": "7.58",
-            "chg_pct": "-0.56%"
+            "close": "1,335.47",
+            "chg": "1.81",
+            "chg_pct": "-0.14%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,483.13",
-            "chg": "19.71",
-            "chg_pct": "-1.31%"
+            "close": "1,481.42",
+            "chg": "0.75",
+            "chg_pct": "-0.05%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "839.49",
-            "chg": "7.47",
-            "chg_pct": "-0.88%"
+            "close": "836.15",
+            "chg": "0.85",
+            "chg_pct": "-0.10%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "200.81",
-            "chg": "0.61",
-            "chg_pct": "-0.30%"
+            "close": "200.12",
+            "chg": "0.32",
+            "chg_pct": "-0.16%"
           }
         ]
       },
@@ -147,9 +140,9 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "87.82",
-            "chg": "8.48",
-            "chg_pct": "-8.81%"
+            "close": "89.00",
+            "chg": "1.18",
+            "chg_pct": "+1.34%"
           },
           {
             "name": "니켈",
