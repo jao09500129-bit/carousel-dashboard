@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-13 16:01 KST",
+  "as_of": "2026-11-13 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "젠슨 황, 엔비디아 전격 사임…美 반도체 규제 강화하나[박신영의 개장전 요것만]",
+  "headline": "젠슨 황, 세 번째 불륜 상대도 있었다…\"나는 쓰레기\" 자책 [이상은의 워싱턴나우]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "젠슨 황, 엔비디아 전격 사임…美 반도체 규제 강화하나[박신영의 개장전 요것만]",
+      "title": "젠슨 황, 세 번째 불륜 상대도 있었다…\"나는 쓰레기\" 자책 [이상은의 워싱턴나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611133936i"
+      "url": "https://www.hankyung.com/article/202611135679i"
     },
     {
-      "title": "코어위브 호실적에 AI·반도체주 반등…나스닥 1.6%↑ [뉴욕증시 브리핑]",
+      "title": "\"평생 세금 면제\"…2조원대 가짜 절세에 미국 발칵",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026111215046"
+      "url": "https://www.hankyung.com/article/2026111354787"
     },
     {
-      "title": "윌러가 누른 빅스텝 발작 버튼…중국이 美 데이터센터 중단시키나[박신영의 개장전 요것만]",
+      "title": "엔비디아 폭락에 '줍줍'했는데 …\"당장 빠져나와라\" 강력 경고",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611118700i"
+      "url": "https://www.hankyung.com/article/2026111356787"
     },
     {
-      "title": "앤트로픽 IPO 몸값 최대 1.4조달러…640억달러 조달 추진",
+      "title": "'반도체 수출통제' 목소리 거세진 美의회",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611119031i"
+      "url": "https://www.hankyung.com/article/2026111236691"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-13T16:00:47.885764+09:00",
+    "collected_at": "2026-11-13T23:10:52.247297+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -74,16 +74,16 @@
           {
             "name": "NIKKEI 225",
             "symbol": "NIKKEI",
-            "close": "60,819.36",
-            "chg": "429.23",
-            "chg_pct": "-0.70%"
+            "close": "61,142.35",
+            "chg": "322.99",
+            "chg_pct": "+0.53%"
           },
           {
             "name": "대만",
             "symbol": "WEIGHT",
-            "close": "43,091.87",
-            "chg": "1,165.28",
-            "chg_pct": "-2.63%"
+            "close": "43,675.12",
+            "chg": "583.25",
+            "chg_pct": "+1.35%"
           },
           {
             "name": "독일",
@@ -95,9 +95,9 @@
           {
             "name": "홍콩",
             "symbol": "HANGSE",
-            "close": "24,008.55",
-            "chg": "307.37",
-            "chg_pct": "-1.26%"
+            "close": "23,637.60",
+            "chg": "370.95",
+            "chg_pct": "-1.55%"
           }
         ]
       },
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,335.14",
-            "chg": "1.09",
-            "chg_pct": "+0.08%"
+            "close": "1,336.84",
+            "chg": "2.79",
+            "chg_pct": "+0.21%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,477.73",
-            "chg": "0.91",
-            "chg_pct": "+0.06%"
+            "close": "1,477.30",
+            "chg": "0.48",
+            "chg_pct": "+0.03%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "835.30",
-            "chg": "0.81",
-            "chg_pct": "+0.10%"
+            "close": "835.76",
+            "chg": "1.27",
+            "chg_pct": "+0.15%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "200.07",
-            "chg": "0.08",
-            "chg_pct": "+0.04%"
+            "close": "200.33",
+            "chg": "0.34",
+            "chg_pct": "+0.17%"
           }
         ]
       },
@@ -182,14 +182,14 @@
             "symbol": "KR10Y",
             "close": "4.00",
             "chg": "0.06",
-            "chg_pct": "+1.50%"
+            "chg_pct": "+1.63%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
             "close": "3.76",
             "chg": "0.03",
-            "chg_pct": "+0.72%"
+            "chg_pct": "+0.80%"
           },
           {
             "name": "미국 국채 10년",
