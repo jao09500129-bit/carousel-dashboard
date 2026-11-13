@@ -25,6 +25,15 @@ CHECKS = {
 # (R24 ⑤ #4) early 점검은 'Heartbeat' 로 시작하는 PC 커밋만 인정하고, heartbeat/alive.json 의 상태도 본다.
 #   alive.json = {"ts": ISO(+09:00), "status": "ok"|"halt"|"no-signal"} — 숫자 지표·금액 없음.
 EARLY_PREFIX = "Heartbeat"
+# 예약 시각(KST · heartbeat.yml cron 과 일치). GitHub schedule 은 수 시간 늦게 돌 수 있어(2026-11 실측 7~9h),
+# 실행 시각의 날짜로 판정하면 자정을 넘긴 순간 '다음 날 갱신 없음' 거짓 경보가 난다 → 직전 예약 시각의 날짜로 판정한다.
+SLOTS = {"early": dt.time(8, 20), "morning": dt.time(9, 50), "close": dt.time(16, 20), "night": dt.time(23, 40)}
+
+
+def slot_ref(check: str, now: dt.datetime) -> dt.datetime:
+    """now 이전(포함) 가장 최근의 그 점검 예약 시각. ponytail: 24h 넘게 밀린 실행은 하루 뒤 슬롯으로 본다(드묾)."""
+    d = now.date() if now.time() >= SLOTS[check] else now.date() - dt.timedelta(days=1)
+    return dt.datetime.combine(d, SLOTS[check], KST)
 ALIVE = pathlib.Path(__file__).resolve().parents[2] / "heartbeat" / "alive.json"
 
 
@@ -108,6 +117,15 @@ def demo() -> None:
     assert not judge_early(t(8, 20), hol, [(t(8, 6), "Heartbeat x")],
                            {"ts": "2026-10-13T08:06:00+09:00", "status": "ok"})[0]               # 어제 파일
     assert judge_early(dt.datetime(2026, 10, 9, 8, 20, tzinfo=KST), hol, [], None)[0]             # 휴장
+    # (2026-11 거짓 경보) 16:20 close 가 다음 날 00:59 에, 23:40 night 가 다음 날 06:34 에 돌아도 원래 날짜로 판정
+    late = lambda d, h, m: dt.datetime(2026, 11, d, h, m, tzinfo=KST)
+    pc = [(late(12, 16, 0), "Intraday"), (late(12, 23, 10), "Daily")]
+    assert slot_ref("close", late(13, 0, 59)) == late(12, 16, 20)
+    assert judge("close", slot_ref("close", late(13, 0, 59)), hol, pc)[0]
+    assert judge("night", slot_ref("night", late(13, 6, 34)), hol, pc)[0]
+    assert not judge("night", slot_ref("night", late(13, 6, 34)), hol, pc[:1])[0]              # 진짜 누락은 여전히 경보
+    assert slot_ref("morning", late(12, 16, 45)) == late(12, 9, 50)
+    assert not judge("night", slot_ref("night", late(14, 6, 0)), hol, [])[0]                     # 금요일 밤 점검이 토요일에 돌아도 점검
     print("demo ok")
 
 
@@ -119,7 +137,7 @@ def main() -> int:
     if check not in CHECKS:
         print(f"알 수 없는 점검: {check!r}")
         return 1
-    now = dt.datetime.now(KST)
+    now = slot_ref(check, dt.datetime.now(KST))          # 판정 기준 = 직전 예약 시각(지연 실행 날짜 넘김 방지)
     commits = pc_commit_times(now - dt.timedelta(days=3))
     if check == "early":
         try:
