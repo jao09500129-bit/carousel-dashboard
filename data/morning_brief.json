@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-11-18 11:02 KST",
+  "as_of": "2026-11-18 13:02 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "'손절 황' 외쳤는데 급등…엔비디아가 내놓은 반전의 숫자 [빈난새의 빈틈없이마켓]",
+  "headline": "젠슨 황 \"복귀 원해\" vs 이사회 \"고려 안해\"…엔비디아 실적은 서프라이즈[박신영의 월가 아나토미]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "'손절 황' 외쳤는데 급등…엔비디아가 내놓은 반전의 숫자 [빈난새의 빈틈없이마켓]",
+      "title": "젠슨 황 \"복귀 원해\" vs 이사회 \"고려 안해\"…엔비디아 실적은 서프라이즈[박신영의 월가 아나토미]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611183436i"
+      "url": "https://www.hankyung.com/article/202611184351i"
     },
     {
       "title": "젠슨 황 복귀 의사 밝혔지만…엔비디아, 헤드헌터 통해 후임 물색",
@@ -35,16 +35,16 @@
     "axes": [
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.55% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.47% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "-0.55%"
+        "trigger_value": "-0.47%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-18T11:02:19.899374+09:00",
+    "collected_at": "2026-11-18T13:02:17.426026+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,329.32",
-            "chg": "7.30",
-            "chg_pct": "-0.55%"
+            "close": "1,330.39",
+            "chg": "6.23",
+            "chg_pct": "-0.47%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,461.87",
-            "chg": "6.61",
-            "chg_pct": "-0.45%"
+            "close": "1,461.74",
+            "chg": "6.74",
+            "chg_pct": "-0.46%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "834.11",
-            "chg": "4.37",
-            "chg_pct": "-0.52%"
+            "close": "835.06",
+            "chg": "3.42",
+            "chg_pct": "-0.41%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "199.48",
-            "chg": "1.07",
-            "chg_pct": "-0.53%"
+            "close": "199.57",
+            "chg": "0.98",
+            "chg_pct": "-0.49%"
           }
         ]
       },
