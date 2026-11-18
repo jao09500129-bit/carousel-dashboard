@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-17 23:11 KST",
+  "as_of": "2026-11-18 09:33 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "AI 피하려 가치주 샀는데…펀드 안에도 기술주 가득",
+  "headline": "젠슨 황 복귀 의사 밝혔지만…엔비디아, 헤드헌터 통해 후임 물색",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "AI 피하려 가치주 샀는데…펀드 안에도 기술주 가득",
+      "title": "젠슨 황 복귀 의사 밝혔지만…엔비디아, 헤드헌터 통해 후임 물색",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611168033i"
+      "url": "https://www.hankyung.com/article/2026111833637"
     },
     {
-      "title": "AI 매도세 지속에 일제 하락…나스닥 2.49%↓ [뉴욕증시 브리핑]",
+      "title": "엔비디아 실적 경계감에 일제히 하락…S&P500, 7월 이후 최저 [뉴욕증시 브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026111706616"
+      "url": "https://www.hankyung.com/article/2026111833106"
     },
     {
-      "title": "\"AI로 일자리 잃는 시나리오 조사 중\"…워시 한마디에 '술렁' [Fed 워치]",
+      "title": "앤트로픽 IPO에 기관 뭉칫돈…\"공모가, 밴드 상단 넘을 듯\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611170570i"
+      "url": "https://www.hankyung.com/article/202611183170i"
     },
     {
-      "title": "스타십 15차 성공에 스페이스X 목표가 상향...테슬라도 긍정 평가",
+      "title": "블룸버그 \"월가, 엔비디아 투자 의견 상향\" 전망…'신중론'도 나와",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611160524i"
+      "url": "https://www.hankyung.com/article/202611183263i"
     }
   ],
   "today_kr_focus": [],
@@ -34,17 +34,17 @@
     "regime": "美 증시 조정 — 위험회피 분위기 (가설)",
     "axes": [
       {
-        "axis": "관찰 대기",
-        "view": "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-        "confidence": "낮음 — 신호 부재",
-        "trigger_metric": "",
-        "trigger_value": ""
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.44% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.44%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-17T23:10:49.975795+09:00",
+    "collected_at": "2026-11-18T09:33:17.039294+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -53,23 +53,23 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "24,509.76",
-            "chg": "626.51",
-            "chg_pct": "-2.49%"
+            "close": "24,328.38",
+            "chg": "181.38",
+            "chg_pct": "-0.74%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "51,608.17",
-            "chg": "739.38",
-            "chg_pct": "-1.41%"
+            "close": "50,759.42",
+            "chg": "848.75",
+            "chg_pct": "-1.64%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,416.59",
-            "chg": "145.08",
-            "chg_pct": "-1.92%"
+            "close": "7,340.53",
+            "chg": "76.06",
+            "chg_pct": "-1.03%"
           },
           {
             "name": "NIKKEI 225",
@@ -88,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "26,598.64",
-            "chg": "151.31",
-            "chg_pct": "-0.57%"
+            "close": "26,045.37",
+            "chg": "553.27",
+            "chg_pct": "-2.08%"
           },
           {
             "name": "홍콩",
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,337.30",
-            "chg": "1.87",
-            "chg_pct": "+0.14%"
+            "close": "1,330.68",
+            "chg": "5.94",
+            "chg_pct": "-0.44%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,469.38",
-            "chg": "0.69",
-            "chg_pct": "-0.05%"
+            "close": "1,461.97",
+            "chg": "6.51",
+            "chg_pct": "-0.44%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "839.34",
-            "chg": "2.88",
-            "chg_pct": "+0.34%"
+            "close": "834.26",
+            "chg": "4.22",
+            "chg_pct": "-0.50%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "200.65",
-            "chg": "0.49",
-            "chg_pct": "+0.24%"
+            "close": "199.61",
+            "chg": "0.94",
+            "chg_pct": "-0.47%"
           }
         ]
       },
@@ -140,9 +140,9 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "92.41",
-            "chg": "0.37",
-            "chg_pct": "+0.40%"
+            "close": "88.35",
+            "chg": "4.06",
+            "chg_pct": "-4.39%"
           },
           {
             "name": "니켈",
@@ -194,23 +194,23 @@
           {
             "name": "미국 국채 10년",
             "symbol": "US10YY",
-            "close": "5.12",
-            "chg": "0.03",
-            "chg_pct": "-0.58%"
+            "close": "5.10",
+            "chg": "0.02",
+            "chg_pct": "-0.39%"
           },
           {
             "name": "미국 국채 2년",
             "symbol": "US2YY",
-            "close": "4.83",
-            "chg": "0.05",
-            "chg_pct": "-1.02%"
+            "close": "4.80",
+            "chg": "0.03",
+            "chg_pct": "-0.62%"
           },
           {
             "name": "미국 국채 30년",
             "symbol": "US30YY",
             "close": "5.46",
-            "chg": "0.01",
-            "chg_pct": "-0.18%"
+            "chg": "0.00",
+            "chg_pct": "0.00%"
           },
           {
             "name": "일본 국채 10년",
