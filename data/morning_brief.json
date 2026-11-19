@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-19 13:19 KST",
+  "as_of": "2026-11-19 15:02 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "엔비디아 어닝서프라이즈에도 여전히 불안한 시장[박신영의 개장전 요것만]",
+  "headline": "앤트로픽, 140조원 조달…스페이스X 제치고 역대 최대 IPO",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "엔비디아 어닝서프라이즈에도 여전히 불안한 시장[박신영의 개장전 요것만]",
+      "title": "앤트로픽, 140조원 조달…스페이스X 제치고 역대 최대 IPO",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611195949i"
+      "url": "https://www.hankyung.com/article/202611196515i"
     },
     {
-      "title": "젠슨 황 복귀 의사 밝혔지만…엔비디아, 헤드헌터 통해 후임 물색",
+      "title": "엔비디아 '깜짝 실적'도 소용 없었다…S&P500, 5일 연속 하락 [뉴욕증시 브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026111833637"
+      "url": "https://www.hankyung.com/article/2026111961206"
     },
     {
-      "title": "엔비디아 실적 경계감에 일제히 하락…S&P500, 7월 이후 최저 [뉴욕증시 브리핑]",
+      "title": "트럼프, 3자회담 배경에 \"과거 적대관계였던 중러 가까워져\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026111833106"
+      "url": "https://www.hankyung.com/article/2026111971807"
     },
     {
-      "title": "앤트로픽 IPO에 기관 뭉칫돈…\"공모가, 밴드 상단 넘을 듯\"",
+      "title": "美 금리 인상 전망 힘 실려…'R의 공포' 또 무사히 넘길까 [분석+]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611183170i"
+      "url": "https://www.hankyung.com/article/2026111851266"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-19T13:19:29.366179+09:00",
+    "collected_at": "2026-11-19T15:02:22.120583+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,331.38",
-            "chg": "1.22",
-            "chg_pct": "-0.09%"
+            "close": "1,330.91",
+            "chg": "1.69",
+            "chg_pct": "-0.13%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,459.57",
-            "chg": "2.59",
-            "chg_pct": "-0.18%"
+            "close": "1,459.23",
+            "chg": "2.93",
+            "chg_pct": "-0.20%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "834.64",
-            "chg": "2.06",
-            "chg_pct": "-0.25%"
+            "close": "834.17",
+            "chg": "2.53",
+            "chg_pct": "-0.30%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "199.75",
-            "chg": "0.13",
-            "chg_pct": "-0.07%"
+            "close": "199.60",
+            "chg": "0.28",
+            "chg_pct": "-0.14%"
           }
         ]
       },
@@ -180,16 +180,16 @@
           {
             "name": "국고10년",
             "symbol": "KR10Y",
-            "close": "3.98",
-            "chg": "0.01",
-            "chg_pct": "-0.15%"
+            "close": "3.96",
+            "chg": "0.02",
+            "chg_pct": "-0.48%"
           },
           {
             "name": "국고3년",
             "symbol": "KR3Y",
-            "close": "3.74",
+            "close": "3.73",
             "chg": "0.01",
-            "chg_pct": "-0.19%"
+            "chg_pct": "-0.13%"
           },
           {
             "name": "미국 국채 10년",
