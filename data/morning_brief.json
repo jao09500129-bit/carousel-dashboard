@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-22 23:11 KST",
+  "as_of": "2026-11-23 09:33 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "AI 투자 공포 확산...연말 랠리 가능할까[월가 백브리핑]",
+  "headline": "美증시 급락에도 저가매수 '머뭇'…\"반등 촉매 안 보인다\"",
   "us_market_snapshot": [],
   "themes": [
+    {
+      "title": "美증시 급락에도 저가매수 '머뭇'…\"반등 촉매 안 보인다\"",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/2026112331707"
+    },
     {
       "title": "AI 투자 공포 확산...연말 랠리 가능할까[월가 백브리핑]",
       "summary": "",
       "url": "https://www.hankyung.com/article/202611211106i"
     },
     {
-      "title": "자동차 팔아선 성장 한계…GM, 방산 매출 두 배로 늘린다",
+      "title": "트럼프에 8500억 안겨준 '밈코인' 근황 보니…'역대급 추락'",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611208966i"
+      "url": "https://www.hankyung.com/article/2026112328807"
     },
     {
-      "title": "앤트로픽, 17% 상승했지만 …\"시장 살리기엔 역부족\" [앤트로픽 상장]",
+      "title": "美정보수장 \"우크라 문제선 푸틴은 미국의 친구 아냐\"",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611208779i"
-    },
-    {
-      "title": "앤트로픽, 1.5조달러 상장 직전 안전통제 강화…AI 가속 우려",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/202611208992i"
+      "url": "https://www.hankyung.com/article/2026112329577"
     }
   ],
   "today_kr_focus": [],
@@ -42,16 +42,16 @@
       },
       {
         "axis": "환율 민감 회전축",
-        "view": "USDKRW +0.61% (원화 약세). 수출주(반도체·자동차) 마진 호조 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "view": "USDKRW -0.38% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
         "confidence": "낮음 — 단기 변동성 큼",
         "trigger_metric": "USDKRW",
-        "trigger_value": "+0.61%"
+        "trigger_value": "-0.38%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-22T23:10:57.795111+09:00",
+    "collected_at": "2026-11-23T09:33:05.913691+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -114,9 +114,9 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,346.00",
-            "chg": "8.20",
-            "chg_pct": "+0.61%"
+            "close": "1,340.93",
+            "chg": "5.07",
+            "chg_pct": "-0.38%"
           },
           {
             "name": "유로",
@@ -128,16 +128,16 @@
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "849.19",
-            "chg": "7.07",
-            "chg_pct": "+0.84%"
+            "close": "843.50",
+            "chg": "5.69",
+            "chg_pct": "-0.67%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "201.62",
-            "chg": "0.92",
-            "chg_pct": "+0.46%"
+            "close": "200.72",
+            "chg": "0.90",
+            "chg_pct": "-0.45%"
           }
         ]
       },
