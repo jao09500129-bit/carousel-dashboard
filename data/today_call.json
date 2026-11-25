@@ -1,11 +1,11 @@
 {
-  "computed_at": "2026-11-25T16:00:49.491192+09:00",
-  "action_headline": "회전축 신호 약함 — 기존 포지션 유지·관찰",
+  "computed_at": "2026-11-25T23:11:02.143167+09:00",
+  "action_headline": "반도체 축 가속 + 자동차·수출주 신규 진입 검토",
   "confidence": 1,
   "confidence_pct": 0.0,
   "rationale": [
-    "주요 매크로 지표 모두 임계치 이하. 큰 변동 없음 — 회전축 신호 약함. 기존 포지션 유지·관찰.",
-    "Market Mood 26/100 (FEAR)"
+    "美 메가캡 강세가 한국 반도체와 강하게 동조. 이미 회전 진행 중인 축이라면 회전 속도 늦추고 holding 우위 가능성. 신규 진입은 단기 과",
+    "Market Mood 61/100 (NEUTRAL)"
   ],
   "action": "DIVERGENT",
   "action_kr": "의견 충돌",
