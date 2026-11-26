@@ -1,22 +1,180 @@
 {
-  "collected_at": "2026-11-25T23:11:02.143167+09:00",
+  "collected_at": "2026-11-26T09:33:09.203245+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
       "label": "한경 데이터센터 해외지수",
-      "items": []
+      "items": [
+        {
+          "name": "나스닥",
+          "symbol": "NASDAQ",
+          "close": "23,585.80",
+          "chg": "147.74",
+          "chg_pct": "-0.62%"
+        },
+        {
+          "name": "다우존스",
+          "symbol": "DJIA",
+          "close": "50,182.95",
+          "chg": "164.25",
+          "chg_pct": "+0.33%"
+        },
+        {
+          "name": "S&P 500",
+          "symbol": "SP500",
+          "close": "7,182.78",
+          "chg": "18.31",
+          "chg_pct": "-0.25%"
+        },
+        {
+          "name": "NIKKEI 225",
+          "symbol": "NIKKEI",
+          "close": "57,011.62",
+          "chg": "1,633.01",
+          "chg_pct": "-2.78%"
+        },
+        {
+          "name": "대만",
+          "symbol": "WEIGHT",
+          "close": "38,195.43",
+          "chg": "1,926.92",
+          "chg_pct": "-4.80%"
+        },
+        {
+          "name": "독일",
+          "symbol": "DAX",
+          "close": "24,702.13",
+          "chg": "315.68",
+          "chg_pct": "-1.26%"
+        },
+        {
+          "name": "홍콩",
+          "symbol": "HANGSE",
+          "close": "21,966.01",
+          "chg": "253.64",
+          "chg_pct": "-1.14%"
+        }
+      ]
     },
     "currencies": {
       "label": "한경 데이터센터 외환",
-      "items": []
+      "items": [
+        {
+          "name": "미국",
+          "symbol": "USDKRW",
+          "close": "1,343.31",
+          "chg": "3.77",
+          "chg_pct": "-0.28%"
+        },
+        {
+          "name": "유로",
+          "symbol": "EURKRW",
+          "close": "1,473.70",
+          "chg": "0.01",
+          "chg_pct": "+0.00%"
+        },
+        {
+          "name": "일본",
+          "symbol": "JPYKRW",
+          "close": "844.47",
+          "chg": "1.34",
+          "chg_pct": "-0.16%"
+        },
+        {
+          "name": "중국",
+          "symbol": "CNYKRW",
+          "close": "201.57",
+          "chg": "0.56",
+          "chg_pct": "-0.28%"
+        }
+      ]
     },
     "commodities": {
       "label": "한경 데이터센터 원자재",
-      "items": []
+      "items": [
+        {
+          "name": "두바이유 현물",
+          "symbol": "DUBAIF",
+          "close": "84.19",
+          "chg": "1.59",
+          "chg_pct": "+1.92%"
+        },
+        {
+          "name": "니켈",
+          "symbol": "LMENIC",
+          "close": "15,060.00",
+          "chg": "155.00",
+          "chg_pct": "-1.02%"
+        },
+        {
+          "name": "알루미늄 H/G 캐시",
+          "symbol": "LMEALC",
+          "close": "3,120.50",
+          "chg": "81.00",
+          "chg_pct": "-2.53%"
+        },
+        {
+          "name": "전기동",
+          "symbol": "LMECOC",
+          "close": "12,035.00",
+          "chg": "130.00",
+          "chg_pct": "-1.07%"
+        },
+        {
+          "name": "전기동 3M",
+          "symbol": "LMECOF",
+          "close": "12,055.00",
+          "chg": "115.00",
+          "chg_pct": "-0.94%"
+        }
+      ]
     },
     "rates-bonds": {
       "label": "한경 데이터센터 채권금리",
-      "items": []
+      "items": [
+        {
+          "name": "국고10년",
+          "symbol": "KR10Y",
+          "close": "3.76",
+          "chg": "0.05",
+          "chg_pct": "-1.26%"
+        },
+        {
+          "name": "국고3년",
+          "symbol": "KR3Y",
+          "close": "3.58",
+          "chg": "0.05",
+          "chg_pct": "-1.27%"
+        },
+        {
+          "name": "미국 국채 10년",
+          "symbol": "US10YY",
+          "close": "4.85",
+          "chg": "0.06",
+          "chg_pct": "-1.22%"
+        },
+        {
+          "name": "미국 국채 2년",
+          "symbol": "US2YY",
+          "close": "4.61",
+          "chg": "0.02",
+          "chg_pct": "-0.43%"
+        },
+        {
+          "name": "미국 국채 30년",
+          "symbol": "US30YY",
+          "close": "5.24",
+          "chg": "0.06",
+          "chg_pct": "-1.13%"
+        },
+        {
+          "name": "일본 국채 10년",
+          "symbol": "JP10YY",
+          "close": "2.78",
+          "chg": "0.06",
+          "chg_pct": "-2.01%"
+        }
+      ]
     }
   }
 }
