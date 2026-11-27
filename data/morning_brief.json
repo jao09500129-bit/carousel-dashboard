@@ -1,13 +1,18 @@
 {
-  "as_of": "2026-11-27 14:13 KST",
+  "as_of": "2026-11-27 15:02 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "Fed vs 시장, 누가 먼저 물러서나 [빈난새의 빈틈없이 마켓]",
+  "headline": "마이클 버리도 '롱'으로 돌아섰다…AI 노이즈 걷히면 3개월 내 낙폭 만회할까",
   "us_market_snapshot": [],
   "themes": [
+    {
+      "title": "마이클 버리도 '롱'으로 돌아섰다…AI 노이즈 걷히면 3개월 내 낙폭 만회할까",
+      "summary": "",
+      "url": "https://www.hankyung.com/article/202611274074i"
+    },
     {
       "title": "Fed vs 시장, 누가 먼저 물러서나 [빈난새의 빈틈없이 마켓]",
       "summary": "",
@@ -22,11 +27,6 @@
       "title": "머스크, 엔비디아 본사 찾아 젠슨 황 직접 환영",
       "summary": "",
       "url": "https://www.hankyung.com/article/2026112634597"
-    },
-    {
-      "title": "日 키옥시아, '가성비 낸드'로 HBM 대체 실험",
-      "summary": "",
-      "url": "https://www.hankyung.com/article/2026112633711"
     }
   ],
   "today_kr_focus": [],
@@ -39,12 +39,19 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "미국 10년 yield",
         "trigger_value": "-6.0bp"
+      },
+      {
+        "axis": "환율 민감 회전축",
+        "view": "USDKRW -0.30% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
+        "confidence": "낮음 — 단기 변동성 큼",
+        "trigger_metric": "USDKRW",
+        "trigger_value": "-0.30%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-27T14:13:00.306031+09:00",
+    "collected_at": "2026-11-27T15:02:17.218940+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -107,30 +114,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,340.33",
-            "chg": "3.26",
-            "chg_pct": "-0.24%"
+            "close": "1,339.56",
+            "chg": "4.03",
+            "chg_pct": "-0.30%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,470.64",
-            "chg": "5.02",
-            "chg_pct": "-0.34%"
+            "close": "1,470.73",
+            "chg": "4.93",
+            "chg_pct": "-0.33%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "841.36",
-            "chg": "2.54",
-            "chg_pct": "-0.30%"
+            "close": "840.71",
+            "chg": "3.19",
+            "chg_pct": "-0.38%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "201.10",
-            "chg": "0.50",
-            "chg_pct": "-0.25%"
+            "close": "201.01",
+            "chg": "0.59",
+            "chg_pct": "-0.29%"
           }
         ]
       },
