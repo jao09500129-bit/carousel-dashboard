@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-26T23:10:51.732538+09:00",
+  "collected_at": "2026-11-27T09:33:10.570555+09:00",
   "source": "datacenter.hankyung.com",
   "categories": {
     "major-indices": {
@@ -43,9 +43,9 @@
         {
           "name": "독일",
           "symbol": "DAX",
-          "close": "24,702.13",
-          "chg": "315.68",
-          "chg_pct": "-1.26%"
+          "close": "25,215.52",
+          "chg": "513.39",
+          "chg_pct": "+2.08%"
         },
         {
           "name": "홍콩",
@@ -62,30 +62,30 @@
         {
           "name": "미국",
           "symbol": "USDKRW",
-          "close": "1,343.95",
-          "chg": "3.13",
-          "chg_pct": "-0.23%"
+          "close": "1,342.70",
+          "chg": "0.89",
+          "chg_pct": "-0.07%"
         },
         {
           "name": "유로",
           "symbol": "EURKRW",
-          "close": "1,475.95",
-          "chg": "2.26",
-          "chg_pct": "+0.15%"
+          "close": "1,472.08",
+          "chg": "3.58",
+          "chg_pct": "-0.24%"
         },
         {
           "name": "일본",
           "symbol": "JPYKRW",
-          "close": "844.18",
-          "chg": "1.63",
-          "chg_pct": "-0.19%"
+          "close": "842.68",
+          "chg": "1.22",
+          "chg_pct": "-0.14%"
         },
         {
           "name": "중국",
           "symbol": "CNYKRW",
-          "close": "201.65",
-          "chg": "0.48",
-          "chg_pct": "-0.24%"
+          "close": "201.46",
+          "chg": "0.14",
+          "chg_pct": "-0.07%"
         }
       ]
     },
@@ -95,9 +95,9 @@
         {
           "name": "두바이유 현물",
           "symbol": "DUBAIF",
-          "close": "84.19",
-          "chg": "1.59",
-          "chg_pct": "+1.92%"
+          "close": "87.00",
+          "chg": "2.81",
+          "chg_pct": "+3.34%"
         },
         {
           "name": "니켈",

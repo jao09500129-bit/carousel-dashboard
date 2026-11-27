@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-11-26 23:11 KST",
+  "as_of": "2026-11-27 09:33 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "AI 투자 불안에 극심한 변동장…나스닥 0.6% 하락 [뉴욕증시 브리핑]",
+  "headline": "Fed vs 시장, 누가 먼저 물러서나 [빈난새의 빈틈없이 마켓]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "AI 투자 불안에 극심한 변동장…나스닥 0.6% 하락 [뉴욕증시 브리핑]",
+      "title": "Fed vs 시장, 누가 먼저 물러서나 [빈난새의 빈틈없이 마켓]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026112608776"
+      "url": "https://www.hankyung.com/article/202611273730i"
     },
     {
       "title": "마이클 버리가 살렸다…나스닥 –4.6%에서 -0.6%로 [김현석의 월스트리트나우]",
@@ -19,14 +19,14 @@
       "url": "https://www.hankyung.com/article/202611261053i"
     },
     {
-      "title": "스페이스X·테슬라 합병 초읽기?…4700조 초대형 기업 탄생하나",
+      "title": "머스크, 엔비디아 본사 찾아 젠슨 황 직접 환영",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026112608907"
+      "url": "https://www.hankyung.com/article/2026112634597"
     },
     {
-      "title": "AI 부채·메모리 비용 부담에 기술주 약세…건강보험주는 규제 우려 완화-[美증시 특징주]",
+      "title": "日 키옥시아, '가성비 낸드'로 HBM 대체 실험",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026112608745"
+      "url": "https://www.hankyung.com/article/2026112633711"
     }
   ],
   "today_kr_focus": [],
@@ -44,7 +44,7 @@
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-26T23:10:51.732538+09:00",
+    "collected_at": "2026-11-27T09:33:10.570555+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -88,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "24,702.13",
-            "chg": "315.68",
-            "chg_pct": "-1.26%"
+            "close": "25,215.52",
+            "chg": "513.39",
+            "chg_pct": "+2.08%"
           },
           {
             "name": "홍콩",
@@ -107,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,343.95",
-            "chg": "3.13",
-            "chg_pct": "-0.23%"
+            "close": "1,342.70",
+            "chg": "0.89",
+            "chg_pct": "-0.07%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,475.95",
-            "chg": "2.26",
-            "chg_pct": "+0.15%"
+            "close": "1,472.08",
+            "chg": "3.58",
+            "chg_pct": "-0.24%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "844.18",
-            "chg": "1.63",
-            "chg_pct": "-0.19%"
+            "close": "842.68",
+            "chg": "1.22",
+            "chg_pct": "-0.14%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "201.65",
-            "chg": "0.48",
-            "chg_pct": "-0.24%"
+            "close": "201.46",
+            "chg": "0.14",
+            "chg_pct": "-0.07%"
           }
         ]
       },
@@ -140,9 +140,9 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "84.19",
-            "chg": "1.59",
-            "chg_pct": "+1.92%"
+            "close": "87.00",
+            "chg": "2.81",
+            "chg_pct": "+3.34%"
           },
           {
             "name": "니켈",
