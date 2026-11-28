@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-27 23:11 KST",
+  "as_of": "2026-11-28 23:11 KST",
   "sources": [
     "https://www.hankyung.com/koreamarket/news/all-news",
     "https://www.hankyung.com/globalmarket",
     "https://datacenter.hankyung.com/"
   ],
-  "headline": "마이클 버리도 '롱'으로 돌아섰다…AI 노이즈 걷히면 3개월 내 낙폭 만회할까",
+  "headline": "AI 투자 우려 속 기술주 반등…나스닥 2.3% 상승 [뉴욕증시]",
   "us_market_snapshot": [],
   "themes": [
     {
-      "title": "마이클 버리도 '롱'으로 돌아섰다…AI 노이즈 걷히면 3개월 내 낙폭 만회할까",
+      "title": "AI 투자 우려 속 기술주 반등…나스닥 2.3% 상승 [뉴욕증시]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611274074i"
+      "url": "https://www.hankyung.com/article/2026112857597"
     },
     {
-      "title": "Fed vs 시장, 누가 먼저 물러서나 [빈난새의 빈틈없이 마켓]",
+      "title": "촉매 없었던 반등, 기술주 할인 쇼핑?…진짜 승부는 다음 주 [김현석의 월스트리트나우]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611273730i"
+      "url": "https://www.hankyung.com/article/202611285802i"
     },
     {
-      "title": "마이클 버리가 살렸다…나스닥 –4.6%에서 -0.6%로 [김현석의 월스트리트나우]",
+      "title": "2018년 말보다 더 나쁘다?...안심하기 힘든 월가의 낙관[월가 백브리핑]",
       "summary": "",
-      "url": "https://www.hankyung.com/article/202611261053i"
+      "url": "https://www.hankyung.com/article/202611285731i"
     },
     {
-      "title": "머스크, 엔비디아 본사 찾아 젠슨 황 직접 환영",
+      "title": "젠슨 황 복귀하자마자…'불륜 상대' 둘러싼 새 의혹에 '발칵'",
       "summary": "",
-      "url": "https://www.hankyung.com/article/2026112634597"
+      "url": "https://www.hankyung.com/article/2026112857767"
     }
   ],
   "today_kr_focus": [],
@@ -39,19 +39,12 @@
         "confidence": "중 — 백테스트 미검증",
         "trigger_metric": "미국 10년 yield",
         "trigger_value": "-6.0bp"
-      },
-      {
-        "axis": "환율 민감 회전축",
-        "view": "USDKRW -0.61% (원화 강세). 내수주 / 외국인 수급 우호 가능 — 단 단일 일자 변동은 노이즈 가능, 추세 확인 후 회전 검토.",
-        "confidence": "낮음 — 단기 변동성 큼",
-        "trigger_metric": "USDKRW",
-        "trigger_value": "-0.61%"
       }
     ],
     "note": "★ 모든 함의는 미검증 가설. 백테스트 alpha 확인 전 매매 직접 사용 금지."
   },
   "macro": {
-    "collected_at": "2026-11-27T23:10:51.583388+09:00",
+    "collected_at": "2026-11-28T23:10:52.361616+09:00",
     "source": "datacenter.hankyung.com",
     "categories": {
       "major-indices": {
@@ -60,23 +53,23 @@
           {
             "name": "나스닥",
             "symbol": "NASDAQ",
-            "close": "23,585.80",
-            "chg": "147.74",
-            "chg_pct": "-0.62%"
+            "close": "24,129.50",
+            "chg": "543.70",
+            "chg_pct": "+2.31%"
           },
           {
             "name": "다우존스",
             "symbol": "DJIA",
-            "close": "50,182.95",
-            "chg": "164.25",
-            "chg_pct": "+0.33%"
+            "close": "50,774.94",
+            "chg": "591.99",
+            "chg_pct": "+1.18%"
           },
           {
             "name": "S&P 500",
             "symbol": "SP500",
-            "close": "7,182.78",
-            "chg": "18.31",
-            "chg_pct": "-0.25%"
+            "close": "7,297.49",
+            "chg": "114.71",
+            "chg_pct": "+1.60%"
           },
           {
             "name": "NIKKEI 225",
@@ -95,9 +88,9 @@
           {
             "name": "독일",
             "symbol": "DAX",
-            "close": "25,215.52",
-            "chg": "513.39",
-            "chg_pct": "+2.08%"
+            "close": "25,441.24",
+            "chg": "225.72",
+            "chg_pct": "+0.90%"
           },
           {
             "name": "홍콩",
@@ -114,30 +107,30 @@
           {
             "name": "미국",
             "symbol": "USDKRW",
-            "close": "1,335.36",
-            "chg": "8.23",
-            "chg_pct": "-0.61%"
+            "close": "1,333.38",
+            "chg": "2.40",
+            "chg_pct": "-0.18%"
           },
           {
             "name": "유로",
             "symbol": "EURKRW",
-            "close": "1,462.69",
-            "chg": "12.97",
-            "chg_pct": "-0.88%"
+            "close": "1,458.22",
+            "chg": "4.61",
+            "chg_pct": "-0.32%"
           },
           {
             "name": "일본",
             "symbol": "JPYKRW",
-            "close": "837.01",
-            "chg": "6.89",
-            "chg_pct": "-0.82%"
+            "close": "835.70",
+            "chg": "1.71",
+            "chg_pct": "-0.20%"
           },
           {
             "name": "중국",
             "symbol": "CNYKRW",
-            "close": "200.36",
-            "chg": "1.24",
-            "chg_pct": "-0.62%"
+            "close": "200.07",
+            "chg": "0.35",
+            "chg_pct": "-0.17%"
           }
         ]
       },
@@ -147,37 +140,37 @@
           {
             "name": "두바이유 현물",
             "symbol": "DUBAIF",
-            "close": "87.00",
-            "chg": "2.81",
-            "chg_pct": "+3.34%"
+            "close": "89.00",
+            "chg": "2.00",
+            "chg_pct": "+2.30%"
           },
           {
             "name": "니켈",
             "symbol": "LMENIC",
-            "close": "15,665.00",
-            "chg": "630.00",
-            "chg_pct": "+4.19%"
+            "close": "15,745.00",
+            "chg": "80.00",
+            "chg_pct": "+0.51%"
           },
           {
             "name": "알루미늄 H/G 캐시",
             "symbol": "LMEALC",
-            "close": "2,980.00",
-            "chg": "131.00",
-            "chg_pct": "+4.60%"
+            "close": "2,983.00",
+            "chg": "3.00",
+            "chg_pct": "+0.10%"
           },
           {
             "name": "전기동",
             "symbol": "LMECOC",
-            "close": "11,965.00",
-            "chg": "262.00",
-            "chg_pct": "+2.24%"
+            "close": "12,311.50",
+            "chg": "346.50",
+            "chg_pct": "+2.90%"
           },
           {
             "name": "전기동 3M",
             "symbol": "LMECOF",
-            "close": "11,960.00",
-            "chg": "202.00",
-            "chg_pct": "+1.72%"
+            "close": "12,330.00",
+            "chg": "370.00",
+            "chg_pct": "+3.09%"
           }
         ]
       },
